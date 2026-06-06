@@ -1,0 +1,118 @@
+ON Vote source matrix,,,,,,
+Seat Type,ALP,LNP,GRN,IND,OTH,
+Inner Ring,18%,45%,2%,5%,30%,100%
+Middle Ring,21%,50%,2%,5%,22%,100%
+Outer Metro,21%,50%,2%,5%,22%,100%
+Peri-urban,23%,50%,2%,3%,23%,100%
+Provincial,25%,50%,2%,3%,20%,100%
+Regional,10%,65%,2%,3%,20%,100%
+,,,,,,
+ON-column prior table (pref to ON),Inner Ring,Middle Ring,Outer Metro,Peri-urban,Provincial,Regional
+ALP,0.1,0.15,0.2,0.2,0.15,0.25
+LNP,0.2,0.3,0.35,0.45,0.6,0.6
+GRN,0.05,0.05,0.05,0.1,0.1,0.1
+IND,0.15,0.15,0.15,0.25,0.25,0.25
+OTH,0.3,0.4,0.5,0.55,0.5,0.6
+,,,,,,
+ON-row prior table (pref from ON),,,,,,
+Seat Type,ALP,LNP,GRN,IND,OTH,
+Inner Ring,0.12,0.53,0.05,0.10,0.20,1.00
+Middle Ring,0.12,0.58,0.05,0.06,0.19,1.00
+Outer Metro,0.12,0.58,0.05,0.06,0.19,1.00
+Peri-urban,0.10,0.63,0.03,0.06,0.18,1.00
+Provincial,0.10,0.62,0.03,0.06,0.19,1.00
+Regional,0.10,0.63,0.03,0.05,0.19,1.00
+,,,,,,
+Adjusts preference flows by geography. Positive values increase flow toward that party; negative values reduce it. Applied after ideology but before caps.,,,,,,
+Geography,ALP,LNP,GRN,ON,IND,OTH
+InnerMetro,0.1,-0.1,0.12,-0.12,0.06,0
+OuterMetro,0.04,-0.04,0.02,0.04,0.02,0
+Provincial,-0.03,0.03,-0.05,0.06,0.02,0
+Rural,-0.06,0.06,-0.1,0.1,0.02,0
+,,,,,,
+ON alpha,0.6,,,,,
+,,,,,,
+Core blending/evidence params,,,,,,
+AEC_PRIOR_BLEND,0.7,How much weight to give seat-specific AEC conditional flows vs ideological priors when estimating unknown preference mass.,,,,
+AEC_ANCHOR_WHEN_MISSING,0.4,"Baseline AEC weight applied when alive parties are missing, regardless of coverage",,,,
+AEC_MISMATCH_MAX,0.3,Maximum allowed AEC anchor weight when the AEC row is missing any alive party,,,,
+AEC_BLEND_COV_MIN,0.5,Coverage level where AEC blending begins,,,,
+AEC_BLEND_COV_MAX,0.9,Coverage level where AEC reaches full strength,,,,
+AEC_BLEND_STRENGTH,0.75,Overall multiplier on AEC influence,,,,
+POST_ENTRY_STRENGTH,0.75,Proportion of posterior mass allowed to enter when a party is alive but missing from AEC row,,,,
+POST_ENTRY_FLOOR,0.15,Hard minimum share given to missing alive parties when posterior parsing yields zero,,,,
+MIN_SUPPORT,0.005,Minimum floor applied to all alive parties to prevent zero-probability outcomes and numerical instability.,,,,
+,,,,,,
+Caps/plausibility controls,,,,,,
+MAJOR_PAIR_MAX,0.9,"Maximum share any party can receive in a final two-candidate (2CP) count, unless overridden by strong AEC evidence.",,,,
+THREE_WAY_MAX,0.8,Maximum share any party can receive in a three-candidate (3CP) scenario to prevent implausible dominance.,,,,
+IND_OTH_MAX,0.75,"Tighter cap applied when IND or OTH are involved, preventing unrealistic landslide flows from minor parties.",,,,
+,,,,,,
+Shrinkage/smoothing,,,,,,
+EMPIRICAL_SHRINKAGE_K,10,Controls how strongly small-sample empirical posteriors are shrunk toward the prior.,,,,
+K_DIRICHLET,50,,,,,
+,,,,,,
+ON-specific,,,,,,
+AEC_2CP_ANCHOR_ON,0.15,AEC anchor strength when ON is eliminated in a final ALP–LNP count,,,,
+SIPHON_STRENGTH_ON,0.5,Party-specific siphon aggressiveness,,,,
+SIPHON_DONOR_CAP,0.25,Maximum share a donor party can lose to siphoning,,,,
+SIPHON_ON_INNERMETRO_MULT,,,,,,
+SIPHON_ON_OUTERMETRO_MULT,,,,,,
+SIPHON_ON_PROVINCIAL_MULT,,,,,,
+SIPHON_ON_RURAL_MULT,,,,,,
+,,,,,,
+Geography,,,,,,
+CLASS_SMOOTH_K,50000,,,,,
+,,,,,,
+Optional for later,,,,,,
+PRIMARY_TILT_K,0.2,Strength of primary-vote adjustment when allocating preferences between ALP and LNP (bounded by PRIMARY_TILT_MAX).,,,,
+PRIMARY_TILT_MAX,0.03,Hard limit on how much primary-vote differences can move preference flows in either direction.,,,,
+IND_OTH_WEAK_TILT_K,0.3,Weak adjustment for IND/OTH preferences based on GRN vs ON primaries (used instead of LNP primaries to avoid teal distortions).,,,,
+IND_OTH_WEAK_TILT_MAX,0.02,Maximum size of the weak GRN–ON tilt applied to IND or OTH preference flows.,,,,
+IND_TO_GRN_INNERMETROBUMP,0.06,"Extra boost for IND → GRN preference flows in inner-metro seats, reflecting teal–Green voter overlap.",,,,
+IND_TO_GRN_OTHER_BUMP,0.02,Smaller IND → GRN boost applied outside inner-metro seats.,,,,
+RESERVE_MASS_WHEN_ALIVE_ZERO,0.12,"Forces some preference mass to be allocated by priors when AEC data shows zero flows to still-alive parties, preventing “two-destination collapse”.",,,,
+SMOOTH_LAMBDA,0.1,Weakly blends in the completed (Markov) matrix to smooth sharp edges when AEC data is sparse. Set to 0 to disable smoothing entirely.,,,,
+,,,,,,
+ON_SPECIAL_SCENARIO_PRIORS,,,,,,
+AliveSet,Eliminated,Seat Type,ALP,LNP,ON,
+ALP+ON,LNP,Inner Ring,0.4,,0.6,
+ALP+ON,GRN,Inner Ring,0.91,,0.09,
+ALP+ON,IND,Inner Ring,0.85,,0.15,
+ALP+ON,OTH,Inner Ring,0.7,,0.3,
+ALP+ON,LNP,Outer Metro,0.31,,0.69,
+ALP+ON,GRN,Outer Metro,0.91,,0.09,
+ALP+ON,IND,Outer Metro,0.75,,0.25,
+ALP+ON,OTH,Outer Metro,0.58,,0.42,
+ALP+ON,LNP,Provincial,0.31,,0.69,
+ALP+ON,GRN,Provincial,0.91,,0.09,
+ALP+ON,IND,Provincial,0.75,,0.25,
+ALP+ON,OTH,Provincial,0.58,,0.42,
+ALP+ON,LNP,Peri-urban,0.21,,0.79,
+ALP+ON,GRN,Peri-urban,0.87,,0.13,
+ALP+ON,IND,Peri-urban,0.55,,0.45,
+ALP+ON,OTH,Peri-urban,0.53,,0.47,
+ALP+ON,LNP,Regional,0.21,,0.79,
+ALP+ON,GRN,Regional,0.87,,0.13,
+ALP+ON,IND,Regional,0.55,,0.45,
+ALP+ON,OTH,Regional,0.53,,0.47,
+LNP+ON,ALP,Inner Ring,,0.72,0.28,
+LNP+ON,GRN,Inner Ring,,0.82,0.18,
+LNP+ON,IND,Inner Ring,,0.8,0.2,
+LNP+ON,OTH,Inner Ring,,0.77,0.23,
+LNP+ON,ALP,Outer Metro,,0.75,0.25,
+LNP+ON,GRN,Outer Metro,,0.7,0.3,
+LNP+ON,IND,Outer Metro,,0.65,0.35,
+LNP+ON,OTH,Outer Metro,,0.58,0.42,
+LNP+ON,ALP,Provincial,,0.75,0.25,
+LNP+ON,GRN,Provincial,,0.7,0.3,
+LNP+ON,IND,Provincial,,0.65,0.35,
+LNP+ON,OTH,Provincial,,0.58,0.42,
+LNP+ON,ALP,Peri-urban,,0.64,0.36,
+LNP+ON,GRN,Peri-urban,,0.77,0.23,
+LNP+ON,IND,Peri-urban,,0.5,0.5,
+LNP+ON,OTH,Peri-urban,,0.54,0.46,
+LNP+ON,ALP,Regional,,0.64,0.36,
+LNP+ON,GRN,Regional,,0.77,0.23,
+LNP+ON,IND,Regional,,0.5,0.5,
+LNP+ON,OTH,Regional,,0.54,0.46,
