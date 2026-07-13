@@ -170,8 +170,14 @@ def model_baseline_swing(row, baseline_lookup):
 
 
 def render_result_table(df):
+    styled_df = (
+        df.style
+        .map(party_cell_style, subset=["held_by", "winner", "Result"])
+        .map(placement_cell_style, subset=["2nd", "3rd", "4th", "5th", "6th"])
+    )
+
     st.dataframe(
-        df,
+        styled_df,
         width="stretch",
         hide_index=True,
         column_config={
@@ -482,7 +488,7 @@ primary_df = pd.DataFrame([
 ])
 
 st.dataframe(
-    primary_df,
+    primary_df.style.map(party_cell_style, subset=["Party"]),
     width="stretch",
     hide_index=True,
     column_config={
@@ -527,8 +533,20 @@ summary_df = pd.DataFrame([
     ],
 ])
 
+summary_style = (
+    summary_df.style
+    .map(party_cell_style, subset=["Party"])
+    .map(
+        blackout_cell,
+        subset=pd.IndexSlice[
+            summary_df.index[2:],
+            ["2PP %", "2PP Swing %"]
+        ]
+    )
+)
+
 st.dataframe(
-    summary_df,
+    summary_style,
     width="stretch",
     hide_index=True,
     column_config={
@@ -555,7 +573,7 @@ alternate_2pp_df = pd.DataFrame([
 ])
 
 st.dataframe(
-    alternate_2pp_df,
+    alternate_2pp_df.style.map(party_cell_style, subset=["Party"]),
     width="stretch",
     hide_index=True,
     column_config={
@@ -631,7 +649,9 @@ else:
     }
 
     st.dataframe(
-        detail_display,
+        detail_display.style
+        .map(party_cell_style, subset=["held_by", "winner", "Result"])
+        .map(placement_cell_style, subset=["2nd", "3rd", "4th", "5th", "6th"]),
         width="stretch",
         hide_index=True,
         column_config=seat_detail_column_config,
