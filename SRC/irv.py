@@ -1,5 +1,8 @@
 from SRC.constants import PARTIES
-from SRC.preference_engine import get_preference_weights
+from SRC.preference_engine import (
+    diagnose_preference_weights,
+    get_preference_weights,
+)
 
 
 def district_key(name: str) -> str:
@@ -223,6 +226,66 @@ def trace_irv_for_district(
         round_no += 1
 
     return trace_rows
+
+
+def trace_preference_diagnostics_for_district(
+    district_votes: dict[str, float],
+    matrix: dict,
+    seat_type: str,
+    params: dict,
+    posterior: dict,
+    ideology: dict,
+) -> list[dict]:
+
+    votes = initialise_votes(district_votes)
+
+    alive = [
+        party for party in PARTIES
+        if votes.get(party, 0) > 0
+    ]
+
+    diagnostic_rows = []
+    round_no = 1
+
+    while len(alive) > 2:
+
+        eliminated = min(alive, key=lambda party: votes[party])
+        eliminated_votes = votes[eliminated]
+
+        alive_after = [
+            party for party in alive
+            if party != eliminated
+        ]
+
+        diagnostics = diagnose_preference_weights(
+            eliminated_party=eliminated,
+            alive_parties=alive_after,
+            matrix=matrix,
+            geography_class=seat_type,
+            params=params,
+            posterior=posterior,
+            ideology=ideology,
+        )
+
+        for stage_no, stage in enumerate(diagnostics["stages"], start=1):
+            diagnostic_rows.append({
+                "round": f"Round {round_no}",
+                "stage_no": stage_no,
+                "eliminated": eliminated,
+                "eliminated_vote": eliminated_votes,
+                "alive": ">".join(alive_after),
+                **stage,
+            })
+
+        votes[eliminated] = 0
+
+        for party, share in diagnostics["final_flows"].items():
+            votes[party] += eliminated_votes * share
+
+        alive = alive_after
+        round_no += 1
+
+    return diagnostic_rows
 
 
 def run_irv_all(

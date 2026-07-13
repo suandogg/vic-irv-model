@@ -1,11 +1,11 @@
 import os
+
 import gspread
 import pandas as pd
 from google.oauth2.service_account import Credentials
 
 
-LOWER_SHEET_ID = "1avkQZ0A8tlVI1tR0UakEriNKuq9N7dwRUFJzecb26Ro"
-UPPER_SHEET_ID = "1sewCPOaxNNhewbhfJCCH_Pw2Kp5pUceXHxeYJKIAhJ8"
+SHEET_ID = "1avkQZ0A8tlVI1tR0UakEriNKuq9N7dwRUFJzecb26Ro"
 
 CREDENTIALS_FILE = os.path.join(
     os.path.dirname(__file__),
@@ -18,14 +18,16 @@ DATA_DIR = os.path.join(
     "raw"
 )
 
-LOWER_FILES = {
+FILES = {
+    # Lower house files
     "SEAT HELPER": "SEAT HELPER.csv",
+    "PARAMS": "PARAMS.csv",
+    "SYNTH PREF MATRIX": "SYNTH PREF MATRIX.csv",
     "BASELINE_2CP": "BASELINE_2CP.csv",
     "BASELINE_REGION_SUMMARY": "BASELINE_REGION_SUMMARY.csv",
     "IDEOLOGY": "IDEOLOGY.csv",
-}
 
-UPPER_FILES = {
+    # Upper house files
     "UPPER_REGION_BASELINE": "UPPER_REGION_BASELINE.csv",
     "UPPER_PREF_PARAMS": "UPPER_PREF_PARAMS.csv",
     "UPPER_PARTY_RELATIONSHIPS": "UPPER_PARTY_RELATIONSHIPS.csv",
@@ -34,24 +36,58 @@ UPPER_FILES = {
 }
 
 
-def sync_sheet(gc, sheet_id, files):
-    sh = gc.open_by_key(sheet_id)
+RAW_GRID_TABS = {
+    "PARAMS",
+    "SYNTH PREF MATRIX",
+}
+
+
+def worksheet_to_dataframe(worksheet, tab_name):
+    if tab_name in RAW_GRID_TABS:
+        values = worksheet.get_all_values()
+
+        if not values:
+            return pd.DataFrame()
+
+        return pd.DataFrame(values)
+
+    data = worksheet.get_all_records()
+
+    if not data:
+        return pd.DataFrame()
+
+    return pd.DataFrame(data)
+
+
+def sync_sheet():
+    creds = Credentials.from_service_account_file(
+        CREDENTIALS_FILE,
+        scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"],
+    )
+
+    gc = gspread.authorize(creds)
+    sh = gc.open_by_key(SHEET_ID)
+
+    os.makedirs(DATA_DIR, exist_ok=True)
 
     print(f"\nSyncing from Google Sheet: {sh.title}\n")
+    available_tabs = [worksheet.title for worksheet in sh.worksheets()]
 
-    for tab_name, csv_filename in files.items():
+    for tab_name, csv_filename in FILES.items():
         try:
             worksheet = sh.worksheet(tab_name)
-            data = worksheet.get_all_records()
+            df = worksheet_to_dataframe(worksheet, tab_name)
 
-            if not data:
+            if df.empty:
                 print(f"  ⚠  {tab_name} — sheet is empty, skipping")
                 continue
 
-            df = pd.DataFrame(data)
-
             out_path = os.path.join(DATA_DIR, csv_filename)
-            df.to_csv(out_path, index=False)
+
+            if tab_name in RAW_GRID_TABS:
+                df.to_csv(out_path, index=False, header=False)
+            else:
+                df.to_csv(out_path, index=False)
 
             print(
                 f"  ✓  {tab_name} → data/raw/{csv_filename} "
@@ -60,19 +96,13 @@ def sync_sheet(gc, sheet_id, files):
 
         except gspread.exceptions.WorksheetNotFound:
             print(f"  ✗  {tab_name} — tab not found in sheet, skipping")
+            print(f"     Available tabs: {', '.join(available_tabs)}")
 
         except Exception as e:
             print(f"  ✗  {tab_name} — error: {e}")
 
+    print("\nSync complete. Restart Streamlit to pick up changes.\n")
 
-creds = Credentials.from_service_account_file(
-    CREDENTIALS_FILE,
-    scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"],
-)
 
-gc = gspread.authorize(creds)
-
-sync_sheet(gc, LOWER_SHEET_ID, LOWER_FILES)
-sync_sheet(gc, UPPER_SHEET_ID, UPPER_FILES)
-
-print("\nSync complete. Restart Streamlit to pick up changes.\n")
+if __name__ == "__main__":
+    sync_sheet()
