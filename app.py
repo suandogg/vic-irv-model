@@ -174,7 +174,7 @@ def render_result_table(df):
 
     st.dataframe(
         styled_df,
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
         column_config={
             "Winner 2CP %": st.column_config.NumberColumn(format="%.2f%%"),
@@ -411,7 +411,7 @@ if st.button("Reset scenario inputs"):
 edited_primary_df = st.data_editor(
     primary_input_df,
     key=INPUT_KEY,
-    use_container_width=True,
+    width="stretch",
     hide_index=True,
     disabled=["Party", "party_code", "Swing %"],
     column_config={
@@ -485,7 +485,7 @@ primary_df = pd.DataFrame([
 
 st.dataframe(
     primary_df.style.map(party_cell_style, subset=["Party"]),
-    use_container_width=True,
+    width="stretch",
     hide_index=True,
     column_config={
         "Primary Vote %": st.column_config.NumberColumn(format="%.2f%%"),
@@ -543,7 +543,7 @@ summary_style = (
 
 st.dataframe(
     summary_style,
-    use_container_width=True,
+    width="stretch",
     hide_index=True,
     column_config={
         "2PP %": st.column_config.NumberColumn(format="%.2f%%"),
@@ -570,7 +570,7 @@ alternate_2pp_df = pd.DataFrame([
 
 st.dataframe(
     alternate_2pp_df.style.map(party_cell_style, subset=["Party"]),
-    use_container_width=True,
+    width="stretch",
     hide_index=True,
     column_config={
         "2CP %": st.column_config.NumberColumn(format="%.2f%%"),
@@ -648,7 +648,7 @@ with tab_detail:
         detail_display.style
         .map(party_cell_style, subset=["held_by", "winner", "Result"])
         .map(placement_cell_style, subset=["2nd", "3rd", "4th", "5th", "6th"]),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
         column_config=seat_detail_column_config,
     )
@@ -710,7 +710,7 @@ with tab_detail:
 
     st.dataframe(
         trace_df,
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
         column_config=trace_column_config,
     )
