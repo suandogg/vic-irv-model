@@ -1,4 +1,5 @@
 import sys
+import time
 from pathlib import Path
 
 SRC_DIR = Path(__file__).resolve().parent / "SRC"
@@ -6,6 +7,11 @@ sys.path.append(str(SRC_DIR))
 
 import pandas as pd
 import streamlit as st
+
+try:
+    import resource
+except ImportError:
+    resource = None
 
 from SRC.loaders import load_seat_helper
 from SRC.transform import build_primary_vote_table
@@ -75,6 +81,27 @@ BASELINE_2PP_2022 = {
     "ALP": 55.00,
     "LNP": 45.00,
 }
+
+
+APP_START_TIME = time.perf_counter()
+
+
+def log_checkpoint(label):
+    elapsed = time.perf_counter() - APP_START_TIME
+    memory = ""
+
+    if resource is not None:
+        # Linux reports kilobytes; macOS reports bytes. The Cloud logs are Linux.
+        rss = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss
+        memory = f" rss_kb={rss}"
+
+    print(
+        f"[IRV_CHECKPOINT] {elapsed:.3f}s {label}{memory}",
+        flush=True,
+    )
+
+
+log_checkpoint("app import complete")
 
 
 def party_cell_style(value):
@@ -170,11 +197,15 @@ def model_baseline_swing(row, baseline_lookup):
 
 
 def render_result_table(df):
+    log_checkpoint(f"render_result_table start rows={len(df)} cols={len(df.columns)}")
+
     styled_df = (
         df.style
         .map(party_cell_style, subset=["held_by", "winner", "Result"])
         .map(placement_cell_style, subset=["2nd", "3rd", "4th", "5th", "6th"])
     )
+
+    log_checkpoint("render_result_table styled")
 
     st.dataframe(
         styled_df,
@@ -186,6 +217,8 @@ def render_result_table(df):
             "2CP Swing %": st.column_config.NumberColumn(format="%.2f%%"),
         },
     )
+
+    log_checkpoint("render_result_table complete")
 
 
 def get_baselines_for_view(selected_view, baseline_regions):
@@ -211,13 +244,25 @@ def get_baselines_for_view(selected_view, baseline_regions):
 
 @st.cache_data
 def load_static_inputs():
+    log_checkpoint("load_static_inputs start")
     seat_helper = load_seat_helper()
+    log_checkpoint(f"loaded seat_helper rows={len(seat_helper)}")
     matrices = load_synth_pref_matrices()
+    log_checkpoint(f"loaded matrices count={len(matrices)}")
     params = load_params()
+    log_checkpoint(
+        "loaded params "
+        f"scalars={len(params.get('scalar_params', {}))} "
+        f"specials={len(params.get('on_special_scenario_priors', {}))}"
+    )
     posterior = load_posterior_scenarios()
+    log_checkpoint(f"loaded posterior keys={len(posterior)}")
     ideology = load_ideology_prior()
+    log_checkpoint(f"loaded ideology keys={len(ideology)}")
     baseline_2cp = load_baseline_2cp()
+    log_checkpoint(f"loaded baseline_2cp rows={len(baseline_2cp)}")
     baseline_regions = load_baseline_region_summary()
+    log_checkpoint(f"loaded baseline_regions rows={len(baseline_regions)}")
 
     return (
         seat_helper,
@@ -286,12 +331,15 @@ def apply_statewide_primary_adjustment(
 
 
 def run_model(seat_helper, matrices, params, posterior, ideology, targets):
+    log_checkpoint(f"run_model start targets={targets}")
     adjusted = apply_statewide_primary_adjustment(
         seat_helper,
         targets
     )
+    log_checkpoint("run_model adjusted primaries")
 
     primary_votes = build_primary_vote_table(adjusted)
+    log_checkpoint(f"run_model primary_votes rows={len(primary_votes)}")
 
     results = run_irv_all(
         primary_votes_df=primary_votes,
@@ -300,6 +348,7 @@ def run_model(seat_helper, matrices, params, posterior, ideology, targets):
         posterior=posterior,
         ideology=ideology,
     )
+    log_checkpoint(f"run_model irv complete results={len(results)}")
 
     return pd.DataFrame(results), adjusted
 
