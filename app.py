@@ -719,18 +719,24 @@ with tab_detail:
         column_config=trace_column_config,
     )
 
-    diagnostic_rows = trace_preference_diagnostics_for_district(
-        district_votes=district_votes,
-        matrix=matrix,
-        seat_type=seat_row["seat_type"],
-        params=params,
-        posterior=posterior,
-        ideology=ideology,
+    show_preference_diagnostics = st.checkbox(
+        "Show preference flow diagnostics",
+        value=False,
     )
 
-    diagnostics_df = pd.DataFrame(diagnostic_rows)
+    if show_preference_diagnostics:
+        diagnostic_rows = trace_preference_diagnostics_for_district(
+            district_votes=district_votes,
+            matrix=matrix,
+            seat_type=seat_row["seat_type"],
+            params=params,
+            posterior=posterior,
+            ideology=ideology,
+        )
 
-    if not diagnostics_df.empty:
+        diagnostics_df = pd.DataFrame(diagnostic_rows)
+
+    if show_preference_diagnostics and not diagnostics_df.empty:
         diagnostic_round = st.selectbox(
             "Select elimination round for preference diagnostics",
             diagnostics_df["round"].unique(),
