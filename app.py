@@ -15,7 +15,11 @@ from SRC.posterior_loader import load_posterior_scenarios
 from SRC.ideology_loader import load_ideology_prior
 from SRC.baseline_loader import load_baseline_2cp
 from SRC.baseline_region_loader import load_baseline_region_summary
-from SRC.irv import run_irv_all, trace_irv_for_district
+from SRC.irv import (
+    run_irv_all,
+    trace_irv_for_district,
+    trace_preference_diagnostics_for_district,
+)
 
 
 PARTIES = ["ALP", "LNP", "GRN", "ON", "IND", "OTH"]
@@ -714,3 +718,70 @@ with tab_detail:
         hide_index=True,
         column_config=trace_column_config,
     )
+
+    diagnostic_rows = trace_preference_diagnostics_for_district(
+        district_votes=district_votes,
+        matrix=matrix,
+        seat_type=seat_row["seat_type"],
+        params=params,
+        posterior=posterior,
+        ideology=ideology,
+    )
+
+    diagnostics_df = pd.DataFrame(diagnostic_rows)
+
+    if not diagnostics_df.empty:
+        diagnostic_round = st.selectbox(
+            "Select elimination round for preference diagnostics",
+            diagnostics_df["round"].unique(),
+        )
+
+        round_diagnostics = diagnostics_df[
+            diagnostics_df["round"] == diagnostic_round
+        ].copy()
+
+        for party in PARTIES:
+            round_diagnostics[f"{party} flow %"] = (
+                round_diagnostics[party] * 100
+            ).round(2)
+
+        round_diagnostics["ON change pp"] = (
+            round_diagnostics["ON flow %"].diff().fillna(0)
+        ).round(2)
+
+        diagnostic_columns = [
+            "stage_no",
+            "stage",
+            "basis",
+            "note",
+            "aec_coverage",
+            "aec_anchor_weight",
+            "missing_parties",
+            "ON change pp",
+            *[f"{party} flow %" for party in PARTIES],
+        ]
+
+        diagnostic_columns = [
+            col for col in diagnostic_columns
+            if col in round_diagnostics.columns
+        ]
+
+        diagnostic_column_config = {
+            col: st.column_config.NumberColumn(col, format="%.2f")
+            for col in [
+                "aec_coverage",
+                "aec_anchor_weight",
+                "ON change pp",
+                *[f"{party} flow %" for party in PARTIES],
+            ]
+            if col in round_diagnostics.columns
+        }
+
+        st.subheader(f"{selected_seat} Preference Flow Diagnostics")
+
+        st.dataframe(
+            round_diagnostics[diagnostic_columns],
+            width="stretch",
+            hide_index=True,
+            column_config=diagnostic_column_config,
+        )

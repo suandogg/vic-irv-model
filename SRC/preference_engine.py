@@ -345,7 +345,23 @@ def get_on_special_prior(eliminated_party, alive, seat_type, params):
     return None
 
 
-def get_preference_weights(
+def vector_stage(stage, vec, alive, note="", metadata=None):
+    row = {
+        "stage": stage,
+        "note": note,
+        **{
+            party: vec[PARTIES.index(party)] if party in alive else None
+            for party in PARTIES
+        },
+    }
+
+    for key, value in (metadata or {}).items():
+        row[key] = value
+
+    return row
+
+
+def diagnose_preference_weights(
     eliminated_party,
     alive_parties,
     matrix,
@@ -362,9 +378,27 @@ def get_preference_weights(
     elim = str(eliminated_party).strip().upper()
     alive = set(alive_parties)
     alive_arr = list(alive_parties)
+    stage_rows = []
 
     if elim not in PARTIES or not alive_arr:
-        return vector_to_dict(uniform_alive(alive), alive)
+        out = uniform_alive(alive)
+
+        return {
+            "eliminated_party": elim,
+            "alive_parties": alive_arr,
+            "seat_type": geography_class,
+            "basis": "uniform",
+            "final_vector": out,
+            "final_flows": vector_to_dict(out, alive),
+            "stages": [
+                vector_stage(
+                    "uniform fallback",
+                    out,
+                    alive,
+                    "No valid eliminated party or no continuing parties.",
+                )
+            ],
+        }
 
     raw = matrix.get(elim, {})
     base = [
@@ -388,6 +422,35 @@ def get_preference_weights(
     aec_proj = normalise_alive(base, alive) if aec_usable else None
     coverage = alive_mass / total_row if total_row > 0 else 0
     alive_count = len(alive_arr)
+    missing_parties = [
+        PARTIES[i]
+        for i in missing
+    ]
+
+    stage_rows.append(vector_stage(
+        "raw AEC row",
+        base,
+        alive,
+        "Original preference matrix row before filtering to continuing parties.",
+        {
+            "basis": "matrix",
+            "aec_coverage": coverage,
+            "missing_parties": ", ".join(missing_parties),
+        },
+    ))
+
+    if aec_proj is not None:
+        stage_rows.append(vector_stage(
+            "AEC projected to alive",
+            aec_proj,
+            alive,
+            "Raw AEC row renormalised across continuing parties.",
+            {
+                "basis": "matrix",
+                "aec_coverage": coverage,
+                "missing_parties": ", ".join(missing_parties),
+            },
+        ))
 
     if (
         aec_usable
@@ -395,11 +458,61 @@ def get_preference_weights(
         and coverage >= 0.999
     ):
         out = aec_proj.copy()
+        stage_rows.append(vector_stage(
+            "basis selected",
+            out,
+            alive,
+            "AEC row fully covers all continuing parties, so no fallback source is used.",
+            {"basis": "full AEC row"},
+        ))
+
         out = apply_geo_adjust(out, alive, geography_class, params)
+        stage_rows.append(vector_stage(
+            "geography adjustment",
+            out,
+            alive,
+            "Seat-type adjustment applied to the selected flow.",
+            {"basis": "full AEC row"},
+        ))
+
         out = apply_on_siphon(out, alive, elim, geography_class, scalars)
+        stage_rows.append(vector_stage(
+            "ON siphon",
+            out,
+            alive,
+            "Additional movement toward ON when ON is still alive.",
+            {"basis": "full AEC row"},
+        ))
+
         out = enforce_floor(out, alive, scalars)
+        stage_rows.append(vector_stage(
+            "minimum support floor",
+            out,
+            alive,
+            "Minimum support floor applied to continuing parties.",
+            {"basis": "full AEC row"},
+        ))
+
         out = cap_shares(out, alive, scalars)
-        return vector_to_dict(out, alive)
+        stage_rows.append(vector_stage(
+            "share caps",
+            out,
+            alive,
+            "Final cap applied for two- or three-party counts.",
+            {"basis": "full AEC row"},
+        ))
+
+        return {
+            "eliminated_party": elim,
+            "alive_parties": alive_arr,
+            "seat_type": geography_class,
+            "basis": "full AEC row",
+            "aec_coverage": coverage,
+            "missing_parties": missing_parties,
+            "final_vector": out,
+            "final_flows": vector_to_dict(out, alive),
+            "stages": stage_rows,
+        }
 
     on_special_vec = None
     on_special = get_on_special_prior(
@@ -419,6 +532,13 @@ def get_preference_weights(
         on_special_vec = normalise_alive(on_special_vec, alive)
         on_special_vec = enforce_floor(on_special_vec, alive, scalars)
         on_special_vec = cap_shares(on_special_vec, alive, scalars)
+        stage_rows.append(vector_stage(
+            "ON special prior",
+            on_special_vec,
+            alive,
+            "Special prior for final ALP/ON or LNP/ON-style alive sets.",
+            {"basis": "ON special prior"},
+        ))
 
     ide_vec = None
     ide_obj = ideology.get(elim)
@@ -432,9 +552,15 @@ def get_preference_weights(
 
         ide_vec = normalise_alive(ide_vec, alive)
         ide_vec = apply_geo_adjust(ide_vec, alive, geography_class, params)
-        ide_vec = apply_on_siphon(ide_vec, alive, elim, geography_class, scalars)
         ide_vec = enforce_floor(ide_vec, alive, scalars)
         ide_vec = cap_shares(ide_vec, alive, scalars)
+        stage_rows.append(vector_stage(
+            "ideology prior",
+            ide_vec,
+            alive,
+            "Fallback ideology prior after geography adjustment, floor, and caps.",
+            {"basis": "ideology prior"},
+        ))
 
     post_vec = None
     post_key = f"{elim}|{alive_key(alive_arr)}"
@@ -450,6 +576,17 @@ def get_preference_weights(
         if sum(post_vec) > 0:
             post_vec = normalise_alive(post_vec, alive)
             rel = posterior_reliability(post_obj)
+            stage_rows.append(vector_stage(
+                "posterior scenario",
+                post_vec,
+                alive,
+                "Empirical posterior scenario before reliability blending.",
+                {
+                    "basis": "posterior scenario",
+                    "posterior_key": post_key,
+                    "posterior_reliability": rel,
+                },
+            ))
 
             if ide_vec is not None and rel < 0.75:
                 post_vec = normalise_alive(
@@ -459,34 +596,81 @@ def get_preference_weights(
                     ],
                     alive
                 )
+                stage_rows.append(vector_stage(
+                    "posterior + ideology blend",
+                    post_vec,
+                    alive,
+                    "Posterior blended with ideology because scenario reliability is below 0.75.",
+                    {
+                        "basis": "posterior scenario",
+                        "posterior_key": post_key,
+                        "posterior_reliability": rel,
+                    },
+                ))
 
             post_vec = apply_geo_adjust(post_vec, alive, geography_class, params)
-            post_vec = apply_on_siphon(
+            stage_rows.append(vector_stage(
+                "posterior geography adjustment",
                 post_vec,
                 alive,
-                elim,
-                geography_class,
-                scalars
-            )
+                "Seat-type adjustment applied to posterior path.",
+                {"basis": "posterior scenario"},
+            ))
+
             post_vec = with_posterior_entry(post_vec, post_vec, alive, scalars)
+            stage_rows.append(vector_stage(
+                "posterior entry floor",
+                post_vec,
+                alive,
+                "Adds support for parties present in posterior but absent from the base vector.",
+                {"basis": "posterior scenario"},
+            ))
+
             post_vec = enforce_floor(post_vec, alive, scalars)
             post_vec = cap_shares(post_vec, alive, scalars)
+            stage_rows.append(vector_stage(
+                "posterior floor/caps",
+                post_vec,
+                alive,
+                "Posterior path after minimum support floor and caps.",
+                {"basis": "posterior scenario"},
+            ))
         else:
             post_vec = None
 
     if post_vec is not None:
         out = post_vec
+        basis = "posterior scenario"
     elif on_special_vec is not None:
         out = on_special_vec
+        basis = "ON special prior"
     elif ide_vec is not None:
         out = ide_vec
+        basis = "ideology prior"
     elif aec_usable and aec_proj is not None:
         out = aec_proj
+        basis = "partial AEC row"
     else:
         out = uniform_alive(alive)
+        basis = "uniform fallback"
+
+    stage_rows.append(vector_stage(
+        "basis selected",
+        out,
+        alive,
+        f"Selected {basis} before final blending and transformations.",
+        {"basis": basis},
+    ))
 
     if post_vec is not None:
         out = with_posterior_entry(out, post_vec, alive, scalars)
+        stage_rows.append(vector_stage(
+            "selected posterior entry floor",
+            out,
+            alive,
+            "Posterior entry floor applied again to selected posterior path.",
+            {"basis": basis},
+        ))
 
     if aec_usable and aec_proj is not None:
         weight = resolve_anchor_weight(
@@ -505,10 +689,85 @@ def get_preference_weights(
             ],
             alive
         )
+        stage_rows.append(vector_stage(
+            "AEC anchor blend",
+            out,
+            alive,
+            "Selected basis blended back toward the AEC projection.",
+            {
+                "basis": basis,
+                "aec_anchor_weight": weight,
+                "aec_coverage": coverage,
+                "missing_parties": ", ".join(missing_parties),
+            },
+        ))
 
     out = apply_geo_adjust(out, alive, geography_class, params)
-    out = apply_on_siphon(out, alive, elim, geography_class, scalars)
-    out = enforce_floor(out, alive, scalars)
-    out = cap_shares(out, alive, scalars)
+    stage_rows.append(vector_stage(
+        "final geography adjustment",
+        out,
+        alive,
+        "Final seat-type adjustment.",
+        {"basis": basis},
+    ))
 
-    return vector_to_dict(out, alive)
+    out = apply_on_siphon(out, alive, elim, geography_class, scalars)
+    stage_rows.append(vector_stage(
+        "final ON siphon",
+        out,
+        alive,
+        "ON siphon applied once after selecting and blending the underlying preference basis.",
+        {"basis": basis},
+    ))
+
+    out = enforce_floor(out, alive, scalars)
+    stage_rows.append(vector_stage(
+        "final minimum support floor",
+        out,
+        alive,
+        "Final minimum support floor.",
+        {"basis": basis},
+    ))
+
+    out = cap_shares(out, alive, scalars)
+    stage_rows.append(vector_stage(
+        "final share caps",
+        out,
+        alive,
+        "Final cap applied for two- or three-party counts.",
+        {"basis": basis},
+    ))
+
+    return {
+        "eliminated_party": elim,
+        "alive_parties": alive_arr,
+        "seat_type": geography_class,
+        "basis": basis,
+        "aec_coverage": coverage,
+        "missing_parties": missing_parties,
+        "final_vector": out,
+        "final_flows": vector_to_dict(out, alive),
+        "stages": stage_rows,
+    }
+
+
+def get_preference_weights(
+    eliminated_party,
+    alive_parties,
+    matrix,
+    geography_class,
+    params,
+    posterior=None,
+    ideology=None
+):
+    diagnostics = diagnose_preference_weights(
+        eliminated_party=eliminated_party,
+        alive_parties=alive_parties,
+        matrix=matrix,
+        geography_class=geography_class,
+        params=params,
+        posterior=posterior,
+        ideology=ideology,
+    )
+
+    return diagnostics["final_flows"]
