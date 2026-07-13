@@ -170,14 +170,8 @@ def model_baseline_swing(row, baseline_lookup):
 
 
 def render_result_table(df):
-    styled_df = (
-        df.style
-        .map(party_cell_style, subset=["held_by", "winner", "Result"])
-        .map(placement_cell_style, subset=["2nd", "3rd", "4th", "5th", "6th"])
-    )
-
     st.dataframe(
-        styled_df,
+        df,
         width="stretch",
         hide_index=True,
         column_config={
@@ -488,7 +482,7 @@ primary_df = pd.DataFrame([
 ])
 
 st.dataframe(
-    primary_df.style.map(party_cell_style, subset=["Party"]),
+    primary_df,
     width="stretch",
     hide_index=True,
     column_config={
@@ -533,20 +527,8 @@ summary_df = pd.DataFrame([
     ],
 ])
 
-summary_style = (
-    summary_df.style
-    .map(party_cell_style, subset=["Party"])
-    .map(
-        blackout_cell,
-        subset=pd.IndexSlice[
-            summary_df.index[2:],
-            ["2PP %", "2PP Swing %"]
-        ]
-    )
-)
-
 st.dataframe(
-    summary_style,
+    summary_df,
     width="stretch",
     hide_index=True,
     column_config={
@@ -573,7 +555,7 @@ alternate_2pp_df = pd.DataFrame([
 ])
 
 st.dataframe(
-    alternate_2pp_df.style.map(party_cell_style, subset=["Party"]),
+    alternate_2pp_df,
     width="stretch",
     hide_index=True,
     column_config={
@@ -582,13 +564,14 @@ st.dataframe(
 )
 
 
-tab_summary, tab_detail = st.tabs([
-    "Summary",
-    "Seat Detail",
-])
+results_view = st.radio(
+    "Results view",
+    ["Summary", "Seat Detail"],
+    horizontal=True,
+)
 
 
-with tab_summary:
+if results_view == "Summary":
 
     st.subheader(f"{view_title} District Results")
 
@@ -610,8 +593,7 @@ with tab_summary:
 
     render_result_table(changes_df)
 
-
-with tab_detail:
+else:
 
     st.subheader("Seat Detail Explorer")
 
@@ -649,9 +631,7 @@ with tab_detail:
     }
 
     st.dataframe(
-        detail_display.style
-        .map(party_cell_style, subset=["held_by", "winner", "Result"])
-        .map(placement_cell_style, subset=["2nd", "3rd", "4th", "5th", "6th"]),
+        detail_display,
         width="stretch",
         hide_index=True,
         column_config=seat_detail_column_config,
