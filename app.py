@@ -444,49 +444,32 @@ primary_baseline, two_pp_baseline = get_baselines_for_view(
 
 st.subheader("Statewide Scenario Inputs")
 
-primary_input_df = pd.DataFrame([
-    {
-        "Party": PARTY_LABELS[party],
-        "party_code": party,
-        "Primary Vote %": DEFAULT_STATEWIDE[party],
-        "Swing %": round(DEFAULT_STATEWIDE[party] - BASELINE_2022[party], 2),
-    }
-    for party in PARTIES
-])
+log_checkpoint("scenario inputs start")
 
-INPUT_KEY = "statewide_primary_inputs_v1002"
+INPUT_KEY_PREFIX = "statewide_primary_input_v1003"
 
 if st.button("Reset scenario inputs"):
-    if INPUT_KEY in st.session_state:
-        del st.session_state[INPUT_KEY]
+    for party in PARTIES:
+        st.session_state[f"{INPUT_KEY_PREFIX}_{party}"] = DEFAULT_STATEWIDE[party]
     st.rerun()
 
-edited_primary_df = st.data_editor(
-    primary_input_df,
-    key=INPUT_KEY,
-    width="stretch",
-    hide_index=True,
-    disabled=["Party", "party_code", "Swing %"],
-    column_config={
-        "party_code": None,
-        "Primary Vote %": st.column_config.NumberColumn(
-            "Primary Vote %",
+input_columns = st.columns(len(PARTIES))
+
+targets = {}
+
+for column, party in zip(input_columns, PARTIES):
+    with column:
+        targets[party] = st.number_input(
+            party,
             min_value=0.0,
             max_value=100.0,
+            value=DEFAULT_STATEWIDE[party],
             step=0.01,
-            format="%.2f%%",
-        ),
-        "Swing %": st.column_config.NumberColumn(
-            "Swing %",
-            format="%.2f%%",
-        ),
-    },
-)
+            format="%.2f",
+            key=f"{INPUT_KEY_PREFIX}_{party}",
+        )
 
-targets = {
-    row["party_code"]: float(row["Primary Vote %"])
-    for _, row in edited_primary_df.iterrows()
-}
+log_checkpoint(f"scenario inputs complete targets={targets}")
 
 total_primary = sum(targets.values())
 
