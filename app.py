@@ -442,12 +442,25 @@ baseline_lookup = baseline_2cp.set_index("district")
 
 if sync_status.get("synced", 0) > 0:
     st.sidebar.caption(sync_status.get("message", "Google Sheet inputs synced"))
+    st.success(
+        "Google Sheets connected — "
+        f"{sync_status.get('message', 'inputs synced')} at "
+        f"{sync_status.get('synced_at', 'app startup')}."
+    )
 elif sync_status.get("message"):
     st.sidebar.caption(f"Using committed CSV inputs ({sync_status['message']}).")
+    st.warning(
+        "Google Sheets did not sync. "
+        f"Using committed CSV inputs: {sync_status['message']}."
+    )
 if sync_status.get("errors"):
     st.sidebar.warning(
         "Some Google Sheet tabs could not be synced; using available CSV inputs."
     )
+
+if st.button("Sync Google Sheets now"):
+    load_static_inputs.clear()
+    st.rerun()
 
 selected_view = st.selectbox(
     "Select region",

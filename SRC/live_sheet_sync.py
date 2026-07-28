@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Mapping
 
@@ -175,4 +176,7 @@ def sync_inputs_from_google_sheet(
         "skipped": skipped,
         "errors": errors,
         "message": f"Synced {synced} Google Sheet tabs",
+        "synced_at": datetime.now(timezone.utc).strftime(
+            "%Y-%m-%d %H:%M:%S UTC"
+        ),
     }
