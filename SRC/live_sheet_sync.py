@@ -119,7 +119,17 @@ def sync_inputs_from_google_sheet(
     secrets: Mapping[str, Any] | None = None,
     only_tabs: set[str] | None = None,
 ) -> dict[str, Any]:
-    credentials = resolve_credentials(secrets)
+    try:
+        credentials = resolve_credentials(secrets)
+    except Exception as exc:
+        return {
+            "ok": False,
+            "synced": 0,
+            "skipped": [],
+            "errors": [str(exc)],
+            "message": f"Invalid Google service-account credentials: {exc}",
+        }
+
     if credentials is None:
         return {
             "ok": False,
