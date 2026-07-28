@@ -21,6 +21,7 @@ from SRC.posterior_loader import load_posterior_scenarios
 from SRC.ideology_loader import load_ideology_prior
 from SRC.baseline_loader import load_baseline_2cp
 from SRC.baseline_region_loader import load_baseline_region_summary
+from SRC.live_sheet_sync import sync_inputs_from_google_sheet
 from SRC.irv import (
     run_irv_all,
     trace_irv_for_district,
@@ -242,9 +243,15 @@ def get_baselines_for_view(selected_view, baseline_regions):
     return primary_baseline, two_pp_baseline
 
 
-@st.cache_data
+@st.cache_data(show_spinner="Syncing Google Sheet inputs and loading model data...")
 def load_static_inputs():
     log_checkpoint("load_static_inputs start")
+    sync_status = sync_inputs_from_google_sheet(st.secrets)
+    log_checkpoint(
+        "sheet sync "
+        f"synced={sync_status.get('synced', 0)} "
+        f"errors={len(sync_status.get('errors', []))}"
+    )
     seat_helper = load_seat_helper()
     log_checkpoint(f"loaded seat_helper rows={len(seat_helper)}")
     matrices = load_synth_pref_matrices()
@@ -272,6 +279,7 @@ def load_static_inputs():
         ideology,
         baseline_2cp,
         baseline_regions,
+        sync_status,
     )
 
 
@@ -427,9 +435,19 @@ st.title("Victorian IRV Election Model")
     ideology,
     baseline_2cp,
     baseline_regions,
+    sync_status,
 ) = load_static_inputs()
 
 baseline_lookup = baseline_2cp.set_index("district")
+
+if sync_status.get("synced", 0) > 0:
+    st.sidebar.caption(sync_status.get("message", "Google Sheet inputs synced"))
+elif sync_status.get("message"):
+    st.sidebar.caption(f"Using committed CSV inputs ({sync_status['message']}).")
+if sync_status.get("errors"):
+    st.sidebar.warning(
+        "Some Google Sheet tabs could not be synced; using available CSV inputs."
+    )
 
 selected_view = st.selectbox(
     "Select region",

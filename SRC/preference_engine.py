@@ -147,14 +147,29 @@ def cap_shares(vec, alive, scalars):
     return normalise_alive(out, alive)
 
 
-def apply_geo_adjust(vec, alive, seat_type, params):
+def apply_geo_adjust(
+    vec,
+    alive,
+    seat_type,
+    params,
+    eliminated_party=None
+):
     geo_table = params.get("geography_adjustments", {})
+    scalars = params.get("scalar_params", {})
     key = geo_adjust_key(seat_type)
 
     adj = geo_table.get(key)
 
     if not adj:
         return vec.copy()
+
+    strength = 1
+    if (
+        str(eliminated_party or "").strip().upper() == "GRN"
+        and key == "Rural"
+    ):
+        value = scalars.get("GRN_RURAL_GEO_STRENGTH", 1)
+        strength = 1 if value is None else float(value)
 
     out = vec.copy()
 
@@ -163,7 +178,8 @@ def apply_geo_adjust(vec, alive, seat_type, params):
             out[i] = 0
             continue
 
-        out[i] = max(0, float(out[i] or 0) + float(adj.get(party, 0) or 0))
+        adjustment = float(adj.get(party, 0) or 0) * strength
+        out[i] = max(0, float(out[i] or 0) + adjustment)
 
     return normalise_alive(out, alive)
 
@@ -201,7 +217,8 @@ def apply_on_siphon(vec, alive, eliminated_party, seat_type, scalars):
     elif elim == "LNP":
         elim_boost = 1.05
     elif elim == "GRN":
-        elim_boost = 0.85
+        value = scalars.get("SIPHON_ON_FROM_GRN_MULT", 0.85)
+        elim_boost = 0.85 if value is None else float(value)
     elif elim == "ALP":
         elim_boost = 0.85
 
@@ -619,7 +636,13 @@ def diagnose_preference_weights(
                 },
             ))
 
-        out = apply_geo_adjust(out, alive, geography_class, params)
+        out = apply_geo_adjust(
+            out,
+            alive,
+            geography_class,
+            params,
+            eliminated_party=elim
+        )
         stage_rows.append(vector_stage(
             "final geography adjustment",
             out,
