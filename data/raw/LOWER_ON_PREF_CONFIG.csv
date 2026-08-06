@@ -1,0 +1,9 @@
+Parameter,Value,Description
+ENABLED,TRUE,Use Victorian-only 2025 federal preference evidence for exact ON-related scenarios
+REMOVE_ON_SIPHON,TRUE,Remove the generic ON siphon whenever an evidence-backed exact scenario is used
+MINIMUM_SEATS,2,Exclude scenarios observed in fewer Victorian federal electorates
+PRIOR_EQUIVALENT_SEATS,20,Controls sample-size shrinkage toward the Victorian model
+VARIANCE_PENALTY,10,Downweights scenarios with greater between-seat variation
+MAXIMUM_EVIDENCE_WEIGHT,0.5,Maximum share assigned to federal evidence
+SOURCE_STATE,VIC,Restrict source evidence to Victorian federal electorates
+POOLING_METHOD,EQUAL_SEAT,Give each observed federal electorate equal influence

@@ -20,6 +20,7 @@ from SRC.matrix_loader import load_synth_pref_matrices
 from SRC.params_loader import load_params
 from SRC.posterior_loader import load_posterior_scenarios
 from SRC.ideology_loader import load_ideology_prior
+from SRC.federal_on_evidence_loader import apply_production_federal_on_evidence
 from SRC.baseline_loader import load_baseline_2cp
 from SRC.baseline_region_loader import load_baseline_region_summary
 from SRC.live_sheet_sync import sync_inputs_from_google_sheet
@@ -264,6 +265,7 @@ def load_static_inputs():
         f"specials={len(params.get('on_special_scenario_priors', {}))}"
     )
     posterior = load_posterior_scenarios()
+    posterior = apply_production_federal_on_evidence(posterior)
     log_checkpoint(f"loaded posterior keys={len(posterior)}")
     ideology = load_ideology_prior()
     log_checkpoint(f"loaded ideology keys={len(ideology)}")

@@ -422,6 +422,67 @@ def diagnose_preference_weights(
             ],
         }
 
+    post_key = f"{elim}|{alive_key(alive_arr)}"
+    trial_obj = posterior.get(post_key)
+    if isinstance(trial_obj, dict) and trial_obj.get("__federal_on_trial__"):
+        # First calculate the complete current Victorian rule with this one
+        # experimental record removed.  The trial is then a transparent
+        # shrinkage blend toward that unchanged production result.
+        production_posterior = dict(posterior)
+        production_posterior.pop(post_key, None)
+        production_params = params
+        if trial_obj.get("__remove_on_siphon__"):
+            production_params = dict(params)
+            production_params["scalar_params"] = dict(
+                params.get("scalar_params", {})
+            )
+            production_params["scalar_params"]["SIPHON_STRENGTH_ON"] = 0.0
+        production = diagnose_preference_weights(
+            eliminated_party=elim,
+            alive_parties=alive_arr,
+            matrix=matrix,
+            geography_class=geography_class,
+            params=production_params,
+            posterior=production_posterior,
+            ideology=ideology,
+        )
+        reliability = clamp01(trial_obj.get("__reliability__", 0.0))
+        empirical = normalise_alive(
+            [float(trial_obj.get(party, 0) or 0) for party in PARTIES],
+            alive,
+        )
+        current = production["final_vector"]
+        out = normalise_alive(
+            [
+                reliability * empirical[i] + (1 - reliability) * current[i]
+                for i in range(N)
+            ],
+            alive,
+        )
+        stages = list(production["stages"])
+        stages.append(vector_stage(
+            "federal ON evidence trial",
+            out,
+            alive,
+            "Victorian-federal exact-scenario evidence conservatively shrunk toward the complete current Victorian rule.",
+            {
+                "basis": "federal ON evidence trial",
+                "posterior_key": post_key,
+                "posterior_reliability": reliability,
+                "evidence_seats": trial_obj.get("__evidence_seats__"),
+                "evidence_source": trial_obj.get("__evidence_source__"),
+                "on_siphon_removed": bool(trial_obj.get("__remove_on_siphon__")),
+            },
+        ))
+        return {
+            **production,
+            "basis": "federal ON evidence trial",
+            "final_vector": out,
+            "final_flows": vector_to_dict(out, alive),
+            "stages": stages,
+            "trial_reliability": reliability,
+        }
+
     raw = matrix.get(elim, {})
     base = [
         float(raw.get(party, 0) or 0)
@@ -518,7 +579,6 @@ def diagnose_preference_weights(
         ))
 
     post_vec = None
-    post_key = f"{elim}|{alive_key(alive_arr)}"
     post_obj = posterior.get(post_key)
 
     if post_obj:
