@@ -20,7 +20,7 @@ DATA_DIR = os.path.join(
 
 FILES = {
     # Lower house files
-    "SEAT HELPER": "SEAT HELPER.csv",
+    "LOWER_PRIMARY_INPUTS": "LEGACY_PRIMARY_INPUTS.csv",
     "PARAMS": "PARAMS.csv",
     "SYNTH PREF MATRIX": "SYNTH PREF MATRIX.csv",
     "BASELINE_2CP": "BASELINE_2CP.csv",

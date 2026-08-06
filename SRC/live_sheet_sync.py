@@ -17,7 +17,7 @@ DEFAULT_SHEET_ID = "1avkQZ0A8tlVI1tR0UakEriNKuq9N7dwRUFJzecb26Ro"
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 
 FILES = {
-    "SEAT HELPER": "SEAT HELPER.csv",
+    "LOWER_PRIMARY_INPUTS": "LEGACY_PRIMARY_INPUTS.csv",
     "PARAMS": "PARAMS.csv",
     "SYNTH PREF MATRIX": "SYNTH PREF MATRIX.csv",
     "BASELINE_2CP": "BASELINE_2CP.csv",

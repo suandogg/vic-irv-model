@@ -13,8 +13,9 @@ try:
 except ImportError:
     resource = None
 
-from SRC.loaders import load_seat_helper
 from SRC.transform import build_primary_vote_table
+from SRC.legacy_primary_loader import load_legacy_primary_inputs
+from SRC.legacy_primary_model import build_corrected_primary_table
 from SRC.matrix_loader import load_synth_pref_matrices
 from SRC.params_loader import load_params
 from SRC.posterior_loader import load_posterior_scenarios
@@ -252,8 +253,8 @@ def load_static_inputs():
         f"synced={sync_status.get('synced', 0)} "
         f"errors={len(sync_status.get('errors', []))}"
     )
-    seat_helper = load_seat_helper()
-    log_checkpoint(f"loaded seat_helper rows={len(seat_helper)}")
+    primary_inputs = load_legacy_primary_inputs()
+    log_checkpoint(f"loaded primary_inputs rows={len(primary_inputs)}")
     matrices = load_synth_pref_matrices()
     log_checkpoint(f"loaded matrices count={len(matrices)}")
     params = load_params()
@@ -272,7 +273,7 @@ def load_static_inputs():
     log_checkpoint(f"loaded baseline_regions rows={len(baseline_regions)}")
 
     return (
-        seat_helper,
+        primary_inputs,
         matrices,
         params,
         posterior,
@@ -283,66 +284,15 @@ def load_static_inputs():
     )
 
 
-def apply_statewide_primary_adjustment(
-    seat_helper,
-    targets,
-    iterations=8,
-):
-    adjusted = seat_helper.copy()
-
-    for _ in range(iterations):
-        current_totals = {
-            party: adjusted[party].sum()
-            for party in PARTIES
-        }
-
-        current_total = sum(current_totals.values())
-
-        current_shares = {
-            party: (
-                current_totals[party] / current_total
-                if current_total > 0 else 0
-            )
-            for party in PARTIES
-        }
-
-        target_total = sum(targets.values())
-
-        target_shares = {
-            party: (
-                targets[party] / target_total
-                if target_total > 0 else 0
-            )
-            for party in PARTIES
-        }
-
-        multipliers = {}
-
-        for party in PARTIES:
-            current_share = current_shares.get(party, 0)
-            target_share = target_shares.get(party, 0)
-
-            if current_share <= 0:
-                multipliers[party] = 1.0
-            else:
-                multipliers[party] = target_share / current_share
-
-        for party in PARTIES:
-            adjusted[party] = adjusted[party] * multipliers[party]
-
-        row_totals = adjusted[PARTIES].sum(axis=1)
-
-        for party in PARTIES:
-            adjusted[party] = adjusted[party] / row_totals
-
-    return adjusted
-
-
-def run_model(seat_helper, matrices, params, posterior, ideology, targets):
+def run_model(primary_inputs, matrices, params, posterior, ideology, targets):
     log_checkpoint(f"run_model start targets={targets}")
-    adjusted = apply_statewide_primary_adjustment(
-        seat_helper,
-        targets
+    on_alpha = float(
+        params.get("scalar_params", {}).get("ON alpha", 0.6) or 0.6
+    )
+    adjusted = build_corrected_primary_table(
+        primary_inputs=primary_inputs,
+        targets=targets,
+        on_alpha=on_alpha,
     )
     log_checkpoint("run_model adjusted primaries")
 
@@ -428,7 +378,7 @@ st.set_page_config(
 st.title("Victorian IRV Election Model")
 
 (
-    seat_helper,
+    primary_inputs,
     matrices,
     params,
     posterior,
@@ -500,7 +450,7 @@ if abs(total_primary - 100) > 0.01:
     )
 
 results_df, adjusted_seat_helper = run_model(
-    seat_helper,
+    primary_inputs,
     matrices,
     params,
     posterior,

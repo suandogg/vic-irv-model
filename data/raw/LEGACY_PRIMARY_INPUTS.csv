@@ -1,0 +1,89 @@
+district,region,seat_type,held_by,ALP_pvi,LNP_pvi,GRN_pvi,IND_pvi,OTH_pvi,ON_strength
+Box Hill,North-Eastern Metro,Middle Ring,ALP,0.030123,0.027192,0.026514,-0.041585,-0.042244,0.263303
+Bulleen,North-Eastern Metro,Middle Ring,LNP,-0.044654,0.143978,-0.005393,-0.04575,-0.048181,0.338627
+Glen Waverley,North-Eastern Metro,Middle Ring,ALP,0.027557,0.075311,-0.020227,-0.0568,-0.025841,0.308713
+Ivanhoe,North-Eastern Metro,Middle Ring,ALP,0.054082,-0.033585,0.068045,-0.043148,-0.045394,0.486108
+Bundoora,North-Eastern Metro,Middle Ring,ALP,0.114833,-0.065001,0.006144,-0.04921,-0.006767,0.907014
+Bayswater,North-Eastern Metro,Outer Metro,ALP,0.029517,0.039856,-0.035306,-0.041107,0.007042,0.600941
+Croydon,North-Eastern Metro,Outer Metro,LNP,-0.027576,0.091717,-0.009284,-0.0568,0.001943,0.600756
+Ringwood,North-Eastern Metro,Outer Metro,LNP,0.01556,0.016204,0.037265,-0.0568,-0.01223,0.362906
+Warrandyte,North-Eastern Metro,Outer Metro,LNP,-0.044519,0.133922,0.00118,-0.04583,-0.044752,0.432615
+Eltham,North-Eastern Metro,Outer Metro,ALP,0.075864,0.012549,0.013725,-0.0568,-0.045338,0.65481
+Mill Park,North-Eastern Metro,Outer Metro,ALP,0.148855,-0.098872,-0.044969,-0.0568,0.051786,1.198217
+Brunswick,Northern Metro,Inner Ring,GRN,-0.073366,-0.244388,0.320366,-0.036846,0.034483,0.356125
+Northcote,Northern Metro,Inner Ring,ALP,0.026424,-0.228287,0.210828,-0.046276,0.037062,0.643922
+Melbourne,Northern Metro,Inner Ring,GRN,-0.062828,-0.170441,0.263117,-0.046984,0.017386,0.41638
+Richmond,Northern Metro,Inner Ring,GRN,-0.024968,-0.205863,0.230581,-0.019804,0.01988,0.365034
+Essendon,Northern Metro,Middle Ring,ALP,0.041379,-0.056822,0.042752,-0.0383,0.01124,0.833871
+Pascoe Vale,Northern Metro,Middle Ring,ALP,0.004279,-0.160009,0.106544,0.032389,0.016797,0.658375
+Preston,Northern Metro,Middle Ring,ALP,0.03097,-0.175408,0.036941,0.06854,0.039207,1.070377
+Broadmeadows,Northern Metro,Outer Metro,ALP,0.102031,-0.135318,-0.030664,0.016811,0.04689,0.810633
+Greenvale,Northern Metro,Outer Metro,ALP,0.07909,-0.095463,-0.052057,0.000809,0.067621,0.537263
+Thomastown,Northern Metro,Outer Metro,ALP,0.162273,-0.12764,-0.051338,-0.02705,0.044255,1.004125
+Kalkallo,Northern Metro,Peri-urban,ALP,0.170829,-0.111578,-0.058585,-0.039733,0.039142,0.71084
+Clarinda,South-Eastern Metro,Middle Ring,ALP,0.095265,-0.063305,-0.035722,0.036434,-0.032923,0.771089
+Mordialloc,South-Eastern Metro,Middle Ring,ALP,0.075173,-0.033725,-0.017049,0.007983,-0.032632,0.757011
+Mulgrave,South-Eastern Metro,Middle Ring,ALP,0.146525,-0.148062,-0.059208,0.101075,-0.04108,0.76204
+Rowville,South-Eastern Metro,Outer Metro,LNP,-0.045763,0.08497,-0.036583,0.043566,-0.04614,0.480075
+Cranbourne,South-Eastern Metro,Outer Metro,ALP,0.085984,-0.054253,-0.061124,-0.043622,0.073515,1.453556
+Dandenong,South-Eastern Metro,Outer Metro,ALP,0.190615,-0.12907,-0.034393,-0.05255,0.025648,0.985846
+Narre Warren North,South-Eastern Metro,Outer Metro,ALP,0.096743,-0.053357,-0.046609,-0.04037,0.044867,1.453393
+Narre Warren South,South-Eastern Metro,Outer Metro,ALP,0.10847,-0.048494,-0.049027,-0.048526,0.037578,1.287697
+Frankston,South-Eastern Metro,Outer Metro,ALP,0.045388,-0.044866,0.001162,-0.02918,0.027246,1.060803
+Berwick,South-Eastern Metro,Peri-urban,LNP,-0.007173,0.11194,-0.022251,-0.05605,-0.026715,1.097298
+Carrum,South-Eastern Metro,Peri-urban,ALP,0.124241,-0.037321,-0.042468,-0.036525,-0.007927,1.185771
+Albert Park,Southern Metro,Inner Ring,ALP,-0.000141,-0.044492,0.084828,-0.011145,-0.0218,0.468329
+Brighton,Southern Metro,Inner Ring,LNP,-0.116627,0.107537,0.027602,0.038761,-0.030273,0.280531
+Caulfield,Southern Metro,Inner Ring,LNP,-0.088818,0.102008,0.042694,-0.008084,-0.0503,0.337944
+Prahran,Southern Metro,Inner Ring,Greens,-0.106799,-0.031767,0.230764,-0.047358,-0.014339,0.389561
+Hawthorn,Southern Metro,Inner Ring,LNP,-0.133704,0.080559,0.014169,0.093002,-0.049226,0.162193
+Kew,Southern Metro,Inner Ring,LNP,-0.132856,0.109124,-0.012916,0.106745,-0.062846,0.177989
+Malvern,Southern Metro,Inner Ring,LNP,-0.11188,0.175957,0.037127,-0.044987,-0.040417,0.221322
+Bentleigh,Southern Metro,Middle Ring,ALP,0.085451,0.009397,-0.011895,-0.036813,-0.039641,0.547415
+Sandringham,Southern Metro,Middle Ring,LNP,-0.105981,0.107563,0.017578,0.018158,-0.025317,0.349495
+Ashwood,Southern Metro,Middle Ring,ALP,0.021058,0.042834,0.028111,-0.037159,-0.069144,0.311323
+Oakleigh,Southern Metro,Middle Ring,ALP,0.088821,-0.052752,0.039723,-0.034284,-0.046259,0.729381
+Footscray,Western Metro,Inner Ring,ALP,0.078411,-0.16977,0.105694,-0.0523,0.042465,0.583844
+Williamstown,Western Metro,Inner Ring,ALP,0.053369,-0.085458,0.036007,-0.0208,0.016882,0.864739
+Laverton,Western Metro,Middle Ring,ALP,0.105426,-0.129627,-0.012624,-0.03374,0.070315,0.782934
+Niddrie,Western Metro,Middle Ring,ALP,0.084689,-0.006283,-0.040486,-0.0563,0.01813,1.336365
+St Albans,Western Metro,Middle Ring,ALP,0.086512,-0.096264,-0.03413,-0.024796,0.068753,0.880423
+Kororoit,Western Metro,Outer Metro,ALP,0.100815,-0.112589,-0.043137,-0.038626,0.093486,0.839941
+Point Cook,Western Metro,Outer Metro,ALP,0.042595,-0.101015,-0.042319,0.065377,0.035463,1.118136
+Sydenham,Western Metro,Outer Metro,ALP,0.097057,-0.058872,-0.053191,-0.0463,0.061306,1.122448
+Tarneit,Western Metro,Outer Metro,ALP,0.108649,-0.081051,-0.038308,-0.02185,0.03281,0.975134
+Sunbury,Western Metro,Peri-urban,ALP,0.087695,-0.025883,-0.04481,-0.018822,0.011244,1.529019
+Werribee,Western Metro,Peri-urban,ALP,0.073043,-0.115028,-0.046086,0.061644,0.026176,1.247112
+Evelyn,Eastern Victoria,Peri-urban,LNP,-0.035126,0.124761,-0.019225,-0.041658,-0.029252,0.821904
+Monbulk,Eastern Victoria,Peri-urban,ALP,-0.006524,-0.031425,0.039627,0.02653,-0.021709,0.851398
+Pakenham,Eastern Victoria,Peri-urban,ALP,-0.014991,0.002211,-0.044876,0.012446,0.04746,1.341798
+Mornington,Eastern Victoria,Peri-urban,LNP,-0.131532,0.0992,-0.040881,0.122805,-0.049717,0.651488
+Nepean,Eastern Victoria,Peri-urban,LNP,-0.042401,0.124536,-0.019805,-0.020161,-0.041994,0.912758
+Morwell,Eastern Victoria,Provincial,LNP,-0.050706,0.001302,-0.071974,0.077804,0.043573,2.770334
+Gippsland East,Eastern Victoria,Regional,LNP,-0.199996,0.270298,-0.049775,-0.0343,0.013523,2.05249
+Gippsland South,Eastern Victoria,Regional,LNP,-0.135867,0.199483,-0.027235,-0.00855,-0.02758,1.802508
+Bass,Eastern Victoria,Regional,ALP,-0.046326,0.088101,-0.036406,-0.006062,-0.002307,1.334939
+Hastings,Eastern Victoria,Regional,ALP,-0.00605,0.064013,-0.012651,-0.046623,0.001561,1.353178
+Narracan,Eastern Victoria,Regional,LNP,-0.0732,0.1652,0.0474,0.007,-0.101475,1.554444
+Yan Yean,Northern Victoria,Peri-urban,ALP,0.068409,-0.023117,-0.051409,-0.0568,0.062917,1.026038
+Shepparton,Northern Victoria,Provincial,LNP,-0.24,0.14711,-0.087707,0.259785,-0.025626,1.797372
+Bendigo East,Northern Victoria,Provincial,ALP,0.105914,-0.050267,-0.027973,-0.030422,-0.041044,0.724216
+Bendigo West,Northern Victoria,Provincial,ALP,0.100119,-0.091474,0.005861,-0.032055,0.017549,0.73549
+Eildon,Northern Victoria,Regional,LNP,-0.072626,0.126166,-0.001923,-0.038396,-0.013095,1.2183
+Euroa,Northern Victoria,Regional,LNP,-0.083887,0.205324,-0.060129,-0.0568,-0.004508,1.71635
+Macedon,Northern Victoria,Regional,ALP,0.048788,-0.042179,0.005845,-0.010449,-0.023586,1.04478
+Benambra,Northern Victoria,Regional,LNP,-0.239933,0.075669,-0.075323,0.254656,-0.01507,1.291014
+Ovens Valley,Northern Victoria,Regional,LNP,-0.174854,0.154595,-0.034007,-0.0093,0.063566,1.171601
+Mildura,Northern Victoria,Regional,LNP,-0.24,0.091545,-0.086085,0.329577,-0.046215,1.839468
+Murray Plains,Northern Victoria,Regional,LNP,-0.192874,0.267879,-0.073201,-0.037715,0.035812,1.871836
+Lara,Western Victoria,Peri-urban,ALP,0.135338,-0.125738,-0.009319,-0.036876,0.036445,2.155067
+Melton,Western Victoria,Peri-urban,ALP,-0.013067,-0.122989,-0.067543,0.154724,0.051875,1.407879
+Bellarine,Western Victoria,Peri-urban,ALP,0.061736,-0.009152,-0.002099,-0.022534,-0.027951,0.511072
+Wendouree,Western Victoria,Provincial,ALP,0.101534,-0.038807,-0.012522,-0.048024,-0.002182,1.193473
+Geelong,Western Victoria,Provincial,ALP,0.070526,-0.087431,0.024234,0.021721,-0.02915,1.513584
+South Barwon,Western Victoria,Provincial,ALP,0.045848,-0.009086,0.003046,-0.0568,0.016991,0.760411
+Eureka,Western Victoria,Regional,ALP,0.036452,-0.031865,-0.009268,-0.024158,0.028964,1.584351
+Ripon,Western Victoria,Regional,ALP,0.009616,0.01637,-0.056664,-0.035837,0.066515,1.589054
+Lowan,Western Victoria,Regional,LNP,-0.180274,0.257715,-0.054974,-0.015741,-0.007052,1.516348
+Polwarth,Western Victoria,Regional,LNP,-0.085482,0.086414,0.038511,-0.023904,-0.015489,0.625357
+South-West Coast,Western Victoria,Regional,LNP,-0.161713,0.061133,-0.05702,0.197168,-0.039567,0.587502
