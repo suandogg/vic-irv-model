@@ -1,0 +1,886 @@
+ONLevel,District,SeatType,Round,Eliminated,AliveSet,EvidenceBacked,Basis,GenericSiphonApplied,GenericSiphonTVD,MissingExactEvidence
+10.0,BOX HILL,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09097948113207546,True
+10.0,BOX HILL,Middle Ring,Round 2,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,BULLEEN,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0829194887115062,True
+10.0,BULLEEN,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,6.938893903907228e-17,False
+10.0,BULLEEN,Middle Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,GLEN WAVERLEY,Middle Ring,Round 1,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,IVANHOE,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06835735696211126,True
+10.0,IVANHOE,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,6.938893903907228e-17,False
+10.0,IVANHOE,Middle Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,BUNDOORA,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08508714622641506,True
+10.0,BUNDOORA,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,BUNDOORA,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,BUNDOORA,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,BAYSWATER,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.056784720112894364,True
+10.0,BAYSWATER,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,7.632783294297951e-17,True
+10.0,BAYSWATER,Outer Metro,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,CROYDON,Outer Metro,Round 1,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,RINGWOOD,Outer Metro,Round 1,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,WARRANDYTE,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.07194658018867925,True
+10.0,WARRANDYTE,Outer Metro,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,WARRANDYTE,Outer Metro,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,ELTHAM,Outer Metro,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,ELTHAM,Outer Metro,Round 2,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,MILL PARK,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,MILL PARK,Outer Metro,Round 2,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,BRUNSWICK,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.07165250000000001,True
+10.0,BRUNSWICK,Inner Ring,Round 2,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,NORTHCOTE,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08391356273738534,True
+10.0,NORTHCOTE,Inner Ring,Round 2,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,MELBOURNE,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0776570466651843,True
+10.0,MELBOURNE,Inner Ring,Round 2,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,RICHMOND,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08721224377562249,True
+10.0,RICHMOND,Inner Ring,Round 2,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,ESSENDON,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.05988207547169812,True
+10.0,ESSENDON,Middle Ring,Round 2,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,PASCOE VALE,Middle Ring,Round 1,ON,ALP+GRN+IND+LNP+OTH,False,full AEC row,False,0.0,True
+10.0,PRESTON,Middle Ring,Round 1,ON,ALP+GRN+IND+LNP+OTH,False,full AEC row,False,0.0,True
+10.0,BROADMEADOWS,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09820212264150943,True
+10.0,BROADMEADOWS,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,BROADMEADOWS,Outer Metro,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,GREENVALE,Outer Metro,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,GREENVALE,Outer Metro,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.08989008015041075,True
+10.0,GREENVALE,Outer Metro,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,THOMASTOWN,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.05988207547169812,True
+10.0,THOMASTOWN,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,THOMASTOWN,Outer Metro,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,KALKALLO,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08244259698247051,True
+10.0,KALKALLO,Peri-urban,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,KALKALLO,Peri-urban,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,CLARINDA,Middle Ring,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,CLARINDA,Middle Ring,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.03907756677432001,True
+10.0,CLARINDA,Middle Ring,Round 3,IND,ALP+LNP+ON,False,full AEC row,True,0.06878437500000002,True
+10.0,CLARINDA,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,MORDIALLOC,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.06030794811320755,True
+10.0,MORDIALLOC,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,MORDIALLOC,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,MORDIALLOC,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,MULGRAVE,Middle Ring,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,MULGRAVE,Middle Ring,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.05099678036374461,True
+10.0,MULGRAVE,Middle Ring,Round 3,ON,ALP+IND+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,ROWVILLE,Outer Metro,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,6.245004513516506e-17,False
+10.0,ROWVILLE,Outer Metro,Round 2,GRN,ALP+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,ROWVILLE,Outer Metro,Round 3,ON,ALP+IND+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,CRANBOURNE,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08746497641509429,True
+10.0,CRANBOURNE,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,9.71445146547012e-17,True
+10.0,CRANBOURNE,Outer Metro,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,DANDENONG,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,DANDENONG,Outer Metro,Round 2,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,NARRE WARREN NORTH,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0900339895255757,True
+10.0,NARRE WARREN NORTH,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,NARRE WARREN NORTH,Outer Metro,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,NARRE WARREN SOUTH,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09489267558831356,True
+10.0,NARRE WARREN SOUTH,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,NARRE WARREN SOUTH,Outer Metro,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,FRANKSTON,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09245212264150943,True
+10.0,FRANKSTON,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,FRANKSTON,Outer Metro,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,BERWICK,Peri-urban,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,BERWICK,Peri-urban,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,BERWICK,Peri-urban,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,CARRUM,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09792976080992995,True
+10.0,CARRUM,Peri-urban,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,9.020562075079397e-17,True
+10.0,CARRUM,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.04118695941513642,True
+10.0,CARRUM,Peri-urban,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,ALBERT PARK,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.0537730198019802,True
+10.0,ALBERT PARK,Inner Ring,Round 2,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,BRIGHTON,Inner Ring,Round 1,ON,ALP+GRN+IND+LNP+OTH,False,full AEC row,False,0.0,True
+10.0,CAULFIELD,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.051566000000000015,True
+10.0,CAULFIELD,Inner Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,CAULFIELD,Inner Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,PRAHRAN,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.07011832816718327,True
+10.0,PRAHRAN,Inner Ring,Round 2,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,HAWTHORN,Inner Ring,Round 1,ON,ALP+GRN+IND+LNP+OTH,False,full AEC row,False,0.0,True
+10.0,KEW,Inner Ring,Round 1,ON,ALP+GRN+IND+LNP+OTH,False,full AEC row,False,0.0,True
+10.0,MALVERN,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.07176862499999999,True
+10.0,MALVERN,Inner Ring,Round 2,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,BENTLEIGH,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06608738207547166,True
+10.0,BENTLEIGH,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,BENTLEIGH,Middle Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,SANDRINGHAM,Middle Ring,Round 1,ON,ALP+GRN+IND+LNP+OTH,False,full AEC row,False,0.0,True
+10.0,ASHWOOD,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08367051886792451,True
+10.0,ASHWOOD,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,ASHWOOD,Middle Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,OAKLEIGH,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.060251132075471704,True
+10.0,OAKLEIGH,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,OAKLEIGH,Middle Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,FOOTSCRAY,Inner Ring,Round 1,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,WILLIAMSTOWN,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.05990000000000001,True
+10.0,WILLIAMSTOWN,Inner Ring,Round 2,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,LAVERTON,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09358523352335232,True
+10.0,LAVERTON,Middle Ring,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,LAVERTON,Middle Ring,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,NIDDRIE,Middle Ring,Round 1,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,NIDDRIE,Middle Ring,Round 2,OTH,ALP+LNP+ON,False,ideology prior,True,0.04485932051368027,True
+10.0,NIDDRIE,Middle Ring,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,ST ALBANS,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06797701232387386,True
+10.0,ST ALBANS,Middle Ring,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,ST ALBANS,Middle Ring,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,KOROROIT,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08795695843169221,True
+10.0,KOROROIT,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,6.938893903907228e-17,True
+10.0,KOROROIT,Outer Metro,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,POINT COOK,Outer Metro,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,8.326672684688674e-17,True
+10.0,POINT COOK,Outer Metro,Round 2,ON,ALP+IND+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,SYDENHAM,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.05988207547169812,True
+10.0,SYDENHAM,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,SYDENHAM,Outer Metro,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,TARNEIT,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0899979082280451,True
+10.0,TARNEIT,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,TARNEIT,Outer Metro,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,SUNBURY,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08275099009900991,True
+10.0,SUNBURY,Peri-urban,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,SUNBURY,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.04111826798272736,True
+10.0,SUNBURY,Peri-urban,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,WERRIBEE,Peri-urban,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,WERRIBEE,Peri-urban,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.075536535386694,True
+10.0,WERRIBEE,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.036523294748431856,True
+10.0,WERRIBEE,Peri-urban,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,EVELYN,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08808072534330724,True
+10.0,EVELYN,Peri-urban,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,EVELYN,Peri-urban,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,EVELYN,Peri-urban,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,MONBULK,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.06245347678332187,True
+10.0,MONBULK,Peri-urban,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,MONBULK,Peri-urban,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,PAKENHAM,Peri-urban,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,PAKENHAM,Peri-urban,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.0728370990566037,True
+10.0,PAKENHAM,Peri-urban,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,MORNINGTON,Peri-urban,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,MORNINGTON,Peri-urban,Round 2,GRN,ALP+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,MORNINGTON,Peri-urban,Round 3,ON,ALP+IND+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,NEPEAN,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0768946782178218,True
+10.0,NEPEAN,Peri-urban,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,NEPEAN,Peri-urban,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,8.326672684688674e-17,False
+10.0,NEPEAN,Peri-urban,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,MORWELL,Provincial,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,full AEC row,False,9.71445146547012e-17,True
+10.0,MORWELL,Provincial,Round 2,IND,ALP+LNP+ON+OTH,False,full AEC row,True,0.0866272110849056,True
+10.0,MORWELL,Provincial,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.06101842570754716,True
+10.0,MORWELL,Provincial,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+10.0,GIPPSLAND EAST,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.070075,True
+10.0,GIPPSLAND EAST,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,GIPPSLAND EAST,Regional,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.0469005681818182,True
+10.0,GIPPSLAND EAST,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+10.0,GIPPSLAND SOUTH,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.07145530446955306,True
+10.0,GIPPSLAND SOUTH,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,GIPPSLAND SOUTH,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.03822585306450797,True
+10.0,GIPPSLAND SOUTH,Regional,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,BASS,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.064627125,True
+10.0,BASS,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,BASS,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.044693073935558096,True
+10.0,BASS,Regional,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,HASTINGS,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08242587499999998,True
+10.0,HASTINGS,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,HASTINGS,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.03925930248728547,True
+10.0,HASTINGS,Regional,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,NARRACAN,Regional,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,NARRACAN,Regional,Round 2,IND,ALP+GRN+LNP+ON,False,ideology prior,True,0.055339705882352944,True
+10.0,NARRACAN,Regional,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,NARRACAN,Regional,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,YAN YEAN,Peri-urban,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,6.938893903907228e-17,True
+10.0,YAN YEAN,Peri-urban,Round 2,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,SHEPPARTON,Provincial,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,SHEPPARTON,Provincial,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.05846024305555554,True
+10.0,SHEPPARTON,Provincial,Round 3,ALP,IND+LNP+ON,False,full AEC row,True,0.062299113175675686,True
+10.0,SHEPPARTON,Provincial,Round 4,ON,IND+LNP,False,ideology prior,False,0.0,True
+10.0,BENDIGO EAST,Provincial,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08835884289046342,True
+10.0,BENDIGO EAST,Provincial,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,BENDIGO EAST,Provincial,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,BENDIGO EAST,Provincial,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,BENDIGO WEST,Provincial,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.07948810419408277,True
+10.0,BENDIGO WEST,Provincial,Round 2,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,EILDON,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0763832191780822,True
+10.0,EILDON,Regional,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,EILDON,Regional,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,EILDON,Regional,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,EUROA,Regional,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,EUROA,Regional,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.047105113636363646,True
+10.0,EUROA,Regional,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,MACEDON,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06633375000000002,True
+10.0,MACEDON,Regional,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,MACEDON,Regional,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,MACEDON,Regional,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,BENAMBRA,Regional,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,BENAMBRA,Regional,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.04068314034977438,True
+10.0,BENAMBRA,Regional,Round 3,ALP,IND+LNP+ON,False,full AEC row,True,0.04119438559322035,True
+10.0,BENAMBRA,Regional,Round 4,ON,IND+LNP,False,ideology prior,False,0.0,True
+10.0,OVENS VALLEY,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.070075,True
+10.0,OVENS VALLEY,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,OVENS VALLEY,Regional,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,MILDURA,Regional,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,MILDURA,Regional,Round 2,OTH,ALP+IND+LNP+ON,False,full AEC row,True,0.04518914473684211,True
+10.0,MILDURA,Regional,Round 3,ALP,IND+LNP+ON,False,full AEC row,True,0.045989141949152545,True
+10.0,MILDURA,Regional,Round 4,ON,IND+LNP,False,ideology prior,False,0.0,True
+10.0,MURRAY PLAINS,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.078353625,True
+10.0,MURRAY PLAINS,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,MURRAY PLAINS,Regional,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.04354261363636363,True
+10.0,MURRAY PLAINS,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+10.0,LARA,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.05610865170675483,True
+10.0,LARA,Peri-urban,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,8.326672684688674e-17,True
+10.0,LARA,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.0414566318865033,True
+10.0,LARA,Peri-urban,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+10.0,MELTON,Peri-urban,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,full AEC row,False,6.938893903907228e-17,True
+10.0,MELTON,Peri-urban,Round 2,ON,ALP+IND+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,BELLARINE,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.061057277227722785,True
+10.0,BELLARINE,Peri-urban,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,8.326672684688674e-17,False
+10.0,BELLARINE,Peri-urban,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,8.326672684688674e-17,False
+10.0,BELLARINE,Peri-urban,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,WENDOUREE,Provincial,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08882184697430137,True
+10.0,WENDOUREE,Provincial,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,WENDOUREE,Provincial,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.04801778208401662,True
+10.0,WENDOUREE,Provincial,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,GEELONG,Provincial,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,7.632783294297951e-17,False
+10.0,GEELONG,Provincial,Round 2,IND,ALP+GRN+LNP+ON,False,ideology prior,True,0.05282491145793322,True
+10.0,GEELONG,Provincial,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,GEELONG,Provincial,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,SOUTH BARWON,Provincial,Round 1,ON,ALP+GRN+LNP+OTH,True,federal ON evidence trial,False,0.0,False
+10.0,EUREKA,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0784650109989001,True
+10.0,EUREKA,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,EUREKA,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.03932333041506067,True
+10.0,EUREKA,Regional,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,RIPON,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.07958060240963856,True
+10.0,RIPON,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+10.0,RIPON,Regional,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+10.0,LOWAN,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.07233565,True
+10.0,LOWAN,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,LOWAN,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.04000727486251966,True
+10.0,LOWAN,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+10.0,POLWARTH,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.0705792079207921,True
+10.0,POLWARTH,Regional,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+10.0,POLWARTH,Regional,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+10.0,SOUTH-WEST COAST,Regional,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+10.0,SOUTH-WEST COAST,Regional,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.03796879820636423,True
+10.0,SOUTH-WEST COAST,Regional,Round 3,ON,ALP+IND+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,BOX HILL,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09097948113207546,True
+20.0,BOX HILL,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,BOX HILL,Middle Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,BULLEEN,Middle Ring,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,6.938893903907228e-17,False
+20.0,BULLEEN,Middle Ring,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,BULLEEN,Middle Ring,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,GLEN WAVERLEY,Middle Ring,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,GLEN WAVERLEY,Middle Ring,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,GLEN WAVERLEY,Middle Ring,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,IVANHOE,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06835735696211126,True
+20.0,IVANHOE,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,6.938893903907228e-17,False
+20.0,IVANHOE,Middle Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,BUNDOORA,Middle Ring,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,BUNDOORA,Middle Ring,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,BUNDOORA,Middle Ring,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,BAYSWATER,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.056784720112894364,True
+20.0,BAYSWATER,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,7.632783294297951e-17,True
+20.0,BAYSWATER,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.040663879124791164,True
+20.0,BAYSWATER,Outer Metro,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,CROYDON,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,CROYDON,Outer Metro,Round 2,OTH,ALP+LNP+ON,False,ideology prior,True,0.03840234128921173,True
+20.0,CROYDON,Outer Metro,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,RINGWOOD,Outer Metro,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,RINGWOOD,Outer Metro,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,RINGWOOD,Outer Metro,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,WARRANDYTE,Outer Metro,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,WARRANDYTE,Outer Metro,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,WARRANDYTE,Outer Metro,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,ELTHAM,Outer Metro,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,ELTHAM,Outer Metro,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,ELTHAM,Outer Metro,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,MILL PARK,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,MILL PARK,Outer Metro,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.048912259615384604,True
+20.0,MILL PARK,Outer Metro,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,BRUNSWICK,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.07165250000000001,True
+20.0,BRUNSWICK,Inner Ring,Round 2,LNP,ALP+GRN+ON+OTH,False,ideology prior,True,0.039962284090909045,True
+20.0,BRUNSWICK,Inner Ring,Round 3,ON,ALP+GRN+OTH,False,ideology prior,False,0.0,True
+20.0,NORTHCOTE,Inner Ring,Round 1,LNP,ALP+GRN+ON+OTH,False,ideology prior,True,0.04024506818181814,True
+20.0,NORTHCOTE,Inner Ring,Round 2,OTH,ALP+GRN+ON,False,ideology prior,True,0.01999372492630863,True
+20.0,NORTHCOTE,Inner Ring,Round 3,ON,ALP+GRN,False,ideology prior,False,0.0,True
+20.0,MELBOURNE,Inner Ring,Round 1,LNP,ALP+GRN+ON+OTH,False,ideology prior,True,0.03982196590909086,True
+20.0,MELBOURNE,Inner Ring,Round 2,OTH,ALP+GRN+ON,False,ideology prior,True,0.019816652793862174,True
+20.0,MELBOURNE,Inner Ring,Round 3,ON,ALP+GRN,False,ideology prior,False,0.0,True
+20.0,RICHMOND,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08721224377562249,True
+20.0,RICHMOND,Inner Ring,Round 2,LNP,ALP+GRN+ON+OTH,False,ideology prior,True,0.03982840909090908,True
+20.0,RICHMOND,Inner Ring,Round 3,OTH,ALP+GRN+ON,False,ideology prior,True,0.020310795233106693,True
+20.0,RICHMOND,Inner Ring,Round 4,ON,ALP+GRN,False,ideology prior,False,0.0,True
+20.0,ESSENDON,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.05988207547169812,True
+20.0,ESSENDON,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,ESSENDON,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,7.632783294297951e-17,False
+20.0,ESSENDON,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,PASCOE VALE,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06965601415094338,True
+20.0,PASCOE VALE,Middle Ring,Round 2,LNP,ALP+GRN+ON+OTH,False,ideology prior,True,0.03620686363636365,True
+20.0,PASCOE VALE,Middle Ring,Round 3,OTH,ALP+GRN+ON,False,ideology prior,True,0.014293583498606308,True
+20.0,PASCOE VALE,Middle Ring,Round 4,GRN,ALP+ON,False,ON special prior,False,0.0,True
+20.0,PRESTON,Middle Ring,Round 1,LNP,ALP+GRN+IND+ON+OTH,False,ideology prior,True,0.03688429687500001,True
+20.0,PRESTON,Middle Ring,Round 2,IND,ALP+GRN+ON+OTH,False,ideology prior,True,0.03670396830533887,True
+20.0,PRESTON,Middle Ring,Round 3,OTH,ALP+GRN+ON,False,ideology prior,True,0.014667315747299084,True
+20.0,PRESTON,Middle Ring,Round 4,GRN,ALP+ON,False,ON special prior,False,0.0,True
+20.0,BROADMEADOWS,Outer Metro,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,8.326672684688674e-17,True
+20.0,BROADMEADOWS,Outer Metro,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.09668648812026914,True
+20.0,BROADMEADOWS,Outer Metro,Round 3,LNP,ALP+ON+OTH,False,ideology prior,True,0.05260683760683767,True
+20.0,BROADMEADOWS,Outer Metro,Round 4,OTH,ALP+ON,False,ON special prior,False,0.0,True
+20.0,GREENVALE,Outer Metro,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,GREENVALE,Outer Metro,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.08989008015041075,True
+20.0,GREENVALE,Outer Metro,Round 3,ON,ALP+LNP+OTH,False,ideology prior,False,0.0,True
+20.0,THOMASTOWN,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.05988207547169812,True
+20.0,THOMASTOWN,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,THOMASTOWN,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.040141225961538476,True
+20.0,THOMASTOWN,Outer Metro,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,KALKALLO,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08244259698247051,True
+20.0,KALKALLO,Peri-urban,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,KALKALLO,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.04327535377358492,True
+20.0,KALKALLO,Peri-urban,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,CLARINDA,Middle Ring,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,CLARINDA,Middle Ring,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.03907756677432001,True
+20.0,CLARINDA,Middle Ring,Round 3,IND,ALP+LNP+ON,False,full AEC row,True,0.06878437500000002,True
+20.0,CLARINDA,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,MORDIALLOC,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.06030794811320755,True
+20.0,MORDIALLOC,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,MORDIALLOC,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,MORDIALLOC,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,MULGRAVE,Middle Ring,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,MULGRAVE,Middle Ring,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.05099678036374461,True
+20.0,MULGRAVE,Middle Ring,Round 3,LNP,ALP+IND+ON,False,full AEC row,True,0.02906829545454548,True
+20.0,MULGRAVE,Middle Ring,Round 4,IND,ALP+ON,False,ON special prior,False,0.0,True
+20.0,ROWVILLE,Outer Metro,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,6.245004513516506e-17,False
+20.0,ROWVILLE,Outer Metro,Round 2,GRN,ALP+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,ROWVILLE,Outer Metro,Round 3,IND,ALP+LNP+ON,False,full AEC row,True,0.07070408653846155,True
+20.0,ROWVILLE,Outer Metro,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,CRANBOURNE,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08746497641509429,True
+20.0,CRANBOURNE,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,9.71445146547012e-17,True
+20.0,CRANBOURNE,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.04459435096153844,True
+20.0,CRANBOURNE,Outer Metro,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,DANDENONG,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,DANDENONG,Outer Metro,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.041862980769230784,True
+20.0,DANDENONG,Outer Metro,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,NARRE WARREN NORTH,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0900339895255757,True
+20.0,NARRE WARREN NORTH,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,NARRE WARREN NORTH,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.04684795673076923,True
+20.0,NARRE WARREN NORTH,Outer Metro,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,NARRE WARREN SOUTH,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,NARRE WARREN SOUTH,Outer Metro,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.048452524038461564,True
+20.0,NARRE WARREN SOUTH,Outer Metro,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,FRANKSTON,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09245212264150943,True
+20.0,FRANKSTON,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,FRANKSTON,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.046478365384615375,True
+20.0,FRANKSTON,Outer Metro,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,BERWICK,Peri-urban,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,BERWICK,Peri-urban,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,BERWICK,Peri-urban,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,CARRUM,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09792976080992995,True
+20.0,CARRUM,Peri-urban,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,9.020562075079397e-17,True
+20.0,CARRUM,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.04118695941513642,True
+20.0,CARRUM,Peri-urban,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,ALBERT PARK,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.0537730198019802,True
+20.0,ALBERT PARK,Inner Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,ALBERT PARK,Inner Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,BRIGHTON,Inner Ring,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,7.28583859910259e-17,False
+20.0,BRIGHTON,Inner Ring,Round 2,IND,ALP+GRN+LNP+ON,False,full AEC row,True,0.0391325,True
+20.0,BRIGHTON,Inner Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,CAULFIELD,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.051566000000000015,True
+20.0,CAULFIELD,Inner Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,CAULFIELD,Inner Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,PRAHRAN,Inner Ring,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,PRAHRAN,Inner Ring,Round 2,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,HAWTHORN,Inner Ring,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,HAWTHORN,Inner Ring,Round 2,ON,ALP+GRN+IND+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,KEW,Inner Ring,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,KEW,Inner Ring,Round 2,GRN,ALP+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,KEW,Inner Ring,Round 3,ON,ALP+IND+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,MALVERN,Inner Ring,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,MALVERN,Inner Ring,Round 2,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,BENTLEIGH,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06608738207547166,True
+20.0,BENTLEIGH,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,BENTLEIGH,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,BENTLEIGH,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,SANDRINGHAM,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.05581481132075465,True
+20.0,SANDRINGHAM,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,SANDRINGHAM,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,SANDRINGHAM,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,ASHWOOD,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08367051886792451,True
+20.0,ASHWOOD,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,ASHWOOD,Middle Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,OAKLEIGH,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.060251132075471704,True
+20.0,OAKLEIGH,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,OAKLEIGH,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,OAKLEIGH,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,FOOTSCRAY,Inner Ring,Round 1,LNP,ALP+GRN+ON+OTH,False,ideology prior,True,0.04012049999999995,True
+20.0,FOOTSCRAY,Inner Ring,Round 2,OTH,ALP+GRN+ON,False,ideology prior,True,0.019974735722993534,True
+20.0,FOOTSCRAY,Inner Ring,Round 3,ON,ALP+GRN,False,ideology prior,False,0.0,True
+20.0,WILLIAMSTOWN,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.05990000000000001,True
+20.0,WILLIAMSTOWN,Inner Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,WILLIAMSTOWN,Inner Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,WILLIAMSTOWN,Inner Ring,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,LAVERTON,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09358523352335232,True
+20.0,LAVERTON,Middle Ring,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,LAVERTON,Middle Ring,Round 3,LNP,ALP+ON+OTH,False,ideology prior,True,0.05260683760683767,True
+20.0,LAVERTON,Middle Ring,Round 4,OTH,ALP+ON,False,ON special prior,False,0.0,True
+20.0,NIDDRIE,Middle Ring,Round 1,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,NIDDRIE,Middle Ring,Round 2,OTH,ALP+LNP+ON,False,ideology prior,True,0.04485932051368027,True
+20.0,NIDDRIE,Middle Ring,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,ST ALBANS,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06797701232387386,True
+20.0,ST ALBANS,Middle Ring,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,ST ALBANS,Middle Ring,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.045275245436081676,True
+20.0,ST ALBANS,Middle Ring,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,KOROROIT,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08795695843169221,True
+20.0,KOROROIT,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,6.938893903907228e-17,True
+20.0,KOROROIT,Outer Metro,Round 3,LNP,ALP+ON+OTH,False,ideology prior,True,0.05260683760683767,True
+20.0,KOROROIT,Outer Metro,Round 4,OTH,ALP+ON,False,ON special prior,False,0.0,True
+20.0,POINT COOK,Outer Metro,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,8.326672684688674e-17,True
+20.0,POINT COOK,Outer Metro,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.07047023586968784,True
+20.0,POINT COOK,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.034501983798113964,True
+20.0,POINT COOK,Outer Metro,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,SYDENHAM,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,SYDENHAM,Outer Metro,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.04068209134615386,True
+20.0,SYDENHAM,Outer Metro,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,TARNEIT,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0899979082280451,True
+20.0,TARNEIT,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,TARNEIT,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.037089403711208516,True
+20.0,TARNEIT,Outer Metro,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,SUNBURY,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08275099009900991,True
+20.0,SUNBURY,Peri-urban,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,SUNBURY,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.04111826798272736,True
+20.0,SUNBURY,Peri-urban,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,WERRIBEE,Peri-urban,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,WERRIBEE,Peri-urban,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.075536535386694,True
+20.0,WERRIBEE,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.036523294748431856,True
+20.0,WERRIBEE,Peri-urban,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,EVELYN,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08808072534330724,True
+20.0,EVELYN,Peri-urban,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,EVELYN,Peri-urban,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,EVELYN,Peri-urban,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,MONBULK,Peri-urban,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,MONBULK,Peri-urban,Round 2,IND,ALP+GRN+LNP+ON,False,full AEC row,True,0.050418354954307305,True
+20.0,MONBULK,Peri-urban,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,MONBULK,Peri-urban,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,PAKENHAM,Peri-urban,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,PAKENHAM,Peri-urban,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.0728370990566037,True
+20.0,PAKENHAM,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.03973501247778577,True
+20.0,PAKENHAM,Peri-urban,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+20.0,MORNINGTON,Peri-urban,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,MORNINGTON,Peri-urban,Round 2,GRN,ALP+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,MORNINGTON,Peri-urban,Round 3,ALP,IND+LNP+ON,False,full AEC row,True,0.04017398648648651,True
+20.0,MORNINGTON,Peri-urban,Round 4,ON,IND+LNP,False,ideology prior,False,0.0,True
+20.0,NEPEAN,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0768946782178218,True
+20.0,NEPEAN,Peri-urban,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,NEPEAN,Peri-urban,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,8.326672684688674e-17,False
+20.0,NEPEAN,Peri-urban,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,MORWELL,Provincial,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,full AEC row,False,9.71445146547012e-17,True
+20.0,MORWELL,Provincial,Round 2,IND,ALP+LNP+ON+OTH,False,full AEC row,True,0.0866272110849056,True
+20.0,MORWELL,Provincial,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.06101842570754716,True
+20.0,MORWELL,Provincial,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+20.0,GIPPSLAND EAST,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.070075,True
+20.0,GIPPSLAND EAST,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,GIPPSLAND EAST,Regional,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.0469005681818182,True
+20.0,GIPPSLAND EAST,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+20.0,GIPPSLAND SOUTH,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.07145530446955306,True
+20.0,GIPPSLAND SOUTH,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,GIPPSLAND SOUTH,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.03822585306450797,True
+20.0,GIPPSLAND SOUTH,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+20.0,BASS,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.064627125,True
+20.0,BASS,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,BASS,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.044693073935558096,True
+20.0,BASS,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+20.0,HASTINGS,Regional,Round 1,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,HASTINGS,Regional,Round 2,OTH,ALP+LNP+ON,False,ideology prior,True,0.03925930248728547,True
+20.0,HASTINGS,Regional,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,NARRACAN,Regional,Round 1,IND,ALP+GRN+LNP+ON,False,ideology prior,True,0.055339705882352944,True
+20.0,NARRACAN,Regional,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,NARRACAN,Regional,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,YAN YEAN,Peri-urban,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,6.938893903907228e-17,True
+20.0,YAN YEAN,Peri-urban,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.04462853773584906,True
+20.0,YAN YEAN,Peri-urban,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,SHEPPARTON,Provincial,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,SHEPPARTON,Provincial,Round 2,ALP,IND+LNP+ON+OTH,False,ideology prior,True,0.06993142877252254,True
+20.0,SHEPPARTON,Provincial,Round 3,OTH,IND+LNP+ON,False,ideology prior,True,0.059019984003924345,True
+20.0,SHEPPARTON,Provincial,Round 4,IND,LNP+ON,False,ON special prior,False,0.0,True
+20.0,BENDIGO EAST,Provincial,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08835884289046342,True
+20.0,BENDIGO EAST,Provincial,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,BENDIGO EAST,Provincial,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,BENDIGO EAST,Provincial,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,BENDIGO WEST,Provincial,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.07948810419408277,True
+20.0,BENDIGO WEST,Provincial,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,7.632783294297951e-17,True
+20.0,BENDIGO WEST,Provincial,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.0502388872112776,True
+20.0,BENDIGO WEST,Provincial,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,EILDON,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0763832191780822,True
+20.0,EILDON,Regional,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,EILDON,Regional,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,EILDON,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+20.0,EUROA,Regional,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,EUROA,Regional,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.047105113636363646,True
+20.0,EUROA,Regional,Round 3,ALP,LNP+ON,False,ON special prior,False,0.0,True
+20.0,MACEDON,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06633375000000002,True
+20.0,MACEDON,Regional,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,MACEDON,Regional,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,MACEDON,Regional,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,BENAMBRA,Regional,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,BENAMBRA,Regional,Round 2,ALP,IND+LNP+ON+OTH,False,ideology prior,True,0.05597484110169489,True
+20.0,BENAMBRA,Regional,Round 3,OTH,IND+LNP+ON,False,ideology prior,True,0.041435584317634735,True
+20.0,BENAMBRA,Regional,Round 4,ON,IND+LNP,False,ideology prior,False,0.0,True
+20.0,OVENS VALLEY,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.070075,True
+20.0,OVENS VALLEY,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,OVENS VALLEY,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.04537547589300647,True
+20.0,OVENS VALLEY,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+20.0,MILDURA,Regional,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,MILDURA,Regional,Round 2,OTH,ALP+IND+LNP+ON,False,full AEC row,True,0.04518914473684211,True
+20.0,MILDURA,Regional,Round 3,ALP,IND+LNP+ON,False,full AEC row,True,0.045989141949152545,True
+20.0,MILDURA,Regional,Round 4,ON,IND+LNP,False,ideology prior,False,0.0,True
+20.0,MURRAY PLAINS,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.078353625,True
+20.0,MURRAY PLAINS,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,MURRAY PLAINS,Regional,Round 3,ALP,LNP+ON+OTH,False,ideology prior,True,0.07167949507389165,True
+20.0,MURRAY PLAINS,Regional,Round 4,OTH,LNP+ON,False,ON special prior,False,0.0,True
+20.0,LARA,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.05610865170675483,True
+20.0,LARA,Peri-urban,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,8.326672684688674e-17,True
+20.0,LARA,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.0414566318865033,True
+20.0,LARA,Peri-urban,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,MELTON,Peri-urban,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,full AEC row,False,6.938893903907228e-17,True
+20.0,MELTON,Peri-urban,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.038137180070514184,True
+20.0,MELTON,Peri-urban,Round 3,LNP,ALP+IND+ON,False,ideology prior,True,0.023913461538461564,True
+20.0,MELTON,Peri-urban,Round 4,IND,ALP+ON,False,ON special prior,False,0.0,True
+20.0,BELLARINE,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.061057277227722785,True
+20.0,BELLARINE,Peri-urban,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,8.326672684688674e-17,False
+20.0,BELLARINE,Peri-urban,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,8.326672684688674e-17,False
+20.0,BELLARINE,Peri-urban,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,WENDOUREE,Provincial,Round 1,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,WENDOUREE,Provincial,Round 2,OTH,ALP+LNP+ON,False,ideology prior,True,0.04801778208401662,True
+20.0,WENDOUREE,Provincial,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,GEELONG,Provincial,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,7.632783294297951e-17,False
+20.0,GEELONG,Provincial,Round 2,IND,ALP+GRN+LNP+ON,False,ideology prior,True,0.05282491145793322,True
+20.0,GEELONG,Provincial,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,GEELONG,Provincial,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,SOUTH BARWON,Provincial,Round 1,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,SOUTH BARWON,Provincial,Round 2,OTH,ALP+LNP+ON,False,ideology prior,True,0.04834967413359835,True
+20.0,SOUTH BARWON,Provincial,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,EUREKA,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0784650109989001,True
+20.0,EUREKA,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,EUREKA,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.03932333041506067,True
+20.0,EUREKA,Regional,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,RIPON,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.07958060240963856,True
+20.0,RIPON,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+20.0,RIPON,Regional,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.03950284090909093,True
+20.0,RIPON,Regional,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+20.0,LOWAN,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.07233565,True
+20.0,LOWAN,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,LOWAN,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.04000727486251966,True
+20.0,LOWAN,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+20.0,POLWARTH,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.0705792079207921,True
+20.0,POLWARTH,Regional,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,POLWARTH,Regional,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+20.0,POLWARTH,Regional,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+20.0,SOUTH-WEST COAST,Regional,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+20.0,SOUTH-WEST COAST,Regional,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.03796879820636423,True
+20.0,SOUTH-WEST COAST,Regional,Round 3,ALP,IND+LNP+ON,False,ideology prior,True,0.04947828389830511,True
+20.0,SOUTH-WEST COAST,Regional,Round 4,ON,IND+LNP,False,ideology prior,False,0.0,True
+24.4,BOX HILL,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09097948113207546,True
+24.4,BOX HILL,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,BOX HILL,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,BOX HILL,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,BULLEEN,Middle Ring,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,6.938893903907228e-17,False
+24.4,BULLEEN,Middle Ring,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,BULLEEN,Middle Ring,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,GLEN WAVERLEY,Middle Ring,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,GLEN WAVERLEY,Middle Ring,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,GLEN WAVERLEY,Middle Ring,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,IVANHOE,Middle Ring,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,6.938893903907228e-17,False
+24.4,IVANHOE,Middle Ring,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,IVANHOE,Middle Ring,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,BUNDOORA,Middle Ring,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,BUNDOORA,Middle Ring,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,BUNDOORA,Middle Ring,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,BAYSWATER,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.056784720112894364,True
+24.4,BAYSWATER,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,7.632783294297951e-17,True
+24.4,BAYSWATER,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.040663879124791164,True
+24.4,BAYSWATER,Outer Metro,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,CROYDON,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,CROYDON,Outer Metro,Round 2,OTH,ALP+LNP+ON,False,ideology prior,True,0.03840234128921173,True
+24.4,CROYDON,Outer Metro,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,RINGWOOD,Outer Metro,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,RINGWOOD,Outer Metro,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,RINGWOOD,Outer Metro,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,WARRANDYTE,Outer Metro,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,WARRANDYTE,Outer Metro,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,WARRANDYTE,Outer Metro,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,ELTHAM,Outer Metro,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,ELTHAM,Outer Metro,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,ELTHAM,Outer Metro,Round 3,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,MILL PARK,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+24.4,MILL PARK,Outer Metro,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.048912259615384604,True
+24.4,MILL PARK,Outer Metro,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,BRUNSWICK,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.07165250000000001,True
+24.4,BRUNSWICK,Inner Ring,Round 2,LNP,ALP+GRN+ON+OTH,False,ideology prior,True,0.039962284090909045,True
+24.4,BRUNSWICK,Inner Ring,Round 3,OTH,ALP+GRN+ON,False,ideology prior,True,0.019540223935854098,True
+24.4,BRUNSWICK,Inner Ring,Round 4,ON,ALP+GRN,False,ideology prior,False,0.0,True
+24.4,NORTHCOTE,Inner Ring,Round 1,LNP,ALP+GRN+ON+OTH,False,ideology prior,True,0.04024506818181814,True
+24.4,NORTHCOTE,Inner Ring,Round 2,OTH,ALP+GRN+ON,False,ideology prior,True,0.01999372492630863,True
+24.4,NORTHCOTE,Inner Ring,Round 3,ON,ALP+GRN,False,ideology prior,False,0.0,True
+24.4,MELBOURNE,Inner Ring,Round 1,LNP,ALP+GRN+ON+OTH,False,ideology prior,True,0.03982196590909086,True
+24.4,MELBOURNE,Inner Ring,Round 2,OTH,ALP+GRN+ON,False,ideology prior,True,0.019816652793862174,True
+24.4,MELBOURNE,Inner Ring,Round 3,ON,ALP+GRN,False,ideology prior,False,0.0,True
+24.4,RICHMOND,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08721224377562249,True
+24.4,RICHMOND,Inner Ring,Round 2,LNP,ALP+GRN+ON+OTH,False,ideology prior,True,0.03982840909090908,True
+24.4,RICHMOND,Inner Ring,Round 3,OTH,ALP+GRN+ON,False,ideology prior,True,0.020310795233106693,True
+24.4,RICHMOND,Inner Ring,Round 4,ON,ALP+GRN,False,ideology prior,False,0.0,True
+24.4,ESSENDON,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.05988207547169812,True
+24.4,ESSENDON,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,ESSENDON,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,7.632783294297951e-17,False
+24.4,ESSENDON,Middle Ring,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,PASCOE VALE,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06965601415094338,True
+24.4,PASCOE VALE,Middle Ring,Round 2,LNP,ALP+GRN+ON+OTH,False,ideology prior,True,0.03620686363636365,True
+24.4,PASCOE VALE,Middle Ring,Round 3,OTH,ALP+GRN+ON,False,ideology prior,True,0.014293583498606308,True
+24.4,PASCOE VALE,Middle Ring,Round 4,GRN,ALP+ON,False,ON special prior,False,0.0,True
+24.4,PRESTON,Middle Ring,Round 1,LNP,ALP+GRN+IND+ON+OTH,False,ideology prior,True,0.03688429687500001,True
+24.4,PRESTON,Middle Ring,Round 2,IND,ALP+GRN+ON+OTH,False,ideology prior,True,0.03670396830533887,True
+24.4,PRESTON,Middle Ring,Round 3,OTH,ALP+GRN+ON,False,ideology prior,True,0.014667315747299084,True
+24.4,PRESTON,Middle Ring,Round 4,GRN,ALP+ON,False,ON special prior,False,0.0,True
+24.4,BROADMEADOWS,Outer Metro,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,8.326672684688674e-17,True
+24.4,BROADMEADOWS,Outer Metro,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.09668648812026914,True
+24.4,BROADMEADOWS,Outer Metro,Round 3,LNP,ALP+ON+OTH,False,ideology prior,True,0.05260683760683767,True
+24.4,BROADMEADOWS,Outer Metro,Round 4,OTH,ALP+ON,False,ON special prior,False,0.0,True
+24.4,GREENVALE,Outer Metro,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,GREENVALE,Outer Metro,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.08989008015041075,True
+24.4,GREENVALE,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.03993389423076921,True
+24.4,GREENVALE,Outer Metro,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,THOMASTOWN,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.05988207547169812,True
+24.4,THOMASTOWN,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+24.4,THOMASTOWN,Outer Metro,Round 3,LNP,ALP+ON+OTH,False,ideology prior,True,0.05260683760683767,True
+24.4,THOMASTOWN,Outer Metro,Round 4,OTH,ALP+ON,False,ON special prior,False,0.0,True
+24.4,KALKALLO,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08244259698247051,True
+24.4,KALKALLO,Peri-urban,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+24.4,KALKALLO,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.04327535377358492,True
+24.4,KALKALLO,Peri-urban,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,CLARINDA,Middle Ring,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,CLARINDA,Middle Ring,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.03907756677432001,True
+24.4,CLARINDA,Middle Ring,Round 3,IND,ALP+LNP+ON,False,full AEC row,True,0.06878437500000002,True
+24.4,CLARINDA,Middle Ring,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,MORDIALLOC,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.06030794811320755,True
+24.4,MORDIALLOC,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,MORDIALLOC,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,MORDIALLOC,Middle Ring,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,MULGRAVE,Middle Ring,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,MULGRAVE,Middle Ring,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.05099678036374461,True
+24.4,MULGRAVE,Middle Ring,Round 3,LNP,ALP+IND+ON,False,full AEC row,True,0.02906829545454548,True
+24.4,MULGRAVE,Middle Ring,Round 4,IND,ALP+ON,False,ON special prior,False,0.0,True
+24.4,ROWVILLE,Outer Metro,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,6.245004513516506e-17,False
+24.4,ROWVILLE,Outer Metro,Round 2,GRN,ALP+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,ROWVILLE,Outer Metro,Round 3,IND,ALP+LNP+ON,False,full AEC row,True,0.07070408653846155,True
+24.4,ROWVILLE,Outer Metro,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,CRANBOURNE,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,9.71445146547012e-17,True
+24.4,CRANBOURNE,Outer Metro,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.04459435096153844,True
+24.4,CRANBOURNE,Outer Metro,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,DANDENONG,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+24.4,DANDENONG,Outer Metro,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.041862980769230784,True
+24.4,DANDENONG,Outer Metro,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,NARRE WARREN NORTH,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0900339895255757,True
+24.4,NARRE WARREN NORTH,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+24.4,NARRE WARREN NORTH,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.04684795673076923,True
+24.4,NARRE WARREN NORTH,Outer Metro,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,NARRE WARREN SOUTH,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+24.4,NARRE WARREN SOUTH,Outer Metro,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.048452524038461564,True
+24.4,NARRE WARREN SOUTH,Outer Metro,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,FRANKSTON,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09245212264150943,True
+24.4,FRANKSTON,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,FRANKSTON,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.046478365384615375,True
+24.4,FRANKSTON,Outer Metro,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,BERWICK,Peri-urban,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,BERWICK,Peri-urban,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,BERWICK,Peri-urban,Round 3,ALP,LNP+ON,False,ON special prior,False,0.0,True
+24.4,CARRUM,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09792976080992995,True
+24.4,CARRUM,Peri-urban,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,9.020562075079397e-17,True
+24.4,CARRUM,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.04118695941513642,True
+24.4,CARRUM,Peri-urban,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,ALBERT PARK,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.0537730198019802,True
+24.4,ALBERT PARK,Inner Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,ALBERT PARK,Inner Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,BRIGHTON,Inner Ring,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,7.28583859910259e-17,False
+24.4,BRIGHTON,Inner Ring,Round 2,IND,ALP+GRN+LNP+ON,False,full AEC row,True,0.0391325,True
+24.4,BRIGHTON,Inner Ring,Round 3,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,CAULFIELD,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.051566000000000015,True
+24.4,CAULFIELD,Inner Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,CAULFIELD,Inner Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,CAULFIELD,Inner Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,PRAHRAN,Inner Ring,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,PRAHRAN,Inner Ring,Round 2,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,HAWTHORN,Inner Ring,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,HAWTHORN,Inner Ring,Round 2,ON,ALP+GRN+IND+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,KEW,Inner Ring,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,KEW,Inner Ring,Round 2,GRN,ALP+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,KEW,Inner Ring,Round 3,ON,ALP+IND+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,MALVERN,Inner Ring,Round 1,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,MALVERN,Inner Ring,Round 2,ON,ALP+GRN+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,BENTLEIGH,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06608738207547166,True
+24.4,BENTLEIGH,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,BENTLEIGH,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,BENTLEIGH,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,SANDRINGHAM,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.05581481132075465,True
+24.4,SANDRINGHAM,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,SANDRINGHAM,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,SANDRINGHAM,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,ASHWOOD,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08367051886792451,True
+24.4,ASHWOOD,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,ASHWOOD,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,ASHWOOD,Middle Ring,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,OAKLEIGH,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.060251132075471704,True
+24.4,OAKLEIGH,Middle Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,OAKLEIGH,Middle Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,OAKLEIGH,Middle Ring,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,FOOTSCRAY,Inner Ring,Round 1,LNP,ALP+GRN+ON+OTH,False,ideology prior,True,0.04012049999999995,True
+24.4,FOOTSCRAY,Inner Ring,Round 2,OTH,ALP+GRN+ON,False,ideology prior,True,0.019974735722993534,True
+24.4,FOOTSCRAY,Inner Ring,Round 3,ON,ALP+GRN,False,ideology prior,False,0.0,True
+24.4,WILLIAMSTOWN,Inner Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.05990000000000001,True
+24.4,WILLIAMSTOWN,Inner Ring,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,WILLIAMSTOWN,Inner Ring,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,WILLIAMSTOWN,Inner Ring,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,LAVERTON,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.09358523352335232,True
+24.4,LAVERTON,Middle Ring,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,LAVERTON,Middle Ring,Round 3,LNP,ALP+ON+OTH,False,ideology prior,True,0.05260683760683767,True
+24.4,LAVERTON,Middle Ring,Round 4,OTH,ALP+ON,False,ON special prior,False,0.0,True
+24.4,NIDDRIE,Middle Ring,Round 1,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,NIDDRIE,Middle Ring,Round 2,OTH,ALP+LNP+ON,False,ideology prior,True,0.04485932051368027,True
+24.4,NIDDRIE,Middle Ring,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,ST ALBANS,Middle Ring,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06797701232387386,True
+24.4,ST ALBANS,Middle Ring,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,ST ALBANS,Middle Ring,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.045275245436081676,True
+24.4,ST ALBANS,Middle Ring,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,KOROROIT,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08795695843169221,True
+24.4,KOROROIT,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,6.938893903907228e-17,True
+24.4,KOROROIT,Outer Metro,Round 3,LNP,ALP+ON+OTH,False,ideology prior,True,0.05260683760683767,True
+24.4,KOROROIT,Outer Metro,Round 4,OTH,ALP+ON,False,ON special prior,False,0.0,True
+24.4,POINT COOK,Outer Metro,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,8.326672684688674e-17,True
+24.4,POINT COOK,Outer Metro,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.07047023586968784,True
+24.4,POINT COOK,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.034501983798113964,True
+24.4,POINT COOK,Outer Metro,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,SYDENHAM,Outer Metro,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+24.4,SYDENHAM,Outer Metro,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.04068209134615386,True
+24.4,SYDENHAM,Outer Metro,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,TARNEIT,Outer Metro,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0899979082280451,True
+24.4,TARNEIT,Outer Metro,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,TARNEIT,Outer Metro,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.037089403711208516,True
+24.4,TARNEIT,Outer Metro,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,SUNBURY,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08275099009900991,True
+24.4,SUNBURY,Peri-urban,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,SUNBURY,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.04111826798272736,True
+24.4,SUNBURY,Peri-urban,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,WERRIBEE,Peri-urban,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,WERRIBEE,Peri-urban,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.075536535386694,True
+24.4,WERRIBEE,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.036523294748431856,True
+24.4,WERRIBEE,Peri-urban,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,EVELYN,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08808072534330724,True
+24.4,EVELYN,Peri-urban,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,EVELYN,Peri-urban,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,EVELYN,Peri-urban,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,MONBULK,Peri-urban,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,MONBULK,Peri-urban,Round 2,IND,ALP+GRN+LNP+ON,False,full AEC row,True,0.050418354954307305,True
+24.4,MONBULK,Peri-urban,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,MONBULK,Peri-urban,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,PAKENHAM,Peri-urban,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,PAKENHAM,Peri-urban,Round 2,IND,ALP+LNP+ON+OTH,False,ideology prior,True,0.0728370990566037,True
+24.4,PAKENHAM,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.03973501247778577,True
+24.4,PAKENHAM,Peri-urban,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+24.4,MORNINGTON,Peri-urban,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,MORNINGTON,Peri-urban,Round 2,GRN,ALP+IND+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,MORNINGTON,Peri-urban,Round 3,ALP,IND+LNP+ON,False,full AEC row,True,0.04017398648648651,True
+24.4,MORNINGTON,Peri-urban,Round 4,ON,IND+LNP,False,ideology prior,False,0.0,True
+24.4,NEPEAN,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0768946782178218,True
+24.4,NEPEAN,Peri-urban,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,NEPEAN,Peri-urban,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,8.326672684688674e-17,False
+24.4,NEPEAN,Peri-urban,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+24.4,MORWELL,Provincial,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,full AEC row,False,9.71445146547012e-17,True
+24.4,MORWELL,Provincial,Round 2,IND,ALP+LNP+ON+OTH,False,full AEC row,True,0.0866272110849056,True
+24.4,MORWELL,Provincial,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.06101842570754716,True
+24.4,MORWELL,Provincial,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+24.4,GIPPSLAND EAST,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.070075,True
+24.4,GIPPSLAND EAST,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+24.4,GIPPSLAND EAST,Regional,Round 3,ALP,LNP+ON+OTH,False,ideology prior,True,0.07167949507389165,True
+24.4,GIPPSLAND EAST,Regional,Round 4,OTH,LNP+ON,False,ON special prior,False,0.0,True
+24.4,GIPPSLAND SOUTH,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.07145530446955306,True
+24.4,GIPPSLAND SOUTH,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,GIPPSLAND SOUTH,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.03822585306450797,True
+24.4,GIPPSLAND SOUTH,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+24.4,BASS,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.064627125,True
+24.4,BASS,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,BASS,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.044693073935558096,True
+24.4,BASS,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+24.4,HASTINGS,Regional,Round 1,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,HASTINGS,Regional,Round 2,OTH,ALP+LNP+ON,False,ideology prior,True,0.03925930248728547,True
+24.4,HASTINGS,Regional,Round 3,ALP,LNP+ON,False,ON special prior,False,0.0,True
+24.4,NARRACAN,Regional,Round 1,IND,ALP+GRN+LNP+ON,False,ideology prior,True,0.055339705882352944,True
+24.4,NARRACAN,Regional,Round 2,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,NARRACAN,Regional,Round 3,ALP,LNP+ON,False,ON special prior,False,0.0,True
+24.4,YAN YEAN,Peri-urban,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,6.938893903907228e-17,True
+24.4,YAN YEAN,Peri-urban,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.04462853773584906,True
+24.4,YAN YEAN,Peri-urban,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,SHEPPARTON,Provincial,Round 1,ALP,IND+LNP+ON+OTH,False,ideology prior,True,0.06993142877252254,True
+24.4,SHEPPARTON,Provincial,Round 2,OTH,IND+LNP+ON,False,ideology prior,True,0.059019984003924345,True
+24.4,SHEPPARTON,Provincial,Round 3,IND,LNP+ON,False,ON special prior,False,0.0,True
+24.4,BENDIGO EAST,Provincial,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.08835884289046342,True
+24.4,BENDIGO EAST,Provincial,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,BENDIGO EAST,Provincial,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,BENDIGO EAST,Provincial,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,BENDIGO WEST,Provincial,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.07948810419408277,True
+24.4,BENDIGO WEST,Provincial,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,7.632783294297951e-17,True
+24.4,BENDIGO WEST,Provincial,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.0502388872112776,True
+24.4,BENDIGO WEST,Provincial,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,EILDON,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0763832191780822,True
+24.4,EILDON,Regional,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,EILDON,Regional,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,EILDON,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+24.4,EUROA,Regional,Round 1,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+24.4,EUROA,Regional,Round 2,OTH,ALP+LNP+ON,False,full AEC row,True,0.047105113636363646,True
+24.4,EUROA,Regional,Round 3,ALP,LNP+ON,False,ON special prior,False,0.0,True
+24.4,MACEDON,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.06633375000000002,True
+24.4,MACEDON,Regional,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,MACEDON,Regional,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,MACEDON,Regional,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,BENAMBRA,Regional,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,BENAMBRA,Regional,Round 2,ALP,IND+LNP+ON+OTH,False,ideology prior,True,0.05597484110169489,True
+24.4,BENAMBRA,Regional,Round 3,OTH,IND+LNP+ON,False,ideology prior,True,0.041435584317634735,True
+24.4,BENAMBRA,Regional,Round 4,IND,LNP+ON,False,ON special prior,False,0.0,True
+24.4,OVENS VALLEY,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.070075,True
+24.4,OVENS VALLEY,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,OVENS VALLEY,Regional,Round 3,ALP,LNP+ON+OTH,False,ideology prior,True,0.07167949507389165,True
+24.4,OVENS VALLEY,Regional,Round 4,OTH,LNP+ON,False,ON special prior,False,0.0,True
+24.4,MILDURA,Regional,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,full AEC row,False,0.0,True
+24.4,MILDURA,Regional,Round 2,ALP,IND+LNP+ON+OTH,False,ideology prior,True,0.0574132680084746,True
+24.4,MILDURA,Regional,Round 3,OTH,IND+LNP+ON,False,ideology prior,True,0.046852877739977164,True
+24.4,MILDURA,Regional,Round 4,LNP,IND+ON,False,ideology prior,True,0.019687500000000024,True
+24.4,MURRAY PLAINS,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.078353625,True
+24.4,MURRAY PLAINS,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+24.4,MURRAY PLAINS,Regional,Round 3,ALP,LNP+ON+OTH,False,ideology prior,True,0.07167949507389165,True
+24.4,MURRAY PLAINS,Regional,Round 4,OTH,LNP+ON,False,ON special prior,False,0.0,True
+24.4,LARA,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.05610865170675483,True
+24.4,LARA,Peri-urban,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,8.326672684688674e-17,True
+24.4,LARA,Peri-urban,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.0414566318865033,True
+24.4,LARA,Peri-urban,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,MELTON,Peri-urban,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,full AEC row,False,6.938893903907228e-17,True
+24.4,MELTON,Peri-urban,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.038137180070514184,True
+24.4,MELTON,Peri-urban,Round 3,LNP,ALP+IND+ON,False,ideology prior,True,0.023913461538461564,True
+24.4,MELTON,Peri-urban,Round 4,IND,ALP+ON,False,ON special prior,False,0.0,True
+24.4,BELLARINE,Peri-urban,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.061057277227722785,True
+24.4,BELLARINE,Peri-urban,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,8.326672684688674e-17,False
+24.4,BELLARINE,Peri-urban,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,8.326672684688674e-17,False
+24.4,BELLARINE,Peri-urban,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,WENDOUREE,Provincial,Round 1,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,WENDOUREE,Provincial,Round 2,OTH,ALP+LNP+ON,False,ideology prior,True,0.04801778208401662,True
+24.4,WENDOUREE,Provincial,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,GEELONG,Provincial,Round 1,OTH,ALP+GRN+IND+LNP+ON,True,federal ON evidence trial,False,7.632783294297951e-17,False
+24.4,GEELONG,Provincial,Round 2,IND,ALP+GRN+LNP+ON,False,ideology prior,True,0.05282491145793322,True
+24.4,GEELONG,Provincial,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,GEELONG,Provincial,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,SOUTH BARWON,Provincial,Round 1,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,SOUTH BARWON,Provincial,Round 2,OTH,ALP+LNP+ON,False,ideology prior,True,0.04834967413359835,True
+24.4,SOUTH BARWON,Provincial,Round 3,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,EUREKA,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.0784650109989001,True
+24.4,EUREKA,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,EUREKA,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.03932333041506067,True
+24.4,EUREKA,Regional,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,RIPON,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,full AEC row,True,0.07958060240963856,True
+24.4,RIPON,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,full AEC row,False,0.0,True
+24.4,RIPON,Regional,Round 3,OTH,ALP+LNP+ON,False,full AEC row,True,0.03950284090909093,True
+24.4,RIPON,Regional,Round 4,LNP,ALP+ON,False,ON special prior,False,0.0,True
+24.4,LOWAN,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.07233565,True
+24.4,LOWAN,Regional,Round 2,GRN,ALP+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,LOWAN,Regional,Round 3,OTH,ALP+LNP+ON,False,ideology prior,True,0.04000727486251966,True
+24.4,LOWAN,Regional,Round 4,ALP,LNP+ON,False,ON special prior,False,0.0,True
+24.4,POLWARTH,Regional,Round 1,IND,ALP+GRN+LNP+ON+OTH,False,ideology prior,True,0.0705792079207921,True
+24.4,POLWARTH,Regional,Round 2,OTH,ALP+GRN+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,POLWARTH,Regional,Round 3,GRN,ALP+LNP+ON,True,federal ON evidence trial,False,0.0,False
+24.4,POLWARTH,Regional,Round 4,ON,ALP+LNP,True,federal ON evidence trial,False,0.0,False
+24.4,SOUTH-WEST COAST,Regional,Round 1,GRN,ALP+IND+LNP+ON+OTH,False,ideology prior,False,0.0,True
+24.4,SOUTH-WEST COAST,Regional,Round 2,OTH,ALP+IND+LNP+ON,False,ideology prior,True,0.03796879820636423,True
+24.4,SOUTH-WEST COAST,Regional,Round 3,ALP,IND+LNP+ON,False,ideology prior,True,0.04947828389830511,True
+24.4,SOUTH-WEST COAST,Regional,Round 4,ON,IND+LNP,False,ideology prior,False,0.0,True
