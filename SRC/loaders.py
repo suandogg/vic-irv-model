@@ -109,3 +109,66 @@ def load_seat_helper(filename="SEAT HELPER.csv") -> pd.DataFrame:
     keep_columns = [col for col in keep_columns if col in df.columns]
 
     return df[keep_columns].reset_index(drop=True)
+
+
+HELD_PARTY_ALIASES = {
+    "LABOR": "ALP",
+    "LIBERAL": "LNP",
+    "NATIONAL": "LNP",
+    "NATIONALS": "LNP",
+    "GREENS": "GRN",
+    "INDEPENDENT": "IND",
+    "OTHER": "OTH",
+    "ONE NATION": "ON",
+}
+
+
+def normalise_held_party(value: str) -> str:
+    party = str(value).strip().upper()
+    return HELD_PARTY_ALIASES.get(party, party)
+
+
+def load_seat_held_metadata(filename="SEAT HELPER.csv") -> pd.DataFrame:
+    """Load only district and held-party metadata from SEAT HELPER.
+
+    No vote, preference, weight, or adjusted-result column is read into the
+    returned frame, keeping SEAT HELPER outside the calculation pipeline.
+    """
+    raw = read_csv_raw(filename)
+    required = {"Seat Name", "Region", "Held by"}
+    missing = sorted(required.difference(raw.columns))
+    if missing:
+        raise ValueError(f"SEAT HELPER metadata missing columns: {missing}")
+
+    metadata = raw.loc[:, ["Seat Name", "Region", "Held by"]].copy()
+    metadata.columns = ["district", "region", "held_by"]
+    metadata = metadata.dropna(subset=["district", "region", "held_by"])
+    metadata["region"] = metadata["region"].astype(str).str.strip()
+    metadata = metadata[metadata["region"].isin(VALID_REGIONS)].copy()
+    metadata["district"] = metadata["district"].astype(str).str.strip()
+    metadata["held_by"] = metadata["held_by"].apply(normalise_held_party)
+    metadata = metadata.drop_duplicates(subset="district", keep="first")
+
+    if len(metadata) != 88:
+        raise ValueError(
+            f"SEAT HELPER must provide held-party metadata for 88 districts; "
+            f"found {len(metadata)}"
+        )
+    invalid = sorted(set(metadata["held_by"]) - {"ALP", "LNP", "GRN", "ON", "IND", "OTH"})
+    if invalid:
+        raise ValueError(f"Invalid held-party values in SEAT HELPER: {invalid}")
+    return metadata[["district", "held_by"]].reset_index(drop=True)
+
+
+def apply_seat_held_metadata(
+    primary_inputs: pd.DataFrame,
+    held_metadata: pd.DataFrame,
+) -> pd.DataFrame:
+    """Overlay authoritative held-party metadata without touching vote inputs."""
+    lookup = held_metadata.set_index("district")["held_by"]
+    missing = sorted(set(primary_inputs["district"]) - set(lookup.index))
+    if missing:
+        raise ValueError(f"SEAT HELPER held-party metadata missing districts: {missing}")
+    out = primary_inputs.copy()
+    out["held_by"] = out["district"].map(lookup)
+    return out

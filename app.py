@@ -15,6 +15,8 @@ except ImportError:
 
 from SRC.transform import build_primary_vote_table
 from SRC.legacy_primary_loader import load_legacy_primary_inputs
+from SRC.loaders import load_seat_held_metadata, apply_seat_held_metadata
+from SRC.display_metrics import held_party_2cp_swing
 from SRC.legacy_primary_model import build_corrected_primary_table
 from SRC.matrix_loader import load_synth_pref_matrices
 from SRC.params_loader import load_params
@@ -176,29 +178,6 @@ def clean_baseline_value(value):
     return value
 
 
-def model_baseline_swing(row, baseline_lookup):
-    district = row["district"]
-    winner = row["winner"]
-
-    if district not in baseline_lookup.index:
-        return None
-
-    baseline_row = baseline_lookup.loc[district]
-    winner_col = f"{winner}_2CP"
-
-    if winner_col not in baseline_row.index:
-        return None
-
-    baseline_winner = clean_baseline_value(baseline_row[winner_col])
-
-    if baseline_winner is None:
-        return None
-
-    current_winner = float(row["winner_pct"])
-
-    return (current_winner - baseline_winner) * 100
-
-
 def render_result_table(df):
     log_checkpoint(f"render_result_table start rows={len(df)} cols={len(df.columns)}")
 
@@ -255,6 +234,10 @@ def load_static_inputs():
         f"errors={len(sync_status.get('errors', []))}"
     )
     primary_inputs = load_legacy_primary_inputs()
+    primary_inputs = apply_seat_held_metadata(
+        primary_inputs,
+        load_seat_held_metadata(),
+    )
     log_checkpoint(f"loaded primary_inputs rows={len(primary_inputs)}")
     matrices = load_synth_pref_matrices()
     log_checkpoint(f"loaded matrices count={len(matrices)}")
@@ -331,7 +314,7 @@ def build_display_df(results_df, baseline_lookup):
     display_df = results_df.copy()
 
     display_df["2CP Swing %"] = display_df.apply(
-        lambda row: model_baseline_swing(row, baseline_lookup),
+        lambda row: held_party_2cp_swing(row, baseline_lookup),
         axis=1
     )
 
