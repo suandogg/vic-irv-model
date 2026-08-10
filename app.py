@@ -23,6 +23,7 @@ from SRC.params_loader import load_params
 from SRC.posterior_loader import load_posterior_scenarios
 from SRC.ideology_loader import load_ideology_prior
 from SRC.federal_on_evidence_loader import apply_production_federal_on_evidence
+from SRC.lnp_precollapse_loader import apply_lnp_precollapse
 from SRC.baseline_loader import load_baseline_2cp
 from SRC.baseline_region_loader import load_baseline_region_summary
 from SRC.live_sheet_sync import sync_inputs_from_google_sheet
@@ -291,6 +292,7 @@ def run_model(primary_inputs, matrices, params, posterior, ideology, targets):
         targets=targets,
         on_alpha=on_alpha,
     )
+    adjusted = apply_lnp_precollapse(adjusted)
     log_checkpoint("run_model adjusted primaries")
 
     primary_votes = build_primary_vote_table(adjusted)
