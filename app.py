@@ -269,10 +269,22 @@ def load_static_inputs():
     )
 
 
+def params_for_scenario(params, targets):
+    scenario_params = dict(params)
+    scenario_params["scalar_params"] = dict(params.get("scalar_params", {}))
+    target_total = sum(max(0.0, float(value)) for value in targets.values())
+    scenario_params["scalar_params"]["SCENARIO_ON_PRIMARY"] = (
+        max(0.0, float(targets.get("ON", 0.0))) / target_total * 100
+        if target_total > 0 else 0.0
+    )
+    return scenario_params
+
+
 def run_model(primary_inputs, matrices, params, posterior, ideology, targets):
     log_checkpoint(f"run_model start targets={targets}")
+    scenario_params = params_for_scenario(params, targets)
     on_alpha = float(
-        params.get("scalar_params", {}).get("ON alpha", 0.6) or 0.6
+        scenario_params.get("scalar_params", {}).get("ON alpha", 0.6) or 0.6
     )
     adjusted = build_corrected_primary_table(
         primary_inputs=primary_inputs,
@@ -287,14 +299,6 @@ def run_model(primary_inputs, matrices, params, posterior, ideology, targets):
     # OTH voters who remain after ON has grown are expected to be less
     # ON-friendly. Pass the normalised scenario vote into the preference
     # engine; the adjustment itself remains controlled by PARAMS.
-    scenario_params = dict(params)
-    scenario_params["scalar_params"] = dict(params.get("scalar_params", {}))
-    target_total = sum(max(0.0, float(value)) for value in targets.values())
-    scenario_params["scalar_params"]["SCENARIO_ON_PRIMARY"] = (
-        max(0.0, float(targets.get("ON", 0.0))) / target_total * 100
-        if target_total > 0 else 0.0
-    )
-
     results = run_irv_all(
         primary_votes_df=primary_votes,
         matrices=matrices,
@@ -453,6 +457,8 @@ results_df, adjusted_seat_helper = run_model(
     ideology,
     targets,
 )
+
+active_scenario_params = params_for_scenario(params, targets)
 
 if selected_view == "Statewide":
     view_results_df = results_df.copy()
@@ -681,7 +687,7 @@ else:
         district_votes=district_votes,
         matrix=matrix,
         seat_type=seat_row["seat_type"],
-        params=params,
+        params=active_scenario_params,
         posterior=posterior,
         ideology=ideology,
     )
@@ -725,7 +731,7 @@ else:
             district_votes=district_votes,
             matrix=matrix,
             seat_type=seat_row["seat_type"],
-            params=params,
+            params=active_scenario_params,
             posterior=posterior,
             ideology=ideology,
         )
@@ -754,8 +760,11 @@ else:
         diagnostic_columns = [
             "stage_no",
             "stage",
+            "source",
             "basis",
             "note",
+            "evidence_seats",
+            "posterior_reliability",
             "aec_coverage",
             "aec_anchor_weight",
             "missing_parties",

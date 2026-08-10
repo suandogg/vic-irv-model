@@ -5,6 +5,17 @@ from SRC.preference_engine import (
 )
 
 
+def preference_source_category(basis: str) -> str:
+    """Map detailed engine bases to four user-facing evidence classes."""
+    if basis == "federal ON evidence trial":
+        return "Exact federal evidence"
+    if basis in {"full AEC row", "partial AEC row", "posterior scenario"}:
+        return "Victorian preference evidence"
+    if basis == "ON special prior":
+        return "Special prior"
+    return "Generic matrix or fallback"
+
+
 def district_key(name: str) -> str:
     return str(name).strip().upper()
 
@@ -55,7 +66,6 @@ def run_irv_for_district(
             posterior=posterior,
             ideology=ideology,
         )
-
         votes[eliminated] = 0
 
         for party, share in flows.items():
@@ -141,7 +151,6 @@ def run_forced_2pp_for_district(
             posterior=posterior,
             ideology=ideology,
         )
-
         votes[eliminated] = 0
 
         for party, share in flows.items():
@@ -196,7 +205,7 @@ def trace_irv_for_district(
             if party != eliminated
         ]
 
-        flows = get_preference_weights(
+        diagnostics = diagnose_preference_weights(
             eliminated_party=eliminated,
             alive_parties=alive_after,
             matrix=matrix,
@@ -205,6 +214,8 @@ def trace_irv_for_district(
             posterior=posterior,
             ideology=ideology,
         )
+        flows = diagnostics["final_flows"]
+        final_stage = diagnostics["stages"][-1]
 
         votes[eliminated] = 0
 
@@ -214,6 +225,10 @@ def trace_irv_for_district(
         trace_rows.append({
             "round": f"Round {round_no}",
             "eliminated": eliminated,
+            "source": preference_source_category(diagnostics["basis"]),
+            "basis": diagnostics["basis"],
+            "evidence_seats": final_stage.get("evidence_seats"),
+            "reliability": final_stage.get("posterior_reliability"),
             **{party: votes[party] for party in PARTIES},
             **{
                 f"{party}_flow": flows.get(party, None)
@@ -274,6 +289,7 @@ def trace_preference_diagnostics_for_district(
                 "eliminated": eliminated,
                 "eliminated_vote": eliminated_votes,
                 "alive": ">".join(alive_after),
+                "source": preference_source_category(diagnostics["basis"]),
                 **stage,
             })
 
