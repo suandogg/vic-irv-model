@@ -1,0 +1,2 @@
+ONLevel,District,SeatType,CurrentWinner,CurrentRunnerUp,CurrentWinnerPct,TrialWinner,TrialRunnerUp,TrialWinnerPct,WinnerChanged,PairChanged,WinnerPctChange,TrialActivated
+20.0,CARRUM,Peri-urban,ON,ALP,0.5007417540700347,ALP,ON,0.5035505462319988,True,True,0.0028087921619640577,True

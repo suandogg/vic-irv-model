@@ -284,10 +284,21 @@ def run_model(primary_inputs, matrices, params, posterior, ideology, targets):
     primary_votes = build_primary_vote_table(adjusted)
     log_checkpoint(f"run_model primary_votes rows={len(primary_votes)}")
 
+    # OTH voters who remain after ON has grown are expected to be less
+    # ON-friendly. Pass the normalised scenario vote into the preference
+    # engine; the adjustment itself remains controlled by PARAMS.
+    scenario_params = dict(params)
+    scenario_params["scalar_params"] = dict(params.get("scalar_params", {}))
+    target_total = sum(max(0.0, float(value)) for value in targets.values())
+    scenario_params["scalar_params"]["SCENARIO_ON_PRIMARY"] = (
+        max(0.0, float(targets.get("ON", 0.0))) / target_total * 100
+        if target_total > 0 else 0.0
+    )
+
     results = run_irv_all(
         primary_votes_df=primary_votes,
         matrices=matrices,
-        params=params,
+        params=scenario_params,
         posterior=posterior,
         ideology=ideology,
     )

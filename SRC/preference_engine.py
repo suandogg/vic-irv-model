@@ -212,6 +212,24 @@ def apply_on_siphon(vec, alive, eliminated_party, seat_type, scalars):
     elim_boost = 1
     if elim == "OTH":
         elim_boost = 1.25
+        depletion_strength = float(
+            scalars.get("OTH_ON_DONOR_DEPLETION_STRENGTH", 0.0) or 0.0
+        )
+        scenario_on = float(
+            scalars.get("SCENARIO_ON_PRIMARY", 0.28) or 0.28
+        )
+        baseline_on = float(
+            scalars.get("OTH_ON_DEPLETION_BASELINE", 0.28) or 0.28
+        )
+        reference_on = float(
+            scalars.get("OTH_ON_DEPLETION_REFERENCE", 24.4) or 24.4
+        )
+        denominator = reference_on - baseline_on
+        progress = (
+            max(0.0, min(1.0, (scenario_on - baseline_on) / denominator))
+            if denominator > 0 else 0.0
+        )
+        strength *= max(0.0, 1.0 - depletion_strength * progress)
     elif elim == "IND":
         elim_boost = 1.10
     elif elim == "LNP":
