@@ -97,6 +97,18 @@ BASELINE_2PP_2022 = {
     "LNP": 45.00,
 }
 
+UPPER_BASELINE_SEATS_2022 = {
+    "ALP": 15,
+    "LNP": 14,
+    "GRN": 4,
+    "ON": 1,
+    "AJP": 1,
+    "DLP": 1,
+    "LCV": 2,
+    "LDP": 1,
+    "SFF": 1,
+}
+
 INPUT_KEY_PREFIX = "statewide_primary_input_v1003"
 
 
@@ -477,8 +489,8 @@ if sync_status.get("errors"):
     )
 
 house_view = st.sidebar.radio(
-    "House",
-    ["Legislative Assembly", "Legislative Council"],
+    "View",
+    ["Dashboard", "Legislative Assembly", "Legislative Council"],
     horizontal=False,
 )
 
@@ -526,7 +538,7 @@ if house_view == "Legislative Council":
         width="stretch",
         hide_index=True,
         column_config={
-            "FinalTallyQuotas": st.column_config.NumberColumn("Final tally (quotas)", format="%.3f"),
+            "FinalTallyQuotas": st.column_config.NumberColumn("Tally when count concluded (quotas)", format="%.3f"),
             "FinalSeatMarginVotes": st.column_config.NumberColumn("Final-seat margin", format="%d"),
             "ExhaustedPct": st.column_config.NumberColumn("Exhausted %", format="%.2f%%"),
         },
@@ -625,6 +637,97 @@ results_df, adjusted_seat_helper, seat_adjustment_diagnostics = run_model(
     targets,
     seat_adjustments,
 )
+
+if house_view == "Dashboard":
+    upper_targets = {
+        party: float(targets[party]) / total_primary * 100
+        for party in PARTIES
+    } if total_primary > 0 else DEFAULT_STATEWIDE
+    with st.spinner("Building both-chamber dashboard..."):
+        upper_projection = run_upper_house_forecast(upper_inputs, upper_targets)
+
+    assembly_seats = results_df["winner"].value_counts().to_dict()
+    assembly_held = adjusted_seat_helper["held_by"].value_counts().to_dict()
+    alp_seats = int(assembly_seats.get("ALP", 0))
+    lnp_seats = int(assembly_seats.get("LNP", 0))
+    on_seats = int(assembly_seats.get("ON", 0))
+    if alp_seats >= 45:
+        government_result = "Labor Majority"
+    elif lnp_seats >= 45:
+        government_result = "LNP Majority"
+    elif lnp_seats + on_seats >= 45:
+        government_result = "LNP–ON Coalition"
+    else:
+        government_result = "Hung Parliament"
+
+    alp_2pp = float(results_df["ALP_2PP"].mean()) * 100
+    lnp_2pp = float(results_df["LNP_2PP"].mean()) * 100
+    alp_on_2cp = float(results_df["ALP_ON_2CP"].mean()) * 100
+    on_alp_2cp = float(results_df["ON_ALP_2CP"].mean()) * 100
+
+    st.header("Election dashboard")
+    result_col, alp_2pp_col, lnp_2pp_col, alt_col = st.columns([1.5, 1, 1, 1.35])
+    result_col.metric("Projected result", government_result)
+    alp_2pp_col.metric("ALP 2PP", f"{alp_2pp:.2f}%", f"{alp_2pp - 55:.2f} pp")
+    lnp_2pp_col.metric("LNP 2PP", f"{lnp_2pp:.2f}%", f"{lnp_2pp - 45:.2f} pp")
+    alt_col.metric("Alternate 2CP", f"ALP {alp_on_2cp:.2f}%", f"ON {on_alp_2cp:.2f}%", delta_color="off")
+
+    assembly_rows = []
+    for party in PARTIES:
+        seats = int(assembly_seats.get(party, 0))
+        held = int(assembly_held.get(party, 0))
+        assembly_rows.append({
+            "Party": party,
+            "Seats": seats,
+            "Change": seats - held,
+            "Currently held": held,
+        })
+    assembly_summary = pd.DataFrame(assembly_rows)
+
+    upper_party_family = upper_inputs["party_inputs"].set_index("PartyKey")["PartyFamily"].to_dict()
+    council_seats = {}
+    for party in upper_projection["results"]["PartyKey"]:
+        family = upper_party_family.get(party, party)
+        council_seats[family] = council_seats.get(family, 0) + 1
+    council_held = UPPER_BASELINE_SEATS_2022.copy()
+    council_parties = sorted(set(council_seats) | set(council_held))
+    council_summary = pd.DataFrame([
+        {
+            "Party": party,
+            "Seats": int(council_seats.get(party, 0)),
+            "Change": int(council_seats.get(party, 0) - council_held.get(party, 0)),
+            "Currently held": int(council_held.get(party, 0)),
+        }
+        for party in council_parties
+    ]).sort_values(["Seats", "Party"], ascending=[False, True])
+
+    assembly_col, council_col = st.columns(2)
+    with assembly_col:
+        st.subheader("Legislative Assembly · 88 seats")
+        st.caption("45 seats required for a majority")
+        st.dataframe(assembly_summary, width="stretch", hide_index=True)
+    with council_col:
+        st.subheader("Legislative Council · 40 seats")
+        st.caption("21 seats required for a chamber majority")
+        st.dataframe(council_summary, width="stretch", hide_index=True)
+
+    st.subheader("Government formation")
+    formation = pd.DataFrame([
+        {"Path": "Labor", "Seats": alp_seats, "Majority threshold": 45, "Status": "Majority" if alp_seats >= 45 else "Short"},
+        {"Path": "LNP", "Seats": lnp_seats, "Majority threshold": 45, "Status": "Majority" if lnp_seats >= 45 else "Short"},
+        {"Path": "LNP + ON", "Seats": lnp_seats + on_seats, "Majority threshold": 45, "Status": "Majority" if lnp_seats + on_seats >= 45 else "Short"},
+    ])
+    formation["Seats from majority"] = formation["Seats"] - formation["Majority threshold"]
+    st.dataframe(formation, width="stretch", hide_index=True)
+
+    with st.expander("Dashboard methodology", expanded=False):
+        st.write(
+            "Government formation is determined from the 88-seat Legislative Assembly. "
+            "The result label applies this order: Labor majority, LNP majority, "
+            "LNP–ON coalition majority, then hung parliament. Legislative Council seats "
+            "are reported separately and do not determine who forms government."
+        )
+    st.stop()
 
 with st.expander("Production diagnostics", expanded=False):
     model_primary = {
