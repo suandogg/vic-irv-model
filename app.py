@@ -34,6 +34,8 @@ from SRC.lnp_precollapse_loader import apply_lnp_precollapse
 from SRC.baseline_loader import load_baseline_2cp
 from SRC.baseline_region_loader import load_baseline_region_summary
 from SRC.live_sheet_sync import sync_inputs_from_google_sheet
+from SRC.upper_house_named_loader import load_upper_named_inputs
+from SRC.upper_house_forecast import run_upper_house_forecast
 from SRC.irv import (
     run_irv_all,
     trace_irv_for_district,
@@ -94,6 +96,8 @@ BASELINE_2PP_2022 = {
     "ALP": 55.00,
     "LNP": 45.00,
 }
+
+INPUT_KEY_PREFIX = "statewide_primary_input_v1003"
 
 
 APP_START_TIME = time.perf_counter()
@@ -269,6 +273,8 @@ def load_static_inputs():
     log_checkpoint(f"loaded seat_adjustments rows={len(seat_adjustments)}")
     poll_scenarios = load_poll_scenarios()
     log_checkpoint(f"loaded poll_scenarios rows={len(poll_scenarios)}")
+    upper_inputs = load_upper_named_inputs()
+    log_checkpoint("loaded named upper-house inputs")
 
     return (
         primary_inputs,
@@ -280,6 +286,7 @@ def load_static_inputs():
         baseline_regions,
         seat_adjustments,
         poll_scenarios,
+        upper_inputs,
         sync_status,
     )
 
@@ -454,6 +461,7 @@ st.title("Victorian IRV Election Model")
     baseline_regions,
     seat_adjustments,
     poll_scenarios,
+    upper_inputs,
     sync_status,
 ) = load_static_inputs()
 
@@ -467,6 +475,83 @@ if sync_status.get("errors"):
     st.sidebar.warning(
         "Some Google Sheet tabs could not be synced; using available CSV inputs."
     )
+
+house_view = st.sidebar.radio(
+    "House",
+    ["Legislative Assembly", "Legislative Council"],
+    horizontal=False,
+)
+
+if house_view == "Legislative Council":
+    st.header("Legislative Council forecast")
+    st.caption(
+        "Development model using named-party regional primaries, voter-controlled "
+        "preferences and candidate-level proportional counting."
+    )
+    upper_targets = {
+        party: float(st.session_state.get(f"{INPUT_KEY_PREFIX}_{party}", DEFAULT_STATEWIDE[party]))
+        for party in PARTIES
+    }
+    target_total = sum(upper_targets.values())
+    if target_total <= 0:
+        st.error("Lower-house statewide primary inputs must have a positive total.")
+        st.stop()
+    upper_targets = {party: value / target_total * 100 for party, value in upper_targets.items()}
+    st.info(
+        "This view currently derives its major-party statewide inputs from the saved "
+        "Legislative Assembly scenario. Change them in the Assembly view, then return here."
+    )
+    with st.spinner("Running candidate-level Legislative Council count..."):
+        upper_projection = run_upper_house_forecast(upper_inputs, upper_targets)
+
+    summary = upper_projection["statewide"].copy()
+    family_summary = summary.groupby("PartyFamily", as_index=False).agg(
+        **{"Primary input %": ("StatewidePrimaryPct", "sum"), "Seats": ("Seats", "max")}
+    ).sort_values(["Seats", "Primary input %"], ascending=False)
+    st.subheader("Statewide summary")
+    st.dataframe(
+        family_summary,
+        width="stretch",
+        hide_index=True,
+        column_config={"Primary input %": st.column_config.NumberColumn(format="%.2f%%")},
+    )
+
+    result = upper_projection["results"].copy()
+    st.subheader("Members elected by region")
+    st.dataframe(
+        result[[
+            "Region", "ElectedOrder", "Candidate", "GroupKey", "FinalTallyQuotas",
+            "FinalSeatMarginVotes", "Reliability", "ExhaustedPct",
+        ]],
+        width="stretch",
+        hide_index=True,
+        column_config={
+            "FinalTallyQuotas": st.column_config.NumberColumn("Final tally (quotas)", format="%.3f"),
+            "FinalSeatMarginVotes": st.column_config.NumberColumn("Final-seat margin", format="%d"),
+            "ExhaustedPct": st.column_config.NumberColumn("Exhausted %", format="%.2f%%"),
+        },
+    )
+
+    st.subheader("Regional primary estimates")
+    region_table = upper_projection["regions"].pivot(
+        index="Region", columns="PartyKey", values="UpperPrimaryPct"
+    ).reset_index()
+    st.dataframe(region_table, width="stretch", hide_index=True)
+
+    with st.expander("Upper-house reliability and evidence diagnostics", expanded=False):
+        low_reliability = result[result["ElectedOrder"].eq(5)][[
+            "Region", "GroupKey", "FinalSeatMarginVotes", "Reliability", "ExhaustedPct"
+        ]]
+        st.caption(
+            "Reliability describes sensitivity of the final regional seat to modest "
+            "preference or input changes; it is not a win probability."
+        )
+        st.dataframe(low_reliability, width="stretch", hide_index=True)
+        st.dataframe(
+            upper_projection["preference_diagnostics"], width="stretch", hide_index=True
+        )
+        st.dataframe(upper_projection["ballots"], width="stretch", hide_index=True)
+    st.stop()
 
 selected_view = st.selectbox(
     "Select region",
@@ -482,8 +567,6 @@ primary_baseline, two_pp_baseline = get_baselines_for_view(
 st.subheader("Statewide Scenario Inputs")
 
 log_checkpoint("scenario inputs start")
-
-INPUT_KEY_PREFIX = "statewide_primary_input_v1003"
 
 if not poll_scenarios.empty:
     scenario_names = poll_scenarios["scenario"].tolist()

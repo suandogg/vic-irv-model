@@ -1,0 +1,25 @@
+PartyKey,PartyName,PartyFamily,Enabled,VoteInputMode,LowerHousePartyKey,StatewidePrimaryPct,RegionalPVIWeight,CandidateSlots,Notes
+ALP,Australian Labor Party - Victorian Branch,ALP,True,LOWER_HOUSE_LINKED,ALP,33.011087,0.75,5,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+LIB,Liberal,LNP,True,LOWER_HOUSE_LINKED,LNP,16.96205,0.75,5,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+LNP,Liberal / The Nationals,LNP,True,LOWER_HOUSE_LINKED,LNP,12.4797,0.75,5,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+GRN,Australian Greens,GRN,True,LOWER_HOUSE_LINKED,GRN,10.318446,0.75,5,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+LCV,Legalise Cannabis Victoria,LCV,True,DIRECT_UPPER,,4.086631,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+DLP,Labour DLP,DLP,True,DIRECT_UPPER,,3.507083,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+LDP,Liberal Democrats,LDP,True,DIRECT_UPPER,,2.639746,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+SFF,"Shooters, Fishers & Farmers Vic",SFF,True,DIRECT_UPPER,,2.045141,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+ON,Pauline Hanson's One Nation,ON,True,LOWER_HOUSE_LINKED,ON,2.044928,0.75,5,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+FFV,Family First Victoria,FFV,True,DIRECT_UPPER,,2.006259,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+DHJP,Derryn Hinch's Justice Party,DHJP,True,DIRECT_UPPER,,1.529179,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+AJP,Animal Justice Party,AJP,True,DIRECT_UPPER,,1.514202,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+VS,Victorian Socialists,VS,True,DIRECT_UPPER,,1.392307,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+REASON,Fiona Patten's Reason Party,REASON,True,DIRECT_UPPER,,1.254395,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+FREEDOM,Freedom Party of Victoria,FREEDOM,True,DIRECT_UPPER,,1.063584,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+SDA,Sack Dan Andrews Restore Democracy,SDA,True,DIRECT_UPPER,,0.833119,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+UAP,United Australia Party,UAP,True,DIRECT_UPPER,,0.827283,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+HAP,Health Australia Party,HAP,True,DIRECT_UPPER,,0.578136,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,True,DIRECT_UPPER,,0.467353,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+CPP,Companions and Pets Party,CPP,True,DIRECT_UPPER,,0.438758,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+AVP,Angry Victorians Party,AVP,True,DIRECT_UPPER,,0.396972,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+TMP,Transport Matters,TMP,True,DIRECT_UPPER,,0.282619,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+NDP,New Democrats,NDP,True,DIRECT_UPPER,,0.206348,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.
+IND,Ungrouped,IND,True,DIRECT_UPPER,,0.114673,0.75,2,Seeded from official 2022 LC result; update statewide input for forecast scenarios.

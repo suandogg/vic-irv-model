@@ -1,0 +1,457 @@
+ElectionYear,Region,GroupKey,GroupName,PartyKey,CandidateID,CandidateName,BallotOrder,Incumbent,Enabled,CandidateStrengthPct,Notes
+2026,Eastern Victoria,AJP,Animal Justice Party,AJP,2026_EASTERN_VICTORIA_AJP_1,Animal Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,AJP,Animal Justice Party,AJP,2026_EASTERN_VICTORIA_AJP_2,Animal Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_EASTERN_VICTORIA_ALP_1,Australian Labor Party - Victorian Branch candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_EASTERN_VICTORIA_ALP_2,Australian Labor Party - Victorian Branch candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_EASTERN_VICTORIA_ALP_3,Australian Labor Party - Victorian Branch candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_EASTERN_VICTORIA_ALP_4,Australian Labor Party - Victorian Branch candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_EASTERN_VICTORIA_ALP_5,Australian Labor Party - Victorian Branch candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,AVP,Angry Victorians Party,AVP,2026_EASTERN_VICTORIA_AVP_1,Angry Victorians Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,AVP,Angry Victorians Party,AVP,2026_EASTERN_VICTORIA_AVP_2,Angry Victorians Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,CPP,Companions and Pets Party,CPP,2026_EASTERN_VICTORIA_CPP_1,Companions and Pets Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,CPP,Companions and Pets Party,CPP,2026_EASTERN_VICTORIA_CPP_2,Companions and Pets Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,DHJP,Derryn Hinch's Justice Party,DHJP,2026_EASTERN_VICTORIA_DHJP_1,Derryn Hinch's Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,DHJP,Derryn Hinch's Justice Party,DHJP,2026_EASTERN_VICTORIA_DHJP_2,Derryn Hinch's Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,DLP,Labour DLP,DLP,2026_EASTERN_VICTORIA_DLP_1,Labour DLP candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,DLP,Labour DLP,DLP,2026_EASTERN_VICTORIA_DLP_2,Labour DLP candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,FFV,Family First Victoria,FFV,2026_EASTERN_VICTORIA_FFV_1,Family First Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,FFV,Family First Victoria,FFV,2026_EASTERN_VICTORIA_FFV_2,Family First Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_EASTERN_VICTORIA_FREEDOM_1,Freedom Party of Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_EASTERN_VICTORIA_FREEDOM_2,Freedom Party of Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,GRN,Australian Greens,GRN,2026_EASTERN_VICTORIA_GRN_1,Australian Greens candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,GRN,Australian Greens,GRN,2026_EASTERN_VICTORIA_GRN_2,Australian Greens candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,GRN,Australian Greens,GRN,2026_EASTERN_VICTORIA_GRN_3,Australian Greens candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,GRN,Australian Greens,GRN,2026_EASTERN_VICTORIA_GRN_4,Australian Greens candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,GRN,Australian Greens,GRN,2026_EASTERN_VICTORIA_GRN_5,Australian Greens candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,HAP,Health Australia Party,HAP,2026_EASTERN_VICTORIA_HAP_1,Health Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,HAP,Health Australia Party,HAP,2026_EASTERN_VICTORIA_HAP_2,Health Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,LCV,Legalise Cannabis Victoria,LCV,2026_EASTERN_VICTORIA_LCV_1,Legalise Cannabis Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,LCV,Legalise Cannabis Victoria,LCV,2026_EASTERN_VICTORIA_LCV_2,Legalise Cannabis Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,LDP,Liberal Democrats,LDP,2026_EASTERN_VICTORIA_LDP_1,Liberal Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,LDP,Liberal Democrats,LDP,2026_EASTERN_VICTORIA_LDP_2,Liberal Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,LNP,Liberal / The Nationals,LNP,2026_EASTERN_VICTORIA_LNP_1,Liberal / The Nationals candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,LNP,Liberal / The Nationals,LNP,2026_EASTERN_VICTORIA_LNP_2,Liberal / The Nationals candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,LNP,Liberal / The Nationals,LNP,2026_EASTERN_VICTORIA_LNP_3,Liberal / The Nationals candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,LNP,Liberal / The Nationals,LNP,2026_EASTERN_VICTORIA_LNP_4,Liberal / The Nationals candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,LNP,Liberal / The Nationals,LNP,2026_EASTERN_VICTORIA_LNP_5,Liberal / The Nationals candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,NDP,New Democrats,NDP,2026_EASTERN_VICTORIA_NDP_1,New Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,NDP,New Democrats,NDP,2026_EASTERN_VICTORIA_NDP_2,New Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,ON,Pauline Hanson's One Nation,ON,2026_EASTERN_VICTORIA_ON_1,Pauline Hanson's One Nation candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,ON,Pauline Hanson's One Nation,ON,2026_EASTERN_VICTORIA_ON_2,Pauline Hanson's One Nation candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,ON,Pauline Hanson's One Nation,ON,2026_EASTERN_VICTORIA_ON_3,Pauline Hanson's One Nation candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,ON,Pauline Hanson's One Nation,ON,2026_EASTERN_VICTORIA_ON_4,Pauline Hanson's One Nation candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,ON,Pauline Hanson's One Nation,ON,2026_EASTERN_VICTORIA_ON_5,Pauline Hanson's One Nation candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,REASON,Fiona Patten's Reason Party,REASON,2026_EASTERN_VICTORIA_REASON_1,Fiona Patten's Reason Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,REASON,Fiona Patten's Reason Party,REASON,2026_EASTERN_VICTORIA_REASON_2,Fiona Patten's Reason Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_EASTERN_VICTORIA_SAP_1,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_EASTERN_VICTORIA_SAP_2,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_EASTERN_VICTORIA_SDA_1,Sack Dan Andrews Restore Democracy candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_EASTERN_VICTORIA_SDA_2,Sack Dan Andrews Restore Democracy candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_EASTERN_VICTORIA_SFF_1,"Shooters, Fishers & Farmers Vic candidate 1",1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_EASTERN_VICTORIA_SFF_2,"Shooters, Fishers & Farmers Vic candidate 2",2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,TMP,Transport Matters,TMP,2026_EASTERN_VICTORIA_TMP_1,Transport Matters candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,TMP,Transport Matters,TMP,2026_EASTERN_VICTORIA_TMP_2,Transport Matters candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,UAP,United Australia Party,UAP,2026_EASTERN_VICTORIA_UAP_1,United Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,UAP,United Australia Party,UAP,2026_EASTERN_VICTORIA_UAP_2,United Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,VS,Victorian Socialists,VS,2026_EASTERN_VICTORIA_VS_1,Victorian Socialists candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,VS,Victorian Socialists,VS,2026_EASTERN_VICTORIA_VS_2,Victorian Socialists candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,AJP,Animal Justice Party,AJP,2026_NORTH_EASTERN_METROPOLITAN_AJP_1,Animal Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,AJP,Animal Justice Party,AJP,2026_NORTH_EASTERN_METROPOLITAN_AJP_2,Animal Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTH_EASTERN_METROPOLITAN_ALP_1,Australian Labor Party - Victorian Branch candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTH_EASTERN_METROPOLITAN_ALP_2,Australian Labor Party - Victorian Branch candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTH_EASTERN_METROPOLITAN_ALP_3,Australian Labor Party - Victorian Branch candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTH_EASTERN_METROPOLITAN_ALP_4,Australian Labor Party - Victorian Branch candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTH_EASTERN_METROPOLITAN_ALP_5,Australian Labor Party - Victorian Branch candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,AVP,Angry Victorians Party,AVP,2026_NORTH_EASTERN_METROPOLITAN_AVP_1,Angry Victorians Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,AVP,Angry Victorians Party,AVP,2026_NORTH_EASTERN_METROPOLITAN_AVP_2,Angry Victorians Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,CPP,Companions and Pets Party,CPP,2026_NORTH_EASTERN_METROPOLITAN_CPP_1,Companions and Pets Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,CPP,Companions and Pets Party,CPP,2026_NORTH_EASTERN_METROPOLITAN_CPP_2,Companions and Pets Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,DHJP,Derryn Hinch's Justice Party,DHJP,2026_NORTH_EASTERN_METROPOLITAN_DHJP_1,Derryn Hinch's Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,DHJP,Derryn Hinch's Justice Party,DHJP,2026_NORTH_EASTERN_METROPOLITAN_DHJP_2,Derryn Hinch's Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,DLP,Labour DLP,DLP,2026_NORTH_EASTERN_METROPOLITAN_DLP_1,Labour DLP candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,DLP,Labour DLP,DLP,2026_NORTH_EASTERN_METROPOLITAN_DLP_2,Labour DLP candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,FFV,Family First Victoria,FFV,2026_NORTH_EASTERN_METROPOLITAN_FFV_1,Family First Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,FFV,Family First Victoria,FFV,2026_NORTH_EASTERN_METROPOLITAN_FFV_2,Family First Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_NORTH_EASTERN_METROPOLITAN_FREEDOM_1,Freedom Party of Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_NORTH_EASTERN_METROPOLITAN_FREEDOM_2,Freedom Party of Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,GRN,Australian Greens,GRN,2026_NORTH_EASTERN_METROPOLITAN_GRN_1,Australian Greens candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,GRN,Australian Greens,GRN,2026_NORTH_EASTERN_METROPOLITAN_GRN_2,Australian Greens candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,GRN,Australian Greens,GRN,2026_NORTH_EASTERN_METROPOLITAN_GRN_3,Australian Greens candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,GRN,Australian Greens,GRN,2026_NORTH_EASTERN_METROPOLITAN_GRN_4,Australian Greens candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,GRN,Australian Greens,GRN,2026_NORTH_EASTERN_METROPOLITAN_GRN_5,Australian Greens candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,HAP,Health Australia Party,HAP,2026_NORTH_EASTERN_METROPOLITAN_HAP_1,Health Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,HAP,Health Australia Party,HAP,2026_NORTH_EASTERN_METROPOLITAN_HAP_2,Health Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,LCV,Legalise Cannabis Victoria,LCV,2026_NORTH_EASTERN_METROPOLITAN_LCV_1,Legalise Cannabis Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,LCV,Legalise Cannabis Victoria,LCV,2026_NORTH_EASTERN_METROPOLITAN_LCV_2,Legalise Cannabis Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,LDP,Liberal Democrats,LDP,2026_NORTH_EASTERN_METROPOLITAN_LDP_1,Liberal Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,LDP,Liberal Democrats,LDP,2026_NORTH_EASTERN_METROPOLITAN_LDP_2,Liberal Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,LIB,Liberal,LIB,2026_NORTH_EASTERN_METROPOLITAN_LIB_1,Liberal candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,LIB,Liberal,LIB,2026_NORTH_EASTERN_METROPOLITAN_LIB_2,Liberal candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,LIB,Liberal,LIB,2026_NORTH_EASTERN_METROPOLITAN_LIB_3,Liberal candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,LIB,Liberal,LIB,2026_NORTH_EASTERN_METROPOLITAN_LIB_4,Liberal candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,LIB,Liberal,LIB,2026_NORTH_EASTERN_METROPOLITAN_LIB_5,Liberal candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,NDP,New Democrats,NDP,2026_NORTH_EASTERN_METROPOLITAN_NDP_1,New Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,NDP,New Democrats,NDP,2026_NORTH_EASTERN_METROPOLITAN_NDP_2,New Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_NORTH_EASTERN_METROPOLITAN_ON_1,Pauline Hanson's One Nation candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_NORTH_EASTERN_METROPOLITAN_ON_2,Pauline Hanson's One Nation candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_NORTH_EASTERN_METROPOLITAN_ON_3,Pauline Hanson's One Nation candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_NORTH_EASTERN_METROPOLITAN_ON_4,Pauline Hanson's One Nation candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_NORTH_EASTERN_METROPOLITAN_ON_5,Pauline Hanson's One Nation candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,REASON,Fiona Patten's Reason Party,REASON,2026_NORTH_EASTERN_METROPOLITAN_REASON_1,Fiona Patten's Reason Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,REASON,Fiona Patten's Reason Party,REASON,2026_NORTH_EASTERN_METROPOLITAN_REASON_2,Fiona Patten's Reason Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_NORTH_EASTERN_METROPOLITAN_SAP_1,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_NORTH_EASTERN_METROPOLITAN_SAP_2,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_NORTH_EASTERN_METROPOLITAN_SDA_1,Sack Dan Andrews Restore Democracy candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_NORTH_EASTERN_METROPOLITAN_SDA_2,Sack Dan Andrews Restore Democracy candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_NORTH_EASTERN_METROPOLITAN_SFF_1,"Shooters, Fishers & Farmers Vic candidate 1",1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_NORTH_EASTERN_METROPOLITAN_SFF_2,"Shooters, Fishers & Farmers Vic candidate 2",2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,TMP,Transport Matters,TMP,2026_NORTH_EASTERN_METROPOLITAN_TMP_1,Transport Matters candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,TMP,Transport Matters,TMP,2026_NORTH_EASTERN_METROPOLITAN_TMP_2,Transport Matters candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,UAP,United Australia Party,UAP,2026_NORTH_EASTERN_METROPOLITAN_UAP_1,United Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,UAP,United Australia Party,UAP,2026_NORTH_EASTERN_METROPOLITAN_UAP_2,United Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,VS,Victorian Socialists,VS,2026_NORTH_EASTERN_METROPOLITAN_VS_1,Victorian Socialists candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,North-Eastern Metropolitan,VS,Victorian Socialists,VS,2026_NORTH_EASTERN_METROPOLITAN_VS_2,Victorian Socialists candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,AJP,Animal Justice Party,AJP,2026_NORTHERN_METROPOLITAN_AJP_1,Animal Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,AJP,Animal Justice Party,AJP,2026_NORTHERN_METROPOLITAN_AJP_2,Animal Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTHERN_METROPOLITAN_ALP_1,Australian Labor Party - Victorian Branch candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTHERN_METROPOLITAN_ALP_2,Australian Labor Party - Victorian Branch candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTHERN_METROPOLITAN_ALP_3,Australian Labor Party - Victorian Branch candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTHERN_METROPOLITAN_ALP_4,Australian Labor Party - Victorian Branch candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTHERN_METROPOLITAN_ALP_5,Australian Labor Party - Victorian Branch candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,AVP,Angry Victorians Party,AVP,2026_NORTHERN_METROPOLITAN_AVP_1,Angry Victorians Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,AVP,Angry Victorians Party,AVP,2026_NORTHERN_METROPOLITAN_AVP_2,Angry Victorians Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,CPP,Companions and Pets Party,CPP,2026_NORTHERN_METROPOLITAN_CPP_1,Companions and Pets Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,CPP,Companions and Pets Party,CPP,2026_NORTHERN_METROPOLITAN_CPP_2,Companions and Pets Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,DHJP,Derryn Hinch's Justice Party,DHJP,2026_NORTHERN_METROPOLITAN_DHJP_1,Derryn Hinch's Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,DHJP,Derryn Hinch's Justice Party,DHJP,2026_NORTHERN_METROPOLITAN_DHJP_2,Derryn Hinch's Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,DLP,Labour DLP,DLP,2026_NORTHERN_METROPOLITAN_DLP_1,Labour DLP candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,DLP,Labour DLP,DLP,2026_NORTHERN_METROPOLITAN_DLP_2,Labour DLP candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,FFV,Family First Victoria,FFV,2026_NORTHERN_METROPOLITAN_FFV_1,Family First Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,FFV,Family First Victoria,FFV,2026_NORTHERN_METROPOLITAN_FFV_2,Family First Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_NORTHERN_METROPOLITAN_FREEDOM_1,Freedom Party of Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_NORTHERN_METROPOLITAN_FREEDOM_2,Freedom Party of Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,GRN,Australian Greens,GRN,2026_NORTHERN_METROPOLITAN_GRN_1,Australian Greens candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,GRN,Australian Greens,GRN,2026_NORTHERN_METROPOLITAN_GRN_2,Australian Greens candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,GRN,Australian Greens,GRN,2026_NORTHERN_METROPOLITAN_GRN_3,Australian Greens candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,GRN,Australian Greens,GRN,2026_NORTHERN_METROPOLITAN_GRN_4,Australian Greens candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,GRN,Australian Greens,GRN,2026_NORTHERN_METROPOLITAN_GRN_5,Australian Greens candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,HAP,Health Australia Party,HAP,2026_NORTHERN_METROPOLITAN_HAP_1,Health Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,HAP,Health Australia Party,HAP,2026_NORTHERN_METROPOLITAN_HAP_2,Health Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,LCV,Legalise Cannabis Victoria,LCV,2026_NORTHERN_METROPOLITAN_LCV_1,Legalise Cannabis Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,LCV,Legalise Cannabis Victoria,LCV,2026_NORTHERN_METROPOLITAN_LCV_2,Legalise Cannabis Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,LDP,Liberal Democrats,LDP,2026_NORTHERN_METROPOLITAN_LDP_1,Liberal Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,LDP,Liberal Democrats,LDP,2026_NORTHERN_METROPOLITAN_LDP_2,Liberal Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,LIB,Liberal,LIB,2026_NORTHERN_METROPOLITAN_LIB_1,Liberal candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,LIB,Liberal,LIB,2026_NORTHERN_METROPOLITAN_LIB_2,Liberal candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,LIB,Liberal,LIB,2026_NORTHERN_METROPOLITAN_LIB_3,Liberal candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,LIB,Liberal,LIB,2026_NORTHERN_METROPOLITAN_LIB_4,Liberal candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,LIB,Liberal,LIB,2026_NORTHERN_METROPOLITAN_LIB_5,Liberal candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,NDP,New Democrats,NDP,2026_NORTHERN_METROPOLITAN_NDP_1,New Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,NDP,New Democrats,NDP,2026_NORTHERN_METROPOLITAN_NDP_2,New Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_NORTHERN_METROPOLITAN_ON_1,Pauline Hanson's One Nation candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_NORTHERN_METROPOLITAN_ON_2,Pauline Hanson's One Nation candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_NORTHERN_METROPOLITAN_ON_3,Pauline Hanson's One Nation candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_NORTHERN_METROPOLITAN_ON_4,Pauline Hanson's One Nation candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_NORTHERN_METROPOLITAN_ON_5,Pauline Hanson's One Nation candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,REASON,Fiona Patten's Reason Party,REASON,2026_NORTHERN_METROPOLITAN_REASON_1,Fiona Patten's Reason Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,REASON,Fiona Patten's Reason Party,REASON,2026_NORTHERN_METROPOLITAN_REASON_2,Fiona Patten's Reason Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_NORTHERN_METROPOLITAN_SAP_1,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_NORTHERN_METROPOLITAN_SAP_2,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_NORTHERN_METROPOLITAN_SDA_1,Sack Dan Andrews Restore Democracy candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_NORTHERN_METROPOLITAN_SDA_2,Sack Dan Andrews Restore Democracy candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_NORTHERN_METROPOLITAN_SFF_1,"Shooters, Fishers & Farmers Vic candidate 1",1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_NORTHERN_METROPOLITAN_SFF_2,"Shooters, Fishers & Farmers Vic candidate 2",2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,TMP,Transport Matters,TMP,2026_NORTHERN_METROPOLITAN_TMP_1,Transport Matters candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,TMP,Transport Matters,TMP,2026_NORTHERN_METROPOLITAN_TMP_2,Transport Matters candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,UAP,United Australia Party,UAP,2026_NORTHERN_METROPOLITAN_UAP_1,United Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,UAP,United Australia Party,UAP,2026_NORTHERN_METROPOLITAN_UAP_2,United Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,VS,Victorian Socialists,VS,2026_NORTHERN_METROPOLITAN_VS_1,Victorian Socialists candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Metropolitan,VS,Victorian Socialists,VS,2026_NORTHERN_METROPOLITAN_VS_2,Victorian Socialists candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,AJP,Animal Justice Party,AJP,2026_NORTHERN_VICTORIA_AJP_1,Animal Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,AJP,Animal Justice Party,AJP,2026_NORTHERN_VICTORIA_AJP_2,Animal Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTHERN_VICTORIA_ALP_1,Australian Labor Party - Victorian Branch candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTHERN_VICTORIA_ALP_2,Australian Labor Party - Victorian Branch candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTHERN_VICTORIA_ALP_3,Australian Labor Party - Victorian Branch candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTHERN_VICTORIA_ALP_4,Australian Labor Party - Victorian Branch candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_NORTHERN_VICTORIA_ALP_5,Australian Labor Party - Victorian Branch candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,AVP,Angry Victorians Party,AVP,2026_NORTHERN_VICTORIA_AVP_1,Angry Victorians Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,AVP,Angry Victorians Party,AVP,2026_NORTHERN_VICTORIA_AVP_2,Angry Victorians Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,CPP,Companions and Pets Party,CPP,2026_NORTHERN_VICTORIA_CPP_1,Companions and Pets Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,CPP,Companions and Pets Party,CPP,2026_NORTHERN_VICTORIA_CPP_2,Companions and Pets Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,DHJP,Derryn Hinch's Justice Party,DHJP,2026_NORTHERN_VICTORIA_DHJP_1,Derryn Hinch's Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,DHJP,Derryn Hinch's Justice Party,DHJP,2026_NORTHERN_VICTORIA_DHJP_2,Derryn Hinch's Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,DLP,Labour DLP,DLP,2026_NORTHERN_VICTORIA_DLP_1,Labour DLP candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,DLP,Labour DLP,DLP,2026_NORTHERN_VICTORIA_DLP_2,Labour DLP candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,FFV,Family First Victoria,FFV,2026_NORTHERN_VICTORIA_FFV_1,Family First Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,FFV,Family First Victoria,FFV,2026_NORTHERN_VICTORIA_FFV_2,Family First Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_NORTHERN_VICTORIA_FREEDOM_1,Freedom Party of Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_NORTHERN_VICTORIA_FREEDOM_2,Freedom Party of Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,GRN,Australian Greens,GRN,2026_NORTHERN_VICTORIA_GRN_1,Australian Greens candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,GRN,Australian Greens,GRN,2026_NORTHERN_VICTORIA_GRN_2,Australian Greens candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,GRN,Australian Greens,GRN,2026_NORTHERN_VICTORIA_GRN_3,Australian Greens candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,GRN,Australian Greens,GRN,2026_NORTHERN_VICTORIA_GRN_4,Australian Greens candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,GRN,Australian Greens,GRN,2026_NORTHERN_VICTORIA_GRN_5,Australian Greens candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,HAP,Health Australia Party,HAP,2026_NORTHERN_VICTORIA_HAP_1,Health Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,HAP,Health Australia Party,HAP,2026_NORTHERN_VICTORIA_HAP_2,Health Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,LCV,Legalise Cannabis Victoria,LCV,2026_NORTHERN_VICTORIA_LCV_1,Legalise Cannabis Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,LCV,Legalise Cannabis Victoria,LCV,2026_NORTHERN_VICTORIA_LCV_2,Legalise Cannabis Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,LDP,Liberal Democrats,LDP,2026_NORTHERN_VICTORIA_LDP_1,Liberal Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,LDP,Liberal Democrats,LDP,2026_NORTHERN_VICTORIA_LDP_2,Liberal Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,LNP,Liberal / The Nationals,LNP,2026_NORTHERN_VICTORIA_LNP_1,Liberal / The Nationals candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,LNP,Liberal / The Nationals,LNP,2026_NORTHERN_VICTORIA_LNP_2,Liberal / The Nationals candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,LNP,Liberal / The Nationals,LNP,2026_NORTHERN_VICTORIA_LNP_3,Liberal / The Nationals candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,LNP,Liberal / The Nationals,LNP,2026_NORTHERN_VICTORIA_LNP_4,Liberal / The Nationals candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,LNP,Liberal / The Nationals,LNP,2026_NORTHERN_VICTORIA_LNP_5,Liberal / The Nationals candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,NDP,New Democrats,NDP,2026_NORTHERN_VICTORIA_NDP_1,New Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,NDP,New Democrats,NDP,2026_NORTHERN_VICTORIA_NDP_2,New Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,ON,Pauline Hanson's One Nation,ON,2026_NORTHERN_VICTORIA_ON_1,Pauline Hanson's One Nation candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,ON,Pauline Hanson's One Nation,ON,2026_NORTHERN_VICTORIA_ON_2,Pauline Hanson's One Nation candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,ON,Pauline Hanson's One Nation,ON,2026_NORTHERN_VICTORIA_ON_3,Pauline Hanson's One Nation candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,ON,Pauline Hanson's One Nation,ON,2026_NORTHERN_VICTORIA_ON_4,Pauline Hanson's One Nation candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,ON,Pauline Hanson's One Nation,ON,2026_NORTHERN_VICTORIA_ON_5,Pauline Hanson's One Nation candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,REASON,Fiona Patten's Reason Party,REASON,2026_NORTHERN_VICTORIA_REASON_1,Fiona Patten's Reason Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,REASON,Fiona Patten's Reason Party,REASON,2026_NORTHERN_VICTORIA_REASON_2,Fiona Patten's Reason Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_NORTHERN_VICTORIA_SAP_1,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_NORTHERN_VICTORIA_SAP_2,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_NORTHERN_VICTORIA_SDA_1,Sack Dan Andrews Restore Democracy candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_NORTHERN_VICTORIA_SDA_2,Sack Dan Andrews Restore Democracy candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_NORTHERN_VICTORIA_SFF_1,"Shooters, Fishers & Farmers Vic candidate 1",1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_NORTHERN_VICTORIA_SFF_2,"Shooters, Fishers & Farmers Vic candidate 2",2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,TMP,Transport Matters,TMP,2026_NORTHERN_VICTORIA_TMP_1,Transport Matters candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,TMP,Transport Matters,TMP,2026_NORTHERN_VICTORIA_TMP_2,Transport Matters candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,UAP,United Australia Party,UAP,2026_NORTHERN_VICTORIA_UAP_1,United Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,UAP,United Australia Party,UAP,2026_NORTHERN_VICTORIA_UAP_2,United Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,VS,Victorian Socialists,VS,2026_NORTHERN_VICTORIA_VS_1,Victorian Socialists candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Northern Victoria,VS,Victorian Socialists,VS,2026_NORTHERN_VICTORIA_VS_2,Victorian Socialists candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,AJP,Animal Justice Party,AJP,2026_SOUTH_EASTERN_METROPOLITAN_AJP_1,Animal Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,AJP,Animal Justice Party,AJP,2026_SOUTH_EASTERN_METROPOLITAN_AJP_2,Animal Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_SOUTH_EASTERN_METROPOLITAN_ALP_1,Australian Labor Party - Victorian Branch candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_SOUTH_EASTERN_METROPOLITAN_ALP_2,Australian Labor Party - Victorian Branch candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_SOUTH_EASTERN_METROPOLITAN_ALP_3,Australian Labor Party - Victorian Branch candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_SOUTH_EASTERN_METROPOLITAN_ALP_4,Australian Labor Party - Victorian Branch candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_SOUTH_EASTERN_METROPOLITAN_ALP_5,Australian Labor Party - Victorian Branch candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,AVP,Angry Victorians Party,AVP,2026_SOUTH_EASTERN_METROPOLITAN_AVP_1,Angry Victorians Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,AVP,Angry Victorians Party,AVP,2026_SOUTH_EASTERN_METROPOLITAN_AVP_2,Angry Victorians Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,CPP,Companions and Pets Party,CPP,2026_SOUTH_EASTERN_METROPOLITAN_CPP_1,Companions and Pets Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,CPP,Companions and Pets Party,CPP,2026_SOUTH_EASTERN_METROPOLITAN_CPP_2,Companions and Pets Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,DHJP,Derryn Hinch's Justice Party,DHJP,2026_SOUTH_EASTERN_METROPOLITAN_DHJP_1,Derryn Hinch's Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,DHJP,Derryn Hinch's Justice Party,DHJP,2026_SOUTH_EASTERN_METROPOLITAN_DHJP_2,Derryn Hinch's Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,DLP,Labour DLP,DLP,2026_SOUTH_EASTERN_METROPOLITAN_DLP_1,Labour DLP candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,DLP,Labour DLP,DLP,2026_SOUTH_EASTERN_METROPOLITAN_DLP_2,Labour DLP candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,FFV,Family First Victoria,FFV,2026_SOUTH_EASTERN_METROPOLITAN_FFV_1,Family First Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,FFV,Family First Victoria,FFV,2026_SOUTH_EASTERN_METROPOLITAN_FFV_2,Family First Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_SOUTH_EASTERN_METROPOLITAN_FREEDOM_1,Freedom Party of Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_SOUTH_EASTERN_METROPOLITAN_FREEDOM_2,Freedom Party of Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,GRN,Australian Greens,GRN,2026_SOUTH_EASTERN_METROPOLITAN_GRN_1,Australian Greens candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,GRN,Australian Greens,GRN,2026_SOUTH_EASTERN_METROPOLITAN_GRN_2,Australian Greens candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,GRN,Australian Greens,GRN,2026_SOUTH_EASTERN_METROPOLITAN_GRN_3,Australian Greens candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,GRN,Australian Greens,GRN,2026_SOUTH_EASTERN_METROPOLITAN_GRN_4,Australian Greens candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,GRN,Australian Greens,GRN,2026_SOUTH_EASTERN_METROPOLITAN_GRN_5,Australian Greens candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,HAP,Health Australia Party,HAP,2026_SOUTH_EASTERN_METROPOLITAN_HAP_1,Health Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,HAP,Health Australia Party,HAP,2026_SOUTH_EASTERN_METROPOLITAN_HAP_2,Health Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,LCV,Legalise Cannabis Victoria,LCV,2026_SOUTH_EASTERN_METROPOLITAN_LCV_1,Legalise Cannabis Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,LCV,Legalise Cannabis Victoria,LCV,2026_SOUTH_EASTERN_METROPOLITAN_LCV_2,Legalise Cannabis Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,LDP,Liberal Democrats,LDP,2026_SOUTH_EASTERN_METROPOLITAN_LDP_1,Liberal Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,LDP,Liberal Democrats,LDP,2026_SOUTH_EASTERN_METROPOLITAN_LDP_2,Liberal Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,LIB,Liberal,LIB,2026_SOUTH_EASTERN_METROPOLITAN_LIB_1,Liberal candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,LIB,Liberal,LIB,2026_SOUTH_EASTERN_METROPOLITAN_LIB_2,Liberal candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,LIB,Liberal,LIB,2026_SOUTH_EASTERN_METROPOLITAN_LIB_3,Liberal candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,LIB,Liberal,LIB,2026_SOUTH_EASTERN_METROPOLITAN_LIB_4,Liberal candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,LIB,Liberal,LIB,2026_SOUTH_EASTERN_METROPOLITAN_LIB_5,Liberal candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,NDP,New Democrats,NDP,2026_SOUTH_EASTERN_METROPOLITAN_NDP_1,New Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,NDP,New Democrats,NDP,2026_SOUTH_EASTERN_METROPOLITAN_NDP_2,New Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_SOUTH_EASTERN_METROPOLITAN_ON_1,Pauline Hanson's One Nation candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_SOUTH_EASTERN_METROPOLITAN_ON_2,Pauline Hanson's One Nation candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_SOUTH_EASTERN_METROPOLITAN_ON_3,Pauline Hanson's One Nation candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_SOUTH_EASTERN_METROPOLITAN_ON_4,Pauline Hanson's One Nation candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_SOUTH_EASTERN_METROPOLITAN_ON_5,Pauline Hanson's One Nation candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,REASON,Fiona Patten's Reason Party,REASON,2026_SOUTH_EASTERN_METROPOLITAN_REASON_1,Fiona Patten's Reason Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,REASON,Fiona Patten's Reason Party,REASON,2026_SOUTH_EASTERN_METROPOLITAN_REASON_2,Fiona Patten's Reason Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_SOUTH_EASTERN_METROPOLITAN_SAP_1,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_SOUTH_EASTERN_METROPOLITAN_SAP_2,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_SOUTH_EASTERN_METROPOLITAN_SDA_1,Sack Dan Andrews Restore Democracy candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_SOUTH_EASTERN_METROPOLITAN_SDA_2,Sack Dan Andrews Restore Democracy candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_SOUTH_EASTERN_METROPOLITAN_SFF_1,"Shooters, Fishers & Farmers Vic candidate 1",1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_SOUTH_EASTERN_METROPOLITAN_SFF_2,"Shooters, Fishers & Farmers Vic candidate 2",2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,TMP,Transport Matters,TMP,2026_SOUTH_EASTERN_METROPOLITAN_TMP_1,Transport Matters candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,TMP,Transport Matters,TMP,2026_SOUTH_EASTERN_METROPOLITAN_TMP_2,Transport Matters candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,UAP,United Australia Party,UAP,2026_SOUTH_EASTERN_METROPOLITAN_UAP_1,United Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,UAP,United Australia Party,UAP,2026_SOUTH_EASTERN_METROPOLITAN_UAP_2,United Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,VS,Victorian Socialists,VS,2026_SOUTH_EASTERN_METROPOLITAN_VS_1,Victorian Socialists candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,South-Eastern Metropolitan,VS,Victorian Socialists,VS,2026_SOUTH_EASTERN_METROPOLITAN_VS_2,Victorian Socialists candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,AJP,Animal Justice Party,AJP,2026_SOUTHERN_METROPOLITAN_AJP_1,Animal Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,AJP,Animal Justice Party,AJP,2026_SOUTHERN_METROPOLITAN_AJP_2,Animal Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_SOUTHERN_METROPOLITAN_ALP_1,Australian Labor Party - Victorian Branch candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_SOUTHERN_METROPOLITAN_ALP_2,Australian Labor Party - Victorian Branch candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_SOUTHERN_METROPOLITAN_ALP_3,Australian Labor Party - Victorian Branch candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_SOUTHERN_METROPOLITAN_ALP_4,Australian Labor Party - Victorian Branch candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_SOUTHERN_METROPOLITAN_ALP_5,Australian Labor Party - Victorian Branch candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,AVP,Angry Victorians Party,AVP,2026_SOUTHERN_METROPOLITAN_AVP_1,Angry Victorians Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,AVP,Angry Victorians Party,AVP,2026_SOUTHERN_METROPOLITAN_AVP_2,Angry Victorians Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,CPP,Companions and Pets Party,CPP,2026_SOUTHERN_METROPOLITAN_CPP_1,Companions and Pets Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,CPP,Companions and Pets Party,CPP,2026_SOUTHERN_METROPOLITAN_CPP_2,Companions and Pets Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,DHJP,Derryn Hinch's Justice Party,DHJP,2026_SOUTHERN_METROPOLITAN_DHJP_1,Derryn Hinch's Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,DHJP,Derryn Hinch's Justice Party,DHJP,2026_SOUTHERN_METROPOLITAN_DHJP_2,Derryn Hinch's Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,DLP,Labour DLP,DLP,2026_SOUTHERN_METROPOLITAN_DLP_1,Labour DLP candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,DLP,Labour DLP,DLP,2026_SOUTHERN_METROPOLITAN_DLP_2,Labour DLP candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,FFV,Family First Victoria,FFV,2026_SOUTHERN_METROPOLITAN_FFV_1,Family First Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,FFV,Family First Victoria,FFV,2026_SOUTHERN_METROPOLITAN_FFV_2,Family First Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_SOUTHERN_METROPOLITAN_FREEDOM_1,Freedom Party of Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_SOUTHERN_METROPOLITAN_FREEDOM_2,Freedom Party of Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,GRN,Australian Greens,GRN,2026_SOUTHERN_METROPOLITAN_GRN_1,Australian Greens candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,GRN,Australian Greens,GRN,2026_SOUTHERN_METROPOLITAN_GRN_2,Australian Greens candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,GRN,Australian Greens,GRN,2026_SOUTHERN_METROPOLITAN_GRN_3,Australian Greens candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,GRN,Australian Greens,GRN,2026_SOUTHERN_METROPOLITAN_GRN_4,Australian Greens candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,GRN,Australian Greens,GRN,2026_SOUTHERN_METROPOLITAN_GRN_5,Australian Greens candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,HAP,Health Australia Party,HAP,2026_SOUTHERN_METROPOLITAN_HAP_1,Health Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,HAP,Health Australia Party,HAP,2026_SOUTHERN_METROPOLITAN_HAP_2,Health Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,LCV,Legalise Cannabis Victoria,LCV,2026_SOUTHERN_METROPOLITAN_LCV_1,Legalise Cannabis Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,LCV,Legalise Cannabis Victoria,LCV,2026_SOUTHERN_METROPOLITAN_LCV_2,Legalise Cannabis Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,LDP,Liberal Democrats,LDP,2026_SOUTHERN_METROPOLITAN_LDP_1,Liberal Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,LDP,Liberal Democrats,LDP,2026_SOUTHERN_METROPOLITAN_LDP_2,Liberal Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,LIB,Liberal,LIB,2026_SOUTHERN_METROPOLITAN_LIB_1,Liberal candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,LIB,Liberal,LIB,2026_SOUTHERN_METROPOLITAN_LIB_2,Liberal candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,LIB,Liberal,LIB,2026_SOUTHERN_METROPOLITAN_LIB_3,Liberal candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,LIB,Liberal,LIB,2026_SOUTHERN_METROPOLITAN_LIB_4,Liberal candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,LIB,Liberal,LIB,2026_SOUTHERN_METROPOLITAN_LIB_5,Liberal candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,NDP,New Democrats,NDP,2026_SOUTHERN_METROPOLITAN_NDP_1,New Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,NDP,New Democrats,NDP,2026_SOUTHERN_METROPOLITAN_NDP_2,New Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_SOUTHERN_METROPOLITAN_ON_1,Pauline Hanson's One Nation candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_SOUTHERN_METROPOLITAN_ON_2,Pauline Hanson's One Nation candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_SOUTHERN_METROPOLITAN_ON_3,Pauline Hanson's One Nation candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_SOUTHERN_METROPOLITAN_ON_4,Pauline Hanson's One Nation candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_SOUTHERN_METROPOLITAN_ON_5,Pauline Hanson's One Nation candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,REASON,Fiona Patten's Reason Party,REASON,2026_SOUTHERN_METROPOLITAN_REASON_1,Fiona Patten's Reason Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,REASON,Fiona Patten's Reason Party,REASON,2026_SOUTHERN_METROPOLITAN_REASON_2,Fiona Patten's Reason Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_SOUTHERN_METROPOLITAN_SAP_1,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_SOUTHERN_METROPOLITAN_SAP_2,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_SOUTHERN_METROPOLITAN_SDA_1,Sack Dan Andrews Restore Democracy candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_SOUTHERN_METROPOLITAN_SDA_2,Sack Dan Andrews Restore Democracy candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_SOUTHERN_METROPOLITAN_SFF_1,"Shooters, Fishers & Farmers Vic candidate 1",1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_SOUTHERN_METROPOLITAN_SFF_2,"Shooters, Fishers & Farmers Vic candidate 2",2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,TMP,Transport Matters,TMP,2026_SOUTHERN_METROPOLITAN_TMP_1,Transport Matters candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,TMP,Transport Matters,TMP,2026_SOUTHERN_METROPOLITAN_TMP_2,Transport Matters candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,UAP,United Australia Party,UAP,2026_SOUTHERN_METROPOLITAN_UAP_1,United Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,UAP,United Australia Party,UAP,2026_SOUTHERN_METROPOLITAN_UAP_2,United Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,VS,Victorian Socialists,VS,2026_SOUTHERN_METROPOLITAN_VS_1,Victorian Socialists candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Southern Metropolitan,VS,Victorian Socialists,VS,2026_SOUTHERN_METROPOLITAN_VS_2,Victorian Socialists candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,AJP,Animal Justice Party,AJP,2026_WESTERN_METROPOLITAN_AJP_1,Animal Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,AJP,Animal Justice Party,AJP,2026_WESTERN_METROPOLITAN_AJP_2,Animal Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_WESTERN_METROPOLITAN_ALP_1,Australian Labor Party - Victorian Branch candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_WESTERN_METROPOLITAN_ALP_2,Australian Labor Party - Victorian Branch candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_WESTERN_METROPOLITAN_ALP_3,Australian Labor Party - Victorian Branch candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_WESTERN_METROPOLITAN_ALP_4,Australian Labor Party - Victorian Branch candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,ALP,Australian Labor Party - Victorian Branch,ALP,2026_WESTERN_METROPOLITAN_ALP_5,Australian Labor Party - Victorian Branch candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,AVP,Angry Victorians Party,AVP,2026_WESTERN_METROPOLITAN_AVP_1,Angry Victorians Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,AVP,Angry Victorians Party,AVP,2026_WESTERN_METROPOLITAN_AVP_2,Angry Victorians Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,CPP,Companions and Pets Party,CPP,2026_WESTERN_METROPOLITAN_CPP_1,Companions and Pets Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,CPP,Companions and Pets Party,CPP,2026_WESTERN_METROPOLITAN_CPP_2,Companions and Pets Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,DHJP,Derryn Hinch's Justice Party,DHJP,2026_WESTERN_METROPOLITAN_DHJP_1,Derryn Hinch's Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,DHJP,Derryn Hinch's Justice Party,DHJP,2026_WESTERN_METROPOLITAN_DHJP_2,Derryn Hinch's Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,DLP,Labour DLP,DLP,2026_WESTERN_METROPOLITAN_DLP_1,Labour DLP candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,DLP,Labour DLP,DLP,2026_WESTERN_METROPOLITAN_DLP_2,Labour DLP candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,FFV,Family First Victoria,FFV,2026_WESTERN_METROPOLITAN_FFV_1,Family First Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,FFV,Family First Victoria,FFV,2026_WESTERN_METROPOLITAN_FFV_2,Family First Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_WESTERN_METROPOLITAN_FREEDOM_1,Freedom Party of Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_WESTERN_METROPOLITAN_FREEDOM_2,Freedom Party of Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,GRN,Australian Greens,GRN,2026_WESTERN_METROPOLITAN_GRN_1,Australian Greens candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,GRN,Australian Greens,GRN,2026_WESTERN_METROPOLITAN_GRN_2,Australian Greens candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,GRN,Australian Greens,GRN,2026_WESTERN_METROPOLITAN_GRN_3,Australian Greens candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,GRN,Australian Greens,GRN,2026_WESTERN_METROPOLITAN_GRN_4,Australian Greens candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,GRN,Australian Greens,GRN,2026_WESTERN_METROPOLITAN_GRN_5,Australian Greens candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,HAP,Health Australia Party,HAP,2026_WESTERN_METROPOLITAN_HAP_1,Health Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,HAP,Health Australia Party,HAP,2026_WESTERN_METROPOLITAN_HAP_2,Health Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,LCV,Legalise Cannabis Victoria,LCV,2026_WESTERN_METROPOLITAN_LCV_1,Legalise Cannabis Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,LCV,Legalise Cannabis Victoria,LCV,2026_WESTERN_METROPOLITAN_LCV_2,Legalise Cannabis Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,LDP,Liberal Democrats,LDP,2026_WESTERN_METROPOLITAN_LDP_1,Liberal Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,LDP,Liberal Democrats,LDP,2026_WESTERN_METROPOLITAN_LDP_2,Liberal Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,LIB,Liberal,LIB,2026_WESTERN_METROPOLITAN_LIB_1,Liberal candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,LIB,Liberal,LIB,2026_WESTERN_METROPOLITAN_LIB_2,Liberal candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,LIB,Liberal,LIB,2026_WESTERN_METROPOLITAN_LIB_3,Liberal candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,LIB,Liberal,LIB,2026_WESTERN_METROPOLITAN_LIB_4,Liberal candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,LIB,Liberal,LIB,2026_WESTERN_METROPOLITAN_LIB_5,Liberal candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,NDP,New Democrats,NDP,2026_WESTERN_METROPOLITAN_NDP_1,New Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,NDP,New Democrats,NDP,2026_WESTERN_METROPOLITAN_NDP_2,New Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_WESTERN_METROPOLITAN_ON_1,Pauline Hanson's One Nation candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_WESTERN_METROPOLITAN_ON_2,Pauline Hanson's One Nation candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_WESTERN_METROPOLITAN_ON_3,Pauline Hanson's One Nation candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_WESTERN_METROPOLITAN_ON_4,Pauline Hanson's One Nation candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,ON,Pauline Hanson's One Nation,ON,2026_WESTERN_METROPOLITAN_ON_5,Pauline Hanson's One Nation candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,REASON,Fiona Patten's Reason Party,REASON,2026_WESTERN_METROPOLITAN_REASON_1,Fiona Patten's Reason Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,REASON,Fiona Patten's Reason Party,REASON,2026_WESTERN_METROPOLITAN_REASON_2,Fiona Patten's Reason Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_WESTERN_METROPOLITAN_SAP_1,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_WESTERN_METROPOLITAN_SAP_2,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_WESTERN_METROPOLITAN_SDA_1,Sack Dan Andrews Restore Democracy candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_WESTERN_METROPOLITAN_SDA_2,Sack Dan Andrews Restore Democracy candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_WESTERN_METROPOLITAN_SFF_1,"Shooters, Fishers & Farmers Vic candidate 1",1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_WESTERN_METROPOLITAN_SFF_2,"Shooters, Fishers & Farmers Vic candidate 2",2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,TMP,Transport Matters,TMP,2026_WESTERN_METROPOLITAN_TMP_1,Transport Matters candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,TMP,Transport Matters,TMP,2026_WESTERN_METROPOLITAN_TMP_2,Transport Matters candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,UAP,United Australia Party,UAP,2026_WESTERN_METROPOLITAN_UAP_1,United Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,UAP,United Australia Party,UAP,2026_WESTERN_METROPOLITAN_UAP_2,United Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,VS,Victorian Socialists,VS,2026_WESTERN_METROPOLITAN_VS_1,Victorian Socialists candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Metropolitan,VS,Victorian Socialists,VS,2026_WESTERN_METROPOLITAN_VS_2,Victorian Socialists candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,AJP,Animal Justice Party,AJP,2026_WESTERN_VICTORIA_AJP_1,Animal Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,AJP,Animal Justice Party,AJP,2026_WESTERN_VICTORIA_AJP_2,Animal Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_WESTERN_VICTORIA_ALP_1,Australian Labor Party - Victorian Branch candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_WESTERN_VICTORIA_ALP_2,Australian Labor Party - Victorian Branch candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_WESTERN_VICTORIA_ALP_3,Australian Labor Party - Victorian Branch candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_WESTERN_VICTORIA_ALP_4,Australian Labor Party - Victorian Branch candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,ALP,Australian Labor Party - Victorian Branch,ALP,2026_WESTERN_VICTORIA_ALP_5,Australian Labor Party - Victorian Branch candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,AVP,Angry Victorians Party,AVP,2026_WESTERN_VICTORIA_AVP_1,Angry Victorians Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,AVP,Angry Victorians Party,AVP,2026_WESTERN_VICTORIA_AVP_2,Angry Victorians Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,CPP,Companions and Pets Party,CPP,2026_WESTERN_VICTORIA_CPP_1,Companions and Pets Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,CPP,Companions and Pets Party,CPP,2026_WESTERN_VICTORIA_CPP_2,Companions and Pets Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,DHJP,Derryn Hinch's Justice Party,DHJP,2026_WESTERN_VICTORIA_DHJP_1,Derryn Hinch's Justice Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,DHJP,Derryn Hinch's Justice Party,DHJP,2026_WESTERN_VICTORIA_DHJP_2,Derryn Hinch's Justice Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,DLP,Labour DLP,DLP,2026_WESTERN_VICTORIA_DLP_1,Labour DLP candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,DLP,Labour DLP,DLP,2026_WESTERN_VICTORIA_DLP_2,Labour DLP candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,FFV,Family First Victoria,FFV,2026_WESTERN_VICTORIA_FFV_1,Family First Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,FFV,Family First Victoria,FFV,2026_WESTERN_VICTORIA_FFV_2,Family First Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_WESTERN_VICTORIA_FREEDOM_1,Freedom Party of Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,FREEDOM,Freedom Party of Victoria,FREEDOM,2026_WESTERN_VICTORIA_FREEDOM_2,Freedom Party of Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,GRN,Australian Greens,GRN,2026_WESTERN_VICTORIA_GRN_1,Australian Greens candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,GRN,Australian Greens,GRN,2026_WESTERN_VICTORIA_GRN_2,Australian Greens candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,GRN,Australian Greens,GRN,2026_WESTERN_VICTORIA_GRN_3,Australian Greens candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,GRN,Australian Greens,GRN,2026_WESTERN_VICTORIA_GRN_4,Australian Greens candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,GRN,Australian Greens,GRN,2026_WESTERN_VICTORIA_GRN_5,Australian Greens candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,HAP,Health Australia Party,HAP,2026_WESTERN_VICTORIA_HAP_1,Health Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,HAP,Health Australia Party,HAP,2026_WESTERN_VICTORIA_HAP_2,Health Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,LCV,Legalise Cannabis Victoria,LCV,2026_WESTERN_VICTORIA_LCV_1,Legalise Cannabis Victoria candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,LCV,Legalise Cannabis Victoria,LCV,2026_WESTERN_VICTORIA_LCV_2,Legalise Cannabis Victoria candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,LDP,Liberal Democrats,LDP,2026_WESTERN_VICTORIA_LDP_1,Liberal Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,LDP,Liberal Democrats,LDP,2026_WESTERN_VICTORIA_LDP_2,Liberal Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,LNP,Liberal / The Nationals,LNP,2026_WESTERN_VICTORIA_LNP_1,Liberal / The Nationals candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,LNP,Liberal / The Nationals,LNP,2026_WESTERN_VICTORIA_LNP_2,Liberal / The Nationals candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,LNP,Liberal / The Nationals,LNP,2026_WESTERN_VICTORIA_LNP_3,Liberal / The Nationals candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,LNP,Liberal / The Nationals,LNP,2026_WESTERN_VICTORIA_LNP_4,Liberal / The Nationals candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,LNP,Liberal / The Nationals,LNP,2026_WESTERN_VICTORIA_LNP_5,Liberal / The Nationals candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,NDP,New Democrats,NDP,2026_WESTERN_VICTORIA_NDP_1,New Democrats candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,NDP,New Democrats,NDP,2026_WESTERN_VICTORIA_NDP_2,New Democrats candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,ON,Pauline Hanson's One Nation,ON,2026_WESTERN_VICTORIA_ON_1,Pauline Hanson's One Nation candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,ON,Pauline Hanson's One Nation,ON,2026_WESTERN_VICTORIA_ON_2,Pauline Hanson's One Nation candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,ON,Pauline Hanson's One Nation,ON,2026_WESTERN_VICTORIA_ON_3,Pauline Hanson's One Nation candidate 3,3,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,ON,Pauline Hanson's One Nation,ON,2026_WESTERN_VICTORIA_ON_4,Pauline Hanson's One Nation candidate 4,4,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,ON,Pauline Hanson's One Nation,ON,2026_WESTERN_VICTORIA_ON_5,Pauline Hanson's One Nation candidate 5,5,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,REASON,Fiona Patten's Reason Party,REASON,2026_WESTERN_VICTORIA_REASON_1,Fiona Patten's Reason Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,REASON,Fiona Patten's Reason Party,REASON,2026_WESTERN_VICTORIA_REASON_2,Fiona Patten's Reason Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_WESTERN_VICTORIA_SAP_1,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,SAP,2026_WESTERN_VICTORIA_SAP_2,Sustainable Australia Party – Stop Overdevelopment / Corruption candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_WESTERN_VICTORIA_SDA_1,Sack Dan Andrews Restore Democracy candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,SDA,Sack Dan Andrews Restore Democracy,SDA,2026_WESTERN_VICTORIA_SDA_2,Sack Dan Andrews Restore Democracy candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_WESTERN_VICTORIA_SFF_1,"Shooters, Fishers & Farmers Vic candidate 1",1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,SFF,"Shooters, Fishers & Farmers Vic",SFF,2026_WESTERN_VICTORIA_SFF_2,"Shooters, Fishers & Farmers Vic candidate 2",2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,TMP,Transport Matters,TMP,2026_WESTERN_VICTORIA_TMP_1,Transport Matters candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,TMP,Transport Matters,TMP,2026_WESTERN_VICTORIA_TMP_2,Transport Matters candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,UAP,United Australia Party,UAP,2026_WESTERN_VICTORIA_UAP_1,United Australia Party candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,UAP,United Australia Party,UAP,2026_WESTERN_VICTORIA_UAP_2,United Australia Party candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,VS,Victorian Socialists,VS,2026_WESTERN_VICTORIA_VS_1,Victorian Socialists candidate 1,1,False,True,0,Placeholder until nominations are known.
+2026,Western Victoria,VS,Victorian Socialists,VS,2026_WESTERN_VICTORIA_VS_2,Victorian Socialists candidate 2,2,False,True,0,Placeholder until nominations are known.
+2026,Eastern Victoria,IND,Ungrouped / independent,IND,2026_EASTERN_VICTORIA_IND_1,Ungrouped / independent candidate,1,False,True,0,Catch-all BTL-only placeholder; replace with named ungrouped candidates.
+2026,North-Eastern Metropolitan,IND,Ungrouped / independent,IND,2026_NORTH_EASTERN_METROPOLITAN_IND_1,Ungrouped / independent candidate,1,False,True,0,Catch-all BTL-only placeholder; replace with named ungrouped candidates.
+2026,Northern Metropolitan,IND,Ungrouped / independent,IND,2026_NORTHERN_METROPOLITAN_IND_1,Ungrouped / independent candidate,1,False,True,0,Catch-all BTL-only placeholder; replace with named ungrouped candidates.
+2026,Northern Victoria,IND,Ungrouped / independent,IND,2026_NORTHERN_VICTORIA_IND_1,Ungrouped / independent candidate,1,False,True,0,Catch-all BTL-only placeholder; replace with named ungrouped candidates.
+2026,South-Eastern Metropolitan,IND,Ungrouped / independent,IND,2026_SOUTH_EASTERN_METROPOLITAN_IND_1,Ungrouped / independent candidate,1,False,True,0,Catch-all BTL-only placeholder; replace with named ungrouped candidates.
+2026,Southern Metropolitan,IND,Ungrouped / independent,IND,2026_SOUTHERN_METROPOLITAN_IND_1,Ungrouped / independent candidate,1,False,True,0,Catch-all BTL-only placeholder; replace with named ungrouped candidates.
+2026,Western Metropolitan,IND,Ungrouped / independent,IND,2026_WESTERN_METROPOLITAN_IND_1,Ungrouped / independent candidate,1,False,True,0,Catch-all BTL-only placeholder; replace with named ungrouped candidates.
+2026,Western Victoria,IND,Ungrouped / independent,IND,2026_WESTERN_VICTORIA_IND_1,Ungrouped / independent candidate,1,False,True,0,Catch-all BTL-only placeholder; replace with named ungrouped candidates.

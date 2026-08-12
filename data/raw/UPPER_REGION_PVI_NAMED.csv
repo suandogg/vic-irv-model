@@ -1,0 +1,182 @@
+Region,PartyKey,GroupName2022,Votes2022,RegionPrimaryPct2022,StatewidePrimaryPct2022,RawRegionalLean,PVIWeight,Enabled,Notes
+Eastern Victoria,AJP,Animal Justice Party,8413,1.777452,1.514202,1.173854,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,ALP,Australian Labor Party - Victorian Branch,125481,26.510929,33.011087,0.803092,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,AVP,Angry Victorians Party,2280,0.481706,0.396972,1.21345,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,CPP,Companions and Pets Party,2251,0.475579,0.438758,1.083919,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,DHJP,Derryn Hinch's Justice Party,9500,2.007107,1.529179,1.312539,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,DLP,Labour DLP,18117,3.827659,3.507083,1.091408,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,FFV,Family First Victoria,7634,1.612869,2.006259,0.803919,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,FREEDOM,Freedom Party of Victoria,8385,1.771536,1.063584,1.665628,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,GRN,Australian Greens,37795,7.985118,10.318446,0.773868,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,HAP,Health Australia Party,1921,0.405858,0.578136,0.702012,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,IND,Ungrouped,170,0.035917,0.114673,0.313209,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,LCV,Legalise Cannabis Victoria,19654,4.152388,4.086631,1.016091,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,LDP,Liberal Democrats,12130,2.562759,2.639746,0.970835,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,LNP,Liberal / The Nationals,172208,36.38315,12.4797,2.915387,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,NDP,New Democrats,533,0.112609,0.206348,0.545726,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,ON,Pauline Hanson's One Nation,16964,3.58406,2.044928,1.752658,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,REASON,Fiona Patten's Reason Party,3498,0.739038,1.254395,0.589159,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,1772,0.374378,0.467353,0.80106,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,SDA,Sack Dan Andrews Restore Democracy,3984,0.841717,0.833119,1.010321,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,SFF,"Shooters, Fishers & Farmers Vic",14217,3.003689,2.045141,1.468695,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,TMP,Transport Matters,729,0.154019,0.282619,0.544971,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,UAP,United Australia Party,3382,0.71453,0.827283,0.863708,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Eastern Victoria,VS,Victorian Socialists,2300,0.485931,1.392307,0.349012,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,AJP,Animal Justice Party,6799,1.413872,1.514202,0.933741,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,ALP,Australian Labor Party - Victorian Branch,162183,33.726434,33.011087,1.02167,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,AVP,Angry Victorians Party,1673,0.347905,0.396972,0.876398,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,CPP,Companions and Pets Party,1738,0.361422,0.438758,0.823738,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,DHJP,Derryn Hinch's Justice Party,6759,1.405554,1.529179,0.919156,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,DLP,Labour DLP,25055,5.210261,3.507083,1.485639,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,FFV,Family First Victoria,10063,2.092631,2.006259,1.043051,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,FREEDOM,Freedom Party of Victoria,4684,0.974052,1.063584,0.91582,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,GRN,Australian Greens,49934,10.383923,10.318446,1.006346,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,HAP,Health Australia Party,3171,0.659419,0.578136,1.140595,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,LCV,Legalise Cannabis Victoria,15357,3.193533,4.086631,0.781459,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,LDP,Liberal Democrats,20379,4.237873,2.639746,1.605409,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,LIB,Liberal,145788,30.317045,16.96205,1.787346,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,NDP,New Democrats,879,0.182791,0.206348,0.885838,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,ON,Pauline Hanson's One Nation,6086,1.265602,2.044928,0.618898,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,REASON,Fiona Patten's Reason Party,4774,0.992767,1.254395,0.791431,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,1875,0.389912,0.467353,0.834297,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,SDA,Sack Dan Andrews Restore Democracy,3236,0.672936,0.833119,0.807731,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",4401,0.915201,2.045141,0.4475,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,TMP,Transport Matters,1023,0.212736,0.282619,0.752731,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,UAP,United Australia Party,2436,0.506573,0.827283,0.612334,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+North-Eastern Metropolitan,VS,Victorian Socialists,2585,0.537558,1.392307,0.386092,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,AJP,Animal Justice Party,6320,1.396901,1.514202,0.922533,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,ALP,Australian Labor Party - Victorian Branch,151062,33.389033,33.011087,1.011449,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,AVP,Angry Victorians Party,1186,0.26214,0.396972,0.660349,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,CPP,Companions and Pets Party,1582,0.349667,0.438758,0.796947,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,DHJP,Derryn Hinch's Justice Party,4773,1.05497,1.529179,0.689893,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,DLP,Labour DLP,21684,4.792786,3.507083,1.366602,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,FFV,Family First Victoria,11646,2.5741,2.006259,1.283034,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,FREEDOM,Freedom Party of Victoria,4937,1.091219,1.063584,1.025982,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,GRN,Australian Greens,84127,18.594479,10.318446,1.802062,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,HAP,Health Australia Party,1642,0.362929,0.578136,0.627758,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,IND,Ungrouped,118,0.026081,0.114673,0.227441,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,LCV,Legalise Cannabis Victoria,13822,3.055058,4.086631,0.747574,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,LDP,Liberal Democrats,5612,1.240413,2.639746,0.469899,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,LIB,Liberal,85359,18.866786,16.96205,1.112294,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,NDP,New Democrats,1456,0.321818,0.206348,1.55959,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,ON,Pauline Hanson's One Nation,4251,0.939593,2.044928,0.459475,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,REASON,Fiona Patten's Reason Party,16322,3.60763,1.254395,2.875992,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,1480,0.327122,0.467353,0.699946,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,SDA,Sack Dan Andrews Restore Democracy,2711,0.599209,0.833119,0.719236,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",3470,0.766969,2.045141,0.37502,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,TMP,Transport Matters,1964,0.4341,0.282619,1.535993,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,UAP,United Australia Party,5601,1.237982,0.827283,1.496443,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Metropolitan,VS,Victorian Socialists,21305,4.709016,1.392307,3.382168,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,AJP,Animal Justice Party,7239,1.557498,1.514202,1.028593,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,ALP,Australian Labor Party - Victorian Branch,134057,28.84286,33.011087,0.873733,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,AVP,Angry Victorians Party,2229,0.479578,0.396972,1.208089,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,CPP,Companions and Pets Party,2861,0.615555,0.438758,1.402947,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,DHJP,Derryn Hinch's Justice Party,9140,1.966505,1.529179,1.285987,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,DLP,Labour DLP,6842,1.472082,3.507083,0.419745,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,FFV,Family First Victoria,7600,1.635168,2.006259,0.815033,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,FREEDOM,Freedom Party of Victoria,4968,1.068884,1.063584,1.004983,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,GRN,Australian Greens,32399,6.970765,10.318446,0.675563,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,HAP,Health Australia Party,4835,1.040268,0.578136,1.799349,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,LCV,Legalise Cannabis Victoria,22103,4.755542,4.086631,1.163683,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,LDP,Liberal Democrats,9249,1.989957,2.639746,0.753844,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,LNP,Liberal / The Nationals,162860,35.039933,12.4797,2.807754,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,NDP,New Democrats,576,0.123929,0.206348,0.600581,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,ON,Pauline Hanson's One Nation,17306,3.72345,2.044928,1.820822,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,REASON,Fiona Patten's Reason Party,3755,0.807902,1.254395,0.644057,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,1599,0.344031,0.467353,0.736125,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,SDA,Sack Dan Andrews Restore Democracy,4570,0.983252,0.833119,1.180207,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,SFF,"Shooters, Fishers & Farmers Vic",23715,5.10237,2.045141,2.494874,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,TMP,Transport Matters,1368,0.29433,0.282619,1.04144,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,UAP,United Australia Party,3620,0.778856,0.827283,0.941464,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Northern Victoria,VS,Victorian Socialists,1893,0.407286,1.392307,0.292526,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,AJP,Animal Justice Party,6481,1.379597,1.514202,0.911105,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,ALP,Australian Labor Party - Victorian Branch,184810,39.34011,33.011087,1.191724,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,AVP,Angry Victorians Party,1345,0.286307,0.396972,0.721228,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,CPP,Companions and Pets Party,2425,0.516205,0.438758,1.176512,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,DHJP,Derryn Hinch's Justice Party,9334,1.986909,1.529179,1.29933,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,DLP,Labour DLP,15399,3.277952,3.507083,0.934666,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,FFV,Family First Victoria,9025,1.921132,2.006259,0.957569,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,FREEDOM,Freedom Party of Victoria,8306,1.76808,1.063584,1.662379,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,GRN,Australian Greens,31577,6.721728,10.318446,0.651428,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,HAP,Health Australia Party,3461,0.736736,0.578136,1.27433,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,IND,Ungrouped,242,0.051514,0.114673,0.449225,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,LCV,Legalise Cannabis Victoria,24672,5.251876,4.086631,1.285136,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,LDP,Liberal Democrats,16971,3.61258,2.639746,1.368533,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,LIB,Liberal,125762,26.770688,16.96205,1.57827,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,NDP,New Democrats,600,0.127721,0.206348,0.618959,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,ON,Pauline Hanson's One Nation,8299,1.76659,2.044928,0.863889,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,REASON,Fiona Patten's Reason Party,2118,0.450854,1.254395,0.35942,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,1512,0.321856,0.467353,0.688678,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,SDA,Sack Dan Andrews Restore Democracy,4554,0.9694,0.833119,1.16358,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",4112,0.875313,2.045141,0.427996,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,TMP,Transport Matters,1380,0.293758,0.282619,1.039413,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,UAP,United Australia Party,5495,1.169709,0.827283,1.413917,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+South-Eastern Metropolitan,VS,Victorian Socialists,1895,0.403385,1.392307,0.289724,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,AJP,Animal Justice Party,6698,1.425552,1.514202,0.941455,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,ALP,Australian Labor Party - Victorian Branch,139722,29.737386,33.011087,0.90083,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,AVP,Angry Victorians Party,915,0.194742,0.396972,0.490568,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,CPP,Companions and Pets Party,1257,0.26753,0.438758,0.609744,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,DHJP,Derryn Hinch's Justice Party,3807,0.810253,1.529179,0.529862,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,DLP,Labour DLP,10385,2.210266,3.507083,0.630229,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,FFV,Family First Victoria,4734,1.007549,2.006259,0.502203,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,FREEDOM,Freedom Party of Victoria,2810,0.598059,1.063584,0.562306,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,GRN,Australian Greens,72410,15.411203,10.318446,1.493558,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,HAP,Health Australia Party,1935,0.411831,0.578136,0.712343,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,LCV,Legalise Cannabis Victoria,13681,2.911762,4.086631,0.712509,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,LDP,Liberal Democrats,11696,2.489289,2.639746,0.943003,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,LIB,Liberal,169681,36.113636,16.96205,2.129084,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,NDP,New Democrats,688,0.146429,0.206348,0.709622,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,ON,Pauline Hanson's One Nation,3072,0.653822,2.044928,0.319728,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,REASON,Fiona Patten's Reason Party,9511,2.02425,1.254395,1.613726,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,5170,1.100344,0.467353,2.354415,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,SDA,Sack Dan Andrews Restore Democracy,3542,0.753853,0.833119,0.904856,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",1966,0.418429,2.045141,0.204597,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,TMP,Transport Matters,1480,0.314992,0.282619,1.114548,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,UAP,United Australia Party,2177,0.463336,0.827283,0.56007,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Southern Metropolitan,VS,Victorian Socialists,2516,0.535487,1.392307,0.384604,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,AJP,Animal Justice Party,6209,1.382374,1.514202,0.912939,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,ALP,Australian Labor Party - Victorian Branch,166371,37.040888,33.011087,1.122074,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,AVP,Angry Victorians Party,2569,0.571963,0.396972,1.440814,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,CPP,Companions and Pets Party,1806,0.402088,0.438758,0.916423,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,DHJP,Derryn Hinch's Justice Party,5371,1.195801,1.529179,0.781989,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,DLP,Labour DLP,23422,5.214681,3.507083,1.4869,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,FFV,Family First Victoria,14261,3.175073,2.006259,1.582584,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,FREEDOM,Freedom Party of Victoria,3513,0.782135,1.063584,0.735377,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,GRN,Australian Greens,36239,8.068262,10.318446,0.781926,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,HAP,Health Australia Party,2122,0.472443,0.578136,0.817183,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,IND,Ungrouped,3612,0.804177,0.114673,7.012776,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,LCV,Legalise Cannabis Victoria,19295,4.295844,4.086631,1.051195,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,LDP,Liberal Democrats,6546,1.457403,2.639746,0.5521,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,LIB,Liberal,109895,24.467055,16.96205,1.442459,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,NDP,New Democrats,2470,0.549922,0.206348,2.665025,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,ON,Pauline Hanson's One Nation,7691,1.712326,2.044928,0.837353,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,REASON,Fiona Patten's Reason Party,3617,0.80529,1.254395,0.641975,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,2046,0.455522,0.467353,0.974684,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,SDA,Sack Dan Andrews Restore Democracy,3653,0.813305,0.833119,0.976217,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,SFF,"Shooters, Fishers & Farmers Vic",6401,1.425121,2.045141,0.696832,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,TMP,Transport Matters,1204,0.268059,0.282619,0.948483,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,UAP,United Australia Party,4747,1.056873,0.827283,1.277524,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Metropolitan,VS,Victorian Socialists,16095,3.583395,1.392307,2.573711,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,AJP,Animal Justice Party,8660,1.759401,1.514202,1.161933,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,ALP,Australian Labor Party - Victorian Branch,175024,35.558589,33.011087,1.077171,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,AVP,Angry Victorians Party,2699,0.54834,0.396972,1.381306,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,CPP,Companions and Pets Party,2544,0.516849,0.438758,1.177982,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,DHJP,Derryn Hinch's Justice Party,8697,1.766918,1.529179,1.155468,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,DLP,Labour DLP,10696,2.173043,3.507083,0.619615,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,FFV,Family First Victoria,10320,2.096653,2.006259,1.045056,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,FREEDOM,Freedom Party of Victoria,2307,0.4687,1.063584,0.440679,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,GRN,Australian Greens,42709,8.676935,10.318446,0.840915,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,HAP,Health Australia Party,2607,0.529649,0.578136,0.916132,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,IND,Ungrouped,161,0.032709,0.114673,0.285241,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,LCV,Legalise Cannabis Victoria,24763,5.030952,4.086631,1.231076,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,LDP,Liberal Democrats,16471,3.346316,2.639746,1.267666,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,LNP,Liberal / The Nationals,133221,27.065722,12.4797,2.16878,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,NDP,New Democrats,541,0.109912,0.206348,0.532653,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,ON,Pauline Hanson's One Nation,13065,2.654339,2.044928,1.298011,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,REASON,Fiona Patten's Reason Party,3475,0.705995,1.254395,0.562817,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,SAP,Sustainable Australia Party – Stop Overdevelopment / Corruption,2083,0.423191,0.467353,0.905505,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,SDA,Sack Dan Andrews Restore Democracy,5012,1.018258,0.833119,1.222225,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,SFF,"Shooters, Fishers & Farmers Vic",18460,3.750409,2.045141,1.833814,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,TMP,Transport Matters,1457,0.29601,0.282619,1.047383,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,UAP,United Australia Party,3585,0.728343,0.827283,0.880404,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
+Western Victoria,VS,Victorian Socialists,3656,0.742768,1.392307,0.53348,0.75,True,Official 2022 Legislative Council geography; PVIWeight is editable.
