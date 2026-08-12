@@ -17,7 +17,11 @@ from SRC.transform import build_primary_vote_table
 from SRC.legacy_primary_loader import load_legacy_primary_inputs
 from SRC.loaders import load_seat_held_metadata, apply_seat_held_metadata
 from SRC.display_metrics import held_party_2cp_swing
-from SRC.legacy_primary_model import build_corrected_primary_table
+from SRC.legacy_primary_model import (
+    apply_on_primary_donor_geography,
+    build_corrected_primary_table,
+    deplete_on_primary_source_matrix,
+)
 from SRC.matrix_loader import load_synth_pref_matrices
 from SRC.params_loader import load_params
 from SRC.posterior_loader import load_posterior_scenarios
@@ -297,6 +301,37 @@ def run_model(primary_inputs, matrices, params, posterior, ideology, targets):
         targets=targets,
         on_alpha=on_alpha,
         pvi_strengths={"GRN": grn_pvi_persistence},
+    )
+    donor_strength = float(
+        scenario_params.get("scalar_params", {}).get(
+            "ON_PRIMARY_DONOR_STRENGTH", 0.0
+        ) or 0.0
+    )
+    source_matrix = scenario_params.get("on_vote_source_matrix", {})
+    depletion_strength = float(
+        scenario_params.get("scalar_params", {}).get(
+            "ON_PRIMARY_OTH_DEPLETION_STRENGTH", 0.0
+        ) or 0.0
+    )
+    if depletion_strength > 0:
+        source_matrix = deplete_on_primary_source_matrix(
+            source_matrix,
+            on_level=scenario_params["scalar_params"]["SCENARIO_ON_PRIMARY"],
+            max_depletion=depletion_strength,
+            start_level=float(scenario_params["scalar_params"].get(
+                "ON_PRIMARY_OTH_DEPLETION_START", 10.0
+            )),
+            full_level=float(scenario_params["scalar_params"].get(
+                "ON_PRIMARY_OTH_DEPLETION_FULL", 30.0
+            )),
+        )
+    adjusted = apply_on_primary_donor_geography(
+        primary_inputs=primary_inputs,
+        current=adjusted,
+        targets=targets,
+        source_matrix=source_matrix,
+        strength=donor_strength,
+        on_alpha=on_alpha,
     )
     adjusted = apply_lnp_precollapse(adjusted)
     log_checkpoint("run_model adjusted primaries")

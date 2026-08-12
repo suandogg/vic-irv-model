@@ -168,3 +168,128 @@ def build_corrected_primary_table(
         out[party] = calibrated[party]
 
     return out
+
+
+def deplete_on_primary_source_matrix(
+    source_matrix: dict,
+    on_level: float,
+    max_depletion: float = 0.75,
+    start_level: float = 10.0,
+    full_level: float = 30.0,
+) -> dict:
+    """Reduce OTH's primary donor role as ON grows.
+
+    Released OTH weight is reassigned two-thirds to LNP and one-third to ALP,
+    matching the development configuration tested before production.
+    """
+    from copy import deepcopy
+
+    if full_level <= start_level:
+        raise ValueError("ON primary donor depletion full level must exceed start level")
+    progress = max(0.0, min(1.0, (float(on_level) - start_level) / (full_level - start_level)))
+    depletion = max(0.0, min(1.0, float(max_depletion))) * progress
+    result = deepcopy(source_matrix)
+    for row in result.values():
+        released = float(row.get("OTH", 0.0) or 0.0) * depletion
+        row["OTH"] = float(row.get("OTH", 0.0) or 0.0) - released
+        row["LNP"] = float(row.get("LNP", 0.0) or 0.0) + released * 2 / 3
+        row["ALP"] = float(row.get("ALP", 0.0) or 0.0) + released / 3
+    return result
+
+
+def _calibrate_primary_components(
+    components: pd.DataFrame,
+    targets: dict[str, float],
+    iterations: int = 300,
+    tolerance: float = 1e-12,
+) -> pd.DataFrame:
+    out = components[PARTIES].clip(lower=1e-12).copy()
+    total = sum(float(targets[p]) for p in PARTIES)
+    target = {p: float(targets[p]) / total for p in PARTIES}
+    for _ in range(iterations):
+        shares = out.div(out.sum(axis=1), axis=0)
+        current = shares.mean()
+        if max(abs(float(current[p]) - target[p]) for p in PARTIES) <= tolerance:
+            return shares
+        for party in PARTIES:
+            out[party] *= target[party] / float(current[party])
+    raise ValueError("ON primary donor calibration did not converge")
+
+
+def apply_on_primary_donor_geography(
+    primary_inputs: pd.DataFrame,
+    current: pd.DataFrame,
+    targets: dict[str, float],
+    source_matrix: dict,
+    strength: float,
+    on_alpha: float = 0.6,
+) -> pd.DataFrame:
+    """Blend toward explicit, seat-class ON primary donor allocation.
+
+    ``strength=0`` reproduces the corrected proportional model and
+    ``strength=1`` applies the explicit source construction in full. Both
+    endpoints—and every blend between them—preserve statewide targets.
+    """
+    strength = max(0.0, min(1.0, float(strength)))
+    if strength == 0:
+        return current.copy()
+
+    non_on = [p for p in PARTIES if p != "ON"]
+    on = current["ON"].reset_index(drop=True)
+    seat_types = primary_inputs["seat_type"].reset_index(drop=True)
+    requested = pd.DataFrame(index=primary_inputs.index)
+    for party in non_on:
+        requested[party] = [
+            float(on.iloc[i])
+            * float(source_matrix.get(seat_types.iloc[i], {}).get(party, 0.0) or 0.0)
+            for i in range(len(primary_inputs))
+        ]
+
+    pre_targets = {
+        party: float(targets[party]) + requested[party].mean() * 100
+        for party in non_on
+    }
+    pre_targets["ON"] = 0.0
+    pre = build_corrected_primary_table(
+        primary_inputs, pre_targets, on_alpha=on_alpha
+    )
+    components = pre[PARTIES].copy()
+
+    for i in primary_inputs.index:
+        remaining = float(on.iloc[i])
+        available = {p: float(components.loc[i, p]) for p in non_on}
+        weights = {
+            p: float(source_matrix.get(seat_types.iloc[i], {}).get(p, 0.0) or 0.0)
+            for p in non_on
+        }
+        actual = {p: 0.0 for p in non_on}
+        active = set(non_on)
+        while remaining > 1e-12 and active:
+            weight_total = sum(weights[p] for p in active)
+            shares = (
+                {p: weights[p] / weight_total for p in active}
+                if weight_total > 0
+                else {p: available[p] / sum(available[q] for q in active) for p in active}
+            )
+            moved = 0.0
+            exhausted = []
+            for party in active:
+                take = min(remaining * shares[party], available[party])
+                actual[party] += take
+                available[party] -= take
+                moved += take
+                if available[party] <= 1e-12:
+                    exhausted.append(party)
+            remaining -= moved
+            active.difference_update(exhausted)
+            if moved <= 1e-15:
+                break
+        for party in non_on:
+            components.loc[i, party] -= actual[party]
+        components.loc[i, "ON"] = float(on.iloc[i]) - max(0.0, remaining)
+
+    explicit = _calibrate_primary_components(components, targets)
+    result = current.copy()
+    for party in PARTIES:
+        result[party] = (1 - strength) * current[party] + strength * explicit[party]
+    return result

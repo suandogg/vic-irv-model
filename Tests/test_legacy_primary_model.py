@@ -7,8 +7,10 @@ import pandas as pd
 
 from SRC.constants import PARTIES
 from SRC.legacy_primary_model import (
+    apply_on_primary_donor_geography,
     build_corrected_primary_table,
     build_legacy_primary_table,
+    deplete_on_primary_source_matrix,
 )
 
 
@@ -111,6 +113,47 @@ class LegacyPrimaryModelTest(unittest.TestCase):
             self.inputs, self.targets, pvi_strengths={"GRN": 0.0}
         )
         pd.testing.assert_frame_equal(self.inputs, original)
+
+    def test_on_primary_donor_strength_zero_is_identity(self):
+        current = build_corrected_primary_table(self.inputs, self.targets)
+        actual = apply_on_primary_donor_geography(
+            self.inputs, current, self.targets,
+            {seat: {"ALP": 0.2, "LNP": 0.5, "GRN": 0.02,
+                    "IND": 0.05, "OTH": 0.23}
+             for seat in self.inputs["seat_type"].unique()},
+            strength=0.0,
+        )
+        pd.testing.assert_frame_equal(actual, current)
+
+    def test_on_primary_donor_geography_preserves_targets(self):
+        current = build_corrected_primary_table(self.inputs, self.targets)
+        matrix = {
+            seat: {"ALP": 0.2, "LNP": 0.5, "GRN": 0.02,
+                   "IND": 0.05, "OTH": 0.23}
+            for seat in self.inputs["seat_type"].unique()
+        }
+        actual = apply_on_primary_donor_geography(
+            self.inputs, current, self.targets, matrix, strength=0.35
+        )
+        total = sum(self.targets.values())
+        for party in PARTIES:
+            self.assertAlmostEqual(
+                actual[party].mean(), self.targets[party] / total, places=10
+            )
+        self.assertLess(
+            (actual[PARTIES].sum(axis=1) - 1).abs().max(), 1e-12
+        )
+
+    def test_oth_depletion_conserves_source_rows(self):
+        matrix = {"Outer Metro": {
+            "ALP": 0.21, "LNP": 0.50, "GRN": 0.02,
+            "IND": 0.05, "OTH": 0.22,
+        }}
+        depleted = deplete_on_primary_source_matrix(
+            matrix, on_level=30, max_depletion=0.75
+        )
+        self.assertAlmostEqual(sum(depleted["Outer Metro"].values()), 1.0)
+        self.assertAlmostEqual(depleted["Outer Metro"]["OTH"], 0.055)
 
 
 if __name__ == "__main__":
