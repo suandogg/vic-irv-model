@@ -85,6 +85,7 @@ def build_corrected_primary_table(
     primary_inputs: pd.DataFrame,
     targets: dict[str, float],
     on_alpha: float = 0.6,
+    pvi_strengths: dict[str, float] | None = None,
     iterations: int = 100,
     tolerance: float = 1e-12,
 ) -> pd.DataFrame:
@@ -104,8 +105,20 @@ def build_corrected_primary_table(
         for party in PARTIES
     }
 
+    adjusted_inputs = primary_inputs.copy()
+    for party, strength in (pvi_strengths or {}).items():
+        column = LEGACY_PVI_COLUMNS.get(party)
+        if column is None:
+            raise ValueError(f"Unknown PVI persistence party: {party}")
+        strength = float(strength)
+        if strength < 0:
+            raise ValueError(f"PVI persistence cannot be negative: {party}={strength}")
+        adjusted_inputs[column] = pd.to_numeric(
+            adjusted_inputs[column], errors="raise"
+        ) * strength
+
     legacy = build_legacy_primary_table(
-        primary_inputs=primary_inputs,
+        primary_inputs=adjusted_inputs,
         targets=targets,
         on_alpha=on_alpha,
     )

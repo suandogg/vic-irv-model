@@ -95,6 +95,23 @@ class LegacyPrimaryModelTest(unittest.TestCase):
         actual = build_corrected_primary_table(self.inputs, targets)
         self.assertEqual(float(actual["ON"].max()), 0.0)
 
+    def test_party_pvi_persistence_is_configurable(self):
+        current = build_corrected_primary_table(self.inputs, self.targets)
+        reduced = build_corrected_primary_table(
+            self.inputs, self.targets, pvi_strengths={"GRN": 0.5}
+        )
+        self.assertAlmostEqual(
+            reduced["GRN"].mean(), current["GRN"].mean(), places=10
+        )
+        self.assertLess(reduced["GRN"].std(), current["GRN"].std())
+
+    def test_zero_persistence_does_not_mutate_inputs(self):
+        original = self.inputs.copy(deep=True)
+        build_corrected_primary_table(
+            self.inputs, self.targets, pvi_strengths={"GRN": 0.0}
+        )
+        pd.testing.assert_frame_equal(self.inputs, original)
+
 
 if __name__ == "__main__":
     unittest.main()

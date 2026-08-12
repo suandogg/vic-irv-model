@@ -287,10 +287,16 @@ def run_model(primary_inputs, matrices, params, posterior, ideology, targets):
     on_alpha = float(
         scenario_params.get("scalar_params", {}).get("ON alpha", 0.6) or 0.6
     )
+    grn_pvi_persistence = float(
+        scenario_params.get("scalar_params", {}).get(
+            "GRN_PVI_PERSISTENCE", 1.0
+        ) or 1.0
+    )
     adjusted = build_corrected_primary_table(
         primary_inputs=primary_inputs,
         targets=targets,
         on_alpha=on_alpha,
+        pvi_strengths={"GRN": grn_pvi_persistence},
     )
     adjusted = apply_lnp_precollapse(adjusted)
     log_checkpoint("run_model adjusted primaries")
