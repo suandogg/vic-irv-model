@@ -69,6 +69,8 @@ ON_PRIMARY_DONOR_STRENGTH,0.35,"Blends primary geography toward explicit ON vote
 ON_PRIMARY_OTH_DEPLETION_STRENGTH,0.75,"Maximum fraction of OTH's primary donor weight reallocated as ON rises; released weight moves one-third to ALP and two-thirds to LNP.",,,,
 ON_PRIMARY_OTH_DEPLETION_START,10,"Statewide ON primary at which primary-source OTH depletion begins.",,,,
 ON_PRIMARY_OTH_DEPLETION_FULL,30,"Statewide ON primary at which maximum primary-source OTH depletion applies.",,,,
+RETIRING_INCUMBENT_PENALTY_PP,1,"Default primary-vote penalty when the incumbent member retires; editable by seat in LOWER_SEAT_ADJUSTMENTS.",,,,
+SOPHOMORE_SURGE_BONUS_PP,1,"Default primary-vote bonus for a member contesting their first re-election; editable by seat in LOWER_SEAT_ADJUSTMENTS.",,,,
 Optional for later,,,,,,
 PRIMARY_TILT_K,0.2,Strength of primary-vote adjustment when allocating preferences between ALP and LNP (bounded by PRIMARY_TILT_MAX).,,,,
 PRIMARY_TILT_MAX,0.03,Hard limit on how much primary-vote differences can move preference flows in either direction.,,,,

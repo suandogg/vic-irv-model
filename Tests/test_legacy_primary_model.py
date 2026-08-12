@@ -8,6 +8,7 @@ import pandas as pd
 from SRC.constants import PARTIES
 from SRC.legacy_primary_model import (
     apply_on_primary_donor_geography,
+    apply_seat_primary_adjustments,
     build_corrected_primary_table,
     build_legacy_primary_table,
     deplete_on_primary_source_matrix,
@@ -154,6 +155,51 @@ class LegacyPrimaryModelTest(unittest.TestCase):
         )
         self.assertAlmostEqual(sum(depleted["Outer Metro"].values()), 1.0)
         self.assertAlmostEqual(depleted["Outer Metro"]["OTH"], 0.055)
+
+    def test_retirement_and_sophomore_effects_preserve_targets(self):
+        current = build_corrected_primary_table(self.inputs, self.targets)
+        adjustments = pd.DataFrame([
+            {
+                "district": "Box Hill", "party": "ALP",
+                "retiring_incumbent": True, "first_re_election": False,
+                "retirement_penalty_pp": None, "sophomore_bonus_pp": None,
+                "candidate_strength_pp": 0, "manual_adjustment_pp": 0,
+                "enabled": True, "notes": "retirement test",
+            },
+            {
+                "district": "Bulleen", "party": "LNP",
+                "retiring_incumbent": False, "first_re_election": True,
+                "retirement_penalty_pp": None, "sophomore_bonus_pp": None,
+                "candidate_strength_pp": 0, "manual_adjustment_pp": 0,
+                "enabled": True, "notes": "sophomore test",
+            },
+        ])
+        actual, diagnostics = apply_seat_primary_adjustments(
+            current, adjustments, self.targets,
+            retirement_penalty_pp=1.0, sophomore_bonus_pp=1.0,
+        )
+        total = sum(self.targets.values())
+        for party in PARTIES:
+            self.assertAlmostEqual(
+                actual[party].mean(), self.targets[party] / total, places=10
+            )
+        self.assertLess(
+            actual.loc[actual["district"] == "Box Hill", "ALP"].iloc[0],
+            current.loc[current["district"] == "Box Hill", "ALP"].iloc[0],
+        )
+        self.assertGreater(
+            actual.loc[actual["district"] == "Bulleen", "LNP"].iloc[0],
+            current.loc[current["district"] == "Bulleen", "LNP"].iloc[0],
+        )
+        self.assertEqual(len(diagnostics), 2)
+
+    def test_empty_seat_adjustments_are_identity(self):
+        current = build_corrected_primary_table(self.inputs, self.targets)
+        actual, diagnostics = apply_seat_primary_adjustments(
+            current, pd.DataFrame(), self.targets
+        )
+        pd.testing.assert_frame_equal(actual, current)
+        self.assertTrue(diagnostics.empty)
 
 
 if __name__ == "__main__":

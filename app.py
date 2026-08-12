@@ -18,10 +18,13 @@ from SRC.legacy_primary_loader import load_legacy_primary_inputs
 from SRC.loaders import load_seat_held_metadata, apply_seat_held_metadata
 from SRC.display_metrics import held_party_2cp_swing
 from SRC.legacy_primary_model import (
+    apply_seat_primary_adjustments,
     apply_on_primary_donor_geography,
     build_corrected_primary_table,
     deplete_on_primary_source_matrix,
 )
+from SRC.seat_adjustments_loader import load_lower_seat_adjustments
+from SRC.poll_scenarios_loader import load_poll_scenarios
 from SRC.matrix_loader import load_synth_pref_matrices
 from SRC.params_loader import load_params
 from SRC.posterior_loader import load_posterior_scenarios
@@ -262,6 +265,11 @@ def load_static_inputs():
     baseline_regions = load_baseline_region_summary()
     log_checkpoint(f"loaded baseline_regions rows={len(baseline_regions)}")
 
+    seat_adjustments = load_lower_seat_adjustments()
+    log_checkpoint(f"loaded seat_adjustments rows={len(seat_adjustments)}")
+    poll_scenarios = load_poll_scenarios()
+    log_checkpoint(f"loaded poll_scenarios rows={len(poll_scenarios)}")
+
     return (
         primary_inputs,
         matrices,
@@ -270,6 +278,8 @@ def load_static_inputs():
         ideology,
         baseline_2cp,
         baseline_regions,
+        seat_adjustments,
+        poll_scenarios,
         sync_status,
     )
 
@@ -285,7 +295,10 @@ def params_for_scenario(params, targets):
     return scenario_params
 
 
-def run_model(primary_inputs, matrices, params, posterior, ideology, targets):
+def run_model(
+    primary_inputs, matrices, params, posterior, ideology, targets,
+    seat_adjustments=None,
+):
     log_checkpoint(f"run_model start targets={targets}")
     scenario_params = params_for_scenario(params, targets)
     on_alpha = float(
@@ -333,6 +346,17 @@ def run_model(primary_inputs, matrices, params, posterior, ideology, targets):
         strength=donor_strength,
         on_alpha=on_alpha,
     )
+    adjusted, seat_adjustment_diagnostics = apply_seat_primary_adjustments(
+        current=adjusted,
+        adjustments=seat_adjustments,
+        targets=targets,
+        retirement_penalty_pp=float(scenario_params["scalar_params"].get(
+            "RETIRING_INCUMBENT_PENALTY_PP", 1.0
+        )),
+        sophomore_bonus_pp=float(scenario_params["scalar_params"].get(
+            "SOPHOMORE_SURGE_BONUS_PP", 1.0
+        )),
+    )
     adjusted = apply_lnp_precollapse(adjusted)
     log_checkpoint("run_model adjusted primaries")
 
@@ -351,7 +375,7 @@ def run_model(primary_inputs, matrices, params, posterior, ideology, targets):
     )
     log_checkpoint(f"run_model irv complete results={len(results)}")
 
-    return pd.DataFrame(results), adjusted
+    return pd.DataFrame(results), adjusted, seat_adjustment_diagnostics
 
 
 def region_primary_shares(adjusted_seat_helper):
@@ -428,6 +452,8 @@ st.title("Victorian IRV Election Model")
     ideology,
     baseline_2cp,
     baseline_regions,
+    seat_adjustments,
+    poll_scenarios,
     sync_status,
 ) = load_static_inputs()
 
@@ -458,6 +484,21 @@ st.subheader("Statewide Scenario Inputs")
 log_checkpoint("scenario inputs start")
 
 INPUT_KEY_PREFIX = "statewide_primary_input_v1003"
+
+if not poll_scenarios.empty:
+    scenario_names = poll_scenarios["scenario"].tolist()
+    saved_scenario = st.selectbox(
+        "Saved polling scenario",
+        scenario_names,
+        key="saved_lower_poll_scenario",
+    )
+    saved_row = poll_scenarios.loc[
+        poll_scenarios["scenario"].eq(saved_scenario)
+    ].iloc[0]
+    if st.button("Apply saved polling scenario"):
+        for party in PARTIES:
+            st.session_state[f"{INPUT_KEY_PREFIX}_{party}"] = float(saved_row[party])
+        st.rerun()
 
 if st.button("Reset scenario inputs"):
     for party in PARTIES:
@@ -492,14 +533,71 @@ if abs(total_primary - 100) > 0.01:
         "The model will normalise internally."
     )
 
-results_df, adjusted_seat_helper = run_model(
+results_df, adjusted_seat_helper, seat_adjustment_diagnostics = run_model(
     primary_inputs,
     matrices,
     params,
     posterior,
     ideology,
     targets,
+    seat_adjustments,
 )
+
+with st.expander("Production diagnostics", expanded=False):
+    model_primary = {
+        party: float(adjusted_seat_helper[party].mean()) * 100
+        for party in PARTIES
+    }
+    target_total = sum(max(0.0, float(value)) for value in targets.values())
+    normalised_targets = {
+        party: max(0.0, float(targets[party])) / target_total * 100
+        if target_total > 0 else 0.0
+        for party in PARTIES
+    }
+    reconciliation = pd.DataFrame([
+        {
+            "party": party,
+            "normalised input %": normalised_targets[party],
+            "model statewide %": model_primary[party],
+            "difference pp": model_primary[party] - normalised_targets[party],
+        }
+        for party in PARTIES
+    ])
+    st.caption(
+        f"Input source: {'Google Sheets' if sync_status.get('synced', 0) else 'committed CSV fallback'}; "
+        f"synced tabs: {sync_status.get('synced', 0)}; "
+        f"active seat adjustments: {len(seat_adjustment_diagnostics)}."
+    )
+    st.dataframe(
+        reconciliation,
+        width="stretch",
+        hide_index=True,
+        column_config={
+            column: st.column_config.NumberColumn(format="%.4f")
+            for column in ["normalised input %", "model statewide %", "difference pp"]
+        },
+    )
+    row_sum_error = (
+        adjusted_seat_helper[PARTIES].sum(axis=1) - 1
+    ).abs().max()
+    st.caption(
+        f"Maximum seat primary row-sum error: {row_sum_error:.3e}. "
+        f"Negative primary cells: {(adjusted_seat_helper[PARTIES] < 0).sum().sum()}."
+    )
+    if not seat_adjustment_diagnostics.empty:
+        st.dataframe(
+            seat_adjustment_diagnostics,
+            width="stretch",
+            hide_index=True,
+            column_config={
+                column: st.column_config.NumberColumn(format="%.2f")
+                for column in [
+                    "retirement_pp", "sophomore_pp", "candidate_strength_pp",
+                    "manual_adjustment_pp", "requested_total_pp",
+                    "pre_calibration_change_pp", "final_change_pp",
+                ]
+            },
+        )
 
 active_scenario_params = params_for_scenario(params, targets)
 
@@ -599,6 +697,36 @@ st.dataframe(
         "2PP Swing %": st.column_config.NumberColumn(format="%.2f%%"),
     },
 )
+
+with st.expander("Result sensitivity (not probabilities)", expanded=False):
+    sensitivity = view_results_df[[
+        "district", "held_by", "winner", "runner_up", "winner_pct", "runner_up_pct"
+    ]].copy()
+    sensitivity["final margin %"] = (
+        (sensitivity["winner_pct"] - sensitivity["runner_up_pct"]) * 100
+    )
+    sensitivity["winner_pct"] = sensitivity["winner_pct"] * 100
+    sensitivity["runner_up_pct"] = sensitivity["runner_up_pct"] * 100
+    sensitivity["sensitivity"] = pd.cut(
+        sensitivity["final margin %"],
+        bins=[-float("inf"), 2, 5, 10, float("inf")],
+        labels=["Very high (<2)", "High (2–5)", "Moderate (5–10)", "Lower (10+)"]
+    ).astype(str)
+    sensitivity = sensitivity.sort_values("final margin %")
+    st.caption(
+        "These bands describe sensitivity to modest input or preference-flow changes. "
+        "They are not Monte Carlo win probabilities."
+    )
+    st.dataframe(
+        sensitivity,
+        width="stretch",
+        hide_index=True,
+        column_config={
+            "winner_pct": st.column_config.NumberColumn("winner %", format="%.2f%%"),
+            "runner_up_pct": st.column_config.NumberColumn("runner-up %", format="%.2f%%"),
+            "final margin %": st.column_config.NumberColumn(format="%.2f%%"),
+        },
+    )
 
 
 st.subheader(f"{view_title} Alternate 2PP")

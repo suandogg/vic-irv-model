@@ -216,6 +216,100 @@ def _calibrate_primary_components(
     raise ValueError("ON primary donor calibration did not converge")
 
 
+def apply_seat_primary_adjustments(
+    current: pd.DataFrame,
+    adjustments: pd.DataFrame,
+    targets: dict[str, float],
+    retirement_penalty_pp: float = 1.0,
+    sophomore_bonus_pp: float = 1.0,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Apply editable seat effects, then restore exact statewide targets.
+
+    Effects are additive percentage points in the nominated party's primary.
+    The opposite movement is shared proportionally across the other parties.
+    A final calibration preserves the user's statewide polling inputs.
+    """
+    if adjustments is None or adjustments.empty:
+        return current.copy(), pd.DataFrame()
+
+    out = current.copy()
+    diagnostics = []
+    district_index = {
+        str(district).strip(): index
+        for index, district in out["district"].items()
+    }
+
+    for _, row in adjustments.iterrows():
+        if not bool(row.get("enabled", True)):
+            continue
+        district = str(row.get("district", "")).strip()
+        party = str(row.get("party", "")).strip().upper()
+        if district not in district_index or party not in PARTIES:
+            continue
+
+        retirement_value = row.get("retirement_penalty_pp")
+        sophomore_value = row.get("sophomore_bonus_pp")
+        retirement = (
+            float(retirement_value)
+            if pd.notna(retirement_value)
+            else float(retirement_penalty_pp)
+        ) if bool(row.get("retiring_incumbent", False)) else 0.0
+        sophomore = (
+            float(sophomore_value)
+            if pd.notna(sophomore_value)
+            else float(sophomore_bonus_pp)
+        ) if bool(row.get("first_re_election", False)) else 0.0
+        candidate = float(row.get("candidate_strength_pp") or 0.0) if pd.notna(
+            row.get("candidate_strength_pp")
+        ) else 0.0
+        manual = float(row.get("manual_adjustment_pp") or 0.0) if pd.notna(
+            row.get("manual_adjustment_pp")
+        ) else 0.0
+        requested_pp = -retirement + sophomore + candidate + manual
+        if abs(requested_pp) <= 1e-12:
+            continue
+
+        index = district_index[district]
+        before = float(out.at[index, party])
+        requested = requested_pp / 100
+        after = min(1.0 - 1e-9, max(1e-9, before + requested))
+        actual = after - before
+        others = [other for other in PARTIES if other != party]
+        other_total = float(out.loc[index, others].sum())
+        if other_total <= 0:
+            continue
+        out.at[index, party] = after
+        scale = (other_total - actual) / other_total
+        out.loc[index, others] = out.loc[index, others] * scale
+        diagnostics.append({
+            "district": district,
+            "party": party,
+            "retirement_pp": -retirement,
+            "sophomore_pp": sophomore,
+            "candidate_strength_pp": candidate,
+            "manual_adjustment_pp": manual,
+            "requested_total_pp": requested_pp,
+            "pre_calibration_change_pp": actual * 100,
+            "notes": row.get("notes", ""),
+        })
+
+    if not diagnostics:
+        return current.copy(), pd.DataFrame()
+
+    calibrated = _calibrate_primary_components(out[PARTIES], targets)
+    for party in PARTIES:
+        out[party] = calibrated[party]
+    diagnostic_df = pd.DataFrame(diagnostics)
+    for index, row in diagnostic_df.iterrows():
+        district_mask = out["district"].eq(row["district"])
+        original_mask = current["district"].eq(row["district"])
+        diagnostic_df.at[index, "final_change_pp"] = (
+            float(out.loc[district_mask, row["party"]].iloc[0])
+            - float(current.loc[original_mask, row["party"]].iloc[0])
+        ) * 100
+    return out, diagnostic_df
+
+
 def apply_on_primary_donor_geography(
     primary_inputs: pd.DataFrame,
     current: pd.DataFrame,
