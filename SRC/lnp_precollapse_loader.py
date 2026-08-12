@@ -13,6 +13,13 @@ def _as_bool(value) -> bool:
 def _optional_float(value):
     if pd.isna(value) or str(value).strip() == "":
         return None
+    return _fraction(value)
+
+
+def _fraction(value) -> float:
+    text = str(value).strip()
+    if text.endswith("%"):
+        return float(text[:-1]) / 100.0
     return float(value)
 
 
@@ -30,8 +37,8 @@ def load_lnp_precollapse_inputs(filename="LOWER_LNP_PRECOLLAPSE.csv") -> pd.Data
         raise ValueError(f"LNP pre-collapse input is missing columns: {sorted(missing)}")
     frame["ElectorateKey"] = frame["Electorate"].astype(str).str.strip().str.upper()
     frame["DestinationCategory"] = frame["DestinationCategory"].astype(str).str.strip().str.upper()
-    frame["Share"] = pd.to_numeric(frame["Share"], errors="raise")
-    frame["Strength"] = pd.to_numeric(frame["Strength"], errors="raise").clip(0, 1)
+    frame["Share"] = frame["Share"].map(_fraction)
+    frame["Strength"] = frame["Strength"].map(_fraction).clip(0, 1)
     frame["Enabled"] = frame["Enabled"].map(_as_bool)
     frame["ManualOverrideShare"] = frame["ManualOverrideShare"].map(_optional_float)
     return frame

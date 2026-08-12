@@ -2,7 +2,8 @@ import unittest
 
 import pandas as pd
 
-from SRC.lnp_precollapse_loader import apply_lnp_precollapse
+from SRC.lnp_precollapse_loader import apply_lnp_precollapse, load_lnp_precollapse_inputs
+from unittest.mock import patch
 
 
 class TestLnpPrecollapse(unittest.TestCase):
@@ -56,6 +57,21 @@ class TestLnpPrecollapse(unittest.TestCase):
         bass = result[result["district"] == "Bass"].iloc[0]
         self.assertAlmostEqual(bass["ALP"], 34.0)
         self.assertAlmostEqual(bass["LNP"], 36.0)
+
+    def test_sheet_percentage_strings_are_parsed_as_fractions(self):
+        sheet_frame = pd.DataFrame([
+            {
+                "Electorate": "Bass", "OriginCategory": "LNP",
+                "DestinationCategory": "ALP", "Share": "9.5%",
+                "Enabled": "TRUE", "Strength": "75%",
+                "ManualOverrideShare": "10%",
+            }
+        ])
+        with patch("SRC.lnp_precollapse_loader.read_csv_raw", return_value=sheet_frame):
+            loaded = load_lnp_precollapse_inputs()
+        self.assertAlmostEqual(loaded.iloc[0]["Share"], 0.095)
+        self.assertAlmostEqual(loaded.iloc[0]["Strength"], 0.75)
+        self.assertAlmostEqual(loaded.iloc[0]["ManualOverrideShare"], 0.10)
 
 
 if __name__ == "__main__":
