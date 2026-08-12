@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from SRC.loaders import DATA_DIR, read_csv_raw
+from SRC.loaders import RAW_DIR, read_csv_raw
 
 
 COLUMNS = [
@@ -35,7 +35,7 @@ def load_lower_seat_adjustments(
     A missing file is treated as no adjustments so older committed CSV
     deployments remain backwards compatible.
     """
-    if not (DATA_DIR / filename).exists():
+    if not (RAW_DIR / filename).exists():
         return pd.DataFrame(columns=COLUMNS)
 
     df = read_csv_raw(filename)

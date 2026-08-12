@@ -3,11 +3,11 @@ from __future__ import annotations
 import pandas as pd
 
 from SRC.constants import PARTIES
-from SRC.loaders import DATA_DIR, read_csv_raw
+from SRC.loaders import RAW_DIR, read_csv_raw
 
 
 def load_poll_scenarios(filename: str = "LOWER_POLL_SCENARIOS.csv") -> pd.DataFrame:
-    if not (DATA_DIR / filename).exists():
+    if not (RAW_DIR / filename).exists():
         return pd.DataFrame(columns=["scenario", *PARTIES, "notes"])
     frame = read_csv_raw(filename)
     required = ["scenario", *PARTIES]
