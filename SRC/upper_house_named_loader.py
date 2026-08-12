@@ -18,5 +18,4 @@ def load_upper_named_inputs() -> dict[str, pd.DataFrame]:
         "behaviour": read_csv_raw("UPPER_BALLOT_BEHAVIOUR.csv"),
         "params": read_csv_raw("UPPER_MODEL_PARAMS.csv"),
         "overrides": read_csv_raw("UPPER_OVERRIDES.csv"),
-        "incumbents": read_csv_raw("UPPER_INCUMBENTS.csv"),
     }
