@@ -201,6 +201,32 @@ class LegacyPrimaryModelTest(unittest.TestCase):
         pd.testing.assert_frame_equal(actual, current)
         self.assertTrue(diagnostics.empty)
 
+    def test_opposing_same_seat_effects_are_not_sequentially_amplified(self):
+        current = build_corrected_primary_table(self.inputs, self.targets)
+        adjustments = pd.DataFrame([
+            {
+                "district": "Box Hill", "party": "GRN",
+                "retiring_incumbent": True, "first_re_election": False,
+                "retirement_penalty_pp": None, "sophomore_bonus_pp": None,
+                "candidate_strength_pp": 0, "manual_adjustment_pp": 0,
+                "enabled": True, "notes": "",
+            },
+            {
+                "district": "Box Hill", "party": "LNP",
+                "retiring_incumbent": False, "first_re_election": True,
+                "retirement_penalty_pp": None, "sophomore_bonus_pp": None,
+                "candidate_strength_pp": 0, "manual_adjustment_pp": 0,
+                "enabled": True, "notes": "",
+            },
+        ])
+        _, diagnostics = apply_seat_primary_adjustments(
+            current, adjustments, self.targets,
+            retirement_penalty_pp=1.0, sophomore_bonus_pp=1.0,
+        )
+        pre = diagnostics.set_index("party")["pre_calibration_change_pp"]
+        self.assertAlmostEqual(pre["GRN"], -1.0, places=10)
+        self.assertAlmostEqual(pre["LNP"], 1.0, places=10)
+
 
 if __name__ == "__main__":
     unittest.main()

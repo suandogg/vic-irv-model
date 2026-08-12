@@ -234,6 +234,7 @@ def apply_seat_primary_adjustments(
 
     out = current.copy()
     diagnostics = []
+    requested_by_district = {}
     district_index = {
         str(district).strip(): index
         for index, district in out["district"].items()
@@ -269,18 +270,9 @@ def apply_seat_primary_adjustments(
         if abs(requested_pp) <= 1e-12:
             continue
 
-        index = district_index[district]
-        before = float(out.at[index, party])
-        requested = requested_pp / 100
-        after = min(1.0 - 1e-9, max(1e-9, before + requested))
-        actual = after - before
-        others = [other for other in PARTIES if other != party]
-        other_total = float(out.loc[index, others].sum())
-        if other_total <= 0:
-            continue
-        out.at[index, party] = after
-        scale = (other_total - actual) / other_total
-        out.loc[index, others] = out.loc[index, others] * scale
+        requested_by_district.setdefault(
+            district, {current_party: 0.0 for current_party in PARTIES}
+        )[party] += requested_pp / 100
         diagnostics.append({
             "district": district,
             "party": party,
@@ -289,12 +281,43 @@ def apply_seat_primary_adjustments(
             "candidate_strength_pp": candidate,
             "manual_adjustment_pp": manual,
             "requested_total_pp": requested_pp,
-            "pre_calibration_change_pp": actual * 100,
             "notes": row.get("notes", ""),
         })
 
     if not diagnostics:
         return current.copy(), pd.DataFrame()
+
+    # Apply all effects in a district simultaneously. This prevents opposing
+    # effects (for example a GRN retirement and LNP sophomore in Prahran)
+    # from being amplified by sequential proportional redistribution.
+    for district, requested in requested_by_district.items():
+        index = district_index[district]
+        adjusted_parties = {
+            party for party, delta in requested.items() if abs(delta) > 1e-12
+        }
+        proposed = {
+            party: max(1e-9, float(out.at[index, party]) + requested[party])
+            for party in PARTIES
+        }
+        net_change = sum(proposed.values()) - 1.0
+        balancing = [party for party in PARTIES if party not in adjusted_parties]
+        if not balancing:
+            balancing = list(PARTIES)
+        balancing_total = sum(proposed[party] for party in balancing)
+        if balancing_total <= net_change + 1e-12:
+            raise ValueError(f"Seat adjustments exceed available vote in {district}")
+        scale = (balancing_total - net_change) / balancing_total
+        for party in balancing:
+            proposed[party] *= scale
+        for party in PARTIES:
+            out.at[index, party] = proposed[party]
+
+    for row in diagnostics:
+        index = district_index[row["district"]]
+        row["pre_calibration_change_pp"] = (
+            float(out.at[index, row["party"]])
+            - float(current.at[index, row["party"]])
+        ) * 100
 
     calibrated = _calibrate_primary_components(out[PARTIES], targets)
     for party in PARTIES:
