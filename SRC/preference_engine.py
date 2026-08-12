@@ -171,6 +171,11 @@ def apply_geo_adjust(
         value = scalars.get("GRN_RURAL_GEO_STRENGTH", 1)
         strength = 1 if value is None else float(value)
 
+    non_on_strength_value = scalars.get("NON_ON_GEOGRAPHY_STRENGTH", 1.0)
+    non_on_strength = (
+        1.0 if non_on_strength_value is None else float(non_on_strength_value)
+    )
+
     out = vec.copy()
 
     for i, party in enumerate(PARTIES):
@@ -178,7 +183,8 @@ def apply_geo_adjust(
             out[i] = 0
             continue
 
-        adjustment = float(adj.get(party, 0) or 0) * strength
+        party_strength = 1.0 if party == "ON" else non_on_strength
+        adjustment = float(adj.get(party, 0) or 0) * strength * party_strength
         out[i] = max(0, float(out[i] or 0) + adjustment)
 
     return normalise_alive(out, alive)

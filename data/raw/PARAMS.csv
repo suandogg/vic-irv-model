@@ -63,6 +63,7 @@ OTH_ON_DEPLETION_BASELINE,0.28,Historical statewide ON primary used as the zero-
 OTH_ON_DEPLETION_REFERENCE,24.4,Statewide ON primary at which the full configured depletion strength applies.,,,,
 Geography,,,,,,
 CLASS_SMOOTH_K,50000,,,,,
+NON_ON_GEOGRAPHY_STRENGTH,0.75,"Multiplier applied to ALP, LNP, GRN, IND and OTH preference-geography adjustments; ON adjustments remain at full strength.",,,,
 ,,,,,,
 Optional for later,,,,,,
 PRIMARY_TILT_K,0.2,Strength of primary-vote adjustment when allocating preferences between ALP and LNP (bounded by PRIMARY_TILT_MAX).,,,,
