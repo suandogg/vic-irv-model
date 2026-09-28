@@ -1,7 +1,6 @@
 from SRC.constants import PARTIES
 from SRC.preference_engine import (
     diagnose_preference_weights,
-    get_preference_weights,
 )
 
 
@@ -27,6 +26,119 @@ def initialise_votes(district_votes: dict[str, float]) -> dict[str, float]:
     }
 
 
+def parcel_origin_retention(params: dict) -> float:
+    """Configured share of transferred parcels retaining origin behaviour."""
+    value = params.get("scalar_params", {}).get(
+        "PARCEL_ORIGIN_RETENTION", 1.0
+    )
+    return max(0.0, min(1.0, float(value if value is not None else 1.0)))
+
+
+def initialise_parcels(district_votes: dict[str, float]) -> dict:
+    """Track every current holder's vote by its primary-party origin."""
+    votes = initialise_votes(district_votes)
+    return {
+        holder: {
+            origin: votes[holder] if holder == origin else 0.0
+            for origin in PARTIES
+        }
+        for holder in PARTIES
+    }
+
+
+def parcel_totals(parcels: dict) -> dict[str, float]:
+    return {
+        holder: sum(float(value) for value in parcels[holder].values())
+        for holder in PARTIES
+    }
+
+
+def distribute_parcel_holder(
+    parcels,
+    holder,
+    alive_after,
+    matrix,
+    seat_type,
+    params,
+    posterior,
+    ideology,
+):
+    """Distribute one holder while preserving each parcel's primary origin.
+
+    Special ON scenario priors remain locked holder-level rules.  All other
+    parcels blend the current holder's flow with the primary origin's flow.
+    """
+    holder_diagnostics = diagnose_preference_weights(
+        eliminated_party=holder,
+        alive_parties=alive_after,
+        matrix=matrix,
+        geography_class=seat_type,
+        params=params,
+        posterior=posterior,
+        ideology=ideology,
+    )
+    holder_flows = holder_diagnostics["final_flows"]
+    retention = parcel_origin_retention(params)
+    outgoing = parcels[holder].copy()
+    outgoing_total = sum(outgoing.values())
+    parcels[holder] = {origin: 0.0 for origin in PARTIES}
+    transferred = {party: 0.0 for party in alive_after}
+    origin_rows = []
+
+    for origin, amount in outgoing.items():
+        if amount <= 0:
+            continue
+
+        origin_basis = holder_diagnostics["basis"]
+        flows = holder_flows
+        if (
+            retention > 0
+            and origin != holder
+            and holder_diagnostics["basis"] != "ON special prior"
+        ):
+            origin_diagnostics = diagnose_preference_weights(
+                eliminated_party=origin,
+                alive_parties=alive_after,
+                matrix=matrix,
+                geography_class=seat_type,
+                params=params,
+                posterior=posterior,
+                ideology=ideology,
+            )
+            origin_basis = origin_diagnostics["basis"]
+            origin_flows = origin_diagnostics["final_flows"]
+            flows = {
+                party: (
+                    (1.0 - retention) * holder_flows.get(party, 0.0)
+                    + retention * origin_flows.get(party, 0.0)
+                )
+                for party in alive_after
+            }
+            total = sum(flows.values())
+            flows = {
+                party: value / total
+                for party, value in flows.items()
+            }
+
+        for recipient, share in flows.items():
+            movement = amount * share
+            parcels[recipient][origin] += movement
+            transferred[recipient] += movement
+
+        origin_rows.append({
+            "origin": origin,
+            "votes": amount,
+            "basis": origin_basis,
+            **{party: flows.get(party, 0.0) for party in alive_after},
+        })
+
+    effective_flows = {
+        party: transferred[party] / outgoing_total if outgoing_total > 0 else 0.0
+        for party in alive_after
+    }
+    return holder_diagnostics, effective_flows, origin_rows
+
+
 def run_irv_for_district(
     district_votes: dict[str, float],
     matrix: dict,
@@ -36,7 +148,8 @@ def run_irv_for_district(
     ideology: dict,
 ) -> dict:
 
-    votes = initialise_votes(district_votes)
+    parcels = initialise_parcels(district_votes)
+    votes = parcel_totals(parcels)
 
     alive = [
         party for party in PARTIES
@@ -48,8 +161,6 @@ def run_irv_for_district(
     while len(alive) > 2:
 
         eliminated = min(alive, key=lambda party: votes[party])
-        eliminated_votes = votes[eliminated]
-
         elimination_order.append(eliminated)
 
         alive = [
@@ -57,19 +168,17 @@ def run_irv_for_district(
             if party != eliminated
         ]
 
-        flows = get_preference_weights(
-            eliminated_party=eliminated,
-            alive_parties=alive,
+        distribute_parcel_holder(
+            parcels=parcels,
+            holder=eliminated,
+            alive_after=alive,
             matrix=matrix,
-            geography_class=seat_type,
+            seat_type=seat_type,
             params=params,
             posterior=posterior,
             ideology=ideology,
         )
-        votes[eliminated] = 0
-
-        for party, share in flows.items():
-            votes[party] += eliminated_votes * share
+        votes = parcel_totals(parcels)
 
     final_two = sorted(
         alive,
@@ -108,7 +217,8 @@ def run_forced_2pp_for_district(
     party_b: str = "LNP",
 ) -> dict:
 
-    votes = initialise_votes(district_votes)
+    parcels = initialise_parcels(district_votes)
+    votes = parcel_totals(parcels)
 
     alive = [
         party for party in PARTIES
@@ -133,8 +243,6 @@ def run_forced_2pp_for_district(
             break
 
         eliminated = min(removable, key=lambda party: votes[party])
-        eliminated_votes = votes[eliminated]
-
         elimination_order.append(eliminated)
 
         alive = [
@@ -142,19 +250,17 @@ def run_forced_2pp_for_district(
             if party != eliminated
         ]
 
-        flows = get_preference_weights(
-            eliminated_party=eliminated,
-            alive_parties=alive,
+        distribute_parcel_holder(
+            parcels=parcels,
+            holder=eliminated,
+            alive_after=alive,
             matrix=matrix,
-            geography_class=seat_type,
+            seat_type=seat_type,
             params=params,
             posterior=posterior,
             ideology=ideology,
         )
-        votes[eliminated] = 0
-
-        for party, share in flows.items():
-            votes[party] += eliminated_votes * share
+        votes = parcel_totals(parcels)
 
     total = votes[party_a] + votes[party_b]
 
@@ -177,7 +283,8 @@ def trace_irv_for_district(
     ideology: dict,
 ) -> list[dict]:
 
-    votes = initialise_votes(district_votes)
+    parcels = initialise_parcels(district_votes)
+    votes = parcel_totals(parcels)
 
     alive = [
         party for party in PARTIES
@@ -205,22 +312,18 @@ def trace_irv_for_district(
             if party != eliminated
         ]
 
-        diagnostics = diagnose_preference_weights(
-            eliminated_party=eliminated,
-            alive_parties=alive_after,
+        diagnostics, flows, origin_rows = distribute_parcel_holder(
+            parcels=parcels,
+            holder=eliminated,
+            alive_after=alive_after,
             matrix=matrix,
-            geography_class=seat_type,
+            seat_type=seat_type,
             params=params,
             posterior=posterior,
             ideology=ideology,
         )
-        flows = diagnostics["final_flows"]
         final_stage = diagnostics["stages"][-1]
-
-        votes[eliminated] = 0
-
-        for party in alive_after:
-            votes[party] += eliminated_votes * flows.get(party, 0)
+        votes = parcel_totals(parcels)
 
         trace_rows.append({
             "round": f"Round {round_no}",
@@ -229,6 +332,8 @@ def trace_irv_for_district(
             "basis": diagnostics["basis"],
             "evidence_seats": final_stage.get("evidence_seats"),
             "reliability": final_stage.get("posterior_reliability"),
+            "parcel_origins": len(origin_rows),
+            "origin_retention": parcel_origin_retention(params),
             **{party: votes[party] for party in PARTIES},
             **{
                 f"{party}_flow": flows.get(party, None)
@@ -252,7 +357,8 @@ def trace_preference_diagnostics_for_district(
     ideology: dict,
 ) -> list[dict]:
 
-    votes = initialise_votes(district_votes)
+    parcels = initialise_parcels(district_votes)
+    votes = parcel_totals(parcels)
 
     alive = [
         party for party in PARTIES
@@ -272,11 +378,12 @@ def trace_preference_diagnostics_for_district(
             if party != eliminated
         ]
 
-        diagnostics = diagnose_preference_weights(
-            eliminated_party=eliminated,
-            alive_parties=alive_after,
+        diagnostics, effective_flows, origin_rows = distribute_parcel_holder(
+            parcels=parcels,
+            holder=eliminated,
+            alive_after=alive_after,
             matrix=matrix,
-            geography_class=seat_type,
+            seat_type=seat_type,
             params=params,
             posterior=posterior,
             ideology=ideology,
@@ -292,11 +399,28 @@ def trace_preference_diagnostics_for_district(
                 "source": preference_source_category(diagnostics["basis"]),
                 **stage,
             })
-
-        votes[eliminated] = 0
-
-        for party, share in diagnostics["final_flows"].items():
-            votes[party] += eliminated_votes * share
+        diagnostic_rows.append({
+            "round": f"Round {round_no}",
+            "stage_no": len(diagnostics["stages"]) + 1,
+            "eliminated": eliminated,
+            "eliminated_vote": eliminated_votes,
+            "alive": ">".join(alive_after),
+            "source": "Parcel-aware aggregate",
+            "stage": "parcel-origin aggregate",
+            "note": (
+                "Effective flow after preserving primary-origin parcels; "
+                "ON special priors remain locked at holder level."
+            ),
+            "basis": diagnostics["basis"],
+            "origin_retention": parcel_origin_retention(params),
+            "parcel_origins": len(origin_rows),
+            **{
+                party: effective_flows.get(party)
+                if party in alive_after else None
+                for party in PARTIES
+            },
+        })
+        votes = parcel_totals(parcels)
 
         alive = alive_after
         round_no += 1

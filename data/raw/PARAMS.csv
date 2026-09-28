@@ -51,6 +51,7 @@ IND_OTH_MAX,0.75,"Tighter cap applied when IND or OTH are involved, preventing u
 Shrinkage/smoothing,,,,,,
 EMPIRICAL_SHRINKAGE_K,10,Controls how strongly small-sample empirical posteriors are shrunk toward the prior.,,,,
 K_DIRICHLET,50,,,,,
+PARCEL_ORIGIN_RETENTION,1,"Share of transferred lower-house preference parcels that retain primary-origin behaviour; 0 reproduces the legacy holder-only engine and 1 is fully parcel-aware. ON special scenario priors remain locked holder-level rules.",,,,
 ,,,,,,
 ON-specific,,,,,,
 AEC_2CP_ANCHOR_ON,0.15,AEC anchor strength when ON is eliminated in a final ALP–LNP count,,,,

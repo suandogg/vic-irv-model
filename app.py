@@ -1125,6 +1125,8 @@ else:
             "aec_coverage",
             "aec_anchor_weight",
             "missing_parties",
+            "origin_retention",
+            "parcel_origins",
             "ON change pp",
             *[f"{party} flow %" for party in PARTIES],
         ]
@@ -1139,6 +1141,7 @@ else:
             for col in [
                 "aec_coverage",
                 "aec_anchor_weight",
+                "origin_retention",
                 "ON change pp",
                 *[f"{party} flow %" for party in PARTIES],
             ]
