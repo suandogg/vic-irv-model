@@ -18,20 +18,24 @@ from SRC.matrix_loader import load_synth_pref_matrices
 from SRC.params_loader import load_params
 from SRC.ideology_loader import load_ideology_prior
 from SRC.constants import PARTIES
-from SRC.irv import run_irv_for_district
+from SRC.irv import run_irv_for_district, trace_irv_for_district
 from SRC.lnp_precollapse_loader import apply_lnp_precollapse
 
 
-def pool_fields(evidence, held_out):
+def pool_fields(evidence, held_out, same_class=False, minimum_seats=1):
     groups = {}
     for seat, item in evidence.items():
         if seat == held_out:
+            continue
+        if same_class and item['seat_type'] != evidence[held_out]['seat_type']:
             continue
         for origin, record in item['matrix'].get('__vec_field_rows__', {}).items():
             key = (origin, '+'.join(record['field']))
             groups.setdefault(key, []).append((seat, record))
     pooled = {}
     for (origin, field), records in groups.items():
+        if len(records) < minimum_seats:
+            continue
         parties = field.split('+')
         pooled.setdefault(origin, {})[field] = {
             'field': parties,
@@ -55,35 +59,45 @@ def main():
     baseline = pd.read_csv(ROOT/'data/raw/BASELINE_2CP.csv')
     baseline.index = baseline.district.str.upper()
     rows = []
+    traces = {}
     for seat, item in matrices.items():
         training = [v for k, v in matrices.items() if k != seat and v['seat_type'] == item['seat_type']]
         matrix = mean_matrix(training or [v for k, v in matrices.items() if k != seat])
-        pooled = pool_fields(evidence, seat)
-        assert all(seat not in r['training_seats'] for fields in pooled.values() for r in fields.values())
-        trial = copy.deepcopy(matrix)
-        trial['__vec_pooled_fields__'] = pooled
+        variants = [('reference', matrix)]
+        for label, restricted, minimum in [('vec_exact_field', False, 1), ('pooled_min3', False, 3), ('pooled_min5', False, 5), ('class_min1', True, 1), ('class_min3', True, 3), ('class_min5', True, 5)]:
+            pooled = pool_fields(evidence, seat, restricted, minimum)
+            assert all(seat not in r['training_seats'] for fields in pooled.values() for r in fields.values())
+            trial = copy.deepcopy(matrix)
+            trial['__vec_pooled_fields__'] = pooled
+            variants.append((label, trial))
         primary = {p: float(votes.loc[seat, p]) for p in PARTIES}
         settings = copy.deepcopy(params)
         settings['scalar_params']['SCENARIO_ON_PRIMARY'] = primary['ON']*100
         winner, runner, actual = actual_result(baseline.loc[seat])
-        for name, current in [('reference', matrix), ('vec_exact_field', trial)]:
-            result = run_irv_for_district(primary, current, item['seat_type'], variant(settings, name), {}, ideology)
+        for name, current in variants:
+            trial_settings = variant(settings, 'reference' if name == 'reference' else 'vec_exact_field')
+            result = run_irv_for_district(primary, current, item['seat_type'], trial_settings, {}, ideology)
+            if seat in ('LAVERTON', 'KOROROIT'):
+                traces.setdefault(seat, {})[name] = trace_irv_for_district(primary, current, item['seat_type'], trial_settings, {}, ideology)
             same_pair = {result['winner'], result['runner_up']} == {winner, runner}
             predicted = result['winner_pct'] if result['winner'] == winner else result['runner_up_pct']
             rows.append({'seat': seat, 'variant': name, 'winner_correct': result['winner'] == winner,
-                         'pair_correct': same_pair, 'error_pp': (predicted-actual[winner])*100 if same_pair else None})
-    common = {r['seat'] for r in rows if r['variant'] == 'reference' and r['pair_correct']} & {r['seat'] for r in rows if r['variant'] == 'vec_exact_field' and r['pair_correct']}
+                         'pair_correct': same_pair, 'predicted_pair': [result['winner'], result['runner_up']], 'actual_pair': [winner, runner], 'error_pp': (predicted-actual[winner])*100 if same_pair else None})
     summary = {}
-    for name in ['reference', 'vec_exact_field']:
+    for name, _ in variants:
+        common = {r['seat'] for r in rows if r['variant'] == 'reference' and r['pair_correct']} & {r['seat'] for r in rows if r['variant'] == name and r['pair_correct']}
         selected = [r for r in rows if r['variant'] == name]
         paired = [r['error_pp'] for r in selected if r['seat'] in common]
         summary[name] = {'seats': len(selected), 'correct_winners': sum(r['winner_correct'] for r in selected),
                          'correct_final_pairs': sum(r['pair_correct'] for r in selected), 'common_pairs': len(paired),
                          'common_pair_MAE_pp': sum(abs(e) for e in paired)/len(paired),
                          'common_pair_mean_error_pp': sum(paired)/len(paired)}
+        reference_errors = [r['error_pp'] for r in rows if r['variant'] == 'reference' and r['seat'] in common]
+        summary[name]['paired_reference_MAE_pp'] = sum(abs(e) for e in reference_errors)/len(reference_errors)
     payload = {'method': 'Equal-seat pooled exact fields across all classes, excluding held-out seat; same-class legacy fallback; no posterior or federal aggregate.', 'summary': summary, 'seats': rows}
     target = ROOT/'reports/preference_review_2026_10_08/vec_field_holdout.json'
     target.write_text(json.dumps(payload, indent=2)+'\n')
+    (target.parent/'vec_field_holdout_regression_traces.json').write_text(json.dumps(traces, indent=2)+'\n')
     print(json.dumps(summary, indent=2))
 
 

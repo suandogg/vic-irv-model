@@ -61,6 +61,13 @@ class VECExactFieldTests(unittest.TestCase):
         self.assertTrue(d["stages"][0]["vec_exact_field_matched"])
         self.assertAlmostEqual(d["final_flows"]["ON"], .4)
 
+    def test_pool_class_and_minimum_are_strict(self):
+        evidence = {seat: {"matrix": self.matrix(), "seat_type": cls} for seat, cls in [("HELD", "Metro"), ("A", "Metro"), ("B", "Regional")]}
+        self.assertEqual(pool_fields(evidence, "HELD", True, 2), {})
+        row = pool_fields(evidence, "HELD", True, 1)["OTH"]["ALP+LNP"]
+        self.assertEqual(row["training_seats"], ["A"])
+        self.assertEqual(len(pool_fields(evidence, "HELD", False, 2)["OTH"]["ALP+LNP"]["training_seats"]), 2)
+
 
 if __name__ == "__main__":
     unittest.main()
