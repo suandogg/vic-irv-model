@@ -22,7 +22,7 @@ def pooled_share(observations, target, subtype, minimum):
     return shares, len(seats)
 
 
-def main():
+def load_observations():
     candidates = pd.read_csv(ROOT/'data/development/VEC_2022_CANDIDATE_CLASSIFICATION.csv')
     transfers = pd.read_csv(ROOT/'data/development/VEC_2022_DISTRIBUTIONS_LONG.csv')
     observations = []
@@ -46,6 +46,11 @@ def main():
                 shares[p] = shares.get(p, 0)+float(row.VotesTransferred)/parcel
             observations.append({'seat': seat, 'candidate': eliminated, 'category': meta[eliminated].BroadCategory,
                                  'subtype': str(meta[eliminated].CandidateSubtype), 'field': field, 'shares': shares})
+    return observations
+
+
+def main():
+    observations = load_observations()
     summaries, detail = {}, []
     for minimum in (1, 3, 5):
         rows = []

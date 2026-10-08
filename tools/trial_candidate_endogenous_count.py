@@ -13,7 +13,7 @@ from tools.audit_vec_candidate_replay import key, resolve
 from SRC.candidate_shadow import allocate_category_flow
 
 
-def count_candidates(primaries, categories, evidence, prefer_exact=False):
+def count_candidates(primaries, categories, evidence, prefer_exact=False, fallback=None):
     totals = primaries.copy()
     formal = sum(totals.values())
     active = set(totals)
@@ -22,6 +22,8 @@ def count_candidates(primaries, categories, evidence, prefer_exact=False):
         eliminated = min(active, key=lambda n: (totals[n], n))
         remaining = active - {eliminated}
         record = evidence.get(eliminated)
+        if (record is None or set(record['field']) != remaining) and fallback is not None:
+            record = fallback(eliminated, remaining)
         if record is None or set(record['field']) != remaining:
             return {'status': 'unresolved', 'rounds': rounds, 'next_eliminated': eliminated,
                     'category': categories[eliminated], 'same_category_remaining': any(categories[n] == categories[eliminated] for n in remaining),
@@ -41,7 +43,8 @@ def count_candidates(primaries, categories, evidence, prefer_exact=False):
         if abs(sum(totals.values())-formal) > 1e-6:
             raise ValueError('Vote conservation failure')
         rounds.append({'eliminated': eliminated, 'category': categories[eliminated], 'parcel': parcel,
-                       'recipient_method': 'exact candidate evidence' if exact is not None else 'proportional candidate fallback'})
+                       'recipient_method': 'exact candidate evidence' if exact is not None else record.get('method', 'proportional candidate fallback'),
+                       'training_seats': record.get('training_seats')})
         active = remaining
     ordered = sorted(active, key=lambda n: (-totals[n], n))
     return {'status': 'complete', 'rounds': rounds, 'final_candidates': ordered,
