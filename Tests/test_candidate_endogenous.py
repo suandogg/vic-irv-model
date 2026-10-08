@@ -16,3 +16,12 @@ class EndogenousCandidateTests(unittest.TestCase):
     def test_mismatched_field_stops(self):
         result = count_candidates({'a': 60, 'b': 30, 'c': 10}, {'a': 'ALP', 'b': 'LNP', 'c': 'OTH'}, {'c': {'field': ['a'], 'shares': {'ALP': 1}}})
         self.assertEqual(result['status'], 'unresolved')
+
+    def test_exact_candidate_evidence_takes_precedence(self):
+        result = count_candidates({'a': 60, 'b': 30, 'c': 10}, {'a': 'ALP', 'b': 'LNP', 'c': 'OTH'}, {'c': {'field': ['a', 'b'], 'shares': {'ALP': .7, 'LNP': .3}, 'candidate_shares': {'a': .8, 'b': .2}}}, prefer_exact=True)
+        self.assertEqual(result['final_shares_pct'], [68, 32])
+        self.assertEqual(result['rounds'][0]['recipient_method'], 'exact candidate evidence')
+
+    def test_exact_mode_retains_proportional_fallback(self):
+        result = count_candidates({'a': 60, 'b': 30, 'c': 10}, {'a': 'ALP', 'b': 'LNP', 'c': 'OTH'}, {'c': {'field': ['a', 'b'], 'shares': {'ALP': .7, 'LNP': .3}}}, prefer_exact=True)
+        self.assertEqual(result['final_shares_pct'], [67, 33])

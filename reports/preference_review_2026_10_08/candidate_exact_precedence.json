@@ -1,0 +1,4982 @@
+[
+  {
+    "seat": "Albert Park",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "BRADEA, VIOREL",
+        "category": "OTH",
+        "parcel": 466.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SMART, LANCE",
+        "category": "OTH",
+        "parcel": 565.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ANTUNOVIC, ELIZABETH",
+        "category": "OTH",
+        "parcel": 806.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WESTWOOD, CASSANDRA",
+        "category": "OTH",
+        "parcel": 1454.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DRAGWIDGE, GEORGIE",
+        "category": "IND",
+        "parcel": 2901.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SAMIOTIS, KIM",
+        "category": "GRN",
+        "parcel": 10127.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "TAYLOR, NINA",
+      "SHERSON, LAUREN"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      61.150600869342874,
+      38.84939913065712
+    ]
+  },
+  {
+    "seat": "Ashwood",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "DOYLE, MICHAEL",
+        "category": "OTH",
+        "parcel": 467.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BAKER, NORMAN F.",
+        "category": "OTH",
+        "parcel": 597.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SALOUMI, LYNNETTE",
+        "category": "IND",
+        "parcel": 897.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GRIFFITHS, MILTON",
+        "category": "OTH",
+        "parcel": 1072.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GEYER, KEITH",
+        "category": "OTH",
+        "parcel": 1671.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MORGAN, PETER",
+        "category": "GRN",
+        "parcel": 7789.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "FREGON, MATT",
+      "JUDAH, ASHER"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      56.15298590919258,
+      43.84701409080742
+    ]
+  },
+  {
+    "seat": "Bass",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "EDWARDS, MEG",
+        "category": "OTH",
+        "parcel": 872.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MOUSELLIS, ELLY",
+        "category": "OTH",
+        "parcel": 1122.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MUNDAY, MARCUS",
+        "category": "OTH",
+        "parcel": 1285.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JOBE, JENI",
+        "category": "IND",
+        "parcel": 1449.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "O'NEILL, MARK",
+        "category": "OTH",
+        "parcel": 1680.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "VERHAGEN, MARTIN",
+        "category": "OTH",
+        "parcel": 2628.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BUGBIRD, CALLUM",
+        "category": "GRN",
+        "parcel": 5049.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TESSARI, BRETT",
+        "category": "LNP",
+        "parcel": 8661.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "CRUGNALE, JORDAN",
+      "BROWN, AARON"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      50.24393778378901,
+      49.75606221621099
+    ]
+  },
+  {
+    "seat": "Bayswater",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "WORMALD, ALYSSA",
+        "category": "OTH",
+        "parcel": 840.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DOLAN, THOMAS",
+        "category": "OTH",
+        "parcel": 981.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FIELD, CHRIS",
+        "category": "OTH",
+        "parcel": 1043.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MACKALLAH, CHLOE",
+        "category": "IND",
+        "parcel": 1153.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HEAP, ASHLEY",
+        "category": "OTH",
+        "parcel": 2119.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "COOMBES, GARY",
+        "category": "OTH",
+        "parcel": 3009.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SIRNINGER RANKIN, NADIA",
+        "category": "GRN",
+        "parcel": 5285.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "TAYLOR, JACKSON",
+      "WAKELING, NICK"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      54.22897251109181,
+      45.77102748890819
+    ]
+  },
+  {
+    "seat": "Bellarine",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "TAYLOR, BRENDAN",
+        "category": "OTH",
+        "parcel": 389.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MUSE, KYLEE",
+        "category": "OTH",
+        "parcel": 548.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RITCHIE, BRETT ANTHONY",
+        "category": "OTH",
+        "parcel": 973.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CARDILINI, ADAM",
+        "category": "OTH",
+        "parcel": 1350.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MANUELL, GUY",
+        "category": "OTH",
+        "parcel": 1744.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FENTON, SARAH",
+        "category": "IND",
+        "parcel": 3258.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SEMMENS, RACHEL",
+        "category": "GRN",
+        "parcel": 7547.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "MARCHANT, ALISON",
+      "GRIGAU, DONNIE"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      58.46287616906666,
+      41.53712383093334
+    ]
+  },
+  {
+    "seat": "Benambra",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "O'BRIEN, ADRIAN JAMES",
+        "category": "OTH",
+        "parcel": 683.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ROSSITER, DEAN",
+        "category": "OTH",
+        "parcel": 876.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FUERY, MIKE",
+        "category": "OTH",
+        "parcel": 1333.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "STRATTON, JANELLE",
+        "category": "OTH",
+        "parcel": 1608.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BRADY, LUKE",
+        "category": "GRN",
+        "parcel": 2289.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TAIT, MARK",
+        "category": "ALP",
+        "parcel": 6421.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "TILLEY, BILL",
+      "HAWKINS, JACQUI"
+    ],
+    "final_categories": [
+      "LNP",
+      "IND"
+    ],
+    "final_shares_pct": [
+      50.94445119727726,
+      49.05554880272274
+    ]
+  },
+  {
+    "seat": "Bendigo East",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "KEETELAAR, EVELYN",
+        "category": "OTH",
+        "parcel": 1362.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCLELLAND-HOWE, VYONNE",
+        "category": "OTH",
+        "parcel": 1757.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LAURIE, JAMES",
+        "category": "IND",
+        "parcel": 2023.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MIHAIL, BEN",
+        "category": "ON",
+        "parcel": 4387.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TOLHURST, MICHAEL JAMES",
+        "category": "GRN",
+        "parcel": 5522.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "ALLAN, JACINTA",
+      "SCHADE, DARIN"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      60.847524578651694,
+      39.15247542134831
+    ]
+  },
+  {
+    "seat": "Bendigo West",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "NUSKE, MARILYN",
+        "category": "OTH",
+        "parcel": 349.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WOOLLEY, RICHARD JAMES",
+        "category": "OTH",
+        "parcel": 619.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MAXWELL, VICTORIA",
+        "category": "OTH",
+        "parcel": 1139.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BANSEMER, MATT",
+        "category": "IND",
+        "parcel": 1293.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SERPELL, STEVE",
+        "category": "OTH",
+        "parcel": 2752.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TAYLOR, WAYNE",
+        "category": "OTH",
+        "parcel": 3609.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SEARLE, JAMES",
+        "category": "GRN",
+        "parcel": 6619.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "EDWARDS, MAREE",
+      "PRICE, KEN"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      64.5969986086265,
+      35.403001391373486
+    ]
+  },
+  {
+    "seat": "Bentleigh",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "GNIESLAW, SIMON",
+        "category": "IND",
+        "parcel": 789.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HARRIS, DAVID",
+        "category": "OTH",
+        "parcel": 1211.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RYAN, PAUL",
+        "category": "OTH",
+        "parcel": 1772.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GALLI-MCROSTIE, ALANA",
+        "category": "GRN",
+        "parcel": 6030.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "STAIKOS, NICK",
+      "TAYLOR-HAYNES, DEBBIE"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      58.040780141843975,
+      41.959219858156025
+    ]
+  },
+  {
+    "seat": "Berwick",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "DOLHEGUY, KATHERINE",
+        "category": "OTH",
+        "parcel": 1029.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "VAN DER HORST, JOEL",
+        "category": "OTH",
+        "parcel": 1710.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HAUPT, KERRY",
+        "category": "OTH",
+        "parcel": 2638.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PERRY, HAYLEY",
+        "category": "GRN",
+        "parcel": 5593.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "BATTIN, BRAD",
+      "ZAVEER, MALIK"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      54.71007947976878,
+      45.28992052023121
+    ]
+  },
+  {
+    "seat": "Box Hill",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "LISTON, CAMERON",
+        "category": "OTH",
+        "parcel": 435.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RIERA, ALICIA",
+        "category": "OTH",
+        "parcel": 617.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TSENG, WAYNE",
+        "category": "IND",
+        "parcel": 722.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ONG, GARY",
+        "category": "OTH",
+        "parcel": 1168.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FOLLONI, SEBASTIAN",
+        "category": "OTH",
+        "parcel": 1359.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DEAN, PAUL",
+        "category": "OTH",
+        "parcel": 1662.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SHAN, JOANNE",
+        "category": "GRN",
+        "parcel": 7485.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "HAMER, PAUL",
+      "WERNER, NICOLE TA-EI"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      57.22562900171341,
+      42.77437099828659
+    ]
+  },
+  {
+    "seat": "Brighton",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "TIMMS, ALLAN L.",
+        "category": "OTH",
+        "parcel": 211.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CASLEY, JOHN TIGER",
+        "category": "OTH",
+        "parcel": 262.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SCIOLA, NICK",
+        "category": "OTH",
+        "parcel": 701.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WALKER, ALICIA",
+        "category": "OTH",
+        "parcel": 936.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GIBSON, SALLY",
+        "category": "OTH",
+        "parcel": 1308.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FREDERICO, FELICITY",
+        "category": "IND",
+        "parcel": 4427.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DEKIERE, SARAH",
+        "category": "GRN",
+        "parcel": 8616.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "NEWBURY, JAMES",
+      "CRAWFORD, LOUISE"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      55.12671133119721,
+      44.87328866880279
+    ]
+  },
+  {
+    "seat": "Broadmeadows",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "HUYBREGTS, ARIE",
+        "category": "OTH",
+        "parcel": 362.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SUTTER, BEN",
+        "category": "OTH",
+        "parcel": 840.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FEILD, CANDACE",
+        "category": "OTH",
+        "parcel": 1214.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ELMUSTAPHA, MOHAMAD",
+        "category": "IND",
+        "parcel": 1463.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TAM, BIENNE",
+        "category": "OTH",
+        "parcel": 2436.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HASSAN, OMAR",
+        "category": "OTH",
+        "parcel": 4356.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "AGUILUS, JOE",
+        "category": "GRN",
+        "parcel": 6301.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "MATTHEWS-WARD, KATHLEEN",
+      "DUZOVA, BARIS"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      65.50028752156412,
+      34.49971247843588
+    ]
+  },
+  {
+    "seat": "Brunswick",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "TAYLOR, KENNETH CHARLES",
+        "category": "OTH",
+        "parcel": 153.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SHAKER, LILIAN SABRY",
+        "category": "OTH",
+        "parcel": 536.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LAMARCHE-BEAUCHESNE, RACHEL",
+        "category": "OTH",
+        "parcel": 766.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HELOU, ANTHONY",
+        "category": "IND",
+        "parcel": 818.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "EVANS, SHEA",
+        "category": "OTH",
+        "parcel": 2227.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JIMENEZ, NAHUI",
+        "category": "OTH",
+        "parcel": 4425.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "NGUYEN, MINH QUAN",
+        "category": "LNP",
+        "parcel": 5632.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "READ, TIM",
+      "WILLIAMS, MIKE"
+    ],
+    "final_categories": [
+      "GRN",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      63.67591207273564,
+      36.32408792726436
+    ]
+  },
+  {
+    "seat": "Bulleen",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "VINCENT, DAVID",
+        "category": "OTH",
+        "parcel": 214.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SABHLOK, SANJEEV",
+        "category": "IND",
+        "parcel": 485.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JAFARI, ELNAZ",
+        "category": "OTH",
+        "parcel": 912.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "STOKES, JASON",
+        "category": "OTH",
+        "parcel": 1280.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PATRIKIOS, VOULA",
+        "category": "OTH",
+        "parcel": 1973.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "STAFFORD, KELLIE",
+        "category": "GRN",
+        "parcel": 5756.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "GUY, MATTHEW",
+      "ROGERS, IAN"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      55.937056262948396,
+      44.062943737051604
+    ]
+  },
+  {
+    "seat": "Bundoora",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "KOELMEYER, ERIC",
+        "category": "IND",
+        "parcel": 408.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HOLGATE, BELLA",
+        "category": "OTH",
+        "parcel": 1274.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JONES, ETHAN",
+        "category": "OTH",
+        "parcel": 1615.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LU, ANDREW",
+        "category": "OTH",
+        "parcel": 2929.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "O'BRIEN, JULIE",
+        "category": "GRN",
+        "parcel": 6724.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "BROOKS, COLIN",
+      "TOMAR, SAHIL"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      62.69337564458548,
+      37.30662435541452
+    ]
+  },
+  {
+    "seat": "Carrum",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "WILLIS, DAMIAN",
+        "category": "IND",
+        "parcel": 981.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MACGREGOR OWEN, TAYLOR",
+        "category": "OTH",
+        "parcel": 1266.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CAMERON, JEREMY",
+        "category": "OTH",
+        "parcel": 1823.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "EREVNIDIS, GEORGIA",
+        "category": "OTH",
+        "parcel": 3575.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LILLICO, JAYDE",
+        "category": "GRN",
+        "parcel": 5498.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "KILKENNY, SONYA",
+      "BUCHANAN, BEC"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      59.75654825148982,
+      40.24345174851018
+    ]
+  },
+  {
+    "seat": "Caulfield",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "EDWELL, LYNNE",
+        "category": "OTH",
+        "parcel": 557.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ABELMAN, MICHAEL",
+        "category": "OTH",
+        "parcel": 932.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MYERSON, ASHER",
+        "category": "OTH",
+        "parcel": 1031.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "KALTMANN, NOMI",
+        "category": "IND",
+        "parcel": 3067.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "IAMPOLSKI, RACHEL",
+        "category": "GRN",
+        "parcel": 8491.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "SOUTHWICK, DAVID",
+      "HAREL, LIOR"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      52.068431531597966,
+      47.931568468402034
+    ]
+  },
+  {
+    "seat": "Clarinda",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "WOLFE, STEVE",
+        "category": "OTH",
+        "parcel": 794.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LITCHFIELD, SUE",
+        "category": "OTH",
+        "parcel": 1067.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "VO, HUNG",
+        "category": "OTH",
+        "parcel": 1192.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HASTINGS, KAREN",
+        "category": "OTH",
+        "parcel": 1989.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MOFFETT, JESSAMINE",
+        "category": "GRN",
+        "parcel": 4012.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WHITE, CAROLINE",
+        "category": "IND",
+        "parcel": 5689.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "TAK, MENG HEANG",
+      "RICHARDSON, ANTHONY"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      60.19130263287644,
+      39.80869736712356
+    ]
+  },
+  {
+    "seat": "Cranbourne",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "RAGUPATHY, RAVI",
+        "category": "IND",
+        "parcel": 242.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BRENNAN, GWYNNE",
+        "category": "OTH",
+        "parcel": 1027.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PHILPOTT, PETER BERNARD",
+        "category": "OTH",
+        "parcel": 1247.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HANSEN, GERARDINE FRANCES",
+        "category": "OTH",
+        "parcel": 2196.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "NORTON, CHRIS",
+        "category": "OTH",
+        "parcel": 2365.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "VEMPATI, KIRAN",
+        "category": "GRN",
+        "parcel": 3221.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HARVEY, BRADLEY",
+        "category": "OTH",
+        "parcel": 5918.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "RICHARDS, PAULINE",
+      "SINGH, JAGDEEP"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      58.97065307922199,
+      41.02934692077801
+    ]
+  },
+  {
+    "seat": "Croydon",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "MCDONALD-ECKERSALL, HARLEY",
+        "category": "OTH",
+        "parcel": 1501.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DE WIT, SOPHIA",
+        "category": "OTH",
+        "parcel": 2117.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "NEBAUER, DAN",
+        "category": "OTH",
+        "parcel": 2891.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "POWELL, BRENDAN",
+        "category": "GRN",
+        "parcel": 6580.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "HODGETT, DAVID",
+      "GRASSO, SORINA"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      51.37272946383575,
+      48.62727053616425
+    ]
+  },
+  {
+    "seat": "Dandenong",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "TURNER, THAM",
+        "category": "OTH",
+        "parcel": 958.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "KLOP, ANDREW",
+        "category": "OTH",
+        "parcel": 1091.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LEVCHENKO, ANTHONY",
+        "category": "OTH",
+        "parcel": 1809.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "KIRWAN, MATTHEW",
+        "category": "GRN",
+        "parcel": 3728.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HARMSE, AUDREY",
+        "category": "OTH",
+        "parcel": 5376.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "WILLIAMS, GABRIELLE",
+      "BROADLEY, KAREN"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      68.26983926085306,
+      31.730160739146946
+    ]
+  },
+  {
+    "seat": "Eildon",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "THORNTON, ROBERT",
+        "category": "OTH",
+        "parcel": 459.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CORDNER HUNT, KAMMY",
+        "category": "IND",
+        "parcel": 755.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BOND, CHLOE",
+        "category": "OTH",
+        "parcel": 1439.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RUSIC, JOSHUA",
+        "category": "OTH",
+        "parcel": 1814.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LACEY, TIM",
+        "category": "OTH",
+        "parcel": 3030.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MIKELSONS, WIL",
+        "category": "GRN",
+        "parcel": 6592.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "MCLEISH, CINDY",
+      "JUDD, JANE"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      56.987193094176746,
+      43.012806905823254
+    ]
+  },
+  {
+    "seat": "Eltham",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "KARIMI, LEILA",
+        "category": "OTH",
+        "parcel": 710.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MARSHALL, CATRIONA",
+        "category": "OTH",
+        "parcel": 1035.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "STUBLEY, HUGH",
+        "category": "OTH",
+        "parcel": 1637.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GRIMES, ALEX",
+        "category": "GRN",
+        "parcel": 6841.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "WARD, VICKI",
+      "MCCLINTOCK, JASON"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      59.004652860140496,
+      40.9953471398595
+    ]
+  },
+  {
+    "seat": "Essendon",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "MUIR, MARGARET",
+        "category": "OTH",
+        "parcel": 848.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HOPE, NICHOLAS",
+        "category": "OTH",
+        "parcel": 1060.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WRIGHT, DAVID",
+        "category": "OTH",
+        "parcel": 1359.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WILLIAMS, GAYLE",
+        "category": "OTH",
+        "parcel": 1736.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DADICH, DANIEL NAIR",
+        "category": "OTH",
+        "parcel": 2702.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PRENTIS, JARED",
+        "category": "GRN",
+        "parcel": 9624.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "PEARSON, DANNY",
+      "BARONESSA, ANGELO"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      62.45013972818688,
+      37.549860271813124
+    ]
+  },
+  {
+    "seat": "Eureka",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "BANWELL, MARK WILLIAM",
+        "category": "OTH",
+        "parcel": 220.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RAY, MICHAEL",
+        "category": "OTH",
+        "parcel": 698.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GIAMPAOLO, ANTHONY JOSEPH",
+        "category": "OTH",
+        "parcel": 982.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MORRISON, WENDY",
+        "category": "OTH",
+        "parcel": 1638.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RICKARD, TABITHA",
+        "category": "OTH",
+        "parcel": 2012.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "REID, NICOLA",
+        "category": "IND",
+        "parcel": 2176.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GARCIA, ADRIAN",
+        "category": "OTH",
+        "parcel": 3463.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCCOLL, SAM",
+        "category": "GRN",
+        "parcel": 7246.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "SETTLE, MICHAELA",
+      "TATCHELL, PAUL"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      57.17285123875616,
+      42.82714876124384
+    ]
+  },
+  {
+    "seat": "Euroa",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "HADDOCK, ELAINE",
+        "category": "OTH",
+        "parcel": 1170.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BACHELOR, PAUL",
+        "category": "OTH",
+        "parcel": 1739.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BENNETT, JAMES",
+        "category": "GRN",
+        "parcel": 2693.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ROWBOTHAM, RAYMOND MARK",
+        "category": "OTH",
+        "parcel": 3324.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HEARN, BRAD",
+        "category": "LNP",
+        "parcel": 10399.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "CLEELAND, ANNABELLE",
+      "TOUGH, ANGELA"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      59.93087448510961,
+      40.06912551489039
+    ]
+  },
+  {
+    "seat": "Evelyn",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "DE FRANCESCO, ROSALIE",
+        "category": "OTH",
+        "parcel": 366.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DE FRANCESCO, NAT",
+        "category": "IND",
+        "parcel": 649.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HEALD, JAN",
+        "category": "OTH",
+        "parcel": 2019.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DOBSON, JEANETTE",
+        "category": "OTH",
+        "parcel": 3124.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HENLEY, ANDREW",
+        "category": "GRN",
+        "parcel": 5608.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "VALLENCE, BRIDGET",
+      "DENT, LORNA"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      55.400329791132286,
+      44.599670208867714
+    ]
+  },
+  {
+    "seat": "Footscray",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "MUIR, RUSSELL",
+        "category": "OTH",
+        "parcel": 838.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MANSOURI JAJAEE, SHOHRE",
+        "category": "OTH",
+        "parcel": 1137.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WILLIAMS, ALAN",
+        "category": "OTH",
+        "parcel": 1352.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JORQUERA, JORGE",
+        "category": "OTH",
+        "parcel": 4309.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JOESIKA, EMETE",
+        "category": "LNP",
+        "parcel": 8499.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "HALL, KATIE",
+      "PEREYRA, ELENA"
+    ],
+    "final_categories": [
+      "ALP",
+      "GRN"
+    ],
+    "final_shares_pct": [
+      54.23896876549331,
+      45.761031234506696
+    ]
+  },
+  {
+    "seat": "Frankston",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "KELSALL, HENRY",
+        "category": "OTH",
+        "parcel": 369.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BERGWERF, DARREN PAUL",
+        "category": "IND",
+        "parcel": 961.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BROWN, RICHARD",
+        "category": "OTH",
+        "parcel": 1477.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ABRAHAM, CHRYSTEN",
+        "category": "OTH",
+        "parcel": 1580.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JOHNSTON, ELIZABETH",
+        "category": "OTH",
+        "parcel": 2082.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SURIC, DRAGAN",
+        "category": "OTH",
+        "parcel": 3766.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GREEN, EMILY",
+        "category": "GRN",
+        "parcel": 7467.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "EDBROOKE, PAUL",
+      "O'REILLY, MICHAEL"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      58.65902205753486,
+      41.34097794246514
+    ]
+  },
+  {
+    "seat": "Geelong",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "JUHASZ, STEPHEN",
+        "category": "OTH",
+        "parcel": 455.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CARR, ANGELA",
+        "category": "IND",
+        "parcel": 1148.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MOTTA, BOB",
+        "category": "OTH",
+        "parcel": 1630.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PARKER-HILL, MADELEINE",
+        "category": "OTH",
+        "parcel": 2924.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SMITH, ALEISHA",
+        "category": "GRN",
+        "parcel": 8769.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "COUZENS, CHRISTINE",
+      "BENNETT-HULLIN, JAMES"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      64.70890487467048,
+      35.29109512532952
+    ]
+  },
+  {
+    "seat": "Gippsland East",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "COURT, SALLY",
+        "category": "OTH",
+        "parcel": 725.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FECHNER, CARL JOHN",
+        "category": "OTH",
+        "parcel": 1148.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BARNES, ED",
+        "category": "OTH",
+        "parcel": 2003.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LING, NISSA",
+        "category": "GRN",
+        "parcel": 3149.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MUIR, RICKY",
+        "category": "OTH",
+        "parcel": 4165.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "BULL, TIM",
+      "RICHARDSON, STEPHEN"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      74.56940462934445,
+      25.430595370655546
+    ]
+  },
+  {
+    "seat": "Gippsland South",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "FURLONG, PAUL",
+        "category": "OTH",
+        "parcel": 1213.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JEGES, HELEN",
+        "category": "OTH",
+        "parcel": 1520.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "NEWNHAM, ANGELA",
+        "category": "OTH",
+        "parcel": 2163.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ESLER, CLAY",
+        "category": "IND",
+        "parcel": 3516.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TIZIANI-SIMPSON, JAY",
+        "category": "GRN",
+        "parcel": 4946.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "O'BRIEN, DANNY",
+      "RYAN, DENISE"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      65.55453236051096,
+      34.44546763948903
+    ]
+  },
+  {
+    "seat": "Glen Waverley",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "HARRIS, JOYCE MAREE",
+        "category": "OTH",
+        "parcel": 664.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HANCE, MADDY",
+        "category": "OTH",
+        "parcel": 886.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HUISMAN, KRISTEEN",
+        "category": "OTH",
+        "parcel": 1452.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MARSH, SCOTT",
+        "category": "OTH",
+        "parcel": 2476.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PARTRIDGE, STEPH",
+        "category": "GRN",
+        "parcel": 5872.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "MULLAHY, JOHN",
+      "ANGUS, NEIL"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      53.30333355721226,
+      46.696666442787745
+    ]
+  },
+  {
+    "seat": "Greenvale",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "STYLES, LAUREN",
+        "category": "OTH",
+        "parcel": 1225.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FURINA, ROSANNA",
+        "category": "OTH",
+        "parcel": 1471.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ERCIYAS, FATMA",
+        "category": "IND",
+        "parcel": 2585.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SANTA-ISABEL, CRISTINA",
+        "category": "GRN",
+        "parcel": 2808.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "YOLBULAN, MUTULLAH CAN",
+        "category": "OTH",
+        "parcel": 4135.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BENGTSSON, MARIA",
+        "category": "OTH",
+        "parcel": 5668.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "WALTERS, IWAN",
+      "GHANI, USMAN"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      57.06628456190628,
+      42.93371543809372
+    ]
+  },
+  {
+    "seat": "Hastings",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "WHITEHILL, ROBERT",
+        "category": "IND",
+        "parcel": 533.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DE WIT, CAMILLE",
+        "category": "OTH",
+        "parcel": 857.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SABO, TOM",
+        "category": "OTH",
+        "parcel": 1153.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BENSON, JANET FELICITY",
+        "category": "OTH",
+        "parcel": 1979.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JACK, TYSON",
+        "category": "OTH",
+        "parcel": 2610.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SAUNDERS, PAUL",
+        "category": "GRN",
+        "parcel": 6002.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "MERCURIO, PAUL",
+      "HUTTON, BRIONY"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      51.353317811408616,
+      48.646682188591384
+    ]
+  },
+  {
+    "seat": "Hawthorn",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "BELL, STRATTON",
+        "category": "OTH",
+        "parcel": 354.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TRIANTAFILLIS, KEN",
+        "category": "OTH",
+        "parcel": 428.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FUHRER, FAITH",
+        "category": "OTH",
+        "parcel": 750.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PEPPARD, RICHARD",
+        "category": "OTH",
+        "parcel": 800.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SAVAGE, NICK",
+        "category": "GRN",
+        "parcel": 5284.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LOWE, MELISSA",
+        "category": "IND",
+        "parcel": 12058.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "PESUTTO, JOHN",
+      "KENNEDY, JOHN"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      51.74227036786279,
+      48.25772963213721
+    ]
+  },
+  {
+    "seat": "Ivanhoe",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "LANGDON, CRAIG",
+        "category": "IND",
+        "parcel": 739.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RISTEVSKI, SONJA",
+        "category": "OTH",
+        "parcel": 1054.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HAYWARD, SARAH",
+        "category": "OTH",
+        "parcel": 1596.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BIEBER, EMILY",
+        "category": "GRN",
+        "parcel": 8851.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "CARBINES, ANTHONY",
+      "KHOURY, BERNADETTE"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      62.750314047144016,
+      37.249685952855984
+    ]
+  },
+  {
+    "seat": "Kalkallo",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "FRENCH, CALLUM JOHN",
+        "category": "OTH",
+        "parcel": 299.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SANDHU, SMILEY",
+        "category": "OTH",
+        "parcel": 426.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PAREL, JIMMY GEORGE",
+        "category": "IND",
+        "parcel": 778.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LOWE, FRANCES",
+        "category": "OTH",
+        "parcel": 1644.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MONSALVE TOBON, SERGIO",
+        "category": "OTH",
+        "parcel": 2346.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "UL MURTAZA, MUHAMMAD NISAR",
+        "category": "GRN",
+        "parcel": 3341.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SAYER, DAS",
+        "category": "OTH",
+        "parcel": 4913.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "SPENCE, ROS",
+      "SINGH, BIKRAM"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      66.45233925444083,
+      33.54766074555917
+    ]
+  },
+  {
+    "seat": "Kew",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SULLIVAN, KYM",
+        "category": "OTH",
+        "parcel": 147.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DAVIS, FINLAY",
+        "category": "OTH",
+        "parcel": 198.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SCHOFIELD, RUBY",
+        "category": "OTH",
+        "parcel": 527.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SEELEY, ANN",
+        "category": "OTH",
+        "parcel": 838.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CARTER, JACKIE",
+        "category": "GRN",
+        "parcel": 3924.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TORNEY, SOPHIE",
+        "category": "IND",
+        "parcel": 11471.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "WILSON, JESS",
+      "SKELTON, LUCY"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      53.975500091759955,
+      46.024499908240045
+    ]
+  },
+  {
+    "seat": "Kororoit",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "CHANDOK, JAZ",
+        "category": "OTH",
+        "parcel": 623.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BAUCH, JOH",
+        "category": "IND",
+        "parcel": 1007.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DIVITA, KATHERINE",
+        "category": "OTH",
+        "parcel": 1438.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BROWN, ZUZANNA",
+        "category": "OTH",
+        "parcel": 2873.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CHESTER, BEN",
+        "category": "GRN",
+        "parcel": 3218.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MILUTINOVIC, MELANIE",
+        "category": "OTH",
+        "parcel": 4357.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GIBSON, BELLE",
+        "category": "OTH",
+        "parcel": 6388.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "GRIGOROVITCH, LUBA",
+      "FLETCHER, JOHN"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      64.5158893319793,
+      35.484110668020705
+    ]
+  },
+  {
+    "seat": "Lara",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "TAYLOR, ASH",
+        "category": "OTH",
+        "parcel": 938.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HATHWAY, SARAH",
+        "category": "IND",
+        "parcel": 1139.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "KELLY, PETER",
+        "category": "OTH",
+        "parcel": 1866.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PAYNE, MAX",
+        "category": "OTH",
+        "parcel": 2055.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RANKINE, STEVE",
+        "category": "OTH",
+        "parcel": 3708.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GARDNER, COURTNEY",
+        "category": "GRN",
+        "parcel": 6859.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "GEORGE, ELLA",
+      "KREIN, RALPH"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      65.8711277586556,
+      34.128872241344396
+    ]
+  },
+  {
+    "seat": "Laverton",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "PAREDES, RUFO",
+        "category": "IND",
+        "parcel": 355.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RAYMOND, TRENT",
+        "category": "OTH",
+        "parcel": 676.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BAGHERI, POUYA",
+        "category": "OTH",
+        "parcel": 836.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SONI, GURNEET",
+        "category": "OTH",
+        "parcel": 1235.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FRY, DAVID",
+        "category": "OTH",
+        "parcel": 2051.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WIRTH, MICHAEL",
+        "category": "OTH",
+        "parcel": 2730.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ROBERTSON, CATHERINE",
+        "category": "OTH",
+        "parcel": 3402.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DURZADA, BRAISHNA",
+        "category": "GRN",
+        "parcel": 7447.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "CONNOLLY, SARAH",
+      "REDDY, RAJA"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      68.38575891414413,
+      31.614241085855866
+    ]
+  },
+  {
+    "seat": "Lowan",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "RAMSAY, TAMASIN",
+        "category": "OTH",
+        "parcel": 1018.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "COLEMAN, ROBERT",
+        "category": "OTH",
+        "parcel": 1829.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ETHERTON, RICHARD",
+        "category": "OTH",
+        "parcel": 2338.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LANE, RICHARD",
+        "category": "GRN",
+        "parcel": 3110.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MEAD, AMANDA",
+        "category": "IND",
+        "parcel": 4166.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "KEALY, EMMA",
+      "MONAGHAN, MICK"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      71.55642923219241,
+      28.443570767807586
+    ]
+  },
+  {
+    "seat": "Macedon",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SEDGMAN, KERRYN P.",
+        "category": "OTH",
+        "parcel": 770.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCCORMACK, CHRIS",
+        "category": "OTH",
+        "parcel": 1092.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BERGMANN, IRIS",
+        "category": "OTH",
+        "parcel": 1517.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BARTON, HUNTLY",
+        "category": "IND",
+        "parcel": 2526.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "EVEZARD, AMANDA",
+        "category": "ON",
+        "parcel": 3071.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCRAE MCLEOD, MARLEY",
+        "category": "GRN",
+        "parcel": 7047.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "THOMAS, MARY-ANNE",
+      "BONANNO, DOMINIC"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      59.53978215393494,
+      40.46021784606506
+    ]
+  },
+  {
+    "seat": "Malvern",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SCHMIDT, JUDY",
+        "category": "OTH",
+        "parcel": 632.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "STEFANOPOULOS, STEVE",
+        "category": "IND",
+        "parcel": 731.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "NATOLI, AMELIA",
+        "category": "OTH",
+        "parcel": 1254.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FULLER, MITCHELL",
+        "category": "GRN",
+        "parcel": 7257.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "O'BRIEN, MICHAEL",
+      "NATALE, DARREN"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      58.06427888504817,
+      41.93572111495183
+    ]
+  },
+  {
+    "seat": "Melbourne",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "AL-SAIMARY, LAYLAH",
+        "category": "IND",
+        "parcel": 428.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SMITH, STEVEN J.",
+        "category": "OTH",
+        "parcel": 534.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JANSON, MICHAEL",
+        "category": "OTH",
+        "parcel": 769.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BANGAAR, RABIN",
+        "category": "OTH",
+        "parcel": 895.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FOXWORTHY, NICOLA",
+        "category": "OTH",
+        "parcel": 1931.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BOLGER, COLLEEN",
+        "category": "OTH",
+        "parcel": 3172.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PALACKALODY, GEORGE",
+        "category": "LNP",
+        "parcel": 8575.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "SANDELL, ELLEN",
+      "THISTLETON, REBECCA"
+    ],
+    "final_categories": [
+      "GRN",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      60.191914203062154,
+      39.808085796937846
+    ]
+  },
+  {
+    "seat": "Melton",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "PERERA, JASON SPENCER",
+        "category": "OTH",
+        "parcel": 130.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CIAPPARA, LUCIENNE",
+        "category": "OTH",
+        "parcel": 226.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "KAUR, JASLEEN",
+        "category": "OTH",
+        "parcel": 258.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DONALD, SAMANTHA JANE",
+        "category": "OTH",
+        "parcel": 720.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DOBRAN, TONY",
+        "category": "OTH",
+        "parcel": 790.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ADIN-JAMES, FIONA",
+        "category": "OTH",
+        "parcel": 1098.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BRUNT, RICHARD",
+        "category": "OTH",
+        "parcel": 1524.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ALP, ASHLEY",
+        "category": "OTH",
+        "parcel": 1993.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MORRIS, PRAISE",
+        "category": "GRN",
+        "parcel": 2553.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BLACKBORROW, PAUL",
+        "category": "OTH",
+        "parcel": 3181.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BINGHAM, JARROD JAMES",
+        "category": "OTH",
+        "parcel": 3688.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BIRCHALL, IAN",
+        "category": "IND",
+        "parcel": 7143.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "MCGHIE, STEVE",
+      "WATT, GRAHAM"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      54.59475265158563,
+      45.40524734841436
+    ]
+  },
+  {
+    "seat": "Mildura",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "ZAYN, ANGYLINA",
+        "category": "OTH",
+        "parcel": 333.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BROUGHAM, PHILIPPE JOHN",
+        "category": "OTH",
+        "parcel": 436.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SHARPE, FELICITY",
+        "category": "OTH",
+        "parcel": 621.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "STRATTON, BRAD",
+        "category": "OTH",
+        "parcel": 867.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CLEMENTS, KATIE",
+        "category": "GRN",
+        "parcel": 1091.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BRYMER, SONIA",
+        "category": "OTH",
+        "parcel": 1474.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MILNE, GLENN",
+        "category": "OTH",
+        "parcel": 2805.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ZIGOURAS, STELLA",
+        "category": "ALP",
+        "parcel": 3297.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MATHESON, PAUL",
+        "category": "LNP",
+        "parcel": 8847.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "BENHAM, JADE",
+      "CUPPER, ALI"
+    ],
+    "final_categories": [
+      "LNP",
+      "IND"
+    ],
+    "final_shares_pct": [
+      51.17986366019927,
+      48.82013633980073
+    ]
+  },
+  {
+    "seat": "Mill Park",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SIMONS, MARCIA",
+        "category": "OTH",
+        "parcel": 1833.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ANDERSON, CRAIG",
+        "category": "OTH",
+        "parcel": 2388.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "KEARNEY, CHRIS",
+        "category": "GRN",
+        "parcel": 3514.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FILIPPOPOULOS, ANDREW",
+        "category": "OTH",
+        "parcel": 4645.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "D'AMBROSIO, LILY",
+      "YAP, PAIGE"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      61.58283279972482,
+      38.41716720027518
+    ]
+  },
+  {
+    "seat": "Monbulk",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "BARNES, VERONICA",
+        "category": "OTH",
+        "parcel": 910.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HIGGINS, DAVID",
+        "category": "OTH",
+        "parcel": 1484.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FOLLONI, LEAH",
+        "category": "OTH",
+        "parcel": 2049.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "COLE, CRAIG",
+        "category": "OTH",
+        "parcel": 2956.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SKELTON, JOHANNA",
+        "category": "IND",
+        "parcel": 3934.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ORMSBY, MICHAEL",
+        "category": "GRN",
+        "parcel": 9570.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "DE MARTINO, DANIELA",
+      "WARD, GARETH"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      57.55436993085629,
+      42.44563006914372
+    ]
+  },
+  {
+    "seat": "Mordialloc",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "REID, PHIL",
+        "category": "OTH",
+        "parcel": 154.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LUM, PATRICK",
+        "category": "OTH",
+        "parcel": 891.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "VO, CHI",
+        "category": "OTH",
+        "parcel": 1180.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ALBRECHT, DEBORAH",
+        "category": "OTH",
+        "parcel": 1445.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "O'DONNELL, SARAH",
+        "category": "IND",
+        "parcel": 4479.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LESSA, DANIEL",
+        "category": "GRN",
+        "parcel": 6155.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "RICHARDSON, TIM",
+      "PEASE, PHILLIP"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      58.19469347919834,
+      41.80530652080166
+    ]
+  },
+  {
+    "seat": "Mornington",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "HAYWARD, ROSS",
+        "category": "OTH",
+        "parcel": 375.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "AGIRTAN, JANE",
+        "category": "OTH",
+        "parcel": 658.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SCHWEEN, LEONIE",
+        "category": "OTH",
+        "parcel": 822.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PETTITT, PAUL",
+        "category": "OTH",
+        "parcel": 1654.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SINCLAIR, HARRY",
+        "category": "GRN",
+        "parcel": 3145.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FOWLER, GEORGIA",
+        "category": "ALP",
+        "parcel": 10649.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "CREWTHER, CHRIS",
+      "LARDNER, KATE"
+    ],
+    "final_categories": [
+      "LNP",
+      "IND"
+    ],
+    "final_shares_pct": [
+      50.70134563263754,
+      49.29865436736247
+    ]
+  },
+  {
+    "seat": "Morwell",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "PROCTOR, LISA",
+        "category": "OTH",
+        "parcel": 469.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCAULIFFE, JESSICA",
+        "category": "OTH",
+        "parcel": 705.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CLARKE, BRENDAN",
+        "category": "OTH",
+        "parcel": 893.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MAIDANA, ALEX",
+        "category": "OTH",
+        "parcel": 1122.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LUND, TRACIE",
+        "category": "OTH",
+        "parcel": 1342.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HINE, ROCHELLE",
+        "category": "GRN",
+        "parcel": 2285.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SNELLING, DAVID",
+        "category": "OTH",
+        "parcel": 2530.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GIBSON, SHARON",
+        "category": "IND",
+        "parcel": 4107.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HICKEN, ALLAN",
+        "category": "ON",
+        "parcel": 6220.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HARRIMAN, DALE",
+        "category": "LNP",
+        "parcel": 10883.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "CAMERON, MARTIN",
+      "MAXFIELD, KATE"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      54.41621784054922,
+      45.58378215945078
+    ]
+  },
+  {
+    "seat": "Mulgrave",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "ISMA, EZRA J. D.",
+        "category": "OTH",
+        "parcel": 91.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LEE, HOWARD",
+        "category": "OTH",
+        "parcel": 123.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MOODY, ANNE",
+        "category": "OTH",
+        "parcel": 165.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TOSCANO, JOSEPH",
+        "category": "OTH",
+        "parcel": 188.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "KING, ANDREW",
+        "category": "OTH",
+        "parcel": 209.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WOOD, MAREE",
+        "category": "OTH",
+        "parcel": 338.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "THEODOSSOPOULOU, FOTINI",
+        "category": "OTH",
+        "parcel": 366.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MOULD, DAVID",
+        "category": "OTH",
+        "parcel": 501.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCLINDON, AIDAN",
+        "category": "OTH",
+        "parcel": 965.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FOREMAN, JANE",
+        "category": "OTH",
+        "parcel": 1230.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LIM, ROBERT",
+        "category": "GRN",
+        "parcel": 2619.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PIASTRINO, MICHAEL",
+        "category": "LNP",
+        "parcel": 8034.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "ANDREWS, DANIEL",
+      "COOK, IAN"
+    ],
+    "final_categories": [
+      "ALP",
+      "IND"
+    ],
+    "final_shares_pct": [
+      60.83219069718384,
+      39.16780930281616
+    ]
+  },
+  {
+    "seat": "Murray Plains",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "LEUNG, GLENYS",
+        "category": "OTH",
+        "parcel": 902.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "OTTO, ANDREA",
+        "category": "IND",
+        "parcel": 1093.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BROWNSTEIN, JOHN",
+        "category": "GRN",
+        "parcel": 1896.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BISH, KATIA",
+        "category": "OTH",
+        "parcel": 2223.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MACPHERSON, CAMERON",
+        "category": "OTH",
+        "parcel": 4882.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "WALSH, PETER",
+      "HURRELL, DAMIEN"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      73.37547597123019,
+      26.62452402876982
+    ]
+  },
+  {
+    "seat": "Narracan",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "HONEY, IAN",
+        "category": "OTH",
+        "parcel": 381.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CRAM, AUSTIN",
+        "category": "OTH",
+        "parcel": 861.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CLARKE, BRENDAN",
+        "category": "OTH",
+        "parcel": 1246.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ABELMAN, MICHAEL",
+        "category": "OTH",
+        "parcel": 1454.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCCABE, ANNEMARIE",
+        "category": "OTH",
+        "parcel": 1645.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MURPHY, CASEY",
+        "category": "ON",
+        "parcel": 2973.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DE WIT, SOPHIA CAMILLE",
+        "category": "OTH",
+        "parcel": 3351.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BLACKWELL, LEONIE",
+        "category": "OTH",
+        "parcel": 5011.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WEAVER, ALYSSA",
+        "category": "GRN",
+        "parcel": 6742.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "FARNHAM, WAYNE",
+      "WOLFE, TONY"
+    ],
+    "final_categories": [
+      "LNP",
+      "IND"
+    ],
+    "final_shares_pct": [
+      63.02378712538638,
+      36.97621287461363
+    ]
+  },
+  {
+    "seat": "Narre Warren North",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "RUYTER, MONIQUE",
+        "category": "OTH",
+        "parcel": 772.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CAPON, STEPHEN",
+        "category": "IND",
+        "parcel": 1035.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GARDNER, SHEREE",
+        "category": "OTH",
+        "parcel": 1260.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ZMEGAC, ANDREW",
+        "category": "OTH",
+        "parcel": 1326.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MATULEC, STEPHEN",
+        "category": "OTH",
+        "parcel": 1538.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PARKER, CRAIG",
+        "category": "OTH",
+        "parcel": 2187.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCLEAN, LAURA",
+        "category": "GRN",
+        "parcel": 3503.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ELKINS, CHRISTINE",
+        "category": "OTH",
+        "parcel": 5069.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "WILSON, BELINDA",
+      "DRAGAN, TIMOTHY"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      58.74305051970027,
+      41.25694948029973
+    ]
+  },
+  {
+    "seat": "Narre Warren South",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "BAKER-PEARCE, TYLERE",
+        "category": "IND",
+        "parcel": 290.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GALLAGHER, MICHAEL",
+        "category": "OTH",
+        "parcel": 1097.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SKROBO, CHRISTINE",
+        "category": "OTH",
+        "parcel": 1286.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HANSEN, GEOFF",
+        "category": "OTH",
+        "parcel": 2714.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MOORE, SUSANNA",
+        "category": "GRN",
+        "parcel": 3647.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HARVEY, JACQUELINE",
+        "category": "OTH",
+        "parcel": 5797.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "MAAS, GARY",
+      "SAMUEL, ANNETTE"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      58.316806271728225,
+      41.683193728271775
+    ]
+  },
+  {
+    "seat": "Nepean",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "ANGER, STEVE",
+        "category": "OTH",
+        "parcel": 91.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SKRUZNY, CYNTHIA",
+        "category": "OTH",
+        "parcel": 371.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "AINSLIE, CHARELLE",
+        "category": "OTH",
+        "parcel": 475.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MILLER, JAY",
+        "category": "OTH",
+        "parcel": 575.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WOOLCOCK, ELIZABETH",
+        "category": "IND",
+        "parcel": 643.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DIJKMAN, JANNY",
+        "category": "OTH",
+        "parcel": 1002.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ENGELANDER, PAMELA",
+        "category": "OTH",
+        "parcel": 1449.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LEINE, HANK",
+        "category": "OTH",
+        "parcel": 1808.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GLEIXNER, ESTHER",
+        "category": "GRN",
+        "parcel": 4828.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "GROTH, SAM",
+      "BRAYNE, CHRIS"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      56.385222979934255,
+      43.614777020065745
+    ]
+  },
+  {
+    "seat": "Niddrie",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "GRAMMENOS, GEORGIA",
+        "category": "OTH",
+        "parcel": 269.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MEILAK, SHANNON",
+        "category": "OTH",
+        "parcel": 824.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "REICH, BRAD",
+        "category": "OTH",
+        "parcel": 1079.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "KRUSE, HOLLY",
+        "category": "OTH",
+        "parcel": 1249.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GARCIA, JOANNE",
+        "category": "OTH",
+        "parcel": 1765.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MAUGERI, FRANK",
+        "category": "OTH",
+        "parcel": 3246.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCGINNESS, DECLAN",
+        "category": "GRN",
+        "parcel": 4787.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "CARROLL, BEN",
+      "YOUHANA, ALAN"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      56.69475877089153,
+      43.30524122910847
+    ]
+  },
+  {
+    "seat": "Northcote",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "VERMA, ASHISH",
+        "category": "OTH",
+        "parcel": 80.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ASHTON, KATHRINE",
+        "category": "OTH",
+        "parcel": 413.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WHITEHEAD, ADRIAN",
+        "category": "IND",
+        "parcel": 559.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CAVE, ANTHONY",
+        "category": "OTH",
+        "parcel": 580.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "OSECKAS, TIM",
+        "category": "OTH",
+        "parcel": 861.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "NTOUNI, ANASTACIA",
+        "category": "OTH",
+        "parcel": 1354.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CLARKE, APRIL",
+        "category": "OTH",
+        "parcel": 1910.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LARKIN, KATH",
+        "category": "OTH",
+        "parcel": 3739.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TODHUNTER, STEWART",
+        "category": "LNP",
+        "parcel": 6728.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "THEOPHANOUS, KAT",
+      "GOME, CAMPBELL"
+    ],
+    "final_categories": [
+      "ALP",
+      "GRN"
+    ],
+    "final_shares_pct": [
+      50.215749730312844,
+      49.78425026968716
+    ]
+  },
+  {
+    "seat": "Oakleigh",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "KIOUPELIS, PARASHOS",
+        "category": "OTH",
+        "parcel": 234.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JACOBS, ANTHONY CHARLES",
+        "category": "OTH",
+        "parcel": 787.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FABB, LORAINE",
+        "category": "OTH",
+        "parcel": 1182.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SOK, EDWARD",
+        "category": "OTH",
+        "parcel": 1345.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MURPHY, DOMINIQUE",
+        "category": "IND",
+        "parcel": 2068.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HSIEH, HSIANG-HAN",
+        "category": "GRN",
+        "parcel": 8595.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "DIMOPOULOS, STEVE",
+      "GRIVOKOSTOPOULOS, JIM"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      63.48439990890458,
+      36.51560009109542
+    ]
+  },
+  {
+    "seat": "Ovens Valley",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SLATER, AISHA",
+        "category": "OTH",
+        "parcel": 1009.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WISE, ANNA",
+        "category": "OTH",
+        "parcel": 1603.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BUGGE, MARK",
+        "category": "OTH",
+        "parcel": 2786.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FIDGE, JULIAN",
+        "category": "OTH",
+        "parcel": 4326.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "KROMAR, ZOE",
+        "category": "GRN",
+        "parcel": 5014.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "MCCURDY, TIM",
+      "LESCHEN, ZUVELE"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      67.83963151899361,
+      32.160368481006394
+    ]
+  },
+  {
+    "seat": "Pakenham",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SAGOO, RAJVIR SINGH",
+        "category": "OTH",
+        "parcel": 234.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SARKESHIK, SARASADAT",
+        "category": "OTH",
+        "parcel": 694.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CLARKE, SAMMI",
+        "category": "OTH",
+        "parcel": 983.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PLEDGER-FIRTH, HANNAH",
+        "category": "OTH",
+        "parcel": 1057.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SILADJI, ANGELA",
+        "category": "ON",
+        "parcel": 1653.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GORE, CHRISTOPHER",
+        "category": "OTH",
+        "parcel": 2520.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SMITH, ELISSA",
+        "category": "OTH",
+        "parcel": 3056.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MAIBAUM, MICHELLE",
+        "category": "GRN",
+        "parcel": 4330.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "OWEN, BRETT",
+        "category": "IND",
+        "parcel": 6110.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "VULIN, EMMA",
+      "FARRELLY, DAVID"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      50.39493657858852,
+      49.60506342141148
+    ]
+  },
+  {
+    "seat": "Pascoe Vale",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "ADAMS, ELIZABETH",
+        "category": "OTH",
+        "parcel": 889.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CIMBARO, RICHARD",
+        "category": "OTH",
+        "parcel": 1251.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GLOVER, MARGEE",
+        "category": "OTH",
+        "parcel": 1552.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BOLTON, SUE",
+        "category": "IND",
+        "parcel": 2332.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HAH, MADALEINE",
+        "category": "OTH",
+        "parcel": 3751.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WRIGHT, TOM",
+        "category": "LNP",
+        "parcel": 10156.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "CIANFLONE, ANTHONY",
+      "PANOPOULOS, ANGELICA"
+    ],
+    "final_categories": [
+      "ALP",
+      "GRN"
+    ],
+    "final_shares_pct": [
+      52.01996374742384,
+      47.98003625257617
+    ]
+  },
+  {
+    "seat": "Point Cook",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "GATTI, LISA JANE",
+        "category": "OTH",
+        "parcel": 245.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CHAUDHARY, RAKHI P.",
+        "category": "OTH",
+        "parcel": 365.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LAW, EMMA",
+        "category": "OTH",
+        "parcel": 447.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GRIMLEY, SCOTT",
+        "category": "OTH",
+        "parcel": 558.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SAWANT, SHWETALI",
+        "category": "OTH",
+        "parcel": 585.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ABDULOVSKI, ADRIAN",
+        "category": "OTH",
+        "parcel": 737.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ZHAO, LARRY",
+        "category": "OTH",
+        "parcel": 971.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BEECH, TERRI",
+        "category": "OTH",
+        "parcel": 1224.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HAMMAN, DANIEL",
+        "category": "OTH",
+        "parcel": 1620.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCAULAY, ALEX",
+        "category": "OTH",
+        "parcel": 1838.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CRONKWRIGHT, CAROLYN",
+        "category": "OTH",
+        "parcel": 3199.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GARRA, JOE",
+        "category": "IND",
+        "parcel": 4433.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "KHAN, SHAMSHER",
+        "category": "GRN",
+        "parcel": 7282.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "HILAKARI, MATHEW",
+      "NEWHOUSE, ANGELA"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      58.33908795621371,
+      41.66091204378628
+    ]
+  },
+  {
+    "seat": "Polwarth",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "REMENYI, JOSEPH VINCENT",
+        "category": "OTH",
+        "parcel": 1033.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ATCHISON, ELISHA",
+        "category": "OTH",
+        "parcel": 1292.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HUNTER, HOLLIE",
+        "category": "OTH",
+        "parcel": 1665.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BORSOS, DENES C.",
+        "category": "IND",
+        "parcel": 2727.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCALLISTER, HILARY",
+        "category": "GRN",
+        "parcel": 9146.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "RIORDAN, RICHARD",
+      "HUSSEIN, HUTCH"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      51.78687883135515,
+      48.21312116864484
+    ]
+  },
+  {
+    "seat": "Prahran",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "MENADUE, ALAN",
+        "category": "IND",
+        "parcel": 449.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "EMILSEN, RONALD",
+        "category": "OTH",
+        "parcel": 708.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LE HURAY, ALICE",
+        "category": "OTH",
+        "parcel": 1503.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CHAU, WESA",
+        "category": "ALP",
+        "parcel": 10826.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "HIBBINS, SAM",
+      "LUCAS, MATTHEW"
+    ],
+    "final_categories": [
+      "GRN",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      62.00851107203833,
+      37.991488927961676
+    ]
+  },
+  {
+    "seat": "Preston",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SANAGHAN, BRIAN",
+        "category": "OTH",
+        "parcel": 270.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "UNICOMB, RACHEL",
+        "category": "OTH",
+        "parcel": 826.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SOLIMAN, RAOUF",
+        "category": "OTH",
+        "parcel": 985.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "LAHIFF-JENKINS, CARMEN",
+        "category": "OTH",
+        "parcel": 1053.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MATIAS, ANGELIQUE",
+        "category": "OTH",
+        "parcel": 1714.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PRICE, STEPH",
+        "category": "OTH",
+        "parcel": 3011.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GRECO, GAETANO",
+        "category": "IND",
+        "parcel": 7709.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PALIOURAS, AMANDA",
+        "category": "LNP",
+        "parcel": 9591.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "LAMBERT, NATHAN",
+      "PATERSON, PATCHOULI"
+    ],
+    "final_categories": [
+      "ALP",
+      "GRN"
+    ],
+    "final_shares_pct": [
+      52.0887171638608,
+      47.91128283613919
+    ]
+  },
+  {
+    "seat": "Richmond",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "HO, MECA",
+        "category": "IND",
+        "parcel": 417.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FREIVERTS, MARKUS",
+        "category": "OTH",
+        "parcel": 492.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "VIGGERS, LIS",
+        "category": "OTH",
+        "parcel": 1054.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "COWEN, JEREMY",
+        "category": "OTH",
+        "parcel": 2066.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WARD, ROZ",
+        "category": "OTH",
+        "parcel": 2858.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MOON, LUCAS",
+        "category": "LNP",
+        "parcel": 8370.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "DE VIETRI, GABRIELLE",
+      "O'DWYER, LAUREN"
+    ],
+    "final_categories": [
+      "GRN",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      57.31544637688455,
+      42.68455362311545
+    ]
+  },
+  {
+    "seat": "Ringwood",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SIEMER, ROBYN M.",
+        "category": "OTH",
+        "parcel": 1038.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ROWE, NICK",
+        "category": "OTH",
+        "parcel": 1302.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RYAN, GARY",
+        "category": "OTH",
+        "parcel": 1817.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GRIFFITH-JONES, RICHARD",
+        "category": "OTH",
+        "parcel": 2532.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "STEEN, REUBEN",
+        "category": "GRN",
+        "parcel": 8685.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "FOWLES, WILL",
+      "WATSON, CYNTHIA"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      57.53065372762441,
+      42.46934627237558
+    ]
+  },
+  {
+    "seat": "Ripon",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "QUINCE, BERNARD",
+        "category": "OTH",
+        "parcel": 312.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WILSON, WREN LOUISE",
+        "category": "OTH",
+        "parcel": 956.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RIGG, WAYNE",
+        "category": "IND",
+        "parcel": 1051.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SITTERS, HOLLY",
+        "category": "OTH",
+        "parcel": 1411.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GEORGE, CRAIG",
+        "category": "OTH",
+        "parcel": 2043.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JAMES, EARL",
+        "category": "GRN",
+        "parcel": 3261.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SMITH, LUKE",
+        "category": "OTH",
+        "parcel": 5845.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "HAYLETT, MARTHA",
+      "STALEY, LOUISE"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      52.99355234878723,
+      47.006447651212774
+    ]
+  },
+  {
+    "seat": "Rowville",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "GLENANE, DIANE",
+        "category": "OTH",
+        "parcel": 859.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SMULDERS, PETERINE ELIZABETH",
+        "category": "OTH",
+        "parcel": 990.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BURGESS, STEPHEN",
+        "category": "OTH",
+        "parcel": 2354.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DI CAMILLO, ANGELICA",
+        "category": "GRN",
+        "parcel": 3711.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SEYMOUR, NICOLE",
+        "category": "IND",
+        "parcel": 6976.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "WELLS, KIM",
+      "VERMA, MANNIE KAUR"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      53.66506029652517,
+      46.33493970347483
+    ]
+  },
+  {
+    "seat": "Sandringham",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "CAMPBELL, RODNEY",
+        "category": "OTH",
+        "parcel": 115.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CHALMERS, JILL",
+        "category": "OTH",
+        "parcel": 724.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ZMEGAC, KARLA",
+        "category": "OTH",
+        "parcel": 1011.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "EPPINGSTALL, BARBARA",
+        "category": "OTH",
+        "parcel": 1111.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MARTIN, CLARKE",
+        "category": "IND",
+        "parcel": 3347.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "REGAN, ALYSIA",
+        "category": "GRN",
+        "parcel": 7948.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "ROWSWELL, BRAD",
+      "PRESCOTT, BETTINA"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      55.033325104912365,
+      44.966674895087635
+    ]
+  },
+  {
+    "seat": "Shepparton",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "TAYLOR, KATHERINE",
+        "category": "OTH",
+        "parcel": 515.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TEASDALE, DIANE M.",
+        "category": "OTH",
+        "parcel": 882.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCGRATH, SUEIE",
+        "category": "OTH",
+        "parcel": 992.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CHRISTOE, IAN",
+        "category": "GRN",
+        "parcel": 1328.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WHITE, ALISON",
+        "category": "OTH",
+        "parcel": 1600.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "COWAN, LIAM",
+        "category": "ALP",
+        "parcel": 4293.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HAMMER, CHERYL",
+        "category": "LNP",
+        "parcel": 9872.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "O'KEEFFE, KIM",
+      "SHEED, SUZANNA"
+    ],
+    "final_categories": [
+      "LNP",
+      "IND"
+    ],
+    "final_shares_pct": [
+      56.79039248444347,
+      43.20960751555653
+    ]
+  },
+  {
+    "seat": "South Barwon",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "TOMLINSON, SIMONE",
+        "category": "OTH",
+        "parcel": 576.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DEAN, JEYNELLE MARIE",
+        "category": "OTH",
+        "parcel": 991.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BATES, LEONE",
+        "category": "OTH",
+        "parcel": 1215.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ADAMS, NAOMI",
+        "category": "OTH",
+        "parcel": 1458.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BARRON, ALAN",
+        "category": "OTH",
+        "parcel": 2404.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DAWSON-SCOTT, GENEVIEVE FRANCES",
+        "category": "GRN",
+        "parcel": 7343.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "CHEESEMAN, DARREN",
+      "KATOS, ANDREW"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      59.79992917847026,
+      40.20007082152974
+    ]
+  },
+  {
+    "seat": "South-West Coast",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "GRIMLEY, JAMES BRASH",
+        "category": "OTH",
+        "parcel": 488.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCCLUSKEY, MICHAEL",
+        "category": "OTH",
+        "parcel": 664.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ANDERSON, JACINTA",
+        "category": "OTH",
+        "parcel": 758.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BRUNT, CHRIS",
+        "category": "OTH",
+        "parcel": 1166.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "DOUKAS, JIM",
+        "category": "OTH",
+        "parcel": 2232.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CAMPBELL, THOMAS",
+        "category": "GRN",
+        "parcel": 2874.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PURCELL, JAMES",
+        "category": "OTH",
+        "parcel": 4829.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ALTMANN, CAROL",
+        "category": "IND",
+        "parcel": 10301.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "BRITNELL, ROMA",
+      "GASTON, KYLIE"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      58.04905925795675,
+      41.95094074204326
+    ]
+  },
+  {
+    "seat": "St Albans",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "MANNAN, ZAFFER",
+        "category": "OTH",
+        "parcel": 192.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CARACASSIS, JASON",
+        "category": "OTH",
+        "parcel": 787.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CULLEN, KIM J.",
+        "category": "OTH",
+        "parcel": 1124.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WALTON, RUSSELL",
+        "category": "OTH",
+        "parcel": 1493.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TACHOS, VIRGINIA",
+        "category": "IND",
+        "parcel": 1680.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RUDD, VAN THANH",
+        "category": "OTH",
+        "parcel": 3074.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HOBART, MARK",
+        "category": "OTH",
+        "parcel": 3976.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BENTLEY, JOEL",
+        "category": "GRN",
+        "parcel": 5135.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "SULEYMAN, NATALIE",
+      "KERR, MARIA"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      59.564340911636236,
+      40.43565908836376
+    ]
+  },
+  {
+    "seat": "Sunbury",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "PATEL, RUSHI VIJAYKUMAR",
+        "category": "OTH",
+        "parcel": 204.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "GALLAGHER, JAMES",
+        "category": "OTH",
+        "parcel": 1184.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BAYLISS, PETER",
+        "category": "OTH",
+        "parcel": 1369.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PINCINI, LAURENCE",
+        "category": "IND",
+        "parcel": 1587.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MOHR, ROHANNA",
+        "category": "OTH",
+        "parcel": 1988.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PACE, CHARLES",
+        "category": "OTH",
+        "parcel": 3249.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BURKE, RICHARD",
+        "category": "GRN",
+        "parcel": 4693.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "BULL, JOSH",
+      "COTTOM, SIMMONE"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      56.412772503049915,
+      43.587227496950085
+    ]
+  },
+  {
+    "seat": "Sydenham",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "LEUNG, KARINA",
+        "category": "OTH",
+        "parcel": 1095.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RAMOS, ALEJANDRO",
+        "category": "OTH",
+        "parcel": 1821.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RADOVANI, JAKUELINE",
+        "category": "OTH",
+        "parcel": 2133.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CHLIHI, HAJAR",
+        "category": "OTH",
+        "parcel": 2317.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RALPH, MAGGIE",
+        "category": "GRN",
+        "parcel": 4350.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TAWADROS, MARVET",
+        "category": "OTH",
+        "parcel": 6430.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "HUTCHINS, NATALIE",
+      "CULLIA, JOSEPH"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      58.762768540149324,
+      41.23723145985067
+    ]
+  },
+  {
+    "seat": "Tarneit",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "MOINUDDIN, AIJAZ",
+        "category": "IND",
+        "parcel": 534.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RAHN, MAURITA",
+        "category": "OTH",
+        "parcel": 858.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MAQSOOD, ERUM",
+        "category": "OTH",
+        "parcel": 1186.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PATEL, JAYDEEP",
+        "category": "OTH",
+        "parcel": 1421.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "URIBE, CLAUDIO",
+        "category": "OTH",
+        "parcel": 2744.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JEFFREY, THOMAS",
+        "category": "OTH",
+        "parcel": 3223.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MILLER, CLARE",
+        "category": "GRN",
+        "parcel": 5425.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "WIGHT, DYLAN",
+      "SINGH, PREET"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      62.28288477820253,
+      37.71711522179747
+    ]
+  },
+  {
+    "seat": "Thomastown",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "LEVENS, EVIE",
+        "category": "OTH",
+        "parcel": 1072.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SINAPI, MATT",
+        "category": "GRN",
+        "parcel": 2768.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MCNAMARA, COLLEEN",
+        "category": "OTH",
+        "parcel": 3405.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "CVETKOVA, KELLY",
+        "category": "OTH",
+        "parcel": 5037.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "HALFPENNY, BRONWYN",
+      "SINGH, GURDAWAR"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      65.79924657351252,
+      34.20075342648749
+    ]
+  },
+  {
+    "seat": "Warrandyte",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "PILLI, CYNTHIA",
+        "category": "IND",
+        "parcel": 659.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RAE, NICOLA",
+        "category": "OTH",
+        "parcel": 1115.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "VERNAY, RICHARD",
+        "category": "OTH",
+        "parcel": 2237.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "JOSHI, DEEPAK",
+        "category": "GRN",
+        "parcel": 6468.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "SMITH, RYAN",
+      "OAKLEY, NAOMI"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      54.31392124237382,
+      45.68607875762618
+    ]
+  },
+  {
+    "seat": "Wendouree",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "ECKEL, BREN",
+        "category": "IND",
+        "parcel": 455.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "COLBERT, DIANNE",
+        "category": "OTH",
+        "parcel": 1574.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HILLS, BRYN",
+        "category": "OTH",
+        "parcel": 1769.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HARKNESS, IAN",
+        "category": "OTH",
+        "parcel": 2713.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BURNS, ELLEN",
+        "category": "GRN",
+        "parcel": 5966.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "ADDISON, JULIANA",
+      "MCINTOSH, SAMANTHA"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      61.91074646685004,
+      38.08925353314996
+    ]
+  },
+  {
+    "seat": "Werribee",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "KWAN, HENI CAZLYNN",
+        "category": "OTH",
+        "parcel": 45.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BARCATTA, PATRIZIA",
+        "category": "OTH",
+        "parcel": 228.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HOGAN, KAREN",
+        "category": "OTH",
+        "parcel": 263.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "TANDON, PRASHANT",
+        "category": "OTH",
+        "parcel": 330.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "COLLINS, TREVOR RUSSELL",
+        "category": "OTH",
+        "parcel": 399.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WICKS, PATRICIA ANNE",
+        "category": "OTH",
+        "parcel": 776.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "SEGRAVE, JOSH",
+        "category": "OTH",
+        "parcel": 894.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BREAKWELL, KATHRYN",
+        "category": "OTH",
+        "parcel": 930.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "STROTHER, MARK",
+        "category": "OTH",
+        "parcel": 1057.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MUNRO, SUE",
+        "category": "OTH",
+        "parcel": 1700.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "EMERSON, MATTHEW",
+        "category": "OTH",
+        "parcel": 2442.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HOPPER, PAUL",
+        "category": "IND",
+        "parcel": 4106.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BODDEKE, JACK",
+        "category": "GRN",
+        "parcel": 5208.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "PALLAS, TIM",
+      "SHAW, MIA"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      60.92013574074554,
+      39.07986425925446
+    ]
+  },
+  {
+    "seat": "Williamstown",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "MOSELY, JOSHUA",
+        "category": "OTH",
+        "parcel": 675.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MACKEVICIUS, PATRICIA",
+        "category": "OTH",
+        "parcel": 1125.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "ANSALONE, ALEXANDER",
+        "category": "OTH",
+        "parcel": 1334.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MACANDILI, JULIEN Q.",
+        "category": "OTH",
+        "parcel": 2041.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "FISHER, ROCHELLE",
+        "category": "OTH",
+        "parcel": 2377.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "RODOREDA, SUZETTE",
+        "category": "GRN",
+        "parcel": 8349.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "HORNE, MELISSA",
+      "KELLANDER, DARIA"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      63.44229486324217,
+      36.55770513675784
+    ]
+  },
+  {
+    "seat": "Yan Yean",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "GRIMLEY, MANDY ANNE",
+        "category": "OTH",
+        "parcel": 793.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "BOUROUTZIS, CON",
+        "category": "OTH",
+        "parcel": 1088.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "KRSTIC, ALEXANDAR",
+        "category": "OTH",
+        "parcel": 1262.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "PARRAMORE, RUTH",
+        "category": "OTH",
+        "parcel": 1667.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "WOOLDRIDGE, JACK",
+        "category": "OTH",
+        "parcel": 2370.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "MASON, SAMANTHA",
+        "category": "GRN",
+        "parcel": 3530.0,
+        "recipient_method": "exact candidate evidence"
+      },
+      {
+        "eliminated": "HALL, JAMES",
+        "category": "OTH",
+        "parcel": 4585.0,
+        "recipient_method": "exact candidate evidence"
+      }
+    ],
+    "final_candidates": [
+      "KATHAGE, LAUREN",
+      "WELCH, RICHARD"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      54.26867943676265,
+      45.73132056323735
+    ]
+  }
+]
