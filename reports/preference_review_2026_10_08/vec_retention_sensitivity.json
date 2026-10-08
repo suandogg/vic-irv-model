@@ -1,0 +1,1007 @@
+[
+  {
+    "scenario": "2022",
+    "retention": 0,
+    "reference_counts": {
+      "ALP": 55,
+      "LNP": 28,
+      "GRN": 4,
+      "IND": 1
+    },
+    "corrected_counts": {
+      "ALP": 55,
+      "LNP": 28,
+      "GRN": 4,
+      "IND": 1
+    },
+    "changed_seats_at_same_retention": [
+      "Caulfield",
+      "Hawthorn"
+    ],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 54.761055619879926,
+        "ALP_2PP_delta_pp": -1.0228132877715623
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 48.712927438028906,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.61675296323394,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 75.0472049642491,
+        "ALP_2PP_delta_pp": 1.319774745950597
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 56.31766871943326,
+        "ALP_2PP_delta_pp": -1.307638748680806
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 56.02439843742435,
+        "ALP_2PP_delta_pp": -0.8029885672411141
+      }
+    ]
+  },
+  {
+    "scenario": "2022",
+    "retention": 0.5,
+    "reference_counts": {
+      "ALP": 54,
+      "LNP": 29,
+      "GRN": 4,
+      "IND": 1
+    },
+    "corrected_counts": {
+      "ALP": 55,
+      "LNP": 28,
+      "GRN": 4,
+      "IND": 1
+    },
+    "changed_seats_at_same_retention": [
+      "Hawthorn"
+    ],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 54.38807179862069,
+        "ALP_2PP_delta_pp": -0.9476133766116779
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 48.893573648439684,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.849152619561536,
+        "ALP_2PP_delta_pp": -0.011869940195874396
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 72.40971671613623,
+        "ALP_2PP_delta_pp": 0.6898264830660916
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 55.810522798485906,
+        "ALP_2PP_delta_pp": -1.1004123280273004
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 56.36408990200918,
+        "ALP_2PP_delta_pp": -0.7325772400306296
+      }
+    ]
+  },
+  {
+    "scenario": "2022",
+    "retention": 0.75,
+    "reference_counts": {
+      "ALP": 55,
+      "LNP": 28,
+      "GRN": 4,
+      "IND": 1
+    },
+    "corrected_counts": {
+      "ALP": 55,
+      "LNP": 28,
+      "GRN": 4,
+      "IND": 1
+    },
+    "changed_seats_at_same_retention": [],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 54.20472348854201,
+        "ALP_2PP_delta_pp": -0.9112115355016881
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 48.976716111636,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.95557094932243,
+        "ALP_2PP_delta_pp": -0.017804910293811593
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 71.16403402741483,
+        "ALP_2PP_delta_pp": 0.4198683370001066
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 55.55751666090726,
+        "ALP_2PP_delta_pp": -0.9972163199606254
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 56.533948071715976,
+        "ALP_2PP_delta_pp": -0.6973587431818973
+      }
+    ]
+  },
+  {
+    "scenario": "2022",
+    "retention": 1,
+    "reference_counts": {
+      "ALP": 56,
+      "LNP": 27,
+      "GRN": 4,
+      "IND": 1
+    },
+    "corrected_counts": {
+      "ALP": 56,
+      "LNP": 27,
+      "GRN": 4,
+      "IND": 1
+    },
+    "changed_seats_at_same_retention": [],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 54.023469241969536,
+        "ALP_2PP_delta_pp": -0.8756032888861065
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.055071287936805,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 50.055468332294005,
+        "ALP_2PP_delta_pp": -0.02373988039173769
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 69.96693111898416,
+        "ALP_2PP_delta_pp": 0.17984388378370353
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 55.30488840525862,
+        "ALP_2PP_delta_pp": -0.8942984467339876
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 56.7038145330335,
+        "ALP_2PP_delta_pp": -0.6621316908370312
+      }
+    ]
+  },
+  {
+    "scenario": "ON18",
+    "retention": 0,
+    "reference_counts": {
+      "LNP": 45,
+      "ALP": 36,
+      "GRN": 5,
+      "ON": 2
+    },
+    "corrected_counts": {
+      "LNP": 46,
+      "ALP": 35,
+      "GRN": 5,
+      "ON": 2
+    },
+    "changed_seats_at_same_retention": [
+      "Frankston"
+    ],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 50.25428214907198,
+        "ALP_2PP_delta_pp": -0.3242963205227323
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 35.202982761603636,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 38.453007484556665,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 65.81941456763664,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 50.981824233357884,
+        "ALP_2PP_delta_pp": -0.5027248233423487
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 45.61139951879437,
+        "ALP_2PP_delta_pp": 0.03869144638221078
+      }
+    ]
+  },
+  {
+    "scenario": "ON18",
+    "retention": 0.5,
+    "reference_counts": {
+      "LNP": 42,
+      "ALP": 38,
+      "GRN": 5,
+      "ON": 3
+    },
+    "corrected_counts": {
+      "LNP": 43,
+      "ALP": 37,
+      "GRN": 5,
+      "ON": 3
+    },
+    "changed_seats_at_same_retention": [
+      "Ashwood"
+    ],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.70799812311039,
+        "ALP_2PP_delta_pp": -0.3061913844425279
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 36.675195714832626,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 39.92775731351645,
+        "ALP_2PP_delta_pp": -0.016549663645870627
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 64.64110437009889,
+        "ALP_2PP_delta_pp": 0.031320663671297044
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 50.42647500169654,
+        "ALP_2PP_delta_pp": -0.516152241626544
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 47.17091941508824,
+        "ALP_2PP_delta_pp": -0.07040322472762206
+      }
+    ]
+  },
+  {
+    "scenario": "ON18",
+    "retention": 0.75,
+    "reference_counts": {
+      "LNP": 42,
+      "ALP": 38,
+      "GRN": 5,
+      "ON": 3
+    },
+    "corrected_counts": {
+      "LNP": 42,
+      "ALP": 38,
+      "GRN": 5,
+      "ON": 3
+    },
+    "changed_seats_at_same_retention": [],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.43281435131558,
+        "ALP_2PP_delta_pp": -0.2970239249748152
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 37.394225513647584,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 40.62941849018011,
+        "ALP_2PP_delta_pp": -0.02468103760179252
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 63.956246873273784,
+        "ALP_2PP_delta_pp": 0.025069373606678713
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 50.135855620512125,
+        "ALP_2PP_delta_pp": -0.5125290758850709
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 47.86678684610873,
+        "ALP_2PP_delta_pp": -0.12491620412081739
+      }
+    ]
+  },
+  {
+    "scenario": "ON18",
+    "retention": 1,
+    "reference_counts": {
+      "LNP": 42,
+      "ALP": 38,
+      "GRN": 5,
+      "ON": 3
+    },
+    "corrected_counts": {
+      "LNP": 43,
+      "ALP": 37,
+      "GRN": 5,
+      "ON": 3
+    },
+    "changed_seats_at_same_retention": [
+      "Ringwood"
+    ],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.15626940697806,
+        "ALP_2PP_delta_pp": -0.2877798045553659
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 38.10189257671699,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 41.30708894057856,
+        "ALP_2PP_delta_pp": -0.032706270962135076
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 63.205108069349336,
+        "ALP_2PP_delta_pp": 0.003448085435686643
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.836606395758594,
+        "ALP_2PP_delta_pp": -0.5020146602212006
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 48.50672593238863,
+        "ALP_2PP_delta_pp": -0.1794062794062079
+      }
+    ]
+  },
+  {
+    "scenario": "ON20",
+    "retention": 0,
+    "reference_counts": {
+      "LNP": 44,
+      "ALP": 32,
+      "ON": 7,
+      "GRN": 5
+    },
+    "corrected_counts": {
+      "LNP": 45,
+      "ALP": 31,
+      "ON": 7,
+      "GRN": 5
+    },
+    "changed_seats_at_same_retention": [
+      "Ashwood"
+    ],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.64760857408355,
+        "ALP_2PP_delta_pp": -0.37756114634376337
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 33.35521273747772,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 36.84071581305501,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 65.57099708078886,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 50.32403214066723,
+        "ALP_2PP_delta_pp": -0.579544405934429
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 43.74418674543898,
+        "ALP_2PP_delta_pp": 0.04447262825340026
+      }
+    ]
+  },
+  {
+    "scenario": "ON20",
+    "retention": 0.5,
+    "reference_counts": {
+      "LNP": 43,
+      "ALP": 32,
+      "ON": 8,
+      "GRN": 5
+    },
+    "corrected_counts": {
+      "LNP": 45,
+      "ALP": 30,
+      "ON": 8,
+      "GRN": 5
+    },
+    "changed_seats_at_same_retention": [
+      "Bendigo East",
+      "Ringwood"
+    ],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.015422154825785,
+        "ALP_2PP_delta_pp": -0.3548299416372025
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 35.10771620148729,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 38.58070642693718,
+        "ALP_2PP_delta_pp": -0.019824374477245277
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 64.24461511611919,
+        "ALP_2PP_delta_pp": 0.036939710248373725
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "ALP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.692731815338625,
+        "ALP_2PP_delta_pp": -0.6021923648124428
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 45.64515788525371,
+        "ALP_2PP_delta_pp": -0.07824355621826595
+      }
+    ]
+  },
+  {
+    "scenario": "ON20",
+    "retention": 0.75,
+    "reference_counts": {
+      "LNP": 43,
+      "ALP": 32,
+      "ON": 8,
+      "GRN": 5
+    },
+    "corrected_counts": {
+      "LNP": 45,
+      "ALP": 30,
+      "ON": 8,
+      "GRN": 5
+    },
+    "changed_seats_at_same_retention": [
+      "Box Hill",
+      "Frankston"
+    ],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 48.694585582527395,
+        "ALP_2PP_delta_pp": -0.3431971940945633
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 35.95696430341122,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 39.40609200829628,
+        "ALP_2PP_delta_pp": -0.029567775630184867
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 63.469033275796264,
+        "ALP_2PP_delta_pp": 0.029566914892287244
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.35988804797467,
+        "ALP_2PP_delta_pp": -0.59978661368294
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 46.48689399128047,
+        "ALP_2PP_delta_pp": -0.13956019670801068
+      }
+    ]
+  },
+  {
+    "scenario": "ON20",
+    "retention": 1,
+    "reference_counts": {
+      "LNP": 44,
+      "ALP": 31,
+      "ON": 8,
+      "GRN": 5
+    },
+    "corrected_counts": {
+      "LNP": 44,
+      "ALP": 31,
+      "ON": 8,
+      "GRN": 5
+    },
+    "changed_seats_at_same_retention": [],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 48.370586768449286,
+        "ALP_2PP_delta_pp": -0.3313863497590275
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 36.788245551892224,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 40.20152141101485,
+        "ALP_2PP_delta_pp": -0.03918613820047545
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 62.61559961927116,
+        "ALP_2PP_delta_pp": 0.0040666851201631715
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.015581877477636,
+        "ALP_2PP_delta_pp": -0.5882277088410937
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 47.25613045473048,
+        "ALP_2PP_delta_pp": -0.20084920270037054
+      }
+    ]
+  },
+  {
+    "scenario": "ON24",
+    "retention": 0,
+    "reference_counts": {
+      "LNP": 40,
+      "ALP": 25,
+      "ON": 18,
+      "GRN": 5
+    },
+    "corrected_counts": {
+      "LNP": 40,
+      "ALP": 24,
+      "ON": 19,
+      "GRN": 5
+    },
+    "changed_seats_at_same_retention": [
+      "Frankston"
+    ],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 49.39965967288912,
+        "ALP_2PP_delta_pp": -0.3494419794347725
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "ON",
+        "corrected_winner": "ON",
+        "ALP_2PP": 32.446643884879485,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 35.96361110605317,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 65.1506447206015,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 47.476306285603194,
+        "ALP_2PP_delta_pp": -0.0007779354508574698
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "ON",
+        "corrected_winner": "ON",
+        "ALP_2PP": 43.16733013901437,
+        "ALP_2PP_delta_pp": 0.04324517484039503
+      }
+    ]
+  },
+  {
+    "scenario": "ON24",
+    "retention": 0.5,
+    "reference_counts": {
+      "LNP": 39,
+      "ALP": 26,
+      "ON": 18,
+      "GRN": 5
+    },
+    "corrected_counts": {
+      "LNP": 40,
+      "ALP": 24,
+      "ON": 19,
+      "GRN": 5
+    },
+    "changed_seats_at_same_retention": [
+      "Box Hill",
+      "Frankston"
+    ],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 48.62650623949688,
+        "ALP_2PP_delta_pp": -0.3223670007483026
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "ON",
+        "corrected_winner": "ON",
+        "ALP_2PP": 33.988310168914786,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 37.55320176795371,
+        "ALP_2PP_delta_pp": -0.01969430245661319
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 63.61272204717534,
+        "ALP_2PP_delta_pp": 0.03709059288889982
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 48.012692266890426,
+        "ALP_2PP_delta_pp": -0.01961763791209492
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "ON",
+        "corrected_winner": "ON",
+        "ALP_2PP": 44.80470491470896,
+        "ALP_2PP_delta_pp": -0.07791355326124405
+      }
+    ]
+  },
+  {
+    "scenario": "ON24",
+    "retention": 0.75,
+    "reference_counts": {
+      "LNP": 39,
+      "ALP": 25,
+      "ON": 19,
+      "GRN": 5
+    },
+    "corrected_counts": {
+      "LNP": 38,
+      "ALP": 25,
+      "ON": 20,
+      "GRN": 5
+    },
+    "changed_seats_at_same_retention": [
+      "Monbulk"
+    ],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 48.2350983297878,
+        "ALP_2PP_delta_pp": -0.30855741962922956
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "ON",
+        "corrected_winner": "ON",
+        "ALP_2PP": 34.744430941070284,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 38.31308513220994,
+        "ALP_2PP_delta_pp": -0.029379854818345486
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 62.730902299101984,
+        "ALP_2PP_delta_pp": 0.029687682872359122
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 48.304247165834404,
+        "ALP_2PP_delta_pp": -0.02903644525474869
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "ON",
+        "corrected_winner": "ON",
+        "ALP_2PP": 45.540665035624414,
+        "ALP_2PP_delta_pp": -0.1384660338369592
+      }
+    ]
+  },
+  {
+    "scenario": "ON24",
+    "retention": 1,
+    "reference_counts": {
+      "LNP": 38,
+      "ALP": 26,
+      "ON": 19,
+      "GRN": 5
+    },
+    "corrected_counts": {
+      "LNP": 38,
+      "ALP": 25,
+      "ON": 20,
+      "GRN": 5
+    },
+    "changed_seats_at_same_retention": [
+      "Monbulk",
+      "Mordialloc"
+    ],
+    "examples": [
+      {
+        "seat": "Ashwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 47.84046962473674,
+        "ALP_2PP_delta_pp": -0.2945664439929274
+      },
+      {
+        "seat": "Morwell",
+        "reference_winner": "ON",
+        "corrected_winner": "ON",
+        "ALP_2PP": 35.49077462596592,
+        "ALP_2PP_delta_pp": 0.0
+      },
+      {
+        "seat": "Pakenham",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 39.04948116307389,
+        "ALP_2PP_delta_pp": -0.038945372498416786
+      },
+      {
+        "seat": "Pascoe Vale",
+        "reference_winner": "ALP",
+        "corrected_winner": "ALP",
+        "ALP_2PP": 61.77090708695183,
+        "ALP_2PP_delta_pp": 0.004083295759094163
+      },
+      {
+        "seat": "Ringwood",
+        "reference_winner": "LNP",
+        "corrected_winner": "LNP",
+        "ALP_2PP": 48.61137683584747,
+        "ALP_2PP_delta_pp": -0.038454556710076915
+      },
+      {
+        "seat": "Yan Yean",
+        "reference_winner": "ON",
+        "corrected_winner": "ON",
+        "ALP_2PP": 46.22147491598652,
+        "ALP_2PP_delta_pp": -0.19900059272618398
+      }
+    ]
+  }
+]
