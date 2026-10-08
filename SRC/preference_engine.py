@@ -734,7 +734,9 @@ def diagnose_preference_weights(
             {"basis": basis},
         ))
     else:
-        if aec_usable and aec_proj is not None:
+        if aec_usable and aec_proj is not None and not (
+            scalars.get("TRIAL_NO_INCOMPLETE_MATRIX_ANCHOR", False) and missing
+        ):
             weight = resolve_anchor_weight(
                 coverage=coverage,
                 missing_count=len(missing),
@@ -762,6 +764,13 @@ def diagnose_preference_weights(
                     "aec_coverage": coverage,
                     "missing_parties": ", ".join(missing_parties),
                 },
+            ))
+
+        if scalars.get("TRIAL_NO_INCOMPLETE_MATRIX_ANCHOR", False) and missing and aec_usable:
+            stage_rows.append(vector_stage(
+                "incomplete matrix anchor skipped", out, alive,
+                "Sensitivity: retain selected fallback without reintroducing a matrix row with zero-valued continuing destinations.",
+                {"basis": basis, "aec_anchor_weight": 0, "missing_parties": ", ".join(missing_parties)},
             ))
 
         out = apply_geo_adjust(

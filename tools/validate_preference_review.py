@@ -20,7 +20,7 @@ from SRC.irv import run_irv_for_district
 from SRC.lnp_precollapse_loader import apply_lnp_precollapse
 from tools.trial_oth_matrix_rebuild import rebuild_oth_matrices
 
-NAMES=("reference","oth_params_rebuild","single_on_baseline","no_on_recipient_geography","no_non_on_recipient_geography","no_siphon","no_geography","no_constraints","no_synthetic_priority","simplified")
+NAMES=("reference","no_incomplete_matrix_anchor","oth_params_rebuild","single_on_baseline","no_on_recipient_geography","no_non_on_recipient_geography","no_siphon","no_geography","no_constraints","no_synthetic_priority","simplified")
 
 def main():
     out=ROOT/"reports"/"preference_review_2026_10_08"

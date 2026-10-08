@@ -1,5 +1,6 @@
 Scenario,Variant,ChangedWinners,ONFinalTwo,ALP,LNP,GRN,IND,ON
 2022,reference,0,0,56,27,4,1.0,0.0
+2022,no_incomplete_matrix_anchor,0,0,56,27,4,1.0,0.0
 2022,oth_params_rebuild,0,0,56,27,4,1.0,0.0
 2022,matrix_source_only,0,0,56,27,4,1.0,0.0
 2022,single_on_baseline,0,0,56,27,4,1.0,0.0
@@ -15,6 +16,7 @@ Scenario,Variant,ChangedWinners,ONFinalTwo,ALP,LNP,GRN,IND,ON
 2022,seat_reliability_10,3,0,53,30,4,1.0,0.0
 2022,seat_reliability_20,2,0,54,29,4,1.0,0.0
 ON18,reference,0,22,38,42,5,0.0,3.0
+ON18,no_incomplete_matrix_anchor,0,22,38,42,5,0.0,3.0
 ON18,oth_params_rebuild,1,20,38,43,5,0.0,2.0
 ON18,matrix_source_only,3,23,35,45,5,0.0,3.0
 ON18,single_on_baseline,6,18,34,47,4,0.0,3.0
@@ -30,6 +32,7 @@ ON18,seat_reliability_5,1,22,37,43,5,0.0,3.0
 ON18,seat_reliability_10,1,22,37,43,5,0.0,3.0
 ON18,seat_reliability_20,1,22,37,43,5,0.0,3.0
 ON20,reference,0,34,31,44,5,0.0,8.0
+ON20,no_incomplete_matrix_anchor,0,34,31,44,5,0.0,8.0
 ON20,oth_params_rebuild,0,34,31,44,5,0.0,8.0
 ON20,matrix_source_only,6,34,26,47,5,0.0,10.0
 ON20,single_on_baseline,5,31,26,49,5,0.0,8.0
@@ -45,6 +48,7 @@ ON20,seat_reliability_5,0,34,31,44,5,0.0,8.0
 ON20,seat_reliability_10,0,34,31,44,5,0.0,8.0
 ON20,seat_reliability_20,0,34,31,44,5,0.0,8.0
 ON24,reference,0,49,26,38,5,0.0,19.0
+ON24,no_incomplete_matrix_anchor,0,49,26,38,5,0.0,19.0
 ON24,oth_params_rebuild,0,48,26,38,5,0.0,19.0
 ON24,matrix_source_only,4,50,23,40,5,0.0,20.0
 ON24,single_on_baseline,4,47,23,41,5,1.0,18.0

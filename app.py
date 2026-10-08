@@ -493,6 +493,7 @@ from tools.preference_review_trials import variant as preference_trial_variant
 from tools.trial_posterior_reliability import seat_count_trial
 trial_options = {
     "Current reference": "reference",
+    "Do not blend incomplete matrix rows into fallback": "no_incomplete_matrix_anchor",
     "Rebuild OTH rows from current PARAMS": "oth_params_rebuild",
     "Matrix source only, retain extra transforms": "matrix_source_only",
     "Single synthetic ON fallback baseline": "single_on_baseline",

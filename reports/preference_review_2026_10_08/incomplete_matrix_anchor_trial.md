@@ -1,0 +1,13 @@
+# Missing-versus-zero investigation
+
+Common-seat historical comparison: for the 83 seats with matching final pairs in both own-matrix versions, MAE is 1.771→1.953 pp. For the 84 common comparable LOO seats, MAE is 1.817→1.807 pp. This confirms mixed evidence rather than a broadly better configuration.
+
+Code inspection corrects the initial premise: the engine already flags a continuing destination without a positive matrix entry as missing. Such rows cannot receive complete-row priority. Existing source selection usually chooses a posterior, special prior or generic prior. A subsequent matrix anchor can, however, blend the incomplete projection back into that fallback.
+
+The isolated `no_incomplete_matrix_anchor` sensitivity skips only that subsequent blend when a continuing destination has a zero-valued entry. It does not fill zeros, change the matrix, change fallback source selection, or distinguish genuinely observed zeros from unobserved destinations. That distinction cannot be recovered reliably from the compressed matrix alone. Special prior branches, primary calculations, federal evidence blending, geography, siphon and constraints remain unchanged. Entirely empty rows already have no usable matrix anchor and are unaffected.
+
+No winners or number of ON finalists change across the baseline-input, ON18, ON20 and ON24 tests. ON18 forced ALP–LNP 2PP changes for the demonstration seats are Pakenham +.4045 pp, Morwell +.1483 pp, Pascoe Vale +.0200 pp, Ashwood approximately zero and Yan Yean zero. Final pairs and winners remain unchanged. Morwell's actual LNP–ON winning margin changes separately by -.0474 pp; forced ALP–LNP 2PP is a counterfactual pair comparison.
+
+Historical own-matrix reconstruction loses two correct final pairs (85→83). Reported comparable-pair MAE rises 1.827→1.953 pp. Matrix seat-class leave-one-seat-out loses one correct final pair (85→84), while reported comparable-pair MAE falls slightly 1.820→1.807 pp. These MAEs cover different seat sets; examine common comparable seats as well and do not interpret the small LOO reduction as a clear improvement. Historical checks cannot validate high-ON predictions.
+
+Recommendation: do not adopt a blanket removal. Preserve this as an optional sensitivity. The rigorous next step is to attach explicit historical continuing-field metadata to extracted VEC scenarios, then restrict matrix use by observed field compatibility. Do not infer observed status solely from whether a transfer percentage is positive. A conservative policy for unobserved fields remains a conceptual choice needing agreement before a production switch.
