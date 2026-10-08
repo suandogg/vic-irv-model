@@ -512,7 +512,7 @@ trial_method = trial_options[trial_label]
 params = preference_trial_variant(params, trial_method)
 if trial_method.startswith("seat_reliability_"):
     posterior = seat_count_trial(posterior, int(trial_method.rsplit("_", 1)[1]))
-st.sidebar.caption("Development comparisons with frozen inputs. Trial choice affects Assembly preferences.")
+st.sidebar.caption("Live testing-sheet inputs. Trial choice affects Assembly preferences; saved comparison reports use the frozen 8 October inputs.")
 if trial_method == "single_on_baseline":
     st.sidebar.caption("Matrix-direct sensitivity: replaces generic posterior/prior selection in ON-related rounds. Exact federal blending remains; special priors are locked. Not a production recommendation.")
 elif trial_method == "on_no_extra_transforms":

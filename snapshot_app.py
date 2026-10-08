@@ -1,13 +1,15 @@
-"""Frozen-input trial entrypoint: use committed CSVs even with Sheet credentials."""
+"""Testing laboratory entrypoint, isolated from the reference spreadsheet."""
 import runpy
+import os
 from pathlib import Path
 import SRC.live_sheet_sync as sheet_sync
 import streamlit as st
 
-st.sidebar.caption("Preference laboratory · five-seat comparisons · source-only test")
+TEST_SHEET_ID = "1sLmANVOERsbV08BIZYUfT_fccTGw-mCvAwJSAD_4968"
+# Explicit environment precedence prevents inherited reference-app secrets from
+# accidentally reconnecting this deployment to the original spreadsheet.
+os.environ["VIC_IRV_SHEET_ID"] = TEST_SHEET_ID
+st.sidebar.caption("Preference laboratory · separate testing spreadsheet")
+st.sidebar.link_button("Open testing spreadsheet", f"https://docs.google.com/spreadsheets/d/{TEST_SHEET_ID}/edit")
 
-def frozen_inputs(*args, **kwargs):
-    return {"synced": 0, "errors": [], "message": "Frozen preference review inputs — 8 October 2026"}
-
-sheet_sync.sync_inputs_from_google_sheet = frozen_inputs
 runpy.run_path(str(Path(__file__).with_name("app.py")), run_name="__main__")
