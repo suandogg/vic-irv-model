@@ -1,0 +1,6562 @@
+{
+  "Inventory": {
+    "SourceFile": "FEDERAL_VIC_ON_SEAT_FLOWS.csv",
+    "Rows": 283,
+    "Seats": 38,
+    "SeatScenarios": 76,
+    "Fields": 11,
+    "SingletonFields": 2,
+    "Methods": [
+      "PROPORTIONAL_PRIMARY_ORIGIN_PASS_THROUGH"
+    ],
+    "VoteBasis": [
+      "ALL_CATEGORY_PRIMARY_VOTES_TRACED_PROPORTIONALLY"
+    ],
+    "Sources": [
+      "AEC_CANDIDATE_ROUNDS_CATEGORY_EXIT"
+    ],
+    "SyntheticMatrixSeats": 88,
+    "NonONRowsWithPositiveON": 244,
+    "FederalConfig": {
+      "enabled": true,
+      "remove_on_siphon": true,
+      "minimum_seats": 2,
+      "prior_equivalent_seats": 20.0,
+      "variance_penalty": 10.0,
+      "maximum_evidence_weight": 0.5,
+      "source_state": "VIC",
+      "pooling_method": "EQUAL_SEAT"
+    }
+  },
+  "Fields": [
+    {
+      "Eliminated": "ALP",
+      "AliveSet": "IND+LNP+ON",
+      "Seats": 1,
+      "Testable": false,
+      "ProductionMinimumAfterHoldout": false
+    },
+    {
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Seats": 3,
+      "Testable": true,
+      "ProductionMinimumAfterHoldout": true
+    },
+    {
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Seats": 3,
+      "Testable": true,
+      "ProductionMinimumAfterHoldout": true
+    },
+    {
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Seats": 8,
+      "Testable": true,
+      "ProductionMinimumAfterHoldout": true
+    },
+    {
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Seats": 18,
+      "Testable": true,
+      "ProductionMinimumAfterHoldout": true
+    },
+    {
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Seats": 6,
+      "Testable": true,
+      "ProductionMinimumAfterHoldout": true
+    },
+    {
+      "Eliminated": "ON",
+      "AliveSet": "ALP+IND+LNP",
+      "Seats": 2,
+      "Testable": true,
+      "ProductionMinimumAfterHoldout": false
+    },
+    {
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Seats": 3,
+      "Testable": true,
+      "ProductionMinimumAfterHoldout": true
+    },
+    {
+      "Eliminated": "ON",
+      "AliveSet": "IND+LNP",
+      "Seats": 1,
+      "Testable": false,
+      "ProductionMinimumAfterHoldout": false
+    },
+    {
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Seats": 11,
+      "Testable": true,
+      "ProductionMinimumAfterHoldout": true
+    },
+    {
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Seats": 20,
+      "Testable": true,
+      "ProductionMinimumAfterHoldout": true
+    }
+  ],
+  "Summary": [
+    {
+      "Method": "equal_pool",
+      "Scope": "all_testable",
+      "Seats": 38,
+      "SeatScenarios": 74,
+      "SeatBalancedMAEPP": 5.301640977937187,
+      "ScenarioBalancedMAEPP": 5.449428561916066,
+      "ONRecipientMAEPP": 5.780376098807056,
+      "ONRecipientBiasPP": 3.5107052400309005e-16
+    },
+    {
+      "Method": "equal_pool",
+      "Scope": "production_eligible_after_holdout",
+      "Seats": 38,
+      "SeatScenarios": 72,
+      "SeatBalancedMAEPP": 5.039383915771401,
+      "ScenarioBalancedMAEPP": 5.078315031566051,
+      "ONRecipientMAEPP": 5.780376098807056,
+      "ONRecipientBiasPP": 3.5107052400309005e-16
+    },
+    {
+      "Method": "equal_pool_shrunk_uniform_20",
+      "Scope": "all_testable",
+      "Seats": 38,
+      "SeatScenarios": 74,
+      "SeatBalancedMAEPP": 10.691591674029436,
+      "ScenarioBalancedMAEPP": 10.91870172931884,
+      "ONRecipientMAEPP": 10.573279973355751,
+      "ONRecipientBiasPP": -2.7913619562792604
+    },
+    {
+      "Method": "equal_pool_shrunk_uniform_20",
+      "Scope": "production_eligible_after_holdout",
+      "Seats": 38,
+      "SeatScenarios": 72,
+      "SeatBalancedMAEPP": 10.615581701974762,
+      "ScenarioBalancedMAEPP": 10.790945789257364,
+      "ONRecipientMAEPP": 10.573279973355751,
+      "ONRecipientBiasPP": -2.7913619562792604
+    },
+    {
+      "Method": "uniform",
+      "Scope": "all_testable",
+      "Seats": 38,
+      "SeatScenarios": 74,
+      "SeatBalancedMAEPP": 14.269019426253166,
+      "ScenarioBalancedMAEPP": 14.38757674137324,
+      "ONRecipientMAEPP": 13.628583928686876,
+      "ONRecipientBiasPP": -6.618344128250914
+    },
+    {
+      "Method": "uniform",
+      "Scope": "production_eligible_after_holdout",
+      "Seats": 38,
+      "SeatScenarios": 72,
+      "SeatBalancedMAEPP": 14.228199134829136,
+      "ScenarioBalancedMAEPP": 14.359856667475352,
+      "ONRecipientMAEPP": 13.628583928686876,
+      "ONRecipientBiasPP": -6.618344128250914
+    },
+    {
+      "Method": "vote_pool",
+      "Scope": "all_testable",
+      "Seats": 38,
+      "SeatScenarios": 74,
+      "SeatBalancedMAEPP": 5.408968527702646,
+      "ScenarioBalancedMAEPP": 5.560175562626387,
+      "ONRecipientMAEPP": 5.960373215264667,
+      "ONRecipientBiasPP": -0.7520151879278003
+    },
+    {
+      "Method": "vote_pool",
+      "Scope": "production_eligible_after_holdout",
+      "Seats": 38,
+      "SeatScenarios": 72,
+      "SeatBalancedMAEPP": 5.132097706854904,
+      "ScenarioBalancedMAEPP": 5.192138337851659,
+      "ONRecipientMAEPP": 5.960373215264667,
+      "ONRecipientBiasPP": -0.7520151879278003
+    }
+  ],
+  "Predictions": [
+    {
+      "Seat": "Indi",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 15.494011976047911,
+      "MeanSquaredErrorPP2": 364.47992239074773,
+      "ONErrorPP": 11.66666666666667,
+      "Prediction": {
+        "ALP": 0.25,
+        "IND": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.2469061876247505,
+        "IND": 0.5598802395209582,
+        "LNP": 0.059880239520958,
+        "ON": 0.1333333333333333
+      }
+    },
+    {
+      "Seat": "Indi",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 4.2132927512599325,
+      "MeanSquaredErrorPP2": 28.59947638293934,
+      "ONErrorPP": -7.017322965227121,
+      "Prediction": {
+        "ALP": 0.3262314472898229,
+        "IND": 0.5457876141480308,
+        "LNP": 0.06482083488108425,
+        "ON": 0.06316010368106209
+      },
+      "Actual": {
+        "ALP": 0.2469061876247505,
+        "IND": 0.5598802395209582,
+        "LNP": 0.059880239520958,
+        "ON": 0.1333333333333333
+      }
+    },
+    {
+      "Seat": "Indi",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 4.402334750326441,
+      "MeanSquaredErrorPP2": 32.45888470366148,
+      "ONErrorPP": -7.316943109262572,
+      "Prediction": {
+        "ALP": 0.33295539028109783,
+        "IND": 0.5450029756070551,
+        "LNP": 0.06187773187113947,
+        "ON": 0.060163902240707584
+      },
+      "Actual": {
+        "ALP": 0.2469061876247505,
+        "IND": 0.5598802395209582,
+        "LNP": 0.059880239520958,
+        "ON": 0.1333333333333333
+      }
+    },
+    {
+      "Seat": "Indi",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 14.149522820829588,
+      "MeanSquaredErrorPP2": 300.3705396359273,
+      "ONErrorPP": 9.968122154676323,
+      "Prediction": {
+        "ALP": 0.25693013157180206,
+        "IND": 0.2768897831043664,
+        "LNP": 0.23316553044373492,
+        "ON": 0.23301455488009654
+      },
+      "Actual": {
+        "ALP": 0.2469061876247505,
+        "IND": 0.5598802395209582,
+        "LNP": 0.059880239520958,
+        "ON": 0.1333333333333333
+      }
+    },
+    {
+      "Seat": "Monash",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 20.14281103759884,
+      "MeanSquaredErrorPP2": 446.49499142107044,
+      "ONErrorPP": 20.23963208003873,
+      "Prediction": {
+        "ALP": 0.25,
+        "IND": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.3611424883007907,
+        "IND": 0.5417137324511861,
+        "LNP": 0.0495401000484105,
+        "ON": 0.0476036791996127
+      }
+    },
+    {
+      "Seat": "Monash",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 4.601459567449394,
+      "MeanSquaredErrorPP2": 31.184400769607105,
+      "ONErrorPP": 5.842125154830971,
+      "Prediction": {
+        "ALP": 0.2691132969518028,
+        "IND": 0.5548708676829168,
+        "LNP": 0.06999090461735799,
+        "ON": 0.10602493074792241
+      },
+      "Actual": {
+        "ALP": 0.3611424883007907,
+        "IND": 0.5417137324511861,
+        "LNP": 0.0495401000484105,
+        "ON": 0.0476036791996127
+      }
+    },
+    {
+      "Seat": "Monash",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 4.6644194425026955,
+      "MeanSquaredErrorPP2": 32.18717373840653,
+      "ONErrorPP": 5.996970487409962,
+      "Prediction": {
+        "ALP": 0.26785409945073674,
+        "IND": 0.5551549113379226,
+        "LNP": 0.06941760513762828,
+        "ON": 0.10757338407371232
+      },
+      "Actual": {
+        "ALP": 0.3611424883007907,
+        "IND": 0.5417137324511861,
+        "LNP": 0.0495401000484105,
+        "ON": 0.0476036791996127
+      }
+    },
+    {
+      "Seat": "Monash",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 18.670155743804663,
+      "MeanSquaredErrorPP2": 378.48252882698705,
+      "ONErrorPP": 18.93076781411075,
+      "Prediction": {
+        "ALP": 0.25173757245016387,
+        "IND": 0.2777155334257197,
+        "LNP": 0.23363553678339619,
+        "ON": 0.23691135734072022
+      },
+      "Actual": {
+        "ALP": 0.3611424883007907,
+        "IND": 0.5417137324511861,
+        "LNP": 0.0495401000484105,
+        "ON": 0.0476036791996127
+      }
+    },
+    {
+      "Seat": "Wannon",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 17.059095106186525,
+      "MeanSquaredErrorPP2": 374.5694925095216,
+      "ONErrorPP": 17.12834718374885,
+      "Prediction": {
+        "ALP": 0.25,
+        "IND": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.2913204062788551,
+        "IND": 0.5498614958448754,
+        "LNP": 0.080101569713758,
+        "ON": 0.0787165281625115
+      }
+    },
+    {
+      "Seat": "Wannon",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 1.2695699964536886,
+      "MeanSquaredErrorPP2": 2.3627430043700652,
+      "ONErrorPP": 1.1751978103961502,
+      "Prediction": {
+        "ALP": 0.3040243379627706,
+        "IND": 0.5507969859860722,
+        "LNP": 0.05471016978468425,
+        "ON": 0.090468506266473
+      },
+      "Actual": {
+        "ALP": 0.2913204062788551,
+        "IND": 0.5498614958448754,
+        "LNP": 0.080101569713758,
+        "ON": 0.0787165281625115
+      }
+    },
+    {
+      "Seat": "Wannon",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 1.3207160284379396,
+      "MeanSquaredErrorPP2": 2.8453775468028892,
+      "ONErrorPP": 0.5862338344072737,
+      "Prediction": {
+        "ALP": 0.3118723885035412,
+        "IND": 0.5495489442971422,
+        "LNP": 0.05399980069273252,
+        "ON": 0.08457886650658424
+      },
+      "Actual": {
+        "ALP": 0.2913204062788551,
+        "IND": 0.5498614958448754,
+        "LNP": 0.080101569713758,
+        "ON": 0.0787165281625115
+      }
+    },
+    {
+      "Seat": "Wannon",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 15.446270906419057,
+      "MeanSquaredErrorPP2": 308.2974179369462,
+      "ONErrorPP": 15.678060877080425,
+      "Prediction": {
+        "ALP": 0.254911303451161,
+        "IND": 0.2773451805441884,
+        "LNP": 0.2322463790713349,
+        "ON": 0.23549713693331573
+      },
+      "Actual": {
+        "ALP": 0.2913204062788551,
+        "IND": 0.5498614958448754,
+        "LNP": 0.080101569713758,
+        "ON": 0.0787165281625115
+      }
+    },
+    {
+      "Seat": "Gippsland",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 27.307376851449803,
+      "MeanSquaredErrorPP2": 860.6400712309883,
+      "ONErrorPP": 26.190476190476193,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "LNP": 0.3333333333333333,
+        "ON": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.7429439861050804,
+        "LNP": 0.1856274424663482,
+        "ON": 0.0714285714285714
+      }
+    },
+    {
+      "Seat": "Gippsland",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 7.001930651803886,
+      "MeanSquaredErrorPP2": 62.53813061887504,
+      "ONErrorPP": 1.923674260152211,
+      "Prediction": {
+        "ALP": 0.6379150263280221,
+        "LNP": 0.2714196596418844,
+        "ON": 0.09066531403009351
+      },
+      "Actual": {
+        "ALP": 0.7429439861050804,
+        "LNP": 0.1856274424663482,
+        "ON": 0.0714285714285714
+      }
+    },
+    {
+      "Seat": "Gippsland",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 7.212487581014081,
+      "MeanSquaredErrorPP2": 66.7510165246624,
+      "ONErrorPP": 1.896131645713961,
+      "Prediction": {
+        "ALP": 0.6347566723898692,
+        "LNP": 0.27485343972441983,
+        "ON": 0.090389887885711
+      },
+      "Actual": {
+        "ALP": 0.7429439861050804,
+        "LNP": 0.1856274424663482,
+        "ON": 0.0714285714285714
+      }
+    },
+    {
+      "Seat": "Gippsland",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 25.461427196936537,
+      "MeanSquaredErrorPP2": 745.2503415637603,
+      "ONErrorPP": 23.98440328771947,
+      "Prediction": {
+        "ALP": 0.36102257815103234,
+        "LNP": 0.32770481754320163,
+        "ON": 0.3112726043057661
+      },
+      "Actual": {
+        "ALP": 0.7429439861050804,
+        "LNP": 0.1856274424663482,
+        "ON": 0.0714285714285714
+      }
+    },
+    {
+      "Seat": "Mallee",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 17.302721296126684,
+      "MeanSquaredErrorPP2": 427.7950523643702,
+      "ONErrorPP": 24.659583562313003,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "LNP": 0.3333333333333333,
+        "ON": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.5928741527752336,
+        "LNP": 0.3203883495145631,
+        "ON": 0.0867374977102033
+      }
+    },
+    {
+      "Seat": "Mallee",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 8.005052681180794,
+      "MeanSquaredErrorPP2": 93.23068820700597,
+      "ONErrorPP": -0.3726646820925744,
+      "Prediction": {
+        "ALP": 0.7129499429929456,
+        "LNP": 0.20403920611777696,
+        "ON": 0.08301085088927755
+      },
+      "Actual": {
+        "ALP": 0.5928741527752336,
+        "LNP": 0.3203883495145631,
+        "ON": 0.0867374977102033
+      }
+    },
+    {
+      "Seat": "Mallee",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 8.082319614561724,
+      "MeanSquaredErrorPP2": 94.72827384179624,
+      "ONErrorPP": -0.4174199296000852,
+      "Prediction": {
+        "ALP": 0.7141089469936595,
+        "LNP": 0.2033277545921381,
+        "ON": 0.08256329841420244
+      },
+      "Actual": {
+        "ALP": 0.5928741527752336,
+        "LNP": 0.3203883495145631,
+        "ON": 0.0867374977102033
+      }
+    },
+    {
+      "Seat": "Mallee",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 15.002014570916915,
+      "MeanSquaredErrorPP2": 335.8134195680133,
+      "ONErrorPP": 22.38392463100341,
+      "Prediction": {
+        "ALP": 0.36784393421147993,
+        "LNP": 0.32157932176828274,
+        "ON": 0.3105767440202374
+      },
+      "Actual": {
+        "ALP": 0.5928741527752336,
+        "LNP": 0.3203883495145631,
+        "ON": 0.0867374977102033
+      }
+    },
+    {
+      "Seat": "Nicholls",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 23.30817110316515,
+      "MeanSquaredErrorPP2": 638.4257403644784,
+      "ONErrorPP": 23.874020298334962,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "LNP": 0.3333333333333333,
+        "ON": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.6829558998808106,
+        "LNP": 0.2224509697692057,
+        "ON": 0.0945931303499837
+      }
+    },
+    {
+      "Seat": "Nicholls",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 2.0371284147499966,
+      "MeanSquaredErrorPP2": 4.66898639174655,
+      "ONErrorPP": -1.5510095780596367,
+      "Prediction": {
+        "ALP": 0.667909069440157,
+        "LNP": 0.25300789599045564,
+        "ON": 0.07908303456938734
+      },
+      "Actual": {
+        "ALP": 0.6829558998808106,
+        "LNP": 0.2224509697692057,
+        "ON": 0.0945931303499837
+      }
+    },
+    {
+      "Seat": "Nicholls",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 2.1789253852662425,
+      "MeanSquaredErrorPP2": 5.34886253786195,
+      "ONErrorPP": -1.5268472365897665,
+      "Prediction": {
+        "ALP": 0.6655404914677147,
+        "LNP": 0.25513485054819934,
+        "ON": 0.07932465798408604
+      },
+      "Actual": {
+        "ALP": 0.6829558998808106,
+        "LNP": 0.2224509697692057,
+        "ON": 0.0945931303499837
+      }
+    },
+    {
+      "Seat": "Nicholls",
+      "Eliminated": "GRN",
+      "AliveSet": "ALP+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 21.2804393691844,
+      "MeanSquaredErrorPP2": 530.3882631445598,
+      "ONErrorPP": 21.562653945935452,
+      "Prediction": {
+        "ALP": 0.3637493093430446,
+        "LNP": 0.3260310208476172,
+        "ON": 0.31021966980933824
+      },
+      "Actual": {
+        "ALP": 0.6829558998808106,
+        "LNP": 0.2224509697692057,
+        "ON": 0.0945931303499837
+      }
+    },
+    {
+      "Seat": "Calwell",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 16.763178913738024,
+      "MeanSquaredErrorPP2": 419.9672297486963,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "IND": 0.25,
+        "LNP": 0.25
+      },
+      "Actual": {
+        "ALP": 0.09944089456869,
+        "GRN": 0.0652955271565495,
+        "IND": 0.5834664536741215,
+        "LNP": 0.2517971246006389
+      }
+    },
+    {
+      "Seat": "Calwell",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 18.336730102968254,
+      "MeanSquaredErrorPP2": 635.9717751956783,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.07876921904731296,
+        "GRN": 0.06487250661234073,
+        "IND": 0.23782654768034228,
+        "LNP": 0.618531726660004
+      },
+      "Actual": {
+        "ALP": 0.09944089456869,
+        "GRN": 0.0652955271565495,
+        "IND": 0.5834664536741215,
+        "LNP": 0.2517971246006389
+      }
+    },
+    {
+      "Seat": "Calwell",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 17.542664954098388,
+      "MeanSquaredErrorPP2": 583.5704862423863,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.0833160520133456,
+        "GRN": 0.06813013516248187,
+        "IND": 0.24873799714749809,
+        "LNP": 0.5998158156766743
+      },
+      "Actual": {
+        "ALP": 0.09944089456869,
+        "GRN": 0.0652955271565495,
+        "IND": 0.5834664536741215,
+        "LNP": 0.2517971246006389
+      }
+    },
+    {
+      "Seat": "Calwell",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 16.831126695257197,
+      "MeanSquaredErrorPP2": 380.1596311368484,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.20560683456782186,
+        "GRN": 0.20200398319579202,
+        "IND": 0.24684391976897763,
+        "LNP": 0.34554526246740846
+      },
+      "Actual": {
+        "ALP": 0.09944089456869,
+        "GRN": 0.0652955271565495,
+        "IND": 0.5834664536741215,
+        "LNP": 0.2517971246006389
+      }
+    },
+    {
+      "Seat": "Casey",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 15.017686225551403,
+      "MeanSquaredErrorPP2": 316.92350463917643,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "IND": 0.25,
+        "LNP": 0.25
+      },
+      "Actual": {
+        "ALP": 0.0922804827299209,
+        "GRN": 0.1073657927590511,
+        "IND": 0.2651893466500208,
+        "LNP": 0.5351643778610072
+      }
+    },
+    {
+      "Seat": "Casey",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 3.049583589778289,
+      "MeanSquaredErrorPP2": 11.688927792883899,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.07979213502427998,
+        "GRN": 0.058862468669126214,
+        "IND": 0.2832947058266424,
+        "LNP": 0.5780506904799514
+      },
+      "Actual": {
+        "ALP": 0.0922804827299209,
+        "GRN": 0.1073657927590511,
+        "IND": 0.2651893466500208,
+        "LNP": 0.5351643778610072
+      }
+    },
+    {
+      "Seat": "Casey",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 2.9714867223495296,
+      "MeanSquaredErrorPP2": 11.181264065816245,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.08352515888541322,
+        "GRN": 0.05669138215656816,
+        "IND": 0.30047230926491114,
+        "LNP": 0.5593111496931075
+      },
+      "Actual": {
+        "ALP": 0.0922804827299209,
+        "GRN": 0.1073657927590511,
+        "IND": 0.2651893466500208,
+        "LNP": 0.5351643778610072
+      }
+    },
+    {
+      "Seat": "Casey",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 10.333579236391852,
+      "MeanSquaredErrorPP2": 154.1390626993856,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.2058720350062948,
+        "GRN": 0.20044582521051418,
+        "IND": 0.2586319607698702,
+        "LNP": 0.3350501790133207
+      },
+      "Actual": {
+        "ALP": 0.0922804827299209,
+        "GRN": 0.1073657927590511,
+        "IND": 0.2651893466500208,
+        "LNP": 0.5351643778610072
+      }
+    },
+    {
+      "Seat": "Chisholm",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 17.893401015228427,
+      "MeanSquaredErrorPP2": 464.30757487000955,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "IND": 0.25,
+        "LNP": 0.25
+      },
+      "Actual": {
+        "ALP": 0.0716003205984504,
+        "GRN": 0.070531659096981,
+        "IND": 0.2591504141063318,
+        "LNP": 0.5987176061982368
+      }
+    },
+    {
+      "Seat": "Chisholm",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 1.807655983558148,
+      "MeanSquaredErrorPP2": 4.188648047729639,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.08274644390020434,
+        "GRN": 0.06412448776370766,
+        "IND": 0.28415741047574083,
+        "LNP": 0.5689716578603472
+      },
+      "Actual": {
+        "ALP": 0.0716003205984504,
+        "GRN": 0.070531659096981,
+        "IND": 0.2591504141063318,
+        "LNP": 0.5987176061982368
+      }
+    },
+    {
+      "Seat": "Chisholm",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 2.590354707504187,
+      "MeanSquaredErrorPP2": 9.909110157157945,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.08670642136722193,
+        "GRN": 0.06750276355058493,
+        "IND": 0.29585140748764394,
+        "LNP": 0.5499394075945491
+      },
+      "Actual": {
+        "ALP": 0.0716003205984504,
+        "GRN": 0.070531659096981,
+        "IND": 0.2591504141063318,
+        "LNP": 0.5987176061982368
+      }
+    },
+    {
+      "Seat": "Chisholm",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 13.315801981242103,
+      "MeanSquaredErrorPP2": 265.5914376691697,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.20663796693709,
+        "GRN": 0.20181005238318345,
+        "IND": 0.258855624938155,
+        "LNP": 0.33269635574157147
+      },
+      "Actual": {
+        "ALP": 0.0716003205984504,
+        "GRN": 0.070531659096981,
+        "IND": 0.2591504141063318,
+        "LNP": 0.5987176061982368
+      }
+    },
+    {
+      "Seat": "Deakin",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 19.138822226324535,
+      "MeanSquaredErrorPP2": 442.18685106803684,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "IND": 0.25,
+        "LNP": 0.25
+      },
+      "Actual": {
+        "ALP": 0.0627653682850286,
+        "GRN": 0.0544581871884807,
+        "IND": 0.3182573380099686,
+        "LNP": 0.5645191065165222
+      }
+    },
+    {
+      "Seat": "Deakin",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 2.1271886903087935,
+      "MeanSquaredErrorPP2": 6.228868997841576,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.08400857994497889,
+        "GRN": 0.06642069803635056,
+        "IND": 0.2757135642037927,
+        "LNP": 0.5738571578148779
+      },
+      "Actual": {
+        "ALP": 0.0627653682850286,
+        "GRN": 0.0544581871884807,
+        "IND": 0.3182573380099686,
+        "LNP": 0.5645191065165222
+      }
+    },
+    {
+      "Seat": "Deakin",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 2.040545712629554,
+      "MeanSquaredErrorPP2": 4.667633679157529,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.08848771127532022,
+        "GRN": 0.06954675845078008,
+        "IND": 0.2893376516481771,
+        "LNP": 0.5526278786257225
+      },
+      "Actual": {
+        "ALP": 0.0627653682850286,
+        "GRN": 0.0544581871884807,
+        "IND": 0.3182573380099686,
+        "LNP": 0.5645191065165222
+      }
+    },
+    {
+      "Seat": "Deakin",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 14.607349903860289,
+      "MeanSquaredErrorPP2": 249.0788074412403,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.20696518739314265,
+        "GRN": 0.20240536615757235,
+        "IND": 0.2566664796083907,
+        "LNP": 0.3339629668408942
+      },
+      "Actual": {
+        "ALP": 0.0627653682850286,
+        "GRN": 0.0544581871884807,
+        "IND": 0.3182573380099686,
+        "LNP": 0.5645191065165222
+      }
+    },
+    {
+      "Seat": "Flinders",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 18.79452883452077,
+      "MeanSquaredErrorPP2": 516.8262178484392,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "IND": 0.25,
+        "LNP": 0.25
+      },
+      "Actual": {
+        "ALP": 0.093560962494959,
+        "GRN": 0.048393601290496,
+        "IND": 0.2321548595241296,
+        "LNP": 0.6258905766904154
+      }
+    },
+    {
+      "Seat": "Flinders",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 3.7376262454460525,
+      "MeanSquaredErrorPP2": 18.421456925433198,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.07960920934356026,
+        "GRN": 0.06728706745034838,
+        "IND": 0.2880139182731983,
+        "LNP": 0.5650898049328931
+      },
+      "Actual": {
+        "ALP": 0.093560962494959,
+        "GRN": 0.048393601290496,
+        "IND": 0.2321548595241296,
+        "LNP": 0.6258905766904154
+      }
+    },
+    {
+      "Seat": "Flinders",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 5.243603694958691,
+      "MeanSquaredErrorPP2": 39.88165719570601,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.0829082017491651,
+        "GRN": 0.07378498392796683,
+        "IND": 0.31163555078583255,
+        "LNP": 0.5316712635370354
+      },
+      "Actual": {
+        "ALP": 0.093560962494959,
+        "GRN": 0.048393601290496,
+        "IND": 0.2321548595241296,
+        "LNP": 0.6258905766904154
+      }
+    },
+    {
+      "Seat": "Flinders",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 14.710031363168453,
+      "MeanSquaredErrorPP2": 309.2832988357634,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.2058246098298119,
+        "GRN": 0.2026299804500903,
+        "IND": 0.2598554602930514,
+        "LNP": 0.3316899494270463
+      },
+      "Actual": {
+        "ALP": 0.093560962494959,
+        "GRN": 0.048393601290496,
+        "IND": 0.2321548595241296,
+        "LNP": 0.6258905766904154
+      }
+    },
+    {
+      "Seat": "Goldstein",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 22.172386895475825,
+      "MeanSquaredErrorPP2": 681.710796773005,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "IND": 0.25,
+        "LNP": 0.25
+      },
+      "Actual": {
+        "ALP": 0.0699427977119084,
+        "GRN": 0.0514820592823713,
+        "IND": 0.1851274050962038,
+        "LNP": 0.6934477379095165
+      }
+    },
+    {
+      "Seat": "Goldstein",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 6.900447800396179,
+      "MeanSquaredErrorPP2": 78.66441522447127,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.08298323288399605,
+        "GRN": 0.06684585916579476,
+        "IND": 0.29473212604861626,
+        "LNP": 0.5554387819015929
+      },
+      "Actual": {
+        "ALP": 0.0699427977119084,
+        "GRN": 0.0514820592823713,
+        "IND": 0.1851274050962038,
+        "LNP": 0.6934477379095165
+      }
+    },
+    {
+      "Seat": "Goldstein",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 7.5715908366112386,
+      "MeanSquaredErrorPP2": 92.99573875171536,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.08677325800108172,
+        "GRN": 0.06916079976380118,
+        "IND": 0.3020500210578253,
+        "LNP": 0.5420159211772917
+      },
+      "Actual": {
+        "ALP": 0.0699427977119084,
+        "GRN": 0.0514820592823713,
+        "IND": 0.1851274050962038,
+        "LNP": 0.6934477379095165
+      }
+    },
+    {
+      "Seat": "Goldstein",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 18.212995278232956,
+      "MeanSquaredErrorPP2": 450.1159895710746,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.2066993566736286,
+        "GRN": 0.20251559311705788,
+        "IND": 0.26159721786445606,
+        "LNP": 0.3291878323448574
+      },
+      "Actual": {
+        "ALP": 0.0699427977119084,
+        "GRN": 0.0514820592823713,
+        "IND": 0.1851274050962038,
+        "LNP": 0.6934477379095165
+      }
+    },
+    {
+      "Seat": "Kooyong",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 23.76373626373627,
+      "MeanSquaredErrorPP2": 761.673590146118,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "IND": 0.25,
+        "LNP": 0.25
+      },
+      "Actual": {
+        "ALP": 0.0685714285714285,
+        "GRN": 0.0663736263736263,
+        "IND": 0.1397802197802198,
+        "LNP": 0.7252747252747254
+      }
+    },
+    {
+      "Seat": "Kooyong",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 8.801889489451515,
+      "MeanSquaredErrorPP2": 141.71276188206284,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.08317914276120748,
+        "GRN": 0.06471849243847262,
+        "IND": 0.30121029537947114,
+        "LNP": 0.5508920694208488
+      },
+      "Actual": {
+        "ALP": 0.0685714285714285,
+        "GRN": 0.0663736263736263,
+        "IND": 0.1397802197802198,
+        "LNP": 0.7252747252747254
+      }
+    },
+    {
+      "Seat": "Kooyong",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 8.982270484622829,
+      "MeanSquaredErrorPP2": 145.86971526304612,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.08626529502671722,
+        "GRN": 0.06782522307332105,
+        "IND": 0.3002801663176929,
+        "LNP": 0.5456293155822688
+      },
+      "Actual": {
+        "ALP": 0.0685714285714285,
+        "GRN": 0.0663736263736263,
+        "IND": 0.1397802197802198,
+        "LNP": 0.7252747252747254
+      }
+    },
+    {
+      "Seat": "Kooyong",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 19.863283511984527,
+      "MeanSquaredErrorPP2": 526.3738163759034,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.206750148123276,
+        "GRN": 0.20196405359515957,
+        "IND": 0.26327674324652955,
+        "LNP": 0.32800905503503486
+      },
+      "Actual": {
+        "ALP": 0.0685714285714285,
+        "GRN": 0.0663736263736263,
+        "IND": 0.1397802197802198,
+        "LNP": 0.7252747252747254
+      }
+    },
+    {
+      "Seat": "Menzies",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 17.591710338256313,
+      "MeanSquaredErrorPP2": 440.4628976660544,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "IND": 0.25,
+        "LNP": 0.25
+      },
+      "Actual": {
+        "ALP": 0.092663172939495,
+        "GRN": 0.0555026202953787,
+        "IND": 0.2651262505955217,
+        "LNP": 0.5867079561696046
+      }
+    },
+    {
+      "Seat": "Menzies",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 1.4473170982303507,
+      "MeanSquaredErrorPP2": 2.1753091093722836,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.07973746499434083,
+        "GRN": 0.0662714933067937,
+        "IND": 0.2833037195487137,
+        "LNP": 0.5706873221501517
+      },
+      "Actual": {
+        "ALP": 0.092663172939495,
+        "GRN": 0.0555026202953787,
+        "IND": 0.2651262505955217,
+        "LNP": 0.5867079561696046
+      }
+    },
+    {
+      "Seat": "Menzies",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 2.1774200379649375,
+      "MeanSquaredErrorPP2": 6.057939358991664,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.08477552361171256,
+        "GRN": 0.06887920390977977,
+        "IND": 0.29529806774041933,
+        "LNP": 0.5510472047380882
+      },
+      "Actual": {
+        "ALP": 0.092663172939495,
+        "GRN": 0.0555026202953787,
+        "IND": 0.2651262505955217,
+        "LNP": 0.5867079561696046
+      }
+    },
+    {
+      "Seat": "Menzies",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+IND+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 7,
+      "MeanAbsErrorPP": 13.002937575493245,
+      "MeanSquaredErrorPP2": 246.8008932766551,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.20585786129482908,
+        "GRN": 0.20236668344990946,
+        "IND": 0.2586342976607776,
+        "LNP": 0.33314115759448376
+      },
+      "Actual": {
+        "ALP": 0.092663172939495,
+        "GRN": 0.0555026202953787,
+        "IND": 0.2651262505955217,
+        "LNP": 0.5867079561696046
+      }
+    },
+    {
+      "Seat": "Aston",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 18.433976924542968,
+      "MeanSquaredErrorPP2": 397.7925121004189,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1468531468531468,
+        "GRN": 0.2433038659453753,
+        "LNP": 0.6098429872014779
+      }
+    },
+    {
+      "Seat": "Aston",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 2.504251715031818,
+      "MeanSquaredErrorPP2": 8.529521465593882,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18441692257862402,
+        "GRN": 0.20965085557041127,
+        "LNP": 0.6059322218509646
+      },
+      "Actual": {
+        "ALP": 0.1468531468531468,
+        "GRN": 0.2433038659453753,
+        "LNP": 0.6098429872014779
+      }
+    },
+    {
+      "Seat": "Aston",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 2.7412695704704704,
+      "MeanSquaredErrorPP2": 8.752783722108825,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18797219041020385,
+        "GRN": 0.21604839382123064,
+        "LNP": 0.5959794157685655
+      },
+      "Actual": {
+        "ALP": 0.1468531468531468,
+        "GRN": 0.2433038659453753,
+        "LNP": 0.6098429872014779
+      }
+    },
+    {
+      "Seat": "Aston",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 10.084101060038948,
+      "MeanSquaredErrorPP2": 126.40134429631432,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.26491227974333176,
+        "GRN": 0.2765062489557746,
+        "LNP": 0.45858147130089366
+      },
+      "Actual": {
+        "ALP": 0.1468531468531468,
+        "GRN": 0.2433038659453753,
+        "LNP": 0.6098429872014779
+      }
+    },
+    {
+      "Seat": "Ballarat",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 19.453727771588895,
+      "MeanSquaredErrorPP2": 430.71951044274533,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.2147233568510954,
+        "GRN": 0.1601373932417378,
+        "LNP": 0.6251392499071667
+      }
+    },
+    {
+      "Seat": "Ballarat",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 3.627040518788571,
+      "MeanSquaredErrorPP2": 15.135538488067388,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18042455728462703,
+        "GRN": 0.21454300102356644,
+        "LNP": 0.6050324416918066
+      },
+      "Actual": {
+        "ALP": 0.2147233568510954,
+        "GRN": 0.1601373932417378,
+        "LNP": 0.6251392499071667
+      }
+    },
+    {
+      "Seat": "Ballarat",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 4.0409111215415905,
+      "MeanSquaredErrorPP2": 18.371200983020135,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1848260269737294,
+        "GRN": 0.22075106006486173,
+        "LNP": 0.5944229129614089
+      },
+      "Actual": {
+        "ALP": 0.2147233568510954,
+        "GRN": 0.1601373932417378,
+        "LNP": 0.6251392499071667
+      }
+    },
+    {
+      "Seat": "Ballarat",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 11.131412740788816,
+      "MeanSquaredErrorPP2": 147.62480896086382,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.2630779497433872,
+        "GRN": 0.2787539914612783,
+        "LNP": 0.4581680587953346
+      },
+      "Actual": {
+        "ALP": 0.2147233568510954,
+        "GRN": 0.1601373932417378,
+        "LNP": 0.6251392499071667
+      }
+    },
+    {
+      "Seat": "Bendigo",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 26.15124630333756,
+      "MeanSquaredErrorPP2": 769.3833086219853,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1359949302915082,
+        "GRN": 0.138403041825095,
+        "LNP": 0.7256020278833968
+      }
+    },
+    {
+      "Seat": "Bendigo",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 8.431944091110841,
+      "MeanSquaredErrorPP2": 81.32516028736994,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18505564119989687,
+        "GRN": 0.21582149228336897,
+        "LNP": 0.5991228665167342
+      },
+      "Actual": {
+        "ALP": 0.1359949302915082,
+        "GRN": 0.138403041825095,
+        "LNP": 0.7256020278833968
+      }
+    },
+    {
+      "Seat": "Bendigo",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 8.991968816625873,
+      "MeanSquaredErrorPP2": 92.35701087617292,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18897145104852478,
+        "GRN": 0.22030605331746653,
+        "LNP": 0.5907224956340087
+      },
+      "Actual": {
+        "ALP": 0.1359949302915082,
+        "GRN": 0.138403041825095,
+        "LNP": 0.7256020278833968
+      }
+    },
+    {
+      "Seat": "Bendigo",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 18.009945286909073,
+      "MeanSquaredErrorPP2": 365.1321210983505,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.2652057450558085,
+        "GRN": 0.27934140636443083,
+        "LNP": 0.45545284857976076
+      },
+      "Actual": {
+        "ALP": 0.1359949302915082,
+        "GRN": 0.138403041825095,
+        "LNP": 0.7256020278833968
+      }
+    },
+    {
+      "Seat": "Bruce",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 15.083279719779831,
+      "MeanSquaredErrorPP2": 259.1647519625996,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1982271784973908,
+        "GRN": 0.2421902923725784,
+        "LNP": 0.5595825291300308
+      }
+    },
+    {
+      "Seat": "Bruce",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 3.287079350303227,
+      "MeanSquaredErrorPP2": 12.563271965818634,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1813949207171979,
+        "GRN": 0.20971635989822288,
+        "LNP": 0.6088887193845792
+      },
+      "Actual": {
+        "ALP": 0.1982271784973908,
+        "GRN": 0.2421902923725784,
+        "LNP": 0.5595825291300308
+      }
+    },
+    {
+      "Seat": "Bruce",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 2.6426464446196554,
+      "MeanSquaredErrorPP2": 8.22697265757669,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18586163996387361,
+        "GRN": 0.2149161342368007,
+        "LNP": 0.5992222257993256
+      },
+      "Actual": {
+        "ALP": 0.1982271784973908,
+        "GRN": 0.2421902923725784,
+        "LNP": 0.5595825291300308
+      }
+    },
+    {
+      "Seat": "Bruce",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 6.642844471363291,
+      "MeanSquaredErrorPP2": 51.23986752121897,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.26352379240159546,
+        "GRN": 0.2765363455388231,
+        "LNP": 0.4599398620595815
+      },
+      "Actual": {
+        "ALP": 0.1982271784973908,
+        "GRN": 0.2421902923725784,
+        "LNP": 0.5595825291300308
+      }
+    },
+    {
+      "Seat": "Corio",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 12.798481711525193,
+      "MeanSquaredErrorPP2": 198.1231969788547,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1917701863354037,
+        "GRN": 0.2829192546583851,
+        "LNP": 0.5253105590062113
+      }
+    },
+    {
+      "Seat": "Corio",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 5.706277241396372,
+      "MeanSquaredErrorPP2": 43.804782444641994,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18177474378555009,
+        "GRN": 0.20732053858729305,
+        "LNP": 0.6109047176271568
+      },
+      "Actual": {
+        "ALP": 0.1917701863354037,
+        "GRN": 0.2829192546583851,
+        "LNP": 0.5253105590062113
+      }
+    },
+    {
+      "Seat": "Corio",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 5.193373433823639,
+      "MeanSquaredErrorPP2": 37.79835046115533,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18626199650145692,
+        "GRN": 0.21052684298497726,
+        "LNP": 0.6032111605135658
+      },
+      "Actual": {
+        "ALP": 0.1917701863354037,
+        "GRN": 0.2829192546583851,
+        "LNP": 0.5253105590062113
+      }
+    },
+    {
+      "Seat": "Corio",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 4.795207957857804,
+      "MeanSquaredErrorPP2": 31.275814112437544,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.2636983057032708,
+        "GRN": 0.2754355627743419,
+        "LNP": 0.4608661315223874
+      },
+      "Actual": {
+        "ALP": 0.1917701863354037,
+        "GRN": 0.2829192546583851,
+        "LNP": 0.5253105590062113
+      }
+    },
+    {
+      "Seat": "Dunkley",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 17.817371937639205,
+      "MeanSquaredErrorPP2": 362.94669503954196,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1701930215293244,
+        "GRN": 0.2292130660727542,
+        "LNP": 0.6005939123979214
+      }
+    },
+    {
+      "Seat": "Dunkley",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 1.2488893281067004,
+      "MeanSquaredErrorPP2": 1.835625640180606,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18304398877414296,
+        "GRN": 0.2104797261511537,
+        "LNP": 0.6064762850747033
+      },
+      "Actual": {
+        "ALP": 0.1701930215293244,
+        "GRN": 0.2292130660727542,
+        "LNP": 0.6005939123979214
+      }
+    },
+    {
+      "Seat": "Dunkley",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 1.1736816643512218,
+      "MeanSquaredErrorPP2": 1.6749810393435354,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18779824649459279,
+        "GRN": 0.21607580293023418,
+        "LNP": 0.5961259505751731
+      },
+      "Actual": {
+        "ALP": 0.1701930215293244,
+        "GRN": 0.2292130660727542,
+        "LNP": 0.6005939123979214
+      }
+    },
+    {
+      "Seat": "Dunkley",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 9.45083107348913,
+      "MeanSquaredErrorPP2": 104.07348367836585,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.26428147231965127,
+        "GRN": 0.27688708138476437,
+        "LNP": 0.4588314462955845
+      },
+      "Actual": {
+        "ALP": 0.1701930215293244,
+        "GRN": 0.2292130660727542,
+        "LNP": 0.6005939123979214
+      }
+    },
+    {
+      "Seat": "Gellibrand",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 18.137587689522523,
+      "MeanSquaredErrorPP2": 373.47776928593424,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.2198319755600814,
+        "GRN": 0.1747708757637474,
+        "LNP": 0.6053971486761712
+      }
+    },
+    {
+      "Seat": "Gellibrand",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 2.6471950172223924,
+      "MeanSquaredErrorPP2": 10.30481886712029,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1801240503017455,
+        "GRN": 0.21368220793403644,
+        "LNP": 0.606193741764218
+      },
+      "Actual": {
+        "ALP": 0.2198319755600814,
+        "GRN": 0.1747708757637474,
+        "LNP": 0.6053971486761712
+      }
+    },
+    {
+      "Seat": "Gellibrand",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 2.954599953296088,
+      "MeanSquaredErrorPP2": 10.892646204406937,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18499309672669687,
+        "GRN": 0.21908987506318875,
+        "LNP": 0.5959170282101145
+      },
+      "Actual": {
+        "ALP": 0.2198319755600814,
+        "GRN": 0.1747708757637474,
+        "LNP": 0.6053971486761712
+      }
+    },
+    {
+      "Seat": "Gellibrand",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 9.779701305153084,
+      "MeanSquaredErrorPP2": 113.6942034133264,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.2629398789674687,
+        "GRN": 0.2783584919336564,
+        "LNP": 0.458701629098875
+      },
+      "Actual": {
+        "ALP": 0.2198319755600814,
+        "GRN": 0.1747708757637474,
+        "LNP": 0.6053971486761712
+      }
+    },
+    {
+      "Seat": "Gorton",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 14.885941177764584,
+      "MeanSquaredErrorPP2": 249.51371633526875,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.2274797069887151,
+        "GRN": 0.2158978420114828,
+        "LNP": 0.5566224509998021
+      }
+    },
+    {
+      "Seat": "Gorton",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 3.496026041848785,
+      "MeanSquaredErrorPP2": 16.85614872426287,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.17967418374712,
+        "GRN": 0.21126297462534613,
+        "LNP": 0.6090628416275339
+      },
+      "Actual": {
+        "ALP": 0.2274797069887151,
+        "GRN": 0.2158978420114828,
+        "LNP": 0.5566224509998021
+      }
+    },
+    {
+      "Seat": "Gorton",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 2.8799433403381607,
+      "MeanSquaredErrorPP2": 12.153484302448431,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18428055688364273,
+        "GRN": 0.21692078667863202,
+        "LNP": 0.5987986564377253
+      },
+      "Actual": {
+        "ALP": 0.2274797069887151,
+        "GRN": 0.2158978420114828,
+        "LNP": 0.5566224509998021
+      }
+    },
+    {
+      "Seat": "Gorton",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 6.440172455239523,
+      "MeanSquaredErrorPP2": 47.79526907869595,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.26273318352345154,
+        "GRN": 0.27724695230533924,
+        "LNP": 0.4600198641712093
+      },
+      "Actual": {
+        "ALP": 0.2274797069887151,
+        "GRN": 0.2158978420114828,
+        "LNP": 0.5566224509998021
+      }
+    },
+    {
+      "Seat": "Hawke",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 16.695178518234815,
+      "MeanSquaredErrorPP2": 314.21098633254263,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1983148219073152,
+        "GRN": 0.2179241669858292,
+        "LNP": 0.5837610111068556
+      }
+    },
+    {
+      "Seat": "Hawke",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 1.5803629754685364,
+      "MeanSquaredErrorPP2": 2.9812643656704547,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18138976522249647,
+        "GRN": 0.2111437790386199,
+        "LNP": 0.6074664557388837
+      },
+      "Actual": {
+        "ALP": 0.1983148219073152,
+        "GRN": 0.2179241669858292,
+        "LNP": 0.5837610111068556
+      }
+    },
+    {
+      "Seat": "Hawke",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 0.915578533282685,
+      "MeanSquaredErrorPP2": 1.1606260468394873,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1857354113776562,
+        "GRN": 0.21676989951624795,
+        "LNP": 0.5974946891060959
+      },
+      "Actual": {
+        "ALP": 0.1983148219073152,
+        "GRN": 0.2179241669858292,
+        "LNP": 0.5837610111068556
+      }
+    },
+    {
+      "Seat": "Hawke",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 8.298308102208955,
+      "MeanSquaredErrorPP2": 77.52843495551784,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.2635214236607867,
+        "GRN": 0.27719218676549207,
+        "LNP": 0.45928638957372137
+      },
+      "Actual": {
+        "ALP": 0.1983148219073152,
+        "GRN": 0.2179241669858292,
+        "LNP": 0.5837610111068556
+      }
+    },
+    {
+      "Seat": "Holt",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 13.98660206607227,
+      "MeanSquaredErrorPP2": 225.84617175763515,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1990195235228347,
+        "GRN": 0.2578481121527479,
+        "LNP": 0.5431323643244174
+      }
+    },
+    {
+      "Seat": "Holt",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 4.4482674542288825,
+      "MeanSquaredErrorPP2": 23.901808990684675,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1813483121862894,
+        "GRN": 0.20879531167585993,
+        "LNP": 0.6098563761378506
+      },
+      "Actual": {
+        "ALP": 0.1990195235228347,
+        "GRN": 0.2578481121527479,
+        "LNP": 0.5431323643244174
+      }
+    },
+    {
+      "Seat": "Holt",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 3.814539551721932,
+      "MeanSquaredErrorPP2": 17.955054471716583,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1858320696096159,
+        "GRN": 0.21381747279013777,
+        "LNP": 0.6003504576002464
+      },
+      "Actual": {
+        "ALP": 0.1990195235228347,
+        "GRN": 0.2578481121527479,
+        "LNP": 0.5431323643244174
+      }
+    },
+    {
+      "Seat": "Holt",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 5.516526881069037,
+      "MeanSquaredErrorPP2": 37.79621994404036,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.263502377671178,
+        "GRN": 0.27611316122044016,
+        "LNP": 0.4603844611083818
+      },
+      "Actual": {
+        "ALP": 0.1990195235228347,
+        "GRN": 0.2578481121527479,
+        "LNP": 0.5431323643244174
+      }
+    },
+    {
+      "Seat": "Hotham",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 17.371217371217377,
+      "MeanSquaredErrorPP2": 351.00509112983156,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1614691614691614,
+        "GRN": 0.2446292446292446,
+        "LNP": 0.593901593901594
+      }
+    },
+    {
+      "Seat": "Hotham",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 2.3370901673883755,
+      "MeanSquaredErrorPP2": 6.283352269768898,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18355715701297612,
+        "GRN": 0.20957289211841898,
+        "LNP": 0.606869950868605
+      },
+      "Actual": {
+        "ALP": 0.1614691614691614,
+        "GRN": 0.2446292446292446,
+        "LNP": 0.593901593901594
+      }
+    },
+    {
+      "Seat": "Hotham",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 1.927494216537574,
+      "MeanSquaredErrorPP2": 5.117606055735226,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18778686793470487,
+        "GRN": 0.215716831381181,
+        "LNP": 0.5964963006841142
+      },
+      "Actual": {
+        "ALP": 0.1614691614691614,
+        "GRN": 0.2446292446292446,
+        "LNP": 0.593901593901594
+      }
+    },
+    {
+      "Seat": "Hotham",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 8.992618275542393,
+      "MeanSquaredErrorPP2": 99.42628752388576,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.2645172523212773,
+        "GRN": 0.2764704279102646,
+        "LNP": 0.45901231976845813
+      },
+      "Actual": {
+        "ALP": 0.1614691614691614,
+        "GRN": 0.2446292446292446,
+        "LNP": 0.593901593901594
+      }
+    },
+    {
+      "Seat": "Isaacs",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 23.482886056712612,
+      "MeanSquaredErrorPP2": 620.6031489556451,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1513832763444202,
+        "GRN": 0.1630400994715573,
+        "LNP": 0.6855766241840225
+      }
+    },
+    {
+      "Seat": "Isaacs",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 5.606621477037365,
+      "MeanSquaredErrorPP2": 35.937911116481864,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.184150444373255,
+        "GRN": 0.21437225359828294,
+        "LNP": 0.6014773020284621
+      },
+      "Actual": {
+        "ALP": 0.1513832763444202,
+        "GRN": 0.1630400994715573,
+        "LNP": 0.6855766241840225
+      }
+    },
+    {
+      "Seat": "Isaacs",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 6.192392998174729,
+      "MeanSquaredErrorPP2": 43.75514502844348,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18821219030582828,
+        "GRN": 0.21909708048277018,
+        "LNP": 0.5926907292114016
+      },
+      "Actual": {
+        "ALP": 0.1513832763444202,
+        "GRN": 0.1630400994715573,
+        "LNP": 0.6855766241840225
+      }
+    },
+    {
+      "Seat": "Isaacs",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 15.269467195780747,
+      "MeanSquaredErrorPP2": 262.30948678984356,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.26478984381113524,
+        "GRN": 0.2786755399415535,
+        "LNP": 0.4565346162473114
+      },
+      "Actual": {
+        "ALP": 0.1513832763444202,
+        "GRN": 0.1630400994715573,
+        "LNP": 0.6855766241840225
+      }
+    },
+    {
+      "Seat": "La Trobe",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 20.09801117403658,
+      "MeanSquaredErrorPP2": 456.79707805113117,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1637206109490303,
+        "GRN": 0.2014758881070877,
+        "LNP": 0.634803500943882
+      }
+    },
+    {
+      "Seat": "La Trobe",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 2.0226363071450915,
+      "MeanSquaredErrorPP2": 4.739507827729674,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18342471880827793,
+        "GRN": 0.21211132485501644,
+        "LNP": 0.6044639563367057
+      },
+      "Actual": {
+        "ALP": 0.1637206109490303,
+        "GRN": 0.2014758881070877,
+        "LNP": 0.634803500943882
+      }
+    },
+    {
+      "Seat": "La Trobe",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 2.734501676874633,
+      "MeanSquaredErrorPP2": 8.52303573164985,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18830703615047503,
+        "GRN": 0.21790698805876244,
+        "LNP": 0.5937859757907625
+      },
+      "Actual": {
+        "ALP": 0.1637206109490303,
+        "GRN": 0.2014758881070877,
+        "LNP": 0.634803500943882
+      }
+    },
+    {
+      "Seat": "La Trobe",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 11.793109208167522,
+      "MeanSquaredErrorPP2": 157.46864940282845,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.26445640233533496,
+        "GRN": 0.2776367348432959,
+        "LNP": 0.4579068628213693
+      },
+      "Actual": {
+        "ALP": 0.1637206109490303,
+        "GRN": 0.2014758881070877,
+        "LNP": 0.634803500943882
+      }
+    },
+    {
+      "Seat": "Lalor",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 16.04515745692217,
+      "MeanSquaredErrorPP2": 289.6943260856443,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.2161497326203208,
+        "GRN": 0.2098395721925133,
+        "LNP": 0.5740106951871659
+      }
+    },
+    {
+      "Seat": "Lalor",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 2.3872719861804717,
+      "MeanSquaredErrorPP2": 8.144838738246754,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18034065282761377,
+        "GRN": 0.21161934343822672,
+        "LNP": 0.6080400037341596
+      },
+      "Actual": {
+        "ALP": 0.2161497326203208,
+        "GRN": 0.2098395721925133,
+        "LNP": 0.5740106951871659
+      }
+    },
+    {
+      "Seat": "Lalor",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 2.0762761693983287,
+      "MeanSquaredErrorPP2": 5.290867532354611,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18500559007934594,
+        "GRN": 0.2172776457439349,
+        "LNP": 0.5977167641767193
+      },
+      "Actual": {
+        "ALP": 0.2161497326203208,
+        "GRN": 0.2098395721925133,
+        "LNP": 0.5740106951871659
+      }
+    },
+    {
+      "Seat": "Lalor",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 7.630718904104069,
+      "MeanSquaredErrorPP2": 66.21922553996976,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.26303939904692164,
+        "GRN": 0.2774106893274736,
+        "LNP": 0.4595499116256049
+      },
+      "Actual": {
+        "ALP": 0.2161497326203208,
+        "GRN": 0.2098395721925133,
+        "LNP": 0.5740106951871659
+      }
+    },
+    {
+      "Seat": "Macnamara",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 25.16942065345907,
+      "MeanSquaredErrorPP2": 713.3019751646584,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1541655852582403,
+        "GRN": 0.1349597716065403,
+        "LNP": 0.7108746431352194
+      }
+    },
+    {
+      "Seat": "Macnamara",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 7.3923639912395,
+      "MeanSquaredErrorPP2": 65.85434678158718,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1839867791430303,
+        "GRN": 0.21602403759034275,
+        "LNP": 0.5999891832666269
+      },
+      "Actual": {
+        "ALP": 0.1541655852582403,
+        "GRN": 0.1349597716065403,
+        "LNP": 0.7108746431352194
+      }
+    },
+    {
+      "Seat": "Macnamara",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 7.806926886951941,
+      "MeanSquaredErrorPP2": 72.80933412271285,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18749042864202167,
+        "GRN": 0.21873883152703805,
+        "LNP": 0.5937707398309403
+      },
+      "Actual": {
+        "ALP": 0.1541655852582403,
+        "GRN": 0.1349597716065403,
+        "LNP": 0.7108746431352194
+      }
+    },
+    {
+      "Seat": "Macnamara",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 17.001583808655486,
+      "MeanSquaredErrorPP2": 327.1038313646949,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.26471464627292385,
+        "GRN": 0.279434467721689,
+        "LNP": 0.45585088600538715
+      },
+      "Actual": {
+        "ALP": 0.1541655852582403,
+        "GRN": 0.1349597716065403,
+        "LNP": 0.7108746431352194
+      }
+    },
+    {
+      "Seat": "Maribyrnong",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 22.813655142422267,
+      "MeanSquaredErrorPP2": 586.783677838017,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1759947814742335,
+        "GRN": 0.1484670580560991,
+        "LNP": 0.6755381604696674
+      }
+    },
+    {
+      "Seat": "Maribyrnong",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 4.8980240383770015,
+      "MeanSquaredErrorPP2": 33.00037556095594,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18270270877738362,
+        "GRN": 0.215229491328604,
+        "LNP": 0.6020677998940124
+      },
+      "Actual": {
+        "ALP": 0.1759947814742335,
+        "GRN": 0.1484670580560991,
+        "LNP": 0.6755381604696674
+      }
+    },
+    {
+      "Seat": "Maribyrnong",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 5.620544676895361,
+      "MeanSquaredErrorPP2": 41.824041336604886,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.187445356417319,
+        "GRN": 0.22132465326644404,
+        "LNP": 0.591229990316237
+      },
+      "Actual": {
+        "ALP": 0.1759947814742335,
+        "GRN": 0.1484670580560991,
+        "LNP": 0.6755381604696674
+      }
+    },
+    {
+      "Seat": "Maribyrnong",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 14.582148959482554,
+      "MeanSquaredErrorPP2": 242.22546843256984,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.2641246679968159,
+        "GRN": 0.279069405925755,
+        "LNP": 0.4568059260774291
+      },
+      "Actual": {
+        "ALP": 0.1759947814742335,
+        "GRN": 0.1484670580560991,
+        "LNP": 0.6755381604696674
+      }
+    },
+    {
+      "Seat": "McEwen",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 18.680059917173324,
+      "MeanSquaredErrorPP2": 393.4240550573523,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1818662437219138,
+        "GRN": 0.204599524187153,
+        "LNP": 0.6135342320909332
+      }
+    },
+    {
+      "Seat": "McEwen",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 0.5212761528192907,
+      "MeanSquaredErrorPP2": 0.38360191797599325,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18235732864516713,
+        "GRN": 0.21192758155618907,
+        "LNP": 0.6057150897986439
+      },
+      "Actual": {
+        "ALP": 0.1818662437219138,
+        "GRN": 0.204599524187153,
+        "LNP": 0.6135342320909332
+      }
+    },
+    {
+      "Seat": "McEwen",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 1.209076729741799,
+      "MeanSquaredErrorPP2": 1.7463637574004685,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18702732735283795,
+        "GRN": 0.21757459150235584,
+        "LNP": 0.5953980811448062
+      },
+      "Actual": {
+        "ALP": 0.1818662437219138,
+        "GRN": 0.204599524187153,
+        "LNP": 0.6135342320909332
+      }
+    },
+    {
+      "Seat": "McEwen",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 10.336834944362012,
+      "MeanSquaredErrorPP2": 120.34587068130371,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.26396597982795966,
+        "GRN": 0.2775523122465373,
+        "LNP": 0.458481707925503
+      },
+      "Actual": {
+        "ALP": 0.1818662437219138,
+        "GRN": 0.204599524187153,
+        "LNP": 0.6135342320909332
+      }
+    },
+    {
+      "Seat": "Scullin",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 10.56998285451428,
+      "MeanSquaredErrorPP2": 163.04910091453868,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "GRN": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1747835905156191,
+        "GRN": 0.3377493413624388,
+        "LNP": 0.487467068121942
+      }
+    },
+    {
+      "Seat": "Scullin",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 8.910273466202083,
+      "MeanSquaredErrorPP2": 112.39546585723157,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18277395530436094,
+        "GRN": 0.20409523936940754,
+        "LNP": 0.6131308053262314
+      },
+      "Actual": {
+        "ALP": 0.1747835905156191,
+        "GRN": 0.3377493413624388,
+        "LNP": 0.487467068121942
+      }
+    },
+    {
+      "Seat": "Scullin",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 8.493534668832114,
+      "MeanSquaredErrorPP2": 98.56321992815946,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1873887615810484,
+        "GRN": 0.21034632132995712,
+        "LNP": 0.6022649170889944
+      },
+      "Actual": {
+        "ALP": 0.1747835905156191,
+        "GRN": 0.3377493413624388,
+        "LNP": 0.487467068121942
+      }
+    },
+    {
+      "Seat": "Scullin",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 17,
+      "MeanAbsErrorPP": 5.958254158131342,
+      "MeanSquaredErrorPP2": 42.372691438840285,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.26415740288758927,
+        "GRN": 0.2739536685390972,
+        "LNP": 0.46188892857331354
+      },
+      "Actual": {
+        "ALP": 0.1747835905156191,
+        "GRN": 0.3377493413624388,
+        "LNP": 0.487467068121942
+      }
+    },
+    {
+      "Seat": "Cooper",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "uniform",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 14.259424041417255,
+      "MeanSquaredErrorPP2": 300.1308364420866,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "OTH": 0.25
+      },
+      "Actual": {
+        "ALP": 0.2214851965701342,
+        "GRN": 0.0718330367254489,
+        "LNP": 0.535188480828345,
+        "OTH": 0.1714932858760718
+      }
+    },
+    {
+      "Seat": "Cooper",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "equal_pool",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 4.891709436436631,
+      "MeanSquaredErrorPP2": 35.09485597753402,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1454961401014495,
+        "GRN": 0.08201622060785492,
+        "LNP": 0.5133433485682971,
+        "OTH": 0.2591442907223984
+      },
+      "Actual": {
+        "ALP": 0.2214851965701342,
+        "GRN": 0.0718330367254489,
+        "LNP": 0.535188480828345,
+        "OTH": 0.1714932858760718
+      }
+    },
+    {
+      "Seat": "Cooper",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "vote_pool",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 4.56112776929756,
+      "MeanSquaredErrorPP2": 31.27122442845454,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.14067310370272323,
+        "GRN": 0.08821470287166122,
+        "LNP": 0.5247780183098049,
+        "OTH": 0.24633417511581074
+      },
+      "Actual": {
+        "ALP": 0.2214851965701342,
+        "GRN": 0.0718330367254489,
+        "LNP": 0.535188480828345,
+        "OTH": 0.1714932858760718
+      }
+    },
+    {
+      "Seat": "Cooper",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 11.625990555734282,
+      "MeanSquaredErrorPP2": 203.69446268495838,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.22909922802028992,
+        "GRN": 0.216403244121571,
+        "LNP": 0.30266866971365947,
+        "OTH": 0.2518288581444797
+      },
+      "Actual": {
+        "ALP": 0.2214851965701342,
+        "GRN": 0.0718330367254489,
+        "LNP": 0.535188480828345,
+        "OTH": 0.1714932858760718
+      }
+    },
+    {
+      "Seat": "Corangamite",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "uniform",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 16.245421245421248,
+      "MeanSquaredErrorPP2": 303.55348253699907,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "OTH": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1109890109890109,
+        "GRN": 0.0641025641025641,
+        "LNP": 0.4983516483516483,
+        "OTH": 0.3265567765567767
+      }
+    },
+    {
+      "Seat": "Corangamite",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "equal_pool",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 4.921259198525961,
+      "MeanSquaredErrorPP2": 34.426018279049224,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1675953772176742,
+        "GRN": 0.08356231513243187,
+        "LNP": 0.5207107150636364,
+        "OTH": 0.22813159258625743
+      },
+      "Actual": {
+        "ALP": 0.1109890109890109,
+        "GRN": 0.0641025641025641,
+        "LNP": 0.4983516483516483,
+        "OTH": 0.3265567765567767
+      }
+    },
+    {
+      "Seat": "Corangamite",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "vote_pool",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 5.631946512167536,
+      "MeanSquaredErrorPP2": 43.65981994995116,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.16677937860458827,
+        "GRN": 0.08763017723743152,
+        "LNP": 0.5316725978445542,
+        "OTH": 0.21391784631342597
+      },
+      "Actual": {
+        "ALP": 0.1109890109890109,
+        "GRN": 0.0641025641025641,
+        "LNP": 0.4983516483516483,
+        "OTH": 0.3265567765567767
+      }
+    },
+    {
+      "Seat": "Corangamite",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 13.75699816892231,
+      "MeanSquaredErrorPP2": 206.42617236818828,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.23351907544353484,
+        "GRN": 0.2167124630264864,
+        "LNP": 0.3041421430127273,
+        "OTH": 0.2456263185172515
+      },
+      "Actual": {
+        "ALP": 0.1109890109890109,
+        "GRN": 0.0641025641025641,
+        "LNP": 0.4983516483516483,
+        "OTH": 0.3265567765567767
+      }
+    },
+    {
+      "Seat": "Fraser",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "uniform",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 13.82950191570882,
+      "MeanSquaredErrorPP2": 259.2239544340221,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "OTH": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1377777777777777,
+        "GRN": 0.1445210727969348,
+        "LNP": 0.5265900383141764,
+        "OTH": 0.1911111111111111
+      }
+    },
+    {
+      "Seat": "Fraser",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "equal_pool",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 4.428473032321129,
+      "MeanSquaredErrorPP2": 26.941847646301955,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.16223762385992083,
+        "GRN": 0.06747861339355773,
+        "LNP": 0.5150630370711309,
+        "OTH": 0.25522072567539056
+      },
+      "Actual": {
+        "ALP": 0.1377777777777777,
+        "GRN": 0.1445210727969348,
+        "LNP": 0.5265900383141764,
+        "OTH": 0.1911111111111111
+      }
+    },
+    {
+      "Seat": "Fraser",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "vote_pool",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 3.790238410417299,
+      "MeanSquaredErrorPP2": 21.958418586077165,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.16486221992813435,
+        "GRN": 0.06871630458858886,
+        "LNP": 0.5273218025493954,
+        "OTH": 0.23909967293388143
+      },
+      "Actual": {
+        "ALP": 0.1377777777777777,
+        "GRN": 0.1445210727969348,
+        "LNP": 0.5265900383141764,
+        "OTH": 0.1911111111111111
+      }
+    },
+    {
+      "Seat": "Fraser",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 11.178871544997513,
+      "MeanSquaredErrorPP2": 168.24674874350188,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.2324475247719842,
+        "GRN": 0.21349572267871156,
+        "LNP": 0.3030126074142262,
+        "OTH": 0.2510441451350781
+      },
+      "Actual": {
+        "ALP": 0.1377777777777777,
+        "GRN": 0.1445210727969348,
+        "LNP": 0.5265900383141764,
+        "OTH": 0.1911111111111111
+      }
+    },
+    {
+      "Seat": "Jagajaga",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "uniform",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 16.52258784160625,
+      "MeanSquaredErrorPP2": 381.36444269146796,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "OTH": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1195389477598066,
+        "GRN": 0.0500092954080684,
+        "LNP": 0.5582822085889572,
+        "OTH": 0.2721695482431678
+      }
+    },
+    {
+      "Seat": "Jagajaga",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "equal_pool",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 4.135905778348552,
+      "MeanSquaredErrorPP2": 17.566167548431896,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.16588538986351503,
+        "GRN": 0.08638096887133102,
+        "LNP": 0.5087246030161747,
+        "OTH": 0.2390090382489792
+      },
+      "Actual": {
+        "ALP": 0.1195389477598066,
+        "GRN": 0.0500092954080684,
+        "LNP": 0.5582822085889572,
+        "OTH": 0.2721695482431678
+      }
+    },
+    {
+      "Seat": "Jagajaga",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "vote_pool",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 4.486410342913928,
+      "MeanSquaredErrorPP2": 20.43858217360493,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.16758580324019887,
+        "GRN": 0.09169064678595475,
+        "LNP": 0.5206299683795566,
+        "OTH": 0.22009358159428993
+      },
+      "Actual": {
+        "ALP": 0.1195389477598066,
+        "GRN": 0.0500092954080684,
+        "LNP": 0.5582822085889572,
+        "OTH": 0.2721695482431678
+      }
+    },
+    {
+      "Seat": "Jagajaga",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 14.045251428954709,
+      "MeanSquaredErrorPP2": 268.2425170900659,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.233177077972703,
+        "GRN": 0.2172761937742662,
+        "LNP": 0.301744920603235,
+        "OTH": 0.24780180764979587
+      },
+      "Actual": {
+        "ALP": 0.1195389477598066,
+        "GRN": 0.0500092954080684,
+        "LNP": 0.5582822085889572,
+        "OTH": 0.2721695482431678
+      }
+    },
+    {
+      "Seat": "Melbourne",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "uniform",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 12.042682926829269,
+      "MeanSquaredErrorPP2": 177.50737214641586,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "OTH": 0.25
+      },
+      "Actual": {
+        "ALP": 0.2076981707317073,
+        "GRN": 0.0514481707317073,
+        "LNP": 0.3902439024390244,
+        "OTH": 0.3506097560975609
+      }
+    },
+    {
+      "Seat": "Melbourne",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "equal_pool",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 9.336669244101635,
+      "MeanSquaredErrorPP2": 110.16809797992344,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1482535452691349,
+        "GRN": 0.08609319380660324,
+        "LNP": 0.5423322642461612,
+        "OTH": 0.2233209966781006
+      },
+      "Actual": {
+        "ALP": 0.2076981707317073,
+        "GRN": 0.0514481707317073,
+        "LNP": 0.3902439024390244,
+        "OTH": 0.3506097560975609
+      }
+    },
+    {
+      "Seat": "Melbourne",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "vote_pool",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 9.425286780229285,
+      "MeanSquaredErrorPP2": 113.6494243208986,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.15394285942855174,
+        "GRN": 0.08805880918896257,
+        "LNP": 0.5421389995863549,
+        "OTH": 0.21585933179613082
+      },
+      "Actual": {
+        "ALP": 0.2076981707317073,
+        "GRN": 0.0514481707317073,
+        "LNP": 0.3902439024390244,
+        "OTH": 0.3506097560975609
+      }
+    },
+    {
+      "Seat": "Melbourne",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 9.386150317586651,
+      "MeanSquaredErrorPP2": 114.68443567137453,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.229650709053827,
+        "GRN": 0.21721863876132066,
+        "LNP": 0.30846645284923224,
+        "OTH": 0.24466419933562014
+      },
+      "Actual": {
+        "ALP": 0.2076981707317073,
+        "GRN": 0.0514481707317073,
+        "LNP": 0.3902439024390244,
+        "OTH": 0.3506097560975609
+      }
+    },
+    {
+      "Seat": "Wills",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "uniform",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 17.162447257383967,
+      "MeanSquaredErrorPP2": 397.4990653207286,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "OTH": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1514767932489451,
+        "GRN": 0.1,
+        "LNP": 0.5932489451476793,
+        "OTH": 0.1552742616033755
+      }
+    },
+    {
+      "Seat": "Wills",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "equal_pool",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 5.756743074515219,
+      "MeanSquaredErrorPP2": 51.17742151867843,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.15949782076568733,
+        "GRN": 0.0763828279529447,
+        "LNP": 0.5017312557044302,
+        "OTH": 0.26238809557693765
+      },
+      "Actual": {
+        "ALP": 0.1514767932489451,
+        "GRN": 0.1,
+        "LNP": 0.5932489451476793,
+        "OTH": 0.1552742616033755
+      }
+    },
+    {
+      "Seat": "Wills",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "vote_pool",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 4.8317917550840805,
+      "MeanSquaredErrorPP2": 35.47385236251312,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.16066775176808096,
+        "GRN": 0.08159210144838765,
+        "LNP": 0.5150210085976101,
+        "OTH": 0.2427191381859213
+      },
+      "Actual": {
+        "ALP": 0.1514767932489451,
+        "GRN": 0.1,
+        "LNP": 0.5932489451476793,
+        "OTH": 0.1552742616033755
+      }
+    },
+    {
+      "Seat": "Wills",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+GRN+LNP+OTH",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 5,
+      "MeanAbsErrorPP": 14.645134700339666,
+      "MeanSquaredErrorPP2": 287.4924738057869,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.23189956415313748,
+        "GRN": 0.21527656559058894,
+        "LNP": 0.3003462511408861,
+        "OTH": 0.2524776191153876
+      },
+      "Actual": {
+        "ALP": 0.1514767932489451,
+        "GRN": 0.1,
+        "LNP": 0.5932489451476793,
+        "OTH": 0.1552742616033755
+      }
+    },
+    {
+      "Seat": "Monash",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+IND+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 1,
+      "MeanAbsErrorPP": 14.231226161445635,
+      "MeanSquaredErrorPP2": 263.06745789164967,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "IND": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1539110861001688,
+        "IND": 0.5468017257550178,
+        "LNP": 0.2992871881448133
+      }
+    },
+    {
+      "Seat": "Monash",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+IND+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 1,
+      "MeanAbsErrorPP": 18.80951565451661,
+      "MeanSquaredErrorPP2": 496.88047940427253,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1346127855115556,
+        "IND": 0.2839572915258819,
+        "LNP": 0.5814299229625625
+      },
+      "Actual": {
+        "ALP": 0.1539110861001688,
+        "IND": 0.5468017257550178,
+        "LNP": 0.2992871881448133
+      }
+    },
+    {
+      "Seat": "Monash",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+IND+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 1,
+      "MeanAbsErrorPP": 18.80951565451661,
+      "MeanSquaredErrorPP2": 496.88047940427253,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.13461278551155562,
+        "IND": 0.2839572915258819,
+        "LNP": 0.5814299229625625
+      },
+      "Actual": {
+        "ALP": 0.1539110861001688,
+        "IND": 0.5468017257550178,
+        "LNP": 0.2992871881448133
+      }
+    },
+    {
+      "Seat": "Monash",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+IND+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 1,
+      "MeanAbsErrorPP": 14.38797550051691,
+      "MeanSquaredErrorPP2": 258.55821138517405,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.32387045010372484,
+        "IND": 0.3309820932472642,
+        "LNP": 0.3451474566490109
+      },
+      "Actual": {
+        "ALP": 0.1539110861001688,
+        "IND": 0.5468017257550178,
+        "LNP": 0.2992871881448133
+      }
+    },
+    {
+      "Seat": "Wannon",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+IND+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 1,
+      "MeanAbsErrorPP": 16.53977264194861,
+      "MeanSquaredErrorPP2": 344.9325580560426,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3333333333333333,
+        "IND": 0.3333333333333333,
+        "LNP": 0.3333333333333333
+      },
+      "Actual": {
+        "ALP": 0.1346127855115556,
+        "IND": 0.2839572915258819,
+        "LNP": 0.5814299229625625
+      }
+    },
+    {
+      "Seat": "Wannon",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+IND+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 1,
+      "MeanAbsErrorPP": 18.80951565451661,
+      "MeanSquaredErrorPP2": 496.88047940427253,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1539110861001688,
+        "IND": 0.5468017257550178,
+        "LNP": 0.2992871881448133
+      },
+      "Actual": {
+        "ALP": 0.1346127855115556,
+        "IND": 0.2839572915258819,
+        "LNP": 0.5814299229625625
+      }
+    },
+    {
+      "Seat": "Wannon",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+IND+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 1,
+      "MeanAbsErrorPP": 18.809515654516606,
+      "MeanSquaredErrorPP2": 496.8804794042722,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.15391108610016882,
+        "IND": 0.5468017257550177,
+        "LNP": 0.29928718814481337
+      },
+      "Actual": {
+        "ALP": 0.1346127855115556,
+        "IND": 0.2839572915258819,
+        "LNP": 0.5814299229625625
+      }
+    },
+    {
+      "Seat": "Wannon",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+IND+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 1,
+      "MeanAbsErrorPP": 16.647855642547086,
+      "MeanSquaredErrorPP2": 340.2376764018018,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.3247894167984207,
+        "IND": 0.34349849487722306,
+        "LNP": 0.33171208832435617
+      },
+      "Actual": {
+        "ALP": 0.1346127855115556,
+        "IND": 0.2839572915258819,
+        "LNP": 0.5814299229625625
+      }
+    },
+    {
+      "Seat": "Gippsland",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 34.729894749084146,
+      "MeanSquaredErrorPP2": 1206.1655892824626,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.5,
+        "LNP": 0.5
+      },
+      "Actual": {
+        "ALP": 0.1527010525091585,
+        "LNP": 0.8472989474908414
+      }
+    },
+    {
+      "Seat": "Gippsland",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 7.435648848554568,
+      "MeanSquaredErrorPP2": 55.28887379901088,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.2270575409947042,
+        "LNP": 0.7729424590052958
+      },
+      "Actual": {
+        "ALP": 0.1527010525091585,
+        "LNP": 0.8472989474908414
+      }
+    },
+    {
+      "Seat": "Gippsland",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 7.398514972458373,
+      "MeanSquaredErrorPP2": 54.73802379769072,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.22668620223374225,
+        "LNP": 0.7733137977662577
+      },
+      "Actual": {
+        "ALP": 0.1527010525091585,
+        "LNP": 0.8472989474908414
+      }
+    },
+    {
+      "Seat": "Gippsland",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 32.248599667217825,
+      "MeanSquaredErrorPP2": 1039.9721804964815,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.47518704918133675,
+        "LNP": 0.5248129508186632
+      },
+      "Actual": {
+        "ALP": 0.1527010525091585,
+        "LNP": 0.8472989474908414
+      }
+    },
+    {
+      "Seat": "Mallee",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 26.012336512650634,
+      "MeanSquaredErrorPP2": 676.6416508473776,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.5,
+        "LNP": 0.5
+      },
+      "Actual": {
+        "ALP": 0.2398766348734936,
+        "LNP": 0.7601233651265064
+      }
+    },
+    {
+      "Seat": "Mallee",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 5.640688506095698,
+      "MeanSquaredErrorPP2": 31.817366822800118,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.18346974981253666,
+        "LNP": 0.8165302501874634
+      },
+      "Actual": {
+        "ALP": 0.2398766348734936,
+        "LNP": 0.7601233651265064
+      }
+    },
+    {
+      "Seat": "Mallee",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 5.982487543129868,
+      "MeanSquaredErrorPP2": 35.79015720370404,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.1800517594421949,
+        "LNP": 0.819948240557805
+      },
+      "Actual": {
+        "ALP": 0.2398766348734936,
+        "LNP": 0.7601233651265064
+      }
+    },
+    {
+      "Seat": "Mallee",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 23.1347887836737,
+      "MeanSquaredErrorPP2": 535.2184520651944,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.4712245227102306,
+        "LNP": 0.5287754772897694
+      },
+      "Actual": {
+        "ALP": 0.2398766348734936,
+        "LNP": 0.7601233651265064
+      }
+    },
+    {
+      "Seat": "Nicholls",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Method": "uniform",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 28.576155288408522,
+      "MeanSquaredErrorPP2": 816.5966510672383,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.5,
+        "LNP": 0.5
+      },
+      "Actual": {
+        "ALP": 0.2142384471159148,
+        "LNP": 0.7857615528840852
+      }
+    },
+    {
+      "Seat": "Nicholls",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Method": "equal_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 1.7949603424588692,
+      "MeanSquaredErrorPP2": 3.221882631000061,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.19628884369132604,
+        "LNP": 0.8037111563086738
+      },
+      "Actual": {
+        "ALP": 0.2142384471159148,
+        "LNP": 0.7857615528840852
+      }
+    },
+    {
+      "Seat": "Nicholls",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Method": "vote_pool",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 2.4034677242572577,
+      "MeanSquaredErrorPP2": 5.776657101546362,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.19020376987334223,
+        "LNP": 0.8097962301266578
+      },
+      "Actual": {
+        "ALP": 0.2142384471159148,
+        "LNP": 0.7857615528840852
+      }
+    },
+    {
+      "Seat": "Nicholls",
+      "Eliminated": "ON",
+      "AliveSet": "ALP+LNP",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 2,
+      "MeanAbsErrorPP": 25.815144776511485,
+      "MeanSquaredErrorPP2": 666.4216998322481,
+      "ONErrorPP": null,
+      "Prediction": {
+        "ALP": 0.4723898948810296,
+        "LNP": 0.5276101051189703
+      },
+      "Actual": {
+        "ALP": 0.2142384471159148,
+        "LNP": 0.7857615528840852
+      }
+    },
+    {
+      "Seat": "Calwell",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 8.606524512484059,
+      "MeanSquaredErrorPP2": 122.02281124472388,
+      "ONErrorPP": 5.11937306360489,
+      "Prediction": {
+        "ALP": 0.2,
+        "GRN": 0.2,
+        "IND": 0.2,
+        "LNP": 0.2,
+        "ON": 0.2
+      },
+      "Actual": {
+        "ALP": 0.1906324038636777,
+        "GRN": 0.1280298888281392,
+        "IND": 0.4151631128121014,
+        "LNP": 0.1173683251321305,
+        "ON": 0.1488062693639511
+      }
+    },
+    {
+      "Seat": "Calwell",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 13.753297554836271,
+      "MeanSquaredErrorPP2": 253.39399371680724,
+      "ONErrorPP": 23.014568771369305,
+      "Prediction": {
+        "ALP": 0.09554125882378829,
+        "GRN": 0.10570540892332998,
+        "IND": 0.18874629888589328,
+        "LNP": 0.23105507628934419,
+        "ON": 0.3789519570776442
+      },
+      "Actual": {
+        "ALP": 0.1906324038636777,
+        "GRN": 0.1280298888281392,
+        "IND": 0.4151631128121014,
+        "LNP": 0.1173683251321305,
+        "ON": 0.1488062693639511
+      }
+    },
+    {
+      "Seat": "Calwell",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 12.829512669260556,
+      "MeanSquaredErrorPP2": 228.75968140527203,
+      "ONErrorPP": 22.31247417960083,
+      "Prediction": {
+        "ALP": 0.09575583361515048,
+        "GRN": 0.11648630368616841,
+        "IND": 0.20084545147108557,
+        "LNP": 0.2149814000676361,
+        "ON": 0.3719310111599594
+      },
+      "Actual": {
+        "ALP": 0.1906324038636777,
+        "GRN": 0.1280298888281392,
+        "IND": 0.4151631128121014,
+        "LNP": 0.1173683251321305,
+        "ON": 0.1488062693639511
+      }
+    },
+    {
+      "Seat": "Calwell",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 9.774653230902079,
+      "MeanSquaredErrorPP2": 142.29410984277087,
+      "ONErrorPP": 11.084438299526363,
+      "Prediction": {
+        "ALP": 0.16518041960792945,
+        "GRN": 0.16856846964111002,
+        "IND": 0.19624876629529778,
+        "LNP": 0.21035169209644808,
+        "ON": 0.25965065235921475
+      },
+      "Actual": {
+        "ALP": 0.1906324038636777,
+        "GRN": 0.1280298888281392,
+        "IND": 0.4151631128121014,
+        "LNP": 0.1173683251321305,
+        "ON": 0.1488062693639511
+      }
+    },
+    {
+      "Seat": "Casey",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 9.338090604389668,
+      "MeanSquaredErrorPP2": 149.17718894163025,
+      "ONErrorPP": -23.34522651097416,
+      "Prediction": {
+        "ALP": 0.2,
+        "GRN": 0.2,
+        "IND": 0.2,
+        "LNP": 0.2,
+        "ON": 0.2
+      },
+      "Actual": {
+        "ALP": 0.0839009622661909,
+        "GRN": 0.1489890799005297,
+        "IND": 0.1367715428694994,
+        "LNP": 0.1968861498540382,
+        "ON": 0.4334522651097416
+      }
+    },
+    {
+      "Seat": "Casey",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 5.133779907644613,
+      "MeanSquaredErrorPP2": 32.9959441494351,
+      "ONErrorPP": -8.296490760667652,
+      "Prediction": {
+        "ALP": 0.10621440298353697,
+        "GRN": 0.10360948981609093,
+        "IND": 0.2165854558801535,
+        "LNP": 0.2231032938171534,
+        "ON": 0.3504873575030651
+      },
+      "Actual": {
+        "ALP": 0.0839009622661909,
+        "GRN": 0.1489890799005297,
+        "IND": 0.1367715428694994,
+        "LNP": 0.1968861498540382,
+        "ON": 0.4334522651097416
+      }
+    },
+    {
+      "Seat": "Casey",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 5.858402999457928,
+      "MeanSquaredErrorPP2": 54.39165866171129,
+      "ONErrorPP": -11.109951722507883,
+      "Prediction": {
+        "ALP": 0.11466359976998275,
+        "GRN": 0.11362852213916044,
+        "IND": 0.24922369177688328,
+        "LNP": 0.20013143842931078,
+        "ON": 0.3223527478846628
+      },
+      "Actual": {
+        "ALP": 0.0839009622661909,
+        "GRN": 0.1489890799005297,
+        "IND": 0.1367715428694994,
+        "LNP": 0.1968861498540382,
+        "ON": 0.4334522651097416
+      }
+    },
+    {
+      "Seat": "Casey",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 7.331592504348801,
+      "MeanSquaredErrorPP2": 91.98692825025041,
+      "ONErrorPP": -18.32898126087199,
+      "Prediction": {
+        "ALP": 0.16873813432784568,
+        "GRN": 0.167869829938697,
+        "IND": 0.20552848529338452,
+        "LNP": 0.20770109793905117,
+        "ON": 0.2501624525010217
+      },
+      "Actual": {
+        "ALP": 0.0839009622661909,
+        "GRN": 0.1489890799005297,
+        "IND": 0.1367715428694994,
+        "LNP": 0.1968861498540382,
+        "ON": 0.4334522651097416
+      }
+    },
+    {
+      "Seat": "Chisholm",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 10.133076181292191,
+      "MeanSquaredErrorPP2": 120.51109898090795,
+      "ONErrorPP": -18.259402121504337,
+      "Prediction": {
+        "ALP": 0.2,
+        "GRN": 0.2,
+        "IND": 0.2,
+        "LNP": 0.2,
+        "ON": 0.2
+      },
+      "Actual": {
+        "ALP": 0.1096914175506268,
+        "GRN": 0.103182256509161,
+        "IND": 0.1337994214079074,
+        "LNP": 0.2707328833172613,
+        "ON": 0.3825940212150434
+      }
+    },
+    {
+      "Seat": "Chisholm",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 3.5236464905788827,
+      "MeanSquaredErrorPP2": 21.442551651765022,
+      "ONErrorPP": -2.702083932250848,
+      "Prediction": {
+        "ALP": 0.10363535745509338,
+        "GRN": 0.10819017215522779,
+        "IND": 0.21688266802631265,
+        "LNP": 0.2157186204708311,
+        "ON": 0.3555731818925349
+      },
+      "Actual": {
+        "ALP": 0.1096914175506268,
+        "GRN": 0.103182256509161,
+        "IND": 0.1337994214079074,
+        "LNP": 0.2707328833172613,
+        "ON": 0.3825940212150434
+      }
+    },
+    {
+      "Seat": "Chisholm",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 4.957925346013409,
+      "MeanSquaredErrorPP2": 39.474148400225076,
+      "ONErrorPP": -4.845219057501671,
+      "Prediction": {
+        "ALP": 0.11066306885365187,
+        "GRN": 0.11924324652093503,
+        "IND": 0.2407149137434436,
+        "LNP": 0.19523694024194282,
+        "ON": 0.33414183064002667
+      },
+      "Actual": {
+        "ALP": 0.1096914175506268,
+        "GRN": 0.103182256509161,
+        "IND": 0.1337994214079074,
+        "LNP": 0.2707328833172613,
+        "ON": 0.3825940212150434
+      }
+    },
+    {
+      "Seat": "Chisholm",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 7.849185483113975,
+      "MeanSquaredErrorPP2": 68.62144842450262,
+      "ONErrorPP": -13.073629391753173,
+      "Prediction": {
+        "ALP": 0.16787845248503114,
+        "GRN": 0.1693967240517426,
+        "IND": 0.20562755600877092,
+        "LNP": 0.20523954015694373,
+        "ON": 0.25185772729751166
+      },
+      "Actual": {
+        "ALP": 0.1096914175506268,
+        "GRN": 0.103182256509161,
+        "IND": 0.1337994214079074,
+        "LNP": 0.2707328833172613,
+        "ON": 0.3825940212150434
+      }
+    },
+    {
+      "Seat": "Deakin",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 12.196248196248204,
+      "MeanSquaredErrorPP2": 182.29051492038525,
+      "ONErrorPP": -22.82106782106783,
+      "Prediction": {
+        "ALP": 0.2,
+        "GRN": 0.2,
+        "IND": 0.2,
+        "LNP": 0.2,
+        "ON": 0.2
+      },
+      "Actual": {
+        "ALP": 0.0773809523809523,
+        "GRN": 0.0811688311688311,
+        "IND": 0.1365440115440115,
+        "LNP": 0.2766955266955268,
+        "ON": 0.4282106782106783
+      }
+    },
+    {
+      "Seat": "Deakin",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 5.550893303209161,
+      "MeanSquaredErrorPP2": 35.76919750665983,
+      "ONErrorPP": -7.719916201770688,
+      "Prediction": {
+        "ALP": 0.10686640397206082,
+        "GRN": 0.11039151468926078,
+        "IND": 0.21660820901270225,
+        "LNP": 0.21512235613300454,
+        "ON": 0.35101151619297144
+      },
+      "Actual": {
+        "ALP": 0.0773809523809523,
+        "GRN": 0.0811688311688311,
+        "IND": 0.1365440115440115,
+        "LNP": 0.2766955266955268,
+        "ON": 0.4282106782106783
+      }
+    },
+    {
+      "Seat": "Deakin",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 7.3054320277489,
+      "MeanSquaredErrorPP2": 62.023892703197035,
+      "ONErrorPP": -9.903304153730058,
+      "Prediction": {
+        "ALP": 0.11345826235093696,
+        "GRN": 0.12148056372928605,
+        "IND": 0.2427907697072944,
+        "LNP": 0.19309276753910484,
+        "ON": 0.32917763667337774
+      },
+      "Actual": {
+        "ALP": 0.0773809523809523,
+        "GRN": 0.0811688311688311,
+        "IND": 0.1365440115440115,
+        "LNP": 0.2766955266955268,
+        "ON": 0.4282106782106783
+      }
+    },
+    {
+      "Seat": "Deakin",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 9.981129898568524,
+      "MeanSquaredErrorPP2": 115.66672305656414,
+      "ONErrorPP": -17.78735061463545,
+      "Prediction": {
+        "ALP": 0.16895546799068695,
+        "GRN": 0.1701305048964203,
+        "IND": 0.20553606967090077,
+        "LNP": 0.2050407853776682,
+        "ON": 0.2503371720643238
+      },
+      "Actual": {
+        "ALP": 0.0773809523809523,
+        "GRN": 0.0811688311688311,
+        "IND": 0.1365440115440115,
+        "LNP": 0.2766955266955268,
+        "ON": 0.4282106782106783
+      }
+    },
+    {
+      "Seat": "Flinders",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 9.627546071774976,
+      "MeanSquaredErrorPP2": 114.42456496522456,
+      "ONErrorPP": -12.68671193016489,
+      "Prediction": {
+        "ALP": 0.2,
+        "GRN": 0.2,
+        "IND": 0.2,
+        "LNP": 0.2,
+        "ON": 0.2
+      },
+      "Actual": {
+        "ALP": 0.0851115421920465,
+        "GRN": 0.074199806013579,
+        "IND": 0.3098933074684772,
+        "LNP": 0.2039282250242483,
+        "ON": 0.3268671193016489
+      }
+    },
+    {
+      "Seat": "Flinders",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 4.42480112192886,
+      "MeanSquaredErrorPP2": 31.108003796550754,
+      "ONErrorPP": 3.4278752782225475,
+      "Prediction": {
+        "ALP": 0.1060933449909514,
+        "GRN": 0.11108841720478599,
+        "IND": 0.1992732794202557,
+        "LNP": 0.22239908630013244,
+        "ON": 0.3611458720838744
+      },
+      "Actual": {
+        "ALP": 0.0851115421920465,
+        "GRN": 0.074199806013579,
+        "IND": 0.3098933074684772,
+        "LNP": 0.2039282250242483,
+        "ON": 0.3268671193016489
+      }
+    },
+    {
+      "Seat": "Flinders",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 3.38844244836791,
+      "MeanSquaredErrorPP2": 19.00075309423162,
+      "ONErrorPP": 1.0774947678196534,
+      "Prediction": {
+        "ALP": 0.11219881800272768,
+        "GRN": 0.12104864373389908,
+        "IND": 0.22967116229731777,
+        "LNP": 0.19943930898621004,
+        "ON": 0.33764206697984545
+      },
+      "Actual": {
+        "ALP": 0.0851115421920465,
+        "GRN": 0.074199806013579,
+        "IND": 0.3098933074684772,
+        "LNP": 0.2039282250242483,
+        "ON": 0.3268671193016489
+      }
+    },
+    {
+      "Seat": "Flinders",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 7.331495050749977,
+      "MeanSquaredErrorPP2": 67.45505849135867,
+      "ONErrorPP": -7.315182860702407,
+      "Prediction": {
+        "ALP": 0.1686977816636505,
+        "GRN": 0.17036280573492868,
+        "IND": 0.19975775980675192,
+        "LNP": 0.20746636210004415,
+        "ON": 0.25371529069462484
+      },
+      "Actual": {
+        "ALP": 0.0851115421920465,
+        "GRN": 0.074199806013579,
+        "IND": 0.3098933074684772,
+        "LNP": 0.2039282250242483,
+        "ON": 0.3268671193016489
+      }
+    },
+    {
+      "Seat": "Goldstein",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 12.629441624365485,
+      "MeanSquaredErrorPP2": 235.39235301746635,
+      "ONErrorPP": -28.33021640395405,
+      "Prediction": {
+        "ALP": 0.2,
+        "GRN": 0.2,
+        "IND": 0.2,
+        "LNP": 0.2,
+        "ON": 0.2
+      },
+      "Actual": {
+        "ALP": 0.1354528453112476,
+        "GRN": 0.056104728827144,
+        "IND": 0.0927063852524712,
+        "LNP": 0.2324338765695965,
+        "ON": 0.4833021640395405
+      }
+    },
+    {
+      "Seat": "Goldstein",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 7.403151299426822,
+      "MeanSquaredErrorPP2": 80.04079381313392,
+      "ONErrorPP": -13.779979642945534,
+      "Prediction": {
+        "ALP": 0.1010592146790313,
+        "GRN": 0.1128979249234295,
+        "IND": 0.2209919716418563,
+        "LNP": 0.21954852114559759,
+        "ON": 0.3455023676100852
+      },
+      "Actual": {
+        "ALP": 0.1354528453112476,
+        "GRN": 0.056104728827144,
+        "IND": 0.0927063852524712,
+        "LNP": 0.2324338765695965,
+        "ON": 0.4833021640395405
+      }
+    },
+    {
+      "Seat": "Goldstein",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 8.614760993459104,
+      "MeanSquaredErrorPP2": 104.97293394969537,
+      "ONErrorPP": -15.45441221236435,
+      "Prediction": {
+        "ALP": 0.10920432116436396,
+        "GRN": 0.12180018381522051,
+        "IND": 0.24237995510087237,
+        "LNP": 0.19785749800364616,
+        "ON": 0.328758041915897
+      },
+      "Actual": {
+        "ALP": 0.1354528453112476,
+        "GRN": 0.056104728827144,
+        "IND": 0.0927063852524712,
+        "LNP": 0.2324338765695965,
+        "ON": 0.4833021640395405
+      }
+    },
+    {
+      "Seat": "Goldstein",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 10.428763107623046,
+      "MeanSquaredErrorPP2": 166.11081238708564,
+      "ONErrorPP": -23.480137483617877,
+      "Prediction": {
+        "ALP": 0.1670197382263438,
+        "GRN": 0.17096597497447652,
+        "IND": 0.20699732388061878,
+        "LNP": 0.2065161737151992,
+        "ON": 0.24850078920336174
+      },
+      "Actual": {
+        "ALP": 0.1354528453112476,
+        "GRN": 0.056104728827144,
+        "IND": 0.0927063852524712,
+        "LNP": 0.2324338765695965,
+        "ON": 0.4833021640395405
+      }
+    },
+    {
+      "Seat": "Indi",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 8.355169501749309,
+      "MeanSquaredErrorPP2": 96.24514905726261,
+      "ONErrorPP": -16.421763783327297,
+      "Prediction": {
+        "ALP": 0.2,
+        "GRN": 0.2,
+        "IND": 0.2,
+        "LNP": 0.2,
+        "ON": 0.2
+      },
+      "Actual": {
+        "ALP": 0.0778139703221136,
+        "GRN": 0.1412715647243334,
+        "IND": 0.2446615997104596,
+        "LNP": 0.1720352274098202,
+        "ON": 0.364217637833273
+      }
+    },
+    {
+      "Seat": "Indi",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 3.302491620303443,
+      "MeanSquaredErrorPP2": 13.254398210250281,
+      "ONErrorPP": -0.6806817602561077,
+      "Prediction": {
+        "ALP": 0.1068231021779447,
+        "GRN": 0.10438124133371056,
+        "IND": 0.20579645019605747,
+        "LNP": 0.22558838606157522,
+        "ON": 0.3574108202307119
+      },
+      "Actual": {
+        "ALP": 0.0778139703221136,
+        "GRN": 0.1412715647243334,
+        "IND": 0.2446615997104596,
+        "LNP": 0.1720352274098202,
+        "ON": 0.364217637833273
+      }
+    },
+    {
+      "Seat": "Indi",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 2.7426273191900927,
+      "MeanSquaredErrorPP2": 8.268938262852911,
+      "ONErrorPP": -3.0857346688913934,
+      "Prediction": {
+        "ALP": 0.11500202183582693,
+        "GRN": 0.11521229276182773,
+        "IND": 0.23301253538212696,
+        "LNP": 0.20341285887585928,
+        "ON": 0.33336029114435906
+      },
+      "Actual": {
+        "ALP": 0.0778139703221136,
+        "GRN": 0.1412715647243334,
+        "IND": 0.2446615997104596,
+        "LNP": 0.1720352274098202,
+        "ON": 0.364217637833273
+      }
+    },
+    {
+      "Seat": "Indi",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 6.179072562725716,
+      "MeanSquaredErrorPP2": 49.34093790450699,
+      "ONErrorPP": -11.174736442303567,
+      "Prediction": {
+        "ALP": 0.16894103405931493,
+        "GRN": 0.1681270804445702,
+        "IND": 0.2019321500653525,
+        "LNP": 0.20852946202052508,
+        "ON": 0.2524702734102373
+      },
+      "Actual": {
+        "ALP": 0.0778139703221136,
+        "GRN": 0.1412715647243334,
+        "IND": 0.2446615997104596,
+        "LNP": 0.1720352274098202,
+        "ON": 0.364217637833273
+      }
+    },
+    {
+      "Seat": "Kooyong",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 14.62716429395922,
+      "MeanSquaredErrorPP2": 228.99884097251729,
+      "ONErrorPP": -21.32358599461332,
+      "Prediction": {
+        "ALP": 0.2,
+        "GRN": 0.2,
+        "IND": 0.2,
+        "LNP": 0.2,
+        "ON": 0.2
+      },
+      "Actual": {
+        "ALP": 0.0631011927664486,
+        "GRN": 0.0646402462485571,
+        "IND": 0.1065794536360138,
+        "LNP": 0.3524432474028472,
+        "ON": 0.4132358599461332
+      }
+    },
+    {
+      "Seat": "Kooyong",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 8.224901010691276,
+      "MeanSquaredErrorPP2": 83.49355758079494,
+      "ONErrorPP": -6.072686192670728,
+      "Prediction": {
+        "ALP": 0.10829437993351118,
+        "GRN": 0.1120443731812882,
+        "IND": 0.21960466480350202,
+        "LNP": 0.20754758406227253,
+        "ON": 0.3525089980194259
+      },
+      "Actual": {
+        "ALP": 0.0631011927664486,
+        "GRN": 0.0646402462485571,
+        "IND": 0.1065794536360138,
+        "LNP": 0.3524432474028472,
+        "ON": 0.4132358599461332
+      }
+    },
+    {
+      "Seat": "Kooyong",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 9.511264123626699,
+      "MeanSquaredErrorPP2": 109.16483763795448,
+      "ONErrorPP": -7.916195044454099,
+      "Prediction": {
+        "ALP": 0.11243427386506702,
+        "GRN": 0.1203584388654373,
+        "IND": 0.2393097830111827,
+        "LNP": 0.19382359475672073,
+        "ON": 0.3340739095015922
+      },
+      "Actual": {
+        "ALP": 0.0631011927664486,
+        "GRN": 0.0646402462485571,
+        "IND": 0.1065794536360138,
+        "LNP": 0.3524432474028472,
+        "ON": 0.4132358599461332
+      }
+    },
+    {
+      "Seat": "Kooyong",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 12.493076532869907,
+      "MeanSquaredErrorPP2": 162.78756143084289,
+      "ONErrorPP": -16.239952727299123,
+      "Prediction": {
+        "ALP": 0.1694314599778371,
+        "GRN": 0.1706814577270961,
+        "IND": 0.20653488826783403,
+        "LNP": 0.20251586135409086,
+        "ON": 0.250836332673142
+      },
+      "Actual": {
+        "ALP": 0.0631011927664486,
+        "GRN": 0.0646402462485571,
+        "IND": 0.1065794536360138,
+        "LNP": 0.3524432474028472,
+        "ON": 0.4132358599461332
+      }
+    },
+    {
+      "Seat": "Menzies",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 8.923657574197978,
+      "MeanSquaredErrorPP2": 93.31898372796077,
+      "ONErrorPP": -15.100360267627376,
+      "Prediction": {
+        "ALP": 0.2,
+        "GRN": 0.2,
+        "IND": 0.2,
+        "LNP": 0.2,
+        "ON": 0.2
+      },
+      "Actual": {
+        "ALP": 0.0929833590667352,
+        "GRN": 0.1266083376222336,
+        "IND": 0.1573168639560816,
+        "LNP": 0.2720878366786756,
+        "ON": 0.3510036026762738
+      }
+    },
+    {
+      "Seat": "Menzies",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 3.0906194048919624,
+      "MeanSquaredErrorPP2": 14.217647749407499,
+      "ONErrorPP": 0.7728621070138109,
+      "Prediction": {
+        "ALP": 0.10530616330348255,
+        "GRN": 0.10584756404392053,
+        "IND": 0.21453092377149524,
+        "LNP": 0.21558312513468966,
+        "ON": 0.3587322237464119
+      },
+      "Actual": {
+        "ALP": 0.0929833590667352,
+        "GRN": 0.1266083376222336,
+        "IND": 0.1573168639560816,
+        "LNP": 0.2720878366786756,
+        "ON": 0.3510036026762738
+      }
+    },
+    {
+      "Seat": "Menzies",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 4.13125933762353,
+      "MeanSquaredErrorPP2": 27.967501664104695,
+      "ONErrorPP": -1.526431668420719,
+      "Prediction": {
+        "ALP": 0.11220346892743252,
+        "GRN": 0.11753908376759742,
+        "IND": 0.24137823753597262,
+        "LNP": 0.19313992377693084,
+        "ON": 0.3357392859920666
+      },
+      "Actual": {
+        "ALP": 0.0929833590667352,
+        "GRN": 0.1266083376222336,
+        "IND": 0.1573168639560816,
+        "LNP": 0.2720878366786756,
+        "ON": 0.3510036026762738
+      }
+    },
+    {
+      "Seat": "Menzies",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 6.599452922449958,
+      "MeanSquaredErrorPP2": 47.62675871516847,
+      "ONErrorPP": -9.80928614274698,
+      "Prediction": {
+        "ALP": 0.16843538776782754,
+        "GRN": 0.16861585468130685,
+        "IND": 0.2048436412571651,
+        "LNP": 0.20519437504489657,
+        "ON": 0.25291074124880397
+      },
+      "Actual": {
+        "ALP": 0.0929833590667352,
+        "GRN": 0.1266083376222336,
+        "IND": 0.1573168639560816,
+        "LNP": 0.2720878366786756,
+        "ON": 0.3510036026762738
+      }
+    },
+    {
+      "Seat": "Monash",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 8.12610340479193,
+      "MeanSquaredErrorPP2": 72.7651312159199,
+      "ONErrorPP": -7.755359394703648,
+      "Prediction": {
+        "ALP": 0.2,
+        "GRN": 0.2,
+        "IND": 0.2,
+        "LNP": 0.2,
+        "ON": 0.2
+      },
+      "Actual": {
+        "ALP": 0.1087011349306431,
+        "GRN": 0.1431273644388398,
+        "IND": 0.3255989911727617,
+        "LNP": 0.1450189155107188,
+        "ON": 0.2775535939470365
+      }
+    },
+    {
+      "Seat": "Monash",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 6.871789296522628,
+      "MeanSquaredErrorPP2": 65.33662828800826,
+      "ONErrorPP": 8.852363067229913,
+      "Prediction": {
+        "ALP": 0.10373438571709175,
+        "GRN": 0.10419566136225991,
+        "IND": 0.19770271104982723,
+        "LNP": 0.22829001725148537,
+        "ON": 0.3660772246193356
+      },
+      "Actual": {
+        "ALP": 0.1087011349306431,
+        "GRN": 0.1431273644388398,
+        "IND": 0.3255989911727617,
+        "LNP": 0.1450189155107188,
+        "ON": 0.2775535939470365
+      }
+    },
+    {
+      "Seat": "Monash",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 5.233680494887322,
+      "MeanSquaredErrorPP2": 39.32105029514263,
+      "ONErrorPP": 6.703665434834494,
+      "Prediction": {
+        "ALP": 0.11084844976199666,
+        "GRN": 0.11512607744757494,
+        "IND": 0.22275826579184357,
+        "LNP": 0.2066769587032034,
+        "ON": 0.34459024829538143
+      },
+      "Actual": {
+        "ALP": 0.1087011349306431,
+        "GRN": 0.1431273644388398,
+        "IND": 0.3255989911727617,
+        "LNP": 0.1450189155107188,
+        "ON": 0.2775535939470365
+      }
+    },
+    {
+      "Seat": "Monash",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 5.942370929203092,
+      "MeanSquaredErrorPP2": 49.474391597748635,
+      "ONErrorPP": -2.219451907392461,
+      "Prediction": {
+        "ALP": 0.16791146190569728,
+        "GRN": 0.16806522045408667,
+        "IND": 0.19923423701660908,
+        "LNP": 0.20943000575049514,
+        "ON": 0.2553590748731119
+      },
+      "Actual": {
+        "ALP": 0.1087011349306431,
+        "GRN": 0.1431273644388398,
+        "IND": 0.3255989911727617,
+        "LNP": 0.1450189155107188,
+        "ON": 0.2775535939470365
+      }
+    },
+    {
+      "Seat": "Wannon",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 6.90696161353286,
+      "MeanSquaredErrorPP2": 63.32077672878372,
+      "ONErrorPP": -12.908262849707219,
+      "Prediction": {
+        "ALP": 0.2,
+        "GRN": 0.2,
+        "IND": 0.2,
+        "LNP": 0.2,
+        "ON": 0.2
+      },
+      "Actual": {
+        "ALP": 0.1212752114508783,
+        "GRN": 0.117761873780091,
+        "IND": 0.2435914118412492,
+        "LNP": 0.1882888744307091,
+        "ON": 0.3290826284970722
+      }
+    },
+    {
+      "Seat": "Wannon",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 2.700633583841481,
+      "MeanSquaredErrorPP2": 8.363892479970723,
+      "ONErrorPP": 3.1841692667259833,
+      "Prediction": {
+        "ALP": 0.10247697806506824,
+        "GRN": 0.10673221042813479,
+        "IND": 0.20590346898297848,
+        "LNP": 0.22396302135948631,
+        "ON": 0.36092432116433204
+      },
+      "Actual": {
+        "ALP": 0.1212752114508783,
+        "GRN": 0.117761873780091,
+        "IND": 0.2435914118412492,
+        "LNP": 0.1882888744307091,
+        "ON": 0.3290826284970722
+      }
+    },
+    {
+      "Seat": "Wannon",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 0.8926994989535203,
+      "MeanSquaredErrorPP2": 0.9886505743849142,
+      "ONErrorPP": 0.8901321269863038,
+      "Prediction": {
+        "ALP": 0.10929215588909001,
+        "GRN": 0.11835845520511301,
+        "IND": 0.23325697992919958,
+        "LNP": 0.20110845920966217,
+        "ON": 0.33798394976693524
+      },
+      "Actual": {
+        "ALP": 0.1212752114508783,
+        "GRN": 0.117761873780091,
+        "IND": 0.2435914118412492,
+        "LNP": 0.1882888744307091,
+        "ON": 0.3290826284970722
+      }
+    },
+    {
+      "Seat": "Wannon",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 10,
+      "MeanAbsErrorPP": 4.682591078235387,
+      "MeanSquaredErrorPP2": 25.128333152578424,
+      "ONErrorPP": -7.544118810896149,
+      "Prediction": {
+        "ALP": 0.16749232602168945,
+        "GRN": 0.1689107368093783,
+        "IND": 0.2019678229943262,
+        "LNP": 0.20798767378649546,
+        "ON": 0.2536414403881107
+      },
+      "Actual": {
+        "ALP": 0.1212752114508783,
+        "GRN": 0.117761873780091,
+        "IND": 0.2435914118412492,
+        "LNP": 0.1882888744307091,
+        "ON": 0.3290826284970722
+      }
+    },
+    {
+      "Seat": "Aston",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 4.748967127716905,
+      "MeanSquaredErrorPP2": 31.343060831959367,
+      "ONErrorPP": -9.4979342554338,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.2001077779773666,
+        "GRN": 0.2297467217531884,
+        "LNP": 0.2251661577151068,
+        "ON": 0.344979342554338
+      }
+    },
+    {
+      "Seat": "Aston",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 0.721418803464495,
+      "MeanSquaredErrorPP2": 0.6573540116868274,
+      "ONErrorPP": 0.25506261074458303,
+      "Prediction": {
+        "ALP": 0.19526697876255614,
+        "GRN": 0.24162447171503254,
+        "LNP": 0.21557858086062745,
+        "ON": 0.3475299686617838
+      },
+      "Actual": {
+        "ALP": 0.2001077779773666,
+        "GRN": 0.2297467217531884,
+        "LNP": 0.2251661577151068,
+        "ON": 0.344979342554338
+      }
+    },
+    {
+      "Seat": "Aston",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 1.1373577604363008,
+      "MeanSquaredErrorPP2": 2.479185322264834,
+      "ONErrorPP": 0.03551098359216298,
+      "Prediction": {
+        "ALP": 0.20073466853687139,
+        "GRN": 0.2515118765664881,
+        "LNP": 0.20241900250638092,
+        "ON": 0.3453344523902596
+      },
+      "Actual": {
+        "ALP": 0.2001077779773666,
+        "GRN": 0.2297467217531884,
+        "LNP": 0.2251661577151068,
+        "ON": 0.344979342554338
+      }
+    },
+    {
+      "Seat": "Aston",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 2.37323712185294,
+      "MeanSquaredErrorPP2": 7.797530505949355,
+      "ONErrorPP": -4.7464742437058725,
+      "Prediction": {
+        "ALP": 0.22333519478175812,
+        "GRN": 0.24591961442527224,
+        "LNP": 0.2332305906756903,
+        "ON": 0.29751460011727926
+      },
+      "Actual": {
+        "ALP": 0.2001077779773666,
+        "GRN": 0.2297467217531884,
+        "LNP": 0.2251661577151068,
+        "ON": 0.344979342554338
+      }
+    },
+    {
+      "Seat": "Ballarat",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 6.1067019400352756,
+      "MeanSquaredErrorPP2": 53.64253354688844,
+      "ONErrorPP": -12.213403880070539,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.2203228869895536,
+        "GRN": 0.1774521774521774,
+        "LNP": 0.2300908967575634,
+        "ON": 0.3721340388007054
+      }
+    },
+    {
+      "Seat": "Ballarat",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 3.346231934987518,
+      "MeanSquaredErrorPP2": 15.14270719514592,
+      "ONErrorPP": -2.6033264678204104,
+      "Prediction": {
+        "ALP": 0.1942030256566516,
+        "GRN": 0.24437681615192783,
+        "LNP": 0.2153193840689192,
+        "ON": 0.3461007741225013
+      },
+      "Actual": {
+        "ALP": 0.2203228869895536,
+        "GRN": 0.1774521774521774,
+        "LNP": 0.2300908967575634,
+        "ON": 0.3721340388007054
+      }
+    },
+    {
+      "Seat": "Ballarat",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 3.7883896700342854,
+      "MeanSquaredErrorPP2": 19.223201838319397,
+      "ONErrorPP": -2.793336245208761,
+      "Prediction": {
+        "ALP": 0.19988296130408117,
+        "GRN": 0.25321997085286324,
+        "LNP": 0.20269639149443786,
+        "ON": 0.3442006763486178
+      },
+      "Actual": {
+        "ALP": 0.2203228869895536,
+        "GRN": 0.1774521774521774,
+        "LNP": 0.2300908967575634,
+        "ON": 0.3721340388007054
+      }
+    },
+    {
+      "Seat": "Ballarat",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 3.7657856473076783,
+      "MeanSquaredErrorPP2": 26.402397810617803,
+      "ONErrorPP": -7.531571294615347,
+      "Prediction": {
+        "ALP": 0.22281685865324052,
+        "GRN": 0.24726050017658022,
+        "LNP": 0.2331043153156273,
+        "ON": 0.2968183258545519
+      },
+      "Actual": {
+        "ALP": 0.2203228869895536,
+        "GRN": 0.1774521774521774,
+        "LNP": 0.2300908967575634,
+        "ON": 0.3721340388007054
+      }
+    },
+    {
+      "Seat": "Bendigo",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 4.241197514592359,
+      "MeanSquaredErrorPP2": 34.45767854406049,
+      "ONErrorPP": 0.25889662963660964,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1677650160045189,
+        "GRN": 0.3337412916588213,
+        "LNP": 0.2510826586330258,
+        "ON": 0.2474110337036339
+      }
+    },
+    {
+      "Seat": "Bendigo",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 6.722916124818706,
+      "MeanSquaredErrorPP2": 57.036053464821734,
+      "ONErrorPP": 10.525410910818698,
+      "Prediction": {
+        "ALP": 0.19696922939270603,
+        "GRN": 0.23615107329894658,
+        "LNP": 0.21421455449652643,
+        "ON": 0.3526651428118209
+      },
+      "Actual": {
+        "ALP": 0.1677650160045189,
+        "GRN": 0.3337412916588213,
+        "LNP": 0.2510826586330258,
+        "ON": 0.2474110337036339
+      }
+    },
+    {
+      "Seat": "Bendigo",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 6.939973221312215,
+      "MeanSquaredErrorPP2": 55.94965674836266,
+      "ONErrorPP": 10.386255228348121,
+      "Prediction": {
+        "ALP": 0.20270192814728202,
+        "GRN": 0.245116582983699,
+        "LNP": 0.20090790288190385,
+        "ON": 0.3512735859871151
+      },
+      "Actual": {
+        "ALP": 0.1677650160045189,
+        "GRN": 0.3337412916588213,
+        "LNP": 0.2510826586330258,
+        "ON": 0.2474110337036339
+      }
+    },
+    {
+      "Seat": "Bendigo",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 5.45023991444622,
+      "MeanSquaredErrorPP2": 36.19800070637295,
+      "ONErrorPP": 5.260531792263781,
+      "Prediction": {
+        "ALP": 0.2241644963708055,
+        "GRN": 0.2432530869917945,
+        "LNP": 0.23256606501112825,
+        "ON": 0.3000163516262717
+      },
+      "Actual": {
+        "ALP": 0.1677650160045189,
+        "GRN": 0.3337412916588213,
+        "LNP": 0.2510826586330258,
+        "ON": 0.2474110337036339
+      }
+    },
+    {
+      "Seat": "Bruce",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 7.606535220225793,
+      "MeanSquaredErrorPP2": 78.72593888361463,
+      "ONErrorPP": -15.213070440451581,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1986802353315312,
+        "GRN": 0.1818254094450628,
+        "LNP": 0.2173636508188901,
+        "ON": 0.4021307044045158
+      }
+    },
+    {
+      "Seat": "Bruce",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 3.1160618300988165,
+      "MeanSquaredErrorPP2": 18.03932791668343,
+      "ONErrorPP": -5.7608702155899305,
+      "Prediction": {
+        "ALP": 0.19534211258602116,
+        "GRN": 0.2441466460470391,
+        "LNP": 0.21598923911832305,
+        "ON": 0.3445220022486165
+      },
+      "Actual": {
+        "ALP": 0.1986802353315312,
+        "GRN": 0.1818254094450628,
+        "LNP": 0.2173636508188901,
+        "ON": 0.4021307044045158
+      }
+    },
+    {
+      "Seat": "Bruce",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 3.776319968552972,
+      "MeanSquaredErrorPP2": 23.287703897690673,
+      "ONErrorPP": -6.096023510382947,
+      "Prediction": {
+        "ALP": 0.20084399925802263,
+        "GRN": 0.25518804488963087,
+        "LNP": 0.20279748655166016,
+        "ON": 0.34117046930068634
+      },
+      "Actual": {
+        "ALP": 0.1986802353315312,
+        "GRN": 0.1818254094450628,
+        "LNP": 0.2173636508188901,
+        "ON": 0.4021307044045158
+      }
+    },
+    {
+      "Seat": "Bruce",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 5.3040761910928245,
+      "MeanSquaredErrorPP2": 40.970500657646774,
+      "ONErrorPP": -10.608152382185654,
+      "Prediction": {
+        "ALP": 0.22337179843934363,
+        "GRN": 0.24714836602291645,
+        "LNP": 0.23343065495508045,
+        "ON": 0.2960491805826593
+      },
+      "Actual": {
+        "ALP": 0.1986802353315312,
+        "GRN": 0.1818254094450628,
+        "LNP": 0.2173636508188901,
+        "ON": 0.4021307044045158
+      }
+    },
+    {
+      "Seat": "Corio",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 9.584675724891442,
+      "MeanSquaredErrorPP2": 127.75867486442397,
+      "ONErrorPP": -1.9925759910351615,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1917635523182518,
+        "GRN": 0.4217677545874772,
+        "LNP": 0.1165429331839193,
+        "ON": 0.2699257599103516
+      }
+    },
+    {
+      "Seat": "Corio",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 9.512482651080887,
+      "MeanSquaredErrorPP2": 134.58678482931816,
+      "ONErrorPP": 8.155439731164199,
+      "Prediction": {
+        "ALP": 0.19570614853408852,
+        "GRN": 0.23151810156585945,
+        "LNP": 0.22129559267805834,
+        "ON": 0.3514801572219936
+      },
+      "Actual": {
+        "ALP": 0.1917635523182518,
+        "GRN": 0.4217677545874772,
+        "LNP": 0.1165429331839193,
+        "ON": 0.2699257599103516
+      }
+    },
+    {
+      "Seat": "Corio",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 8.922398215406533,
+      "MeanSquaredErrorPP2": 115.78241708785997,
+      "ONErrorPP": 7.8411703773471455,
+      "Prediction": {
+        "ALP": 0.20105534669656253,
+        "GRN": 0.24331979027934655,
+        "LNP": 0.20728739934026782,
+        "ON": 0.34833746368382307
+      },
+      "Actual": {
+        "ALP": 0.1917635523182518,
+        "GRN": 0.4217677545874772,
+        "LNP": 0.1165429331839193,
+        "ON": 0.2699257599103516
+      }
+    },
+    {
+      "Seat": "Corio",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 9.038587819436259,
+      "MeanSquaredErrorPP2": 122.0838817724198,
+      "ONErrorPP": 2.951329104395295,
+      "Prediction": {
+        "ALP": 0.22354914928583797,
+        "GRN": 0.240995998198752,
+        "LNP": 0.23601580156110535,
+        "ON": 0.29943905095430456
+      },
+      "Actual": {
+        "ALP": 0.1917635523182518,
+        "GRN": 0.4217677545874772,
+        "LNP": 0.1165429331839193,
+        "ON": 0.2699257599103516
+      }
+    },
+    {
+      "Seat": "Dunkley",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 3.559325579449415,
+      "MeanSquaredErrorPP2": 18.795242729668715,
+      "ONErrorPP": -2.462137059660269,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.253786294033972,
+        "GRN": 0.2927788469584135,
+        "LNP": 0.1788134884110116,
+        "ON": 0.2746213705966027
+      }
+    },
+    {
+      "Seat": "Dunkley",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 5.790817792218346,
+      "MeanSquaredErrorPP2": 35.341711454123164,
+      "ONErrorPP": 7.66116492208514,
+      "Prediction": {
+        "ALP": 0.19244179370694536,
+        "GRN": 0.23830699144107328,
+        "LNP": 0.21801819503452716,
+        "ON": 0.3512330198174541
+      },
+      "Actual": {
+        "ALP": 0.253786294033972,
+        "GRN": 0.2927788469584135,
+        "LNP": 0.1788134884110116,
+        "ON": 0.2746213705966027
+      }
+    },
+    {
+      "Seat": "Dunkley",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 5.1134469837184735,
+      "MeanSquaredErrorPP2": 29.291008258292365,
+      "ONErrorPP": 7.557124920598368,
+      "Prediction": {
+        "ALP": 0.19703244214186288,
+        "GRN": 0.24726375917615326,
+        "LNP": 0.2055111788793975,
+        "ON": 0.35019261980258637
+      },
+      "Actual": {
+        "ALP": 0.253786294033972,
+        "GRN": 0.2927788469584135,
+        "LNP": 0.1788134884110116,
+        "ON": 0.2746213705966027
+      }
+    },
+    {
+      "Seat": "Dunkley",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 4.015145616526516,
+      "MeanSquaredErrorPP2": 17.661995720680775,
+      "ONErrorPP": 2.4697280083695428,
+      "Prediction": {
+        "ALP": 0.22195882257517852,
+        "GRN": 0.24430340608667672,
+        "LNP": 0.23441912065784654,
+        "ON": 0.2993186506802981
+      },
+      "Actual": {
+        "ALP": 0.253786294033972,
+        "GRN": 0.2927788469584135,
+        "LNP": 0.1788134884110116,
+        "ON": 0.2746213705966027
+      }
+    },
+    {
+      "Seat": "Gellibrand",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 5.3116469517743425,
+      "MeanSquaredErrorPP2": 40.33699467047966,
+      "ONErrorPP": -10.623293903548682,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1910828025477707,
+        "GRN": 0.2377161055505004,
+        "LNP": 0.214968152866242,
+        "ON": 0.3562329390354868
+      }
+    },
+    {
+      "Seat": "Gellibrand",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 0.46476324626712057,
+      "MeanSquaredErrorPP2": 0.30399611442973773,
+      "ONErrorPP": -0.9295264925342439,
+      "Prediction": {
+        "ALP": 0.195741977469377,
+        "GRN": 0.2412050304625424,
+        "LNP": 0.2161153179579361,
+        "ON": 0.34693767411014437
+      },
+      "Actual": {
+        "ALP": 0.1910828025477707,
+        "GRN": 0.2377161055505004,
+        "LNP": 0.214968152866242,
+        "ON": 0.3562329390354868
+      }
+    },
+    {
+      "Seat": "Gellibrand",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 1.1319164167296627,
+      "MeanSquaredErrorPP2": 1.2921449319310478,
+      "ONErrorPP": -1.1185510786624109,
+      "Prediction": {
+        "ALP": 0.20093085547942932,
+        "GRN": 0.2505063809534351,
+        "LNP": 0.20351533531827287,
+        "ON": 0.3450474282488627
+      },
+      "Actual": {
+        "ALP": 0.1910828025477707,
+        "GRN": 0.2377161055505004,
+        "LNP": 0.214968152866242,
+        "ON": 0.3562329390354868
+      }
+    },
+    {
+      "Seat": "Gellibrand",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 2.9503446337067216,
+      "MeanSquaredErrorPP2": 12.360333049668375,
+      "ONErrorPP": -5.900689267413445,
+      "Prediction": {
+        "ALP": 0.223566604408158,
+        "GRN": 0.2457152712509822,
+        "LNP": 0.23349207797950733,
+        "ON": 0.29722604636135236
+      },
+      "Actual": {
+        "ALP": 0.1910828025477707,
+        "GRN": 0.2377161055505004,
+        "LNP": 0.214968152866242,
+        "ON": 0.3562329390354868
+      }
+    },
+    {
+      "Seat": "Gippsland",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 15.39812646370024,
+      "MeanSquaredErrorPP2": 237.89499339106797,
+      "ONErrorPP": -16.59836065573771,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.0998243559718969,
+        "GRN": 0.0922131147540983,
+        "LNP": 0.3919789227166277,
+        "ON": 0.4159836065573771
+      }
+    },
+    {
+      "Seat": "Gippsland",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 12.86853327443378,
+      "MeanSquaredErrorPP2": 185.46746786610257,
+      "ONErrorPP": -7.219070442206904,
+      "Prediction": {
+        "ALP": 0.20054505360494929,
+        "GRN": 0.24886308260972145,
+        "LNP": 0.20679896165002107,
+        "ON": 0.34379290213530805
+      },
+      "Actual": {
+        "ALP": 0.0998243559718969,
+        "GRN": 0.0922131147540983,
+        "LNP": 0.3919789227166277,
+        "ON": 0.4159836065573771
+      }
+    },
+    {
+      "Seat": "Gippsland",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 13.186472622203931,
+      "MeanSquaredErrorPP2": 196.03510922506436,
+      "ONErrorPP": -7.199932702370687,
+      "Prediction": {
+        "ALP": 0.20259365676981847,
+        "GRN": 0.2531732664002554,
+        "LNP": 0.20024879729625594,
+        "ON": 0.3439842795336702
+      },
+      "Actual": {
+        "ALP": 0.0998243559718969,
+        "GRN": 0.0922131147540983,
+        "LNP": 0.3919789227166277,
+        "ON": 0.4159836065573771
+      }
+    },
+    {
+      "Seat": "Gippsland",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 14.165760550980682,
+      "MeanSquaredErrorPP2": 204.1646891188192,
+      "ONErrorPP": -12.028962859402192,
+      "Prediction": {
+        "ALP": 0.22590656457677016,
+        "GRN": 0.24944611716883863,
+        "LNP": 0.2289533402910359,
+        "ON": 0.29569397796335517
+      },
+      "Actual": {
+        "ALP": 0.0998243559718969,
+        "GRN": 0.0922131147540983,
+        "LNP": 0.3919789227166277,
+        "ON": 0.4159836065573771
+      }
+    },
+    {
+      "Seat": "Gorton",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 4.67925461741425,
+      "MeanSquaredErrorPP2": 33.94537259991922,
+      "ONErrorPP": 0.5524406332453907,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.3435850923482849,
+        "GRN": 0.227325197889182,
+        "LNP": 0.1846141160949868,
+        "ON": 0.2444755936675461
+      }
+    },
+    {
+      "Seat": "Gorton",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 7.793477559209908,
+      "MeanSquaredErrorPP2": 93.34352256843614,
+      "ONErrorPP": 10.834404598827938,
+      "Prediction": {
+        "ALP": 0.18771554116408679,
+        "GRN": 0.24175192033945392,
+        "LNP": 0.21771289884063375,
+        "ON": 0.35281963965582547
+      },
+      "Actual": {
+        "ALP": 0.3435850923482849,
+        "GRN": 0.227325197889182,
+        "LNP": 0.1846141160949868,
+        "ON": 0.2444755936675461
+      }
+    },
+    {
+      "Seat": "Gorton",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 7.6453685615175795,
+      "MeanSquaredErrorPP2": 90.11289288241709,
+      "ONErrorPP": 10.790816692726665,
+      "Prediction": {
+        "ALP": 0.1906777211179334,
+        "GRN": 0.25180675524103563,
+        "LNP": 0.20513176304621825,
+        "ON": 0.35238376059481274
+      },
+      "Actual": {
+        "ALP": 0.3435850923482849,
+        "GRN": 0.227325197889182,
+        "LNP": 0.1846141160949868,
+        "ON": 0.2444755936675461
+      }
+    },
+    {
+      "Seat": "Gorton",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 6.196440153160851,
+      "MeanSquaredErrorPP2": 53.16325247330036,
+      "ONErrorPP": 5.561602565195859,
+      "Prediction": {
+        "ALP": 0.21965628928506792,
+        "GRN": 0.2459817047807596,
+        "LNP": 0.2342703866146677,
+        "ON": 0.3000916193195047
+      },
+      "Actual": {
+        "ALP": 0.3435850923482849,
+        "GRN": 0.227325197889182,
+        "LNP": 0.1846141160949868,
+        "ON": 0.2444755936675461
+      }
+    },
+    {
+      "Seat": "Hawke",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 6.339424237200484,
+      "MeanSquaredErrorPP2": 58.353000054885975,
+      "ONErrorPP": -1.0299948284778482,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.2151353214962937,
+        "GRN": 0.3664885364592312,
+        "LNP": 0.1580761937596966,
+        "ON": 0.2602999482847785
+      }
+    },
+    {
+      "Seat": "Hawke",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 7.636013421857254,
+      "MeanSquaredErrorPP2": 74.99617264760387,
+      "ONErrorPP": 9.168683060171896,
+      "Prediction": {
+        "ALP": 0.19447605541945473,
+        "GRN": 0.23442753409892503,
+        "LNP": 0.2191096315951227,
+        "ON": 0.35198677888649743
+      },
+      "Actual": {
+        "ALP": 0.2151353214962937,
+        "GRN": 0.3664885364592312,
+        "LNP": 0.1580761937596966,
+        "ON": 0.2602999482847785
+      }
+    },
+    {
+      "Seat": "Hawke",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 6.973323765617248,
+      "MeanSquaredErrorPP2": 65.58330220633226,
+      "ONErrorPP": 9.069839165804177,
+      "Prediction": {
+        "ALP": 0.199731393525777,
+        "GRN": 0.24242598911740293,
+        "LNP": 0.20684427741399983,
+        "ON": 0.35099833994282026
+      },
+      "Actual": {
+        "ALP": 0.2151353214962937,
+        "GRN": 0.3664885364592312,
+        "LNP": 0.1580761937596966,
+        "ON": 0.2602999482847785
+      }
+    },
+    {
+      "Seat": "Hawke",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 6.203756120551848,
+      "MeanSquaredErrorPP2": 57.2916649132297,
+      "ONErrorPP": 3.93859183522331,
+      "Prediction": {
+        "ALP": 0.2229498731530677,
+        "GRN": 0.24241341404819422,
+        "LNP": 0.23495084616172643,
+        "ON": 0.2996858666370116
+      },
+      "Actual": {
+        "ALP": 0.2151353214962937,
+        "GRN": 0.3664885364592312,
+        "LNP": 0.1580761937596966,
+        "ON": 0.2602999482847785
+      }
+    },
+    {
+      "Seat": "Holt",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 6.022155085599196,
+      "MeanSquaredErrorPP2": 43.12830802526043,
+      "ONErrorPP": -4.929506545820739,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.2251762336354481,
+        "GRN": 0.3211480362537764,
+        "LNP": 0.1543806646525679,
+        "ON": 0.2992950654582074
+      }
+    },
+    {
+      "Seat": "Holt",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 5.7781403657361885,
+      "MeanSquaredErrorPP2": 37.16719589266493,
+      "ONErrorPP": 5.063933884021488,
+      "Prediction": {
+        "ALP": 0.1939475863594992,
+        "GRN": 0.23681387621500155,
+        "LNP": 0.21930413312707683,
+        "ON": 0.34993440429842226
+      },
+      "Actual": {
+        "ALP": 0.2251762336354481,
+        "GRN": 0.3211480362537764,
+        "LNP": 0.1543806646525679,
+        "ON": 0.2992950654582074
+      }
+    },
+    {
+      "Seat": "Holt",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 5.041721601334945,
+      "MeanSquaredErrorPP2": 28.448542048823327,
+      "ONErrorPP": 4.862683451895633,
+      "Prediction": {
+        "ALP": 0.19930920301438684,
+        "GRN": 0.24618063484813885,
+        "LNP": 0.20658826216031057,
+        "ON": 0.3479218999771637
+      },
+      "Actual": {
+        "ALP": 0.2251762336354481,
+        "GRN": 0.3211480362537764,
+        "LNP": 0.1543806646525679,
+        "ON": 0.2992950654582074
+      }
+    },
+    {
+      "Seat": "Holt",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 4.033246933287578,
+      "MeanSquaredErrorPP2": 31.326987174395796,
+      "ONErrorPP": -0.06090736205145442,
+      "Prediction": {
+        "ALP": 0.2226924138674483,
+        "GRN": 0.2435759909765392,
+        "LNP": 0.23504560331831947,
+        "ON": 0.29868599183769284
+      },
+      "Actual": {
+        "ALP": 0.2251762336354481,
+        "GRN": 0.3211480362537764,
+        "LNP": 0.1543806646525679,
+        "ON": 0.2992950654582074
+      }
+    },
+    {
+      "Seat": "Hotham",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 6.932436759526098,
+      "MeanSquaredErrorPP2": 57.291934209011295,
+      "ONErrorPP": -11.119116234390008,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1709894332372718,
+        "GRN": 0.2774575728466218,
+        "LNP": 0.1903618315722062,
+        "ON": 0.3611911623439001
+      }
+    },
+    {
+      "Seat": "Hotham",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 2.64293229564053,
+      "MeanSquaredErrorPP2": 7.696829669657201,
+      "ONErrorPP": -1.4514447355251148,
+      "Prediction": {
+        "ALP": 0.19679952322256114,
+        "GRN": 0.23911337428906235,
+        "LNP": 0.21741038749972746,
+        "ON": 0.34667671498864894
+      },
+      "Actual": {
+        "ALP": 0.1709894332372718,
+        "GRN": 0.2774575728466218,
+        "LNP": 0.1903618315722062,
+        "ON": 0.3611911623439001
+      }
+    },
+    {
+      "Seat": "Hotham",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 2.231971549622494,
+      "MeanSquaredErrorPP2": 5.509917939006783,
+      "ONErrorPP": -1.6432601810697944,
+      "Prediction": {
+        "ALP": 0.2017344725011742,
+        "GRN": 0.24925074366486993,
+        "LNP": 0.20425622330075374,
+        "ON": 0.34475856053320214
+      },
+      "Actual": {
+        "ALP": 0.1709894332372718,
+        "GRN": 0.2774575728466218,
+        "LNP": 0.1903618315722062,
+        "ON": 0.3611911623439001
+      }
+    },
+    {
+      "Seat": "Hotham",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 4.8426781745562035,
+      "MeanSquaredErrorPP2": 24.78740567143004,
+      "ONErrorPP": -6.409224991353263,
+      "Prediction": {
+        "ALP": 0.2240818190058631,
+        "GRN": 0.24469625926903038,
+        "LNP": 0.234123009294739,
+        "ON": 0.29709891243036746
+      },
+      "Actual": {
+        "ALP": 0.1709894332372718,
+        "GRN": 0.2774575728466218,
+        "LNP": 0.1903618315722062,
+        "ON": 0.3611911623439001
+      }
+    },
+    {
+      "Seat": "Isaacs",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 6.130737493553382,
+      "MeanSquaredErrorPP2": 54.976320051408116,
+      "ONErrorPP": -12.261474987106757,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1732851985559566,
+        "GRN": 0.2240845796802475,
+        "LNP": 0.2300154718927282,
+        "ON": 0.3726147498710676
+      }
+    },
+    {
+      "Seat": "Isaacs",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 2.06156972126489,
+      "MeanSquaredErrorPP2": 4.464094463825963,
+      "ONErrorPP": -2.653927633121694,
+      "Prediction": {
+        "ALP": 0.19667869346894615,
+        "GRN": 0.24192247919255574,
+        "LNP": 0.21532335379864734,
+        "ON": 0.34607547353985063
+      },
+      "Actual": {
+        "ALP": 0.1732851985559566,
+        "GRN": 0.2240845796802475,
+        "LNP": 0.2300154718927282,
+        "ON": 0.3726147498710676
+      }
+    },
+    {
+      "Seat": "Isaacs",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 2.7337670094312103,
+      "MeanSquaredErrorPP2": 7.477167667220987,
+      "ONErrorPP": -2.7885923965498383,
+      "Prediction": {
+        "ALP": 0.2012835794538993,
+        "GRN": 0.25076153897092907,
+        "LNP": 0.20322605566960245,
+        "ON": 0.3447288259055692
+      },
+      "Actual": {
+        "ALP": 0.1732851985559566,
+        "GRN": 0.2240845796802475,
+        "LNP": 0.2300154718927282,
+        "ON": 0.3726147498710676
+      }
+    },
+    {
+      "Seat": "Isaacs",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 3.790437497069839,
+      "MeanSquaredErrorPP2": 22.03492299904827,
+      "ONErrorPP": -7.580874994139675,
+      "Prediction": {
+        "ALP": 0.22402295322846094,
+        "GRN": 0.24606479755534766,
+        "LNP": 0.2331062492865205,
+        "ON": 0.2968059999296708
+      },
+      "Actual": {
+        "ALP": 0.1732851985559566,
+        "GRN": 0.2240845796802475,
+        "LNP": 0.2300154718927282,
+        "ON": 0.3726147498710676
+      }
+    },
+    {
+      "Seat": "La Trobe",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 9.63862559241707,
+      "MeanSquaredErrorPP2": 143.3379051458864,
+      "ONErrorPP": -18.81516587677726,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.194431279620853,
+        "GRN": 0.1127962085308056,
+        "LNP": 0.2546208530805687,
+        "ON": 0.4381516587677726
+      }
+    },
+    {
+      "Seat": "La Trobe",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 6.805900778346233,
+      "MeanSquaredErrorPP2": 72.48679933954725,
+      "ONErrorPP": -9.552549622248542,
+      "Prediction": {
+        "ALP": 0.1955657418339516,
+        "GRN": 0.24777976188463163,
+        "LNP": 0.21402833373612942,
+        "ON": 0.3426261625452872
+      },
+      "Actual": {
+        "ALP": 0.194431279620853,
+        "GRN": 0.1127962085308056,
+        "LNP": 0.2546208530805687,
+        "ON": 0.4381516587677726
+      }
+    },
+    {
+      "Seat": "La Trobe",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 7.526822592134022,
+      "MeanSquaredErrorPP2": 82.67501489840048,
+      "ONErrorPP": -9.727421749972848,
+      "Prediction": {
+        "ALP": 0.2009963204075856,
+        "GRN": 0.2567676195867535,
+        "LNP": 0.20135861873761676,
+        "ON": 0.34087744126804415
+      },
+      "Actual": {
+        "ALP": 0.194431279620853,
+        "GRN": 0.1127962085308056,
+        "LNP": 0.2546208530805687,
+        "ON": 0.4381516587677726
+      }
+    },
+    {
+      "Seat": "La Trobe",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 8.25858017017743,
+      "MeanSquaredErrorPP2": 100.79998611269284,
+      "ONErrorPP": -14.302609239955578,
+      "Prediction": {
+        "ALP": 0.22348074602166873,
+        "GRN": 0.24891834553353848,
+        "LNP": 0.23247534207657586,
+        "ON": 0.29512556636821685
+      },
+      "Actual": {
+        "ALP": 0.194431279620853,
+        "GRN": 0.1127962085308056,
+        "LNP": 0.2546208530805687,
+        "ON": 0.4381516587677726
+      }
+    },
+    {
+      "Seat": "Lalor",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 2.354344550477145,
+      "MeanSquaredErrorPP2": 9.63960814625129,
+      "ONErrorPP": -4.68357609241587,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.2098191863385234,
+        "GRN": 0.2502511300853842,
+        "LNP": 0.2430939226519337,
+        "ON": 0.2968357609241587
+      }
+    },
+    {
+      "Seat": "Lalor",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 2.6614040227501494,
+      "MeanSquaredErrorPP2": 9.910613355261011,
+      "ONErrorPP": 5.3228080455002935,
+      "Prediction": {
+        "ALP": 0.19475585200670578,
+        "GRN": 0.24054529232912747,
+        "LNP": 0.21463501428500498,
+        "ON": 0.35006384137916163
+      },
+      "Actual": {
+        "ALP": 0.2098191863385234,
+        "GRN": 0.2502511300853842,
+        "LNP": 0.2430939226519337,
+        "ON": 0.2968357609241587
+      }
+    },
+    {
+      "Seat": "Lalor",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 2.532849217660723,
+      "MeanSquaredErrorPP2": 10.860158941279733,
+      "ONErrorPP": 5.065698435321448,
+      "Prediction": {
+        "ALP": 0.20028680148594785,
+        "GRN": 0.25020042229825096,
+        "LNP": 0.20202003093842802,
+        "ON": 0.34749274527737317
+      },
+      "Actual": {
+        "ALP": 0.2098191863385234,
+        "GRN": 0.2502511300853842,
+        "LNP": 0.2430939226519337,
+        "ON": 0.2968357609241587
+      }
+    },
+    {
+      "Seat": "Lalor",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 0.7590143988293336,
+      "MeanSquaredErrorPP2": 0.7745792222505372,
+      "ONErrorPP": 0.19132900041508027,
+      "Prediction": {
+        "ALP": 0.22308618431095922,
+        "GRN": 0.24539386036547234,
+        "LNP": 0.23277090439525883,
+        "ON": 0.2987490509283095
+      },
+      "Actual": {
+        "ALP": 0.2098191863385234,
+        "GRN": 0.2502511300853842,
+        "LNP": 0.2430939226519337,
+        "ON": 0.2968357609241587
+      }
+    },
+    {
+      "Seat": "Macnamara",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 4.745222929936307,
+      "MeanSquaredErrorPP2": 29.893200535518687,
+      "ONErrorPP": -8.439490445859871,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1920382165605095,
+        "GRN": 0.2130573248407643,
+        "LNP": 0.2605095541401274,
+        "ON": 0.3343949044585987
+      }
+    },
+    {
+      "Seat": "Macnamara",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 2.3395576019355784,
+      "MeanSquaredErrorPP2": 8.143185229471811,
+      "ONErrorPP": 1.3692139892434507,
+      "Prediction": {
+        "ALP": 0.1956916925213381,
+        "GRN": 0.24250286102621277,
+        "LNP": 0.21371840210141582,
+        "ON": 0.3480870443510332
+      },
+      "Actual": {
+        "ALP": 0.1920382165605095,
+        "GRN": 0.2130573248407643,
+        "LNP": 0.2605095541401274,
+        "ON": 0.3343949044585987
+      }
+    },
+    {
+      "Seat": "Macnamara",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 2.88505451382143,
+      "MeanSquaredErrorPP2": 12.395404704658418,
+      "ONErrorPP": 1.1106606945633202,
+      "Prediction": {
+        "ALP": 0.20084638636988184,
+        "GRN": 0.2508436383621874,
+        "LNP": 0.20280846386369883,
+        "ON": 0.3455015114042319
+      },
+      "Actual": {
+        "ALP": 0.1920382165605095,
+        "GRN": 0.2130573248407643,
+        "LNP": 0.2605095541401274,
+        "ON": 0.3343949044585987
+      }
+    },
+    {
+      "Seat": "Macnamara",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 3.239705644556137,
+      "MeanSquaredErrorPP2": 10.588379882733197,
+      "ONErrorPP": -3.660890849271076,
+      "Prediction": {
+        "ALP": 0.2235421066129596,
+        "GRN": 0.24634754767943698,
+        "LNP": 0.2323243497417154,
+        "ON": 0.29778599596588795
+      },
+      "Actual": {
+        "ALP": 0.1920382165605095,
+        "GRN": 0.2130573248407643,
+        "LNP": 0.2605095541401274,
+        "ON": 0.3343949044585987
+      }
+    },
+    {
+      "Seat": "Mallee",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 11.699054621848742,
+      "MeanSquaredErrorPP2": 172.08196851044352,
+      "ONErrorPP": -20.06302521008404,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1398809523809523,
+        "GRN": 0.1261379551820728,
+        "LNP": 0.2833508403361344,
+        "ON": 0.4506302521008404
+      }
+    },
+    {
+      "Seat": "Mallee",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 8.974773440905889,
+      "MeanSquaredErrorPP2": 87.19975482631598,
+      "ONErrorPP": -10.866085762571466,
+      "Prediction": {
+        "ALP": 0.1984368116886832,
+        "GRN": 0.24707756469245967,
+        "LNP": 0.21251622914373125,
+        "ON": 0.34196939447512575
+      },
+      "Actual": {
+        "ALP": 0.1398809523809523,
+        "GRN": 0.1261379551820728,
+        "LNP": 0.2833508403361344,
+        "ON": 0.4506302521008404
+      }
+    },
+    {
+      "Seat": "Mallee",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 9.852118549157485,
+      "MeanSquaredErrorPP2": 103.6859711297694,
+      "ONErrorPP": -11.224507595812966,
+      "Prediction": {
+        "ALP": 0.2046975228311817,
+        "GRN": 0.25836375571499315,
+        "LNP": 0.19855354531111444,
+        "ON": 0.33838517614271074
+      },
+      "Actual": {
+        "ALP": 0.1398809523809523,
+        "GRN": 0.1261379551820728,
+        "LNP": 0.2833508403361344,
+        "ON": 0.4506302521008404
+      }
+    },
+    {
+      "Seat": "Mallee",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 10.371840713184275,
+      "MeanSquaredErrorPP2": 122.90255320874329,
+      "ONErrorPP": -15.58246496642407,
+      "Prediction": {
+        "ALP": 0.22487947236115335,
+        "GRN": 0.24857624946555726,
+        "LNP": 0.23173867573668958,
+        "ON": 0.2948056024365997
+      },
+      "Actual": {
+        "ALP": 0.1398809523809523,
+        "GRN": 0.1261379551820728,
+        "LNP": 0.2833508403361344,
+        "ON": 0.4506302521008404
+      }
+    },
+    {
+      "Seat": "McEwen",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 8.715666717814944,
+      "MeanSquaredErrorPP2": 77.7964526812454,
+      "ONErrorPP": -9.37164339419978,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.180834739911002,
+        "GRN": 0.330596900414301,
+        "LNP": 0.1448519257326991,
+        "ON": 0.3437164339419978
+      }
+    },
+    {
+      "Seat": "McEwen",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 4.714016641966352,
+      "MeanSquaredErrorPP2": 36.90123365880143,
+      "ONErrorPP": 0.3880003594119663,
+      "Prediction": {
+        "ALP": 0.19628134918710166,
+        "GRN": 0.23631656757497396,
+        "LNP": 0.21980564570180677,
+        "ON": 0.34759643753611746
+      },
+      "Actual": {
+        "ALP": 0.180834739911002,
+        "GRN": 0.330596900414301,
+        "LNP": 0.1448519257326991,
+        "ON": 0.3437164339419978
+      }
+    },
+    {
+      "Seat": "McEwen",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 4.32422591995716,
+      "MeanSquaredErrorPP2": 29.896575268726195,
+      "ONErrorPP": 0.17176107876251123,
+      "Prediction": {
+        "ALP": 0.2022016087785372,
+        "GRN": 0.24411238201515786,
+        "LNP": 0.208251964476682,
+        "ON": 0.3454340447296229
+      },
+      "Actual": {
+        "ALP": 0.180834739911002,
+        "GRN": 0.330596900414301,
+        "LNP": 0.1448519257326991,
+        "ON": 0.3437164339419978
+      }
+    },
+    {
+      "Seat": "McEwen",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 6.671631977929382,
+      "MeanSquaredErrorPP2": 49.43513378316539,
+      "ONErrorPP": -4.616945155260726,
+      "Prediction": {
+        "ALP": 0.22382937524499824,
+        "GRN": 0.24333371240832063,
+        "LNP": 0.23528992995729048,
+        "ON": 0.29754698238939054
+      },
+      "Actual": {
+        "ALP": 0.180834739911002,
+        "GRN": 0.330596900414301,
+        "LNP": 0.1448519257326991,
+        "ON": 0.3437164339419978
+      }
+    },
+    {
+      "Seat": "Nicholls",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 11.992961659566587,
+      "MeanSquaredErrorPP2": 209.9102347608087,
+      "ONErrorPP": -22.84219299870346,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.168086682719022,
+        "GRN": 0.0920540840896462,
+        "LNP": 0.2614373032042971,
+        "ON": 0.4784219299870346
+      }
+    },
+    {
+      "Seat": "Nicholls",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 9.284149270082565,
+      "MeanSquaredErrorPP2": 116.81821154535099,
+      "ONErrorPP": -13.791525540065585,
+      "Prediction": {
+        "ALP": 0.1969522995656269,
+        "GRN": 0.24887145264469263,
+        "LNP": 0.21366957320330163,
+        "ON": 0.34050667458637873
+      },
+      "Actual": {
+        "ALP": 0.168086682719022,
+        "GRN": 0.0920540840896462,
+        "LNP": 0.2614373032042971,
+        "ON": 0.4784219299870346
+      }
+    },
+    {
+      "Seat": "Nicholls",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 10.128848562006173,
+      "MeanSquaredErrorPP2": 132.83673153754162,
+      "ONErrorPP": -14.13553979603208,
+      "Prediction": {
+        "ALP": 0.20271727904895234,
+        "GRN": 0.26000045899983937,
+        "LNP": 0.20021572992449452,
+        "ON": 0.33706653202671377
+      },
+      "Actual": {
+        "ALP": 0.168086682719022,
+        "GRN": 0.0920540840896462,
+        "LNP": 0.2614373032042971,
+        "ON": 0.4784219299870346
+      }
+    },
+    {
+      "Seat": "Nicholls",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 10.67328382879232,
+      "MeanSquaredErrorPP2": 156.85859446543978,
+      "ONErrorPP": -18.432893467572185,
+      "Prediction": {
+        "ALP": 0.22415624850633104,
+        "GRN": 0.24945019487818357,
+        "LNP": 0.2323005613041726,
+        "ON": 0.2940929953113127
+      },
+      "Actual": {
+        "ALP": 0.168086682719022,
+        "GRN": 0.0920540840896462,
+        "LNP": 0.2614373032042971,
+        "ON": 0.4784219299870346
+      }
+    },
+    {
+      "Seat": "Scullin",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "uniform",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 9.828761383317502,
+      "MeanSquaredErrorPP2": 105.59048378243162,
+      "ONErrorPP": -13.46024917593161,
+      "Prediction": {
+        "ALP": 0.25,
+        "GRN": 0.25,
+        "LNP": 0.25,
+        "ON": 0.25
+      },
+      "Actual": {
+        "ALP": 0.1735851164869546,
+        "GRN": 0.3119727359070339,
+        "LNP": 0.1298396558466953,
+        "ON": 0.3846024917593161
+      }
+    },
+    {
+      "Seat": "Scullin",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 5.69169505752622,
+      "MeanSquaredErrorPP2": 39.69774610301017,
+      "ONErrorPP": -3.9157952003057495,
+      "Prediction": {
+        "ALP": 0.1966629083146831,
+        "GRN": 0.23729678675956697,
+        "LNP": 0.22059576516949117,
+        "ON": 0.3454445397562586
+      },
+      "Actual": {
+        "ALP": 0.1735851164869546,
+        "GRN": 0.3119727359070339,
+        "LNP": 0.1298396558466953,
+        "ON": 0.3846024917593161
+      }
+    },
+    {
+      "Seat": "Scullin",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "vote_pool",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 5.593934149794166,
+      "MeanSquaredErrorPP2": 35.42685448490283,
+      "ONErrorPP": -4.349561399675711,
+      "Prediction": {
+        "ALP": 0.20359947604835188,
+        "GRN": 0.24358966690790773,
+        "LNP": 0.2117039792811814,
+        "ON": 0.341106877762559
+      },
+      "Actual": {
+        "ALP": 0.1735851164869546,
+        "GRN": 0.3119727359070339,
+        "LNP": 0.1298396558466953,
+        "ON": 0.3846024917593161
+      }
+    },
+    {
+      "Seat": "Scullin",
+      "Eliminated": "OTH",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "Method": "equal_pool_shrunk_uniform_20",
+      "TrainingSeats": 19,
+      "MeanAbsErrorPP": 7.813267532290979,
+      "MeanSquaredErrorPP2": 65.38142363567536,
+      "ONErrorPP": -8.810386982677986,
+      "Prediction": {
+        "ALP": 0.224015263025102,
+        "GRN": 0.24381125508799417,
+        "LNP": 0.2356748599543675,
+        "ON": 0.29649862193253623
+      },
+      "Actual": {
+        "ALP": 0.1735851164869546,
+        "GRN": 0.3119727359070339,
+        "LNP": 0.1298396558466953,
+        "ON": 0.3846024917593161
+      }
+    }
+  ]
+}
