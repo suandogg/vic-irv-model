@@ -1,0 +1,699 @@
+[
+  {
+    "seat": "Albert Park",
+    "order_divergence_rounds": [
+      2
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 61.150600869342874,
+    "shadow_actual_winner_share_pct": 61.257353008198976
+  },
+  {
+    "seat": "Ashwood",
+    "order_divergence_rounds": [
+      4
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 56.15298590919258,
+    "shadow_actual_winner_share_pct": 56.24459684945749
+  },
+  {
+    "seat": "Bass",
+    "order_divergence_rounds": [
+      2,
+      5
+    ],
+    "winner_correct_on_forced_order": false,
+    "actual_winner_share_pct": 50.24393778378901,
+    "shadow_actual_winner_share_pct": 49.28307430062467
+  },
+  {
+    "seat": "Bayswater",
+    "order_divergence_rounds": [
+      2,
+      5
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 54.22897251109181,
+    "shadow_actual_winner_share_pct": 54.459642301307255
+  },
+  {
+    "seat": "Bellarine",
+    "order_divergence_rounds": [
+      4
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 58.46287616906666,
+    "shadow_actual_winner_share_pct": 58.528428588789716
+  },
+  {
+    "seat": "Benambra",
+    "order_divergence_rounds": [
+      3
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 50.94445119727726,
+    "shadow_actual_winner_share_pct": 50.785640448378686
+  },
+  {
+    "seat": "Bendigo East",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 60.847524578651694,
+    "shadow_actual_winner_share_pct": 60.847524578651694
+  },
+  {
+    "seat": "Bendigo West",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 64.5969986086265,
+    "shadow_actual_winner_share_pct": 64.77575310345848
+  },
+  {
+    "seat": "Bentleigh",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 58.040780141843975,
+    "shadow_actual_winner_share_pct": 58.043753095337614
+  },
+  {
+    "seat": "Berwick",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 54.71007947976878,
+    "shadow_actual_winner_share_pct": 54.714718732115855
+  },
+  {
+    "seat": "Box Hill",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 57.22562900171341,
+    "shadow_actual_winner_share_pct": 57.24488452436221
+  },
+  {
+    "seat": "Brighton",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 55.12671133119721,
+    "shadow_actual_winner_share_pct": 55.07706457151803
+  },
+  {
+    "seat": "Broadmeadows",
+    "order_divergence_rounds": [
+      6
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 65.50028752156412,
+    "shadow_actual_winner_share_pct": 65.52803496445063
+  },
+  {
+    "seat": "Brunswick",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 63.67591207273564,
+    "shadow_actual_winner_share_pct": 63.71514581490844
+  },
+  {
+    "seat": "Bulleen",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 55.937056262948396,
+    "shadow_actual_winner_share_pct": 55.916557472140724
+  },
+  {
+    "seat": "Bundoora",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 62.69337564458548,
+    "shadow_actual_winner_share_pct": 62.69436605432409
+  },
+  {
+    "seat": "Carrum",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 59.75654825148982,
+    "shadow_actual_winner_share_pct": 59.811430917130636
+  },
+  {
+    "seat": "Caulfield",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 52.068431531597966,
+    "shadow_actual_winner_share_pct": 51.98011892773054
+  },
+  {
+    "seat": "Clarinda",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 60.19130263287644,
+    "shadow_actual_winner_share_pct": 60.25047417412134
+  },
+  {
+    "seat": "Cranbourne",
+    "order_divergence_rounds": [
+      5
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 58.97065307922199,
+    "shadow_actual_winner_share_pct": 59.20275437583437
+  },
+  {
+    "seat": "Croydon",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 51.37272946383575,
+    "shadow_actual_winner_share_pct": 51.299885639133926
+  },
+  {
+    "seat": "Dandenong",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 68.26983926085306,
+    "shadow_actual_winner_share_pct": 68.2656336498967
+  },
+  {
+    "seat": "Eildon",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 56.987193094176746,
+    "shadow_actual_winner_share_pct": 56.97152702488112
+  },
+  {
+    "seat": "Eltham",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 59.004652860140496,
+    "shadow_actual_winner_share_pct": 59.06812320143946
+  },
+  {
+    "seat": "Essendon",
+    "order_divergence_rounds": [
+      2
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 62.45013972818688,
+    "shadow_actual_winner_share_pct": 62.63522220287431
+  },
+  {
+    "seat": "Eureka",
+    "order_divergence_rounds": [
+      4,
+      5
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 57.17285123875616,
+    "shadow_actual_winner_share_pct": 57.25490773985407
+  },
+  {
+    "seat": "Euroa",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 59.93087448510961,
+    "shadow_actual_winner_share_pct": 59.81049922244177
+  },
+  {
+    "seat": "Evelyn",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 55.400329791132286,
+    "shadow_actual_winner_share_pct": 55.407012385911756
+  },
+  {
+    "seat": "Footscray",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 54.23896876549331,
+    "shadow_actual_winner_share_pct": 54.16463634896337
+  },
+  {
+    "seat": "Frankston",
+    "order_divergence_rounds": [
+      4
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 58.65902205753486,
+    "shadow_actual_winner_share_pct": 58.779674837086795
+  },
+  {
+    "seat": "Geelong",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 64.70890487467048,
+    "shadow_actual_winner_share_pct": 64.77902088311801
+  },
+  {
+    "seat": "Gippsland East",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 74.56940462934445,
+    "shadow_actual_winner_share_pct": 74.54583031993911
+  },
+  {
+    "seat": "Gippsland South",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 65.55453236051096,
+    "shadow_actual_winner_share_pct": 65.51757739689262
+  },
+  {
+    "seat": "Glen Waverley",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 53.30333355721226,
+    "shadow_actual_winner_share_pct": 53.35634173286551
+  },
+  {
+    "seat": "Greenvale",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 57.06628456190628,
+    "shadow_actual_winner_share_pct": 57.07216655805157
+  },
+  {
+    "seat": "Hastings",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 51.353317811408616,
+    "shadow_actual_winner_share_pct": 51.58631796480635
+  },
+  {
+    "seat": "Hawthorn",
+    "order_divergence_rounds": [
+      3
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 51.74227036786279,
+    "shadow_actual_winner_share_pct": 51.68932714293013
+  },
+  {
+    "seat": "Ivanhoe",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 62.750314047144016,
+    "shadow_actual_winner_share_pct": 62.738461539648384
+  },
+  {
+    "seat": "Kalkallo",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 66.45233925444083,
+    "shadow_actual_winner_share_pct": 66.5057920418591
+  },
+  {
+    "seat": "Kew",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 53.975500091759955,
+    "shadow_actual_winner_share_pct": 53.990350731527414
+  },
+  {
+    "seat": "Kororoit",
+    "order_divergence_rounds": [
+      4
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 64.5158893319793,
+    "shadow_actual_winner_share_pct": 64.56702543648815
+  },
+  {
+    "seat": "Lara",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 65.8711277586556,
+    "shadow_actual_winner_share_pct": 65.81239194472589
+  },
+  {
+    "seat": "Laverton",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 68.38575891414413,
+    "shadow_actual_winner_share_pct": 68.44666820567062
+  },
+  {
+    "seat": "Lowan",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 71.55642923219241,
+    "shadow_actual_winner_share_pct": 71.56396349507939
+  },
+  {
+    "seat": "Macedon",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 59.53978215393494,
+    "shadow_actual_winner_share_pct": 59.654222010299975
+  },
+  {
+    "seat": "Malvern",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 58.06427888504817,
+    "shadow_actual_winner_share_pct": 58.06427888504817
+  },
+  {
+    "seat": "Melbourne",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 60.191914203062154,
+    "shadow_actual_winner_share_pct": 60.246232957319364
+  },
+  {
+    "seat": "Melton",
+    "order_divergence_rounds": [
+      8
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 54.59475265158563,
+    "shadow_actual_winner_share_pct": 54.58200403856408
+  },
+  {
+    "seat": "Mildura",
+    "order_divergence_rounds": [
+      3
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 51.17986366019927,
+    "shadow_actual_winner_share_pct": 51.02820958177965
+  },
+  {
+    "seat": "Mill Park",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 61.58283279972482,
+    "shadow_actual_winner_share_pct": 61.53587124591512
+  },
+  {
+    "seat": "Monbulk",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 57.55436993085629,
+    "shadow_actual_winner_share_pct": 57.64289727986769
+  },
+  {
+    "seat": "Mordialloc",
+    "order_divergence_rounds": [
+      3
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 58.19469347919834,
+    "shadow_actual_winner_share_pct": 58.267156298630496
+  },
+  {
+    "seat": "Mornington",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 50.70134563263754,
+    "shadow_actual_winner_share_pct": 50.566553455867144
+  },
+  {
+    "seat": "Morwell",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 54.41621784054922,
+    "shadow_actual_winner_share_pct": 54.61302251555943
+  },
+  {
+    "seat": "Mulgrave",
+    "order_divergence_rounds": [
+      6,
+      9
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 60.83219069718384,
+    "shadow_actual_winner_share_pct": 60.80524136128729
+  },
+  {
+    "seat": "Murray Plains",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 73.37547597123019,
+    "shadow_actual_winner_share_pct": 73.3791276126137
+  },
+  {
+    "seat": "Narracan",
+    "order_divergence_rounds": [
+      6,
+      7
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 63.02378712538638,
+    "shadow_actual_winner_share_pct": 62.79412729158551
+  },
+  {
+    "seat": "Narre Warren North",
+    "order_divergence_rounds": [
+      5
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 58.74305051970027,
+    "shadow_actual_winner_share_pct": 58.802584257615855
+  },
+  {
+    "seat": "Narre Warren South",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 58.316806271728225,
+    "shadow_actual_winner_share_pct": 58.29274263157982
+  },
+  {
+    "seat": "Nepean",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 56.385222979934255,
+    "shadow_actual_winner_share_pct": 56.482461017488305
+  },
+  {
+    "seat": "Niddrie",
+    "order_divergence_rounds": [
+      4
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 56.69475877089153,
+    "shadow_actual_winner_share_pct": 56.70000527453014
+  },
+  {
+    "seat": "Northcote",
+    "order_divergence_rounds": [
+      3,
+      5
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 50.215749730312844,
+    "shadow_actual_winner_share_pct": 50.146520272549935
+  },
+  {
+    "seat": "Oakleigh",
+    "order_divergence_rounds": [
+      3
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 63.48439990890458,
+    "shadow_actual_winner_share_pct": 63.52563375868746
+  },
+  {
+    "seat": "Ovens Valley",
+    "order_divergence_rounds": [
+      4
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 67.83963151899361,
+    "shadow_actual_winner_share_pct": 67.93018489932963
+  },
+  {
+    "seat": "Pakenham",
+    "order_divergence_rounds": [
+      5,
+      7
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 50.39493657858852,
+    "shadow_actual_winner_share_pct": 50.758224240763205
+  },
+  {
+    "seat": "Pascoe Vale",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 52.01996374742384,
+    "shadow_actual_winner_share_pct": 51.97677551876217
+  },
+  {
+    "seat": "Point Cook",
+    "order_divergence_rounds": [
+      4,
+      7
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 58.33908795621371,
+    "shadow_actual_winner_share_pct": 58.46643882099204
+  },
+  {
+    "seat": "Polwarth",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 51.78687883135515,
+    "shadow_actual_winner_share_pct": 51.786076728710974
+  },
+  {
+    "seat": "Prahran",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 62.00851107203833,
+    "shadow_actual_winner_share_pct": 62.03007713074068
+  },
+  {
+    "seat": "Preston",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 52.0887171638608,
+    "shadow_actual_winner_share_pct": 52.063931252010256
+  },
+  {
+    "seat": "Richmond",
+    "order_divergence_rounds": [
+      4
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 57.31544637688455,
+    "shadow_actual_winner_share_pct": 57.27598463356509
+  },
+  {
+    "seat": "Ringwood",
+    "order_divergence_rounds": [
+      3
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 57.53065372762441,
+    "shadow_actual_winner_share_pct": 57.861339016900445
+  },
+  {
+    "seat": "Ripon",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 52.99355234878723,
+    "shadow_actual_winner_share_pct": 52.979530458353594
+  },
+  {
+    "seat": "Rowville",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 53.66506029652517,
+    "shadow_actual_winner_share_pct": 53.666347144625135
+  },
+  {
+    "seat": "Sandringham",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 55.033325104912365,
+    "shadow_actual_winner_share_pct": 54.99808378745542
+  },
+  {
+    "seat": "Shepparton",
+    "order_divergence_rounds": [
+      3,
+      4
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 56.79039248444347,
+    "shadow_actual_winner_share_pct": 56.67977152493793
+  },
+  {
+    "seat": "South Barwon",
+    "order_divergence_rounds": [
+      3
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 59.79992917847026,
+    "shadow_actual_winner_share_pct": 59.83899953219053
+  },
+  {
+    "seat": "South-West Coast",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 58.04905925795675,
+    "shadow_actual_winner_share_pct": 58.04184483512217
+  },
+  {
+    "seat": "St Albans",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 59.564340911636236,
+    "shadow_actual_winner_share_pct": 59.53997311648869
+  },
+  {
+    "seat": "Sunbury",
+    "order_divergence_rounds": [
+      5
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 56.412772503049915,
+    "shadow_actual_winner_share_pct": 56.48632139344325
+  },
+  {
+    "seat": "Sydenham",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 58.762768540149324,
+    "shadow_actual_winner_share_pct": 58.96564097009869
+  },
+  {
+    "seat": "Tarneit",
+    "order_divergence_rounds": [
+      5
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 62.28288477820253,
+    "shadow_actual_winner_share_pct": 62.35088183624645
+  },
+  {
+    "seat": "Thomastown",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 65.79924657351252,
+    "shadow_actual_winner_share_pct": 65.79206051302653
+  },
+  {
+    "seat": "Warrandyte",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 54.31392124237382,
+    "shadow_actual_winner_share_pct": 54.31934377719237
+  },
+  {
+    "seat": "Wendouree",
+    "order_divergence_rounds": [],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 61.91074646685004,
+    "shadow_actual_winner_share_pct": 61.97525902489147
+  },
+  {
+    "seat": "Werribee",
+    "order_divergence_rounds": [
+      6,
+      7,
+      8,
+      10
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 60.92013574074554,
+    "shadow_actual_winner_share_pct": 61.219670851350635
+  },
+  {
+    "seat": "Williamstown",
+    "order_divergence_rounds": [
+      2
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 63.44229486324217,
+    "shadow_actual_winner_share_pct": 63.51638788996472
+  },
+  {
+    "seat": "Yan Yean",
+    "order_divergence_rounds": [
+      5,
+      6
+    ],
+    "winner_correct_on_forced_order": true,
+    "actual_winner_share_pct": 54.26867943676265,
+    "shadow_actual_winner_share_pct": 54.50622701491239
+  }
+]
