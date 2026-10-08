@@ -1,0 +1,1761 @@
+Seat,Origin,Destination,LegacyShare,LegacyZero,ExtractedFieldStatus,ExtractedShare
+BOX HILL,ALP,LNP,0.0,True,no extracted category-exit field,
+BOX HILL,ALP,GRN,0.0,True,no extracted category-exit field,
+BOX HILL,ALP,IND,0.0,True,no extracted category-exit field,
+BOX HILL,ALP,OTH,0.0,True,no extracted category-exit field,
+BOX HILL,LNP,ALP,0.0,True,no extracted category-exit field,
+BOX HILL,LNP,GRN,0.0,True,no extracted category-exit field,
+BOX HILL,LNP,IND,0.0,True,no extracted category-exit field,
+BOX HILL,LNP,OTH,0.0,True,no extracted category-exit field,
+BOX HILL,GRN,ALP,0.8216,False,inside extracted field,0.8216432865731464
+BOX HILL,GRN,LNP,0.1784,False,inside extracted field,0.1783567134268537
+BOX HILL,GRN,IND,0.0,True,outside extracted field,
+BOX HILL,GRN,OTH,0.0,True,outside extracted field,
+BOX HILL,IND,ALP,0.08789999999999999,False,inside extracted field,0.092797783933518
+BOX HILL,IND,LNP,0.2482,False,inside extracted field,0.2396121883656509
+BOX HILL,IND,GRN,0.1241,False,inside extracted field,0.1260387811634349
+BOX HILL,IND,OTH,0.5398,False,inside extracted field,0.5415512465373962
+BOX HILL,OTH,ALP,0.2177,False,inside extracted field,0.2177501574563594
+BOX HILL,OTH,LNP,0.4864,False,inside extracted field,0.4950825733572054
+BOX HILL,OTH,GRN,0.2959,False,inside extracted field,0.2871672691864351
+BOX HILL,OTH,IND,0.0,True,outside extracted field,
+BULLEEN,ALP,LNP,0.0,True,no extracted category-exit field,
+BULLEEN,ALP,GRN,0.0,True,no extracted category-exit field,
+BULLEEN,ALP,IND,0.0,True,no extracted category-exit field,
+BULLEEN,ALP,OTH,0.0,True,no extracted category-exit field,
+BULLEEN,LNP,ALP,0.0,True,no extracted category-exit field,
+BULLEEN,LNP,GRN,0.0,True,no extracted category-exit field,
+BULLEEN,LNP,IND,0.0,True,no extracted category-exit field,
+BULLEEN,LNP,OTH,0.0,True,no extracted category-exit field,
+BULLEEN,GRN,ALP,0.7123,False,inside extracted field,0.7123002084781098
+BULLEEN,GRN,LNP,0.2877,False,inside extracted field,0.2876997915218902
+BULLEEN,GRN,IND,0.0,True,outside extracted field,
+BULLEEN,GRN,OTH,0.0,True,outside extracted field,
+BULLEEN,IND,ALP,0.08689999999999999,False,inside extracted field,0.0742268041237113
+BULLEEN,IND,LNP,0.2054,False,inside extracted field,0.1938144329896907
+BULLEEN,IND,GRN,0.207,False,inside extracted field,0.2164948453608247
+BULLEEN,IND,OTH,0.5008,False,inside extracted field,0.5154639175257731
+BULLEEN,OTH,ALP,0.21420000000000003,False,inside extracted field,0.2148188124371717
+BULLEEN,OTH,LNP,0.47450000000000003,False,inside extracted field,0.470962659903003
+BULLEEN,OTH,GRN,0.31129999999999997,False,inside extracted field,0.3142185276598252
+BULLEEN,OTH,IND,0.0,True,outside extracted field,
+GLEN WAVERLEY,ALP,LNP,0.0,True,no extracted category-exit field,
+GLEN WAVERLEY,ALP,GRN,0.0,True,no extracted category-exit field,
+GLEN WAVERLEY,ALP,IND,0.0,True,no extracted category-exit field,
+GLEN WAVERLEY,ALP,OTH,0.0,True,no extracted category-exit field,
+GLEN WAVERLEY,LNP,ALP,0.0,True,no extracted category-exit field,
+GLEN WAVERLEY,LNP,GRN,0.0,True,no extracted category-exit field,
+GLEN WAVERLEY,LNP,IND,0.0,True,no extracted category-exit field,
+GLEN WAVERLEY,LNP,OTH,0.0,True,no extracted category-exit field,
+GLEN WAVERLEY,GRN,ALP,0.8057,False,inside extracted field,0.8056880108991825
+GLEN WAVERLEY,GRN,LNP,0.1943,False,inside extracted field,0.1943119891008174
+GLEN WAVERLEY,GRN,IND,0.0,True,outside extracted field,
+GLEN WAVERLEY,GRN,OTH,0.0,True,outside extracted field,
+GLEN WAVERLEY,IND,ALP,0.0,True,no extracted category-exit field,
+GLEN WAVERLEY,IND,LNP,0.0,True,no extracted category-exit field,
+GLEN WAVERLEY,IND,GRN,0.0,True,no extracted category-exit field,
+GLEN WAVERLEY,IND,OTH,0.0,True,no extracted category-exit field,
+GLEN WAVERLEY,OTH,ALP,0.21539999999999998,False,inside extracted field,0.2154168607359105
+GLEN WAVERLEY,OTH,LNP,0.41359999999999997,False,inside extracted field,0.4136003726129483
+GLEN WAVERLEY,OTH,GRN,0.371,False,inside extracted field,0.3709827666511411
+GLEN WAVERLEY,OTH,IND,0.0,True,outside extracted field,
+IVANHOE,ALP,LNP,0.0,True,no extracted category-exit field,
+IVANHOE,ALP,GRN,0.0,True,no extracted category-exit field,
+IVANHOE,ALP,IND,0.0,True,no extracted category-exit field,
+IVANHOE,ALP,OTH,0.0,True,no extracted category-exit field,
+IVANHOE,LNP,ALP,0.0,True,no extracted category-exit field,
+IVANHOE,LNP,GRN,0.0,True,no extracted category-exit field,
+IVANHOE,LNP,IND,0.0,True,no extracted category-exit field,
+IVANHOE,LNP,OTH,0.0,True,no extracted category-exit field,
+IVANHOE,GRN,ALP,0.8523000000000001,False,inside extracted field,0.8523330697096373
+IVANHOE,GRN,LNP,0.1477,False,inside extracted field,0.1476669302903626
+IVANHOE,GRN,IND,0.0,True,outside extracted field,
+IVANHOE,GRN,OTH,0.0,True,outside extracted field,
+IVANHOE,IND,ALP,0.2273,False,inside extracted field,0.2273342354533153
+IVANHOE,IND,LNP,0.25170000000000003,False,inside extracted field,0.2516914749661705
+IVANHOE,IND,GRN,0.2192,False,inside extracted field,0.2192151556156968
+IVANHOE,IND,OTH,0.3018,False,inside extracted field,0.3017591339648173
+IVANHOE,OTH,ALP,0.1814,False,inside extracted field,0.1811185016685307
+IVANHOE,OTH,LNP,0.44780000000000003,False,inside extracted field,0.4501392726425103
+IVANHOE,OTH,GRN,0.37079999999999996,False,inside extracted field,0.368742225688959
+IVANHOE,OTH,IND,0.0,True,outside extracted field,
+BUNDOORA,ALP,LNP,0.0,True,no extracted category-exit field,
+BUNDOORA,ALP,GRN,0.0,True,no extracted category-exit field,
+BUNDOORA,ALP,IND,0.0,True,no extracted category-exit field,
+BUNDOORA,ALP,OTH,0.0,True,no extracted category-exit field,
+BUNDOORA,LNP,ALP,0.0,True,no extracted category-exit field,
+BUNDOORA,LNP,GRN,0.0,True,no extracted category-exit field,
+BUNDOORA,LNP,IND,0.0,True,no extracted category-exit field,
+BUNDOORA,LNP,OTH,0.0,True,no extracted category-exit field,
+BUNDOORA,GRN,ALP,0.7394,False,inside extracted field,0.7394408090422367
+BUNDOORA,GRN,LNP,0.2606,False,inside extracted field,0.2605591909577632
+BUNDOORA,GRN,IND,0.0,True,outside extracted field,
+BUNDOORA,GRN,OTH,0.0,True,outside extracted field,
+BUNDOORA,IND,ALP,0.1495,False,inside extracted field,0.1495098039215686
+BUNDOORA,IND,LNP,0.3064,False,inside extracted field,0.3063725490196078
+BUNDOORA,IND,GRN,0.1176,False,inside extracted field,0.1176470588235294
+BUNDOORA,IND,OTH,0.4265,False,inside extracted field,0.4264705882352941
+BUNDOORA,OTH,ALP,0.223,False,inside extracted field,0.223070618074932
+BUNDOORA,OTH,LNP,0.4622,False,inside extracted field,0.4617804725255654
+BUNDOORA,OTH,GRN,0.3148,False,inside extracted field,0.3151489093995026
+BUNDOORA,OTH,IND,0.0,True,outside extracted field,
+BAYSWATER,ALP,LNP,0.0,True,no extracted category-exit field,
+BAYSWATER,ALP,GRN,0.0,True,no extracted category-exit field,
+BAYSWATER,ALP,IND,0.0,True,no extracted category-exit field,
+BAYSWATER,ALP,OTH,0.0,True,no extracted category-exit field,
+BAYSWATER,LNP,ALP,0.0,True,no extracted category-exit field,
+BAYSWATER,LNP,GRN,0.0,True,no extracted category-exit field,
+BAYSWATER,LNP,IND,0.0,True,no extracted category-exit field,
+BAYSWATER,LNP,OTH,0.0,True,no extracted category-exit field,
+BAYSWATER,GRN,ALP,0.7429000000000001,False,inside extracted field,0.7428571428571429
+BAYSWATER,GRN,LNP,0.2571,False,inside extracted field,0.2571428571428571
+BAYSWATER,GRN,IND,0.0,True,outside extracted field,
+BAYSWATER,GRN,OTH,0.0,True,outside extracted field,
+BAYSWATER,IND,ALP,0.1578,False,inside extracted field,0.1578490893321769
+BAYSWATER,IND,LNP,0.1518,False,inside extracted field,0.1517779705117085
+BAYSWATER,IND,GRN,0.3998,False,inside extracted field,0.3998265394622723
+BAYSWATER,IND,OTH,0.2905,False,inside extracted field,0.2905464006938421
+BAYSWATER,OTH,ALP,0.23670000000000002,False,inside extracted field,0.2381216382307512
+BAYSWATER,OTH,LNP,0.4772,False,inside extracted field,0.4680715132490896
+BAYSWATER,OTH,GRN,0.2861,False,inside extracted field,0.2938068485201591
+BAYSWATER,OTH,IND,0.0,True,outside extracted field,
+CROYDON,ALP,LNP,0.0,True,no extracted category-exit field,
+CROYDON,ALP,GRN,0.0,True,no extracted category-exit field,
+CROYDON,ALP,IND,0.0,True,no extracted category-exit field,
+CROYDON,ALP,OTH,0.0,True,no extracted category-exit field,
+CROYDON,LNP,ALP,0.0,True,no extracted category-exit field,
+CROYDON,LNP,GRN,0.0,True,no extracted category-exit field,
+CROYDON,LNP,IND,0.0,True,no extracted category-exit field,
+CROYDON,LNP,OTH,0.0,True,no extracted category-exit field,
+CROYDON,GRN,ALP,0.7628,False,inside extracted field,0.7627659574468085
+CROYDON,GRN,LNP,0.2372,False,inside extracted field,0.2372340425531915
+CROYDON,GRN,IND,0.0,True,outside extracted field,
+CROYDON,GRN,OTH,0.0,True,outside extracted field,
+CROYDON,IND,ALP,0.0,True,no extracted category-exit field,
+CROYDON,IND,LNP,0.0,True,no extracted category-exit field,
+CROYDON,IND,GRN,0.0,True,no extracted category-exit field,
+CROYDON,IND,OTH,0.0,True,no extracted category-exit field,
+CROYDON,OTH,ALP,0.29109999999999997,False,inside extracted field,0.2911392405063291
+CROYDON,OTH,LNP,0.41229999999999994,False,inside extracted field,0.4122965641952983
+CROYDON,OTH,GRN,0.2966,False,inside extracted field,0.2965641952983725
+CROYDON,OTH,IND,0.0,True,outside extracted field,
+RINGWOOD,ALP,LNP,0.0,True,no extracted category-exit field,
+RINGWOOD,ALP,GRN,0.0,True,no extracted category-exit field,
+RINGWOOD,ALP,IND,0.0,True,no extracted category-exit field,
+RINGWOOD,ALP,OTH,0.0,True,no extracted category-exit field,
+RINGWOOD,LNP,ALP,0.0,True,no extracted category-exit field,
+RINGWOOD,LNP,GRN,0.0,True,no extracted category-exit field,
+RINGWOOD,LNP,IND,0.0,True,no extracted category-exit field,
+RINGWOOD,LNP,OTH,0.0,True,no extracted category-exit field,
+RINGWOOD,GRN,ALP,0.8055,False,inside extracted field,0.8055267702936096
+RINGWOOD,GRN,LNP,0.1945,False,inside extracted field,0.1944732297063903
+RINGWOOD,GRN,IND,0.0,True,outside extracted field,
+RINGWOOD,GRN,OTH,0.0,True,outside extracted field,
+RINGWOOD,IND,ALP,0.0,True,no extracted category-exit field,
+RINGWOOD,IND,LNP,0.0,True,no extracted category-exit field,
+RINGWOOD,IND,GRN,0.0,True,no extracted category-exit field,
+RINGWOOD,IND,OTH,0.0,True,no extracted category-exit field,
+RINGWOOD,OTH,ALP,0.2767,False,inside extracted field,0.2767354596622889
+RINGWOOD,OTH,LNP,0.4268,False,inside extracted field,0.4268292682926829
+RINGWOOD,OTH,GRN,0.2964,False,inside extracted field,0.2964352720450281
+RINGWOOD,OTH,IND,0.0,True,outside extracted field,
+WARRANDYTE,ALP,LNP,0.0,True,no extracted category-exit field,
+WARRANDYTE,ALP,GRN,0.0,True,no extracted category-exit field,
+WARRANDYTE,ALP,IND,0.0,True,no extracted category-exit field,
+WARRANDYTE,ALP,OTH,0.0,True,no extracted category-exit field,
+WARRANDYTE,LNP,ALP,0.0,True,no extracted category-exit field,
+WARRANDYTE,LNP,GRN,0.0,True,no extracted category-exit field,
+WARRANDYTE,LNP,IND,0.0,True,no extracted category-exit field,
+WARRANDYTE,LNP,OTH,0.0,True,no extracted category-exit field,
+WARRANDYTE,GRN,ALP,0.7881999999999999,False,inside extracted field,0.7881880024737168
+WARRANDYTE,GRN,LNP,0.2118,False,inside extracted field,0.2118119975262832
+WARRANDYTE,GRN,IND,0.0,True,outside extracted field,
+WARRANDYTE,GRN,OTH,0.0,True,outside extracted field,
+WARRANDYTE,IND,ALP,0.18059999999999998,False,inside extracted field,0.180576631259484
+WARRANDYTE,IND,LNP,0.2231,False,inside extracted field,0.2230652503793626
+WARRANDYTE,IND,GRN,0.2291,False,inside extracted field,0.2291350531107739
+WARRANDYTE,IND,OTH,0.36719999999999997,False,inside extracted field,0.3672230652503793
+WARRANDYTE,OTH,ALP,0.1394,False,inside extracted field,0.1391880835512099
+WARRANDYTE,OTH,LNP,0.5254,False,inside extracted field,0.5263982259089284
+WARRANDYTE,OTH,GRN,0.33520000000000005,False,inside extracted field,0.3344136905398617
+WARRANDYTE,OTH,IND,0.0,True,outside extracted field,
+ELTHAM,ALP,LNP,0.0,True,no extracted category-exit field,
+ELTHAM,ALP,GRN,0.0,True,no extracted category-exit field,
+ELTHAM,ALP,IND,0.0,True,no extracted category-exit field,
+ELTHAM,ALP,OTH,0.0,True,no extracted category-exit field,
+ELTHAM,LNP,ALP,0.0,True,no extracted category-exit field,
+ELTHAM,LNP,GRN,0.0,True,no extracted category-exit field,
+ELTHAM,LNP,IND,0.0,True,no extracted category-exit field,
+ELTHAM,LNP,OTH,0.0,True,no extracted category-exit field,
+ELTHAM,GRN,ALP,0.8502,False,inside extracted field,0.8501681040783511
+ELTHAM,GRN,LNP,0.14980000000000002,False,inside extracted field,0.1498318959216489
+ELTHAM,GRN,IND,0.0,True,outside extracted field,
+ELTHAM,GRN,OTH,0.0,True,outside extracted field,
+ELTHAM,IND,ALP,0.0,True,no extracted category-exit field,
+ELTHAM,IND,LNP,0.0,True,no extracted category-exit field,
+ELTHAM,IND,GRN,0.0,True,no extracted category-exit field,
+ELTHAM,IND,OTH,0.0,True,no extracted category-exit field,
+ELTHAM,OTH,ALP,0.1931,False,inside extracted field,0.1930570315267446
+ELTHAM,OTH,LNP,0.4725,False,inside extracted field,0.4725469358838115
+ELTHAM,OTH,GRN,0.3344,False,inside extracted field,0.3343960325894438
+ELTHAM,OTH,IND,0.0,True,outside extracted field,
+MILL PARK,ALP,LNP,0.0,True,no extracted category-exit field,
+MILL PARK,ALP,GRN,0.0,True,no extracted category-exit field,
+MILL PARK,ALP,IND,0.0,True,no extracted category-exit field,
+MILL PARK,ALP,OTH,0.0,True,no extracted category-exit field,
+MILL PARK,LNP,ALP,0.0,True,no extracted category-exit field,
+MILL PARK,LNP,GRN,0.0,True,no extracted category-exit field,
+MILL PARK,LNP,IND,0.0,True,no extracted category-exit field,
+MILL PARK,LNP,OTH,0.0,True,no extracted category-exit field,
+MILL PARK,GRN,ALP,0.648,False,inside extracted field,0.6479795105293114
+MILL PARK,GRN,LNP,0.134,False,inside extracted field,0.1340352874217416
+MILL PARK,GRN,IND,0.0,True,outside extracted field,
+MILL PARK,GRN,OTH,0.218,False,inside extracted field,0.217985202048947
+MILL PARK,IND,ALP,0.0,True,no extracted category-exit field,
+MILL PARK,IND,LNP,0.0,True,no extracted category-exit field,
+MILL PARK,IND,GRN,0.0,True,no extracted category-exit field,
+MILL PARK,IND,OTH,0.0,True,no extracted category-exit field,
+MILL PARK,OTH,ALP,0.3348,False,inside extracted field,0.3816344646399435
+MILL PARK,OTH,LNP,0.6652,False,inside extracted field,0.6183655353600563
+MILL PARK,OTH,GRN,0.0,True,outside extracted field,
+MILL PARK,OTH,IND,0.0,True,outside extracted field,
+BRUNSWICK,ALP,LNP,0.0,True,no extracted category-exit field,
+BRUNSWICK,ALP,GRN,0.0,True,no extracted category-exit field,
+BRUNSWICK,ALP,IND,0.0,True,no extracted category-exit field,
+BRUNSWICK,ALP,OTH,0.0,True,no extracted category-exit field,
+BRUNSWICK,LNP,ALP,0.3422,False,inside extracted field,0.3421519886363636
+BRUNSWICK,LNP,GRN,0.6578,False,inside extracted field,0.6578480113636364
+BRUNSWICK,LNP,IND,0.0,True,outside extracted field,
+BRUNSWICK,LNP,OTH,0.0,True,outside extracted field,
+BRUNSWICK,GRN,ALP,0.0,True,no extracted category-exit field,
+BRUNSWICK,GRN,LNP,0.0,True,no extracted category-exit field,
+BRUNSWICK,GRN,IND,0.0,True,no extracted category-exit field,
+BRUNSWICK,GRN,OTH,0.0,True,no extracted category-exit field,
+BRUNSWICK,IND,ALP,0.31829999999999997,False,inside extracted field,0.3398533007334963
+BRUNSWICK,IND,LNP,0.29410000000000003,False,inside extracted field,0.3178484107579462
+BRUNSWICK,IND,GRN,0.11449999999999999,False,inside extracted field,0.1051344743276283
+BRUNSWICK,IND,OTH,0.2731,False,inside extracted field,0.2371638141809291
+BRUNSWICK,OTH,ALP,0.1748,False,inside extracted field,0.1832476238718618
+BRUNSWICK,OTH,LNP,0.09570000000000001,False,inside extracted field,0.1062145260855738
+BRUNSWICK,OTH,GRN,0.7295,False,inside extracted field,0.7105378500425643
+BRUNSWICK,OTH,IND,0.0,True,outside extracted field,
+NORTHCOTE,ALP,LNP,0.0,True,no extracted category-exit field,
+NORTHCOTE,ALP,GRN,0.0,True,no extracted category-exit field,
+NORTHCOTE,ALP,IND,0.0,True,no extracted category-exit field,
+NORTHCOTE,ALP,OTH,0.0,True,no extracted category-exit field,
+NORTHCOTE,LNP,ALP,0.39149999999999996,False,inside extracted field,0.3914982164090368
+NORTHCOTE,LNP,GRN,0.6085,False,inside extracted field,0.6085017835909632
+NORTHCOTE,LNP,IND,0.0,True,outside extracted field,
+NORTHCOTE,LNP,OTH,0.0,True,outside extracted field,
+NORTHCOTE,GRN,ALP,0.0,True,no extracted category-exit field,
+NORTHCOTE,GRN,LNP,0.0,True,no extracted category-exit field,
+NORTHCOTE,GRN,IND,0.0,True,no extracted category-exit field,
+NORTHCOTE,GRN,OTH,0.0,True,no extracted category-exit field,
+NORTHCOTE,IND,ALP,0.0622,False,inside extracted field,0.0644007155635062
+NORTHCOTE,IND,LNP,0.07690000000000001,False,inside extracted field,0.0447227191413237
+NORTHCOTE,IND,GRN,0.2668,False,inside extracted field,0.2880143112701252
+NORTHCOTE,IND,OTH,0.5941,False,inside extracted field,0.6028622540250448
+NORTHCOTE,OTH,ALP,0.2028,False,inside extracted field,0.2040549157836708
+NORTHCOTE,OTH,LNP,0.2082,False,inside extracted field,0.2043911881497045
+NORTHCOTE,OTH,GRN,0.5889,False,inside extracted field,0.5915538960666246
+NORTHCOTE,OTH,IND,0.0,True,outside extracted field,
+MELBOURNE,ALP,LNP,0.0,True,no extracted category-exit field,
+MELBOURNE,ALP,GRN,0.0,True,no extracted category-exit field,
+MELBOURNE,ALP,IND,0.0,True,no extracted category-exit field,
+MELBOURNE,ALP,OTH,0.0,True,no extracted category-exit field,
+MELBOURNE,LNP,ALP,0.3177,False,inside extracted field,0.317667638483965
+MELBOURNE,LNP,GRN,0.6823,False,inside extracted field,0.6823323615160349
+MELBOURNE,LNP,IND,0.0,True,outside extracted field,
+MELBOURNE,LNP,OTH,0.0,True,outside extracted field,
+MELBOURNE,GRN,ALP,0.0,True,no extracted category-exit field,
+MELBOURNE,GRN,LNP,0.0,True,no extracted category-exit field,
+MELBOURNE,GRN,IND,0.0,True,no extracted category-exit field,
+MELBOURNE,GRN,OTH,0.0,True,no extracted category-exit field,
+MELBOURNE,IND,ALP,0.0771,False,inside extracted field,0.0771028037383177
+MELBOURNE,IND,LNP,0.0771,False,inside extracted field,0.0771028037383177
+MELBOURNE,IND,GRN,0.3107,False,inside extracted field,0.3107476635514019
+MELBOURNE,IND,OTH,0.535,False,inside extracted field,0.5350467289719626
+MELBOURNE,OTH,ALP,0.19219999999999998,False,inside extracted field,0.1922789659571051
+MELBOURNE,OTH,LNP,0.1726,False,inside extracted field,0.1727250552430894
+MELBOURNE,OTH,GRN,0.6352,False,inside extracted field,0.6349959787998053
+MELBOURNE,OTH,IND,0.0,True,outside extracted field,
+RICHMOND,ALP,LNP,0.0,True,no extracted category-exit field,
+RICHMOND,ALP,GRN,0.0,True,no extracted category-exit field,
+RICHMOND,ALP,IND,0.0,True,no extracted category-exit field,
+RICHMOND,ALP,OTH,0.0,True,no extracted category-exit field,
+RICHMOND,LNP,ALP,0.3188,False,inside extracted field,0.3187574671445639
+RICHMOND,LNP,GRN,0.6812,False,inside extracted field,0.681242532855436
+RICHMOND,LNP,IND,0.0,True,outside extracted field,
+RICHMOND,LNP,OTH,0.0,True,outside extracted field,
+RICHMOND,GRN,ALP,0.0,True,no extracted category-exit field,
+RICHMOND,GRN,LNP,0.0,True,no extracted category-exit field,
+RICHMOND,GRN,IND,0.0,True,no extracted category-exit field,
+RICHMOND,GRN,OTH,0.0,True,no extracted category-exit field,
+RICHMOND,IND,ALP,0.20379999999999998,False,inside extracted field,0.2038369304556355
+RICHMOND,IND,LNP,0.2422,False,inside extracted field,0.2422062350119904
+RICHMOND,IND,GRN,0.0815,False,inside extracted field,0.0815347721822542
+RICHMOND,IND,OTH,0.47240000000000004,False,inside extracted field,0.4724220623501199
+RICHMOND,OTH,ALP,0.2228,False,inside extracted field,0.2230540886915646
+RICHMOND,OTH,LNP,0.1549,False,inside extracted field,0.1532760778873657
+RICHMOND,OTH,GRN,0.6223,False,inside extracted field,0.6236698334210696
+RICHMOND,OTH,IND,0.0,True,outside extracted field,
+ESSENDON,ALP,LNP,0.0,True,no extracted category-exit field,
+ESSENDON,ALP,GRN,0.0,True,no extracted category-exit field,
+ESSENDON,ALP,IND,0.0,True,no extracted category-exit field,
+ESSENDON,ALP,OTH,0.0,True,no extracted category-exit field,
+ESSENDON,LNP,ALP,0.0,True,no extracted category-exit field,
+ESSENDON,LNP,GRN,0.0,True,no extracted category-exit field,
+ESSENDON,LNP,IND,0.0,True,no extracted category-exit field,
+ESSENDON,LNP,OTH,0.0,True,no extracted category-exit field,
+ESSENDON,GRN,ALP,0.812,False,inside extracted field,0.8120324189526185
+ESSENDON,GRN,LNP,0.188,False,inside extracted field,0.1879675810473815
+ESSENDON,GRN,IND,0.0,True,outside extracted field,
+ESSENDON,GRN,OTH,0.0,True,outside extracted field,
+ESSENDON,IND,ALP,0.0,True,no extracted category-exit field,
+ESSENDON,IND,LNP,0.0,True,no extracted category-exit field,
+ESSENDON,IND,GRN,0.0,True,no extracted category-exit field,
+ESSENDON,IND,OTH,0.0,True,no extracted category-exit field,
+ESSENDON,OTH,ALP,0.1893,False,inside extracted field,0.1892928619079386
+ESSENDON,OTH,LNP,0.2637,False,inside extracted field,0.2636757838559039
+ESSENDON,OTH,GRN,0.547,False,inside extracted field,0.5470313542361573
+ESSENDON,OTH,IND,0.0,True,outside extracted field,
+PASCOE VALE,ALP,LNP,0.0,True,no extracted category-exit field,
+PASCOE VALE,ALP,GRN,0.0,True,no extracted category-exit field,
+PASCOE VALE,ALP,IND,0.0,True,no extracted category-exit field,
+PASCOE VALE,ALP,OTH,0.0,True,no extracted category-exit field,
+PASCOE VALE,LNP,ALP,0.3797,False,inside extracted field,0.3796770382040173
+PASCOE VALE,LNP,GRN,0.6203,False,inside extracted field,0.6203229617959827
+PASCOE VALE,LNP,IND,0.0,True,outside extracted field,
+PASCOE VALE,LNP,OTH,0.0,True,outside extracted field,
+PASCOE VALE,GRN,ALP,0.0,True,no extracted category-exit field,
+PASCOE VALE,GRN,LNP,0.0,True,no extracted category-exit field,
+PASCOE VALE,GRN,IND,0.0,True,no extracted category-exit field,
+PASCOE VALE,GRN,OTH,0.0,True,no extracted category-exit field,
+PASCOE VALE,IND,ALP,0.1578,False,inside extracted field,0.1578044596912521
+PASCOE VALE,IND,LNP,0.08449999999999999,False,inside extracted field,0.0844768439108061
+PASCOE VALE,IND,GRN,0.295,False,inside extracted field,0.2950257289879931
+PASCOE VALE,IND,OTH,0.46270000000000006,False,inside extracted field,0.4626929674099485
+PASCOE VALE,OTH,ALP,0.1885,False,inside extracted field,0.1989025889908619
+PASCOE VALE,OTH,LNP,0.25329999999999997,False,inside extracted field,0.2589944874389661
+PASCOE VALE,OTH,GRN,0.5582,False,inside extracted field,0.542102923570172
+PASCOE VALE,OTH,IND,0.0,True,outside extracted field,
+PRESTON,ALP,LNP,0.0,True,no extracted category-exit field,
+PRESTON,ALP,GRN,0.0,True,no extracted category-exit field,
+PRESTON,ALP,IND,0.0,True,no extracted category-exit field,
+PRESTON,ALP,OTH,0.0,True,no extracted category-exit field,
+PRESTON,LNP,ALP,0.3273,False,inside extracted field,0.3272859972891251
+PRESTON,LNP,GRN,0.6727,False,inside extracted field,0.6727140027108748
+PRESTON,LNP,IND,0.0,True,outside extracted field,
+PRESTON,LNP,OTH,0.0,True,outside extracted field,
+PRESTON,GRN,ALP,0.0,True,no extracted category-exit field,
+PRESTON,GRN,LNP,0.0,True,no extracted category-exit field,
+PRESTON,GRN,IND,0.0,True,no extracted category-exit field,
+PRESTON,GRN,OTH,0.0,True,no extracted category-exit field,
+PRESTON,IND,ALP,0.22440000000000002,False,inside extracted field,0.2244130237384874
+PRESTON,IND,LNP,0.185,False,inside extracted field,0.1842002853807238
+PRESTON,IND,GRN,0.5906,False,inside extracted field,0.5913866908807887
+PRESTON,IND,OTH,0.0,True,outside extracted field,
+PRESTON,OTH,ALP,0.21059999999999998,False,inside extracted field,0.1379150579150579
+PRESTON,OTH,LNP,0.3035,False,inside extracted field,0.1989189189189189
+PRESTON,OTH,GRN,0.48590000000000005,False,inside extracted field,0.3178378378378378
+PRESTON,OTH,IND,0.0,True,inside extracted field,0.3453281853281853
+BROADMEADOWS,ALP,LNP,0.0,True,no extracted category-exit field,
+BROADMEADOWS,ALP,GRN,0.0,True,no extracted category-exit field,
+BROADMEADOWS,ALP,IND,0.0,True,no extracted category-exit field,
+BROADMEADOWS,ALP,OTH,0.0,True,no extracted category-exit field,
+BROADMEADOWS,LNP,ALP,0.0,True,no extracted category-exit field,
+BROADMEADOWS,LNP,GRN,0.0,True,no extracted category-exit field,
+BROADMEADOWS,LNP,IND,0.0,True,no extracted category-exit field,
+BROADMEADOWS,LNP,OTH,0.0,True,no extracted category-exit field,
+BROADMEADOWS,GRN,ALP,0.7487999999999999,False,inside extracted field,0.7487700365021425
+BROADMEADOWS,GRN,LNP,0.25120000000000003,False,inside extracted field,0.2512299634978575
+BROADMEADOWS,GRN,IND,0.0,True,outside extracted field,
+BROADMEADOWS,GRN,OTH,0.0,True,outside extracted field,
+BROADMEADOWS,IND,ALP,0.1245,False,inside extracted field,0.1189336978810663
+BROADMEADOWS,IND,LNP,0.09970000000000001,False,inside extracted field,0.101161995898838
+BROADMEADOWS,IND,GRN,0.0575,False,inside extracted field,0.0519480519480519
+BROADMEADOWS,IND,OTH,0.7182999999999999,False,inside extracted field,0.7279562542720438
+BROADMEADOWS,OTH,ALP,0.2615,False,inside extracted field,0.2673021136197077
+BROADMEADOWS,OTH,LNP,0.2955,False,inside extracted field,0.2918629114286626
+BROADMEADOWS,OTH,GRN,0.44299999999999995,False,inside extracted field,0.4408349749516297
+BROADMEADOWS,OTH,IND,0.0,True,outside extracted field,
+GREENVALE,ALP,LNP,0.0,True,no extracted category-exit field,
+GREENVALE,ALP,GRN,0.0,True,no extracted category-exit field,
+GREENVALE,ALP,IND,0.0,True,no extracted category-exit field,
+GREENVALE,ALP,OTH,0.0,True,no extracted category-exit field,
+GREENVALE,LNP,ALP,0.0,True,no extracted category-exit field,
+GREENVALE,LNP,GRN,0.0,True,no extracted category-exit field,
+GREENVALE,LNP,IND,0.0,True,no extracted category-exit field,
+GREENVALE,LNP,OTH,0.0,True,no extracted category-exit field,
+GREENVALE,GRN,ALP,0.4533,False,inside extracted field,0.4533475783475783
+GREENVALE,GRN,LNP,0.1036,False,inside extracted field,0.1036324786324786
+GREENVALE,GRN,IND,0.0,True,outside extracted field,
+GREENVALE,GRN,OTH,0.44299999999999995,False,inside extracted field,0.4430199430199431
+GREENVALE,IND,ALP,0.1497,False,inside extracted field,0.1497098646034816
+GREENVALE,IND,LNP,0.3691,False,inside extracted field,0.3690522243713733
+GREENVALE,IND,GRN,0.0727,False,inside extracted field,0.0727272727272727
+GREENVALE,IND,OTH,0.40850000000000003,False,inside extracted field,0.4085106382978723
+GREENVALE,OTH,ALP,0.534,False,inside extracted field,0.4533913061500488
+GREENVALE,OTH,LNP,0.466,False,inside extracted field,0.5466086938499514
+GREENVALE,OTH,GRN,0.0,True,outside extracted field,
+GREENVALE,OTH,IND,0.0,True,outside extracted field,
+THOMASTOWN,ALP,LNP,0.0,True,no extracted category-exit field,
+THOMASTOWN,ALP,GRN,0.0,True,no extracted category-exit field,
+THOMASTOWN,ALP,IND,0.0,True,no extracted category-exit field,
+THOMASTOWN,ALP,OTH,0.0,True,no extracted category-exit field,
+THOMASTOWN,LNP,ALP,0.0,True,no extracted category-exit field,
+THOMASTOWN,LNP,GRN,0.0,True,no extracted category-exit field,
+THOMASTOWN,LNP,IND,0.0,True,no extracted category-exit field,
+THOMASTOWN,LNP,OTH,0.0,True,no extracted category-exit field,
+THOMASTOWN,GRN,ALP,0.457,False,inside extracted field,0.4570086705202311
+THOMASTOWN,GRN,LNP,0.08710000000000001,False,inside extracted field,0.0870664739884393
+THOMASTOWN,GRN,IND,0.0,True,outside extracted field,
+THOMASTOWN,GRN,OTH,0.4559,False,inside extracted field,0.4559248554913295
+THOMASTOWN,IND,ALP,0.0,True,no extracted category-exit field,
+THOMASTOWN,IND,LNP,0.0,True,no extracted category-exit field,
+THOMASTOWN,IND,GRN,0.0,True,no extracted category-exit field,
+THOMASTOWN,IND,OTH,0.0,True,no extracted category-exit field,
+THOMASTOWN,OTH,ALP,0.5294,False,inside extracted field,0.5275496344058965
+THOMASTOWN,OTH,LNP,0.4706,False,inside extracted field,0.4724503655941034
+THOMASTOWN,OTH,GRN,0.0,True,outside extracted field,
+THOMASTOWN,OTH,IND,0.0,True,outside extracted field,
+KALKALLO,ALP,LNP,0.0,True,no extracted category-exit field,
+KALKALLO,ALP,GRN,0.0,True,no extracted category-exit field,
+KALKALLO,ALP,IND,0.0,True,no extracted category-exit field,
+KALKALLO,ALP,OTH,0.0,True,no extracted category-exit field,
+KALKALLO,LNP,ALP,0.0,True,no extracted category-exit field,
+KALKALLO,LNP,GRN,0.0,True,no extracted category-exit field,
+KALKALLO,LNP,IND,0.0,True,no extracted category-exit field,
+KALKALLO,LNP,OTH,0.0,True,no extracted category-exit field,
+KALKALLO,GRN,ALP,0.5825,False,inside extracted field,0.5824603412152051
+KALKALLO,GRN,LNP,0.1368,False,inside extracted field,0.1367853935947321
+KALKALLO,GRN,IND,0.0,True,outside extracted field,
+KALKALLO,GRN,OTH,0.2808,False,inside extracted field,0.2807542651900628
+KALKALLO,IND,ALP,0.19940000000000002,False,inside extracted field,0.2069408740359897
+KALKALLO,IND,LNP,0.1495,False,inside extracted field,0.1645244215938303
+KALKALLO,IND,GRN,0.11560000000000001,False,inside extracted field,0.0964010282776349
+KALKALLO,IND,OTH,0.5355,False,inside extracted field,0.532133676092545
+KALKALLO,OTH,ALP,0.4793,False,inside extracted field,0.4935066142690984
+KALKALLO,OTH,LNP,0.5207,False,inside extracted field,0.5064933857309016
+KALKALLO,OTH,GRN,0.0,True,outside extracted field,
+KALKALLO,OTH,IND,0.0,True,outside extracted field,
+CLARINDA,ALP,LNP,0.0,True,no extracted category-exit field,
+CLARINDA,ALP,GRN,0.0,True,no extracted category-exit field,
+CLARINDA,ALP,IND,0.0,True,no extracted category-exit field,
+CLARINDA,ALP,OTH,0.0,True,no extracted category-exit field,
+CLARINDA,LNP,ALP,0.0,True,no extracted category-exit field,
+CLARINDA,LNP,GRN,0.0,True,no extracted category-exit field,
+CLARINDA,LNP,IND,0.0,True,no extracted category-exit field,
+CLARINDA,LNP,OTH,0.0,True,no extracted category-exit field,
+CLARINDA,GRN,ALP,0.6615000000000001,False,inside extracted field,0.6615154536390827
+CLARINDA,GRN,LNP,0.1555,False,inside extracted field,0.1555333998005982
+CLARINDA,GRN,IND,0.183,False,inside extracted field,0.182951146560319
+CLARINDA,GRN,OTH,0.0,True,outside extracted field,
+CLARINDA,IND,ALP,0.4328,False,inside extracted field,0.4327649850588855
+CLARINDA,IND,LNP,0.5672,False,inside extracted field,0.5672350149411144
+CLARINDA,IND,GRN,0.0,True,outside extracted field,
+CLARINDA,IND,OTH,0.0,True,outside extracted field,
+CLARINDA,OTH,ALP,0.1493,False,inside extracted field,0.2076885880077369
+CLARINDA,OTH,LNP,0.16210000000000002,False,inside extracted field,0.1702127659574468
+CLARINDA,OTH,GRN,0.2163,False,inside extracted field,0.1897969052224371
+CLARINDA,OTH,IND,0.47229999999999994,False,inside extracted field,0.4323017408123791
+MORDIALLOC,ALP,LNP,0.0,True,no extracted category-exit field,
+MORDIALLOC,ALP,GRN,0.0,True,no extracted category-exit field,
+MORDIALLOC,ALP,IND,0.0,True,no extracted category-exit field,
+MORDIALLOC,ALP,OTH,0.0,True,no extracted category-exit field,
+MORDIALLOC,LNP,ALP,0.0,True,no extracted category-exit field,
+MORDIALLOC,LNP,GRN,0.0,True,no extracted category-exit field,
+MORDIALLOC,LNP,IND,0.0,True,no extracted category-exit field,
+MORDIALLOC,LNP,OTH,0.0,True,no extracted category-exit field,
+MORDIALLOC,GRN,ALP,0.7678,False,inside extracted field,0.7678310316815598
+MORDIALLOC,GRN,LNP,0.2322,False,inside extracted field,0.2321689683184403
+MORDIALLOC,GRN,IND,0.0,True,outside extracted field,
+MORDIALLOC,GRN,OTH,0.0,True,outside extracted field,
+MORDIALLOC,IND,ALP,0.2799,False,inside extracted field,0.2337575351640991
+MORDIALLOC,IND,LNP,0.5323,False,inside extracted field,0.5733422638981915
+MORDIALLOC,IND,GRN,0.18780000000000002,False,inside extracted field,0.1929002009377093
+MORDIALLOC,IND,OTH,0.0,True,outside extracted field,
+MORDIALLOC,OTH,ALP,0.155,False,inside extracted field,0.1529680365296803
+MORDIALLOC,OTH,LNP,0.1985,False,inside extracted field,0.1934116112198304
+MORDIALLOC,OTH,GRN,0.2559,False,inside extracted field,0.2495107632093933
+MORDIALLOC,OTH,IND,0.3906,False,inside extracted field,0.4041095890410959
+MULGRAVE,ALP,LNP,0.0,True,no extracted category-exit field,
+MULGRAVE,ALP,GRN,0.0,True,no extracted category-exit field,
+MULGRAVE,ALP,IND,0.0,True,no extracted category-exit field,
+MULGRAVE,ALP,OTH,0.0,True,no extracted category-exit field,
+MULGRAVE,LNP,ALP,0.8055,False,inside extracted field,0.1945481702763256
+MULGRAVE,LNP,GRN,0.0,True,outside extracted field,
+MULGRAVE,LNP,IND,0.1945,False,inside extracted field,0.8054518297236744
+MULGRAVE,LNP,OTH,0.0,True,outside extracted field,
+MULGRAVE,GRN,ALP,0.6086,False,inside extracted field,0.6086292478045056
+MULGRAVE,GRN,LNP,0.2138,False,inside extracted field,0.2138220694921725
+MULGRAVE,GRN,IND,0.1775,False,inside extracted field,0.1775486827033219
+MULGRAVE,GRN,OTH,0.0,True,outside extracted field,
+MULGRAVE,IND,ALP,0.0,True,no extracted category-exit field,
+MULGRAVE,IND,LNP,0.0,True,no extracted category-exit field,
+MULGRAVE,IND,GRN,0.0,True,no extracted category-exit field,
+MULGRAVE,IND,OTH,0.0,True,no extracted category-exit field,
+MULGRAVE,OTH,ALP,0.1234,False,inside extracted field,0.168034032209055
+MULGRAVE,OTH,LNP,0.4804,False,inside extracted field,0.292616226071103
+MULGRAVE,OTH,GRN,0.156,False,inside extracted field,0.2123974475843209
+MULGRAVE,OTH,IND,0.2402,False,inside extracted field,0.3269522941355211
+ROWVILLE,ALP,LNP,0.0,True,no extracted category-exit field,
+ROWVILLE,ALP,GRN,0.0,True,no extracted category-exit field,
+ROWVILLE,ALP,IND,0.0,True,no extracted category-exit field,
+ROWVILLE,ALP,OTH,0.0,True,no extracted category-exit field,
+ROWVILLE,LNP,ALP,0.0,True,no extracted category-exit field,
+ROWVILLE,LNP,GRN,0.0,True,no extracted category-exit field,
+ROWVILLE,LNP,IND,0.0,True,no extracted category-exit field,
+ROWVILLE,LNP,OTH,0.0,True,no extracted category-exit field,
+ROWVILLE,GRN,ALP,0.6659,False,inside extracted field,0.6658582592293183
+ROWVILLE,GRN,LNP,0.14550000000000002,False,inside extracted field,0.1455133387227162
+ROWVILLE,GRN,IND,0.1886,False,inside extracted field,0.1886284020479655
+ROWVILLE,GRN,OTH,0.0,True,outside extracted field,
+ROWVILLE,IND,ALP,0.4044,False,inside extracted field,0.4043864678899082
+ROWVILLE,IND,LNP,0.5956,False,inside extracted field,0.5956135321100917
+ROWVILLE,IND,GRN,0.0,True,outside extracted field,
+ROWVILLE,IND,OTH,0.0,True,outside extracted field,
+ROWVILLE,OTH,ALP,0.1625,False,inside extracted field,0.1625
+ROWVILLE,OTH,LNP,0.3059,False,inside extracted field,0.3059375
+ROWVILLE,OTH,GRN,0.205,False,inside extracted field,0.205
+ROWVILLE,OTH,IND,0.32659999999999995,False,inside extracted field,0.3265625
+CRANBOURNE,ALP,LNP,0.0,True,no extracted category-exit field,
+CRANBOURNE,ALP,GRN,0.0,True,no extracted category-exit field,
+CRANBOURNE,ALP,IND,0.0,True,no extracted category-exit field,
+CRANBOURNE,ALP,OTH,0.0,True,no extracted category-exit field,
+CRANBOURNE,LNP,ALP,0.0,True,no extracted category-exit field,
+CRANBOURNE,LNP,GRN,0.0,True,no extracted category-exit field,
+CRANBOURNE,LNP,IND,0.0,True,no extracted category-exit field,
+CRANBOURNE,LNP,OTH,0.0,True,no extracted category-exit field,
+CRANBOURNE,GRN,ALP,0.5629,False,inside extracted field,0.5628686743247439
+CRANBOURNE,GRN,LNP,0.1229,False,inside extracted field,0.1229431853461657
+CRANBOURNE,GRN,IND,0.0,True,outside extracted field,
+CRANBOURNE,GRN,OTH,0.31420000000000003,False,inside extracted field,0.3141881403290903
+CRANBOURNE,IND,ALP,0.1033,False,inside extracted field,0.1033057851239669
+CRANBOURNE,IND,LNP,0.3306,False,inside extracted field,0.3305785123966942
+CRANBOURNE,IND,GRN,0.1281,False,inside extracted field,0.128099173553719
+CRANBOURNE,IND,OTH,0.43799999999999994,False,inside extracted field,0.4380165289256198
+CRANBOURNE,OTH,ALP,0.4305,False,inside extracted field,0.4362876205567799
+CRANBOURNE,OTH,LNP,0.5695,False,inside extracted field,0.5637123794432201
+CRANBOURNE,OTH,GRN,0.0,True,outside extracted field,
+CRANBOURNE,OTH,IND,0.0,True,outside extracted field,
+DANDENONG,ALP,LNP,0.0,True,no extracted category-exit field,
+DANDENONG,ALP,GRN,0.0,True,no extracted category-exit field,
+DANDENONG,ALP,IND,0.0,True,no extracted category-exit field,
+DANDENONG,ALP,OTH,0.0,True,no extracted category-exit field,
+DANDENONG,LNP,ALP,0.0,True,no extracted category-exit field,
+DANDENONG,LNP,GRN,0.0,True,no extracted category-exit field,
+DANDENONG,LNP,IND,0.0,True,no extracted category-exit field,
+DANDENONG,LNP,OTH,0.0,True,no extracted category-exit field,
+DANDENONG,GRN,ALP,0.621,False,inside extracted field,0.6209763948497854
+DANDENONG,GRN,LNP,0.1355,False,inside extracted field,0.1354613733905579
+DANDENONG,GRN,IND,0.0,True,outside extracted field,
+DANDENONG,GRN,OTH,0.24359999999999998,False,inside extracted field,0.2435622317596566
+DANDENONG,IND,ALP,0.071,False,no extracted category-exit field,
+DANDENONG,IND,LNP,0.3549,False,no extracted category-exit field,
+DANDENONG,IND,GRN,0.0626,False,no extracted category-exit field,
+DANDENONG,IND,OTH,0.5115,False,no extracted category-exit field,
+DANDENONG,OTH,ALP,0.49119999999999997,False,inside extracted field,0.4761939586080771
+DANDENONG,OTH,LNP,0.5088,False,inside extracted field,0.5238060413919228
+DANDENONG,OTH,GRN,0.0,True,outside extracted field,
+DANDENONG,OTH,IND,0.0,True,outside extracted field,
+NARRE WARREN NORTH,ALP,LNP,0.0,True,no extracted category-exit field,
+NARRE WARREN NORTH,ALP,GRN,0.0,True,no extracted category-exit field,
+NARRE WARREN NORTH,ALP,IND,0.0,True,no extracted category-exit field,
+NARRE WARREN NORTH,ALP,OTH,0.0,True,no extracted category-exit field,
+NARRE WARREN NORTH,LNP,ALP,0.0,True,no extracted category-exit field,
+NARRE WARREN NORTH,LNP,GRN,0.0,True,no extracted category-exit field,
+NARRE WARREN NORTH,LNP,IND,0.0,True,no extracted category-exit field,
+NARRE WARREN NORTH,LNP,OTH,0.0,True,no extracted category-exit field,
+NARRE WARREN NORTH,GRN,ALP,0.6063000000000001,False,inside extracted field,0.6063374250642306
+NARRE WARREN NORTH,GRN,LNP,0.1653,False,inside extracted field,0.1652868969454753
+NARRE WARREN NORTH,GRN,IND,0.0,True,outside extracted field,
+NARRE WARREN NORTH,GRN,OTH,0.2284,False,inside extracted field,0.228375677990294
+NARRE WARREN NORTH,IND,ALP,0.1304,False,inside extracted field,0.1304347826086956
+NARRE WARREN NORTH,IND,LNP,0.2995,False,inside extracted field,0.2995169082125604
+NARRE WARREN NORTH,IND,GRN,0.0889,False,inside extracted field,0.0888888888888888
+NARRE WARREN NORTH,IND,OTH,0.48119999999999996,False,inside extracted field,0.4811594202898551
+NARRE WARREN NORTH,OTH,ALP,0.38049999999999995,False,inside extracted field,0.3874818969437006
+NARRE WARREN NORTH,OTH,LNP,0.6195,False,inside extracted field,0.6125181030562994
+NARRE WARREN NORTH,OTH,GRN,0.0,True,outside extracted field,
+NARRE WARREN NORTH,OTH,IND,0.0,True,outside extracted field,
+NARRE WARREN SOUTH,ALP,LNP,0.0,True,no extracted category-exit field,
+NARRE WARREN SOUTH,ALP,GRN,0.0,True,no extracted category-exit field,
+NARRE WARREN SOUTH,ALP,IND,0.0,True,no extracted category-exit field,
+NARRE WARREN SOUTH,ALP,OTH,0.0,True,no extracted category-exit field,
+NARRE WARREN SOUTH,LNP,ALP,0.0,True,no extracted category-exit field,
+NARRE WARREN SOUTH,LNP,GRN,0.0,True,no extracted category-exit field,
+NARRE WARREN SOUTH,LNP,IND,0.0,True,no extracted category-exit field,
+NARRE WARREN SOUTH,LNP,OTH,0.0,True,no extracted category-exit field,
+NARRE WARREN SOUTH,GRN,ALP,0.5931000000000001,False,inside extracted field,0.5930902111324377
+NARRE WARREN SOUTH,GRN,LNP,0.1352,False,inside extracted field,0.1351795996709624
+NARRE WARREN SOUTH,GRN,IND,0.0,True,outside extracted field,
+NARRE WARREN SOUTH,GRN,OTH,0.2717,False,inside extracted field,0.2717301891965999
+NARRE WARREN SOUTH,IND,ALP,0.1276,False,inside extracted field,0.1275862068965517
+NARRE WARREN SOUTH,IND,LNP,0.1483,False,inside extracted field,0.1482758620689655
+NARRE WARREN SOUTH,IND,GRN,0.0759,False,inside extracted field,0.0758620689655172
+NARRE WARREN SOUTH,IND,OTH,0.6483,False,inside extracted field,0.6482758620689655
+NARRE WARREN SOUTH,OTH,ALP,0.345,False,inside extracted field,0.3479503548150613
+NARRE WARREN SOUTH,OTH,LNP,0.655,False,inside extracted field,0.6520496451849387
+NARRE WARREN SOUTH,OTH,GRN,0.0,True,outside extracted field,
+NARRE WARREN SOUTH,OTH,IND,0.0,True,outside extracted field,
+FRANKSTON,ALP,LNP,0.0,True,no extracted category-exit field,
+FRANKSTON,ALP,GRN,0.0,True,no extracted category-exit field,
+FRANKSTON,ALP,IND,0.0,True,no extracted category-exit field,
+FRANKSTON,ALP,OTH,0.0,True,no extracted category-exit field,
+FRANKSTON,LNP,ALP,0.0,True,no extracted category-exit field,
+FRANKSTON,LNP,GRN,0.0,True,no extracted category-exit field,
+FRANKSTON,LNP,IND,0.0,True,no extracted category-exit field,
+FRANKSTON,LNP,OTH,0.0,True,no extracted category-exit field,
+FRANKSTON,GRN,ALP,0.7851,False,inside extracted field,0.7850542386500603
+FRANKSTON,GRN,LNP,0.21489999999999998,False,inside extracted field,0.2149457613499397
+FRANKSTON,GRN,IND,0.0,True,outside extracted field,
+FRANKSTON,GRN,OTH,0.0,True,outside extracted field,
+FRANKSTON,IND,ALP,0.10550000000000001,False,inside extracted field,0.0811654526534859
+FRANKSTON,IND,LNP,0.07339999999999999,False,inside extracted field,0.072840790842872
+FRANKSTON,IND,GRN,0.1303,False,inside extracted field,0.0832466181061394
+FRANKSTON,IND,OTH,0.6908,False,inside extracted field,0.7627471383975026
+FRANKSTON,OTH,ALP,0.38880000000000003,False,inside extracted field,0.1414501488500718
+FRANKSTON,OTH,LNP,0.6112,False,inside extracted field,0.4895008493600591
+FRANKSTON,OTH,GRN,0.0,True,inside extracted field,0.369049001789869
+FRANKSTON,OTH,IND,0.0,True,outside extracted field,
+BERWICK,ALP,LNP,0.0,True,no extracted category-exit field,
+BERWICK,ALP,GRN,0.0,True,no extracted category-exit field,
+BERWICK,ALP,IND,0.0,True,no extracted category-exit field,
+BERWICK,ALP,OTH,0.0,True,no extracted category-exit field,
+BERWICK,LNP,ALP,0.0,True,no extracted category-exit field,
+BERWICK,LNP,GRN,0.0,True,no extracted category-exit field,
+BERWICK,LNP,IND,0.0,True,no extracted category-exit field,
+BERWICK,LNP,OTH,0.0,True,no extracted category-exit field,
+BERWICK,GRN,ALP,0.6356,False,inside extracted field,0.6356159485070624
+BERWICK,GRN,LNP,0.3644,False,inside extracted field,0.3643840514929376
+BERWICK,GRN,IND,0.0,True,outside extracted field,
+BERWICK,GRN,OTH,0.0,True,outside extracted field,
+BERWICK,IND,ALP,0.0,True,no extracted category-exit field,
+BERWICK,IND,LNP,0.0,True,no extracted category-exit field,
+BERWICK,IND,GRN,0.0,True,no extracted category-exit field,
+BERWICK,IND,OTH,0.0,True,no extracted category-exit field,
+BERWICK,OTH,ALP,0.1539,False,inside extracted field,0.1539026180572547
+BERWICK,OTH,LNP,0.5287,False,inside extracted field,0.5287496941521899
+BERWICK,OTH,GRN,0.3173,False,inside extracted field,0.3173476877905554
+BERWICK,OTH,IND,0.0,True,outside extracted field,
+CARRUM,ALP,LNP,0.0,True,no extracted category-exit field,
+CARRUM,ALP,GRN,0.0,True,no extracted category-exit field,
+CARRUM,ALP,IND,0.0,True,no extracted category-exit field,
+CARRUM,ALP,OTH,0.0,True,no extracted category-exit field,
+CARRUM,LNP,ALP,0.0,True,no extracted category-exit field,
+CARRUM,LNP,GRN,0.0,True,no extracted category-exit field,
+CARRUM,LNP,IND,0.0,True,no extracted category-exit field,
+CARRUM,LNP,OTH,0.0,True,no extracted category-exit field,
+CARRUM,GRN,ALP,0.6171,False,inside extracted field,0.6171335030920335
+CARRUM,GRN,LNP,0.3829,False,inside extracted field,0.3828664969079665
+CARRUM,GRN,IND,0.0,True,outside extracted field,
+CARRUM,GRN,OTH,0.0,True,outside extracted field,
+CARRUM,IND,ALP,0.08259999999999999,False,inside extracted field,0.0825688073394495
+CARRUM,IND,LNP,0.1081,False,inside extracted field,0.1080530071355759
+CARRUM,IND,GRN,0.0591,False,inside extracted field,0.0591233435270132
+CARRUM,IND,OTH,0.7503,False,inside extracted field,0.7502548419979612
+CARRUM,OTH,ALP,0.16,False,inside extracted field,0.1648080673412466
+CARRUM,OTH,LNP,0.4106,False,inside extracted field,0.4035427222385515
+CARRUM,OTH,GRN,0.4293,False,inside extracted field,0.4316492104202019
+CARRUM,OTH,IND,0.0,True,outside extracted field,
+ALBERT PARK,ALP,LNP,0.0,True,no extracted category-exit field,
+ALBERT PARK,ALP,GRN,0.0,True,no extracted category-exit field,
+ALBERT PARK,ALP,IND,0.0,True,no extracted category-exit field,
+ALBERT PARK,ALP,OTH,0.0,True,no extracted category-exit field,
+ALBERT PARK,LNP,ALP,0.0,True,no extracted category-exit field,
+ALBERT PARK,LNP,GRN,0.0,True,no extracted category-exit field,
+ALBERT PARK,LNP,IND,0.0,True,no extracted category-exit field,
+ALBERT PARK,LNP,OTH,0.0,True,no extracted category-exit field,
+ALBERT PARK,GRN,ALP,0.8382,False,inside extracted field,0.8381554260886739
+ALBERT PARK,GRN,LNP,0.1618,False,inside extracted field,0.1618445739113261
+ALBERT PARK,GRN,IND,0.0,True,outside extracted field,
+ALBERT PARK,GRN,OTH,0.0,True,outside extracted field,
+ALBERT PARK,IND,ALP,0.2937,False,inside extracted field,0.2936918304033092
+ALBERT PARK,IND,LNP,0.2944,False,inside extracted field,0.2943812478455705
+ALBERT PARK,IND,GRN,0.4119,False,inside extracted field,0.4119269217511203
+ALBERT PARK,IND,OTH,0.0,True,outside extracted field,
+ALBERT PARK,OTH,ALP,0.1182,False,inside extracted field,0.1181651376146789
+ALBERT PARK,OTH,LNP,0.3824,False,inside extracted field,0.3823853211009174
+ALBERT PARK,OTH,GRN,0.2767,False,inside extracted field,0.276697247706422
+ALBERT PARK,OTH,IND,0.2228,False,inside extracted field,0.2227522935779816
+BRIGHTON,ALP,LNP,0.0,True,no extracted category-exit field,
+BRIGHTON,ALP,GRN,0.0,True,no extracted category-exit field,
+BRIGHTON,ALP,IND,0.0,True,no extracted category-exit field,
+BRIGHTON,ALP,OTH,0.0,True,no extracted category-exit field,
+BRIGHTON,LNP,ALP,0.0,True,no extracted category-exit field,
+BRIGHTON,LNP,GRN,0.0,True,no extracted category-exit field,
+BRIGHTON,LNP,IND,0.0,True,no extracted category-exit field,
+BRIGHTON,LNP,OTH,0.0,True,no extracted category-exit field,
+BRIGHTON,GRN,ALP,0.7702,False,inside extracted field,0.7701949860724234
+BRIGHTON,GRN,LNP,0.2298,False,inside extracted field,0.2298050139275765
+BRIGHTON,GRN,IND,0.0,True,outside extracted field,
+BRIGHTON,GRN,OTH,0.0,True,outside extracted field,
+BRIGHTON,IND,ALP,0.3045,False,inside extracted field,0.3044951434379941
+BRIGHTON,IND,LNP,0.28800000000000003,False,inside extracted field,0.2880054212785182
+BRIGHTON,IND,GRN,0.4075,False,inside extracted field,0.4074994352834877
+BRIGHTON,IND,OTH,0.0,True,outside extracted field,
+BRIGHTON,OTH,ALP,0.1202,False,inside extracted field,0.1201991465149359
+BRIGHTON,OTH,LNP,0.2361,False,inside extracted field,0.2361308677098151
+BRIGHTON,OTH,GRN,0.40259999999999996,False,inside extracted field,0.4025604551920341
+BRIGHTON,OTH,IND,0.24109999999999998,False,inside extracted field,0.2411095305832148
+CAULFIELD,ALP,LNP,0.0,True,no extracted category-exit field,
+CAULFIELD,ALP,GRN,0.0,True,no extracted category-exit field,
+CAULFIELD,ALP,IND,0.0,True,no extracted category-exit field,
+CAULFIELD,ALP,OTH,0.0,True,no extracted category-exit field,
+CAULFIELD,LNP,ALP,0.0,True,no extracted category-exit field,
+CAULFIELD,LNP,GRN,0.0,True,no extracted category-exit field,
+CAULFIELD,LNP,IND,0.0,True,no extracted category-exit field,
+CAULFIELD,LNP,OTH,0.0,True,no extracted category-exit field,
+CAULFIELD,GRN,ALP,0.8255,False,inside extracted field,0.8254622541514545
+CAULFIELD,GRN,LNP,0.1745,False,inside extracted field,0.1745377458485455
+CAULFIELD,GRN,IND,0.0,True,outside extracted field,
+CAULFIELD,GRN,OTH,0.0,True,outside extracted field,
+CAULFIELD,IND,ALP,0.3062,False,inside extracted field,0.3061623736550375
+CAULFIELD,IND,LNP,0.2126,False,inside extracted field,0.2125855885229866
+CAULFIELD,IND,GRN,0.4813,False,inside extracted field,0.4812520378219759
+CAULFIELD,IND,OTH,0.0,True,outside extracted field,
+CAULFIELD,OTH,ALP,0.1139,False,inside extracted field,0.1138838475499092
+CAULFIELD,OTH,LNP,0.436,False,inside extracted field,0.4360254083484574
+CAULFIELD,OTH,GRN,0.2577,False,inside extracted field,0.2577132486388385
+CAULFIELD,OTH,IND,0.1924,False,inside extracted field,0.1923774954627949
+PRAHRAN,ALP,LNP,0.1711,False,inside extracted field,0.1710696471457602
+PRAHRAN,ALP,GRN,0.8289,False,inside extracted field,0.8289303528542398
+PRAHRAN,ALP,IND,0.0,True,outside extracted field,
+PRAHRAN,ALP,OTH,0.0,True,outside extracted field,
+PRAHRAN,LNP,ALP,0.0,True,no extracted category-exit field,
+PRAHRAN,LNP,GRN,0.0,True,no extracted category-exit field,
+PRAHRAN,LNP,IND,0.0,True,no extracted category-exit field,
+PRAHRAN,LNP,OTH,0.0,True,no extracted category-exit field,
+PRAHRAN,GRN,ALP,0.0,True,no extracted category-exit field,
+PRAHRAN,GRN,LNP,0.0,True,no extracted category-exit field,
+PRAHRAN,GRN,IND,0.0,True,no extracted category-exit field,
+PRAHRAN,GRN,OTH,0.0,True,no extracted category-exit field,
+PRAHRAN,IND,ALP,0.2094,False,inside extracted field,0.2093541202672605
+PRAHRAN,IND,LNP,0.17149999999999999,False,inside extracted field,0.1714922048997773
+PRAHRAN,IND,GRN,0.23829999999999998,False,inside extracted field,0.2383073496659243
+PRAHRAN,IND,OTH,0.38079999999999997,False,inside extracted field,0.3808463251670378
+PRAHRAN,OTH,ALP,0.151,False,inside extracted field,0.1516633920231226
+PRAHRAN,OTH,LNP,0.3796,False,inside extracted field,0.3753848474522424
+PRAHRAN,OTH,GRN,0.4694,False,inside extracted field,0.472951760524635
+PRAHRAN,OTH,IND,0.0,True,outside extracted field,
+HAWTHORN,ALP,LNP,0.0,True,no extracted category-exit field,
+HAWTHORN,ALP,GRN,0.0,True,no extracted category-exit field,
+HAWTHORN,ALP,IND,0.0,True,no extracted category-exit field,
+HAWTHORN,ALP,OTH,0.0,True,no extracted category-exit field,
+HAWTHORN,LNP,ALP,0.0,True,no extracted category-exit field,
+HAWTHORN,LNP,GRN,0.0,True,no extracted category-exit field,
+HAWTHORN,LNP,IND,0.0,True,no extracted category-exit field,
+HAWTHORN,LNP,OTH,0.0,True,no extracted category-exit field,
+HAWTHORN,GRN,ALP,0.37020000000000003,False,inside extracted field,0.3701741105223315
+HAWTHORN,GRN,LNP,0.0929,False,inside extracted field,0.0929220287660863
+HAWTHORN,GRN,IND,0.5368999999999999,False,inside extracted field,0.5369038607115821
+HAWTHORN,GRN,OTH,0.0,True,outside extracted field,
+HAWTHORN,IND,ALP,0.7646,False,inside extracted field,0.7645546525128545
+HAWTHORN,IND,LNP,0.2354,False,inside extracted field,0.2354453474871454
+HAWTHORN,IND,GRN,0.0,True,outside extracted field,
+HAWTHORN,IND,OTH,0.0,True,outside extracted field,
+HAWTHORN,OTH,ALP,0.204,False,inside extracted field,0.2039900249376558
+HAWTHORN,OTH,LNP,0.4334,False,inside extracted field,0.4334164588528678
+HAWTHORN,OTH,GRN,0.17809999999999998,False,inside extracted field,0.1780548628428927
+HAWTHORN,OTH,IND,0.1845,False,inside extracted field,0.1845386533665835
+KEW,ALP,LNP,0.0,True,no extracted category-exit field,
+KEW,ALP,GRN,0.0,True,no extracted category-exit field,
+KEW,ALP,IND,0.0,True,no extracted category-exit field,
+KEW,ALP,OTH,0.0,True,no extracted category-exit field,
+KEW,LNP,ALP,0.0,True,no extracted category-exit field,
+KEW,LNP,GRN,0.0,True,no extracted category-exit field,
+KEW,LNP,IND,0.0,True,no extracted category-exit field,
+KEW,LNP,OTH,0.0,True,no extracted category-exit field,
+KEW,GRN,ALP,0.4072,False,inside extracted field,0.4072375127420999
+KEW,GRN,LNP,0.1134,False,inside extracted field,0.1134046890927624
+KEW,GRN,IND,0.4794,False,inside extracted field,0.4793577981651376
+KEW,GRN,OTH,0.0,True,outside extracted field,
+KEW,IND,ALP,0.7304999999999999,False,inside extracted field,0.7304507017696801
+KEW,IND,LNP,0.2695,False,inside extracted field,0.2695492982303199
+KEW,IND,GRN,0.0,True,outside extracted field,
+KEW,IND,OTH,0.0,True,outside extracted field,
+KEW,OTH,ALP,0.1216,False,inside extracted field,0.1215611004478566
+KEW,OTH,LNP,0.4293,False,inside extracted field,0.4293026231605886
+KEW,OTH,GRN,0.1996,False,inside extracted field,0.1996161228406909
+KEW,OTH,IND,0.2495,False,inside extracted field,0.2495201535508637
+MALVERN,ALP,LNP,0.0,True,no extracted category-exit field,
+MALVERN,ALP,GRN,0.0,True,no extracted category-exit field,
+MALVERN,ALP,IND,0.0,True,no extracted category-exit field,
+MALVERN,ALP,OTH,0.0,True,no extracted category-exit field,
+MALVERN,LNP,ALP,0.0,True,no extracted category-exit field,
+MALVERN,LNP,GRN,0.0,True,no extracted category-exit field,
+MALVERN,LNP,IND,0.0,True,no extracted category-exit field,
+MALVERN,LNP,OTH,0.0,True,no extracted category-exit field,
+MALVERN,GRN,ALP,0.8129000000000001,False,inside extracted field,0.8128703320931514
+MALVERN,GRN,LNP,0.18710000000000002,False,inside extracted field,0.1871296679068485
+MALVERN,GRN,IND,0.0,True,outside extracted field,
+MALVERN,GRN,OTH,0.0,True,outside extracted field,
+MALVERN,IND,ALP,0.1751,False,inside extracted field,0.1751025991792065
+MALVERN,IND,LNP,0.38299999999999995,False,inside extracted field,0.3830369357045143
+MALVERN,IND,GRN,0.2107,False,inside extracted field,0.2106703146374829
+MALVERN,IND,OTH,0.23120000000000002,False,inside extracted field,0.2311901504787961
+MALVERN,OTH,ALP,0.2297,False,inside extracted field,0.2253650774269741
+MALVERN,OTH,LNP,0.35509999999999997,False,inside extracted field,0.3734545130323449
+MALVERN,OTH,GRN,0.4152,False,inside extracted field,0.4011804095406809
+MALVERN,OTH,IND,0.0,True,outside extracted field,
+BENTLEIGH,ALP,LNP,0.0,True,no extracted category-exit field,
+BENTLEIGH,ALP,GRN,0.0,True,no extracted category-exit field,
+BENTLEIGH,ALP,IND,0.0,True,no extracted category-exit field,
+BENTLEIGH,ALP,OTH,0.0,True,no extracted category-exit field,
+BENTLEIGH,LNP,ALP,0.0,True,no extracted category-exit field,
+BENTLEIGH,LNP,GRN,0.0,True,no extracted category-exit field,
+BENTLEIGH,LNP,IND,0.0,True,no extracted category-exit field,
+BENTLEIGH,LNP,OTH,0.0,True,no extracted category-exit field,
+BENTLEIGH,GRN,ALP,0.8101,False,inside extracted field,0.8101160862354893
+BENTLEIGH,GRN,LNP,0.18989999999999999,False,inside extracted field,0.1898839137645107
+BENTLEIGH,GRN,IND,0.0,True,outside extracted field,
+BENTLEIGH,GRN,OTH,0.0,True,outside extracted field,
+BENTLEIGH,IND,ALP,0.2586,False,inside extracted field,0.2585551330798479
+BENTLEIGH,IND,LNP,0.1838,False,inside extracted field,0.1837769328263624
+BENTLEIGH,IND,GRN,0.2281,False,inside extracted field,0.2281368821292775
+BENTLEIGH,IND,OTH,0.3295,False,inside extracted field,0.329531051964512
+BENTLEIGH,OTH,ALP,0.2011,False,inside extracted field,0.1649118719367576
+BENTLEIGH,OTH,LNP,0.4307,False,inside extracted field,0.4609331367810665
+BENTLEIGH,OTH,GRN,0.3682,False,inside extracted field,0.3741549912821758
+BENTLEIGH,OTH,IND,0.0,True,outside extracted field,
+SANDRINGHAM,ALP,LNP,0.0,True,no extracted category-exit field,
+SANDRINGHAM,ALP,GRN,0.0,True,no extracted category-exit field,
+SANDRINGHAM,ALP,IND,0.0,True,no extracted category-exit field,
+SANDRINGHAM,ALP,OTH,0.0,True,no extracted category-exit field,
+SANDRINGHAM,LNP,ALP,0.0,True,no extracted category-exit field,
+SANDRINGHAM,LNP,GRN,0.0,True,no extracted category-exit field,
+SANDRINGHAM,LNP,IND,0.0,True,no extracted category-exit field,
+SANDRINGHAM,LNP,OTH,0.0,True,no extracted category-exit field,
+SANDRINGHAM,GRN,ALP,0.8040999999999999,False,inside extracted field,0.8041016607951685
+SANDRINGHAM,GRN,LNP,0.1959,False,inside extracted field,0.1958983392048314
+SANDRINGHAM,GRN,IND,0.0,True,outside extracted field,
+SANDRINGHAM,GRN,OTH,0.0,True,outside extracted field,
+SANDRINGHAM,IND,ALP,0.2859,False,inside extracted field,0.2874215715566178
+SANDRINGHAM,IND,LNP,0.3611,False,inside extracted field,0.358530026889752
+SANDRINGHAM,IND,GRN,0.3531,False,inside extracted field,0.3540484015536301
+SANDRINGHAM,IND,OTH,0.0,True,outside extracted field,
+SANDRINGHAM,OTH,ALP,0.1764,False,inside extracted field,0.1711041503523884
+SANDRINGHAM,OTH,LNP,0.2991,False,inside extracted field,0.2952231793265465
+SANDRINGHAM,OTH,GRN,0.3293,False,inside extracted field,0.3194988253719656
+SANDRINGHAM,OTH,IND,0.19519999999999998,False,inside extracted field,0.2141738449490994
+ASHWOOD,ALP,LNP,0.0,True,no extracted category-exit field,
+ASHWOOD,ALP,GRN,0.0,True,no extracted category-exit field,
+ASHWOOD,ALP,IND,0.0,True,no extracted category-exit field,
+ASHWOOD,ALP,OTH,0.0,True,no extracted category-exit field,
+ASHWOOD,LNP,ALP,0.0,True,no extracted category-exit field,
+ASHWOOD,LNP,GRN,0.0,True,no extracted category-exit field,
+ASHWOOD,LNP,IND,0.0,True,no extracted category-exit field,
+ASHWOOD,LNP,OTH,0.0,True,no extracted category-exit field,
+ASHWOOD,GRN,ALP,0.8361,False,inside extracted field,0.836050840929516
+ASHWOOD,GRN,LNP,0.16390000000000002,False,inside extracted field,0.163949159070484
+ASHWOOD,GRN,IND,0.0,True,outside extracted field,
+ASHWOOD,GRN,OTH,0.0,True,outside extracted field,
+ASHWOOD,IND,ALP,0.1456,False,inside extracted field,0.1460423634336677
+ASHWOOD,IND,LNP,0.4386,False,inside extracted field,0.4972129319955407
+ASHWOOD,IND,GRN,0.1082,False,inside extracted field,0.1204013377926421
+ASHWOOD,IND,OTH,0.30760000000000004,False,inside extracted field,0.2363433667781494
+ASHWOOD,OTH,ALP,0.1533,False,inside extracted field,0.1642611898534943
+ASHWOOD,OTH,LNP,0.4474,False,inside extracted field,0.4636708649150578
+ASHWOOD,OTH,GRN,0.3992,False,inside extracted field,0.3720679452314479
+ASHWOOD,OTH,IND,0.0,True,outside extracted field,
+OAKLEIGH,ALP,LNP,0.0,True,no extracted category-exit field,
+OAKLEIGH,ALP,GRN,0.0,True,no extracted category-exit field,
+OAKLEIGH,ALP,IND,0.0,True,no extracted category-exit field,
+OAKLEIGH,ALP,OTH,0.0,True,no extracted category-exit field,
+OAKLEIGH,LNP,ALP,0.0,True,no extracted category-exit field,
+OAKLEIGH,LNP,GRN,0.0,True,no extracted category-exit field,
+OAKLEIGH,LNP,IND,0.0,True,no extracted category-exit field,
+OAKLEIGH,LNP,OTH,0.0,True,no extracted category-exit field,
+OAKLEIGH,GRN,ALP,0.838,False,inside extracted field,0.839674229203025
+OAKLEIGH,GRN,LNP,0.162,False,inside extracted field,0.160325770796975
+OAKLEIGH,GRN,IND,0.0,True,outside extracted field,
+OAKLEIGH,GRN,OTH,0.0,True,outside extracted field,
+OAKLEIGH,IND,ALP,0.24539999999999998,False,inside extracted field,0.2485493230174081
+OAKLEIGH,IND,LNP,0.5388000000000001,False,inside extracted field,0.5372340425531915
+OAKLEIGH,IND,GRN,0.2158,False,inside extracted field,0.2142166344294004
+OAKLEIGH,IND,OTH,0.0,True,outside extracted field,
+OAKLEIGH,OTH,ALP,0.1275,False,inside extracted field,0.1255989048596851
+OAKLEIGH,OTH,LNP,0.2339,False,inside extracted field,0.2385352498288843
+OAKLEIGH,OTH,GRN,0.3097,False,inside extracted field,0.2991101984941821
+OAKLEIGH,OTH,IND,0.32899999999999996,False,inside extracted field,0.3367556468172484
+FOOTSCRAY,ALP,LNP,0.0,True,no extracted category-exit field,
+FOOTSCRAY,ALP,GRN,0.0,True,no extracted category-exit field,
+FOOTSCRAY,ALP,IND,0.0,True,no extracted category-exit field,
+FOOTSCRAY,ALP,OTH,0.0,True,no extracted category-exit field,
+FOOTSCRAY,LNP,ALP,0.3697,False,inside extracted field,0.369690551829627
+FOOTSCRAY,LNP,GRN,0.6303,False,inside extracted field,0.6303094481703729
+FOOTSCRAY,LNP,IND,0.0,True,outside extracted field,
+FOOTSCRAY,LNP,OTH,0.0,True,outside extracted field,
+FOOTSCRAY,GRN,ALP,0.0,True,no extracted category-exit field,
+FOOTSCRAY,GRN,LNP,0.0,True,no extracted category-exit field,
+FOOTSCRAY,GRN,IND,0.0,True,no extracted category-exit field,
+FOOTSCRAY,GRN,OTH,0.0,True,no extracted category-exit field,
+FOOTSCRAY,IND,ALP,0.0,True,no extracted category-exit field,
+FOOTSCRAY,IND,LNP,0.0,True,no extracted category-exit field,
+FOOTSCRAY,IND,GRN,0.0,True,no extracted category-exit field,
+FOOTSCRAY,IND,OTH,0.0,True,no extracted category-exit field,
+FOOTSCRAY,OTH,ALP,0.2018,False,inside extracted field,0.2018225276366895
+FOOTSCRAY,OTH,LNP,0.192,False,inside extracted field,0.1919629518972214
+FOOTSCRAY,OTH,GRN,0.6062,False,inside extracted field,0.606214520466089
+FOOTSCRAY,OTH,IND,0.0,True,outside extracted field,
+WILLIAMSTOWN,ALP,LNP,0.0,True,no extracted category-exit field,
+WILLIAMSTOWN,ALP,GRN,0.0,True,no extracted category-exit field,
+WILLIAMSTOWN,ALP,IND,0.0,True,no extracted category-exit field,
+WILLIAMSTOWN,ALP,OTH,0.0,True,no extracted category-exit field,
+WILLIAMSTOWN,LNP,ALP,0.0,True,no extracted category-exit field,
+WILLIAMSTOWN,LNP,GRN,0.0,True,no extracted category-exit field,
+WILLIAMSTOWN,LNP,IND,0.0,True,no extracted category-exit field,
+WILLIAMSTOWN,LNP,OTH,0.0,True,no extracted category-exit field,
+WILLIAMSTOWN,GRN,ALP,0.8593999999999999,False,inside extracted field,0.8593843574080728
+WILLIAMSTOWN,GRN,LNP,0.1406,False,inside extracted field,0.1406156425919272
+WILLIAMSTOWN,GRN,IND,0.0,True,outside extracted field,
+WILLIAMSTOWN,GRN,OTH,0.0,True,outside extracted field,
+WILLIAMSTOWN,IND,ALP,0.0,True,no extracted category-exit field,
+WILLIAMSTOWN,IND,LNP,0.0,True,no extracted category-exit field,
+WILLIAMSTOWN,IND,GRN,0.0,True,no extracted category-exit field,
+WILLIAMSTOWN,IND,OTH,0.0,True,no extracted category-exit field,
+WILLIAMSTOWN,OTH,ALP,0.2352,False,inside extracted field,0.2351535836177474
+WILLIAMSTOWN,OTH,LNP,0.36619999999999997,False,inside extracted field,0.3662116040955631
+WILLIAMSTOWN,OTH,GRN,0.3986,False,inside extracted field,0.3986348122866894
+WILLIAMSTOWN,OTH,IND,0.0,True,outside extracted field,
+LAVERTON,ALP,LNP,0.0,True,no extracted category-exit field,
+LAVERTON,ALP,GRN,0.0,True,no extracted category-exit field,
+LAVERTON,ALP,IND,0.0,True,no extracted category-exit field,
+LAVERTON,ALP,OTH,0.0,True,no extracted category-exit field,
+LAVERTON,LNP,ALP,0.0,True,no extracted category-exit field,
+LAVERTON,LNP,GRN,0.0,True,no extracted category-exit field,
+LAVERTON,LNP,IND,0.0,True,no extracted category-exit field,
+LAVERTON,LNP,OTH,0.0,True,no extracted category-exit field,
+LAVERTON,GRN,ALP,0.8096,False,inside extracted field,0.8095877534577681
+LAVERTON,GRN,LNP,0.19039999999999999,False,inside extracted field,0.1904122465422317
+LAVERTON,GRN,IND,0.0,True,outside extracted field,
+LAVERTON,GRN,OTH,0.0,True,outside extracted field,
+LAVERTON,IND,ALP,0.1577,False,inside extracted field,0.1577464788732394
+LAVERTON,IND,LNP,0.08449999999999999,False,inside extracted field,0.0845070422535211
+LAVERTON,IND,GRN,0.0761,False,inside extracted field,0.076056338028169
+LAVERTON,IND,OTH,0.6817,False,inside extracted field,0.6816901408450704
+LAVERTON,OTH,ALP,0.276,False,inside extracted field,0.2764769682106108
+LAVERTON,OTH,LNP,0.2489,False,inside extracted field,0.2484806985293906
+LAVERTON,OTH,GRN,0.47509999999999997,False,inside extracted field,0.4750423332599986
+LAVERTON,OTH,IND,0.0,True,outside extracted field,
+NIDDRIE,ALP,LNP,0.0,True,no extracted category-exit field,
+NIDDRIE,ALP,GRN,0.0,True,no extracted category-exit field,
+NIDDRIE,ALP,IND,0.0,True,no extracted category-exit field,
+NIDDRIE,ALP,OTH,0.0,True,no extracted category-exit field,
+NIDDRIE,LNP,ALP,0.0,True,no extracted category-exit field,
+NIDDRIE,LNP,GRN,0.0,True,no extracted category-exit field,
+NIDDRIE,LNP,IND,0.0,True,no extracted category-exit field,
+NIDDRIE,LNP,OTH,0.0,True,no extracted category-exit field,
+NIDDRIE,GRN,ALP,0.7153,False,inside extracted field,0.7152705243367453
+NIDDRIE,GRN,LNP,0.2847,False,inside extracted field,0.2847294756632546
+NIDDRIE,GRN,IND,0.0,True,outside extracted field,
+NIDDRIE,GRN,OTH,0.0,True,outside extracted field,
+NIDDRIE,IND,ALP,0.0,True,no extracted category-exit field,
+NIDDRIE,IND,LNP,0.0,True,no extracted category-exit field,
+NIDDRIE,IND,GRN,0.0,True,no extracted category-exit field,
+NIDDRIE,IND,OTH,0.0,True,no extracted category-exit field,
+NIDDRIE,OTH,ALP,0.3151,False,inside extracted field,0.31509494689411
+NIDDRIE,OTH,LNP,0.41619999999999996,False,inside extracted field,0.4161570646926295
+NIDDRIE,OTH,GRN,0.2687,False,inside extracted field,0.2687479884132603
+NIDDRIE,OTH,IND,0.0,True,outside extracted field,
+ST ALBANS,ALP,LNP,0.0,True,no extracted category-exit field,
+ST ALBANS,ALP,GRN,0.0,True,no extracted category-exit field,
+ST ALBANS,ALP,IND,0.0,True,no extracted category-exit field,
+ST ALBANS,ALP,OTH,0.0,True,no extracted category-exit field,
+ST ALBANS,LNP,ALP,0.0,True,no extracted category-exit field,
+ST ALBANS,LNP,GRN,0.0,True,no extracted category-exit field,
+ST ALBANS,LNP,IND,0.0,True,no extracted category-exit field,
+ST ALBANS,LNP,OTH,0.0,True,no extracted category-exit field,
+ST ALBANS,GRN,ALP,0.7161,False,inside extracted field,0.7160662122687439
+ST ALBANS,GRN,LNP,0.2839,False,inside extracted field,0.2839337877312561
+ST ALBANS,GRN,IND,0.0,True,outside extracted field,
+ST ALBANS,GRN,OTH,0.0,True,outside extracted field,
+ST ALBANS,IND,ALP,0.1333,False,inside extracted field,0.1333333333333333
+ST ALBANS,IND,LNP,0.32020000000000004,False,inside extracted field,0.3202380952380952
+ST ALBANS,IND,GRN,0.2845,False,inside extracted field,0.2845238095238095
+ST ALBANS,IND,OTH,0.2619,False,inside extracted field,0.2619047619047619
+ST ALBANS,OTH,ALP,0.2884,False,inside extracted field,0.2828595612343834
+ST ALBANS,OTH,LNP,0.4279,False,inside extracted field,0.4288422812297797
+ST ALBANS,OTH,GRN,0.2837,False,inside extracted field,0.2882981575358368
+ST ALBANS,OTH,IND,0.0,True,outside extracted field,
+KOROROIT,ALP,LNP,0.0,True,no extracted category-exit field,
+KOROROIT,ALP,GRN,0.0,True,no extracted category-exit field,
+KOROROIT,ALP,IND,0.0,True,no extracted category-exit field,
+KOROROIT,ALP,OTH,0.0,True,no extracted category-exit field,
+KOROROIT,LNP,ALP,0.0,True,no extracted category-exit field,
+KOROROIT,LNP,GRN,0.0,True,no extracted category-exit field,
+KOROROIT,LNP,IND,0.0,True,no extracted category-exit field,
+KOROROIT,LNP,OTH,0.0,True,no extracted category-exit field,
+KOROROIT,GRN,ALP,0.4276,False,inside extracted field,0.4275947793660658
+KOROROIT,GRN,LNP,0.1638,False,inside extracted field,0.1637663144810441
+KOROROIT,GRN,IND,0.0,True,outside extracted field,
+KOROROIT,GRN,OTH,0.4086,False,inside extracted field,0.40863890615289
+KOROROIT,IND,ALP,0.2284,False,inside extracted field,0.2284011916583912
+KOROROIT,IND,LNP,0.1241,False,inside extracted field,0.1241310824230387
+KOROROIT,IND,GRN,0.0636,False,inside extracted field,0.0635551142005958
+KOROROIT,IND,OTH,0.5839,False,inside extracted field,0.5839126117179742
+KOROROIT,OTH,ALP,0.645,False,inside extracted field,0.6439553420096402
+KOROROIT,OTH,LNP,0.355,False,inside extracted field,0.3560446579903598
+KOROROIT,OTH,GRN,0.0,True,outside extracted field,
+KOROROIT,OTH,IND,0.0,True,outside extracted field,
+POINT COOK,ALP,LNP,0.0,True,no extracted category-exit field,
+POINT COOK,ALP,GRN,0.0,True,no extracted category-exit field,
+POINT COOK,ALP,IND,0.0,True,no extracted category-exit field,
+POINT COOK,ALP,OTH,0.0,True,no extracted category-exit field,
+POINT COOK,LNP,ALP,0.0,True,no extracted category-exit field,
+POINT COOK,LNP,GRN,0.0,True,no extracted category-exit field,
+POINT COOK,LNP,IND,0.0,True,no extracted category-exit field,
+POINT COOK,LNP,OTH,0.0,True,no extracted category-exit field,
+POINT COOK,GRN,ALP,0.5567,False,inside extracted field,0.5567151881351277
+POINT COOK,GRN,LNP,0.44329999999999997,False,inside extracted field,0.4432848118648722
+POINT COOK,GRN,IND,0.0,True,outside extracted field,
+POINT COOK,GRN,OTH,0.0,True,outside extracted field,
+POINT COOK,IND,ALP,0.2639,False,inside extracted field,0.2639296187683284
+POINT COOK,IND,LNP,0.3614,False,inside extracted field,0.361380554928942
+POINT COOK,IND,GRN,0.3747,False,inside extracted field,0.3746898263027295
+POINT COOK,IND,OTH,0.0,True,outside extracted field,
+POINT COOK,OTH,ALP,0.2879,False,inside extracted field,0.2290429826644502
+POINT COOK,OTH,LNP,0.2698,False,inside extracted field,0.2146758489669912
+POINT COOK,OTH,GRN,0.44229999999999997,False,inside extracted field,0.3519354072666825
+POINT COOK,OTH,IND,0.0,True,inside extracted field,0.204345761101876
+SYDENHAM,ALP,LNP,0.0,True,no extracted category-exit field,
+SYDENHAM,ALP,GRN,0.0,True,no extracted category-exit field,
+SYDENHAM,ALP,IND,0.0,True,no extracted category-exit field,
+SYDENHAM,ALP,OTH,0.0,True,no extracted category-exit field,
+SYDENHAM,LNP,ALP,0.0,True,no extracted category-exit field,
+SYDENHAM,LNP,GRN,0.0,True,no extracted category-exit field,
+SYDENHAM,LNP,IND,0.0,True,no extracted category-exit field,
+SYDENHAM,LNP,OTH,0.0,True,no extracted category-exit field,
+SYDENHAM,GRN,ALP,0.5584,False,inside extracted field,0.5583908045977012
+SYDENHAM,GRN,LNP,0.18530000000000002,False,inside extracted field,0.185287356321839
+SYDENHAM,GRN,IND,0.0,True,outside extracted field,
+SYDENHAM,GRN,OTH,0.2563,False,inside extracted field,0.2563218390804597
+SYDENHAM,IND,ALP,0.0,True,no extracted category-exit field,
+SYDENHAM,IND,LNP,0.0,True,no extracted category-exit field,
+SYDENHAM,IND,GRN,0.0,True,no extracted category-exit field,
+SYDENHAM,IND,OTH,0.0,True,no extracted category-exit field,
+SYDENHAM,OTH,ALP,0.5174,False,inside extracted field,0.5225061609866072
+SYDENHAM,OTH,LNP,0.4826,False,inside extracted field,0.4774938390133928
+SYDENHAM,OTH,GRN,0.0,True,outside extracted field,
+SYDENHAM,OTH,IND,0.0,True,outside extracted field,
+TARNEIT,ALP,LNP,0.0,True,no extracted category-exit field,
+TARNEIT,ALP,GRN,0.0,True,no extracted category-exit field,
+TARNEIT,ALP,IND,0.0,True,no extracted category-exit field,
+TARNEIT,ALP,OTH,0.0,True,no extracted category-exit field,
+TARNEIT,LNP,ALP,0.0,True,no extracted category-exit field,
+TARNEIT,LNP,GRN,0.0,True,no extracted category-exit field,
+TARNEIT,LNP,IND,0.0,True,no extracted category-exit field,
+TARNEIT,LNP,OTH,0.0,True,no extracted category-exit field,
+TARNEIT,GRN,ALP,0.7226,False,inside extracted field,0.7225806451612904
+TARNEIT,GRN,LNP,0.2774,False,inside extracted field,0.2774193548387096
+TARNEIT,GRN,IND,0.0,True,outside extracted field,
+TARNEIT,GRN,OTH,0.0,True,outside extracted field,
+TARNEIT,IND,ALP,0.1891,False,inside extracted field,0.1891385767790262
+TARNEIT,IND,LNP,0.1404,False,inside extracted field,0.1404494382022472
+TARNEIT,IND,GRN,0.073,False,inside extracted field,0.0730337078651685
+TARNEIT,IND,OTH,0.5974,False,inside extracted field,0.5973782771535581
+TARNEIT,OTH,ALP,0.2865,False,inside extracted field,0.2868441966229346
+TARNEIT,OTH,LNP,0.3691,False,inside extracted field,0.3666785253910398
+TARNEIT,OTH,GRN,0.3443,False,inside extracted field,0.3464772779860257
+TARNEIT,OTH,IND,0.0,True,outside extracted field,
+SUNBURY,ALP,LNP,0.0,True,no extracted category-exit field,
+SUNBURY,ALP,GRN,0.0,True,no extracted category-exit field,
+SUNBURY,ALP,IND,0.0,True,no extracted category-exit field,
+SUNBURY,ALP,OTH,0.0,True,no extracted category-exit field,
+SUNBURY,LNP,ALP,0.0,True,no extracted category-exit field,
+SUNBURY,LNP,GRN,0.0,True,no extracted category-exit field,
+SUNBURY,LNP,IND,0.0,True,no extracted category-exit field,
+SUNBURY,LNP,OTH,0.0,True,no extracted category-exit field,
+SUNBURY,GRN,ALP,0.7215,False,inside extracted field,0.7215001065416577
+SUNBURY,GRN,LNP,0.2785,False,inside extracted field,0.2784998934583422
+SUNBURY,GRN,IND,0.0,True,outside extracted field,
+SUNBURY,GRN,OTH,0.0,True,outside extracted field,
+SUNBURY,IND,ALP,0.1273,False,inside extracted field,0.127284183994959
+SUNBURY,IND,LNP,0.4537,False,inside extracted field,0.4536862003780718
+SUNBURY,IND,GRN,0.1115,False,inside extracted field,0.1115311909262759
+SUNBURY,IND,OTH,0.3075,False,inside extracted field,0.3074984247006931
+SUNBURY,OTH,ALP,0.23739999999999997,False,inside extracted field,0.2405203008321947
+SUNBURY,OTH,LNP,0.423,False,inside extracted field,0.4181176132394182
+SUNBURY,OTH,GRN,0.3396,False,inside extracted field,0.341362085928387
+SUNBURY,OTH,IND,0.0,True,outside extracted field,
+WERRIBEE,ALP,LNP,0.0,True,no extracted category-exit field,
+WERRIBEE,ALP,GRN,0.0,True,no extracted category-exit field,
+WERRIBEE,ALP,IND,0.0,True,no extracted category-exit field,
+WERRIBEE,ALP,OTH,0.0,True,no extracted category-exit field,
+WERRIBEE,LNP,ALP,0.0,True,no extracted category-exit field,
+WERRIBEE,LNP,GRN,0.0,True,no extracted category-exit field,
+WERRIBEE,LNP,IND,0.0,True,no extracted category-exit field,
+WERRIBEE,LNP,OTH,0.0,True,no extracted category-exit field,
+WERRIBEE,GRN,ALP,0.6922,False,inside extracted field,0.6922043010752689
+WERRIBEE,GRN,LNP,0.3078,False,inside extracted field,0.3077956989247312
+WERRIBEE,GRN,IND,0.0,True,outside extracted field,
+WERRIBEE,GRN,OTH,0.0,True,outside extracted field,
+WERRIBEE,IND,ALP,0.18780000000000002,False,inside extracted field,0.1877739892839746
+WERRIBEE,IND,LNP,0.5906,False,inside extracted field,0.5905991232342913
+WERRIBEE,IND,GRN,0.2216,False,inside extracted field,0.221626887481734
+WERRIBEE,IND,OTH,0.0,True,outside extracted field,
+WERRIBEE,OTH,ALP,0.25370000000000004,False,inside extracted field,0.2536988008098427
+WERRIBEE,OTH,LNP,0.19920000000000002,False,inside extracted field,0.1991901572963713
+WERRIBEE,OTH,GRN,0.26239999999999997,False,inside extracted field,0.2624201837719981
+WERRIBEE,OTH,IND,0.2847,False,inside extracted field,0.2846908581217879
+EVELYN,ALP,LNP,0.0,True,no extracted category-exit field,
+EVELYN,ALP,GRN,0.0,True,no extracted category-exit field,
+EVELYN,ALP,IND,0.0,True,no extracted category-exit field,
+EVELYN,ALP,OTH,0.0,True,no extracted category-exit field,
+EVELYN,LNP,ALP,0.0,True,no extracted category-exit field,
+EVELYN,LNP,GRN,0.0,True,no extracted category-exit field,
+EVELYN,LNP,IND,0.0,True,no extracted category-exit field,
+EVELYN,LNP,OTH,0.0,True,no extracted category-exit field,
+EVELYN,GRN,ALP,0.7318000000000001,False,inside extracted field,0.7318116975748931
+EVELYN,GRN,LNP,0.2682,False,inside extracted field,0.268188302425107
+EVELYN,GRN,IND,0.0,True,outside extracted field,
+EVELYN,GRN,OTH,0.0,True,outside extracted field,
+EVELYN,IND,ALP,0.1523,False,inside extracted field,0.1186440677966101
+EVELYN,IND,LNP,0.2408,False,inside extracted field,0.2203389830508474
+EVELYN,IND,GRN,0.0799,False,inside extracted field,0.0832049306625577
+EVELYN,IND,OTH,0.527,False,inside extracted field,0.5778120184899845
+EVELYN,OTH,ALP,0.2122,False,inside extracted field,0.2185505919279164
+EVELYN,OTH,LNP,0.461,False,inside extracted field,0.462891923886686
+EVELYN,OTH,GRN,0.3268,False,inside extracted field,0.3185574841853976
+EVELYN,OTH,IND,0.0,True,outside extracted field,
+MONBULK,ALP,LNP,0.0,True,no extracted category-exit field,
+MONBULK,ALP,GRN,0.0,True,no extracted category-exit field,
+MONBULK,ALP,IND,0.0,True,no extracted category-exit field,
+MONBULK,ALP,OTH,0.0,True,no extracted category-exit field,
+MONBULK,LNP,ALP,0.0,True,no extracted category-exit field,
+MONBULK,LNP,GRN,0.0,True,no extracted category-exit field,
+MONBULK,LNP,IND,0.0,True,no extracted category-exit field,
+MONBULK,LNP,OTH,0.0,True,no extracted category-exit field,
+MONBULK,GRN,ALP,0.7816,False,inside extracted field,0.7816091954022989
+MONBULK,GRN,LNP,0.2184,False,inside extracted field,0.2183908045977011
+MONBULK,GRN,IND,0.0,True,outside extracted field,
+MONBULK,GRN,OTH,0.0,True,outside extracted field,
+MONBULK,IND,ALP,0.17550000000000002,False,inside extracted field,0.2183528215556685
+MONBULK,IND,LNP,0.4267,False,inside extracted field,0.2925775292323335
+MONBULK,IND,GRN,0.3978,False,inside extracted field,0.4890696492119979
+MONBULK,IND,OTH,0.0,True,outside extracted field,
+MONBULK,OTH,ALP,0.11800000000000001,False,inside extracted field,0.1092138630600169
+MONBULK,OTH,LNP,0.1999,False,inside extracted field,0.3673710904480135
+MONBULK,OTH,GRN,0.2426,False,inside extracted field,0.2351648351648351
+MONBULK,OTH,IND,0.43939999999999996,False,inside extracted field,0.2882502113271344
+PAKENHAM,ALP,LNP,0.0,True,no extracted category-exit field,
+PAKENHAM,ALP,GRN,0.0,True,no extracted category-exit field,
+PAKENHAM,ALP,IND,0.0,True,no extracted category-exit field,
+PAKENHAM,ALP,OTH,0.0,True,no extracted category-exit field,
+PAKENHAM,LNP,ALP,0.0,True,no extracted category-exit field,
+PAKENHAM,LNP,GRN,0.0,True,no extracted category-exit field,
+PAKENHAM,LNP,IND,0.0,True,no extracted category-exit field,
+PAKENHAM,LNP,OTH,0.0,True,no extracted category-exit field,
+PAKENHAM,GRN,ALP,0.47479999999999994,False,inside extracted field,0.4748267898383372
+PAKENHAM,GRN,LNP,0.2009,False,inside extracted field,0.2009237875288683
+PAKENHAM,GRN,IND,0.32420000000000004,False,inside extracted field,0.3242494226327944
+PAKENHAM,GRN,OTH,0.0,True,outside extracted field,
+PAKENHAM,IND,ALP,0.47909999999999997,False,inside extracted field,0.479050736497545
+PAKENHAM,IND,LNP,0.5209,False,inside extracted field,0.520949263502455
+PAKENHAM,IND,GRN,0.0,True,outside extracted field,
+PAKENHAM,IND,OTH,0.0,True,outside extracted field,
+PAKENHAM,OTH,ALP,0.1968,False,inside extracted field,0.2031260217878113
+PAKENHAM,OTH,LNP,0.35509999999999997,False,inside extracted field,0.3407540549876543
+PAKENHAM,OTH,GRN,0.23829999999999998,False,inside extracted field,0.2526170039972716
+PAKENHAM,OTH,IND,0.20980000000000001,False,inside extracted field,0.2035029192272626
+MORNINGTON,ALP,LNP,0.1617,False,inside extracted field,0.1617053244436097
+MORNINGTON,ALP,GRN,0.0,True,outside extracted field,
+MORNINGTON,ALP,IND,0.8382999999999999,False,inside extracted field,0.8382946755563903
+MORNINGTON,ALP,OTH,0.0,True,outside extracted field,
+MORNINGTON,LNP,ALP,0.0,True,no extracted category-exit field,
+MORNINGTON,LNP,GRN,0.0,True,no extracted category-exit field,
+MORNINGTON,LNP,IND,0.0,True,no extracted category-exit field,
+MORNINGTON,LNP,OTH,0.0,True,no extracted category-exit field,
+MORNINGTON,GRN,ALP,0.38280000000000003,False,inside extracted field,0.3828298887122416
+MORNINGTON,GRN,LNP,0.1119,False,inside extracted field,0.1119236883942766
+MORNINGTON,GRN,IND,0.5052,False,inside extracted field,0.5052464228934818
+MORNINGTON,GRN,OTH,0.0,True,outside extracted field,
+MORNINGTON,IND,ALP,0.0,True,no extracted category-exit field,
+MORNINGTON,IND,LNP,0.0,True,no extracted category-exit field,
+MORNINGTON,IND,GRN,0.0,True,no extracted category-exit field,
+MORNINGTON,IND,OTH,0.0,True,no extracted category-exit field,
+MORNINGTON,OTH,ALP,0.0711,False,inside extracted field,0.0711476582052198
+MORNINGTON,OTH,LNP,0.47979999999999995,False,inside extracted field,0.4797997854844476
+MORNINGTON,OTH,GRN,0.1673,False,inside extracted field,0.1673221308544869
+MORNINGTON,OTH,IND,0.2817,False,inside extracted field,0.2817304254558455
+NEPEAN,ALP,LNP,0.0,True,no extracted category-exit field,
+NEPEAN,ALP,GRN,0.0,True,no extracted category-exit field,
+NEPEAN,ALP,IND,0.0,True,no extracted category-exit field,
+NEPEAN,ALP,OTH,0.0,True,no extracted category-exit field,
+NEPEAN,LNP,ALP,0.0,True,no extracted category-exit field,
+NEPEAN,LNP,GRN,0.0,True,no extracted category-exit field,
+NEPEAN,LNP,IND,0.0,True,no extracted category-exit field,
+NEPEAN,LNP,OTH,0.0,True,no extracted category-exit field,
+NEPEAN,GRN,ALP,0.7575,False,inside extracted field,0.7574565037282519
+NEPEAN,GRN,LNP,0.2425,False,inside extracted field,0.2425434962717481
+NEPEAN,GRN,IND,0.0,True,outside extracted field,
+NEPEAN,GRN,OTH,0.0,True,outside extracted field,
+NEPEAN,IND,ALP,0.1934,False,inside extracted field,0.2301710730948678
+NEPEAN,IND,LNP,0.2498,False,inside extracted field,0.2939346811819596
+NEPEAN,IND,GRN,0.1559,False,inside extracted field,0.181959564541213
+NEPEAN,IND,OTH,0.40090000000000003,False,inside extracted field,0.2939346811819596
+NEPEAN,OTH,ALP,0.1678,False,inside extracted field,0.180515986602427
+NEPEAN,OTH,LNP,0.5331,False,inside extracted field,0.5238795581105492
+NEPEAN,OTH,GRN,0.2992,False,inside extracted field,0.2956044552870236
+NEPEAN,OTH,IND,0.0,True,outside extracted field,
+MORWELL,ALP,LNP,0.0,True,no extracted category-exit field,
+MORWELL,ALP,GRN,0.0,True,no extracted category-exit field,
+MORWELL,ALP,IND,0.0,True,no extracted category-exit field,
+MORWELL,ALP,OTH,0.0,True,no extracted category-exit field,
+MORWELL,LNP,ALP,0.0,True,no extracted category-exit field,
+MORWELL,LNP,GRN,0.0,True,no extracted category-exit field,
+MORWELL,LNP,IND,0.0,True,no extracted category-exit field,
+MORWELL,LNP,OTH,0.0,True,no extracted category-exit field,
+MORWELL,GRN,ALP,0.6372,False,inside extracted field,0.637199124726477
+MORWELL,GRN,LNP,0.16190000000000002,False,inside extracted field,0.161925601750547
+MORWELL,GRN,IND,0.0998,False,inside extracted field,0.099781181619256
+MORWELL,GRN,OTH,0.1011,False,inside extracted field,0.061269146608315
+MORWELL,IND,ALP,0.28350000000000003,False,inside extracted field,0.2393474555636718
+MORWELL,IND,LNP,0.2978,False,inside extracted field,0.292427562697833
+MORWELL,IND,GRN,0.0,True,outside extracted field,
+MORWELL,IND,OTH,0.4188,False,outside extracted field,
+MORWELL,OTH,ALP,0.2747,False,inside extracted field,0.2598521247033155
+MORWELL,OTH,LNP,0.7253000000000001,False,inside extracted field,0.2561126396116769
+MORWELL,OTH,GRN,0.0,True,outside extracted field,
+MORWELL,OTH,IND,0.0,True,inside extracted field,0.2300290341108575
+GIPPSLAND EAST,ALP,LNP,0.0,True,no extracted category-exit field,
+GIPPSLAND EAST,ALP,GRN,0.0,True,no extracted category-exit field,
+GIPPSLAND EAST,ALP,IND,0.0,True,no extracted category-exit field,
+GIPPSLAND EAST,ALP,OTH,0.0,True,no extracted category-exit field,
+GIPPSLAND EAST,LNP,ALP,0.0,True,no extracted category-exit field,
+GIPPSLAND EAST,LNP,GRN,0.0,True,no extracted category-exit field,
+GIPPSLAND EAST,LNP,IND,0.0,True,no extracted category-exit field,
+GIPPSLAND EAST,LNP,OTH,0.0,True,no extracted category-exit field,
+GIPPSLAND EAST,GRN,ALP,0.7066,False,inside extracted field,0.7065735154017149
+GIPPSLAND EAST,GRN,LNP,0.1766,False,inside extracted field,0.1765639885677993
+GIPPSLAND EAST,GRN,IND,0.0,True,outside extracted field,
+GIPPSLAND EAST,GRN,OTH,0.11689999999999999,False,inside extracted field,0.1168624960304858
+GIPPSLAND EAST,IND,ALP,0.0,True,no extracted category-exit field,
+GIPPSLAND EAST,IND,LNP,0.0,True,no extracted category-exit field,
+GIPPSLAND EAST,IND,GRN,0.0,True,no extracted category-exit field,
+GIPPSLAND EAST,IND,OTH,0.0,True,no extracted category-exit field,
+GIPPSLAND EAST,OTH,ALP,0.2743,False,inside extracted field,0.278853428868346
+GIPPSLAND EAST,OTH,LNP,0.7256999999999999,False,inside extracted field,0.7211465711316539
+GIPPSLAND EAST,OTH,GRN,0.0,True,outside extracted field,
+GIPPSLAND EAST,OTH,IND,0.0,True,outside extracted field,
+GIPPSLAND SOUTH,ALP,LNP,0.0,True,no extracted category-exit field,
+GIPPSLAND SOUTH,ALP,GRN,0.0,True,no extracted category-exit field,
+GIPPSLAND SOUTH,ALP,IND,0.0,True,no extracted category-exit field,
+GIPPSLAND SOUTH,ALP,OTH,0.0,True,no extracted category-exit field,
+GIPPSLAND SOUTH,LNP,ALP,0.0,True,no extracted category-exit field,
+GIPPSLAND SOUTH,LNP,GRN,0.0,True,no extracted category-exit field,
+GIPPSLAND SOUTH,LNP,IND,0.0,True,no extracted category-exit field,
+GIPPSLAND SOUTH,LNP,OTH,0.0,True,no extracted category-exit field,
+GIPPSLAND SOUTH,GRN,ALP,0.7384000000000001,False,inside extracted field,0.7383744439951476
+GIPPSLAND SOUTH,GRN,LNP,0.2616,False,inside extracted field,0.2616255560048524
+GIPPSLAND SOUTH,GRN,IND,0.0,True,outside extracted field,
+GIPPSLAND SOUTH,GRN,OTH,0.0,True,outside extracted field,
+GIPPSLAND SOUTH,IND,ALP,0.11230000000000001,False,inside extracted field,0.1123435722411831
+GIPPSLAND SOUTH,IND,LNP,0.7088,False,inside extracted field,0.7087599544937428
+GIPPSLAND SOUTH,IND,GRN,0.1789,False,inside extracted field,0.1788964732650739
+GIPPSLAND SOUTH,IND,OTH,0.0,True,outside extracted field,
+GIPPSLAND SOUTH,OTH,ALP,0.1588,False,inside extracted field,0.1588355464759959
+GIPPSLAND SOUTH,OTH,LNP,0.35960000000000003,False,inside extracted field,0.3595505617977528
+GIPPSLAND SOUTH,OTH,GRN,0.19940000000000002,False,inside extracted field,0.199438202247191
+GIPPSLAND SOUTH,OTH,IND,0.2822,False,inside extracted field,0.2821756894790602
+BASS,ALP,LNP,0.0,True,no extracted category-exit field,
+BASS,ALP,GRN,0.0,True,no extracted category-exit field,
+BASS,ALP,IND,0.0,True,no extracted category-exit field,
+BASS,ALP,OTH,0.0,True,no extracted category-exit field,
+BASS,LNP,ALP,0.0,True,no extracted category-exit field,
+BASS,LNP,GRN,0.0,True,no extracted category-exit field,
+BASS,LNP,IND,0.0,True,no extracted category-exit field,
+BASS,LNP,OTH,0.0,True,no extracted category-exit field,
+BASS,GRN,ALP,0.6537999999999999,False,inside extracted field,0.6537928302634185
+BASS,GRN,LNP,0.34619999999999995,False,inside extracted field,0.3462071697365814
+BASS,GRN,IND,0.0,True,outside extracted field,
+BASS,GRN,OTH,0.0,True,outside extracted field,
+BASS,IND,ALP,0.0863,False,inside extracted field,0.1007591442374051
+BASS,IND,LNP,0.29469999999999996,False,inside extracted field,0.1801242236024845
+BASS,IND,GRN,0.3778,False,inside extracted field,0.5314009661835749
+BASS,IND,OTH,0.2412,False,inside extracted field,0.1877156659765355
+BASS,OTH,ALP,0.14980000000000002,False,inside extracted field,0.2122755084636244
+BASS,OTH,LNP,0.6413,False,inside extracted field,0.5844924115368176
+BASS,OTH,GRN,0.20879999999999999,False,inside extracted field,0.2032320799995577
+BASS,OTH,IND,0.0,True,outside extracted field,
+HASTINGS,ALP,LNP,0.0,True,no extracted category-exit field,
+HASTINGS,ALP,GRN,0.0,True,no extracted category-exit field,
+HASTINGS,ALP,IND,0.0,True,no extracted category-exit field,
+HASTINGS,ALP,OTH,0.0,True,no extracted category-exit field,
+HASTINGS,LNP,ALP,0.0,True,no extracted category-exit field,
+HASTINGS,LNP,GRN,0.0,True,no extracted category-exit field,
+HASTINGS,LNP,IND,0.0,True,no extracted category-exit field,
+HASTINGS,LNP,OTH,0.0,True,no extracted category-exit field,
+HASTINGS,GRN,ALP,0.7784,False,inside extracted field,0.7784071976007997
+HASTINGS,GRN,LNP,0.2216,False,inside extracted field,0.2215928023992002
+HASTINGS,GRN,IND,0.0,True,outside extracted field,
+HASTINGS,GRN,OTH,0.0,True,outside extracted field,
+HASTINGS,IND,ALP,0.1313,False,inside extracted field,0.1313320825515947
+HASTINGS,IND,LNP,0.2495,False,inside extracted field,0.24953095684803
+HASTINGS,IND,GRN,0.1764,False,inside extracted field,0.1763602251407129
+HASTINGS,IND,OTH,0.4428,False,inside extracted field,0.4427767354596623
+HASTINGS,OTH,ALP,0.2125,False,inside extracted field,0.2133242642939754
+HASTINGS,OTH,LNP,0.4325,False,inside extracted field,0.4310966460614092
+HASTINGS,OTH,GRN,0.35509999999999997,False,inside extracted field,0.3555790896446154
+HASTINGS,OTH,IND,0.0,True,outside extracted field,
+NARRACAN,ALP,LNP,0.0,True,no extracted category-exit field,
+NARRACAN,ALP,GRN,0.0,True,no extracted category-exit field,
+NARRACAN,ALP,IND,0.0,True,no extracted category-exit field,
+NARRACAN,ALP,OTH,0.0,True,no extracted category-exit field,
+NARRACAN,LNP,ALP,0.0,True,no extracted category-exit field,
+NARRACAN,LNP,GRN,0.0,True,no extracted category-exit field,
+NARRACAN,LNP,IND,0.0,True,no extracted category-exit field,
+NARRACAN,LNP,OTH,0.0,True,no extracted category-exit field,
+NARRACAN,GRN,ALP,0.0,True,outside extracted field,
+NARRACAN,GRN,LNP,0.0,True,inside extracted field,0.2637199644022545
+NARRACAN,GRN,IND,0.0,True,inside extracted field,0.7362800355977455
+NARRACAN,GRN,OTH,0.0,True,outside extracted field,
+NARRACAN,IND,ALP,0.0,True,no extracted category-exit field,
+NARRACAN,IND,LNP,0.0,True,no extracted category-exit field,
+NARRACAN,IND,GRN,0.0,True,no extracted category-exit field,
+NARRACAN,IND,OTH,0.0,True,no extracted category-exit field,
+NARRACAN,OTH,ALP,0.0,True,outside extracted field,
+NARRACAN,OTH,LNP,0.0,True,inside extracted field,0.3755396908942719
+NARRACAN,OTH,GRN,0.0,True,inside extracted field,0.2308272090224156
+NARRACAN,OTH,IND,0.0,True,inside extracted field,0.3936331000833124
+YAN YEAN,ALP,LNP,0.0,True,no extracted category-exit field,
+YAN YEAN,ALP,GRN,0.0,True,no extracted category-exit field,
+YAN YEAN,ALP,IND,0.0,True,no extracted category-exit field,
+YAN YEAN,ALP,OTH,0.0,True,no extracted category-exit field,
+YAN YEAN,LNP,ALP,0.0,True,no extracted category-exit field,
+YAN YEAN,LNP,GRN,0.0,True,no extracted category-exit field,
+YAN YEAN,LNP,IND,0.0,True,no extracted category-exit field,
+YAN YEAN,LNP,OTH,0.0,True,no extracted category-exit field,
+YAN YEAN,GRN,ALP,0.6184000000000001,False,inside extracted field,0.6184135977337111
+YAN YEAN,GRN,LNP,0.12380000000000001,False,inside extracted field,0.1237960339943342
+YAN YEAN,GRN,IND,0.0,True,outside extracted field,
+YAN YEAN,GRN,OTH,0.25780000000000003,False,inside extracted field,0.2577903682719547
+YAN YEAN,IND,ALP,0.0,True,no extracted category-exit field,
+YAN YEAN,IND,LNP,0.0,True,no extracted category-exit field,
+YAN YEAN,IND,GRN,0.0,True,no extracted category-exit field,
+YAN YEAN,IND,OTH,0.0,True,no extracted category-exit field,
+YAN YEAN,OTH,ALP,0.4454,False,inside extracted field,0.4537692439414958
+YAN YEAN,OTH,LNP,0.5546,False,inside extracted field,0.5462307560585041
+YAN YEAN,OTH,GRN,0.0,True,outside extracted field,
+YAN YEAN,OTH,IND,0.0,True,outside extracted field,
+SHEPPARTON,ALP,LNP,0.4493,False,inside extracted field,0.4493361285814115
+SHEPPARTON,ALP,GRN,0.0,True,outside extracted field,
+SHEPPARTON,ALP,IND,0.5507,False,inside extracted field,0.5506638714185884
+SHEPPARTON,ALP,OTH,0.0,True,outside extracted field,
+SHEPPARTON,LNP,ALP,0.0,True,no extracted category-exit field,
+SHEPPARTON,LNP,GRN,0.0,True,no extracted category-exit field,
+SHEPPARTON,LNP,IND,0.0,True,no extracted category-exit field,
+SHEPPARTON,LNP,OTH,0.0,True,no extracted category-exit field,
+SHEPPARTON,GRN,ALP,0.3547,False,inside extracted field,0.3546686746987952
+SHEPPARTON,GRN,LNP,0.302,False,inside extracted field,0.3019578313253012
+SHEPPARTON,GRN,IND,0.24100000000000002,False,inside extracted field,0.2409638554216867
+SHEPPARTON,GRN,OTH,0.1024,False,inside extracted field,0.1024096385542168
+SHEPPARTON,IND,ALP,0.0,True,no extracted category-exit field,
+SHEPPARTON,IND,LNP,0.0,True,no extracted category-exit field,
+SHEPPARTON,IND,GRN,0.0,True,no extracted category-exit field,
+SHEPPARTON,IND,OTH,0.0,True,no extracted category-exit field,
+SHEPPARTON,OTH,ALP,0.2097,False,inside extracted field,0.201853920061942
+SHEPPARTON,OTH,LNP,0.7903,False,inside extracted field,0.5593092916945288
+SHEPPARTON,OTH,GRN,0.0,True,outside extracted field,
+SHEPPARTON,OTH,IND,0.0,True,inside extracted field,0.2388367882435291
+BENDIGO EAST,ALP,LNP,0.0,True,no extracted category-exit field,
+BENDIGO EAST,ALP,GRN,0.0,True,no extracted category-exit field,
+BENDIGO EAST,ALP,IND,0.0,True,no extracted category-exit field,
+BENDIGO EAST,ALP,OTH,0.0,True,no extracted category-exit field,
+BENDIGO EAST,LNP,ALP,0.0,True,no extracted category-exit field,
+BENDIGO EAST,LNP,GRN,0.0,True,no extracted category-exit field,
+BENDIGO EAST,LNP,IND,0.0,True,no extracted category-exit field,
+BENDIGO EAST,LNP,OTH,0.0,True,no extracted category-exit field,
+BENDIGO EAST,GRN,ALP,0.7745000000000001,False,inside extracted field,0.7745382107931909
+BENDIGO EAST,GRN,LNP,0.2255,False,inside extracted field,0.2254617892068091
+BENDIGO EAST,GRN,IND,0.0,True,outside extracted field,
+BENDIGO EAST,GRN,OTH,0.0,True,outside extracted field,
+BENDIGO EAST,IND,ALP,0.1508,False,inside extracted field,0.1507661888284725
+BENDIGO EAST,IND,LNP,0.1522,False,inside extracted field,0.1522491349480969
+BENDIGO EAST,IND,GRN,0.1275,False,inside extracted field,0.1275333662876915
+BENDIGO EAST,IND,OTH,0.5695,False,outside extracted field,
+BENDIGO EAST,OTH,ALP,0.1859,False,inside extracted field,0.1658719346049046
+BENDIGO EAST,OTH,LNP,0.601,False,inside extracted field,0.2261580381471389
+BENDIGO EAST,OTH,GRN,0.2132,False,inside extracted field,0.2476158038147139
+BENDIGO EAST,OTH,IND,0.0,True,inside extracted field,0.1430517711171662
+BENDIGO WEST,ALP,LNP,0.0,True,no extracted category-exit field,
+BENDIGO WEST,ALP,GRN,0.0,True,no extracted category-exit field,
+BENDIGO WEST,ALP,IND,0.0,True,no extracted category-exit field,
+BENDIGO WEST,ALP,OTH,0.0,True,no extracted category-exit field,
+BENDIGO WEST,LNP,ALP,0.0,True,no extracted category-exit field,
+BENDIGO WEST,LNP,GRN,0.0,True,no extracted category-exit field,
+BENDIGO WEST,LNP,IND,0.0,True,no extracted category-exit field,
+BENDIGO WEST,LNP,OTH,0.0,True,no extracted category-exit field,
+BENDIGO WEST,GRN,ALP,0.8465,False,inside extracted field,0.8465024928236894
+BENDIGO WEST,GRN,LNP,0.1535,False,inside extracted field,0.1534975071763106
+BENDIGO WEST,GRN,IND,0.0,True,outside extracted field,
+BENDIGO WEST,GRN,OTH,0.0,True,outside extracted field,
+BENDIGO WEST,IND,ALP,0.1322,False,inside extracted field,0.111368909512761
+BENDIGO WEST,IND,LNP,0.0981,False,inside extracted field,0.1678267594740912
+BENDIGO WEST,IND,GRN,0.2339,False,inside extracted field,0.0549110595514307
+BENDIGO WEST,IND,OTH,0.5359,False,inside extracted field,0.665893271461717
+BENDIGO WEST,OTH,ALP,0.2426,False,inside extracted field,0.2447772510368529
+BENDIGO WEST,OTH,LNP,0.49229999999999996,False,inside extracted field,0.4531352428281828
+BENDIGO WEST,OTH,GRN,0.2652,False,inside extracted field,0.3020875061349642
+BENDIGO WEST,OTH,IND,0.0,True,outside extracted field,
+EILDON,ALP,LNP,0.0,True,no extracted category-exit field,
+EILDON,ALP,GRN,0.0,True,no extracted category-exit field,
+EILDON,ALP,IND,0.0,True,no extracted category-exit field,
+EILDON,ALP,OTH,0.0,True,no extracted category-exit field,
+EILDON,LNP,ALP,0.0,True,no extracted category-exit field,
+EILDON,LNP,GRN,0.0,True,no extracted category-exit field,
+EILDON,LNP,IND,0.0,True,no extracted category-exit field,
+EILDON,LNP,OTH,0.0,True,no extracted category-exit field,
+EILDON,GRN,ALP,0.7653,False,inside extracted field,0.7653216019417476
+EILDON,GRN,LNP,0.2347,False,inside extracted field,0.2346783980582524
+EILDON,GRN,IND,0.0,True,outside extracted field,
+EILDON,GRN,OTH,0.0,True,outside extracted field,
+EILDON,IND,ALP,0.09519999999999999,False,inside extracted field,0.1456953642384106
+EILDON,IND,LNP,0.18460000000000001,False,inside extracted field,0.1258278145695364
+EILDON,IND,GRN,0.27690000000000003,False,inside extracted field,0.3324503311258278
+EILDON,IND,OTH,0.44329999999999997,False,inside extracted field,0.3960264900662251
+EILDON,OTH,ALP,0.1636,False,inside extracted field,0.1687440319680562
+EILDON,OTH,LNP,0.4999,False,inside extracted field,0.4944798232243327
+EILDON,OTH,GRN,0.33649999999999997,False,inside extracted field,0.3367761448076109
+EILDON,OTH,IND,0.0,True,outside extracted field,
+EUROA,ALP,LNP,0.0,True,no extracted category-exit field,
+EUROA,ALP,GRN,0.0,True,no extracted category-exit field,
+EUROA,ALP,IND,0.0,True,no extracted category-exit field,
+EUROA,ALP,OTH,0.0,True,no extracted category-exit field,
+EUROA,LNP,ALP,0.0,True,no extracted category-exit field,
+EUROA,LNP,GRN,0.0,True,no extracted category-exit field,
+EUROA,LNP,IND,0.0,True,no extracted category-exit field,
+EUROA,LNP,OTH,0.0,True,no extracted category-exit field,
+EUROA,GRN,ALP,0.6620999999999999,False,inside extracted field,0.662086891942072
+EUROA,GRN,LNP,0.1935,False,inside extracted field,0.1934645376903082
+EUROA,GRN,IND,0.0,True,outside extracted field,
+EUROA,GRN,OTH,0.1444,False,inside extracted field,0.1444485703676197
+EUROA,IND,ALP,0.0,True,no extracted category-exit field,
+EUROA,IND,LNP,0.0,True,no extracted category-exit field,
+EUROA,IND,GRN,0.0,True,no extracted category-exit field,
+EUROA,IND,OTH,0.0,True,no extracted category-exit field,
+EUROA,OTH,ALP,0.2682,False,inside extracted field,0.2687396244315781
+EUROA,OTH,LNP,0.7318000000000001,False,inside extracted field,0.7312603755684219
+EUROA,OTH,GRN,0.0,True,outside extracted field,
+EUROA,OTH,IND,0.0,True,outside extracted field,
+MACEDON,ALP,LNP,0.0,True,no extracted category-exit field,
+MACEDON,ALP,GRN,0.0,True,no extracted category-exit field,
+MACEDON,ALP,IND,0.0,True,no extracted category-exit field,
+MACEDON,ALP,OTH,0.0,True,no extracted category-exit field,
+MACEDON,LNP,ALP,0.0,True,no extracted category-exit field,
+MACEDON,LNP,GRN,0.0,True,no extracted category-exit field,
+MACEDON,LNP,IND,0.0,True,no extracted category-exit field,
+MACEDON,LNP,OTH,0.0,True,no extracted category-exit field,
+MACEDON,GRN,ALP,0.8351999999999999,False,inside extracted field,0.8352490421455939
+MACEDON,GRN,LNP,0.1648,False,inside extracted field,0.1647509578544061
+MACEDON,GRN,IND,0.0,True,outside extracted field,
+MACEDON,GRN,OTH,0.0,True,outside extracted field,
+MACEDON,IND,ALP,0.249,False,inside extracted field,0.2490102929532858
+MACEDON,IND,LNP,0.3749,False,inside extracted field,0.3749010292953286
+MACEDON,IND,GRN,0.2158,False,inside extracted field,0.2157561361836896
+MACEDON,IND,OTH,0.1603,False,outside extracted field,
+MACEDON,OTH,ALP,0.2261,False,inside extracted field,0.1350702776825505
+MACEDON,OTH,LNP,0.493,False,inside extracted field,0.1045594789166952
+MACEDON,OTH,GRN,0.2809,False,inside extracted field,0.2697977374014398
+MACEDON,OTH,IND,0.0,True,inside extracted field,0.0946177579705176
+BENAMBRA,ALP,LNP,0.2546,False,inside extracted field,0.2546332346986451
+BENAMBRA,ALP,GRN,0.0,True,outside extracted field,
+BENAMBRA,ALP,IND,0.7454000000000001,False,inside extracted field,0.7453667653013549
+BENAMBRA,ALP,OTH,0.0,True,outside extracted field,
+BENAMBRA,LNP,ALP,0.0,True,no extracted category-exit field,
+BENAMBRA,LNP,GRN,0.0,True,no extracted category-exit field,
+BENAMBRA,LNP,IND,0.0,True,no extracted category-exit field,
+BENAMBRA,LNP,OTH,0.0,True,no extracted category-exit field,
+BENAMBRA,GRN,ALP,0.1175,False,inside extracted field,0.2988204456094364
+BENAMBRA,GRN,LNP,0.2988,False,inside extracted field,0.1175185670598514
+BENAMBRA,GRN,IND,0.5837,False,inside extracted field,0.5836609873307121
+BENAMBRA,GRN,OTH,0.0,True,outside extracted field,
+BENAMBRA,IND,ALP,0.0,True,no extracted category-exit field,
+BENAMBRA,IND,LNP,0.0,True,no extracted category-exit field,
+BENAMBRA,IND,GRN,0.0,True,no extracted category-exit field,
+BENAMBRA,IND,OTH,0.0,True,no extracted category-exit field,
+BENAMBRA,OTH,ALP,0.1043,False,inside extracted field,0.1042626728110599
+BENAMBRA,OTH,LNP,0.40149999999999997,False,inside extracted field,0.4014976958525346
+BENAMBRA,OTH,GRN,0.2007,False,inside extracted field,0.2007488479262673
+BENAMBRA,OTH,IND,0.29350000000000004,False,inside extracted field,0.2934907834101382
+OVENS VALLEY,ALP,LNP,0.0,True,no extracted category-exit field,
+OVENS VALLEY,ALP,GRN,0.0,True,no extracted category-exit field,
+OVENS VALLEY,ALP,IND,0.0,True,no extracted category-exit field,
+OVENS VALLEY,ALP,OTH,0.0,True,no extracted category-exit field,
+OVENS VALLEY,LNP,ALP,0.0,True,no extracted category-exit field,
+OVENS VALLEY,LNP,GRN,0.0,True,no extracted category-exit field,
+OVENS VALLEY,LNP,IND,0.0,True,no extracted category-exit field,
+OVENS VALLEY,LNP,OTH,0.0,True,no extracted category-exit field,
+OVENS VALLEY,GRN,ALP,0.7084,False,inside extracted field,0.7084164339848423
+OVENS VALLEY,GRN,LNP,0.2916,False,inside extracted field,0.2915835660151575
+OVENS VALLEY,GRN,IND,0.0,True,outside extracted field,
+OVENS VALLEY,GRN,OTH,0.0,True,outside extracted field,
+OVENS VALLEY,IND,ALP,0.0,True,no extracted category-exit field,
+OVENS VALLEY,IND,LNP,0.0,True,no extracted category-exit field,
+OVENS VALLEY,IND,GRN,0.0,True,no extracted category-exit field,
+OVENS VALLEY,IND,OTH,0.0,True,no extracted category-exit field,
+OVENS VALLEY,OTH,ALP,0.1454,False,inside extracted field,0.1453528046949638
+OVENS VALLEY,OTH,LNP,0.6648999999999999,False,inside extracted field,0.6649379009144261
+OVENS VALLEY,OTH,GRN,0.18969999999999998,False,inside extracted field,0.18970929439061
+OVENS VALLEY,OTH,IND,0.0,True,outside extracted field,
+MILDURA,ALP,LNP,0.3967,False,inside extracted field,0.3967242948134668
+MILDURA,ALP,GRN,0.0,True,outside extracted field,
+MILDURA,ALP,IND,0.6033,False,inside extracted field,0.6032757051865332
+MILDURA,ALP,OTH,0.0,True,outside extracted field,
+MILDURA,LNP,ALP,0.0,True,no extracted category-exit field,
+MILDURA,LNP,GRN,0.0,True,no extracted category-exit field,
+MILDURA,LNP,IND,0.0,True,no extracted category-exit field,
+MILDURA,LNP,OTH,0.0,True,no extracted category-exit field,
+MILDURA,GRN,ALP,0.2493,False,inside extracted field,0.2493125572868927
+MILDURA,GRN,LNP,0.18239999999999998,False,inside extracted field,0.1824014665444546
+MILDURA,GRN,IND,0.3483,False,inside extracted field,0.3483043079743355
+MILDURA,GRN,OTH,0.22,False,inside extracted field,0.2199816681943171
+MILDURA,IND,ALP,0.0,True,no extracted category-exit field,
+MILDURA,IND,LNP,0.0,True,no extracted category-exit field,
+MILDURA,IND,GRN,0.0,True,no extracted category-exit field,
+MILDURA,IND,OTH,0.0,True,no extracted category-exit field,
+MILDURA,OTH,ALP,0.1,False,inside extracted field,0.1228398920615352
+MILDURA,OTH,LNP,0.6185,False,inside extracted field,0.5945852759355645
+MILDURA,OTH,GRN,0.0,True,outside extracted field,
+MILDURA,OTH,IND,0.2815,False,inside extracted field,0.2825748320029002
+MURRAY PLAINS,ALP,LNP,0.0,True,no extracted category-exit field,
+MURRAY PLAINS,ALP,GRN,0.0,True,no extracted category-exit field,
+MURRAY PLAINS,ALP,IND,0.0,True,no extracted category-exit field,
+MURRAY PLAINS,ALP,OTH,0.0,True,no extracted category-exit field,
+MURRAY PLAINS,LNP,ALP,0.0,True,no extracted category-exit field,
+MURRAY PLAINS,LNP,GRN,0.0,True,no extracted category-exit field,
+MURRAY PLAINS,LNP,IND,0.0,True,no extracted category-exit field,
+MURRAY PLAINS,LNP,OTH,0.0,True,no extracted category-exit field,
+MURRAY PLAINS,GRN,ALP,0.4314,False,inside extracted field,0.4314345991561181
+MURRAY PLAINS,GRN,LNP,0.318,False,inside extracted field,0.3180379746835443
+MURRAY PLAINS,GRN,IND,0.0,True,outside extracted field,
+MURRAY PLAINS,GRN,OTH,0.2505,False,inside extracted field,0.2505274261603376
+MURRAY PLAINS,IND,ALP,0.1519,False,inside extracted field,0.151875571820677
+MURRAY PLAINS,IND,LNP,0.30829999999999996,False,inside extracted field,0.3083257090576395
+MURRAY PLAINS,IND,GRN,0.1885,False,inside extracted field,0.1884720951509606
+MURRAY PLAINS,IND,OTH,0.3513,False,inside extracted field,0.3513266239707228
+MURRAY PLAINS,OTH,ALP,0.3726,False,inside extracted field,0.3736735188312448
+MURRAY PLAINS,OTH,LNP,0.6274000000000001,False,inside extracted field,0.6263264811687552
+MURRAY PLAINS,OTH,GRN,0.0,True,outside extracted field,
+MURRAY PLAINS,OTH,IND,0.0,True,outside extracted field,
+LARA,ALP,LNP,0.0,True,no extracted category-exit field,
+LARA,ALP,GRN,0.0,True,no extracted category-exit field,
+LARA,ALP,IND,0.0,True,no extracted category-exit field,
+LARA,ALP,OTH,0.0,True,no extracted category-exit field,
+LARA,LNP,ALP,0.0,True,no extracted category-exit field,
+LARA,LNP,GRN,0.0,True,no extracted category-exit field,
+LARA,LNP,IND,0.0,True,no extracted category-exit field,
+LARA,LNP,OTH,0.0,True,no extracted category-exit field,
+LARA,GRN,ALP,0.6857,False,inside extracted field,0.6856684647907858
+LARA,GRN,LNP,0.3143,False,inside extracted field,0.3143315352092142
+LARA,GRN,IND,0.0,True,outside extracted field,
+LARA,GRN,OTH,0.0,True,outside extracted field,
+LARA,IND,ALP,0.1308,False,inside extracted field,0.1308165057067603
+LARA,IND,LNP,0.0922,False,inside extracted field,0.0921861281826163
+LARA,IND,GRN,0.4416,False,inside extracted field,0.4416154521510096
+LARA,IND,OTH,0.3354,False,inside extracted field,0.3353819139596137
+LARA,OTH,ALP,0.2445,False,inside extracted field,0.248929633939833
+LARA,OTH,LNP,0.43670000000000003,False,inside extracted field,0.4434407994766826
+LARA,OTH,GRN,0.3188,False,inside extracted field,0.3076295665834843
+LARA,OTH,IND,0.0,True,outside extracted field,
+MELTON,ALP,LNP,0.0,True,no extracted category-exit field,
+MELTON,ALP,GRN,0.0,True,no extracted category-exit field,
+MELTON,ALP,IND,0.0,True,no extracted category-exit field,
+MELTON,ALP,OTH,0.0,True,no extracted category-exit field,
+MELTON,LNP,ALP,0.0,True,no extracted category-exit field,
+MELTON,LNP,GRN,0.0,True,no extracted category-exit field,
+MELTON,LNP,IND,0.0,True,no extracted category-exit field,
+MELTON,LNP,OTH,0.0,True,no extracted category-exit field,
+MELTON,GRN,ALP,0.5331,False,inside extracted field,0.5330983157070114
+MELTON,GRN,LNP,0.1003,False,inside extracted field,0.1002741872307089
+MELTON,GRN,IND,0.255,False,inside extracted field,0.0771641206423815
+MELTON,GRN,OTH,0.1116,False,inside extracted field,0.2894633764198981
+MELTON,IND,ALP,0.349,False,inside extracted field,0.3235335293294133
+MELTON,IND,LNP,0.6509999999999999,False,inside extracted field,0.6764664706705866
+MELTON,IND,GRN,0.0,True,outside extracted field,
+MELTON,IND,OTH,0.0,True,outside extracted field,
+MELTON,OTH,ALP,0.2373,False,inside extracted field,0.328290847566852
+MELTON,OTH,LNP,0.2184,False,inside extracted field,0.3028586289882767
+MELTON,OTH,GRN,0.11599999999999999,False,outside extracted field,
+MELTON,OTH,IND,0.4282,False,inside extracted field,0.368850523444871
+BELLARINE,ALP,LNP,0.0,True,no extracted category-exit field,
+BELLARINE,ALP,GRN,0.0,True,no extracted category-exit field,
+BELLARINE,ALP,IND,0.0,True,no extracted category-exit field,
+BELLARINE,ALP,OTH,0.0,True,no extracted category-exit field,
+BELLARINE,LNP,ALP,0.0,True,no extracted category-exit field,
+BELLARINE,LNP,GRN,0.0,True,no extracted category-exit field,
+BELLARINE,LNP,IND,0.0,True,no extracted category-exit field,
+BELLARINE,LNP,OTH,0.0,True,no extracted category-exit field,
+BELLARINE,GRN,ALP,0.7796,False,inside extracted field,0.7796475420696966
+BELLARINE,GRN,LNP,0.22039999999999998,False,inside extracted field,0.2203524579303034
+BELLARINE,GRN,IND,0.0,True,outside extracted field,
+BELLARINE,GRN,OTH,0.0,True,outside extracted field,
+BELLARINE,IND,ALP,0.2805,False,inside extracted field,0.2805402087170043
+BELLARINE,IND,LNP,0.3435,False,inside extracted field,0.3434622467771639
+BELLARINE,IND,GRN,0.376,False,inside extracted field,0.3759975445058318
+BELLARINE,IND,OTH,0.0,True,outside extracted field,
+BELLARINE,OTH,ALP,0.1782,False,inside extracted field,0.1781701444622793
+BELLARINE,OTH,LNP,0.3175,False,inside extracted field,0.3175494917067951
+BELLARINE,OTH,GRN,0.21,False,inside extracted field,0.2100053504547886
+BELLARINE,OTH,IND,0.2943,False,inside extracted field,0.294275013376137
+WENDOUREE,ALP,LNP,0.0,True,no extracted category-exit field,
+WENDOUREE,ALP,GRN,0.0,True,no extracted category-exit field,
+WENDOUREE,ALP,IND,0.0,True,no extracted category-exit field,
+WENDOUREE,ALP,OTH,0.0,True,no extracted category-exit field,
+WENDOUREE,LNP,ALP,0.0,True,no extracted category-exit field,
+WENDOUREE,LNP,GRN,0.0,True,no extracted category-exit field,
+WENDOUREE,LNP,IND,0.0,True,no extracted category-exit field,
+WENDOUREE,LNP,OTH,0.0,True,no extracted category-exit field,
+WENDOUREE,GRN,ALP,0.7855,False,inside extracted field,0.7854508883674154
+WENDOUREE,GRN,LNP,0.2145,False,inside extracted field,0.2145491116325846
+WENDOUREE,GRN,IND,0.0,True,outside extracted field,
+WENDOUREE,GRN,OTH,0.0,True,outside extracted field,
+WENDOUREE,IND,ALP,0.1209,False,inside extracted field,0.1208791208791208
+WENDOUREE,IND,LNP,0.2022,False,inside extracted field,0.2021978021978022
+WENDOUREE,IND,GRN,0.1429,False,inside extracted field,0.0879120879120879
+WENDOUREE,IND,OTH,0.5341,False,inside extracted field,0.589010989010989
+WENDOUREE,OTH,ALP,0.2621,False,inside extracted field,0.2625312783386792
+WENDOUREE,OTH,LNP,0.429,False,inside extracted field,0.4279478248654
+WENDOUREE,OTH,GRN,0.3089,False,inside extracted field,0.3095208967959207
+WENDOUREE,OTH,IND,0.0,True,outside extracted field,
+GEELONG,ALP,LNP,0.0,True,no extracted category-exit field,
+GEELONG,ALP,GRN,0.0,True,no extracted category-exit field,
+GEELONG,ALP,IND,0.0,True,no extracted category-exit field,
+GEELONG,ALP,OTH,0.0,True,no extracted category-exit field,
+GEELONG,LNP,ALP,0.0,True,no extracted category-exit field,
+GEELONG,LNP,GRN,0.0,True,no extracted category-exit field,
+GEELONG,LNP,IND,0.0,True,no extracted category-exit field,
+GEELONG,LNP,OTH,0.0,True,no extracted category-exit field,
+GEELONG,GRN,ALP,0.8242,False,inside extracted field,0.8241532671912418
+GEELONG,GRN,LNP,0.17579999999999998,False,inside extracted field,0.1758467328087581
+GEELONG,GRN,IND,0.0,True,outside extracted field,
+GEELONG,GRN,OTH,0.0,True,outside extracted field,
+GEELONG,IND,ALP,0.15460000000000002,False,inside extracted field,0.1602787456445993
+GEELONG,IND,LNP,0.1277,False,inside extracted field,0.102787456445993
+GEELONG,IND,GRN,0.2761,False,inside extracted field,0.3292682926829268
+GEELONG,IND,OTH,0.44170000000000004,False,inside extracted field,0.4076655052264808
+GEELONG,OTH,ALP,0.1603,False,inside extracted field,0.1895505594300171
+GEELONG,OTH,LNP,0.4347,False,inside extracted field,0.4439415427107818
+GEELONG,OTH,GRN,0.405,False,inside extracted field,0.366507897859201
+GEELONG,OTH,IND,0.0,True,outside extracted field,
+SOUTH BARWON,ALP,LNP,0.0,True,no extracted category-exit field,
+SOUTH BARWON,ALP,GRN,0.0,True,no extracted category-exit field,
+SOUTH BARWON,ALP,IND,0.0,True,no extracted category-exit field,
+SOUTH BARWON,ALP,OTH,0.0,True,no extracted category-exit field,
+SOUTH BARWON,LNP,ALP,0.0,True,no extracted category-exit field,
+SOUTH BARWON,LNP,GRN,0.0,True,no extracted category-exit field,
+SOUTH BARWON,LNP,IND,0.0,True,no extracted category-exit field,
+SOUTH BARWON,LNP,OTH,0.0,True,no extracted category-exit field,
+SOUTH BARWON,GRN,ALP,0.8001999999999999,False,inside extracted field,0.8002178945934904
+SOUTH BARWON,GRN,LNP,0.1998,False,inside extracted field,0.1997821054065096
+SOUTH BARWON,GRN,IND,0.0,True,outside extracted field,
+SOUTH BARWON,GRN,OTH,0.0,True,outside extracted field,
+SOUTH BARWON,IND,ALP,0.0,True,no extracted category-exit field,
+SOUTH BARWON,IND,LNP,0.0,True,no extracted category-exit field,
+SOUTH BARWON,IND,GRN,0.0,True,no extracted category-exit field,
+SOUTH BARWON,IND,OTH,0.0,True,no extracted category-exit field,
+SOUTH BARWON,OTH,ALP,0.2359,False,inside extracted field,0.2359437751004016
+SOUTH BARWON,OTH,LNP,0.43799999999999994,False,inside extracted field,0.4379518072289156
+SOUTH BARWON,OTH,GRN,0.3261,False,inside extracted field,0.3261044176706827
+SOUTH BARWON,OTH,IND,0.0,True,outside extracted field,
+EUREKA,ALP,LNP,0.0,True,no extracted category-exit field,
+EUREKA,ALP,GRN,0.0,True,no extracted category-exit field,
+EUREKA,ALP,IND,0.0,True,no extracted category-exit field,
+EUREKA,ALP,OTH,0.0,True,no extracted category-exit field,
+EUREKA,LNP,ALP,0.0,True,no extracted category-exit field,
+EUREKA,LNP,GRN,0.0,True,no extracted category-exit field,
+EUREKA,LNP,IND,0.0,True,no extracted category-exit field,
+EUREKA,LNP,OTH,0.0,True,no extracted category-exit field,
+EUREKA,GRN,ALP,0.7487999999999999,False,inside extracted field,0.7488269390008281
+EUREKA,GRN,LNP,0.25120000000000003,False,inside extracted field,0.2511730609991719
+EUREKA,GRN,IND,0.0,True,outside extracted field,
+EUREKA,GRN,OTH,0.0,True,outside extracted field,
+EUREKA,IND,ALP,0.215,False,inside extracted field,0.2164522058823529
+EUREKA,IND,LNP,0.22390000000000002,False,inside extracted field,0.2146139705882352
+EUREKA,IND,GRN,0.1533,False,inside extracted field,0.1580882352941176
+EUREKA,IND,OTH,0.4078,False,inside extracted field,0.4108455882352941
+EUREKA,OTH,ALP,0.2347,False,inside extracted field,0.2488849215903334
+EUREKA,OTH,LNP,0.441,False,inside extracted field,0.4329899646440018
+EUREKA,OTH,GRN,0.3243,False,inside extracted field,0.3181251137656646
+EUREKA,OTH,IND,0.0,True,outside extracted field,
+RIPON,ALP,LNP,0.0,True,no extracted category-exit field,
+RIPON,ALP,GRN,0.0,True,no extracted category-exit field,
+RIPON,ALP,IND,0.0,True,no extracted category-exit field,
+RIPON,ALP,OTH,0.0,True,no extracted category-exit field,
+RIPON,LNP,ALP,0.0,True,no extracted category-exit field,
+RIPON,LNP,GRN,0.0,True,no extracted category-exit field,
+RIPON,LNP,IND,0.0,True,no extracted category-exit field,
+RIPON,LNP,OTH,0.0,True,no extracted category-exit field,
+RIPON,GRN,ALP,0.7191,False,inside extracted field,0.7191045691505673
+RIPON,GRN,LNP,0.11130000000000001,False,inside extracted field,0.1113155473781048
+RIPON,GRN,IND,0.0,True,outside extracted field,
+RIPON,GRN,OTH,0.1696,False,inside extracted field,0.1695798834713278
+RIPON,IND,ALP,0.2708,False,inside extracted field,0.2959086584205518
+RIPON,IND,LNP,0.1739,False,inside extracted field,0.1798287345385347
+RIPON,IND,GRN,0.0833,False,inside extracted field,0.082778306374881
+RIPON,IND,OTH,0.47200000000000003,False,inside extracted field,0.4414843006660323
+RIPON,OTH,ALP,0.4913,False,inside extracted field,0.4922870158914754
+RIPON,OTH,LNP,0.5086999999999999,False,inside extracted field,0.5077129841085245
+RIPON,OTH,GRN,0.0,True,outside extracted field,
+RIPON,OTH,IND,0.0,True,outside extracted field,
+LOWAN,ALP,LNP,0.0,True,no extracted category-exit field,
+LOWAN,ALP,GRN,0.0,True,no extracted category-exit field,
+LOWAN,ALP,IND,0.0,True,no extracted category-exit field,
+LOWAN,ALP,OTH,0.0,True,no extracted category-exit field,
+LOWAN,LNP,ALP,0.0,True,no extracted category-exit field,
+LOWAN,LNP,GRN,0.0,True,no extracted category-exit field,
+LOWAN,LNP,IND,0.0,True,no extracted category-exit field,
+LOWAN,LNP,OTH,0.0,True,no extracted category-exit field,
+LOWAN,GRN,ALP,0.627,False,inside extracted field,0.6270096463022508
+LOWAN,GRN,LNP,0.2071,False,inside extracted field,0.2070739549839228
+LOWAN,GRN,IND,0.1659,False,inside extracted field,0.1659163987138263
+LOWAN,GRN,OTH,0.0,True,outside extracted field,
+LOWAN,IND,ALP,0.3034,False,inside extracted field,0.3034085453672587
+LOWAN,IND,LNP,0.6966,False,inside extracted field,0.6965914546327412
+LOWAN,IND,GRN,0.0,True,outside extracted field,
+LOWAN,IND,OTH,0.0,True,outside extracted field,
+LOWAN,OTH,ALP,0.1222,False,inside extracted field,0.1222067039106145
+LOWAN,OTH,LNP,0.44409999999999994,False,inside extracted field,0.4441340782122904
+LOWAN,OTH,GRN,0.125,False,inside extracted field,0.125
+LOWAN,OTH,IND,0.30870000000000003,False,inside extracted field,0.308659217877095
+POLWARTH,ALP,LNP,0.0,True,no extracted category-exit field,
+POLWARTH,ALP,GRN,0.0,True,no extracted category-exit field,
+POLWARTH,ALP,IND,0.0,True,no extracted category-exit field,
+POLWARTH,ALP,OTH,0.0,True,no extracted category-exit field,
+POLWARTH,LNP,ALP,0.0,True,no extracted category-exit field,
+POLWARTH,LNP,GRN,0.0,True,no extracted category-exit field,
+POLWARTH,LNP,IND,0.0,True,no extracted category-exit field,
+POLWARTH,LNP,OTH,0.0,True,no extracted category-exit field,
+POLWARTH,GRN,ALP,0.8264,False,inside extracted field,0.8263721845615569
+POLWARTH,GRN,LNP,0.1736,False,inside extracted field,0.173627815438443
+POLWARTH,GRN,IND,0.0,True,outside extracted field,
+POLWARTH,GRN,OTH,0.0,True,outside extracted field,
+POLWARTH,IND,ALP,0.11699999999999999,False,inside extracted field,0.1169783645031169
+POLWARTH,IND,LNP,0.6722,False,inside extracted field,0.6721672167216721
+POLWARTH,IND,GRN,0.2109,False,inside extracted field,0.2108544187752108
+POLWARTH,IND,OTH,0.0,True,outside extracted field,
+POLWARTH,OTH,ALP,0.21109999999999998,False,inside extracted field,0.2478787878787879
+POLWARTH,OTH,LNP,0.2225,False,inside extracted field,0.2612121212121212
+POLWARTH,OTH,GRN,0.3832,False,inside extracted field,0.2757575757575757
+POLWARTH,OTH,IND,0.1832,False,inside extracted field,0.2151515151515151
+SOUTH-WEST COAST,ALP,LNP,0.0,True,no extracted category-exit field,
+SOUTH-WEST COAST,ALP,GRN,0.0,True,no extracted category-exit field,
+SOUTH-WEST COAST,ALP,IND,0.0,True,no extracted category-exit field,
+SOUTH-WEST COAST,ALP,OTH,0.0,True,no extracted category-exit field,
+SOUTH-WEST COAST,LNP,ALP,0.0,True,no extracted category-exit field,
+SOUTH-WEST COAST,LNP,GRN,0.0,True,no extracted category-exit field,
+SOUTH-WEST COAST,LNP,IND,0.0,True,no extracted category-exit field,
+SOUTH-WEST COAST,LNP,OTH,0.0,True,no extracted category-exit field,
+SOUTH-WEST COAST,GRN,ALP,0.43420000000000003,False,inside extracted field,0.4342379958246347
+SOUTH-WEST COAST,GRN,LNP,0.1301,False,inside extracted field,0.1301322199025748
+SOUTH-WEST COAST,GRN,IND,0.43560000000000004,False,inside extracted field,0.3281141266527488
+SOUTH-WEST COAST,GRN,OTH,0.0,True,inside extracted field,0.1075156576200417
+SOUTH-WEST COAST,IND,ALP,0.5856,False,inside extracted field,0.636248907873022
+SOUTH-WEST COAST,IND,LNP,0.4144,False,inside extracted field,0.363751092126978
+SOUTH-WEST COAST,IND,GRN,0.0,True,outside extracted field,
+SOUTH-WEST COAST,IND,OTH,0.0,True,outside extracted field,
+SOUTH-WEST COAST,OTH,ALP,0.1177,False,inside extracted field,0.2411354527299493
+SOUTH-WEST COAST,OTH,LNP,0.23989999999999997,False,inside extracted field,0.3737011780252771
+SOUTH-WEST COAST,OTH,GRN,0.091,False,outside extracted field,
+SOUTH-WEST COAST,OTH,IND,0.5514,False,inside extracted field,0.3851633692447734

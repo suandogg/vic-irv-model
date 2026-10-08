@@ -1,0 +1,15 @@
+{
+  "ExtractedSeats": 88,
+  "ExtractedCategoryExitFields": 250,
+  "LegacyRows": 440,
+  "LegacyNonemptyRows": 244,
+  "RowsWithExtractedField": 245,
+  "ClassificationMismatches": 0,
+  "NonemptyRowsWithPositiveOutsideExtractedField": 5,
+  "ZeroCellsByExtractedFieldStatus": {
+    "no extracted category-exit field": 776,
+    "outside extracted field": 259,
+    "inside extracted field": 13
+  },
+  "SourceSHA256": "abddadaf03f4e13cafce059978a66a6092f49282a10eccd6a56fe809e7352dda"
+}
