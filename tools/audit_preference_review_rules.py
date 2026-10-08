@@ -25,7 +25,7 @@ def main():
     adjustments=load_lower_seat_adjustments(); rows=[]; parcels_out=[]
     for scenario,targets in SCENARIOS.items():
         primary,p=build_primaries(inputs,params,targets,adjustments)
-        for name in ("reference","no_geography","no_synthetic_priority","simplified"):
+        for name in ("reference","single_on_baseline","on_no_extra_transforms","no_geography","no_synthetic_priority","simplified"):
             settings=variant(p,name)
             for district,group in primary.groupby("district"):
                 matrix=matrices[district.upper()]["matrix"]; seat_type=group.iloc[0]["seat_type"]

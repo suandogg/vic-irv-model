@@ -429,6 +429,12 @@ def diagnose_preference_weights(
     alive = set(alive_parties)
     alive_arr = list(alive_parties)
     stage_rows = []
+    if scalars.get("TRIAL_ON_NO_EXTRA_TRANSFORMS", False) and ("ON" in alive or elim == "ON"):
+        params = dict(params)
+        scalars = dict(scalars)
+        scalars["SIPHON_STRENGTH_ON"] = 0
+        params["scalar_params"] = scalars
+        params["geography_adjustments"] = {}
 
     if elim not in PARTIES or not alive_arr:
         out = uniform_alive(alive)
@@ -452,7 +458,9 @@ def diagnose_preference_weights(
 
     post_key = f"{elim}|{alive_key(alive_arr)}"
     trial_obj = posterior.get(post_key)
-    if isinstance(trial_obj, dict) and trial_obj.get("__federal_on_trial__"):
+    single_on_baseline = bool(scalars.get("TRIAL_SINGLE_ON_BASELINE", False)) and ("ON" in alive or elim == "ON")
+    locked_special = single_on_baseline and get_on_special_prior(elim, alive, geography_class, params) is not None
+    if isinstance(trial_obj, dict) and trial_obj.get("__federal_on_trial__") and not locked_special:
         # First calculate the complete current Victorian rule with this one
         # experimental record removed.  The trial is then a transparent
         # shrinkage blend toward that unchanged production result.
@@ -586,6 +594,34 @@ def diagnose_preference_weights(
             "Raw special prior for final ALP/ON or LNP/ON-style alive sets.",
             {"basis": "ON special prior"},
         ))
+
+    if single_on_baseline:
+        if on_special_vec is not None:
+            out = on_special_vec
+            basis = "ON special prior"
+        elif aec_proj is not None:
+            out = aec_proj.copy()
+            basis = "single synthetic ON baseline"
+        else:
+            prior = ideology.get(elim, {})
+            prior_vec = [float(prior.get(party, 0) or 0) if party in alive else 0 for party in PARTIES]
+            out = normalise_alive(prior_vec, alive) if sum(prior_vec) > 0 else uniform_alive(alive)
+            basis = "single ON baseline missing: generic prior" if sum(prior_vec) > 0 else "single ON baseline missing: uniform"
+        if basis != "ON special prior":
+            out = enforce_floor(out, alive, scalars)
+            out = cap_shares(out, alive, scalars)
+        stage_rows.append(vector_stage(
+            "single ON baseline trial", out, alive,
+            "Special priors are locked; otherwise use the projected synthetic row without posterior selection, extra AEC anchoring, geography or siphon. Existing floors and caps remain. Missing rows use an explicitly labelled fallback.",
+            {"basis": basis},
+        ))
+        return {
+            "eliminated_party": elim, "alive_parties": alive_arr,
+            "seat_type": geography_class, "basis": basis,
+            "aec_coverage": coverage, "missing_parties": missing_parties,
+            "final_vector": out, "final_flows": vector_to_dict(out, alive),
+            "stages": stage_rows,
+        }
 
     ide_vec = None
     ide_obj = ideology.get(elim)

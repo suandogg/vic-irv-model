@@ -493,6 +493,8 @@ from tools.preference_review_trials import variant as preference_trial_variant
 from tools.trial_posterior_reliability import seat_count_trial
 trial_options = {
     "Current reference": "reference",
+    "Single synthetic ON fallback baseline": "single_on_baseline",
+    "Keep ON source selection, remove extra transforms": "on_no_extra_transforms",
     "No generic ON siphon": "no_siphon",
     "No preference geography": "no_geography",
     "No ON-recipient geography addition": "no_on_recipient_geography",
@@ -510,7 +512,11 @@ params = preference_trial_variant(params, trial_method)
 if trial_method.startswith("seat_reliability_"):
     posterior = seat_count_trial(posterior, int(trial_method.rsplit("_", 1)[1]))
 st.sidebar.caption("Development comparisons with frozen inputs. Trial choice affects Assembly preferences.")
-if trial_method == "no_synthetic_priority":
+if trial_method == "single_on_baseline":
+    st.sidebar.caption("Matrix-direct sensitivity: replaces generic posterior/prior selection in ON-related rounds. Exact federal blending remains; special priors are locked. Not a production recommendation.")
+elif trial_method == "on_no_extra_transforms":
+    st.sidebar.caption("Narrow overlap test: retains existing source selection, but removes geography and siphon in ON-related rounds. Non-ON rounds remain unchanged.")
+elif trial_method == "no_synthetic_priority":
     st.sidebar.caption("Broad hierarchy sensitivity: applies to all ON-related rows until provenance is established.")
 elif trial_method.startswith("seat_reliability_"):
     st.sidebar.caption("Seat-count sensitivity only; between-seat variance is not available in the current scenario input.")

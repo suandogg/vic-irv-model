@@ -6,6 +6,10 @@ Scenario,Variant,Basis,Rounds,SpecialAvailable,SpecialSelected
 2022,no_synthetic_priority,federal ON evidence trial,10,0,0
 2022,no_synthetic_priority,ideology prior,92,0,0
 2022,no_synthetic_priority,posterior scenario,250,0,0
+2022,on_no_extra_transforms,federal ON evidence trial,10,0,0
+2022,on_no_extra_transforms,full AEC row,78,0,0
+2022,on_no_extra_transforms,ideology prior,14,0,0
+2022,on_no_extra_transforms,posterior scenario,250,0,0
 2022,reference,federal ON evidence trial,10,0,0
 2022,reference,full AEC row,78,0,0
 2022,reference,ideology prior,14,0,0
@@ -13,6 +17,11 @@ Scenario,Variant,Basis,Rounds,SpecialAvailable,SpecialSelected
 2022,simplified,federal ON evidence trial,10,0,0
 2022,simplified,ideology prior,92,0,0
 2022,simplified,posterior scenario,250,0,0
+2022,single_on_baseline,federal ON evidence trial,10,0,0
+2022,single_on_baseline,ideology prior,4,0,0
+2022,single_on_baseline,posterior scenario,250,0,0
+2022,single_on_baseline,single ON baseline missing: generic prior,10,0,0
+2022,single_on_baseline,single synthetic ON baseline,78,0,0
 ON18,no_geography,ON special prior,20,20,20
 ON18,no_geography,federal ON evidence trial,178,0,0
 ON18,no_geography,full AEC row,79,0,0
@@ -22,6 +31,11 @@ ON18,no_synthetic_priority,ON special prior,22,22,22
 ON18,no_synthetic_priority,federal ON evidence trial,178,0,0
 ON18,no_synthetic_priority,ideology prior,132,0,0
 ON18,no_synthetic_priority,posterior scenario,20,0,0
+ON18,on_no_extra_transforms,ON special prior,17,17,17
+ON18,on_no_extra_transforms,federal ON evidence trial,180,0,0
+ON18,on_no_extra_transforms,full AEC row,77,0,0
+ON18,on_no_extra_transforms,ideology prior,56,0,0
+ON18,on_no_extra_transforms,posterior scenario,22,0,0
 ON18,reference,ON special prior,22,22,22
 ON18,reference,federal ON evidence trial,176,0,0
 ON18,reference,full AEC row,79,0,0
@@ -31,6 +45,11 @@ ON18,simplified,ON special prior,18,18,18
 ON18,simplified,federal ON evidence trial,181,0,0
 ON18,simplified,ideology prior,132,0,0
 ON18,simplified,posterior scenario,21,0,0
+ON18,single_on_baseline,ON special prior,18,18,18
+ON18,single_on_baseline,federal ON evidence trial,178,0,0
+ON18,single_on_baseline,posterior scenario,21,0,0
+ON18,single_on_baseline,single ON baseline missing: generic prior,20,0,0
+ON18,single_on_baseline,single synthetic ON baseline,115,0,0
 ON20,no_geography,ON special prior,33,33,33
 ON20,no_geography,federal ON evidence trial,146,0,0
 ON20,no_geography,full AEC row,72,0,0
@@ -40,6 +59,11 @@ ON20,no_synthetic_priority,ON special prior,33,33,33
 ON20,no_synthetic_priority,federal ON evidence trial,148,0,0
 ON20,no_synthetic_priority,ideology prior,156,0,0
 ON20,no_synthetic_priority,posterior scenario,15,0,0
+ON20,on_no_extra_transforms,ON special prior,31,31,31
+ON20,on_no_extra_transforms,federal ON evidence trial,146,0,0
+ON20,on_no_extra_transforms,full AEC row,72,0,0
+ON20,on_no_extra_transforms,ideology prior,86,0,0
+ON20,on_no_extra_transforms,posterior scenario,17,0,0
 ON20,reference,ON special prior,33,33,33
 ON20,reference,federal ON evidence trial,147,0,0
 ON20,reference,full AEC row,73,0,0
@@ -49,6 +73,12 @@ ON20,simplified,ON special prior,29,29,29
 ON20,simplified,federal ON evidence trial,148,0,0
 ON20,simplified,ideology prior,158,0,0
 ON20,simplified,posterior scenario,17,0,0
+ON20,single_on_baseline,ON special prior,30,30,30
+ON20,single_on_baseline,federal ON evidence trial,146,0,0
+ON20,single_on_baseline,ideology prior,1,0,0
+ON20,single_on_baseline,posterior scenario,17,0,0
+ON20,single_on_baseline,single ON baseline missing: generic prior,27,0,0
+ON20,single_on_baseline,single synthetic ON baseline,131,0,0
 ON24,no_geography,ON special prior,46,46,46
 ON24,no_geography,federal ON evidence trial,135,0,0
 ON24,no_geography,full AEC row,76,0,0
@@ -58,6 +88,11 @@ ON24,no_synthetic_priority,ON special prior,48,48,48
 ON24,no_synthetic_priority,federal ON evidence trial,134,0,0
 ON24,no_synthetic_priority,ideology prior,160,0,0
 ON24,no_synthetic_priority,posterior scenario,10,0,0
+ON24,on_no_extra_transforms,ON special prior,45,45,45
+ON24,on_no_extra_transforms,federal ON evidence trial,136,0,0
+ON24,on_no_extra_transforms,full AEC row,76,0,0
+ON24,on_no_extra_transforms,ideology prior,85,0,0
+ON24,on_no_extra_transforms,posterior scenario,10,0,0
 ON24,reference,ON special prior,47,47,47
 ON24,reference,federal ON evidence trial,134,0,0
 ON24,reference,full AEC row,76,0,0
@@ -67,3 +102,9 @@ ON24,simplified,ON special prior,45,45,45
 ON24,simplified,federal ON evidence trial,136,0,0
 ON24,simplified,ideology prior,161,0,0
 ON24,simplified,posterior scenario,10,0,0
+ON24,single_on_baseline,ON special prior,45,45,45
+ON24,single_on_baseline,federal ON evidence trial,136,0,0
+ON24,single_on_baseline,ideology prior,1,0,0
+ON24,single_on_baseline,posterior scenario,10,0,0
+ON24,single_on_baseline,single ON baseline missing: generic prior,25,0,0
+ON24,single_on_baseline,single synthetic ON baseline,135,0,0
