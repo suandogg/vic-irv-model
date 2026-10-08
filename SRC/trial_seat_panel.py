@@ -3,6 +3,7 @@ SEATS = ["Pakenham", "Morwell", "Pascoe Vale", "Ashwood", "Yan Yean"]
 EXPLANATIONS = {
     "reference":"Unchanged reference preference rules.",
     "vec_exact_field":"Use reconstructed VEC primary-origin shares only for the matching historical non-ON field. Preserve stored synthetic ON allocation, existing ON transformations, federal blending and special priors. Native historical ON fields and unmatched fields remain reference rules.",
+    "vec_field_coverage":"Exact-field VEC evidence with historical coverage recognised as complete when ON is not continuing. Stored ON allocation and all ON rules stay unchanged. Unmatched fields retain reference logic.",
     "no_incomplete_matrix_anchor":"Keep existing fallback selection, but skip subsequent matrix anchoring when a continuing recipient has no positive entry. Does not infer that every zero is unobserved. All other transformations and special priors remain unchanged.",
     "oth_params_rebuild":"Rebuild only OTH synthetic rows from historical five-party rows and current OTH→ON PARAMS. Keep source selection, extra transforms, evidence blending and special priors unchanged.",
     "matrix_source_only":"Change only generic ON-related source selection to the projected matrix; retain geography/siphon, constraints, exact federal blending and locked special priors.",

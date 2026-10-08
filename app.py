@@ -494,6 +494,7 @@ from tools.trial_posterior_reliability import seat_count_trial
 trial_options = {
     "Current reference": "reference",
     "VEC evidence for exact historical fields": "vec_exact_field",
+    "VEC exact fields with corrected coverage": "vec_field_coverage",
     "Do not blend incomplete matrix rows into fallback": "no_incomplete_matrix_anchor",
     "Rebuild OTH rows from current PARAMS": "oth_params_rebuild",
     "Matrix source only, retain extra transforms": "matrix_source_only",
@@ -513,7 +514,7 @@ trial_options = {
 trial_label = st.sidebar.selectbox("Preference trial", list(trial_options))
 trial_method = trial_options[trial_label]
 params = preference_trial_variant(params, trial_method)
-if trial_method == "vec_exact_field":
+if trial_method in ("vec_exact_field", "vec_field_coverage"):
     from tools.trial_vec_field_evidence import attach_vec_fields
     matrices = attach_vec_fields(matrices)
 if trial_method == "oth_params_rebuild":

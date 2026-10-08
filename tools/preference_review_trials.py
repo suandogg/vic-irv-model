@@ -30,8 +30,10 @@ SCENARIOS = {
 def variant(params, name):
     p = copy.deepcopy(params)
     s = p["scalar_params"]
-    if name == "vec_exact_field":
+    if name in ("vec_exact_field", "vec_field_coverage"):
         s["TRIAL_VEC_EXACT_FIELD"] = True
+    if name == "vec_field_coverage":
+        s["TRIAL_VEC_FIELD_COVERAGE"] = True
     if name == "no_incomplete_matrix_anchor":
         s["TRIAL_NO_INCOMPLETE_MATRIX_ANCHOR"] = True
     if name in ("single_on_baseline", "matrix_source_only"):
@@ -70,10 +72,10 @@ def main():
         primary, p=build_primaries(inputs,params,targets,adjustments)
         primary.to_csv(out/f"primaries_{scenario}.csv",index=False)
         reference=None
-        for name in ("reference","vec_exact_field","no_incomplete_matrix_anchor","oth_params_rebuild","matrix_source_only","single_on_baseline","on_no_extra_transforms","no_on_recipient_geography","no_non_on_recipient_geography","no_siphon","no_geography","no_constraints","no_synthetic_priority","simplified","seat_reliability_5","seat_reliability_10","seat_reliability_20"):
+        for name in ("reference","vec_exact_field","vec_field_coverage","no_incomplete_matrix_anchor","oth_params_rebuild","matrix_source_only","single_on_baseline","on_no_extra_transforms","no_on_recipient_geography","no_non_on_recipient_geography","no_siphon","no_geography","no_constraints","no_synthetic_priority","simplified","seat_reliability_5","seat_reliability_10","seat_reliability_20"):
             post=seat_count_trial(posterior,int(name.rsplit("_",1)[1])) if name.startswith("seat_reliability_") else posterior
             trial_matrices = rebuild_oth_matrices(matrices, p) if name == "oth_params_rebuild" else matrices
-            if name == "vec_exact_field":
+            if name in ("vec_exact_field", "vec_field_coverage"):
                 trial_matrices = attach_vec_fields(matrices)
             result=run_irv_all(primary,trial_matrices,variant(p,name),post,ideology)
             if isinstance(result,tuple): result=result[0]

@@ -11,6 +11,16 @@
       "common_engine_distance_pp": 13.47711364265547,
       "common_direct_pool_distance_pp": 11.695275864773008
     },
+    "corrected_coverage": {
+      "matched_fields": 234,
+      "eligible_fields": 238,
+      "reference_distance_pp": 16.432959490346374,
+      "engine_distance_pp": 11.534511500580953,
+      "direct_pool_distance_pp": 11.695275864773008,
+      "all_variants_common_fields": 234,
+      "common_engine_distance_pp": 11.534511500580953,
+      "common_direct_pool_distance_pp": 11.695275864773008
+    },
     "no_non_on_geography": {
       "matched_fields": 234,
       "eligible_fields": 238,
@@ -97,6 +107,16 @@
       "seat": "BOX HILL",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 2.4775573075976416,
+      "engine_distance_pp": 2.4756409278314964,
+      "direct_pool_distance_pp": 5.475640927831497
+    },
+    {
+      "seat": "BOX HILL",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 2.4775573075976416,
@@ -171,6 +191,16 @@
       "training_seats": 39,
       "reference_distance_pp": 22.193422597809782,
       "engine_distance_pp": 20.940804800105944,
+      "direct_pool_distance_pp": 11.824008403194917
+    },
+    {
+      "seat": "BOX HILL",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 22.193422597809782,
+      "engine_distance_pp": 15.759363108915746,
       "direct_pool_distance_pp": 11.824008403194917
     },
     {
@@ -257,6 +287,16 @@
       "seat": "BOX HILL",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 20.144872696604153,
+      "engine_distance_pp": 12.851822600093415,
+      "direct_pool_distance_pp": 9.635766912453873
+    },
+    {
+      "seat": "BOX HILL",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 20.144872696604153,
@@ -331,6 +371,16 @@
       "training_seats": 49,
       "reference_distance_pp": 15.462523011838142,
       "engine_distance_pp": 12.787190136861803,
+      "direct_pool_distance_pp": 5.6818160206416195
+    },
+    {
+      "seat": "BULLEEN",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 15.462523011838142,
+      "engine_distance_pp": 8.681816020641625,
       "direct_pool_distance_pp": 5.6818160206416195
     },
     {
@@ -417,6 +467,16 @@
       "seat": "BULLEEN",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 20.50983793649168,
+      "engine_distance_pp": 11.1723698733674,
+      "direct_pool_distance_pp": 10.169683744024242
+    },
+    {
+      "seat": "BULLEEN",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 20.50983793649168,
@@ -491,6 +551,16 @@
       "training_seats": 42,
       "reference_distance_pp": 17.678162542024445,
       "engine_distance_pp": 18.5992752965758,
+      "direct_pool_distance_pp": 6.866233306844892
+    },
+    {
+      "seat": "BULLEEN",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 17.678162542024445,
+      "engine_distance_pp": 10.383251584360716,
       "direct_pool_distance_pp": 6.866233306844892
     },
     {
@@ -577,6 +647,16 @@
       "seat": "GLEN WAVERLEY",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 4.373084874994023,
+      "engine_distance_pp": 0.8475515733453911,
+      "direct_pool_distance_pp": 3.8475515733453927
+    },
+    {
+      "seat": "GLEN WAVERLEY",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 4.373084874994023,
@@ -651,6 +731,16 @@
       "training_seats": 42,
       "reference_distance_pp": 11.66094153239606,
       "engine_distance_pp": 12.837816849374498,
+      "direct_pool_distance_pp": 1.0546564577339739
+    },
+    {
+      "seat": "GLEN WAVERLEY",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 11.66094153239606,
+      "engine_distance_pp": 4.512464358310789,
       "direct_pool_distance_pp": 1.0546564577339739
     },
     {
@@ -737,6 +827,16 @@
       "seat": "IVANHOE",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 1.1657631113146092,
+      "engine_distance_pp": 5.607251451963228,
+      "direct_pool_distance_pp": 8.607251451963226
+    },
+    {
+      "seat": "IVANHOE",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 1.1657631113146092,
@@ -811,6 +911,16 @@
       "training_seats": 39,
       "reference_distance_pp": 7.417311002792501,
       "engine_distance_pp": 7.452258552241889,
+      "direct_pool_distance_pp": 15.748871987976798
+    },
+    {
+      "seat": "IVANHOE",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 7.417311002792501,
+      "engine_distance_pp": 15.070180578354256,
       "direct_pool_distance_pp": 15.748871987976798
     },
     {
@@ -897,6 +1007,16 @@
       "seat": "IVANHOE",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 15.472671106615564,
+      "engine_distance_pp": 8.252066066708133,
+      "direct_pool_distance_pp": 4.700638148744986
+    },
+    {
+      "seat": "IVANHOE",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 15.472671106615564,
@@ -971,6 +1091,16 @@
       "training_seats": 49,
       "reference_distance_pp": 12.239252429109655,
       "engine_distance_pp": 10.03158834489177,
+      "direct_pool_distance_pp": 2.9123669834858106
+    },
+    {
+      "seat": "BUNDOORA",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 12.239252429109655,
+      "engine_distance_pp": 5.9123669834858115,
       "direct_pool_distance_pp": 2.9123669834858106
     },
     {
@@ -1057,6 +1187,16 @@
       "seat": "BUNDOORA",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 16.17224475997296,
+      "engine_distance_pp": 13.089254053274122,
+      "direct_pool_distance_pp": 9.826034040543815
+    },
+    {
+      "seat": "BUNDOORA",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 16.17224475997296,
@@ -1131,6 +1271,16 @@
       "training_seats": 42,
       "reference_distance_pp": 16.702985676201866,
       "engine_distance_pp": 17.67701794721282,
+      "direct_pool_distance_pp": 6.770979938258878
+    },
+    {
+      "seat": "BUNDOORA",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 16.702985676201866,
+      "engine_distance_pp": 9.443493584647829,
       "direct_pool_distance_pp": 6.770979938258878
     },
     {
@@ -1217,6 +1367,16 @@
       "seat": "BAYSWATER",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 13.471070279778225,
+      "engine_distance_pp": 5.563761492168859,
+      "direct_pool_distance_pp": 2.5637614921688536
+    },
+    {
+      "seat": "BAYSWATER",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 13.471070279778225,
@@ -1291,6 +1451,16 @@
       "training_seats": 39,
       "reference_distance_pp": 23.22818060516668,
       "engine_distance_pp": 20.01534547457072,
+      "direct_pool_distance_pp": 22.928716078599585
+    },
+    {
+      "seat": "BAYSWATER",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 23.22818060516668,
+      "engine_distance_pp": 21.579415644020482,
       "direct_pool_distance_pp": 22.928716078599585
     },
     {
@@ -1377,6 +1547,16 @@
       "seat": "BAYSWATER",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 20.206166103234086,
+      "engine_distance_pp": 10.087354965758227,
+      "direct_pool_distance_pp": 8.956000456858318
+    },
+    {
+      "seat": "BAYSWATER",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 20.206166103234086,
@@ -1451,6 +1631,16 @@
       "training_seats": 49,
       "reference_distance_pp": 11.407891968881687,
       "engine_distance_pp": 7.663371746672497,
+      "direct_pool_distance_pp": 0.5322497993458339
+    },
+    {
+      "seat": "CROYDON",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 11.407891968881687,
+      "engine_distance_pp": 3.532249799345835,
       "direct_pool_distance_pp": 0.5322497993458339
     },
     {
@@ -1537,6 +1727,16 @@
       "seat": "CROYDON",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 14.628671197854953,
+      "engine_distance_pp": 9.585078201687413,
+      "direct_pool_distance_pp": 8.673700667660283
+    },
+    {
+      "seat": "CROYDON",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 14.628671197854953,
@@ -1611,6 +1811,16 @@
       "training_seats": 49,
       "reference_distance_pp": 6.9761238125851746,
       "engine_distance_pp": 3.3218402382472796,
+      "direct_pool_distance_pp": 3.8310984503277523
+    },
+    {
+      "seat": "RINGWOOD",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 6.9761238125851746,
+      "engine_distance_pp": 0.8310984503277524,
       "direct_pool_distance_pp": 3.8310984503277523
     },
     {
@@ -1697,6 +1907,16 @@
       "seat": "RINGWOOD",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 16.081941607593414,
+      "engine_distance_pp": 9.598272950792303,
+      "direct_pool_distance_pp": 8.686899953121733
+    },
+    {
+      "seat": "RINGWOOD",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 16.081941607593414,
@@ -1771,6 +1991,16 @@
       "training_seats": 49,
       "reference_distance_pp": 8.773116893878404,
       "engine_distance_pp": 5.082255950573142,
+      "direct_pool_distance_pp": 2.0618364278896975
+    },
+    {
+      "seat": "WARRANDYTE",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 8.773116893878404,
+      "engine_distance_pp": 0.9381635721103038,
       "direct_pool_distance_pp": 2.0618364278896975
     },
     {
@@ -1857,6 +2087,16 @@
       "seat": "WARRANDYTE",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 7.060435773972855,
+      "engine_distance_pp": 8.627137074104205,
+      "direct_pool_distance_pp": 9.034622625355043
+    },
+    {
+      "seat": "WARRANDYTE",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 7.060435773972855,
@@ -1931,6 +2171,16 @@
       "training_seats": 42,
       "reference_distance_pp": 26.03883736921796,
       "engine_distance_pp": 26.03883736921796,
+      "direct_pool_distance_pp": 12.508102411735406
+    },
+    {
+      "seat": "WARRANDYTE",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 26.03883736921796,
+      "engine_distance_pp": 16.056847044924925,
       "direct_pool_distance_pp": 12.508102411735406
     },
     {
@@ -2017,6 +2267,16 @@
       "seat": "ELTHAM",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 2.3498006710512014,
+      "engine_distance_pp": 5.386336591627898,
+      "direct_pool_distance_pp": 8.386336591627902
+    },
+    {
+      "seat": "ELTHAM",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 2.3498006710512014,
@@ -2091,6 +2351,16 @@
       "training_seats": 42,
       "reference_distance_pp": 20.653708366706276,
       "engine_distance_pp": 20.653708366706276,
+      "direct_pool_distance_pp": 6.994756052021063
+    },
+    {
+      "seat": "ELTHAM",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 20.653708366706276,
+      "engine_distance_pp": 10.545395523001755,
       "direct_pool_distance_pp": 6.994756052021063
     },
     {
@@ -2177,6 +2447,16 @@
       "seat": "MILL PARK",
       "origin": "GRN",
       "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 8.09114472059647,
+      "engine_distance_pp": 5.642371170191379,
+      "direct_pool_distance_pp": 7.657322104344259
+    },
+    {
+      "seat": "MILL PARK",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 8.09114472059647,
@@ -2251,6 +2531,16 @@
       "training_seats": 14,
       "reference_distance_pp": 14.836553536005646,
       "engine_distance_pp": 14.836553536005646,
+      "direct_pool_distance_pp": 5.809022969641717
+    },
+    {
+      "seat": "MILL PARK",
+      "origin": "OTH",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 14.836553536005646,
+      "engine_distance_pp": 8.809022969641719,
       "direct_pool_distance_pp": 5.809022969641717
     },
     {
@@ -2337,6 +2627,16 @@
       "seat": "BRUNSWICK",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 20.66320845716373,
+      "engine_distance_pp": 32.76587937494032,
+      "direct_pool_distance_pp": 29.795493115261955
+    },
+    {
+      "seat": "BRUNSWICK",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 20.66320845716373,
@@ -2411,6 +2711,16 @@
       "training_seats": 6,
       "reference_distance_pp": 7.869866855247759,
       "engine_distance_pp": 5.533480421345777,
+      "direct_pool_distance_pp": 0.8610829590358915
+    },
+    {
+      "seat": "BRUNSWICK",
+      "origin": "LNP",
+      "field": "ALP+GRN",
+      "variant": "corrected_coverage",
+      "training_seats": 6,
+      "reference_distance_pp": 7.869866855247759,
+      "engine_distance_pp": 2.330965791017936,
       "direct_pool_distance_pp": 0.8610829590358915
     },
     {
@@ -2497,6 +2807,16 @@
       "seat": "BRUNSWICK",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 24.62318007880075,
+      "engine_distance_pp": 28.535923867941946,
+      "direct_pool_distance_pp": 33.709316365673644
+    },
+    {
+      "seat": "BRUNSWICK",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 24.62318007880075,
@@ -2571,6 +2891,16 @@
       "training_seats": 39,
       "reference_distance_pp": 43.32562097724815,
       "engine_distance_pp": 29.22247682515363,
+      "direct_pool_distance_pp": 26.468945529518816
+    },
+    {
+      "seat": "NORTHCOTE",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 43.32562097724815,
+      "engine_distance_pp": 23.382417079977387,
       "direct_pool_distance_pp": 26.468945529518816
     },
     {
@@ -2657,6 +2987,16 @@
       "seat": "NORTHCOTE",
       "origin": "LNP",
       "field": "ALP+GRN",
+      "variant": "corrected_coverage",
+      "training_seats": 6,
+      "reference_distance_pp": 2.3392475651049045,
+      "engine_distance_pp": 3.3096116038841967,
+      "direct_pool_distance_pp": 4.895976947775985
+    },
+    {
+      "seat": "NORTHCOTE",
+      "origin": "LNP",
+      "field": "ALP+GRN",
       "variant": "no_non_on_geography",
       "training_seats": 6,
       "reference_distance_pp": 2.3392475651049045,
@@ -2731,6 +3071,16 @@
       "training_seats": 42,
       "reference_distance_pp": 12.42257896516966,
       "engine_distance_pp": 15.017397484954802,
+      "direct_pool_distance_pp": 21.527625839565523
+    },
+    {
+      "seat": "NORTHCOTE",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 12.42257896516966,
+      "engine_distance_pp": 16.377624682720317,
       "direct_pool_distance_pp": 21.527625839565523
     },
     {
@@ -2817,6 +3167,16 @@
       "seat": "MELBOURNE",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 38.26465980266969,
+      "engine_distance_pp": 18.768149055274357,
+      "direct_pool_distance_pp": 21.845132937538768
+    },
+    {
+      "seat": "MELBOURNE",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 38.26465980266969,
@@ -2891,6 +3251,16 @@
       "training_seats": 6,
       "reference_distance_pp": 10.614036849028386,
       "engine_distance_pp": 8.244623056246564,
+      "direct_pool_distance_pp": 3.717590476815724
+    },
+    {
+      "seat": "MELBOURNE",
+      "origin": "LNP",
+      "field": "ALP+GRN",
+      "variant": "corrected_coverage",
+      "training_seats": 6,
+      "reference_distance_pp": 10.614036849028386,
+      "engine_distance_pp": 5.1296776324723625,
       "direct_pool_distance_pp": 3.717590476815724
     },
     {
@@ -2977,6 +3347,16 @@
       "seat": "MELBOURNE",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 16.86602279847041,
+      "engine_distance_pp": 20.816726103118306,
+      "direct_pool_distance_pp": 25.975267643200695
+    },
+    {
+      "seat": "MELBOURNE",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 16.86602279847041,
@@ -3051,6 +3431,16 @@
       "training_seats": 39,
       "reference_distance_pp": 37.512715057311944,
       "engine_distance_pp": 22.65334210385025,
+      "direct_pool_distance_pp": 9.841942395129873
+    },
+    {
+      "seat": "RICHMOND",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 37.512715057311944,
+      "engine_distance_pp": 17.368391200539996,
       "direct_pool_distance_pp": 9.841942395129873
     },
     {
@@ -3137,6 +3527,16 @@
       "seat": "RICHMOND",
       "origin": "LNP",
       "field": "ALP+GRN",
+      "variant": "corrected_coverage",
+      "training_seats": 6,
+      "reference_distance_pp": 10.491474315586528,
+      "engine_distance_pp": 5.005103512326653,
+      "direct_pool_distance_pp": 3.5904437997458545
+    },
+    {
+      "seat": "RICHMOND",
+      "origin": "LNP",
+      "field": "ALP+GRN",
       "variant": "no_non_on_geography",
       "training_seats": 6,
       "reference_distance_pp": 10.491474315586528,
@@ -3211,6 +3611,16 @@
       "training_seats": 42,
       "reference_distance_pp": 15.705650163227997,
       "engine_distance_pp": 18.25529850853368,
+      "direct_pool_distance_pp": 25.692498457138868
+    },
+    {
+      "seat": "RICHMOND",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 15.705650163227997,
+      "engine_distance_pp": 19.659371186523156,
       "direct_pool_distance_pp": 25.692498457138868
     },
     {
@@ -3297,6 +3707,16 @@
       "seat": "ESSENDON",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 4.005603313583361,
+      "engine_distance_pp": 1.4949401502266022,
+      "direct_pool_distance_pp": 4.494940150226605
+    },
+    {
+      "seat": "ESSENDON",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 4.005603313583361,
@@ -3371,6 +3791,16 @@
       "training_seats": 42,
       "reference_distance_pp": 13.830669974668819,
       "engine_distance_pp": 14.235074496446853,
+      "direct_pool_distance_pp": 16.9693656045415
+    },
+    {
+      "seat": "ESSENDON",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 13.830669974668819,
+      "engine_distance_pp": 16.049175010734718,
       "direct_pool_distance_pp": 16.9693656045415
     },
     {
@@ -3457,6 +3887,16 @@
       "seat": "PASCOE VALE",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 34.30940895089177,
+      "engine_distance_pp": 12.26434113430845,
+      "direct_pool_distance_pp": 12.932499816769171
+    },
+    {
+      "seat": "PASCOE VALE",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 34.30940895089177,
@@ -3531,6 +3971,16 @@
       "training_seats": 6,
       "reference_distance_pp": 15.764930007402464,
       "engine_distance_pp": 1.5903327799891898,
+      "direct_pool_distance_pp": 3.516839490523707
+    },
+    {
+      "seat": "PASCOE VALE",
+      "origin": "LNP",
+      "field": "ALP+GRN",
+      "variant": "corrected_coverage",
+      "training_seats": 6,
+      "reference_distance_pp": 15.764930007402464,
+      "engine_distance_pp": 2.1295561363079307,
       "direct_pool_distance_pp": 3.516839490523707
     },
     {
@@ -3617,6 +4067,16 @@
       "seat": "PASCOE VALE",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 13.34153484708906,
+      "engine_distance_pp": 15.544770999576038,
+      "direct_pool_distance_pp": 16.464788179214423
+    },
+    {
+      "seat": "PASCOE VALE",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 13.34153484708906,
@@ -3691,6 +4151,16 @@
       "training_seats": 12,
       "reference_distance_pp": 30.5085471440529,
       "engine_distance_pp": 26.622056678342698,
+      "direct_pool_distance_pp": 26.53051549374636
+    },
+    {
+      "seat": "PRESTON",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 30.5085471440529,
+      "engine_distance_pp": 25.53457687691384,
       "direct_pool_distance_pp": 26.53051549374636
     },
     {
@@ -3777,6 +4247,16 @@
       "seat": "PRESTON",
       "origin": "LNP",
       "field": "ALP+GRN",
+      "variant": "corrected_coverage",
+      "training_seats": 6,
+      "reference_distance_pp": 21.691288437784564,
+      "engine_distance_pp": 3.9451307448924835,
+      "direct_pool_distance_pp": 2.595448616213711
+    },
+    {
+      "seat": "PRESTON",
+      "origin": "LNP",
+      "field": "ALP+GRN",
       "variant": "no_non_on_geography",
       "training_seats": 6,
       "reference_distance_pp": 21.691288437784564,
@@ -3851,6 +4331,16 @@
       "training_seats": 21,
       "reference_distance_pp": 9.579980352251399,
       "engine_distance_pp": 8.922845934473452,
+      "direct_pool_distance_pp": 14.612832071988462
+    },
+    {
+      "seat": "PRESTON",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 9.579980352251399,
+      "engine_distance_pp": 13.206145768433524,
       "direct_pool_distance_pp": 14.612832071988462
     },
     {
@@ -3937,6 +4427,16 @@
       "seat": "BROADMEADOWS",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 12.858359625817528,
+      "engine_distance_pp": 4.960404997781147,
+      "direct_pool_distance_pp": 1.9604049977811455
+    },
+    {
+      "seat": "BROADMEADOWS",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 12.858359625817528,
@@ -4011,6 +4511,16 @@
       "training_seats": 39,
       "reference_distance_pp": 39.78647142897886,
       "engine_distance_pp": 35.32198611934075,
+      "direct_pool_distance_pp": 27.963653171738734
+    },
+    {
+      "seat": "BROADMEADOWS",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 39.78647142897886,
+      "engine_distance_pp": 28.626194633642164,
       "direct_pool_distance_pp": 27.963653171738734
     },
     {
@@ -4097,6 +4607,16 @@
       "seat": "BROADMEADOWS",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 5.782103908965189,
+      "engine_distance_pp": 7.946849344411215,
+      "direct_pool_distance_pp": 11.50384645172038
+    },
+    {
+      "seat": "BROADMEADOWS",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 5.782103908965189,
@@ -4171,6 +4691,16 @@
       "training_seats": 14,
       "reference_distance_pp": 31.268593514445193,
       "engine_distance_pp": 22.15162023605925,
+      "direct_pool_distance_pp": 18.468493933843906
+    },
+    {
+      "seat": "GREENVALE",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 31.268593514445193,
+      "engine_distance_pp": 18.468493933843906,
       "direct_pool_distance_pp": 18.468493933843906
     },
     {
@@ -4257,6 +4787,16 @@
       "seat": "GREENVALE",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 20.43162058819136,
+      "engine_distance_pp": 19.51556357493991,
+      "direct_pool_distance_pp": 16.254718692006946
+    },
+    {
+      "seat": "GREENVALE",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 20.43162058819136,
@@ -4331,6 +4871,16 @@
       "training_seats": 14,
       "reference_distance_pp": 7.660869384995131,
       "engine_distance_pp": 7.660869384995131,
+      "direct_pool_distance_pp": 1.879210049298119
+    },
+    {
+      "seat": "GREENVALE",
+      "origin": "OTH",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 7.660869384995131,
+      "engine_distance_pp": 1.1207899507018781,
       "direct_pool_distance_pp": 1.879210049298119
     },
     {
@@ -4417,6 +4967,16 @@
       "seat": "THOMASTOWN",
       "origin": "GRN",
       "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 32.6132198629048,
+      "engine_distance_pp": 19.851163127206746,
+      "direct_pool_distance_pp": 19.851163127206746
+    },
+    {
+      "seat": "THOMASTOWN",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 32.6132198629048,
@@ -4491,6 +5051,16 @@
       "training_seats": 14,
       "reference_distance_pp": 0.24503655941034708,
       "engine_distance_pp": 0.24503655941034708,
+      "direct_pool_distance_pp": 9.824745219567532
+    },
+    {
+      "seat": "THOMASTOWN",
+      "origin": "OTH",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 0.24503655941034708,
+      "engine_distance_pp": 6.824745219567532,
       "direct_pool_distance_pp": 9.824745219567532
     },
     {
@@ -4577,6 +5147,16 @@
       "seat": "KALKALLO",
       "origin": "GRN",
       "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 21.58912894446432,
+      "engine_distance_pp": 3.9702967013324626,
+      "direct_pool_distance_pp": 1.7202967013324646
+    },
+    {
+      "seat": "KALKALLO",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 21.58912894446432,
@@ -4651,6 +5231,16 @@
       "training_seats": 39,
       "reference_distance_pp": 32.16884089365008,
       "engine_distance_pp": 19.075745379532666,
+      "direct_pool_distance_pp": 13.03969002949855
+    },
+    {
+      "seat": "KALKALLO",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 32.16884089365008,
+      "engine_distance_pp": 13.005881004173029,
       "direct_pool_distance_pp": 13.03969002949855
     },
     {
@@ -4737,6 +5327,16 @@
       "seat": "KALKALLO",
       "origin": "OTH",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 1.6006614269098385,
+      "engine_distance_pp": 8.427278776339156,
+      "direct_pool_distance_pp": 6.1772787763391594
+    },
+    {
+      "seat": "KALKALLO",
+      "origin": "OTH",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 1.6006614269098385,
@@ -4811,6 +5411,16 @@
       "training_seats": 8,
       "reference_distance_pp": 14.061891448008563,
       "engine_distance_pp": 13.434295430743653,
+      "direct_pool_distance_pp": 18.723785033953373
+    },
+    {
+      "seat": "CLARINDA",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 8,
+      "reference_distance_pp": 14.061891448008563,
+      "engine_distance_pp": 19.654540210948664,
       "direct_pool_distance_pp": 18.723785033953373
     },
     {
@@ -4897,6 +5507,16 @@
       "seat": "CLARINDA",
       "origin": "IND",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 7,
+      "reference_distance_pp": 9.723501494111447,
+      "engine_distance_pp": 11.746837797535475,
+      "direct_pool_distance_pp": 8.746837797535473
+    },
+    {
+      "seat": "CLARINDA",
+      "origin": "IND",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 7,
       "reference_distance_pp": 9.723501494111447,
@@ -4971,6 +5591,16 @@
       "training_seats": 21,
       "reference_distance_pp": 17.4838509767534,
       "engine_distance_pp": 14.294275519049595,
+      "direct_pool_distance_pp": 21.26591287088102
+    },
+    {
+      "seat": "CLARINDA",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 17.4838509767534,
+      "engine_distance_pp": 18.141634812952784,
       "direct_pool_distance_pp": 21.26591287088102
     },
     {
@@ -5057,6 +5687,16 @@
       "seat": "MORDIALLOC",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 8.76972238466958,
+      "engine_distance_pp": 3.015405489677349,
+      "direct_pool_distance_pp": 0.015405489677347561
+    },
+    {
+      "seat": "MORDIALLOC",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 8.76972238466958,
@@ -5131,6 +5771,16 @@
       "training_seats": 12,
       "reference_distance_pp": 23.939300393649777,
       "engine_distance_pp": 21.773808368416457,
+      "direct_pool_distance_pp": 16.968532740995084
+    },
+    {
+      "seat": "MORDIALLOC",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 23.939300393649777,
+      "engine_distance_pp": 20.52073511018953,
       "direct_pool_distance_pp": 16.968532740995084
     },
     {
@@ -5217,6 +5867,16 @@
       "seat": "MORDIALLOC",
       "origin": "OTH",
       "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 14.54063231936077,
+      "engine_distance_pp": 12.469929162492745,
+      "direct_pool_distance_pp": 13.61280940464682
+    },
+    {
+      "seat": "MORDIALLOC",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 21,
       "reference_distance_pp": 14.54063231936077,
@@ -5291,6 +5951,16 @@
       "training_seats": 8,
       "reference_distance_pp": 19.66578243130483,
       "engine_distance_pp": 14.024441421033861,
+      "direct_pool_distance_pp": 19.33156221786555
+    },
+    {
+      "seat": "MULGRAVE",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 8,
+      "reference_distance_pp": 19.66578243130483,
+      "engine_distance_pp": 20.26131940276903,
       "direct_pool_distance_pp": 19.33156221786555
     },
     {
@@ -5377,6 +6047,16 @@
       "seat": "MULGRAVE",
       "origin": "OTH",
       "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 16.277141324337173,
+      "engine_distance_pp": 5.572030853734322,
+      "direct_pool_distance_pp": 6.075017373443503
+    },
+    {
+      "seat": "MULGRAVE",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 21,
       "reference_distance_pp": 16.277141324337173,
@@ -5451,6 +6131,16 @@
       "training_seats": 8,
       "reference_distance_pp": 15.501213076351197,
       "engine_distance_pp": 12.814132177351736,
+      "direct_pool_distance_pp": 18.697787233303256
+    },
+    {
+      "seat": "ROWVILLE",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 8,
+      "reference_distance_pp": 15.501213076351197,
+      "engine_distance_pp": 19.016897722680984,
       "direct_pool_distance_pp": 18.697787233303256
     },
     {
@@ -5537,6 +6227,16 @@
       "seat": "ROWVILLE",
       "origin": "IND",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 7,
+      "reference_distance_pp": 12.56135321100918,
+      "engine_distance_pp": 14.990096902561456,
+      "direct_pool_distance_pp": 11.99009690256145
+    },
+    {
+      "seat": "ROWVILLE",
+      "origin": "IND",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 7,
       "reference_distance_pp": 12.56135321100918,
@@ -5611,6 +6311,16 @@
       "training_seats": 21,
       "reference_distance_pp": 16.726362876941458,
       "engine_distance_pp": 16.162621359223298,
+      "direct_pool_distance_pp": 5.454426042106958
+    },
+    {
+      "seat": "ROWVILLE",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 16.726362876941458,
+      "engine_distance_pp": 6.924963760456911,
       "direct_pool_distance_pp": 5.454426042106958
     },
     {
@@ -5697,6 +6407,16 @@
       "seat": "CRANBOURNE",
       "origin": "GRN",
       "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 17.842945349186675,
+      "engine_distance_pp": 4.665086502681121,
+      "direct_pool_distance_pp": 4.665086502681119
+    },
+    {
+      "seat": "CRANBOURNE",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 17.842945349186675,
@@ -5771,6 +6491,16 @@
       "training_seats": 39,
       "reference_distance_pp": 19.486664311552897,
       "engine_distance_pp": 19.216029072782593,
+      "direct_pool_distance_pp": 12.308696951014216
+    },
+    {
+      "seat": "CRANBOURNE",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 19.486664311552897,
+      "engine_distance_pp": 15.570999723752967,
       "direct_pool_distance_pp": 12.308696951014216
     },
     {
@@ -5857,6 +6587,16 @@
       "seat": "CRANBOURNE",
       "origin": "OTH",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 9.371237944322012,
+      "engine_distance_pp": 2.9533276928378207,
+      "direct_pool_distance_pp": 0.04667230716217663
+    },
+    {
+      "seat": "CRANBOURNE",
+      "origin": "OTH",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 9.371237944322012,
@@ -5931,6 +6671,16 @@
       "training_seats": 14,
       "reference_distance_pp": 10.905369342305384,
       "engine_distance_pp": 4.4907270688624354,
+      "direct_pool_distance_pp": 4.764131138680767
+    },
+    {
+      "seat": "DANDENONG",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 10.905369342305384,
+      "engine_distance_pp": 2.9019751297582053,
       "direct_pool_distance_pp": 4.764131138680767
     },
     {
@@ -6017,6 +6767,16 @@
       "seat": "DANDENONG",
       "origin": "OTH",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 5.380604139192285,
+      "engine_distance_pp": 1.3223513840868784,
+      "direct_pool_distance_pp": 4.322351384086881
+    },
+    {
+      "seat": "DANDENONG",
+      "origin": "OTH",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 5.380604139192285,
@@ -6091,6 +6851,16 @@
       "training_seats": 14,
       "reference_distance_pp": 12.430876883009228,
       "engine_distance_pp": 6.661661038742427,
+      "direct_pool_distance_pp": 4.529105890761341
+    },
+    {
+      "seat": "NARRE WARREN NORTH",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 12.430876883009228,
+      "engine_distance_pp": 4.52910589076134,
       "direct_pool_distance_pp": 4.529105890761341
     },
     {
@@ -6177,6 +6947,16 @@
       "seat": "NARRE WARREN NORTH",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 20.759696744764884,
+      "engine_distance_pp": 15.709421936073426,
+      "direct_pool_distance_pp": 11.774048772360905
+    },
+    {
+      "seat": "NARRE WARREN NORTH",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 20.759696744764884,
@@ -6251,6 +7031,16 @@
       "training_seats": 14,
       "reference_distance_pp": 14.251810305629942,
       "engine_distance_pp": 14.251810305629942,
+      "direct_pool_distance_pp": 5.182512365667746
+    },
+    {
+      "seat": "NARRE WARREN NORTH",
+      "origin": "OTH",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 14.251810305629942,
+      "engine_distance_pp": 8.18251236566775,
       "direct_pool_distance_pp": 5.182512365667746
     },
     {
@@ -6337,6 +7127,16 @@
       "seat": "NARRE WARREN SOUTH",
       "origin": "GRN",
       "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 13.811153971310558,
+      "engine_distance_pp": 1.2236742596065053,
+      "direct_pool_distance_pp": 1.8923460503077902
+    },
+    {
+      "seat": "NARRE WARREN SOUTH",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 13.811153971310558,
@@ -6411,6 +7211,16 @@
       "training_seats": 39,
       "reference_distance_pp": 31.440857098556407,
       "engine_distance_pp": 27.202979880838384,
+      "direct_pool_distance_pp": 19.7913052534743
+    },
+    {
+      "seat": "NARRE WARREN SOUTH",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 31.440857098556407,
+      "engine_distance_pp": 20.456866055741624,
       "direct_pool_distance_pp": 19.7913052534743
     },
     {
@@ -6497,6 +7307,16 @@
       "seat": "NARRE WARREN SOUTH",
       "origin": "OTH",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 18.20496451849387,
+      "engine_distance_pp": 12.418034736593386,
+      "direct_pool_distance_pp": 9.418034736593386
+    },
+    {
+      "seat": "NARRE WARREN SOUTH",
+      "origin": "OTH",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 18.20496451849387,
@@ -6571,6 +7391,16 @@
       "training_seats": 49,
       "reference_distance_pp": 9.097968967026592,
       "engine_distance_pp": 5.400428910219891,
+      "direct_pool_distance_pp": 1.7420646091492435
+    },
+    {
+      "seat": "FRANKSTON",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 9.097968967026592,
+      "engine_distance_pp": 1.2579353908507591,
       "direct_pool_distance_pp": 1.7420646091492435
     },
     {
@@ -6657,6 +7487,16 @@
       "seat": "FRANKSTON",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 43.117234193956286,
+      "engine_distance_pp": 32.19317210549198,
+      "direct_pool_distance_pp": 31.53194897947811
+    },
+    {
+      "seat": "FRANKSTON",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 43.117234193956286,
@@ -6731,6 +7571,16 @@
       "training_seats": 42,
       "reference_distance_pp": 22.349099714331036,
       "engine_distance_pp": 22.349099714331036,
+      "direct_pool_distance_pp": 8.730513860303555
+    },
+    {
+      "seat": "FRANKSTON",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 22.349099714331036,
+      "engine_distance_pp": 12.280556782604572,
       "direct_pool_distance_pp": 8.730513860303555
     },
     {
@@ -6817,6 +7667,16 @@
       "seat": "BERWICK",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 17.47944058082832,
+      "engine_distance_pp": 11.256740507483196,
+      "direct_pool_distance_pp": 13.506740507483194
+    },
+    {
+      "seat": "BERWICK",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 17.47944058082832,
@@ -6891,6 +7751,16 @@
       "training_seats": 42,
       "reference_distance_pp": 19.368475908725483,
       "engine_distance_pp": 19.368475908725483,
+      "direct_pool_distance_pp": 12.748847969974081
+    },
+    {
+      "seat": "BERWICK",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 19.368475908725483,
+      "engine_distance_pp": 8.84783025132818,
       "direct_pool_distance_pp": 12.748847969974081
     },
     {
@@ -6977,6 +7847,16 @@
       "seat": "CARRUM",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 19.414132004430485,
+      "engine_distance_pp": 13.142704325343285,
+      "direct_pool_distance_pp": 15.392704325343287
+    },
+    {
+      "seat": "CARRUM",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 19.414132004430485,
@@ -7051,6 +7931,16 @@
       "training_seats": 39,
       "reference_distance_pp": 55.027071840811445,
       "engine_distance_pp": 40.43049547246946,
+      "direct_pool_distance_pp": 30.25068781029438
+    },
+    {
+      "seat": "CARRUM",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 55.027071840811445,
+      "engine_distance_pp": 28.50621522369042,
       "direct_pool_distance_pp": 30.25068781029438
     },
     {
@@ -7137,6 +8027,16 @@
       "seat": "CARRUM",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 12.350362097044169,
+      "engine_distance_pp": 7.571685500085408,
+      "direct_pool_distance_pp": 5.156431832907963
+    },
+    {
+      "seat": "CARRUM",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 12.350362097044169,
@@ -7211,6 +8111,16 @@
       "training_seats": 49,
       "reference_distance_pp": 10.170042702172518,
       "engine_distance_pp": 4.509032838646367,
+      "direct_pool_distance_pp": 7.160553123293489
+    },
+    {
+      "seat": "ALBERT PARK",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 10.170042702172518,
+      "engine_distance_pp": 0.33944687670651313,
       "direct_pool_distance_pp": 7.160553123293489
     },
     {
@@ -7297,6 +8207,16 @@
       "seat": "ALBERT PARK",
       "origin": "IND",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 11.762844916275055,
+      "engine_distance_pp": 2.846617217824518,
+      "direct_pool_distance_pp": 13.25224399803886
+    },
+    {
+      "seat": "ALBERT PARK",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 12,
       "reference_distance_pp": 11.762844916275055,
@@ -7371,6 +8291,16 @@
       "training_seats": 21,
       "reference_distance_pp": 23.711139511799363,
       "engine_distance_pp": 22.63836581783336,
+      "direct_pool_distance_pp": 10.065533547233366
+    },
+    {
+      "seat": "ALBERT PARK",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 23.711139511799363,
+      "engine_distance_pp": 17.091203830840932,
       "direct_pool_distance_pp": 10.065533547233366
     },
     {
@@ -7457,6 +8387,16 @@
       "seat": "BRIGHTON",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 17.696465154775023,
+      "engine_distance_pp": 7.274185653874925,
+      "direct_pool_distance_pp": 0.22581434612507778
+    },
+    {
+      "seat": "BRIGHTON",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 17.696465154775023,
@@ -7531,6 +8471,16 @@
       "training_seats": 12,
       "reference_distance_pp": 10.648279619489793,
       "engine_distance_pp": 2.6882781692447817,
+      "direct_pool_distance_pp": 13.942958542802863
+    },
+    {
+      "seat": "BRIGHTON",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 10.648279619489793,
+      "engine_distance_pp": 3.5329447259598137,
       "direct_pool_distance_pp": 13.942958542802863
     },
     {
@@ -7617,6 +8567,16 @@
       "seat": "BRIGHTON",
       "origin": "OTH",
       "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 12.357275432129494,
+      "engine_distance_pp": 13.261357396370737,
+      "direct_pool_distance_pp": 16.51488838972685
+    },
+    {
+      "seat": "BRIGHTON",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 21,
       "reference_distance_pp": 12.357275432129494,
@@ -7691,6 +8651,16 @@
       "training_seats": 49,
       "reference_distance_pp": 11.574390141901226,
       "engine_distance_pp": 5.797778356762022,
+      "direct_pool_distance_pp": 5.865331497046605
+    },
+    {
+      "seat": "CAULFIELD",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 11.574390141901226,
+      "engine_distance_pp": 1.6346685029533932,
       "direct_pool_distance_pp": 5.865331497046605
     },
     {
@@ -7777,6 +8747,16 @@
       "seat": "CAULFIELD",
       "origin": "IND",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 13.987786937403346,
+      "engine_distance_pp": 11.651532227472694,
+      "direct_pool_distance_pp": 22.11344042465212
+    },
+    {
+      "seat": "CAULFIELD",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 12,
       "reference_distance_pp": 13.987786937403346,
@@ -7851,6 +8831,16 @@
       "training_seats": 21,
       "reference_distance_pp": 29.034188735784394,
       "engine_distance_pp": 28.086767379666554,
+      "direct_pool_distance_pp": 13.696171356562136
+    },
+    {
+      "seat": "CAULFIELD",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 29.034188735784394,
+      "engine_distance_pp": 22.68026012113946,
       "direct_pool_distance_pp": 13.696171356562136
     },
     {
@@ -7937,6 +8927,16 @@
       "seat": "PRAHRAN",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 20.30626935854336,
+      "engine_distance_pp": 4.61980040041658,
+      "direct_pool_distance_pp": 11.64521260564939
+    },
+    {
+      "seat": "PRAHRAN",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 20.30626935854336,
@@ -8011,6 +9011,16 @@
       "training_seats": 42,
       "reference_distance_pp": 16.794937546624965,
       "engine_distance_pp": 16.34693179094993,
+      "direct_pool_distance_pp": 9.385026248361832
+    },
+    {
+      "seat": "PRAHRAN",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 16.794937546624965,
+      "engine_distance_pp": 11.529600571769192,
       "direct_pool_distance_pp": 9.385026248361832
     },
     {
@@ -8097,6 +9107,16 @@
       "seat": "HAWTHORN",
       "origin": "GRN",
       "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 8,
+      "reference_distance_pp": 43.68070469272748,
+      "engine_distance_pp": 19.522388515676813,
+      "direct_pool_distance_pp": 21.095895308063735
+    },
+    {
+      "seat": "HAWTHORN",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 8,
       "reference_distance_pp": 43.68070469272748,
@@ -8171,6 +9191,16 @@
       "training_seats": 7,
       "reference_distance_pp": 18.955465251285457,
       "engine_distance_pp": 20.865515626205745,
+      "direct_pool_distance_pp": 29.17198134006098
+    },
+    {
+      "seat": "HAWTHORN",
+      "origin": "IND",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 7,
+      "reference_distance_pp": 18.955465251285457,
+      "engine_distance_pp": 21.671981340060984,
       "direct_pool_distance_pp": 29.17198134006098
     },
     {
@@ -8257,6 +9287,16 @@
       "seat": "HAWTHORN",
       "origin": "OTH",
       "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 28.766213853319307,
+      "engine_distance_pp": 22.449959301332445,
+      "direct_pool_distance_pp": 16.875716275840254
+    },
+    {
+      "seat": "HAWTHORN",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 21,
       "reference_distance_pp": 28.766213853319307,
@@ -8331,6 +9371,16 @@
       "training_seats": 8,
       "reference_distance_pp": 39.61442653102631,
       "engine_distance_pp": 22.844510744600292,
+      "direct_pool_distance_pp": 14.621963271588726
+    },
+    {
+      "seat": "KEW",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 8,
+      "reference_distance_pp": 39.61442653102631,
+      "engine_distance_pp": 15.372706161884556,
       "direct_pool_distance_pp": 14.621963271588726
     },
     {
@@ -8417,6 +9467,16 @@
       "seat": "KEW",
       "origin": "IND",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 7,
+      "reference_distance_pp": 15.545070176968009,
+      "engine_distance_pp": 17.774386969412472,
+      "direct_pool_distance_pp": 25.274386969412475
+    },
+    {
+      "seat": "KEW",
+      "origin": "IND",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 7,
       "reference_distance_pp": 15.545070176968009,
@@ -8491,6 +9551,16 @@
       "training_seats": 21,
       "reference_distance_pp": 31.28261379169728,
       "engine_distance_pp": 27.403911791672837,
+      "direct_pool_distance_pp": 11.651460443202865
+    },
+    {
+      "seat": "KEW",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 31.28261379169728,
+      "engine_distance_pp": 21.97977608446768,
       "direct_pool_distance_pp": 11.651460443202865
     },
     {
@@ -8577,6 +9647,16 @@
       "seat": "MALVERN",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 12.969001151212986,
+      "engine_distance_pp": 2.919558508902681,
+      "direct_pool_distance_pp": 4.580441491097323
+    },
+    {
+      "seat": "MALVERN",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 12.969001151212986,
@@ -8651,6 +9731,16 @@
       "training_seats": 39,
       "reference_distance_pp": 26.868016801549555,
       "engine_distance_pp": 23.875904330139047,
+      "direct_pool_distance_pp": 22.98671644808153
+    },
+    {
+      "seat": "MALVERN",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 26.868016801549555,
+      "engine_distance_pp": 26.271908698026813,
       "direct_pool_distance_pp": 22.98671644808153
     },
     {
@@ -8737,6 +9827,16 @@
       "seat": "MALVERN",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 16.244154430347045,
+      "engine_distance_pp": 7.074009214718316,
+      "direct_pool_distance_pp": 3.15042057324814
+    },
+    {
+      "seat": "MALVERN",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 16.244154430347045,
@@ -8811,6 +9911,16 @@
       "training_seats": 49,
       "reference_distance_pp": 4.211978600038297,
       "engine_distance_pp": 2.8558841808829714,
+      "direct_pool_distance_pp": 4.2993959954175045
+    },
+    {
+      "seat": "BENTLEIGH",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 4.211978600038297,
+      "engine_distance_pp": 1.299395995417503,
       "direct_pool_distance_pp": 4.2993959954175045
     },
     {
@@ -8897,6 +10007,16 @@
       "seat": "BENTLEIGH",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 14.664735307819644,
+      "engine_distance_pp": 12.2228310974458,
+      "direct_pool_distance_pp": 15.648345454463817
+    },
+    {
+      "seat": "BENTLEIGH",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 14.664735307819644,
@@ -8971,6 +10091,16 @@
       "training_seats": 42,
       "reference_distance_pp": 19.28545623287762,
       "engine_distance_pp": 17.591911688146254,
+      "direct_pool_distance_pp": 5.80572423912098
+    },
+    {
+      "seat": "BENTLEIGH",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 19.28545623287762,
+      "engine_distance_pp": 9.356772358908946,
       "direct_pool_distance_pp": 5.80572423912098
     },
     {
@@ -9057,6 +10187,16 @@
       "seat": "SANDRINGHAM",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 4.8601041907534155,
+      "engine_distance_pp": 0.6856791137521273,
+      "direct_pool_distance_pp": 3.6856791137521285
+    },
+    {
+      "seat": "SANDRINGHAM",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 4.8601041907534155,
@@ -9131,6 +10271,16 @@
       "training_seats": 12,
       "reference_distance_pp": 7.528196027927056,
       "engine_distance_pp": 1.472455160739619,
+      "direct_pool_distance_pp": 6.3027929349191965
+    },
+    {
+      "seat": "SANDRINGHAM",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 7.528196027927056,
+      "engine_distance_pp": 2.8719781368965,
       "direct_pool_distance_pp": 6.3027929349191965
     },
     {
@@ -9217,6 +10367,16 @@
       "seat": "SANDRINGHAM",
       "origin": "OTH",
       "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 11.062107427780019,
+      "engine_distance_pp": 8.507186765995693,
+      "direct_pool_distance_pp": 9.161289545471227
+    },
+    {
+      "seat": "SANDRINGHAM",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 21,
       "reference_distance_pp": 11.062107427780019,
@@ -9291,6 +10451,16 @@
       "training_seats": 49,
       "reference_distance_pp": 1.4170289291614209,
       "engine_distance_pp": 0.2227126583771999,
+      "direct_pool_distance_pp": 6.945799535624311
+    },
+    {
+      "seat": "ASHWOOD",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 1.4170289291614209,
+      "engine_distance_pp": 3.9457995356243085,
       "direct_pool_distance_pp": 6.945799535624311
     },
     {
@@ -9377,6 +10547,16 @@
       "seat": "ASHWOOD",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 27.376089858120956,
+      "engine_distance_pp": 32.65539512458456,
+      "direct_pool_distance_pp": 29.39940665346001
+    },
+    {
+      "seat": "ASHWOOD",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 27.376089858120956,
@@ -9451,6 +10631,16 @@
       "training_seats": 42,
       "reference_distance_pp": 19.564843194671276,
       "engine_distance_pp": 17.866888639535343,
+      "direct_pool_distance_pp": 6.08601545283913
+    },
+    {
+      "seat": "ASHWOOD",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 19.564843194671276,
+      "engine_distance_pp": 9.636967241587902,
       "direct_pool_distance_pp": 6.08601545283913
     },
     {
@@ -9537,6 +10727,16 @@
       "seat": "OAKLEIGH",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 1.0391290862495044,
+      "engine_distance_pp": 4.315533032921151,
+      "direct_pool_distance_pp": 7.315533032921158
+    },
+    {
+      "seat": "OAKLEIGH",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 1.0391290862495044,
@@ -9611,6 +10811,16 @@
       "training_seats": 12,
       "reference_distance_pp": 20.355457521938796,
       "engine_distance_pp": 17.947593133990534,
+      "direct_pool_distance_pp": 14.329573955154043
+    },
+    {
+      "seat": "OAKLEIGH",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 20.355457521938796,
+      "engine_distance_pp": 16.613457956436655,
       "direct_pool_distance_pp": 14.329573955154043
     },
     {
@@ -9697,6 +10907,16 @@
       "seat": "OAKLEIGH",
       "origin": "OTH",
       "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 11.610195515131132,
+      "engine_distance_pp": 10.34991356848239,
+      "direct_pool_distance_pp": 11.752813439602571
+    },
+    {
+      "seat": "OAKLEIGH",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 21,
       "reference_distance_pp": 11.610195515131132,
@@ -9771,6 +10991,16 @@
       "training_seats": 6,
       "reference_distance_pp": 4.782554259097388,
       "engine_distance_pp": 2.4841459561689705,
+      "direct_pool_distance_pp": 2.351749413511506
+    },
+    {
+      "seat": "FOOTSCRAY",
+      "origin": "LNP",
+      "field": "ALP+GRN",
+      "variant": "corrected_coverage",
+      "training_seats": 6,
+      "reference_distance_pp": 4.782554259097388,
+      "engine_distance_pp": 0.8168613894423638,
       "direct_pool_distance_pp": 2.351749413511506
     },
     {
@@ -9857,6 +11087,16 @@
       "seat": "FOOTSCRAY",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 13.925709327938446,
+      "engine_distance_pp": 17.875711203923785,
+      "direct_pool_distance_pp": 23.02859452808212
+    },
+    {
+      "seat": "FOOTSCRAY",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 13.925709327938446,
@@ -9931,6 +11171,16 @@
       "training_seats": 49,
       "reference_distance_pp": 7.820721576340205,
       "engine_distance_pp": 2.3536464444829055,
+      "direct_pool_distance_pp": 9.326770604864807
+    },
+    {
+      "seat": "WILLIAMSTOWN",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 7.820721576340205,
+      "engine_distance_pp": 1.8267706048648038,
       "direct_pool_distance_pp": 9.326770604864807
     },
     {
@@ -10017,6 +11267,16 @@
       "seat": "WILLIAMSTOWN",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 15.543608510101958,
+      "engine_distance_pp": 6.333897200601562,
+      "direct_pool_distance_pp": 3.8919564882043707
+    },
+    {
+      "seat": "WILLIAMSTOWN",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 15.543608510101958,
@@ -10091,6 +11351,16 @@
       "training_seats": 49,
       "reference_distance_pp": 4.26890688190541,
       "engine_distance_pp": 2.9095261312740415,
+      "direct_pool_distance_pp": 4.245484487486784
+    },
+    {
+      "seat": "LAVERTON",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 4.26890688190541,
+      "engine_distance_pp": 1.245484487486781,
       "direct_pool_distance_pp": 4.245484487486784
     },
     {
@@ -10177,6 +11447,16 @@
       "seat": "LAVERTON",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 52.410402659275505,
+      "engine_distance_pp": 23.882705399251076,
+      "direct_pool_distance_pp": 23.333235628449838
+    },
+    {
+      "seat": "LAVERTON",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 52.410402659275505,
@@ -10251,6 +11531,16 @@
       "training_seats": 42,
       "reference_distance_pp": 6.607915314111235,
       "engine_distance_pp": 7.004509388197547,
+      "direct_pool_distance_pp": 15.945358724741087
+    },
+    {
+      "seat": "LAVERTON",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 6.607915314111235,
+      "engine_distance_pp": 12.386835149701477,
       "direct_pool_distance_pp": 15.945358724741087
     },
     {
@@ -10337,6 +11627,16 @@
       "seat": "NIDDRIE",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 14.434454527832427,
+      "engine_distance_pp": 8.378722565678814,
+      "direct_pool_distance_pp": 5.378722565678813
+    },
+    {
+      "seat": "NIDDRIE",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 14.434454527832427,
@@ -10411,6 +11711,16 @@
       "training_seats": 42,
       "reference_distance_pp": 14.803058806226502,
       "engine_distance_pp": 13.715659766095703,
+      "direct_pool_distance_pp": 11.521550420183665
+    },
+    {
+      "seat": "NIDDRIE",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 14.803058806226502,
+      "engine_distance_pp": 12.43194919957022,
       "direct_pool_distance_pp": 11.521550420183665
     },
     {
@@ -10497,6 +11807,16 @@
       "seat": "ST ALBANS",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 14.348333728080565,
+      "engine_distance_pp": 8.29752991955651,
+      "direct_pool_distance_pp": 5.2975299195565055
+    },
+    {
+      "seat": "ST ALBANS",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 14.348333728080565,
@@ -10571,6 +11891,16 @@
       "training_seats": 39,
       "reference_distance_pp": 15.302669747682057,
       "engine_distance_pp": 20.311109941967533,
+      "direct_pool_distance_pp": 22.22558739516191
+    },
+    {
+      "seat": "ST ALBANS",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 15.302669747682057,
+      "engine_distance_pp": 24.268699755965294,
       "direct_pool_distance_pp": 22.22558739516191
     },
     {
@@ -10657,6 +11987,16 @@
       "seat": "ST ALBANS",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 16.07545442608054,
+      "engine_distance_pp": 10.431072167390983,
+      "direct_pool_distance_pp": 9.519985486205602
+    },
+    {
+      "seat": "ST ALBANS",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 16.07545442608054,
@@ -10731,6 +12071,16 @@
       "training_seats": 14,
       "reference_distance_pp": 31.057765442235187,
       "engine_distance_pp": 24.864861557325753,
+      "direct_pool_distance_pp": 15.955327663146331
+    },
+    {
+      "seat": "KOROROIT",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 31.057765442235187,
+      "engine_distance_pp": 18.95532766314633,
       "direct_pool_distance_pp": 15.955327663146331
     },
     {
@@ -10817,6 +12167,16 @@
       "seat": "KOROROIT",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 24.657807176463603,
+      "engine_distance_pp": 18.492491641765398,
+      "direct_pool_distance_pp": 20.55140831132733
+    },
+    {
+      "seat": "KOROROIT",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 24.657807176463603,
@@ -10891,6 +12251,16 @@
       "training_seats": 14,
       "reference_distance_pp": 11.395534200964018,
       "engine_distance_pp": 11.395534200964018,
+      "direct_pool_distance_pp": 22.29678531996864
+    },
+    {
+      "seat": "KOROROIT",
+      "origin": "OTH",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 11.395534200964018,
+      "engine_distance_pp": 19.29678531996864,
       "direct_pool_distance_pp": 22.29678531996864
     },
     {
@@ -10977,6 +12347,16 @@
       "seat": "POINT COOK",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 32.76156646209715,
+      "engine_distance_pp": 24.557838504619383,
+      "direct_pool_distance_pp": 21.55783850461938
+    },
+    {
+      "seat": "POINT COOK",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 32.76156646209715,
@@ -11051,6 +12431,16 @@
       "training_seats": 12,
       "reference_distance_pp": 11.749191536256529,
       "engine_distance_pp": 3.524817367002611,
+      "direct_pool_distance_pp": 5.993985730673615
+    },
+    {
+      "seat": "POINT COOK",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 11.749191536256529,
+      "engine_distance_pp": 2.4156797027391126,
       "direct_pool_distance_pp": 5.993985730673615
     },
     {
@@ -11137,6 +12527,16 @@
       "seat": "POINT COOK",
       "origin": "OTH",
       "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 9.57355914644591,
+      "engine_distance_pp": 15.409830340983369,
+      "direct_pool_distance_pp": 18.62919008141947
+    },
+    {
+      "seat": "POINT COOK",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 21,
       "reference_distance_pp": 9.57355914644591,
@@ -11211,6 +12611,16 @@
       "training_seats": 14,
       "reference_distance_pp": 17.427213791370832,
       "engine_distance_pp": 11.084566041849879,
+      "direct_pool_distance_pp": 3.4763421622861337
+    },
+    {
+      "seat": "SYDENHAM",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 17.427213791370832,
+      "engine_distance_pp": 6.476342162286135,
       "direct_pool_distance_pp": 3.4763421622861337
     },
     {
@@ -11297,6 +12707,16 @@
       "seat": "SYDENHAM",
       "origin": "OTH",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 0.7493839013392845,
+      "engine_distance_pp": 6.284373067500814,
+      "direct_pool_distance_pp": 9.284373067500814
+    },
+    {
+      "seat": "SYDENHAM",
+      "origin": "OTH",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 0.7493839013392845,
@@ -11371,6 +12791,16 @@
       "training_seats": 49,
       "reference_distance_pp": 15.572164470371701,
       "engine_distance_pp": 11.74341110627357,
+      "direct_pool_distance_pp": 4.632791869296661
+    },
+    {
+      "seat": "TARNEIT",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 15.572164470371701,
+      "engine_distance_pp": 7.632791869296662,
       "direct_pool_distance_pp": 4.632791869296661
     },
     {
@@ -11457,6 +12887,16 @@
       "seat": "TARNEIT",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 26.076841769253235,
+      "engine_distance_pp": 15.847628200623918,
+      "direct_pool_distance_pp": 17.905567342734397
+    },
+    {
+      "seat": "TARNEIT",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 26.076841769253235,
@@ -11531,6 +12971,16 @@
       "training_seats": 42,
       "reference_distance_pp": 10.066867317429097,
       "engine_distance_pp": 10.066867317429097,
+      "direct_pool_distance_pp": 7.40770436711565
+    },
+    {
+      "seat": "TARNEIT",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 10.066867317429097,
+      "engine_distance_pp": 4.766473558670007,
       "direct_pool_distance_pp": 7.40770436711565
     },
     {
@@ -11617,6 +13067,16 @@
       "seat": "SUNBURY",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 8.490884418909282,
+      "engine_distance_pp": 2.493050912116321,
+      "direct_pool_distance_pp": 4.7430509121163205
+    },
+    {
+      "seat": "SUNBURY",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 8.490884418909282,
@@ -11691,6 +13151,16 @@
       "training_seats": 39,
       "reference_distance_pp": 18.965213177771734,
       "engine_distance_pp": 17.85486119591599,
+      "direct_pool_distance_pp": 24.93512648756577
+    },
+    {
+      "seat": "SUNBURY",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 18.965213177771734,
+      "engine_distance_pp": 21.801354011582337,
       "direct_pool_distance_pp": 24.93512648756577
     },
     {
@@ -11777,6 +13247,16 @@
       "seat": "SUNBURY",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 8.305267817448318,
+      "engine_distance_pp": 4.16942199474596,
+      "direct_pool_distance_pp": 4.087249960301658
+    },
+    {
+      "seat": "SUNBURY",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 8.305267817448318,
@@ -11851,6 +13331,16 @@
       "training_seats": 49,
       "reference_distance_pp": 11.557123509705113,
       "engine_distance_pp": 9.577539919089027,
+      "direct_pool_distance_pp": 7.73241881684988
+    },
+    {
+      "seat": "WERRIBEE",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 11.557123509705113,
+      "engine_distance_pp": 5.482418816849885,
       "direct_pool_distance_pp": 7.73241881684988
     },
     {
@@ -11937,6 +13427,16 @@
       "seat": "WERRIBEE",
       "origin": "IND",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 18.948809401834172,
+      "engine_distance_pp": 14.933277011543517,
+      "direct_pool_distance_pp": 18.83802583573923
+    },
+    {
+      "seat": "WERRIBEE",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 12,
       "reference_distance_pp": 18.948809401834172,
@@ -12011,6 +13511,16 @@
       "training_seats": 21,
       "reference_distance_pp": 6.599110734398915,
       "engine_distance_pp": 6.599110734398915,
+      "direct_pool_distance_pp": 12.455559790191334
+    },
+    {
+      "seat": "WERRIBEE",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 6.599110734398915,
+      "engine_distance_pp": 17.056907948843005,
       "direct_pool_distance_pp": 12.455559790191334
     },
     {
@@ -12097,6 +13607,16 @@
       "seat": "EVELYN",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 7.412101883531068,
+      "engine_distance_pp": 1.4408477454596613,
+      "direct_pool_distance_pp": 3.690847745459655
+    },
+    {
+      "seat": "EVELYN",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 7.412101883531068,
@@ -12171,6 +13691,16 @@
       "training_seats": 39,
       "reference_distance_pp": 36.69551811077768,
       "engine_distance_pp": 22.921181501740996,
+      "direct_pool_distance_pp": 13.566322930147217
+    },
+    {
+      "seat": "EVELYN",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 36.69551811077768,
+      "engine_distance_pp": 10.802544731679362,
       "direct_pool_distance_pp": 13.566322930147217
     },
     {
@@ -12257,6 +13787,16 @@
       "seat": "EVELYN",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 12.782698882175092,
+      "engine_distance_pp": 4.017244021935045,
+      "direct_pool_distance_pp": 6.422006805417238
+    },
+    {
+      "seat": "EVELYN",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 12.782698882175092,
@@ -12331,6 +13871,16 @@
       "training_seats": 49,
       "reference_distance_pp": 2.200446692524173,
       "engine_distance_pp": 0.500206260375266,
+      "direct_pool_distance_pp": 1.3905295838674698
+    },
+    {
+      "seat": "MONBULK",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 2.200446692524173,
+      "engine_distance_pp": 3.6405295838674636,
       "direct_pool_distance_pp": 1.3905295838674698
     },
     {
@@ -12417,6 +13967,16 @@
       "seat": "MONBULK",
       "origin": "IND",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 23.586216873518406,
+      "engine_distance_pp": 18.03860584770462,
+      "direct_pool_distance_pp": 15.446169312960686
+    },
+    {
+      "seat": "MONBULK",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 12,
       "reference_distance_pp": 23.586216873518406,
@@ -12491,6 +14051,16 @@
       "training_seats": 21,
       "reference_distance_pp": 12.513506560329308,
       "engine_distance_pp": 12.513506560329308,
+      "direct_pool_distance_pp": 6.157444287809937
+    },
+    {
+      "seat": "MONBULK",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 12.513506560329308,
+      "engine_distance_pp": 4.384545949522052,
       "direct_pool_distance_pp": 6.157444287809937
     },
     {
@@ -12577,6 +14147,16 @@
       "seat": "PAKENHAM",
       "origin": "GRN",
       "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 8,
+      "reference_distance_pp": 23.0343420656061,
+      "engine_distance_pp": 3.7845860510844305,
+      "direct_pool_distance_pp": 5.620982048982006
+    },
+    {
+      "seat": "PAKENHAM",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 8,
       "reference_distance_pp": 23.0343420656061,
@@ -12651,6 +14231,16 @@
       "training_seats": 7,
       "reference_distance_pp": 0.15507364975450022,
       "engine_distance_pp": 0.6307597826715083,
+      "direct_pool_distance_pp": 3.457037633117249
+    },
+    {
+      "seat": "PAKENHAM",
+      "origin": "IND",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 7,
+      "reference_distance_pp": 0.15507364975450022,
+      "engine_distance_pp": 1.2070376331172528,
       "direct_pool_distance_pp": 3.457037633117249
     },
     {
@@ -12737,6 +14327,16 @@
       "seat": "PAKENHAM",
       "origin": "OTH",
       "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 10.54438327126232,
+      "engine_distance_pp": 10.725189751316739,
+      "direct_pool_distance_pp": 7.884238567395438
+    },
+    {
+      "seat": "PAKENHAM",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 21,
       "reference_distance_pp": 10.54438327126232,
@@ -12808,6 +14408,16 @@
       "origin": "ALP",
       "field": "IND+LNP",
       "variant": "unchanged",
+      "training_seats": 3,
+      "reference_distance_pp": 34.19091333877156,
+      "engine_distance_pp": 21.36179392008958,
+      "direct_pool_distance_pp": 20.519256158756473
+    },
+    {
+      "seat": "MORNINGTON",
+      "origin": "ALP",
+      "field": "IND+LNP",
+      "variant": "corrected_coverage",
       "training_seats": 3,
       "reference_distance_pp": 34.19091333877156,
       "engine_distance_pp": 21.36179392008958,
@@ -12891,6 +14501,16 @@
       "training_seats": 8,
       "reference_distance_pp": 42.09513801698391,
       "engine_distance_pp": 21.772097439640014,
+      "direct_pool_distance_pp": 17.53443355352744
+    },
+    {
+      "seat": "MORNINGTON",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 8,
+      "reference_distance_pp": 42.09513801698391,
+      "engine_distance_pp": 16.544141071790797,
       "direct_pool_distance_pp": 17.53443355352744
     },
     {
@@ -12977,6 +14597,16 @@
       "seat": "MORNINGTON",
       "origin": "OTH",
       "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 23.756376063972724,
+      "engine_distance_pp": 13.925411596911944,
+      "direct_pool_distance_pp": 17.252663343206105
+    },
+    {
+      "seat": "MORNINGTON",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 21,
       "reference_distance_pp": 23.756376063972724,
@@ -13051,6 +14681,16 @@
       "training_seats": 49,
       "reference_distance_pp": 4.72804504205787,
       "engine_distance_pp": 2.9524438334035037,
+      "direct_pool_distance_pp": 1.0740307910352798
+    },
+    {
+      "seat": "NEPEAN",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 4.72804504205787,
+      "engine_distance_pp": 1.1759692089647138,
       "direct_pool_distance_pp": 1.0740307910352798
     },
     {
@@ -13137,6 +14777,16 @@
       "seat": "NEPEAN",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 8.017566670712752,
+      "engine_distance_pp": 18.341438981961712,
+      "direct_pool_distance_pp": 16.551379965705795
+    },
+    {
+      "seat": "NEPEAN",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 8.017566670712752,
@@ -13211,6 +14861,16 @@
       "training_seats": 42,
       "reference_distance_pp": 18.881462304561424,
       "engine_distance_pp": 18.881462304561424,
+      "direct_pool_distance_pp": 12.250238803806115
+    },
+    {
+      "seat": "NEPEAN",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 18.881462304561424,
+      "engine_distance_pp": 8.3487693100172,
       "direct_pool_distance_pp": 12.250238803806115
     },
     {
@@ -13297,6 +14957,16 @@
       "seat": "GIPPSLAND EAST",
       "origin": "GRN",
       "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 3.9996672293694058,
+      "engine_distance_pp": 16.476946815026515,
+      "direct_pool_distance_pp": 16.476946815026515
+    },
+    {
+      "seat": "GIPPSLAND EAST",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 3.9996672293694058,
@@ -13371,6 +15041,16 @@
       "training_seats": 14,
       "reference_distance_pp": 17.614657113165393,
       "engine_distance_pp": 17.614657113165393,
+      "direct_pool_distance_pp": 16.82127680231288
+    },
+    {
+      "seat": "GIPPSLAND EAST",
+      "origin": "OTH",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 17.614657113165393,
+      "engine_distance_pp": 12.321276802312878,
       "direct_pool_distance_pp": 16.82127680231288
     },
     {
@@ -13457,6 +15137,16 @@
       "seat": "GIPPSLAND SOUTH",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 10.161182294970558,
+      "engine_distance_pp": 3.021179743392867,
+      "direct_pool_distance_pp": 3.0211797433928655
+    },
+    {
+      "seat": "GIPPSLAND SOUTH",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 10.161182294970558,
@@ -13531,6 +15221,16 @@
       "training_seats": 12,
       "reference_distance_pp": 25.87671602735385,
       "engine_distance_pp": 24.946349640729494,
+      "direct_pool_distance_pp": 31.638782555513146
+    },
+    {
+      "seat": "GIPPSLAND SOUTH",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 25.87671602735385,
+      "engine_distance_pp": 23.592522050605485,
       "direct_pool_distance_pp": 31.638782555513146
     },
     {
@@ -13617,6 +15317,16 @@
       "seat": "GIPPSLAND SOUTH",
       "origin": "OTH",
       "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 8.371469553635471,
+      "engine_distance_pp": 5.477218273212089,
+      "direct_pool_distance_pp": 4.764585728304331
+    },
+    {
+      "seat": "GIPPSLAND SOUTH",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 21,
       "reference_distance_pp": 8.371469553635471,
@@ -13697,6 +15407,16 @@
       "seat": "BASS",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 18.93970684617668,
+      "engine_distance_pp": 11.651956654793794,
+      "direct_pool_distance_pp": 11.65195665479379
+    },
+    {
+      "seat": "BASS",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 18.93970684617668,
@@ -13771,6 +15491,16 @@
       "training_seats": 39,
       "reference_distance_pp": 40.21470954848652,
       "engine_distance_pp": 40.47078622292906,
+      "direct_pool_distance_pp": 36.29818006654404
+    },
+    {
+      "seat": "BASS",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 40.21470954848652,
+      "engine_distance_pp": 43.040727373153764,
       "direct_pool_distance_pp": 36.29818006654404
     },
     {
@@ -13857,6 +15587,16 @@
       "seat": "BASS",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 21.151943856384484,
+      "engine_distance_pp": 13.24688877803078,
+      "direct_pool_distance_pp": 18.455840464114555
+    },
+    {
+      "seat": "BASS",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 21.151943856384484,
@@ -13937,6 +15677,16 @@
       "seat": "HASTINGS",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 6.0059343887154695,
+      "engine_distance_pp": 1.0637951143267403,
+      "direct_pool_distance_pp": 1.063795114326735
+    },
+    {
+      "seat": "HASTINGS",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 6.0059343887154695,
@@ -14011,6 +15761,16 @@
       "training_seats": 39,
       "reference_distance_pp": 27.3128891057411,
       "engine_distance_pp": 10.080449039929729,
+      "direct_pool_distance_pp": 3.9961271511512244
+    },
+    {
+      "seat": "HASTINGS",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 27.3128891057411,
+      "engine_distance_pp": 7.547793282240263,
       "direct_pool_distance_pp": 3.9961271511512244
     },
     {
@@ -14097,6 +15857,16 @@
       "seat": "HASTINGS",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 6.235141138170026,
+      "engine_distance_pp": 5.386150207484926,
+      "direct_pool_distance_pp": 2.751035903537011
+    },
+    {
+      "seat": "HASTINGS",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 6.235141138170026,
@@ -14171,6 +15941,16 @@
       "training_seats": 14,
       "reference_distance_pp": 19.175141270778195,
       "engine_distance_pp": 2.959697736467076,
+      "direct_pool_distance_pp": 4.4895457333870885
+    },
+    {
+      "seat": "YAN YEAN",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 19.175141270778195,
+      "engine_distance_pp": 6.739545733387084,
       "direct_pool_distance_pp": 4.4895457333870885
     },
     {
@@ -14257,6 +16037,16 @@
       "seat": "YAN YEAN",
       "origin": "OTH",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 2.3730756058504165,
+      "engine_distance_pp": 4.1697033840960245,
+      "direct_pool_distance_pp": 1.9197033840960276
+    },
+    {
+      "seat": "YAN YEAN",
+      "origin": "OTH",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 2.3730756058504165,
@@ -14328,6 +16118,16 @@
       "origin": "ALP",
       "field": "IND+LNP",
       "variant": "unchanged",
+      "training_seats": 3,
+      "reference_distance_pp": 5.427832924991375,
+      "engine_distance_pp": 16.642436827435233,
+      "direct_pool_distance_pp": 17.831517726283767
+    },
+    {
+      "seat": "SHEPPARTON",
+      "origin": "ALP",
+      "field": "IND+LNP",
+      "variant": "corrected_coverage",
       "training_seats": 3,
       "reference_distance_pp": 5.427832924991375,
       "engine_distance_pp": 16.642436827435233,
@@ -14411,6 +16211,16 @@
       "training_seats": 3,
       "reference_distance_pp": 37.9542571808277,
       "engine_distance_pp": 17.979726167572945,
+      "direct_pool_distance_pp": 16.435520676605513
+    },
+    {
+      "seat": "SHEPPARTON",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 3,
+      "reference_distance_pp": 37.9542571808277,
+      "engine_distance_pp": 14.422125540486178,
       "direct_pool_distance_pp": 16.435520676605513
     },
     {
@@ -14497,6 +16307,16 @@
       "seat": "SHEPPARTON",
       "origin": "OTH",
       "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 3,
+      "reference_distance_pp": 12.447377631948275,
+      "engine_distance_pp": 11.968857479826658,
+      "direct_pool_distance_pp": 13.559426404482267
+    },
+    {
+      "seat": "SHEPPARTON",
+      "origin": "OTH",
+      "field": "ALP+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 3,
       "reference_distance_pp": 12.447377631948275,
@@ -14571,6 +16391,16 @@
       "training_seats": 49,
       "reference_distance_pp": 4.397164238404656,
       "engine_distance_pp": 1.2181276569122463,
+      "direct_pool_distance_pp": 0.669000542121756
+    },
+    {
+      "seat": "BENDIGO EAST",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 4.397164238404656,
+      "engine_distance_pp": 2.919000542121755,
       "direct_pool_distance_pp": 0.669000542121756
     },
     {
@@ -14657,6 +16487,16 @@
       "seat": "BENDIGO WEST",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 3.5870097353901675,
+      "engine_distance_pp": 10.262294626866488,
+      "direct_pool_distance_pp": 8.012294626866494
+    },
+    {
+      "seat": "BENDIGO WEST",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 3.5870097353901675,
@@ -14731,6 +16571,16 @@
       "training_seats": 39,
       "reference_distance_pp": 32.9367297435743,
       "engine_distance_pp": 30.498844416987875,
+      "direct_pool_distance_pp": 21.59821903734625
+    },
+    {
+      "seat": "BENDIGO WEST",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 32.9367297435743,
+      "engine_distance_pp": 19.845318721417986,
       "direct_pool_distance_pp": 21.59821903734625
     },
     {
@@ -14817,6 +16667,16 @@
       "seat": "BENDIGO WEST",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 11.806155279460825,
+      "engine_distance_pp": 5.704983887709196,
+      "direct_pool_distance_pp": 8.108218843913988
+    },
+    {
+      "seat": "BENDIGO WEST",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 11.806155279460825,
@@ -14897,6 +16757,16 @@
       "seat": "EILDON",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 7.364169191161974,
+      "engine_distance_pp": 0.2714697488418488,
+      "direct_pool_distance_pp": 0.2714697488418488
+    },
+    {
+      "seat": "EILDON",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 7.364169191161974,
@@ -14971,6 +16841,16 @@
       "training_seats": 39,
       "reference_distance_pp": 38.758763422335655,
       "engine_distance_pp": 21.20978633131366,
+      "direct_pool_distance_pp": 15.892986727287933
+    },
+    {
+      "seat": "EILDON",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 38.758763422335655,
+      "engine_distance_pp": 25.065629312557196,
       "direct_pool_distance_pp": 15.892986727287933
     },
     {
@@ -15057,6 +16937,16 @@
       "seat": "EILDON",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 12.150685025135985,
+      "engine_distance_pp": 1.566576439306483,
+      "direct_pool_distance_pp": 9.240265946407764
+    },
+    {
+      "seat": "EILDON",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 12.150685025135985,
@@ -15137,6 +17027,16 @@
       "seat": "EUROA",
       "origin": "GRN",
       "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 8.63891774855316,
+      "engine_distance_pp": 13.521295993190735,
+      "direct_pool_distance_pp": 13.521295993190735
+    },
+    {
+      "seat": "EUROA",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 8.63891774855316,
@@ -15211,6 +17111,16 @@
       "training_seats": 14,
       "reference_distance_pp": 18.62603755684219,
       "engine_distance_pp": 18.62603755684219,
+      "direct_pool_distance_pp": 17.904898706252304
+    },
+    {
+      "seat": "EUROA",
+      "origin": "OTH",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 18.62603755684219,
+      "engine_distance_pp": 13.404898706252302,
       "direct_pool_distance_pp": 17.904898706252304
     },
     {
@@ -15297,6 +17207,16 @@
       "seat": "MACEDON",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 0.10663090141742743,
+      "engine_distance_pp": 6.863983333183288,
+      "direct_pool_distance_pp": 6.863983333183292
+    },
+    {
+      "seat": "MACEDON",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 0.10663090141742743,
@@ -15371,6 +17291,16 @@
       "training_seats": 3,
       "reference_distance_pp": 21.38219539806002,
       "engine_distance_pp": 14.342472469722475,
+      "direct_pool_distance_pp": 8.128868124751762
+    },
+    {
+      "seat": "BENAMBRA",
+      "origin": "ALP",
+      "field": "IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 3,
+      "reference_distance_pp": 21.38219539806002,
+      "engine_distance_pp": 10.472706336377255,
       "direct_pool_distance_pp": 8.128868124751762
     },
     {
@@ -15457,6 +17387,16 @@
       "seat": "BENAMBRA",
       "origin": "GRN",
       "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 8,
+      "reference_distance_pp": 49.86202580962981,
+      "engine_distance_pp": 26.356072052715856,
+      "direct_pool_distance_pp": 26.356072052715856
+    },
+    {
+      "seat": "BENAMBRA",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 8,
       "reference_distance_pp": 49.86202580962981,
@@ -15531,6 +17471,16 @@
       "training_seats": 21,
       "reference_distance_pp": 12.566182959113647,
       "engine_distance_pp": 12.566182959113647,
+      "direct_pool_distance_pp": 10.281624786503011
+    },
+    {
+      "seat": "BENAMBRA",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 12.566182959113647,
+      "engine_distance_pp": 3.7210681313570957,
       "direct_pool_distance_pp": 10.281624786503011
     },
     {
@@ -15617,6 +17567,16 @@
       "seat": "OVENS VALLEY",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 13.270225996251975,
+      "engine_distance_pp": 6.078119540362784,
+      "direct_pool_distance_pp": 6.078119540362784
+    },
+    {
+      "seat": "OVENS VALLEY",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 13.270225996251975,
@@ -15691,6 +17651,16 @@
       "training_seats": 42,
       "reference_distance_pp": 29.196492794145318,
       "engine_distance_pp": 29.196492794145318,
+      "direct_pool_distance_pp": 26.69192628134589
+    },
+    {
+      "seat": "OVENS VALLEY",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 29.196492794145318,
+      "engine_distance_pp": 18.599883269716422,
       "direct_pool_distance_pp": 26.69192628134589
     },
     {
@@ -15777,6 +17747,16 @@
       "seat": "MILDURA",
       "origin": "ALP",
       "field": "IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 3,
+      "reference_distance_pp": 0.8936082545023732,
+      "engine_distance_pp": 8.204672005759694,
+      "direct_pool_distance_pp": 10.816606557224473
+    },
+    {
+      "seat": "MILDURA",
+      "origin": "ALP",
+      "field": "IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 3,
       "reference_distance_pp": 0.8936082545023732,
@@ -15857,6 +17837,16 @@
       "seat": "MILDURA",
       "origin": "GRN",
       "field": "ALP+IND+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 3,
+      "reference_distance_pp": 42.253130236223,
+      "engine_distance_pp": 19.13557714565877,
+      "direct_pool_distance_pp": 19.13557714565877
+    },
+    {
+      "seat": "MILDURA",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 3,
       "reference_distance_pp": 42.253130236223,
@@ -15931,6 +17921,16 @@
       "training_seats": 3,
       "reference_distance_pp": 25.46837981030523,
       "engine_distance_pp": 25.46837981030523,
+      "direct_pool_distance_pp": 18.262890969953695
+    },
+    {
+      "seat": "MILDURA",
+      "origin": "OTH",
+      "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 3,
+      "reference_distance_pp": 25.46837981030523,
+      "engine_distance_pp": 14.438195944686743,
       "direct_pool_distance_pp": 18.262890969953695
     },
     {
@@ -16017,6 +18017,16 @@
       "seat": "MURRAY PLAINS",
       "origin": "GRN",
       "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 32.693299646157605,
+      "engine_distance_pp": 17.69962270104027,
+      "direct_pool_distance_pp": 17.69962270104027
+    },
+    {
+      "seat": "MURRAY PLAINS",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 32.693299646157605,
@@ -16091,6 +18101,16 @@
       "training_seats": 39,
       "reference_distance_pp": 18.977040611114404,
       "engine_distance_pp": 5.732678703553846,
+      "direct_pool_distance_pp": 11.152346312771702
+    },
+    {
+      "seat": "MURRAY PLAINS",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 18.977040611114404,
+      "engine_distance_pp": 14.378353015077188,
       "direct_pool_distance_pp": 11.152346312771702
     },
     {
@@ -16177,6 +18197,16 @@
       "seat": "MURRAY PLAINS",
       "origin": "OTH",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 8.13264811687552,
+      "engine_distance_pp": 2.161981449145156,
+      "direct_pool_distance_pp": 6.661981449145157
+    },
+    {
+      "seat": "MURRAY PLAINS",
+      "origin": "OTH",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 8.13264811687552,
@@ -16251,6 +18281,16 @@
       "training_seats": 49,
       "reference_distance_pp": 12.241248252188484,
       "engine_distance_pp": 10.241127378585011,
+      "direct_pool_distance_pp": 8.399340886695093
+    },
+    {
+      "seat": "LARA",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 12.241248252188484,
+      "engine_distance_pp": 6.149340886695096,
       "direct_pool_distance_pp": 8.399340886695093
     },
     {
@@ -16337,6 +18377,16 @@
       "seat": "LARA",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 39.20023702454431,
+      "engine_distance_pp": 30.320365143866045,
+      "direct_pool_distance_pp": 27.089409396537352
+    },
+    {
+      "seat": "LARA",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 39.20023702454431,
@@ -16411,6 +18461,16 @@
       "training_seats": 42,
       "reference_distance_pp": 10.837586441174759,
       "engine_distance_pp": 10.837586441174759,
+      "direct_pool_distance_pp": 7.540817417041694
+    },
+    {
+      "seat": "LARA",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 10.837586441174759,
+      "engine_distance_pp": 5.137068355043907,
       "direct_pool_distance_pp": 7.540817417041694
     },
     {
@@ -16497,6 +18557,16 @@
       "seat": "MELTON",
       "origin": "GRN",
       "field": "ALP+IND+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 3,
+      "reference_distance_pp": 23.292444285763622,
+      "engine_distance_pp": 36.258593114861775,
+      "direct_pool_distance_pp": 33.31862947339434
+    },
+    {
+      "seat": "MELTON",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 3,
       "reference_distance_pp": 23.292444285763622,
@@ -16571,6 +18641,16 @@
       "training_seats": 7,
       "reference_distance_pp": 15.396647067058666,
       "engine_distance_pp": 17.464215723397846,
+      "direct_pool_distance_pp": 21.230432738046584
+    },
+    {
+      "seat": "MELTON",
+      "origin": "IND",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 7,
+      "reference_distance_pp": 15.396647067058666,
+      "engine_distance_pp": 18.980432738046584,
       "direct_pool_distance_pp": 21.230432738046584
     },
     {
@@ -16657,6 +18737,16 @@
       "seat": "MELTON",
       "origin": "OTH",
       "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 3,
+      "reference_distance_pp": 5.489183278852705,
+      "engine_distance_pp": 22.098233838622903,
+      "direct_pool_distance_pp": 20.63399528968467
+    },
+    {
+      "seat": "MELTON",
+      "origin": "OTH",
+      "field": "ALP+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 3,
       "reference_distance_pp": 5.489183278852705,
@@ -16731,6 +18821,16 @@
       "training_seats": 49,
       "reference_distance_pp": 2.4054120077945123,
       "engine_distance_pp": 0.6993741242466169,
+      "direct_pool_distance_pp": 1.1903608764590679
+    },
+    {
+      "seat": "BELLARINE",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 2.4054120077945123,
+      "engine_distance_pp": 3.440360876459067,
       "direct_pool_distance_pp": 1.1903608764590679
     },
     {
@@ -16817,6 +18917,16 @@
       "seat": "BELLARINE",
       "origin": "IND",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 12.257732553691042,
+      "engine_distance_pp": 11.92012385024825,
+      "direct_pool_distance_pp": 7.93513578044958
+    },
+    {
+      "seat": "BELLARINE",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 12,
       "reference_distance_pp": 12.257732553691042,
@@ -16891,6 +19001,16 @@
       "training_seats": 21,
       "reference_distance_pp": 7.53134668620746,
       "engine_distance_pp": 7.53134668620746,
+      "direct_pool_distance_pp": 3.713561625179139
+    },
+    {
+      "seat": "BELLARINE",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 7.53134668620746,
+      "engine_distance_pp": 4.028091954241865,
       "direct_pool_distance_pp": 3.713561625179139
     },
     {
@@ -16977,6 +19097,16 @@
       "seat": "WENDOUREE",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 3.186762089727567,
+      "engine_distance_pp": 4.032539070103846,
+      "direct_pool_distance_pp": 1.7825390701038475
+    },
+    {
+      "seat": "WENDOUREE",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 3.186762089727567,
@@ -17051,6 +19181,16 @@
       "training_seats": 39,
       "reference_distance_pp": 25.225774225774227,
       "engine_distance_pp": 22.682607043625488,
+      "direct_pool_distance_pp": 13.712856734707483
+    },
+    {
+      "seat": "WENDOUREE",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 25.225774225774227,
+      "engine_distance_pp": 11.952275871081843,
       "direct_pool_distance_pp": 13.712856734707483
     },
     {
@@ -17137,6 +19277,16 @@
       "seat": "WENDOUREE",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 9.287379287467996,
+      "engine_distance_pp": 6.42496866934366,
+      "direct_pool_distance_pp": 7.347181228625582
+    },
+    {
+      "seat": "WENDOUREE",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 9.287379287467996,
@@ -17211,6 +19361,16 @@
       "training_seats": 49,
       "reference_distance_pp": 1.1065244473144138,
       "engine_distance_pp": 3.819319395747006,
+      "direct_pool_distance_pp": 5.7317613990657295
+    },
+    {
+      "seat": "GEELONG",
+      "origin": "GRN",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 1.1065244473144138,
+      "engine_distance_pp": 7.98176139906573,
       "direct_pool_distance_pp": 5.7317613990657295
     },
     {
@@ -17297,6 +19457,16 @@
       "seat": "GEELONG",
       "origin": "IND",
       "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 23.663397689355126,
+      "engine_distance_pp": 20.888692929531555,
+      "direct_pool_distance_pp": 15.94116833840234
+    },
+    {
+      "seat": "GEELONG",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 39,
       "reference_distance_pp": 23.663397689355126,
@@ -17371,6 +19541,16 @@
       "training_seats": 42,
       "reference_distance_pp": 10.887207448506144,
       "engine_distance_pp": 10.887660764584677,
+      "direct_pool_distance_pp": 4.066108655734685
+    },
+    {
+      "seat": "GEELONG",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 10.887207448506144,
+      "engine_distance_pp": 1.053636849002229,
       "direct_pool_distance_pp": 4.066108655734685
     },
     {
@@ -17457,6 +19637,16 @@
       "seat": "SOUTH BARWON",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 1.5483790789887666,
+      "engine_distance_pp": 5.5393764401114955,
+      "direct_pool_distance_pp": 3.289376440111501
+    },
+    {
+      "seat": "SOUTH BARWON",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 1.5483790789887666,
@@ -17531,6 +19721,16 @@
       "training_seats": 42,
       "reference_distance_pp": 10.288234766077101,
       "engine_distance_pp": 10.288687216398056,
+      "direct_pool_distance_pp": 5.649344567638047
+    },
+    {
+      "seat": "SOUTH BARWON",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 10.288234766077101,
+      "engine_distance_pp": 3.700448393163949,
       "direct_pool_distance_pp": 5.649344567638047
     },
     {
@@ -17617,6 +19817,16 @@
       "seat": "EUREKA",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 9.07636099580182,
+      "engine_distance_pp": 1.9545986203642465,
+      "direct_pool_distance_pp": 1.9545986203642465
+    },
+    {
+      "seat": "EUREKA",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 9.07636099580182,
@@ -17691,6 +19901,16 @@
       "training_seats": 39,
       "reference_distance_pp": 21.998385261972185,
       "engine_distance_pp": 9.371132364308862,
+      "direct_pool_distance_pp": 6.5508228567127915
+    },
+    {
+      "seat": "EUREKA",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 21.998385261972185,
+      "engine_distance_pp": 14.417909841977867,
       "direct_pool_distance_pp": 6.5508228567127915
     },
     {
@@ -17777,6 +19997,16 @@
       "seat": "EUREKA",
       "origin": "OTH",
       "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 42,
+      "reference_distance_pp": 6.001699167102896,
+      "engine_distance_pp": 6.653795379091836,
+      "direct_pool_distance_pp": 6.466273300770848
+    },
+    {
+      "seat": "EUREKA",
+      "origin": "OTH",
+      "field": "ALP+GRN+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 42,
       "reference_distance_pp": 6.001699167102896,
@@ -17857,6 +20087,16 @@
       "seat": "RIPON",
       "origin": "GRN",
       "field": "ALP+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 8.848623488766632,
+      "engine_distance_pp": 15.277864099478839,
+      "direct_pool_distance_pp": 15.277864099478833
+    },
+    {
+      "seat": "RIPON",
+      "origin": "GRN",
+      "field": "ALP+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 8.848623488766632,
@@ -17931,6 +20171,16 @@
       "training_seats": 39,
       "reference_distance_pp": 30.830451707121508,
       "engine_distance_pp": 18.10481277608267,
+      "direct_pool_distance_pp": 14.285304813048109
+    },
+    {
+      "seat": "RIPON",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 39,
+      "reference_distance_pp": 30.830451707121508,
+      "engine_distance_pp": 17.909178243128615,
       "direct_pool_distance_pp": 14.285304813048109
     },
     {
@@ -18017,6 +20267,16 @@
       "seat": "RIPON",
       "origin": "OTH",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 14,
+      "reference_distance_pp": 3.7287015891475455,
+      "engine_distance_pp": 10.546607521593842,
+      "direct_pool_distance_pp": 6.046607521593842
+    },
+    {
+      "seat": "RIPON",
+      "origin": "OTH",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 14,
       "reference_distance_pp": 3.7287015891475455,
@@ -18097,6 +20357,16 @@
       "seat": "LOWAN",
       "origin": "GRN",
       "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 8,
+      "reference_distance_pp": 9.367104972917534,
+      "engine_distance_pp": 20.640194166683802,
+      "direct_pool_distance_pp": 20.640194166683795
+    },
+    {
+      "seat": "LOWAN",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 8,
       "reference_distance_pp": 9.367104972917534,
@@ -18171,6 +20441,16 @@
       "training_seats": 7,
       "reference_distance_pp": 15.159145463274124,
       "engine_distance_pp": 17.65430990823316,
+      "direct_pool_distance_pp": 23.530430905149963
+    },
+    {
+      "seat": "LOWAN",
+      "origin": "IND",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 7,
+      "reference_distance_pp": 15.159145463274124,
+      "engine_distance_pp": 19.030430905149963,
       "direct_pool_distance_pp": 23.530430905149963
     },
     {
@@ -18257,6 +20537,16 @@
       "seat": "LOWAN",
       "origin": "OTH",
       "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 16.82982119508923,
+      "engine_distance_pp": 6.425986654825514,
+      "direct_pool_distance_pp": 16.337367501682433
+    },
+    {
+      "seat": "LOWAN",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 21,
       "reference_distance_pp": 16.82982119508923,
@@ -18337,6 +20627,16 @@
       "seat": "POLWARTH",
       "origin": "GRN",
       "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 49,
+      "reference_distance_pp": 1.0279947862897945,
+      "engine_distance_pp": 5.958181538893799,
+      "direct_pool_distance_pp": 5.958181538893799
+    },
+    {
+      "seat": "POLWARTH",
+      "origin": "GRN",
+      "field": "ALP+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 49,
       "reference_distance_pp": 1.0279947862897945,
@@ -18411,6 +20711,16 @@
       "training_seats": 12,
       "reference_distance_pp": 22.156733631074864,
       "engine_distance_pp": 21.07459691742193,
+      "direct_pool_distance_pp": 27.674569296872154
+    },
+    {
+      "seat": "POLWARTH",
+      "origin": "IND",
+      "field": "ALP+GRN+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 12,
+      "reference_distance_pp": 22.156733631074864,
+      "engine_distance_pp": 19.60358396914553,
       "direct_pool_distance_pp": 27.674569296872154
     },
     {
@@ -18497,6 +20807,16 @@
       "seat": "POLWARTH",
       "origin": "OTH",
       "field": "ALP+GRN+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 21,
+      "reference_distance_pp": 11.938104448742749,
+      "engine_distance_pp": 22.851182980908572,
+      "direct_pool_distance_pp": 12.621930183872237
+    },
+    {
+      "seat": "POLWARTH",
+      "origin": "OTH",
+      "field": "ALP+GRN+IND+LNP",
       "variant": "no_non_on_geography",
       "training_seats": 21,
       "reference_distance_pp": 11.938104448742749,
@@ -18577,6 +20897,16 @@
       "seat": "SOUTH-WEST COAST",
       "origin": "GRN",
       "field": "ALP+IND+LNP+OTH",
+      "variant": "corrected_coverage",
+      "training_seats": 3,
+      "reference_distance_pp": 28.30322791470975,
+      "engine_distance_pp": 16.118151190034908,
+      "direct_pool_distance_pp": 16.118151190034908
+    },
+    {
+      "seat": "SOUTH-WEST COAST",
+      "origin": "GRN",
+      "field": "ALP+IND+LNP+OTH",
       "variant": "no_non_on_geography",
       "training_seats": 3,
       "reference_distance_pp": 28.30322791470975,
@@ -18651,6 +20981,16 @@
       "training_seats": 7,
       "reference_distance_pp": 18.124890787302203,
       "engine_distance_pp": 18.69438369800449,
+      "direct_pool_distance_pp": 14.508467666937266
+    },
+    {
+      "seat": "SOUTH-WEST COAST",
+      "origin": "IND",
+      "field": "ALP+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 7,
+      "reference_distance_pp": 18.124890787302203,
+      "engine_distance_pp": 19.008467666937275,
       "direct_pool_distance_pp": 14.508467666937266
     },
     {
@@ -18731,6 +21071,16 @@
       "training_seats": 3,
       "reference_distance_pp": 3.379970019276493,
       "engine_distance_pp": 3.379970019276493,
+      "direct_pool_distance_pp": 11.188322084751288
+    },
+    {
+      "seat": "SOUTH-WEST COAST",
+      "origin": "OTH",
+      "field": "ALP+IND+LNP",
+      "variant": "corrected_coverage",
+      "training_seats": 3,
+      "reference_distance_pp": 3.379970019276493,
+      "engine_distance_pp": 14.904207209569822,
       "direct_pool_distance_pp": 11.188322084751288
     },
     {

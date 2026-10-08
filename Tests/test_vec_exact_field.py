@@ -28,6 +28,18 @@ class VECExactFieldTests(unittest.TestCase):
         p = self.params()
         self.assertEqual(diagnose_preference_weights(*args, p)["final_flows"], diagnose_preference_weights(*args, variant(p, "vec_exact_field"))["final_flows"])
 
+    def test_coverage_correction_preserves_matrix_and_on_contests(self):
+        matrix = self.matrix()
+        before = copy.deepcopy(matrix)
+        corrected = variant(self.params(), "vec_field_coverage")
+        d = diagnose_preference_weights("OTH", ["ALP", "LNP"], matrix, "Regional", corrected, {}, {"OTH": {"ALP": .2, "LNP": .8}})
+        self.assertAlmostEqual(d["aec_coverage"], 1)
+        self.assertAlmostEqual(d["final_flows"]["ALP"], .75)
+        self.assertTrue(d["stages"][0]["vec_field_coverage_corrected"])
+        self.assertEqual(matrix, before)
+        args = ("OTH", ["ALP", "LNP", "ON"], matrix, "Regional")
+        self.assertEqual(diagnose_preference_weights(*args, corrected)["final_flows"], diagnose_preference_weights(*args, variant(self.params(), "vec_exact_field"))["final_flows"])
+
     def test_special_unchanged(self):
         p = self.params()
         p["on_special_scenario_priors"] = {"ALP+ON|OTH|Regional": {"ALP": .53, "ON": .47}}

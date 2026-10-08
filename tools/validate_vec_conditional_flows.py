@@ -45,7 +45,7 @@ def main(ablations=False):
             reference = diagnose_preference_weights(origin, field, matrix, item['seat_type'], params, {}, ideology)['final_flows']
             comparisons = pools
             if ablations:
-                comparisons = {name: pools['all_min3'] for name in ['unchanged', 'no_non_on_geography', 'no_constraints', 'no_incomplete_anchor', 'no_geography_or_constraints', 'no_all_three', 'historical_only_coverage', 'historical_only_coverage_no_geography']}
+                comparisons = {name: pools['all_min3'] for name in ['unchanged', 'corrected_coverage', 'no_non_on_geography', 'no_constraints', 'no_incomplete_anchor', 'no_geography_or_constraints', 'no_all_three', 'historical_only_coverage', 'historical_only_coverage_no_geography']}
             for name, pool in comparisons.items():
                 record = pool.get(origin, {}).get('+'.join(field))
                 if record is None:
@@ -58,6 +58,8 @@ def main(ablations=False):
                     # where ON was absent, to isolate coverage-based selection.
                     trial.setdefault(origin, {})['ON'] = 0
                 settings = variant(params, 'vec_exact_field')
+                if name == 'corrected_coverage':
+                    settings = variant(params, 'vec_field_coverage')
                 if name in ('no_non_on_geography', 'no_geography_or_constraints', 'no_all_three', 'historical_only_coverage_no_geography'):
                     settings = variant(settings, 'no_non_on_recipient_geography')
                 if name in ('no_constraints', 'no_geography_or_constraints', 'no_all_three'):

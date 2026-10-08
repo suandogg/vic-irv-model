@@ -557,6 +557,12 @@ def diagnose_preference_weights(
     aec_usable = alive_mass > 0
     aec_proj = normalise_alive(base, alive) if aec_usable else None
     coverage = alive_mass / total_row if total_row > 0 else 0
+    vec_coverage_corrected = bool(vec_matched and scalars.get("TRIAL_VEC_FIELD_COVERAGE", False)
+                                  and "ON" not in alive and alive_mass > 0)
+    if vec_coverage_corrected:
+        # The exact historical field is complete; synthetic ON mass outside
+        # it is not missing historical evidence. Stored allocations stay intact.
+        coverage = 1.0
     alive_count = len(alive_arr)
     missing_parties = [
         PARTIES[i]
@@ -573,6 +579,7 @@ def diagnose_preference_weights(
             "aec_coverage": coverage,
             "missing_parties": ", ".join(missing_parties),
             "vec_exact_field_matched": bool(vec_matched),
+            "vec_field_coverage_corrected": vec_coverage_corrected,
             "vec_evidence_field": "+".join(vec_record["field"]) if vec_matched else None,
             "vec_method": vec_record["method"] if vec_matched else None,
         },
