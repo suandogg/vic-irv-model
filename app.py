@@ -511,7 +511,7 @@ trial_options = {
     "Seat-count shrinkage: 10 prior seats": "seat_reliability_10",
     "Seat-count shrinkage: 20 prior seats": "seat_reliability_20",
 }
-trial_label = st.sidebar.selectbox("Preference trial", list(trial_options))
+trial_label = st.sidebar.selectbox("Preference trial", list(trial_options), index=list(trial_options.values()).index("vec_field_coverage"))
 trial_method = trial_options[trial_label]
 params = preference_trial_variant(params, trial_method)
 if trial_method in ("vec_exact_field", "vec_field_coverage"):
