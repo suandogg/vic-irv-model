@@ -4,6 +4,7 @@ from SRC.preference_engine import diagnose_preference_weights
 from tools.preference_review_trials import variant
 from tools.trial_vec_field_evidence import attach_vec_fields
 from SRC.matrix_loader import load_synth_pref_matrices
+from tools.validate_vec_field_holdout import pool_fields
 
 
 class VECExactFieldTests(unittest.TestCase):
@@ -43,6 +44,22 @@ class VECExactFieldTests(unittest.TestCase):
         self.assertTrue(records)
         self.assertTrue(all("ON" not in row["field"] for row in records))
         self.assertEqual(matrices, before)
+
+    def test_pool_excludes_held_out_seat(self):
+        evidence = {seat: {"matrix": self.matrix()} for seat in ["HELD", "TRAIN"]}
+        evidence["HELD"]["matrix"]["__vec_field_rows__"]["OTH"]["shares"] = {"ALP": 0, "LNP": 1}
+        row = pool_fields(evidence, "HELD")["OTH"]["ALP+LNP"]
+        self.assertEqual(row["training_seats"], ["TRAIN"])
+        self.assertEqual(row["shares"], {"ALP": .75, "LNP": .25})
+
+    def test_pool_selected_by_exact_field(self):
+        matrix = self.matrix()
+        matrix.pop("__vec_field_rows__")
+        matrix["__vec_pooled_fields__"] = {"OTH": {"ALP+LNP": {
+            "field": ["ALP", "LNP"], "shares": {"ALP": .75, "LNP": .25}, "method": "pool"}}}
+        d = diagnose_preference_weights("OTH", ["ALP", "LNP", "ON"], matrix, "Regional", variant(self.params(), "vec_exact_field"))
+        self.assertTrue(d["stages"][0]["vec_exact_field_matched"])
+        self.assertAlmostEqual(d["final_flows"]["ON"], .4)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,1255 @@
+{
+  "method": "Equal-seat pooled exact fields across all classes, excluding held-out seat; same-class legacy fallback; no posterior or federal aggregate.",
+  "summary": {
+    "reference": {
+      "seats": 88,
+      "correct_winners": 87,
+      "correct_final_pairs": 85,
+      "common_pairs": 83,
+      "common_pair_MAE_pp": 1.8152321053296154,
+      "common_pair_mean_error_pp": 0.3718484711769834
+    },
+    "vec_exact_field": {
+      "seats": 88,
+      "correct_winners": 87,
+      "correct_final_pairs": 83,
+      "common_pairs": 83,
+      "common_pair_MAE_pp": 1.6730223510403095,
+      "common_pair_mean_error_pp": 0.25774588701271517
+    }
+  },
+  "seats": [
+    {
+      "seat": "BOX HILL",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.9379025679144504
+    },
+    {
+      "seat": "BOX HILL",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.8224444126843422
+    },
+    {
+      "seat": "BULLEEN",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.330664570331331
+    },
+    {
+      "seat": "BULLEEN",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.047786504417559
+    },
+    {
+      "seat": "GLEN WAVERLEY",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.1252099752086742
+    },
+    {
+      "seat": "GLEN WAVERLEY",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.589339012557466
+    },
+    {
+      "seat": "IVANHOE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.22099564147864958
+    },
+    {
+      "seat": "IVANHOE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.25828457586859477
+    },
+    {
+      "seat": "BUNDOORA",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.3490013019937694
+    },
+    {
+      "seat": "BUNDOORA",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.061265987247396
+    },
+    {
+      "seat": "BAYSWATER",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.6968351364646694
+    },
+    {
+      "seat": "BAYSWATER",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.7797867499087405
+    },
+    {
+      "seat": "CROYDON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -1.145672711254131
+    },
+    {
+      "seat": "CROYDON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -1.239189073955338
+    },
+    {
+      "seat": "RINGWOOD",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.3903682340947965
+    },
+    {
+      "seat": "RINGWOOD",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.8228932096008723
+    },
+    {
+      "seat": "WARRANDYTE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -1.9141331246301796
+    },
+    {
+      "seat": "WARRANDYTE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -1.4614188909395254
+    },
+    {
+      "seat": "ELTHAM",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.7358234302984545
+    },
+    {
+      "seat": "ELTHAM",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.25694808145036996
+    },
+    {
+      "seat": "MILL PARK",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.472311517350324
+    },
+    {
+      "seat": "MILL PARK",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.5536000931280065
+    },
+    {
+      "seat": "BRUNSWICK",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -4.408636174288871
+    },
+    {
+      "seat": "BRUNSWICK",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -4.314827277801491
+    },
+    {
+      "seat": "NORTHCOTE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.2018642289837973
+    },
+    {
+      "seat": "NORTHCOTE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.093657627485036
+    },
+    {
+      "seat": "MELBOURNE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -4.395724120986899
+    },
+    {
+      "seat": "MELBOURNE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -4.0355188323970115
+    },
+    {
+      "seat": "RICHMOND",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -3.8767056525361165
+    },
+    {
+      "seat": "RICHMOND",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -3.496791076209571
+    },
+    {
+      "seat": "ESSENDON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.7424704609978905
+    },
+    {
+      "seat": "ESSENDON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -1.2356831179058503
+    },
+    {
+      "seat": "PASCOE VALE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 6.3267331894038765
+    },
+    {
+      "seat": "PASCOE VALE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.1539818664965136
+    },
+    {
+      "seat": "PRESTON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": false,
+      "error_pp": null
+    },
+    {
+      "seat": "PRESTON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": false,
+      "error_pp": null
+    },
+    {
+      "seat": "BROADMEADOWS",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.6119952799281347
+    },
+    {
+      "seat": "BROADMEADOWS",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.49658546710142915
+    },
+    {
+      "seat": "GREENVALE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.7790315553070886
+    },
+    {
+      "seat": "GREENVALE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.674120722459684
+    },
+    {
+      "seat": "THOMASTOWN",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.8396019823432299
+    },
+    {
+      "seat": "THOMASTOWN",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.9200267664469797
+    },
+    {
+      "seat": "KALKALLO",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.04256451467530287
+    },
+    {
+      "seat": "KALKALLO",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.16132747026219585
+    },
+    {
+      "seat": "CLARINDA",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.8959690053560907
+    },
+    {
+      "seat": "CLARINDA",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.5763917223181045
+    },
+    {
+      "seat": "MORDIALLOC",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.2056705857724013
+    },
+    {
+      "seat": "MORDIALLOC",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.6611720212681647
+    },
+    {
+      "seat": "MULGRAVE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 8.971572259415462
+    },
+    {
+      "seat": "MULGRAVE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 8.035489162915566
+    },
+    {
+      "seat": "ROWVILLE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -3.257123337225565
+    },
+    {
+      "seat": "ROWVILLE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -3.0254141846894234
+    },
+    {
+      "seat": "CRANBOURNE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.9439071279860674
+    },
+    {
+      "seat": "CRANBOURNE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.0129129879896133
+    },
+    {
+      "seat": "DANDENONG",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.744218711669221
+    },
+    {
+      "seat": "DANDENONG",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.8352939734942897
+    },
+    {
+      "seat": "NARRE WARREN NORTH",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.9256360676106827
+    },
+    {
+      "seat": "NARRE WARREN NORTH",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 4.023110597634205
+    },
+    {
+      "seat": "NARRE WARREN SOUTH",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 4.20758670201532
+    },
+    {
+      "seat": "NARRE WARREN SOUTH",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 4.290877875985166
+    },
+    {
+      "seat": "FRANKSTON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.3264257571954827
+    },
+    {
+      "seat": "FRANKSTON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.475868800406178
+    },
+    {
+      "seat": "BERWICK",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.7339551983440735
+    },
+    {
+      "seat": "BERWICK",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.524776375868776
+    },
+    {
+      "seat": "CARRUM",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.8202008594075947
+    },
+    {
+      "seat": "CARRUM",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.9160400590145787
+    },
+    {
+      "seat": "ALBERT PARK",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.8071591223938985
+    },
+    {
+      "seat": "ALBERT PARK",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.0911953961467713
+    },
+    {
+      "seat": "BRIGHTON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.4575274263533453
+    },
+    {
+      "seat": "BRIGHTON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.7844172642713088
+    },
+    {
+      "seat": "CAULFIELD",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -1.9495103452738305
+    },
+    {
+      "seat": "CAULFIELD",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.42867993120975223
+    },
+    {
+      "seat": "PRAHRAN",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.8082129317842357
+    },
+    {
+      "seat": "PRAHRAN",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.6568367730446445
+    },
+    {
+      "seat": "HAWTHORN",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.6149368069776626
+    },
+    {
+      "seat": "HAWTHORN",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.35183156883938
+    },
+    {
+      "seat": "KEW",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.308079689681152
+    },
+    {
+      "seat": "KEW",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.924121395037448
+    },
+    {
+      "seat": "MALVERN",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.399802135656426
+    },
+    {
+      "seat": "MALVERN",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -1.2642289831349185
+    },
+    {
+      "seat": "BENTLEIGH",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.6733780694904934
+    },
+    {
+      "seat": "BENTLEIGH",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.4314696398672435
+    },
+    {
+      "seat": "SANDRINGHAM",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.2623174321227162
+    },
+    {
+      "seat": "SANDRINGHAM",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.32996029066227894
+    },
+    {
+      "seat": "ASHWOOD",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.8619491787210554
+    },
+    {
+      "seat": "ASHWOOD",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.5537659281272256
+    },
+    {
+      "seat": "OAKLEIGH",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.5047667088019847
+    },
+    {
+      "seat": "OAKLEIGH",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.17224960898785113
+    },
+    {
+      "seat": "FOOTSCRAY",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.1517996668201764
+    },
+    {
+      "seat": "FOOTSCRAY",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.8893125786087603
+    },
+    {
+      "seat": "WILLIAMSTOWN",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.3763286842068623
+    },
+    {
+      "seat": "WILLIAMSTOWN",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.07615263287692464
+    },
+    {
+      "seat": "LAVERTON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.0611902555351613
+    },
+    {
+      "seat": "LAVERTON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": false,
+      "error_pp": null
+    },
+    {
+      "seat": "NIDDRIE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.788588515832601
+    },
+    {
+      "seat": "NIDDRIE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.2552599528314334
+    },
+    {
+      "seat": "ST ALBANS",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.373516004591114
+    },
+    {
+      "seat": "ST ALBANS",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.835912576893084
+    },
+    {
+      "seat": "KOROROIT",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -1.9746617378023856
+    },
+    {
+      "seat": "KOROROIT",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": false,
+      "error_pp": null
+    },
+    {
+      "seat": "POINT COOK",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.597393049046659
+    },
+    {
+      "seat": "POINT COOK",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.3826654429388694
+    },
+    {
+      "seat": "SYDENHAM",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.1861032798896387
+    },
+    {
+      "seat": "SYDENHAM",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.2539081208272185
+    },
+    {
+      "seat": "TARNEIT",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.8333285032959714
+    },
+    {
+      "seat": "TARNEIT",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.9020567484300579
+    },
+    {
+      "seat": "SUNBURY",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.6543310396495916
+    },
+    {
+      "seat": "SUNBURY",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.7870975075249476
+    },
+    {
+      "seat": "WERRIBEE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.3029506320090136
+    },
+    {
+      "seat": "WERRIBEE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.43446474650216116
+    },
+    {
+      "seat": "EVELYN",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.7516466211861528
+    },
+    {
+      "seat": "EVELYN",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.8912274271238751
+    },
+    {
+      "seat": "MONBULK",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.5215665940569325
+    },
+    {
+      "seat": "MONBULK",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.40150724707206376
+    },
+    {
+      "seat": "PAKENHAM",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.03307341196729929
+    },
+    {
+      "seat": "PAKENHAM",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.01415821062885625
+    },
+    {
+      "seat": "MORNINGTON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": false,
+      "error_pp": null
+    },
+    {
+      "seat": "MORNINGTON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": false,
+      "error_pp": null
+    },
+    {
+      "seat": "NEPEAN",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.8542525167253845
+    },
+    {
+      "seat": "NEPEAN",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -1.0025513381390572
+    },
+    {
+      "seat": "MORWELL",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -1.1642542108462828
+    },
+    {
+      "seat": "MORWELL",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.9789098898010606
+    },
+    {
+      "seat": "GIPPSLAND EAST",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.316097607984613
+    },
+    {
+      "seat": "GIPPSLAND EAST",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.378853415437432
+    },
+    {
+      "seat": "GIPPSLAND SOUTH",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.2706501280507108
+    },
+    {
+      "seat": "GIPPSLAND SOUTH",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.39936350780513
+    },
+    {
+      "seat": "BASS",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.21348405197063602
+    },
+    {
+      "seat": "BASS",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.29129682965078896
+    },
+    {
+      "seat": "HASTINGS",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.1314730457447122
+    },
+    {
+      "seat": "HASTINGS",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.013189208416575227
+    },
+    {
+      "seat": "NARRACAN",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": false,
+      "error_pp": null
+    },
+    {
+      "seat": "NARRACAN",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": false,
+      "error_pp": null
+    },
+    {
+      "seat": "YAN YEAN",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.886332544806967
+    },
+    {
+      "seat": "YAN YEAN",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.9945633154790134
+    },
+    {
+      "seat": "SHEPPARTON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.6218588479585452
+    },
+    {
+      "seat": "SHEPPARTON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.3110572880686076
+    },
+    {
+      "seat": "BENDIGO EAST",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.026473842481522514
+    },
+    {
+      "seat": "BENDIGO EAST",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.42408221019359926
+    },
+    {
+      "seat": "BENDIGO WEST",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.863768597574055
+    },
+    {
+      "seat": "BENDIGO WEST",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.8780064217533412
+    },
+    {
+      "seat": "EILDON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.677826674951354
+    },
+    {
+      "seat": "EILDON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.7855718401737155
+    },
+    {
+      "seat": "EUROA",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.285294815813932
+    },
+    {
+      "seat": "EUROA",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.3389543057963147
+    },
+    {
+      "seat": "MACEDON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.156979338899123
+    },
+    {
+      "seat": "MACEDON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.5125006976508213
+    },
+    {
+      "seat": "BENAMBRA",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.5979820745525193
+    },
+    {
+      "seat": "BENAMBRA",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.282045157839019
+    },
+    {
+      "seat": "OVENS VALLEY",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -4.188907933420638
+    },
+    {
+      "seat": "OVENS VALLEY",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -4.240483515330573
+    },
+    {
+      "seat": "MILDURA",
+      "variant": "reference",
+      "winner_correct": false,
+      "pair_correct": true,
+      "error_pp": -1.2845251610522357
+    },
+    {
+      "seat": "MILDURA",
+      "variant": "vec_exact_field",
+      "winner_correct": false,
+      "pair_correct": true,
+      "error_pp": -1.5085060551293383
+    },
+    {
+      "seat": "MURRAY PLAINS",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.2387279748096955
+    },
+    {
+      "seat": "MURRAY PLAINS",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.3428923397210477
+    },
+    {
+      "seat": "LARA",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.0009366486616211
+    },
+    {
+      "seat": "LARA",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 1.172966489832794
+    },
+    {
+      "seat": "MELTON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.3274602052103965
+    },
+    {
+      "seat": "MELTON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 2.277714151109589
+    },
+    {
+      "seat": "BELLARINE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.7092524509834552
+    },
+    {
+      "seat": "BELLARINE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.920804390065455
+    },
+    {
+      "seat": "WENDOUREE",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.12691310634539432
+    },
+    {
+      "seat": "WENDOUREE",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.20921249675848186
+    },
+    {
+      "seat": "GEELONG",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.7309236747832681
+    },
+    {
+      "seat": "GEELONG",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -1.2247697210779007
+    },
+    {
+      "seat": "SOUTH BARWON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.1209815979703377
+    },
+    {
+      "seat": "SOUTH BARWON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.4927571153621968
+    },
+    {
+      "seat": "EUREKA",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.002619511422308207
+    },
+    {
+      "seat": "EUREKA",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.14516602695454628
+    },
+    {
+      "seat": "RIPON",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.951661125959935
+    },
+    {
+      "seat": "RIPON",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -0.8377612213960162
+    },
+    {
+      "seat": "LOWAN",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -2.8210101862863324
+    },
+    {
+      "seat": "LOWAN",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": -3.0274100491020195
+    },
+    {
+      "seat": "POLWARTH",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.11804287236615307
+    },
+    {
+      "seat": "POLWARTH",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 0.6246486265618634
+    },
+    {
+      "seat": "SOUTH-WEST COAST",
+      "variant": "reference",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.1807971624485343
+    },
+    {
+      "seat": "SOUTH-WEST COAST",
+      "variant": "vec_exact_field",
+      "winner_correct": true,
+      "pair_correct": true,
+      "error_pp": 3.279512962244291
+    }
+  ]
+}

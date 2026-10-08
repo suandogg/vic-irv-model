@@ -521,6 +521,9 @@ def diagnose_preference_weights(
 
     raw = matrix.get(elim, {})
     vec_record = matrix.get("__vec_field_rows__", {}).get(elim)
+    pooled_fields = matrix.get("__vec_pooled_fields__", {}).get(elim, {})
+    if pooled_fields:
+        vec_record = pooled_fields.get("+".join(sorted(alive - {"ON"})))
     vec_matched = (
         scalars.get("TRIAL_VEC_EXACT_FIELD", False)
         and vec_record is not None
