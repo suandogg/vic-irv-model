@@ -520,6 +520,20 @@ def diagnose_preference_weights(
         }
 
     raw = matrix.get(elim, {})
+    vec_record = matrix.get("__vec_field_rows__", {}).get(elim)
+    vec_matched = (
+        scalars.get("TRIAL_VEC_EXACT_FIELD", False)
+        and vec_record is not None
+        and set(vec_record["field"]) == alive - {"ON"}
+        and get_on_special_prior(elim, alive, geography_class, params) is None
+    )
+    if vec_matched:
+        # Preserve this row's existing synthetic ON allocation. Only the
+        # historical non-ON conditional distribution changes; no new ON rule.
+        stored_on = float(raw.get("ON", 0) or 0)
+        raw = {party: stored_on if party == "ON" else
+               float(vec_record["shares"].get(party, 0)) * (1-stored_on)
+               for party in PARTIES}
     base = [
         float(raw.get(party, 0) or 0)
         for party in PARTIES
@@ -555,6 +569,9 @@ def diagnose_preference_weights(
             "basis": "matrix",
             "aec_coverage": coverage,
             "missing_parties": ", ".join(missing_parties),
+            "vec_exact_field_matched": bool(vec_matched),
+            "vec_evidence_field": "+".join(vec_record["field"]) if vec_matched else None,
+            "vec_method": vec_record["method"] if vec_matched else None,
         },
     ))
 

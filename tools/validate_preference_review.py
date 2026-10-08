@@ -19,8 +19,9 @@ from SRC.constants import PARTIES
 from SRC.irv import run_irv_for_district
 from SRC.lnp_precollapse_loader import apply_lnp_precollapse
 from tools.trial_oth_matrix_rebuild import rebuild_oth_matrices
+from tools.trial_vec_field_evidence import attach_vec_fields
 
-NAMES=("reference","no_incomplete_matrix_anchor","oth_params_rebuild","single_on_baseline","no_on_recipient_geography","no_non_on_recipient_geography","no_siphon","no_geography","no_constraints","no_synthetic_priority","simplified")
+NAMES=("reference","vec_exact_field","no_incomplete_matrix_anchor","oth_params_rebuild","single_on_baseline","no_on_recipient_geography","no_non_on_recipient_geography","no_siphon","no_geography","no_constraints","no_synthetic_priority","simplified")
 
 def main():
     out=ROOT/"reports"/"preference_review_2026_10_08"
@@ -33,6 +34,7 @@ def main():
     raw=raw.set_index("key")
     matrices=load_synth_pref_matrices(); params=load_params(); ideology=load_ideology_prior()
     rebuilt = rebuild_oth_matrices(matrices, params)
+    vec_fields = attach_vec_fields(matrices)
     baseline=pd.read_csv(ROOT/"data/raw/BASELINE_2CP.csv")
     baseline["key"]=baseline.district.str.upper(); baseline=baseline.set_index("key")
     rows=[]
@@ -48,7 +50,11 @@ def main():
         p=copy.deepcopy(params); p["scalar_params"]["SCENARIO_ON_PRIMARY"]=votes["ON"]*100
         for mode,matrix in (("own_matrix_reconstruction",own["matrix"]),("strict_loo_seat_class",mean_matrix(same or others))):
             for name in NAMES:
+                if name == "vec_exact_field" and mode != "own_matrix_reconstruction":
+                    continue  # Never insert the held-out seat's own extracted flows.
                 trial_matrix = matrix
+                if name == "vec_exact_field":
+                    trial_matrix = vec_fields[district]["matrix"]
                 if name == "oth_params_rebuild":
                     if mode == "own_matrix_reconstruction":
                         trial_matrix = rebuilt[district]["matrix"]
