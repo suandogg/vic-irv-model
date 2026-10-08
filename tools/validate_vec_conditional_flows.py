@@ -26,7 +26,7 @@ def distance(predicted, actual, field):
     return 50*sum(abs(predicted.get(p, 0)-actual.get(p, 0)) for p in field)
 
 
-def main():
+def main(ablations=False):
     matrices = load_synth_pref_matrices()
     evidence = attach_vec_fields(matrices)
     params = load_params()
@@ -43,14 +43,28 @@ def main():
             if len(field) < 2:
                 continue  # One destination is tautological, not predictive evidence.
             reference = diagnose_preference_weights(origin, field, matrix, item['seat_type'], params, {}, ideology)['final_flows']
-            for name, pool in pools.items():
+            comparisons = pools
+            if ablations:
+                comparisons = {name: pools['all_min3'] for name in ['unchanged', 'no_non_on_geography', 'no_constraints', 'no_incomplete_anchor', 'no_geography_or_constraints', 'no_all_three', 'historical_only_coverage', 'historical_only_coverage_no_geography']}
+            for name, pool in comparisons.items():
                 record = pool.get(origin, {}).get('+'.join(field))
                 if record is None:
                     continue  # Report coverage separately; matched-set comparisons only.
                 assert seat not in record['training_seats']
                 trial = copy.deepcopy(matrix)
                 trial['__vec_pooled_fields__'] = pool
-                predicted = diagnose_preference_weights(origin, field, trial, item['seat_type'], variant(params, 'vec_exact_field'), {}, ideology)['final_flows']
+                if name.startswith('historical_only_coverage'):
+                    # Diagnostic only: remove synthetic ON mass from a field
+                    # where ON was absent, to isolate coverage-based selection.
+                    trial.setdefault(origin, {})['ON'] = 0
+                settings = variant(params, 'vec_exact_field')
+                if name in ('no_non_on_geography', 'no_geography_or_constraints', 'no_all_three', 'historical_only_coverage_no_geography'):
+                    settings = variant(settings, 'no_non_on_recipient_geography')
+                if name in ('no_constraints', 'no_geography_or_constraints', 'no_all_three'):
+                    settings = variant(settings, 'no_constraints')
+                if name in ('no_incomplete_anchor', 'no_all_three'):
+                    settings = variant(settings, 'no_incomplete_matrix_anchor')
+                predicted = diagnose_preference_weights(origin, field, trial, item['seat_type'], settings, {}, ideology)['final_flows']
                 rows.append({'seat': seat, 'origin': origin, 'field': '+'.join(field), 'variant': name,
                              'training_seats': len(record['training_seats']),
                              'reference_distance_pp': distance(reference, target['shares'], field),
@@ -59,10 +73,10 @@ def main():
     eligible = sum(len(r['field']) >= 2 for item in evidence.values() for r in item['matrix'].get('__vec_field_rows__', {}).values())
     summary = {}
     common_keys = None
-    for name in pools:
+    for name in comparisons:
         keys = {(r['seat'], r['origin'], r['field']) for r in rows if r['variant'] == name}
         common_keys = keys if common_keys is None else common_keys & keys
-    for name in pools:
+    for name in comparisons:
         selected = [r for r in rows if r['variant'] == name]
         summary[name] = {'matched_fields': len(selected), 'eligible_fields': eligible,
                          'reference_distance_pp': sum(r['reference_distance_pp'] for r in selected)/len(selected),
@@ -72,10 +86,10 @@ def main():
         summary[name]['all_variants_common_fields'] = len(shared)
         summary[name]['common_engine_distance_pp'] = sum(r['engine_distance_pp'] for r in shared)/len(shared)
         summary[name]['common_direct_pool_distance_pp'] = sum(r['direct_pool_distance_pp'] for r in shared)/len(shared)
-    target = ROOT/'reports/preference_review_2026_10_08/vec_conditional_flows.json'
+    target = ROOT/'reports/preference_review_2026_10_08'/('vec_conditional_ablations.json' if ablations else 'vec_conditional_flows.json')
     target.write_text(json.dumps({'metric': 'Mean half-L1 flow-share distance in percentage points, equal weight per held-out category-field; each reference comparison uses identical matched fields.', 'summary': summary, 'fields': rows}, indent=2)+'\n')
     print(json.dumps(summary, indent=2))
 
 
 if __name__ == '__main__':
-    main()
+    main(ablations='--ablations' in sys.argv)
