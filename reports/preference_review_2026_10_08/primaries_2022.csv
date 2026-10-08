@@ -8,19 +8,19 @@ Box Hill,North-Eastern Metro,Middle Ring,ALP,OTH,0.07270836186699872
 Bulleen,North-Eastern Metro,Middle Ring,LNP,ALP,0.3174975721253218
 Bulleen,North-Eastern Metro,Middle Ring,LNP,LNP,0.49386468714169407
 Bulleen,North-Eastern Metro,Middle Ring,LNP,GRN,0.11006300938101679
-Bulleen,North-Eastern Metro,Middle Ring,LNP,ON,0.001583003184080514
+Bulleen,North-Eastern Metro,Middle Ring,LNP,ON,0.0015830031840805142
 Bulleen,North-Eastern Metro,Middle Ring,LNP,IND,0.010335514642871779
 Bulleen,North-Eastern Metro,Middle Ring,LNP,OTH,0.06665621352501505
 Glen Waverley,North-Eastern Metro,Middle Ring,ALP,ALP,0.39920096868269095
 Glen Waverley,North-Eastern Metro,Middle Ring,ALP,LNP,0.4181174726295427
 Glen Waverley,North-Eastern Metro,Middle Ring,ALP,GRN,0.09373314362305654
-Glen Waverley,North-Eastern Metro,Middle Ring,ALP,ON,0.0014749514780537413
+Glen Waverley,North-Eastern Metro,Middle Ring,ALP,ON,0.0014749514780537417
 Glen Waverley,North-Eastern Metro,Middle Ring,ALP,IND,9.894388520464058e-10
 Glen Waverley,North-Eastern Metro,Middle Ring,ALP,OTH,0.08747346259721715
 Ivanhoe,North-Eastern Metro,Middle Ring,ALP,ALP,0.4158442310211472
 Ivanhoe,North-Eastern Metro,Middle Ring,ALP,LNP,0.31525562014133857
 Ivanhoe,North-Eastern Metro,Middle Ring,ALP,GRN,0.18425130342931248
-Ivanhoe,North-Eastern Metro,Middle Ring,ALP,ON,0.0019710914208744975
+Ivanhoe,North-Eastern Metro,Middle Ring,ALP,ON,0.001971091420874498
 Ivanhoe,North-Eastern Metro,Middle Ring,ALP,IND,0.01311582723169843
 Ivanhoe,North-Eastern Metro,Middle Ring,ALP,OTH,0.06956192675562879
 Bundoora,North-Eastern Metro,Middle Ring,ALP,ALP,0.4768901574610168
@@ -32,25 +32,25 @@ Bundoora,North-Eastern Metro,Middle Ring,ALP,OTH,0.1081922758628172
 Bayswater,North-Eastern Metro,Outer Metro,ALP,ALP,0.38134757078570963
 Bayswater,North-Eastern Metro,Outer Metro,ALP,LNP,0.39575308485546723
 Bayswater,North-Eastern Metro,Outer Metro,ALP,GRN,0.08149623710636894
-Bayswater,North-Eastern Metro,Outer Metro,ALP,ON,0.0022738950122957492
+Bayswater,North-Eastern Metro,Outer Metro,ALP,ON,0.0022738950122957497
 Bayswater,North-Eastern Metro,Outer Metro,ALP,IND,0.01552022208076822
 Bayswater,North-Eastern Metro,Outer Metro,ALP,OTH,0.12360899015939024
 Croydon,North-Eastern Metro,Outer Metro,LNP,ALP,0.3343048637517131
 Croydon,North-Eastern Metro,Outer Metro,LNP,LNP,0.4409864871329818
 Croydon,North-Eastern Metro,Outer Metro,LNP,GRN,0.1061586173369912
-Croydon,North-Eastern Metro,Outer Metro,LNP,ON,0.002232462948048793
+Croydon,North-Eastern Metro,Outer Metro,LNP,ON,0.0022324629480487937
 Croydon,North-Eastern Metro,Outer Metro,LNP,IND,1.0057095120887805e-12
 Croydon,North-Eastern Metro,Outer Metro,LNP,OTH,0.11631756882925946
 Ringwood,North-Eastern Metro,Outer Metro,LNP,ALP,0.3774218979091117
 Ringwood,North-Eastern Metro,Outer Metro,LNP,LNP,0.36534875242169373
 Ringwood,North-Eastern Metro,Outer Metro,LNP,GRN,0.1531235782236707
-Ringwood,North-Eastern Metro,Outer Metro,LNP,ON,0.001652544556536429
+Ringwood,North-Eastern Metro,Outer Metro,LNP,ON,0.0016525445565364289
 Ringwood,North-Eastern Metro,Outer Metro,LNP,IND,1.0055779263577865e-12
 Ringwood,North-Eastern Metro,Outer Metro,LNP,OTH,0.10245322688798186
 Warrandyte,North-Eastern Metro,Outer Metro,LNP,ALP,0.3114439328903503
 Warrandyte,North-Eastern Metro,Outer Metro,LNP,LNP,0.49363786808688565
 Warrandyte,North-Eastern Metro,Outer Metro,LNP,GRN,0.1143953775775479
-Warrandyte,North-Eastern Metro,Outer Metro,LNP,ON,0.0017978554150539653
+Warrandyte,North-Eastern Metro,Outer Metro,LNP,ON,0.0017978554150539655
 Warrandyte,North-Eastern Metro,Outer Metro,LNP,IND,0.010047435177474858
 Warrandyte,North-Eastern Metro,Outer Metro,LNP,OTH,0.06867753085268742
 Eltham,North-Eastern Metro,Outer Metro,ALP,ALP,0.4370241717489566
@@ -62,25 +62,25 @@ Eltham,North-Eastern Metro,Outer Metro,ALP,OTH,0.06952874587955227
 Mill Park,North-Eastern Metro,Outer Metro,ALP,ALP,0.5003135391031802
 Mill Park,North-Eastern Metro,Outer Metro,ALP,LNP,0.2544209830179618
 Mill Park,North-Eastern Metro,Outer Metro,ALP,GRN,0.07205313407263805
-Mill Park,North-Eastern Metro,Outer Metro,ALP,ON,0.0034602486140286187
+Mill Park,North-Eastern Metro,Outer Metro,ALP,ON,0.00346024861402862
 Mill Park,North-Eastern Metro,Outer Metro,ALP,IND,1.0261886015669724e-09
 Mill Park,North-Eastern Metro,Outer Metro,ALP,OTH,0.1697520941660028
 Brunswick,Northern Metro,Inner Ring,GRN,ALP,0.28977609354491934
 Brunswick,Northern Metro,Inner Ring,GRN,LNP,0.10185389796402503
 Brunswick,Northern Metro,Inner Ring,GRN,GRN,0.4380198614992655
-Brunswick,Northern Metro,Inner Ring,GRN,ON,0.0016348796498045076
+Brunswick,Northern Metro,Inner Ring,GRN,ON,0.0016348796498045078
 Brunswick,Northern Metro,Inner Ring,GRN,IND,0.019800661393730466
 Brunswick,Northern Metro,Inner Ring,GRN,OTH,0.14891460594825506
 Northcote,Northern Metro,Inner Ring,ALP,ALP,0.38921844485554535
 Northcote,Northern Metro,Inner Ring,ALP,LNP,0.11829857150153607
 Northcote,Northern Metro,Inner Ring,ALP,GRN,0.3285706794777761
-Northcote,Northern Metro,Inner Ring,ALP,ON,0.0023373221277564224
+Northcote,Northern Metro,Inner Ring,ALP,ON,0.002337322127756423
 Northcote,Northern Metro,Inner Ring,ALP,IND,0.00980767094805717
 Northcote,Northern Metro,Inner Ring,ALP,OTH,0.15176731108932878
 Melbourne,Northern Metro,Inner Ring,GRN,ALP,0.3001768468657703
 Melbourne,Northern Metro,Inner Ring,GRN,LNP,0.1766520981382427
 Melbourne,Northern Metro,Inner Ring,GRN,GRN,0.38042172205794533
-Melbourne,Northern Metro,Inner Ring,GRN,ON,0.0017955196572406445
+Melbourne,Northern Metro,Inner Ring,GRN,ON,0.0017955196572406447
 Melbourne,Northern Metro,Inner Ring,GRN,IND,0.009043334891165529
 Melbourne,Northern Metro,Inner Ring,GRN,OTH,0.1319104783896355
 Richmond,Northern Metro,Inner Ring,GRN,ALP,0.3323925539696063
@@ -92,7 +92,7 @@ Richmond,Northern Metro,Inner Ring,GRN,OTH,0.13233206883912216
 Essendon,Northern Metro,Middle Ring,ALP,ALP,0.393076032954801
 Essendon,Northern Metro,Middle Ring,ALP,LNP,0.29636310153925377
 Essendon,Northern Metro,Middle Ring,ALP,GRN,0.1613807378278773
-Essendon,Northern Metro,Middle Ring,ALP,ON,0.002768517208548225
+Essendon,Northern Metro,Middle Ring,ALP,ON,0.002768517208548226
 Essendon,Northern Metro,Middle Ring,ALP,IND,0.018545978807760728
 Essendon,Northern Metro,Middle Ring,ALP,OTH,0.12786563166175902
 Pascoe Vale,Northern Metro,Middle Ring,ALP,ALP,0.375194507693433
@@ -104,25 +104,25 @@ Pascoe Vale,Northern Metro,Middle Ring,ALP,OTH,0.1288071333928795
 Preston,Northern Metro,Middle Ring,ALP,ALP,0.4006794192407496
 Preston,Northern Metro,Middle Ring,ALP,LNP,0.16770341067645284
 Preston,Northern Metro,Middle Ring,ALP,GRN,0.14957509790377982
-Preston,Northern Metro,Middle Ring,ALP,ON,0.003094279891956797
+Preston,Northern Metro,Middle Ring,ALP,ON,0.0030942798919567976
 Preston,Northern Metro,Middle Ring,ALP,IND,0.12873967995203073
 Preston,Northern Metro,Middle Ring,ALP,OTH,0.1502081123350303
 Broadmeadows,Northern Metro,Outer Metro,ALP,ALP,0.4727708713140202
 Broadmeadows,Northern Metro,Outer Metro,ALP,LNP,0.2080073371072283
 Broadmeadows,Northern Metro,Outer Metro,ALP,GRN,0.08323594427358214
-Broadmeadows,Northern Metro,Outer Metro,ALP,ON,0.0026260574244937967
+Broadmeadows,Northern Metro,Outer Metro,ALP,ON,0.002626057424493797
 Broadmeadows,Northern Metro,Outer Metro,ALP,IND,0.07524380282719714
 Broadmeadows,Northern Metro,Outer Metro,ALP,OTH,0.1581159870534785
 Greenvale,Northern Metro,Outer Metro,ALP,ALP,0.4504276568154622
 Greenvale,Northern Metro,Outer Metro,ALP,LNP,0.24800916518647179
 Greenvale,Northern Metro,Outer Metro,ALP,GRN,0.06221156469282743
-Greenvale,Northern Metro,Outer Metro,ALP,ON,0.0020549671412022296
+Greenvale,Northern Metro,Outer Metro,ALP,ON,0.00205496714120223
 Greenvale,Northern Metro,Outer Metro,ALP,IND,0.05868202584014269
 Greenvale,Northern Metro,Outer Metro,ALP,OTH,0.17861462032389355
 Thomastown,Northern Metro,Outer Metro,ALP,ALP,0.5235048488017306
 Thomastown,Northern Metro,Outer Metro,ALP,LNP,0.22018745605691784
 Thomastown,Northern Metro,Outer Metro,ALP,GRN,0.06417620152007819
-Thomastown,Northern Metro,Outer Metro,ALP,ON,0.003049564824040014
+Thomastown,Northern Metro,Outer Metro,ALP,ON,0.0030495648240400144
 Thomastown,Northern Metro,Outer Metro,ALP,IND,0.030228444951427586
 Thomastown,Northern Metro,Outer Metro,ALP,OTH,0.15885348384580586
 Kalkallo,Northern Metro,Peri-urban,ALP,ALP,0.5327972849207441
@@ -134,31 +134,31 @@ Kalkallo,Northern Metro,Peri-urban,ALP,OTH,0.1540295738566341
 Clarinda,South-Eastern Metro,Middle Ring,ALP,ALP,0.4549388035170993
 Clarinda,South-Eastern Metro,Middle Ring,ALP,LNP,0.2840812816036783
 Clarinda,South-Eastern Metro,Middle Ring,ALP,GRN,0.07952580544788754
-Clarinda,South-Eastern Metro,Middle Ring,ALP,ON,0.002590224887284164
+Clarinda,South-Eastern Metro,Middle Ring,ALP,ON,0.0025902248872841645
 Clarinda,South-Eastern Metro,Middle Ring,ALP,IND,0.09723218443219105
 Clarinda,South-Eastern Metro,Middle Ring,ALP,OTH,0.08163170011185958
 Mordialloc,South-Eastern Metro,Middle Ring,ALP,ALP,0.43560240817179297
 Mordialloc,South-Eastern Metro,Middle Ring,ALP,LNP,0.314256058455624
 Mordialloc,South-Eastern Metro,Middle Ring,ALP,GRN,0.09835920760873954
-Mordialloc,South-Eastern Metro,Middle Ring,ALP,ON,0.0025644404620145003
+Mordialloc,South-Eastern Metro,Middle Ring,ALP,ON,0.0025644404620145007
 Mordialloc,South-Eastern Metro,Middle Ring,ALP,IND,0.06721046491393895
 Mordialloc,South-Eastern Metro,Middle Ring,ALP,OTH,0.0820074203878901
 Mulgrave,South-Eastern Metro,Middle Ring,ALP,ALP,0.5145766777100215
 Mulgrave,South-Eastern Metro,Middle Ring,ALP,LNP,0.19423485828621964
 Mulgrave,South-Eastern Metro,Middle Ring,ALP,GRN,0.054744295029923375
-Mulgrave,South-Eastern Metro,Middle Ring,ALP,ON,0.0025157690937321086
+Mulgrave,South-Eastern Metro,Middle Ring,ALP,ON,0.002515769093732109
 Mulgrave,South-Eastern Metro,Middle Ring,ALP,IND,0.16198416956983278
 Mulgrave,South-Eastern Metro,Middle Ring,ALP,OTH,0.07194423031027074
 Rowville,South-Eastern Metro,Outer Metro,LNP,ALP,0.3148589221515235
 Rowville,South-Eastern Metro,Outer Metro,LNP,LNP,0.43212569387593813
 Rowville,South-Eastern Metro,Outer Metro,LNP,GRN,0.07836523228390574
-Rowville,South-Eastern Metro,Outer Metro,LNP,ON,0.0019421694667378774
+Rowville,South-Eastern Metro,Outer Metro,LNP,ON,0.0019421694667378778
 Rowville,South-Eastern Metro,Outer Metro,LNP,IND,0.10438533856670153
 Rowville,South-Eastern Metro,Outer Metro,LNP,OTH,0.06832264365519324
 Cranbourne,South-Eastern Metro,Outer Metro,ALP,ALP,0.4474650806112792
 Cranbourne,South-Eastern Metro,Outer Metro,ALP,LNP,0.29415994694355146
 Cranbourne,South-Eastern Metro,Outer Metro,ALP,GRN,0.054249394824426755
-Cranbourne,South-Eastern Metro,Outer Metro,ALP,ON,0.003802399473922971
+Cranbourne,South-Eastern Metro,Outer Metro,ALP,ON,0.0038023994739229718
 Cranbourne,South-Eastern Metro,Outer Metro,ALP,IND,0.012586994685844741
 Cranbourne,South-Eastern Metro,Outer Metro,ALP,OTH,0.18773618346097493
 Dandenong,South-Eastern Metro,Outer Metro,ALP,ALP,0.552650241737416
@@ -170,31 +170,31 @@ Dandenong,South-Eastern Metro,Outer Metro,ALP,OTH,0.14060463228760994
 Narre Warren North,South-Eastern Metro,Outer Metro,ALP,ALP,0.4675899946875758
 Narre Warren North,South-Eastern Metro,Outer Metro,ALP,LNP,0.2893042151861766
 Narre Warren North,South-Eastern Metro,Outer Metro,ALP,GRN,0.0675217208690099
-Narre Warren North,South-Eastern Metro,Outer Metro,ALP,ON,0.003727889048727635
+Narre Warren North,South-Eastern Metro,Outer Metro,ALP,ON,0.0037278890487276355
 Narre Warren North,South-Eastern Metro,Outer Metro,ALP,IND,0.015726823948025062
 Narre Warren North,South-Eastern Metro,Outer Metro,ALP,OTH,0.15612935626048513
 Narre Warren South,South-Eastern Metro,Outer Metro,ALP,ALP,0.4701327715486986
 Narre Warren South,South-Eastern Metro,Outer Metro,ALP,LNP,0.30030240440452666
 Narre Warren South,South-Eastern Metro,Outer Metro,ALP,GRN,0.06649186968827318
-Narre Warren South,South-Eastern Metro,Outer Metro,ALP,ON,0.0035392292666361525
+Narre Warren South,South-Eastern Metro,Outer Metro,ALP,ON,0.003539229266636153
 Narre Warren South,South-Eastern Metro,Outer Metro,ALP,IND,0.007390834454230937
 Narre Warren South,South-Eastern Metro,Outer Metro,ALP,OTH,0.15214289063763456
 Frankston,South-Eastern Metro,Outer Metro,ALP,ALP,0.4069715956249874
 Frankston,South-Eastern Metro,Outer Metro,ALP,LNP,0.3034863772778365
 Frankston,South-Eastern Metro,Outer Metro,ALP,GRN,0.11686591760111817
-Frankston,South-Eastern Metro,Outer Metro,ALP,ON,0.0031452819259243344
+Frankston,South-Eastern Metro,Outer Metro,ALP,ON,0.003145281925924335
 Frankston,South-Eastern Metro,Outer Metro,ALP,IND,0.02790648690004073
 Frankston,South-Eastern Metro,Outer Metro,ALP,OTH,0.14162434067009283
 Berwick,South-Eastern Metro,Peri-urban,LNP,ALP,0.3544289839995666
 Berwick,South-Eastern Metro,Peri-urban,LNP,LNP,0.4613755042132114
 Berwick,South-Eastern Metro,Peri-urban,LNP,GRN,0.09315641575006024
-Berwick,South-Eastern Metro,Peri-urban,LNP,ON,0.003204272318159654
+Berwick,South-Eastern Metro,Peri-urban,LNP,ON,0.003204272318159655
 Berwick,South-Eastern Metro,Peri-urban,LNP,IND,1.0059024844665148e-12
 Berwick,South-Eastern Metro,Peri-urban,LNP,OTH,0.0878348237179962
 Carrum,South-Eastern Metro,Peri-urban,ALP,ALP,0.48530379530331486
 Carrum,South-Eastern Metro,Peri-urban,ALP,LNP,0.3113885520999562
 Carrum,South-Eastern Metro,Peri-urban,ALP,GRN,0.07303961390316985
-Carrum,South-Eastern Metro,Peri-urban,ALP,ON,0.003365599735142259
+Carrum,South-Eastern Metro,Peri-urban,ALP,ON,0.0033655997351422595
 Carrum,South-Eastern Metro,Peri-urban,ALP,IND,0.020154302973397598
 Carrum,South-Eastern Metro,Peri-urban,ALP,OTH,0.10674813598501919
 Albert Park,Southern Metro,Inner Ring,ALP,ALP,0.3688026112006736
@@ -206,7 +206,7 @@ Albert Park,Southern Metro,Inner Ring,ALP,OTH,0.09067813068930553
 Brighton,Southern Metro,Inner Ring,LNP,ALP,0.23880256320664456
 Brighton,Southern Metro,Inner Ring,LNP,LNP,0.44271034049451735
 Brighton,Southern Metro,Inner Ring,LNP,GRN,0.1386882304780154
-Brighton,Southern Metro,Inner Ring,LNP,ON,0.0013695321985602146
+Brighton,Southern Metro,Inner Ring,LNP,ON,0.0013695321985602144
 Brighton,Southern Metro,Inner Ring,LNP,IND,0.09667042664582368
 Brighton,Southern Metro,Inner Ring,LNP,OTH,0.08175890697643882
 Caulfield,Southern Metro,Inner Ring,LNP,ALP,0.27393428368284706
@@ -224,7 +224,7 @@ Prahran,Southern Metro,Inner Ring,Greens,OTH,0.09724728040372022
 Hawthorn,Southern Metro,Inner Ring,LNP,ALP,0.22673506542414476
 Hawthorn,Southern Metro,Inner Ring,LNP,LNP,0.4242794238907037
 Hawthorn,Southern Metro,Inner Ring,LNP,GRN,0.12800787034427968
-Hawthorn,Southern Metro,Inner Ring,LNP,ON,0.001004655961242011
+Hawthorn,Southern Metro,Inner Ring,LNP,ON,0.0010046559612420112
 Hawthorn,Southern Metro,Inner Ring,LNP,IND,0.15518136761047674
 Hawthorn,Southern Metro,Inner Ring,LNP,OTH,0.06479161676915307
 Kew,Southern Metro,Inner Ring,LNP,ALP,0.22262785035603402
@@ -242,37 +242,37 @@ Malvern,Southern Metro,Inner Ring,LNP,OTH,0.07312908366585283
 Bentleigh,Southern Metro,Middle Ring,ALP,ALP,0.44391233914497
 Bentleigh,Southern Metro,Middle Ring,ALP,LNP,0.35639441255357024
 Bentleigh,Southern Metro,Middle Ring,ALP,GRN,0.1031062648105754
-Bentleigh,Southern Metro,Middle Ring,ALP,ON,0.0021026935370825365
+Bentleigh,Southern Metro,Middle Ring,ALP,ON,0.002102693537082537
 Bentleigh,Southern Metro,Middle Ring,ALP,IND,0.019706810072752375
 Bentleigh,Southern Metro,Middle Ring,ALP,OTH,0.07477747988104948
 Sandringham,Southern Metro,Middle Ring,LNP,ALP,0.25293604688682503
 Sandringham,Southern Metro,Middle Ring,LNP,LNP,0.4498074440365958
 Sandringham,Southern Metro,Middle Ring,LNP,GRN,0.13100808425167826
-Sandringham,Southern Metro,Middle Ring,LNP,ON,0.0015875836957654473
+Sandringham,Southern Metro,Middle Ring,LNP,ON,0.0015875836957654475
 Sandringham,Southern Metro,Middle Ring,LNP,IND,0.07675321494623977
 Sandringham,Southern Metro,Middle Ring,LNP,OTH,0.08790762618289566
 Ashwood,Southern Metro,Middle Ring,ALP,ALP,0.388296314805629
 Ashwood,Southern Metro,Middle Ring,ALP,LNP,0.3978850974370679
 Ashwood,Southern Metro,Middle Ring,ALP,GRN,0.14596057408466023
-Ashwood,Southern Metro,Middle Ring,ALP,ON,0.0015288314637249487
+Ashwood,Southern Metro,Middle Ring,ALP,ON,0.001528831463724949
 Ashwood,Southern Metro,Middle Ring,ALP,IND,0.019737342643587896
 Ashwood,Southern Metro,Middle Ring,ALP,OTH,0.046591839565330126
 Oakleigh,Southern Metro,Middle Ring,ALP,ALP,0.4522548995898371
 Oakleigh,Southern Metro,Middle Ring,ALP,LNP,0.2971459860702366
 Oakleigh,Southern Metro,Middle Ring,ALP,GRN,0.1564711389099976
-Oakleigh,Southern Metro,Middle Ring,ALP,ON,0.002525756270731484
+Oakleigh,Southern Metro,Middle Ring,ALP,ON,0.002525756270731485
 Oakleigh,Southern Metro,Middle Ring,ALP,IND,0.022619585179004965
 Oakleigh,Southern Metro,Middle Ring,ALP,OTH,0.0689826339801922
 Footscray,Western Metro,Inner Ring,ALP,ALP,0.4390809065703982
 Footscray,Western Metro,Inner Ring,ALP,LNP,0.17701656262771656
 Footscray,Western Metro,Inner Ring,ALP,GRN,0.2217331876686602
-Footscray,Western Metro,Inner Ring,ALP,ON,0.0021958701873601733
+Footscray,Western Metro,Inner Ring,ALP,ON,0.0021958701873601738
 Footscray,Western Metro,Inner Ring,ALP,IND,0.003392318283332681
 Footscray,Western Metro,Inner Ring,ALP,OTH,0.15658115466253203
 Williamstown,Western Metro,Inner Ring,ALP,ALP,0.41482030207036125
 Williamstown,Western Metro,Inner Ring,ALP,LNP,0.2624167294285493
 Williamstown,Western Metro,Inner Ring,ALP,GRN,0.15189174220248697
-Williamstown,Western Metro,Inner Ring,ALP,ON,0.002782089552682049
+Williamstown,Western Metro,Inner Ring,ALP,ON,0.00278208955268205
 Williamstown,Western Metro,Inner Ring,ALP,IND,0.036794334340459485
 Williamstown,Western Metro,Inner Ring,ALP,OTH,0.13129480240546093
 Laverton,Western Metro,Middle Ring,ALP,ALP,0.4675880543466507
@@ -284,25 +284,25 @@ Laverton,Western Metro,Middle Ring,ALP,OTH,0.1849643344830467
 Niddrie,Western Metro,Middle Ring,ALP,ALP,0.44608454237760026
 Niddrie,Western Metro,Middle Ring,ALP,LNP,0.3426704342357182
 Niddrie,Western Metro,Middle Ring,ALP,GRN,0.07501626925765485
-Niddrie,Western Metro,Middle Ring,ALP,ON,0.0036146667474158383
+Niddrie,Western Metro,Middle Ring,ALP,ON,0.0036146667474158387
 Niddrie,Western Metro,Middle Ring,ALP,IND,1.0057816847465528e-12
 Niddrie,Western Metro,Middle Ring,ALP,OTH,0.13261408738060512
 St Albans,Western Metro,Middle Ring,ALP,ALP,0.44816461303771205
 St Albans,Western Metro,Middle Ring,ALP,LNP,0.2518387305388328
 St Albans,Western Metro,Middle Ring,ALP,GRN,0.08145994588513622
-St Albans,Western Metro,Middle Ring,ALP,ON,0.0028162228906404552
+St Albans,Western Metro,Middle Ring,ALP,ON,0.0028162228906404557
 St Albans,Western Metro,Middle Ring,ALP,IND,0.032602244226231106
 St Albans,Western Metro,Middle Ring,ALP,OTH,0.18311824342144717
 Kororoit,Western Metro,Outer Metro,ALP,ALP,0.4730551723840731
 Kororoit,Western Metro,Outer Metro,ALP,LNP,0.2313007514325477
 Kororoit,Western Metro,Outer Metro,ALP,GRN,0.07115345023662549
-Kororoit,Western Metro,Outer Metro,ALP,ON,0.0026911867366402197
+Kororoit,Western Metro,Outer Metro,ALP,ON,0.0026911867366402192
 Kororoit,Western Metro,Outer Metro,ALP,IND,0.017609350023328068
 Kororoit,Western Metro,Outer Metro,ALP,OTH,0.20419008918678544
 Point Cook,Western Metro,Outer Metro,ALP,ALP,0.412100779627176
 Point Cook,Western Metro,Outer Metro,ALP,LNP,0.24127053944303778
 Point Cook,Western Metro,Outer Metro,ALP,GRN,0.07152450079374804
-Point Cook,Western Metro,Outer Metro,ALP,ON,0.0031752468782149817
+Point Cook,Western Metro,Outer Metro,ALP,ON,0.003175246878214982
 Point Cook,Western Metro,Outer Metro,ALP,IND,0.12541475922049006
 Point Cook,Western Metro,Outer Metro,ALP,OTH,0.14651417403733305
 Sydenham,Western Metro,Outer Metro,ALP,ALP,0.44895432646146743
@@ -314,37 +314,37 @@ Sydenham,Western Metro,Outer Metro,ALP,OTH,0.17907309567359173
 Tarneit,Western Metro,Outer Metro,ALP,ALP,0.47977246940474977
 Tarneit,Western Metro,Outer Metro,ALP,LNP,0.262028210424944
 Tarneit,Western Metro,Outer Metro,ALP,GRN,0.07574925094193717
-Tarneit,Western Metro,Outer Metro,ALP,ON,0.0029359070391430982
+Tarneit,Western Metro,Outer Metro,ALP,ON,0.002935907039143098
 Tarneit,Western Metro,Outer Metro,ALP,IND,0.035033866757104085
 Tarneit,Western Metro,Outer Metro,ALP,OTH,0.14448029543212187
 Sunbury,Western Metro,Peri-urban,ALP,ALP,0.4440950297847143
 Sunbury,Western Metro,Peri-urban,ALP,LNP,0.3192659821966985
 Sunbury,Western Metro,Peri-urban,ALP,GRN,0.06988653231665728
-Sunbury,Western Metro,Peri-urban,ALP,ON,0.003875612708721239
+Sunbury,Western Metro,Peri-urban,ALP,ON,0.0038756127087212393
 Sunbury,Western Metro,Peri-urban,ALP,IND,0.03851048665478755
 Sunbury,Western Metro,Peri-urban,ALP,OTH,0.12436635633842118
 Werribee,Western Metro,Peri-urban,ALP,ALP,0.4423922512187379
 Werribee,Western Metro,Peri-urban,ALP,LNP,0.22737310623501747
 Werribee,Western Metro,Peri-urban,ALP,GRN,0.06781730775919115
-Werribee,Western Metro,Peri-urban,ALP,ON,0.0033899962667088587
+Werribee,Western Metro,Peri-urban,ALP,ON,0.0033899962667088596
 Werribee,Western Metro,Peri-urban,ALP,IND,0.12156379600405927
 Werribee,Western Metro,Peri-urban,ALP,OTH,0.1374635425162853
 Evelyn,Eastern Victoria,Peri-urban,LNP,ALP,0.3268175510129541
 Evelyn,Eastern Victoria,Peri-urban,LNP,LNP,0.47430312085651766
 Evelyn,Eastern Victoria,Peri-urban,LNP,GRN,0.09617383320081255
-Evelyn,Eastern Victoria,Peri-urban,LNP,ON,0.002694038245806304
+Evelyn,Eastern Victoria,Peri-urban,LNP,ON,0.0026940382458063043
 Evelyn,Eastern Victoria,Peri-urban,LNP,IND,0.014668520868360464
 Evelyn,Eastern Victoria,Peri-urban,LNP,OTH,0.08534293581554886
 Monbulk,Eastern Victoria,Peri-urban,ALP,ALP,0.3617458533269882
 Monbulk,Eastern Victoria,Peri-urban,ALP,LNP,0.30880917024358534
 Monbulk,Eastern Victoria,Peri-urban,ALP,GRN,0.1514718137110537
-Monbulk,Eastern Victoria,Peri-urban,ALP,ON,0.0026842980467687424
+Monbulk,Eastern Victoria,Peri-urban,ALP,ON,0.0026842980467687433
 Monbulk,Eastern Victoria,Peri-urban,ALP,IND,0.08473949995084443
 Monbulk,Eastern Victoria,Peri-urban,ALP,OTH,0.09054936472075957
 Pakenham,Eastern Victoria,Peri-urban,ALP,ALP,0.3351240235405868
 Pakenham,Eastern Victoria,Peri-urban,ALP,LNP,0.3541985892284349
 Pakenham,Eastern Victoria,Peri-urban,ALP,GRN,0.07117833779053145
-Pakenham,Eastern Victoria,Peri-urban,ALP,ON,0.003653403774982029
+Pakenham,Eastern Victoria,Peri-urban,ALP,ON,0.0036534037749820295
 Pakenham,Eastern Victoria,Peri-urban,ALP,IND,0.07272855941279305
 Pakenham,Eastern Victoria,Peri-urban,ALP,OTH,0.16311708625267185
 Mornington,Eastern Victoria,Peri-urban,LNP,ALP,0.22514661098754407
@@ -362,37 +362,37 @@ Nepean,Eastern Victoria,Peri-urban,LNP,OTH,0.07115144610620429
 Morwell,Eastern Victoria,Provincial,LNP,ALP,0.3203404212131023
 Morwell,Eastern Victoria,Provincial,LNP,LNP,0.3402553463361412
 Morwell,Eastern Victoria,Provincial,LNP,GRN,0.042205311795848806
-Morwell,Eastern Victoria,Provincial,LNP,ON,0.005452834855312099
+Morwell,Eastern Victoria,Provincial,LNP,ON,0.0054528348553121
 Morwell,Eastern Victoria,Provincial,LNP,IND,0.13791963615045966
 Morwell,Eastern Victoria,Provincial,LNP,OTH,0.15382644964913592
 Gippsland East,Eastern Victoria,Regional,LNP,ALP,0.16344262612885477
 Gippsland East,Eastern Victoria,Regional,LNP,LNP,0.6174641112924081
 Gippsland East,Eastern Victoria,Regional,LNP,GRN,0.06514177615927172
-Gippsland East,Eastern Victoria,Regional,LNP,ON,0.004637766176699005
+Gippsland East,Eastern Victoria,Regional,LNP,ON,0.004637766176699007
 Gippsland East,Eastern Victoria,Regional,LNP,IND,0.022321199599341042
 Gippsland East,Eastern Victoria,Regional,LNP,OTH,0.12699252064342537
 Gippsland South,Eastern Victoria,Regional,LNP,ALP,0.22622087693710746
 Gippsland South,Eastern Victoria,Regional,LNP,LNP,0.5460604091119806
 Gippsland South,Eastern Victoria,Regional,LNP,GRN,0.0876061449891637
-Gippsland South,Eastern Victoria,Regional,LNP,ON,0.004288006884195903
+Gippsland South,Eastern Victoria,Regional,LNP,ON,0.004288006884195904
 Gippsland South,Eastern Victoria,Regional,LNP,IND,0.04941614519076946
 Gippsland South,Eastern Victoria,Regional,LNP,OTH,0.08640841688678284
 Bass,Eastern Victoria,Regional,ALP,ALP,0.3482741286374231
 Bass,Eastern Victoria,Regional,ALP,LNP,0.40114448626594573
 Bass,Eastern Victoria,Regional,ALP,GRN,0.08009294396781332
-Bass,Eastern Victoria,Regional,ALP,ON,0.0036566563773449147
+Bass,Eastern Victoria,Regional,ALP,ON,0.003656656377344915
 Bass,Eastern Victoria,Regional,ALP,IND,0.05312859634036105
 Bass,Eastern Victoria,Regional,ALP,OTH,0.1137031884111119
 Hastings,Eastern Victoria,Regional,ALP,ALP,0.36562852661394657
 Hastings,Eastern Victoria,Regional,ALP,LNP,0.4062599000130203
 Hastings,Eastern Victoria,Regional,ALP,GRN,0.10119098747258903
-Hastings,Eastern Victoria,Regional,ALP,ON,0.0035765564197238822
+Hastings,Eastern Victoria,Regional,ALP,ON,0.0035765564197238827
 Hastings,Eastern Victoria,Regional,ALP,IND,0.009257228139540776
 Hastings,Eastern Victoria,Regional,ALP,OTH,0.11408680134117943
 Narracan,Eastern Victoria,Regional,LNP,ALP,0.26993956338475383
 Narracan,Eastern Victoria,Regional,LNP,LNP,0.4997849355662569
 Narracan,Eastern Victoria,Regional,LNP,GRN,0.15212715204275368
-Narracan,Eastern Victoria,Regional,LNP,ON,0.00368229290512895
+Narracan,Eastern Victoria,Regional,LNP,ON,0.0036822929051289503
 Narracan,Eastern Victoria,Regional,LNP,IND,0.06173409778162783
 Narracan,Eastern Victoria,Regional,LNP,OTH,0.012731958319478915
 Yan Yean,Northern Victoria,Peri-urban,ALP,ALP,0.4399884476902549
@@ -416,19 +416,19 @@ Bendigo East,Northern Victoria,Provincial,ALP,OTH,0.07878398754115598
 Bendigo West,Northern Victoria,Provincial,ALP,ALP,0.46172397578812746
 Bendigo West,Northern Victoria,Provincial,ALP,LNP,0.25680519581643046
 Bendigo West,Northern Victoria,Provincial,ALP,GRN,0.12177483840404711
-Bendigo West,Northern Victoria,Provincial,ALP,ON,0.0025290177158896372
+Bendigo West,Northern Victoria,Provincial,ALP,ON,0.0025290177158896377
 Bendigo West,Northern Victoria,Provincial,ALP,IND,0.024921427358721188
 Bendigo West,Northern Victoria,Provincial,ALP,OTH,0.1322455449167841
 Eildon,Northern Victoria,Regional,LNP,ALP,0.28942552267240507
 Eildon,Northern Victoria,Regional,LNP,LNP,0.4745783484956478
 Eildon,Northern Victoria,Regional,LNP,GRN,0.11334276854728681
-Eildon,Northern Victoria,Regional,LNP,ON,0.003404794833323676
+Eildon,Northern Victoria,Regional,LNP,ON,0.0034047948333236766
 Eildon,Northern Victoria,Regional,LNP,IND,0.018082608099324573
 Eildon,Northern Victoria,Regional,LNP,OTH,0.1011659573520121
 Euroa,Northern Victoria,Regional,LNP,ALP,0.3014834659540861
 Euroa,Northern Victoria,Regional,LNP,LNP,0.5337286351601823
 Euroa,Northern Victoria,Regional,LNP,GRN,0.05369174629250455
-Euroa,Northern Victoria,Regional,LNP,ON,0.004082018050647086
+Euroa,Northern Victoria,Regional,LNP,ON,0.004082018050647087
 Euroa,Northern Victoria,Regional,LNP,IND,9.834174744381516e-10
 Euroa,Northern Victoria,Regional,LNP,OTH,0.10701413355916232
 Macedon,Northern Victoria,Regional,ALP,ALP,0.408778599617843
@@ -440,13 +440,13 @@ Macedon,Northern Victoria,Regional,ALP,OTH,0.09458111162869794
 Benambra,Northern Victoria,Regional,LNP,ALP,0.12454451073605259
 Benambra,Northern Victoria,Regional,LNP,LNP,0.40587794250412285
 Benambra,Northern Victoria,Regional,LNP,GRN,0.03970492971597754
-Benambra,Northern Victoria,Regional,LNP,ON,0.003519643372885041
+Benambra,Northern Victoria,Regional,LNP,ON,0.0035196433728850412
 Benambra,Northern Victoria,Regional,LNP,IND,0.32730498984109
 Benambra,Northern Victoria,Regional,LNP,OTH,0.0990479838298718
 Ovens Valley,Northern Victoria,Regional,LNP,ALP,0.18833665405721123
 Ovens Valley,Northern Victoria,Regional,LNP,LNP,0.5020131576135318
 Ovens Valley,Northern Victoria,Regional,LNP,GRN,0.08098197103889519
-Ovens Valley,Northern Victoria,Regional,LNP,ON,0.0033177208164220907
+Ovens Valley,Northern Victoria,Regional,LNP,ON,0.003317720816422091
 Ovens Valley,Northern Victoria,Regional,LNP,IND,0.04871485602851524
 Ovens Valley,Northern Victoria,Regional,LNP,OTH,0.17663564044542432
 Mildura,Northern Victoria,Regional,LNP,ALP,0.11422595338043455
@@ -470,7 +470,7 @@ Lara,Western Victoria,Peri-urban,ALP,OTH,0.14784835155814163
 Melton,Western Victoria,Peri-urban,ALP,ALP,0.33434202924680223
 Melton,Western Victoria,Peri-urban,ALP,LNP,0.22460853120949895
 Melton,Western Victoria,Peri-urban,ALP,GRN,0.04779663331153106
-Melton,Western Victoria,Peri-urban,ALP,ON,0.0037311857901750492
+Melton,Western Victoria,Peri-urban,ALP,ON,0.0037311857901750497
 Melton,Western Victoria,Peri-urban,ALP,IND,0.22327808472031188
 Melton,Western Victoria,Peri-urban,ALP,OTH,0.16624353572168077
 Bellarine,Western Victoria,Peri-urban,ALP,ALP,0.43298508891223325
@@ -488,42 +488,42 @@ Wendouree,Western Victoria,Provincial,ALP,OTH,0.11252703659072712
 Geelong,Western Victoria,Provincial,ALP,ALP,0.4302280167255543
 Geelong,Western Victoria,Provincial,ALP,LNP,0.2593992590099451
 Geelong,Western Victoria,Provincial,ALP,GRN,0.13959608675649568
-Geelong,Western Victoria,Provincial,ALP,ON,0.0038787373552689624
+Geelong,Western Victoria,Provincial,ALP,ON,0.003878737355268963
 Geelong,Western Victoria,Provincial,ALP,IND,0.08163833312515578
 Geelong,Western Victoria,Provincial,ALP,OTH,0.08525956702758003
 South Barwon,Western Victoria,Provincial,ALP,ALP,0.4074116030013035
 South Barwon,Western Victoria,Provincial,ALP,LNP,0.33976594355610634
 South Barwon,Western Victoria,Provincial,ALP,GRN,0.11876094119696487
-South Barwon,Western Victoria,Provincial,ALP,ON,0.002576097127974507
+South Barwon,Western Victoria,Provincial,ALP,ON,0.002576097127974508
 South Barwon,Western Victoria,Provincial,ALP,IND,1.0055915931874106e-12
 South Barwon,Western Victoria,Provincial,ALP,OTH,0.13148541511664522
 Eureka,Western Victoria,Regional,ALP,ALP,0.3976670671434816
 Eureka,Western Victoria,Regional,ALP,LNP,0.31583406749559123
 Eureka,Western Victoria,Regional,ALP,GRN,0.10621507838798723
-Eureka,Western Victoria,Regional,ALP,ON,0.003994297594600211
+Eureka,Western Victoria,Regional,ALP,ON,0.003994297594600212
 Eureka,Western Victoria,Regional,ALP,IND,0.03319963602796426
 Eureka,Western Victoria,Regional,ALP,OTH,0.1430898533503754
 Ripon,Western Victoria,Regional,ALP,ALP,0.38135596986818965
 Ripon,Western Victoria,Regional,ALP,LNP,0.35893892389458376
 Ripon,Western Victoria,Regional,ALP,GRN,0.057693435707651494
-Ripon,Western Victoria,Regional,ALP,ON,0.0039395461229839515
+Ripon,Western Victoria,Regional,ALP,ON,0.003939546122983952
 Ripon,Western Victoria,Regional,ALP,IND,0.02050615857567164
 Ripon,Western Victoria,Regional,ALP,OTH,0.1775659658309194
 Lowan,Western Victoria,Regional,LNP,ALP,0.18276822368062995
 Lowan,Western Victoria,Regional,LNP,LNP,0.6048415587835556
 Lowan,Western Victoria,Regional,LNP,GRN,0.059938453046587195
-Lowan,Western Victoria,Regional,LNP,ON,0.0038674576035303636
+Lowan,Western Victoria,Regional,LNP,ON,0.003867457603530364
 Lowan,Western Victoria,Regional,LNP,IND,0.041866155224584145
 Lowan,Western Victoria,Regional,LNP,OTH,0.10671815166111277
 Polwarth,Western Victoria,Regional,LNP,ALP,0.2768061365558973
 Polwarth,Western Victoria,Regional,LNP,LNP,0.4347486483911002
 Polwarth,Western Victoria,Regional,LNP,GRN,0.15387892006713857
-Polwarth,Western Victoria,Regional,LNP,ON,0.0022828710331007297
+Polwarth,Western Victoria,Regional,LNP,ON,0.00228287103310073
 Polwarth,Western Victoria,Regional,LNP,IND,0.0334108079927404
 Polwarth,Western Victoria,Regional,LNP,OTH,0.09887261596002259
 South-West Coast,Western Victoria,Regional,LNP,ALP,0.19909113751817717
 South-West Coast,Western Victoria,Regional,LNP,LNP,0.4038369114592575
 South-West Coast,Western Victoria,Regional,LNP,GRN,0.057348825408290116
-South-West Coast,Western Victoria,Regional,LNP,ON,0.002169702789485165
+South-West Coast,Western Victoria,Regional,LNP,ON,0.0021697027894851655
 South-West Coast,Western Victoria,Regional,LNP,IND,0.26351222979240113
 South-West Coast,Western Victoria,Regional,LNP,OTH,0.07404119303238897

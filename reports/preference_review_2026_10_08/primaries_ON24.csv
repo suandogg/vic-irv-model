@@ -2,7 +2,7 @@ district,region,seat_type,held_by,party,primary_vote
 Box Hill,North-Eastern Metro,Middle Ring,ALP,ALP,0.30607978366296434
 Box Hill,North-Eastern Metro,Middle Ring,ALP,LNP,0.364524340834689
 Box Hill,North-Eastern Metro,Middle Ring,ALP,GRN,0.15862105491334197
-Box Hill,North-Eastern Metro,Middle Ring,ALP,ON,0.13679353218161885
+Box Hill,North-Eastern Metro,Middle Ring,ALP,ON,0.13679353218161883
 Box Hill,North-Eastern Metro,Middle Ring,ALP,IND,0.01678540012846529
 Box Hill,North-Eastern Metro,Middle Ring,ALP,OTH,0.017195888278920463
 Bulleen,North-Eastern Metro,Middle Ring,LNP,ALP,0.22052055248591831
@@ -23,12 +23,12 @@ Ivanhoe,North-Eastern Metro,Middle Ring,ALP,GRN,0.19558853921236793
 Ivanhoe,North-Eastern Metro,Middle Ring,ALP,ON,0.18679540830733746
 Ivanhoe,North-Eastern Metro,Middle Ring,ALP,IND,0.013572896521859754
 Ivanhoe,North-Eastern Metro,Middle Ring,ALP,OTH,0.011625096181975674
-Bundoora,North-Eastern Metro,Middle Ring,ALP,ALP,0.37869211104584144
+Bundoora,North-Eastern Metro,Middle Ring,ALP,ALP,0.3786921110458415
 Bundoora,North-Eastern Metro,Middle Ring,ALP,LNP,0.24415209422783168
-Bundoora,North-Eastern Metro,Middle Ring,ALP,GRN,0.13162049079611604
+Bundoora,North-Eastern Metro,Middle Ring,ALP,GRN,0.13162049079611607
 Bundoora,North-Eastern Metro,Middle Ring,ALP,ON,0.18714872345701158
-Bundoora,North-Eastern Metro,Middle Ring,ALP,IND,0.006779578470220576
-Bundoora,North-Eastern Metro,Middle Ring,ALP,OTH,0.05160700200297874
+Bundoora,North-Eastern Metro,Middle Ring,ALP,IND,0.0067795784702205765
+Bundoora,North-Eastern Metro,Middle Ring,ALP,OTH,0.05160700200297875
 Bayswater,North-Eastern Metro,Outer Metro,ALP,ALP,0.2730801124974912
 Bayswater,North-Eastern Metro,Outer Metro,ALP,LNP,0.3499267819777142
 Bayswater,North-Eastern Metro,Outer Metro,ALP,GRN,0.0877501888380326
@@ -40,7 +40,7 @@ Croydon,North-Eastern Metro,Outer Metro,LNP,LNP,0.398228366355384
 Croydon,North-Eastern Metro,Outer Metro,LNP,GRN,0.11282408637130693
 Croydon,North-Eastern Metro,Outer Metro,LNP,ON,0.2056379059115022
 Croydon,North-Eastern Metro,Outer Metro,LNP,IND,1.0053335984804407e-12
-Croydon,North-Eastern Metro,Outer Metro,LNP,OTH,0.058492431627847015
+Croydon,North-Eastern Metro,Outer Metro,LNP,OTH,0.05849243162784702
 Ringwood,North-Eastern Metro,Outer Metro,LNP,ALP,0.2830713953026229
 Ringwood,North-Eastern Metro,Outer Metro,LNP,LNP,0.3412868740933152
 Ringwood,North-Eastern Metro,Outer Metro,LNP,GRN,0.16685557301307377
@@ -155,12 +155,12 @@ Rowville,South-Eastern Metro,Outer Metro,LNP,GRN,0.08605772136994483
 Rowville,South-Eastern Metro,Outer Metro,LNP,ON,0.18304191406158407
 Rowville,South-Eastern Metro,Outer Metro,LNP,IND,0.10984615741572258
 Rowville,South-Eastern Metro,Outer Metro,LNP,OTH,0.010833604795667239
-Cranbourne,South-Eastern Metro,Outer Metro,ALP,ALP,0.3040975298792106
-Cranbourne,South-Eastern Metro,Outer Metro,ALP,LNP,0.20738930262221325
-Cranbourne,South-Eastern Metro,Outer Metro,ALP,GRN,0.054746495735956684
-Cranbourne,South-Eastern Metro,Outer Metro,ALP,ON,0.3070902165408807
-Cranbourne,South-Eastern Metro,Outer Metro,ALP,IND,0.009687049302045777
-Cranbourne,South-Eastern Metro,Outer Metro,ALP,OTH,0.11698940591969298
+Cranbourne,South-Eastern Metro,Outer Metro,ALP,ALP,0.30409752987921057
+Cranbourne,South-Eastern Metro,Outer Metro,ALP,LNP,0.20738930262221322
+Cranbourne,South-Eastern Metro,Outer Metro,ALP,GRN,0.05474649573595668
+Cranbourne,South-Eastern Metro,Outer Metro,ALP,ON,0.30709021654088076
+Cranbourne,South-Eastern Metro,Outer Metro,ALP,IND,0.009687049302045775
+Cranbourne,South-Eastern Metro,Outer Metro,ALP,OTH,0.11698940591969297
 Dandenong,South-Eastern Metro,Outer Metro,ALP,ALP,0.42430271289625904
 Dandenong,South-Eastern Metro,Outer Metro,ALP,LNP,0.15156897900567107
 Dandenong,South-Eastern Metro,Outer Metro,ALP,GRN,0.08384561708091537
@@ -290,7 +290,7 @@ Niddrie,Western Metro,Middle Ring,ALP,OTH,0.06620736323286265
 St Albans,Western Metro,Middle Ring,ALP,ALP,0.32682038149426257
 St Albans,Western Metro,Middle Ring,ALP,LNP,0.18874366889736657
 St Albans,Western Metro,Middle Ring,ALP,GRN,0.08483175375426744
-St Albans,Western Metro,Middle Ring,ALP,ON,0.24706047297968847
+St Albans,Western Metro,Middle Ring,ALP,ON,0.24706047297968844
 St Albans,Western Metro,Middle Ring,ALP,IND,0.03149125587010095
 St Albans,Western Metro,Middle Ring,ALP,OTH,0.1210524670043141
 Kororoit,Western Metro,Outer Metro,ALP,ALP,0.35347386917437557
@@ -338,7 +338,7 @@ Evelyn,Eastern Victoria,Peri-urban,LNP,OTH,0.02483274966411398
 Monbulk,Eastern Victoria,Peri-urban,ALP,ALP,0.24201744148865637
 Monbulk,Eastern Victoria,Peri-urban,ALP,LNP,0.24953709532083956
 Monbulk,Eastern Victoria,Peri-urban,ALP,GRN,0.15410819573696097
-Monbulk,Eastern Victoria,Peri-urban,ALP,ON,0.23692897754348927
+Monbulk,Eastern Victoria,Peri-urban,ALP,ON,0.2369289775434893
 Monbulk,Eastern Victoria,Peri-urban,ALP,IND,0.08609245583891391
 Monbulk,Eastern Victoria,Peri-urban,ALP,OTH,0.03131583407113985
 Pakenham,Eastern Victoria,Peri-urban,ALP,ALP,0.19956149596704384
@@ -386,7 +386,7 @@ Bass,Eastern Victoria,Regional,ALP,OTH,0.04864624915833155
 Hastings,Eastern Victoria,Regional,ALP,ALP,0.24216954470636282
 Hastings,Eastern Victoria,Regional,ALP,LNP,0.3056261730506964
 Hastings,Eastern Victoria,Regional,ALP,GRN,0.09939295168630331
-Hastings,Eastern Victoria,Regional,ALP,ON,0.2931059288662778
+Hastings,Eastern Victoria,Regional,ALP,ON,0.29310592886627773
 Hastings,Eastern Victoria,Regional,ALP,IND,0.008809654192959518
 Hastings,Eastern Victoria,Regional,ALP,OTH,0.05089574749740016
 Narracan,Eastern Victoria,Regional,LNP,ALP,0.14983709982182808
@@ -422,7 +422,7 @@ Bendigo West,Northern Victoria,Provincial,ALP,OTH,0.07345766987613801
 Eildon,Northern Victoria,Regional,LNP,ALP,0.1721843420432918
 Eildon,Northern Victoria,Regional,LNP,LNP,0.3765596835792491
 Eildon,Northern Victoria,Regional,LNP,GRN,0.1118757234808417
-Eildon,Northern Victoria,Regional,LNP,ON,0.28314594718040764
+Eildon,Northern Victoria,Regional,LNP,ON,0.2831459471804077
 Eildon,Northern Victoria,Regional,LNP,IND,0.01758513994110144
 Eildon,Northern Victoria,Regional,LNP,OTH,0.03864916377510817
 Euroa,Northern Victoria,Regional,LNP,ALP,0.17348717518754014
@@ -524,6 +524,6 @@ Polwarth,Western Victoria,Regional,LNP,OTH,0.04127494510705265
 South-West Coast,Western Victoria,Regional,LNP,ALP,0.09634783327221383
 South-West Coast,Western Victoria,Regional,LNP,LNP,0.3507867955871752
 South-West Coast,Western Victoria,Regional,LNP,GRN,0.06313829580344617
-South-West Coast,Western Victoria,Regional,LNP,ON,0.19890186441944044
+South-West Coast,Western Victoria,Regional,LNP,ON,0.19890186441944047
 South-West Coast,Western Victoria,Regional,LNP,IND,0.2737249701485917
 South-West Coast,Western Victoria,Regional,LNP,OTH,0.017100240769132642

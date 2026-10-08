@@ -5,6 +5,15 @@ from tools.preference_review_trials import variant
 from tools.trial_posterior_reliability import seat_count_trial
 
 class PreferenceReviewTests(unittest.TestCase):
+    def test_geography_isolation_preserves_other_inputs(self):
+        original={"scalar_params":{"NON_ON_GEOGRAPHY_STRENGTH":.75},"geography_adjustments":{"Rural":{"ALP":-.03,"ON":.04}},"on_special_scenario_priors":{"unchanged":True}}
+        on=variant(original,"no_on_recipient_geography")
+        other=variant(original,"no_non_on_recipient_geography")
+        self.assertEqual(on["geography_adjustments"]["Rural"],{"ALP":-.03,"ON":0})
+        self.assertEqual(other["scalar_params"]["NON_ON_GEOGRAPHY_STRENGTH"],0)
+        self.assertEqual(other["geography_adjustments"],original["geography_adjustments"])
+        self.assertEqual(original["geography_adjustments"]["Rural"]["ON"],.04)
+
     def test_zero_floor_trial_preserves_zero_destination(self):
         vec=[1.,0.,0.,0.,0.,0.]
         result=enforce_floor(vec,["ALP","LNP"],{"TRIAL_NO_FLOOR":True})

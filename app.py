@@ -495,6 +495,8 @@ trial_options = {
     "Current reference": "reference",
     "No generic ON siphon": "no_siphon",
     "No preference geography": "no_geography",
+    "No ON-recipient geography addition": "no_on_recipient_geography",
+    "No non-ON-recipient geography additions": "no_non_on_recipient_geography",
     "No preference floors or caps": "no_constraints",
     "Remove complete-row priority in ON rounds": "no_synthetic_priority",
     "Combined simplified preferences": "simplified",
