@@ -18,6 +18,7 @@ SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 
 FILES = {
     "LOWER_PRIMARY_INPUTS": "LEGACY_PRIMARY_INPUTS.csv",
+    "LOWER_TURNOUT_WEIGHTS": "LOWER_TURNOUT_WEIGHTS.csv",
     "SEAT HELPER": "SEAT HELPER.csv",
     "PARAMS": "PARAMS.csv",
     "SYNTH PREF MATRIX": "SYNTH PREF MATRIX.csv",

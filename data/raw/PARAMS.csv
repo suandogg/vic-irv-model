@@ -1,6 +1,6 @@
 ON Vote source matrix,,,,,,
 Seat Type,ALP,LNP,GRN,IND,OTH,
-Inner Ring,18%,45%,2%,5%,30%,100%
+Inner Ring,18%,50%,2%,5%,25%,100%
 Middle Ring,21%,50%,2%,5%,22%,100%
 Outer Metro,21%,50%,2%,5%,22%,100%
 Peri-urban,23%,50%,2%,3%,23%,100%
@@ -12,7 +12,7 @@ ALP,0.1,0.15,0.2,0.2,0.15,0.25
 LNP,0.2,0.3,0.35,0.45,0.6,0.6
 GRN,0.05,0.05,0.05,0.1,0.1,0.1
 IND,0.15,0.15,0.15,0.25,0.25,0.25
-OTH,0.3,0.4,0.5,0.55,0.5,0.6
+OTH,0.25,0.35,0.45,0.5,0.5,0.5
 ,,,,,,
 ON-row prior table (pref from ON),,,,,,
 Seat Type,ALP,LNP,GRN,IND,OTH,
@@ -51,7 +51,7 @@ IND_OTH_MAX,0.75,"Tighter cap applied when IND or OTH are involved, preventing u
 Shrinkage/smoothing,,,,,,
 EMPIRICAL_SHRINKAGE_K,10,Controls how strongly small-sample empirical posteriors are shrunk toward the prior.,,,,
 K_DIRICHLET,50,,,,,
-PARCEL_ORIGIN_RETENTION,1,"Share of transferred lower-house preference parcels that retain primary-origin behaviour; 0 reproduces the legacy holder-only engine and 1 is fully parcel-aware. ON special scenario priors remain locked holder-level rules.",,,,
+PARCEL_ORIGIN_RETENTION,1,Share of transferred lower-house preference parcels that retain primary-origin behaviour; 0 reproduces the legacy holder-only engine and 1 is fully parcel-aware. ON special scenario priors remain locked holder-level rules.,,,,
 ,,,,,,
 ON-specific,,,,,,
 AEC_2CP_ANCHOR_ON,0.15,AEC anchor strength when ON is eliminated in a final ALP–LNP count,,,,
@@ -59,19 +59,19 @@ SIPHON_STRENGTH_ON,0.25,Party-specific siphon aggressiveness,,,,
 SIPHON_DONOR_CAP,0.15,Maximum share a donor party can lose to siphoning,,,,
 GRN_RURAL_GEO_STRENGTH,0,,,,,
 SIPHON_ON_FROM_GRN_MULT,0,,,,,
-OTH_ON_DONOR_DEPLETION_STRENGTH,0.5,"Reduces only the generic OTH-to-ON siphon as ON rises; 0 disables and 1 removes the full siphon by the reference ON vote.",,,,
+OTH_ON_DONOR_DEPLETION_STRENGTH,0.5,Reduces only the generic OTH-to-ON siphon as ON rises; 0 disables and 1 removes the full siphon by the reference ON vote.,,,,
 OTH_ON_DEPLETION_BASELINE,0.28,Historical statewide ON primary used as the zero-depletion anchor.,,,,
 OTH_ON_DEPLETION_REFERENCE,24.4,Statewide ON primary at which the full configured depletion strength applies.,,,,
 Geography,,,,,,
 CLASS_SMOOTH_K,50000,,,,,
 NON_ON_GEOGRAPHY_STRENGTH,0.75,"Multiplier applied to ALP, LNP, GRN, IND and OTH preference-geography adjustments; ON adjustments remain at full strength.",,,,
-GRN_PVI_PERSISTENCE,1,"Multiplier applied to the Greens' 2022 district PVI before statewide primary calibration; 1 retains the current geography and lower values flatten it.",,,,
-ON_PRIMARY_DONOR_STRENGTH,0.35,"Blends primary geography toward explicit ON vote sourcing from the seat-class source matrix; 0 is legacy proportional geography and 1 is full matrix sourcing.",,,,
-ON_PRIMARY_OTH_DEPLETION_STRENGTH,0.75,"Maximum fraction of OTH's primary donor weight reallocated as ON rises; released weight moves one-third to ALP and two-thirds to LNP.",,,,
-ON_PRIMARY_OTH_DEPLETION_START,10,"Statewide ON primary at which primary-source OTH depletion begins.",,,,
-ON_PRIMARY_OTH_DEPLETION_FULL,30,"Statewide ON primary at which maximum primary-source OTH depletion applies.",,,,
-RETIRING_INCUMBENT_PENALTY_PP,1,"Default primary-vote penalty when the incumbent member retires; editable by seat in LOWER_SEAT_ADJUSTMENTS.",,,,
-SOPHOMORE_SURGE_BONUS_PP,1,"Default primary-vote bonus for a member contesting their first re-election; editable by seat in LOWER_SEAT_ADJUSTMENTS.",,,,
+GRN_PVI_PERSISTENCE,1,Multiplier applied to the Greens' 2022 district PVI before statewide primary calibration; 1 retains the current geography and lower values flatten it.,,,,
+ON_PRIMARY_DONOR_STRENGTH,0.35,Blends primary geography toward explicit ON vote sourcing from the seat-class source matrix; 0 is legacy proportional geography and 1 is full matrix sourcing.,,,,
+ON_PRIMARY_OTH_DEPLETION_STRENGTH,0.75,Maximum fraction of OTH's primary donor weight reallocated as ON rises; released weight moves one-third to ALP and two-thirds to LNP.,,,,
+ON_PRIMARY_OTH_DEPLETION_START,10,Statewide ON primary at which primary-source OTH depletion begins.,,,,
+ON_PRIMARY_OTH_DEPLETION_FULL,30,Statewide ON primary at which maximum primary-source OTH depletion applies.,,,,
+RETIRING_INCUMBENT_PENALTY_PP,1,Default primary-vote penalty when the incumbent member retires; editable by seat in LOWER_SEAT_ADJUSTMENTS.,,,,
+SOPHOMORE_SURGE_BONUS_PP,1,Default primary-vote bonus for a member contesting their first re-election; editable by seat in LOWER_SEAT_ADJUSTMENTS.,,,,
 Optional for later,,,,,,
 PRIMARY_TILT_K,0.2,Strength of primary-vote adjustment when allocating preferences between ALP and LNP (bounded by PRIMARY_TILT_MAX).,,,,
 PRIMARY_TILT_MAX,0.03,Hard limit on how much primary-vote differences can move preference flows in either direction.,,,,
