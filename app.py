@@ -666,6 +666,19 @@ total_primary = sum(targets.values())
 
 st.markdown(f"**Primary total: {total_primary:.2f}%**")
 
+with st.expander("Five-seat preference trial comparisons", expanded=False):
+    from SRC.trial_seat_panel import comparison_panel, EXPLANATIONS
+    from pathlib import Path
+    st.caption("Saved fixed-primary tests, not the current interactive polling inputs. Winning margin means the winner's share above 50%; forced ALP–LNP 2PP provides a consistent comparison when finalists change.")
+    panel_scenario = st.selectbox("Fixed test scenario", ["ON18", "ON20", "ON24", "2022"], key="trial_panel_scenario")
+    panel_variant = st.selectbox("Comparison variant", list(trial_options), key="trial_panel_variant")
+    st.caption(EXPLANATIONS[trial_options[panel_variant]])
+    st.caption({"ON18":"ALP 29, LNP 32, GRN 12, ON 18, IND 4.5, OTH 4.5", "ON20":"ALP 25, LNP 30, GRN 14, ON 20, IND 5.5, OTH 5.5", "ON24":"ALP 25, LNP 28, GRN 12, ON 24, IND 5.5, OTH 5.5", "2022":"Projected baseline-input sensitivity, not the actual-primary historical validation."}[panel_scenario])
+    panel_results = pd.read_csv(Path(__file__).resolve().parent / "reports/preference_review_2026_10_08/seat_results.csv")
+    panel = pd.DataFrame(comparison_panel(panel_results, panel_scenario, trial_options[panel_variant], matrices))
+    st.dataframe(panel, hide_index=True)
+    st.download_button("Download five-seat comparison", panel.to_csv(index=False), "five_seat_comparison.csv", "text/csv")
+
 if abs(total_primary - 100) > 0.01:
     st.warning(
         "Primary votes should add to 100%. "
