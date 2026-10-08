@@ -1,0 +1,4544 @@
+{
+  "method": "Existing non-unknown labels; same broad origin category and exact continuing field; held-out seat excluded; family pool minimum3. No ON extrapolation.",
+  "summary": {
+    "all": {
+      "parcels": 301,
+      "mean_errors_pp": {
+        "subtype_only": 13.185119842759075,
+        "family_only": 15.89284911081162,
+        "prior_1": 13.274089150980817,
+        "prior_3": 13.489372883067835,
+        "prior_5": 13.67296451019542,
+        "prior_10": 14.076716819849839
+      }
+    },
+    "sparse_1_or_2_seats": {
+      "parcels": 24,
+      "mean_errors_pp": {
+        "subtype_only": 12.706025826042838,
+        "family_only": 19.014192350419638,
+        "prior_1": 13.734256986346978,
+        "prior_3": 15.549113298732761,
+        "prior_5": 16.351224838214716,
+        "prior_10": 17.40727513317815
+      }
+    }
+  },
+  "parcels": [
+    {
+      "seat": "Albert Park",
+      "candidate": "BRADEA, VIOREL",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 20.259885367714247,
+        "family_only": 16.080928702194207,
+        "prior_1": 19.934341154024885,
+        "prior_3": 19.372037512197807,
+        "prior_5": 18.90345114400857,
+        "prior_10": 18.302466257317185
+      }
+    },
+    {
+      "seat": "Albert Park",
+      "candidate": "SMART, LANCE",
+      "family": "RIGHT",
+      "subtype_seats": 2,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 4.900009555933512,
+        "family_only": 25.672699970770648,
+        "prior_1": 6.481874307237382,
+        "prior_3": 14.031574192371385,
+        "prior_5": 17.357610129056887,
+        "prior_10": 20.822230896437624
+      }
+    },
+    {
+      "seat": "Albert Park",
+      "candidate": "ANTUNOVIC, ELIZABETH",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 38.95832204324006,
+        "family_only": 31.390989747296018,
+        "prior_1": 38.614352393424426,
+        "prior_3": 38.012405506247056,
+        "prior_5": 37.50306583248159,
+        "prior_10": 36.51724710906456
+      }
+    },
+    {
+      "seat": "Albert Park",
+      "candidate": "WESTWOOD, CASSANDRA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 2,
+      "family_seats": 3,
+      "errors": {
+        "subtype_only": 4.5428570823680445,
+        "family_only": 3.811172142896835,
+        "prior_1": 4.027647785604406,
+        "prior_3": 3.615480348193492,
+        "prior_5": 3.438837160731673,
+        "prior_10": 3.254833840458941
+      }
+    },
+    {
+      "seat": "Ashwood",
+      "candidate": "BAKER, NORMAN F.",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 10.280844699086988,
+        "family_only": 17.72823857139036,
+        "prior_1": 10.448035446557068,
+        "prior_3": 10.740619254629705,
+        "prior_5": 10.988190169152706,
+        "prior_10": 11.60029166024601
+      }
+    },
+    {
+      "seat": "Ashwood",
+      "candidate": "GRIFFITHS, MILTON",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 10.291485843146955,
+        "family_only": 10.004059645890594,
+        "prior_1": 10.285098594319035,
+        "prior_3": 10.273139490130593,
+        "prior_5": 10.262156639345285,
+        "prior_10": 10.238258769580964
+      }
+    },
+    {
+      "seat": "Ashwood",
+      "candidate": "GEYER, KEITH",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 4.795985729810281,
+        "family_only": 5.990810800332116,
+        "prior_1": 4.862364900394827,
+        "prior_3": 4.975209490388557,
+        "prior_5": 5.067536882201605,
+        "prior_10": 5.238513533707258
+      }
+    },
+    {
+      "seat": "Bass",
+      "candidate": "MOUSELLIS, ELLY",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 10.404780073959806,
+        "family_only": 9.59917848659075,
+        "prior_1": 10.379605024354523,
+        "prior_3": 10.333697580956652,
+        "prior_5": 10.292890964602998,
+        "prior_10": 10.208291881918575
+      }
+    },
+    {
+      "seat": "Bass",
+      "candidate": "MUNDAY, MARCUS",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 8.389858531375301,
+        "family_only": 17.820545088090363,
+        "prior_1": 8.65882479871101,
+        "prior_3": 9.1295157665485,
+        "prior_5": 9.527792739334073,
+        "prior_10": 10.298651396338393
+      }
+    },
+    {
+      "seat": "Bass",
+      "candidate": "O'NEILL, MARK",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 14.988408029228692,
+        "family_only": 28.999104350446114,
+        "prior_1": 15.232958664316726,
+        "prior_3": 16.852505215626067,
+        "prior_5": 18.131094598238708,
+        "prior_10": 20.395263296615244
+      }
+    },
+    {
+      "seat": "Bass",
+      "candidate": "VERHAGEN, MARTIN",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 12.35442722551474,
+        "family_only": 11.333886654090277,
+        "prior_1": 12.266144590108578,
+        "prior_3": 12.116064109918105,
+        "prior_5": 11.99327098976226,
+        "prior_10": 11.76587632280699
+      }
+    },
+    {
+      "seat": "Bayswater",
+      "candidate": "WORMALD, ALYSSA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 18.740098386732594,
+        "family_only": 17.77931941716105,
+        "prior_1": 18.710074043933485,
+        "prior_3": 18.6553237717704,
+        "prior_5": 18.606656863180994,
+        "prior_10": 18.505762052690756
+      }
+    },
+    {
+      "seat": "Bayswater",
+      "candidate": "DOLAN, THOMAS",
+      "family": "RIGHT",
+      "subtype_seats": 11,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 10.301859306564571,
+        "family_only": 31.303432223935395,
+        "prior_1": 11.466862210179281,
+        "prior_3": 14.300657926430155,
+        "prior_5": 16.42600471361831,
+        "prior_10": 19.9682493589319
+      }
+    },
+    {
+      "seat": "Bayswater",
+      "candidate": "FIELD, CHRIS",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 15.90749180087871,
+        "family_only": 26.60830706989338,
+        "prior_1": 16.39389249492483,
+        "prior_3": 17.245093709505543,
+        "prior_5": 17.96534089107384,
+        "prior_10": 19.35936769410925
+      }
+    },
+    {
+      "seat": "Bayswater",
+      "candidate": "COOMBES, GARY",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 7.239032101266196,
+        "family_only": 7.298951622937476,
+        "prior_1": 7.242360963581273,
+        "prior_3": 7.248020029516889,
+        "prior_5": 7.252650174373307,
+        "prior_10": 7.261224516700003
+      }
+    },
+    {
+      "seat": "Bellarine",
+      "candidate": "TAYLOR, BRENDAN",
+      "family": "RIGHT",
+      "subtype_seats": 1,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 1.401274932717969,
+        "family_only": 24.159645076704653,
+        "prior_1": 12.192735754131672,
+        "prior_3": 18.176190415418166,
+        "prior_5": 20.170675302513665,
+        "prior_10": 21.983843381691383
+      }
+    },
+    {
+      "seat": "Bellarine",
+      "candidate": "MUSE, KYLEE",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 13.447191558702773,
+        "family_only": 24.80654054139984,
+        "prior_1": 13.963525603370822,
+        "prior_3": 14.867110181539909,
+        "prior_5": 15.631681747682977,
+        "prior_10": 17.11149768215344
+      }
+    },
+    {
+      "seat": "Bellarine",
+      "candidate": "RITCHIE, BRETT ANTHONY",
+      "family": "CENTRE_RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 7,
+      "errors": {
+        "subtype_only": 9.881970010860197,
+        "family_only": 10.25701079267274,
+        "prior_1": 9.935547265404846,
+        "prior_3": 10.006983604797714,
+        "prior_5": 10.052443093502262,
+        "prior_10": 10.11637049949304
+      }
+    },
+    {
+      "seat": "Bellarine",
+      "candidate": "CARDILINI, ADAM",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 19.010599778715182,
+        "family_only": 19.4846594306192,
+        "prior_1": 19.010934361866084,
+        "prior_3": 19.011544484082428,
+        "prior_5": 19.0120868149414,
+        "prior_10": 19.013211159405127
+      }
+    },
+    {
+      "seat": "Bellarine",
+      "candidate": "MANUELL, GUY",
+      "family": "RIGHT",
+      "subtype_seats": 9,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 10.768474375008614,
+        "family_only": 4.822776461870442,
+        "prior_1": 10.15722120356661,
+        "prior_3": 9.240341446403603,
+        "prior_5": 8.585427334144313,
+        "prior_10": 7.551352420050697
+      }
+    },
+    {
+      "seat": "Benambra",
+      "candidate": "O'BRIEN, ADRIAN JAMES",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 11.907430853401237,
+        "family_only": 20.07631450701972,
+        "prior_1": 12.167763889464759,
+        "prior_3": 12.717471869978683,
+        "prior_5": 13.216776273263314,
+        "prior_10": 14.183171892523887
+      }
+    },
+    {
+      "seat": "Benambra",
+      "candidate": "ROSSITER, DEAN",
+      "family": "RIGHT",
+      "subtype_seats": 2,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 30.053155096963245,
+        "family_only": 12.619136995640556,
+        "prior_1": 21.21148629110409,
+        "prior_3": 14.138151246416768,
+        "prior_5": 11.106721941550775,
+        "prior_10": 11.123598570444232
+      }
+    },
+    {
+      "seat": "Benambra",
+      "candidate": "FUERY, MIKE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 21.860423213026188,
+        "family_only": 22.679988506464706,
+        "prior_1": 21.88603462844614,
+        "prior_3": 21.93273779774135,
+        "prior_5": 21.974251726003757,
+        "prior_10": 22.060317187035583
+      }
+    },
+    {
+      "seat": "Benambra",
+      "candidate": "STRATTON, JANELLE",
+      "family": "RIGHT",
+      "subtype_seats": 9,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 21.719706998841534,
+        "family_only": 15.216059833570311,
+        "prior_1": 21.069342282314413,
+        "prior_3": 20.09379520752373,
+        "prior_5": 19.396975868387525,
+        "prior_10": 18.296734806593523
+      }
+    },
+    {
+      "seat": "Bendigo West",
+      "candidate": "WOOLLEY, RICHARD JAMES",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 13.405492825249876,
+        "family_only": 26.44038823557705,
+        "prior_1": 13.99798807117384,
+        "prior_3": 15.034854751540768,
+        "prior_5": 15.91220348108202,
+        "prior_10": 17.610297796323156
+      }
+    },
+    {
+      "seat": "Bendigo West",
+      "candidate": "MAXWELL, VICTORIA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 6.122758669333664,
+        "family_only": 5.868081407733959,
+        "prior_1": 6.100888194440451,
+        "prior_3": 6.061006740223415,
+        "prior_5": 6.025556558697159,
+        "prior_10": 5.952062279923212
+      }
+    },
+    {
+      "seat": "Bendigo West",
+      "candidate": "SERPELL, STEVE",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 24.3306278602285,
+        "family_only": 23.0359264216703,
+        "prior_1": 24.1664071731976,
+        "prior_3": 23.875862880758337,
+        "prior_5": 23.62682491581039,
+        "prior_10": 23.403617528366603
+      }
+    },
+    {
+      "seat": "Bentleigh",
+      "candidate": "HARRIS, DAVID",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 14.379456772183424,
+        "family_only": 13.41588555026332,
+        "prior_1": 14.35804407836298,
+        "prior_3": 14.317952226103417,
+        "prior_5": 14.281133178109945,
+        "prior_10": 14.201017657013034
+      }
+    },
+    {
+      "seat": "Bentleigh",
+      "candidate": "RYAN, PAUL",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 4.480483950737034,
+        "family_only": 5.41448037274074,
+        "prior_1": 4.4873358630527775,
+        "prior_3": 4.498984113989547,
+        "prior_5": 4.508514501119635,
+        "prior_10": 4.526163366175343
+      }
+    },
+    {
+      "seat": "Berwick",
+      "candidate": "DOLHEGUY, KATHERINE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 3.3266632508969796,
+        "family_only": 4.279279768171366,
+        "prior_1": 3.3478325068364123,
+        "prior_3": 3.387468560510239,
+        "prior_5": 3.4238690179657945,
+        "prior_10": 3.503073717058902
+      }
+    },
+    {
+      "seat": "Berwick",
+      "candidate": "VAN DER HORST, JOEL",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 7.30009508183463,
+        "family_only": 8.425812107365088,
+        "prior_1": 7.299304009864166,
+        "prior_3": 7.297904420993348,
+        "prior_5": 7.296704773389784,
+        "prior_10": 7.294341831140344
+      }
+    },
+    {
+      "seat": "Berwick",
+      "candidate": "HAUPT, KERRY",
+      "family": "RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 6.646270140813076,
+        "family_only": 7.84955148700896,
+        "prior_1": 6.818167475983919,
+        "prior_3": 7.047363922878372,
+        "prior_5": 7.193216207265751,
+        "prior_10": 7.398320982185503
+      }
+    },
+    {
+      "seat": "Box Hill",
+      "candidate": "RIERA, ALICIA",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 7.3801956348887074,
+        "family_only": 17.96021863548514,
+        "prior_1": 7.792581701955589,
+        "prior_3": 8.514257319322624,
+        "prior_5": 9.124905918633194,
+        "prior_10": 10.306806433427854
+      }
+    },
+    {
+      "seat": "Box Hill",
+      "candidate": "ONG, GARY",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 10.568310297307091,
+        "family_only": 10.270876346009263,
+        "prior_1": 10.555917216003014,
+        "prior_3": 10.533990995234262,
+        "prior_5": 10.515197091718194,
+        "prior_10": 10.478178796913811
+      }
+    },
+    {
+      "seat": "Box Hill",
+      "candidate": "FOLLONI, SEBASTIAN",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 32.150448226817474,
+        "family_only": 31.848054916837533,
+        "prior_1": 32.143728375484585,
+        "prior_3": 32.13114652618046,
+        "prior_5": 32.11959176661544,
+        "prior_10": 32.09444946571008
+      }
+    },
+    {
+      "seat": "Box Hill",
+      "candidate": "DEAN, PAUL",
+      "family": "RIGHT",
+      "subtype_seats": 3,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 3.1599272790481803,
+        "family_only": 14.454954933483382,
+        "prior_1": 5.983684192656982,
+        "prior_3": 8.807441106265781,
+        "prior_5": 10.219319563070181,
+        "prior_10": 11.848410090152182
+      }
+    },
+    {
+      "seat": "Brighton",
+      "candidate": "SCIOLA, NICK",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 30.39875685510639,
+        "family_only": 34.25454774667395,
+        "prior_1": 30.591546399684766,
+        "prior_3": 30.92454652213833,
+        "prior_5": 31.202046624182966,
+        "prior_10": 31.728339921164167
+      }
+    },
+    {
+      "seat": "Brighton",
+      "candidate": "WALKER, ALICIA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 16.197866873813314,
+        "family_only": 17.1245267366851,
+        "prior_1": 16.226824994528062,
+        "prior_3": 16.27963097936082,
+        "prior_5": 16.326569632545507,
+        "prior_10": 16.42388147451375
+      }
+    },
+    {
+      "seat": "Broadmeadows",
+      "candidate": "SUTTER, BEN",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 2,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 25.85037997194355,
+        "family_only": 15.698667294572955,
+        "prior_1": 21.62644046803154,
+        "prior_3": 19.00534460034504,
+        "prior_5": 18.060579655838733,
+        "prior_10": 17.076449505311324
+      }
+    },
+    {
+      "seat": "Broadmeadows",
+      "candidate": "FEILD, CANDACE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 13.216445707560645,
+        "family_only": 12.862604767327406,
+        "prior_1": 13.205388178178357,
+        "prior_3": 13.185224448128302,
+        "prior_5": 13.167301132528253,
+        "prior_10": 13.130143039211076
+      }
+    },
+    {
+      "seat": "Broadmeadows",
+      "candidate": "TAM, BIENNE",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 30.511740477961002,
+        "family_only": 28.092176314046135,
+        "prior_1": 30.401141875995506,
+        "prior_3": 30.20546742636426,
+        "prior_5": 30.037746469537474,
+        "prior_10": 29.707387009121078
+      }
+    },
+    {
+      "seat": "Broadmeadows",
+      "candidate": "HASSAN, OMAR",
+      "family": "LEFT",
+      "subtype_seats": 8,
+      "family_seats": 8,
+      "errors": {
+        "subtype_only": 29.363356484136105,
+        "family_only": 29.363356484136105,
+        "prior_1": 29.363356484136105,
+        "prior_3": 29.363356484136105,
+        "prior_5": 29.363356484136105,
+        "prior_10": 29.363356484136105
+      }
+    },
+    {
+      "seat": "Brunswick",
+      "candidate": "SHAKER, LILIAN SABRY",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 26.66886236066005,
+        "family_only": 28.93561674933437,
+        "prior_1": 26.782200080093766,
+        "prior_3": 26.977965231842916,
+        "prior_5": 27.141102858300535,
+        "prior_10": 27.45050180503051
+      }
+    },
+    {
+      "seat": "Brunswick",
+      "candidate": "LAMARCHE-BEAUCHESNE, RACHEL",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 8.44613565378032,
+        "family_only": 8.261578351843069,
+        "prior_1": 8.440368238094782,
+        "prior_3": 8.429851185962328,
+        "prior_5": 8.420502695177925,
+        "prior_10": 8.401121677698063
+      }
+    },
+    {
+      "seat": "Brunswick",
+      "candidate": "EVANS, SHEA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 4,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 4.368934338246495,
+        "family_only": 12.014940731654372,
+        "prior_1": 5.027251150739164,
+        "prior_3": 5.8435008668237565,
+        "prior_5": 7.214931947897224,
+        "prior_10": 8.929220799239067
+      }
+    },
+    {
+      "seat": "Brunswick",
+      "candidate": "JIMENEZ, NAHUI",
+      "family": "LEFT",
+      "subtype_seats": 8,
+      "family_seats": 8,
+      "errors": {
+        "subtype_only": 15.16851072415637,
+        "family_only": 15.16851072415637,
+        "prior_1": 15.16851072415637,
+        "prior_3": 15.16851072415637,
+        "prior_5": 15.16851072415637,
+        "prior_10": 15.16851072415637
+      }
+    },
+    {
+      "seat": "Bulleen",
+      "candidate": "JAFARI, ELNAZ",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 9.71555178836286,
+        "family_only": 8.756486754832926,
+        "prior_1": 9.694239232062191,
+        "prior_3": 9.654334871329034,
+        "prior_5": 9.617688009431232,
+        "prior_10": 9.537947152523984
+      }
+    },
+    {
+      "seat": "Bulleen",
+      "candidate": "STOKES, JASON",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 8.238537204547555,
+        "family_only": 9.378746895942681,
+        "prior_1": 8.286045941689018,
+        "prior_3": 8.370099861246992,
+        "prior_5": 8.442146078010971,
+        "prior_10": 8.584055292849108
+      }
+    },
+    {
+      "seat": "Bulleen",
+      "candidate": "PATRIKIOS, VOULA",
+      "family": "RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 6.142812215756746,
+        "family_only": 3.49052153852093,
+        "prior_1": 5.763913547580203,
+        "prior_3": 5.258715323344807,
+        "prior_5": 4.937225544285918,
+        "prior_10": 4.485130542484366
+      }
+    },
+    {
+      "seat": "Bundoora",
+      "candidate": "HOLGATE, BELLA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 5.289819641548783,
+        "family_only": 6.209301311845957,
+        "prior_1": 5.2957356223960375,
+        "prior_3": 5.325003026102841,
+        "prior_5": 5.361096833684192,
+        "prior_10": 5.439634285365836
+      }
+    },
+    {
+      "seat": "Bundoora",
+      "candidate": "JONES, ETHAN",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 12.185056145836077,
+        "family_only": 12.427790091541208,
+        "prior_1": 12.122477917073235,
+        "prior_3": 12.011762589262059,
+        "prior_5": 11.916863736852472,
+        "prior_10": 11.729941754833604
+      }
+    },
+    {
+      "seat": "Bundoora",
+      "candidate": "LU, ANDREW",
+      "family": "RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 4.06327320640026,
+        "family_only": 1.977864682951129,
+        "prior_1": 3.7180335088185053,
+        "prior_3": 3.257713912042834,
+        "prior_5": 2.9647832595492236,
+        "prior_10": 2.5528495294800875
+      }
+    },
+    {
+      "seat": "Carrum",
+      "candidate": "MACGREGOR OWEN, TAYLOR",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 4.6236357915463815,
+        "family_only": 4.89049858556655,
+        "prior_1": 4.629566075857939,
+        "prior_3": 4.640669586909369,
+        "prior_5": 4.650866688895379,
+        "prior_10": 4.673054827476043
+      }
+    },
+    {
+      "seat": "Carrum",
+      "candidate": "CAMERON, JEREMY",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 17.613871126802874,
+        "family_only": 20.075083278527586,
+        "prior_1": 17.605470063827006,
+        "prior_3": 17.590606644715862,
+        "prior_5": 17.57786657119202,
+        "prior_10": 17.836541120484057
+      }
+    },
+    {
+      "seat": "Carrum",
+      "candidate": "EREVNIDIS, GEORGIA",
+      "family": "RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 15.935598250956302,
+        "family_only": 15.67864293353043,
+        "prior_1": 15.898890348466892,
+        "prior_3": 15.849946478481009,
+        "prior_5": 15.81880037939909,
+        "prior_10": 15.775001177565134
+      }
+    },
+    {
+      "seat": "Caulfield",
+      "candidate": "EDWELL, LYNNE",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 12.053889742526227,
+        "family_only": 11.014430411905723,
+        "prior_1": 12.001916775995202,
+        "prior_3": 11.912145288350704,
+        "prior_5": 11.837335715313623,
+        "prior_10": 11.695455490588122
+      }
+    },
+    {
+      "seat": "Caulfield",
+      "candidate": "ABELMAN, MICHAEL",
+      "family": "RIGHT",
+      "subtype_seats": 2,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 34.078113426329395,
+        "family_only": 47.92455745479842,
+        "prior_1": 37.26680454991453,
+        "prior_3": 41.14262576971288,
+        "prior_5": 43.08032053688018,
+        "prior_10": 45.09875258601277
+      }
+    },
+    {
+      "seat": "Caulfield",
+      "candidate": "MYERSON, ASHER",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 2,
+      "family_seats": 3,
+      "errors": {
+        "subtype_only": 3.928480357391516,
+        "family_only": 6.657831857557167,
+        "prior_1": 3.7628120394947855,
+        "prior_3": 4.920819966719739,
+        "prior_5": 5.417109078387574,
+        "prior_10": 5.934076903041571
+      }
+    },
+    {
+      "seat": "Clarinda",
+      "candidate": "WOLFE, STEVE",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 10.392604416514823,
+        "family_only": 17.531546371044637,
+        "prior_1": 10.216219930102508,
+        "prior_3": 9.907547078880958,
+        "prior_5": 9.646362358616564,
+        "prior_10": 9.517485510441468
+      }
+    },
+    {
+      "seat": "Clarinda",
+      "candidate": "LITCHFIELD, SUE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 14.263886449010066,
+        "family_only": 14.943832812469532,
+        "prior_1": 14.285134772868174,
+        "prior_3": 14.323881716374135,
+        "prior_5": 14.358323443934989,
+        "prior_10": 14.429727025463594
+      }
+    },
+    {
+      "seat": "Clarinda",
+      "candidate": "HASTINGS, KAREN",
+      "family": "RIGHT",
+      "subtype_seats": 9,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 25.947349465107045,
+        "family_only": 27.16106652273027,
+        "prior_1": 26.06872117086937,
+        "prior_3": 26.250778729512852,
+        "prior_5": 26.380819842829627,
+        "prior_10": 26.586147916487686
+      }
+    },
+    {
+      "seat": "Cranbourne",
+      "candidate": "BRENNAN, GWYNNE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 13.272073303068025,
+        "family_only": 14.208928070809144,
+        "prior_1": 13.292892297906716,
+        "prior_3": 13.33187254356214,
+        "prior_5": 13.367670728347731,
+        "prior_10": 13.445564926723788
+      }
+    },
+    {
+      "seat": "Cranbourne",
+      "candidate": "HANSEN, GERARDINE FRANCES",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 11.473429229119045,
+        "family_only": 20.332073248483105,
+        "prior_1": 11.620750417502768,
+        "prior_3": 11.873301026160583,
+        "prior_5": 12.222136895502288,
+        "prior_10": 13.670339815677435
+      }
+    },
+    {
+      "seat": "Cranbourne",
+      "candidate": "NORTON, CHRIS",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 4.528861365051074,
+        "family_only": 17.160227734709174,
+        "prior_1": 4.513540073640794,
+        "prior_3": 4.488305005435633,
+        "prior_5": 4.807837700809218,
+        "prior_10": 7.381252291205042
+      }
+    },
+    {
+      "seat": "Cranbourne",
+      "candidate": "HARVEY, BRADLEY",
+      "family": "RIGHT",
+      "subtype_seats": 8,
+      "family_seats": 10,
+      "errors": {
+        "subtype_only": 2.0607155979067535,
+        "family_only": 0.6557184862723525,
+        "prior_1": 1.7588895885535194,
+        "prior_3": 1.3198699385851775,
+        "prior_5": 1.015933257837867,
+        "prior_10": 0.5515855511405848
+      }
+    },
+    {
+      "seat": "Croydon",
+      "candidate": "MCDONALD-ECKERSALL, HARLEY",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 1.4005762776560218,
+        "family_only": 1.4966357949721814,
+        "prior_1": 1.3943799232900547,
+        "prior_3": 1.3827782385197371,
+        "prior_5": 1.3721236300572002,
+        "prior_10": 1.3489399912729758
+      }
+    },
+    {
+      "seat": "Croydon",
+      "candidate": "DE WIT, SOPHIA",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 14.411026043479048,
+        "family_only": 32.029632342989046,
+        "prior_1": 15.507485971166929,
+        "prior_3": 17.313419969711667,
+        "prior_5": 18.739157336983837,
+        "prior_10": 21.35105289538945
+      }
+    },
+    {
+      "seat": "Croydon",
+      "candidate": "NEBAUER, DAN",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 2.8071331032836,
+        "family_only": 4.047678923840532,
+        "prior_1": 2.8760523155367617,
+        "prior_3": 2.9932149763671383,
+        "prior_5": 3.089075335228358,
+        "prior_10": 3.266594518304687
+      }
+    },
+    {
+      "seat": "Dandenong",
+      "candidate": "TURNER, THAM",
+      "family": "RIGHT",
+      "subtype_seats": 5,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 3.878172239385349,
+        "family_only": 12.611277198210018,
+        "prior_1": 3.500120728282562,
+        "prior_3": 5.123418984390435,
+        "prior_5": 6.620990627154352,
+        "prior_10": 8.617752817506238
+      }
+    },
+    {
+      "seat": "Dandenong",
+      "candidate": "KLOP, ANDREW",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 8.15998860789468,
+        "family_only": 9.10793524559709,
+        "prior_1": 8.181054088732512,
+        "prior_3": 8.220495840088452,
+        "prior_5": 8.25671785663982,
+        "prior_10": 8.335534281543275
+      }
+    },
+    {
+      "seat": "Dandenong",
+      "candidate": "LEVCHENKO, ANTHONY",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 13.173761847879579,
+        "family_only": 23.96355550988218,
+        "prior_1": 13.435360577281772,
+        "prior_3": 13.883815541971245,
+        "prior_5": 14.254278338888634,
+        "prior_10": 15.695713997101882
+      }
+    },
+    {
+      "seat": "Dandenong",
+      "candidate": "HARMSE, AUDREY",
+      "family": "RIGHT",
+      "subtype_seats": 8,
+      "family_seats": 10,
+      "errors": {
+        "subtype_only": 11.482289266942614,
+        "family_only": 13.897767687458407,
+        "prior_1": 11.750675758111035,
+        "prior_3": 12.141056108901463,
+        "prior_5": 12.411319428679457,
+        "prior_10": 12.824221722784724
+      }
+    },
+    {
+      "seat": "Eildon",
+      "candidate": "BOND, CHLOE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 5.804794841586294,
+        "family_only": 4.849508317183675,
+        "prior_1": 5.783566252155123,
+        "prior_3": 5.7438191059861285,
+        "prior_5": 5.707316624810515,
+        "prior_10": 5.627889929659884
+      }
+    },
+    {
+      "seat": "Eildon",
+      "candidate": "RUSIC, JOSHUA",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 7.932964307531992,
+        "family_only": 21.113638917217763,
+        "prior_1": 8.626684023831247,
+        "prior_3": 9.815917823201385,
+        "prior_5": 10.798328353115854,
+        "prior_10": 12.64034809670548
+      }
+    },
+    {
+      "seat": "Eildon",
+      "candidate": "LACEY, TIM",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 3.213185484918442,
+        "family_only": 4.6707308207013964,
+        "prior_1": 3.294160225795277,
+        "prior_3": 3.431817285285885,
+        "prior_5": 3.544445788505478,
+        "prior_10": 3.7530170907639784
+      }
+    },
+    {
+      "seat": "Eltham",
+      "candidate": "KARIMI, LEILA",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 17.282829953096616,
+        "family_only": 10.743654987602381,
+        "prior_1": 15.97284704241481,
+        "prior_3": 13.815228130703607,
+        "prior_5": 12.111844779352655,
+        "prior_10": 9.095436761335346
+      }
+    },
+    {
+      "seat": "Eltham",
+      "candidate": "MARSHALL, CATRIONA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 13.69271931861869,
+        "family_only": 12.723658953451048,
+        "prior_1": 13.671184643837183,
+        "prior_3": 13.630864401693096,
+        "prior_5": 13.593835607887303,
+        "prior_10": 13.513263695439498
+      }
+    },
+    {
+      "seat": "Eltham",
+      "candidate": "STUBLEY, HUGH",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 3.711944027745556,
+        "family_only": 4.578588815230024,
+        "prior_1": 3.719777472530002,
+        "prior_3": 3.7330943286635607,
+        "prior_5": 3.743989938227382,
+        "prior_10": 3.7641669929751984
+      }
+    },
+    {
+      "seat": "Essendon",
+      "candidate": "MUIR, MARGARET",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 13.466241302425372,
+        "family_only": 13.835833519885677,
+        "prior_1": 13.382521380549587,
+        "prior_3": 13.234401518769353,
+        "prior_5": 13.107441637243438,
+        "prior_10": 12.857369143328759
+      }
+    },
+    {
+      "seat": "Essendon",
+      "candidate": "HOPE, NICHOLAS",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 4,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 11.693286188858462,
+        "family_only": 5.730497606517316,
+        "prior_1": 9.507770381054637,
+        "prior_3": 7.81710462178059,
+        "prior_5": 7.353414173944303,
+        "prior_10": 6.7738011141489505
+      }
+    },
+    {
+      "seat": "Essendon",
+      "candidate": "WRIGHT, DAVID",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 37.29057878062775,
+        "family_only": 32.44224904614397,
+        "prior_1": 37.035403531444395,
+        "prior_3": 36.59796024713007,
+        "prior_5": 36.23659405573997,
+        "prior_10": 35.55903244688355
+      }
+    },
+    {
+      "seat": "Essendon",
+      "candidate": "WILLIAMS, GAYLE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 15.59576079184271,
+        "family_only": 15.083127295665106,
+        "prior_1": 15.584368936372101,
+        "prior_3": 15.56303950485265,
+        "prior_5": 15.543451251416423,
+        "prior_10": 15.500828662920933
+      }
+    },
+    {
+      "seat": "Essendon",
+      "candidate": "DADICH, DANIEL NAIR",
+      "family": "LEFT",
+      "subtype_seats": 8,
+      "family_seats": 8,
+      "errors": {
+        "subtype_only": 3.197350002029633,
+        "family_only": 3.197350002029633,
+        "prior_1": 3.197350002029633,
+        "prior_3": 3.197350002029632,
+        "prior_5": 3.197350002029633,
+        "prior_10": 3.197350002029633
+      }
+    },
+    {
+      "seat": "Eureka",
+      "candidate": "GIAMPAOLO, ANTHONY JOSEPH",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 2.862285516109544,
+        "family_only": 11.670668269819563,
+        "prior_1": 2.9917610048509724,
+        "prior_3": 3.696580323305228,
+        "prior_5": 4.292965900458836,
+        "prior_10": 5.447260565917424
+      }
+    },
+    {
+      "seat": "Eureka",
+      "candidate": "MORRISON, WENDY",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 5.723017652572485,
+        "family_only": 6.476722922682692,
+        "prior_1": 5.746570942263431,
+        "prior_3": 5.789521058758681,
+        "prior_5": 5.8276989400877905,
+        "prior_10": 5.906848206257902
+      }
+    },
+    {
+      "seat": "Eureka",
+      "candidate": "RICKARD, TABITHA",
+      "family": "RIGHT",
+      "subtype_seats": 11,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 6.797585317482668,
+        "family_only": 22.0742797063517,
+        "prior_1": 5.611877449170246,
+        "prior_3": 3.748622227536442,
+        "prior_5": 4.581622274151862,
+        "prior_10": 8.746540710389919
+      }
+    },
+    {
+      "seat": "Eureka",
+      "candidate": "GARCIA, ADRIAN",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 7.6007210315149605,
+        "family_only": 7.199657759664807,
+        "prior_1": 7.578439738634396,
+        "prior_3": 7.540561540737439,
+        "prior_5": 7.509570287912652,
+        "prior_10": 7.452179078977865
+      }
+    },
+    {
+      "seat": "Euroa",
+      "candidate": "HADDOCK, ELAINE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 13.322847593653872,
+        "family_only": 12.637779982840748,
+        "prior_1": 13.307623868969138,
+        "prior_3": 13.279119873814738,
+        "prior_5": 13.252942735407636,
+        "prior_10": 13.195983221281072
+      }
+    },
+    {
+      "seat": "Euroa",
+      "candidate": "BACHELOR, PAUL",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 11.768302446440599,
+        "family_only": 13.6739598001594,
+        "prior_1": 11.84770483617888,
+        "prior_3": 11.988185987254308,
+        "prior_5": 12.108598402461812,
+        "prior_10": 12.345774371809934
+      }
+    },
+    {
+      "seat": "Euroa",
+      "candidate": "ROWBOTHAM, RAYMOND MARK",
+      "family": "RIGHT",
+      "subtype_seats": 1,
+      "family_seats": 10,
+      "errors": {
+        "subtype_only": 15.41139301993914,
+        "family_only": 20.494147979981854,
+        "prior_1": 17.952770499960497,
+        "prior_3": 19.223459239971174,
+        "prior_5": 19.64702215330807,
+        "prior_10": 20.032079347250697
+      }
+    },
+    {
+      "seat": "Evelyn",
+      "candidate": "HEALD, JAN",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 10.765542343183693,
+        "family_only": 10.082945558699524,
+        "prior_1": 10.750373525750708,
+        "prior_3": 10.721972335663429,
+        "prior_5": 10.695889610073063,
+        "prior_10": 10.639135531242182
+      }
+    },
+    {
+      "seat": "Evelyn",
+      "candidate": "DOBSON, JEANETTE",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 1.8228899275012909,
+        "family_only": 3.0804260884311776,
+        "prior_1": 1.8331359573435138,
+        "prior_3": 1.850554208075307,
+        "prior_5": 1.925226424739443,
+        "prior_10": 2.139152288386055
+      }
+    },
+    {
+      "seat": "Footscray",
+      "candidate": "MUIR, RUSSELL",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 3.1536880730284502,
+        "family_only": 4.328837703216521,
+        "prior_1": 3.086627452733056,
+        "prior_3": 2.967981739902746,
+        "prior_5": 2.866285414619621,
+        "prior_10": 2.7468533239322515
+      }
+    },
+    {
+      "seat": "Footscray",
+      "candidate": "MANSOURI JAJAEE, SHOHRE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 11.527789781598141,
+        "family_only": 11.239169087782885,
+        "prior_1": 11.521375988402246,
+        "prior_3": 11.50936718412057,
+        "prior_5": 11.498338690392504,
+        "prior_10": 11.474341504965686
+      }
+    },
+    {
+      "seat": "Footscray",
+      "candidate": "WILLIAMS, ALAN",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 20.904783701867697,
+        "family_only": 32.88819408937788,
+        "prior_1": 20.834891232390284,
+        "prior_3": 20.719774223839238,
+        "prior_5": 21.094834407645145,
+        "prior_10": 23.551784341339463
+      }
+    },
+    {
+      "seat": "Footscray",
+      "candidate": "JORQUERA, JORGE",
+      "family": "LEFT",
+      "subtype_seats": 8,
+      "family_seats": 8,
+      "errors": {
+        "subtype_only": 4.778690049258348,
+        "family_only": 4.778690049258348,
+        "prior_1": 4.778690049258353,
+        "prior_3": 4.778690049258348,
+        "prior_5": 4.778690049258348,
+        "prior_10": 4.778690049258348
+      }
+    },
+    {
+      "seat": "Frankston",
+      "candidate": "BROWN, RICHARD",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 22.710328243940747,
+        "family_only": 24.288764419926174,
+        "prior_1": 22.776096417940135,
+        "prior_3": 22.892455495015987,
+        "prior_5": 22.992191846795286,
+        "prior_10": 23.1886422366636
+      }
+    },
+    {
+      "seat": "Frankston",
+      "candidate": "ABRAHAM, CHRYSTEN",
+      "family": "RIGHT",
+      "subtype_seats": 5,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 12.383847972785967,
+        "family_only": 16.0033779480137,
+        "prior_1": 12.588585546385175,
+        "prior_3": 12.84450751338419,
+        "prior_5": 12.998060693583602,
+        "prior_10": 13.202798267182814
+      }
+    },
+    {
+      "seat": "Frankston",
+      "candidate": "JOHNSTON, ELIZABETH",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 7.243517504332776,
+        "family_only": 7.85060750153721,
+        "prior_1": 7.237195697659208,
+        "prior_3": 7.22781753132771,
+        "prior_5": 7.2532375301117735,
+        "prior_10": 7.308549564503015
+      }
+    },
+    {
+      "seat": "Frankston",
+      "candidate": "SURIC, DRAGAN",
+      "family": "RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 7.576789017999333,
+        "family_only": 8.674642117026337,
+        "prior_1": 7.733625175003186,
+        "prior_3": 7.942740051008338,
+        "prior_5": 8.075813153920693,
+        "prior_10": 8.262947204891208
+      }
+    },
+    {
+      "seat": "Geelong",
+      "candidate": "MOTTA, BOB",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 18.015993403829288,
+        "family_only": 17.042755962250812,
+        "prior_1": 17.994365905127545,
+        "prior_3": 17.953871865005127,
+        "prior_5": 17.91668346081108,
+        "prior_10": 17.835764247981423
+      }
+    },
+    {
+      "seat": "Geelong",
+      "candidate": "PARKER-HILL, MADELEINE",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 2.3257777206253714,
+        "family_only": 2.2945182510403423,
+        "prior_1": 2.250303066706938,
+        "prior_3": 2.143497990181814,
+        "prior_5": 2.157227104805315,
+        "prior_10": 2.1826513911451393
+      }
+    },
+    {
+      "seat": "Gippsland East",
+      "candidate": "COURT, SALLY",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 5.97328847318759,
+        "family_only": 6.645865131969725,
+        "prior_1": 5.988234621160527,
+        "prior_3": 6.016218898216237,
+        "prior_5": 6.041918744491892,
+        "prior_10": 6.097839706295394
+      }
+    },
+    {
+      "seat": "Gippsland East",
+      "candidate": "FECHNER, CARL JOHN",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 12.61733826334232,
+        "family_only": 14.407533810262073,
+        "prior_1": 12.691929744463978,
+        "prior_3": 12.823899287986906,
+        "prior_5": 12.937016039577987,
+        "prior_10": 13.159821762408914
+      }
+    },
+    {
+      "seat": "Gippsland East",
+      "candidate": "BARNES, ED",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 8.860913165404936,
+        "family_only": 15.196333189590291,
+        "prior_1": 8.671235741976172,
+        "prior_3": 8.346074444669727,
+        "prior_5": 8.077462938199188,
+        "prior_10": 8.789045013014082
+      }
+    },
+    {
+      "seat": "Gippsland South",
+      "candidate": "FURLONG, PAUL",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 6.363571685536265,
+        "family_only": 5.7168744879176225,
+        "prior_1": 6.208943423544803,
+        "prior_3": 5.941858243741371,
+        "prior_5": 5.765890544101493,
+        "prior_10": 5.435523296057598
+      }
+    },
+    {
+      "seat": "Gippsland South",
+      "candidate": "JEGES, HELEN",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 6.296687125434919,
+        "family_only": 7.233016109154739,
+        "prior_1": 6.325947406176166,
+        "prior_3": 6.379304388704313,
+        "prior_5": 6.426732817618228,
+        "prior_10": 6.525060048293407
+      }
+    },
+    {
+      "seat": "Gippsland South",
+      "candidate": "NEWNHAM, ANGELA",
+      "family": "RIGHT",
+      "subtype_seats": 2,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 5.5623393647438,
+        "family_only": 7.655564553267929,
+        "prior_1": 3.97458656930135,
+        "prior_3": 4.893718455454551,
+        "prior_5": 5.4380994153347775,
+        "prior_10": 6.005162915210011
+      }
+    },
+    {
+      "seat": "Glen Waverley",
+      "candidate": "HARRIS, JOYCE MAREE",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 10.649266971383986,
+        "family_only": 21.121211327851498,
+        "prior_1": 11.200421937513854,
+        "prior_3": 12.145259022307917,
+        "prior_5": 12.925776614094318,
+        "prior_10": 14.389247098693808
+      }
+    },
+    {
+      "seat": "Glen Waverley",
+      "candidate": "HANCE, MADDY",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 10.164069883845,
+        "family_only": 9.871957495927875,
+        "prior_1": 10.15287152506557,
+        "prior_3": 10.14091773659163,
+        "prior_5": 10.129939767584945,
+        "prior_10": 10.106052520209285
+      }
+    },
+    {
+      "seat": "Glen Waverley",
+      "candidate": "HUISMAN, KRISTEEN",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 15.909890061177093,
+        "family_only": 16.586557801237415,
+        "prior_1": 15.938084550346272,
+        "prior_3": 15.987967108107126,
+        "prior_5": 16.030723586187868,
+        "prior_10": 16.114940891498403
+      }
+    },
+    {
+      "seat": "Glen Waverley",
+      "candidate": "MARSH, SCOTT",
+      "family": "RIGHT",
+      "subtype_seats": 3,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 17.71497530867505,
+        "family_only": 15.678256244296982,
+        "prior_1": 15.390612625112066,
+        "prior_3": 13.640302201683982,
+        "prior_5": 14.149790712337229,
+        "prior_10": 14.737662070783287
+      }
+    },
+    {
+      "seat": "Greenvale",
+      "candidate": "STYLES, LAUREN",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 16.321387549392934,
+        "family_only": 19.8767499884055,
+        "prior_1": 16.48299493298442,
+        "prior_3": 16.765807854269504,
+        "prior_5": 17.00511109535689,
+        "prior_10": 17.468278658751828
+      }
+    },
+    {
+      "seat": "Greenvale",
+      "candidate": "FURINA, ROSANNA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 18.698195641705038,
+        "family_only": 17.839022322041195,
+        "prior_1": 18.67134647546554,
+        "prior_3": 18.62238623114646,
+        "prior_5": 18.57886601397395,
+        "prior_10": 18.488641173494347
+      }
+    },
+    {
+      "seat": "Greenvale",
+      "candidate": "BENGTSSON, MARIA",
+      "family": "RIGHT",
+      "subtype_seats": 8,
+      "family_seats": 10,
+      "errors": {
+        "subtype_only": 0.8269428752322533,
+        "family_only": 3.4792067711193866,
+        "prior_1": 1.1216388636641565,
+        "prior_3": 1.5502875741105648,
+        "prior_5": 1.8470443736503805,
+        "prior_10": 2.30042281739177
+      }
+    },
+    {
+      "seat": "Hastings",
+      "candidate": "DE WIT, CAMILLE",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 6.681239077622061,
+        "family_only": 17.75644893667926,
+        "prior_1": 5.425487719731766,
+        "prior_3": 5.385799299134477,
+        "prior_5": 6.6879729451918255,
+        "prior_10": 8.993905443418374
+      }
+    },
+    {
+      "seat": "Hastings",
+      "candidate": "SABO, TOM",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 19.950563991164863,
+        "family_only": 21.074671587026533,
+        "prior_1": 19.997401807659102,
+        "prior_3": 20.080268713764287,
+        "prior_5": 20.151297490425875,
+        "prior_10": 20.29120265657749
+      }
+    },
+    {
+      "seat": "Hastings",
+      "candidate": "BENSON, JANET FELICITY",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 37.72058941221002,
+        "family_only": 29.86026963640892,
+        "prior_1": 37.05766723146407,
+        "prior_3": 35.921229207328174,
+        "prior_5": 34.982432578694166,
+        "prior_10": 33.222188900005406
+      }
+    },
+    {
+      "seat": "Hastings",
+      "candidate": "JACK, TYSON",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 2,
+      "family_seats": 3,
+      "errors": {
+        "subtype_only": 4.433651533209219,
+        "family_only": 10.249060637787464,
+        "prior_1": 6.3721212347353005,
+        "prior_3": 7.922896995956166,
+        "prior_5": 8.58751517933654,
+        "prior_10": 9.279825787024423
+      }
+    },
+    {
+      "seat": "Hawthorn",
+      "candidate": "BELL, STRATTON",
+      "family": "RIGHT",
+      "subtype_seats": 11,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 8.921288864237638,
+        "family_only": 28.83757019063128,
+        "prior_1": 9.132935421445442,
+        "prior_3": 9.754984355919419,
+        "prior_5": 11.617733695685851,
+        "prior_10": 15.717694765910952
+      }
+    },
+    {
+      "seat": "Hawthorn",
+      "candidate": "TRIANTAFILLIS, KEN",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 13.296455775724564,
+        "family_only": 8.989431327745455,
+        "prior_1": 13.003126255951225,
+        "prior_3": 12.49646617634272,
+        "prior_5": 12.074249443335637,
+        "prior_10": 11.273493570391166
+      }
+    },
+    {
+      "seat": "Hawthorn",
+      "candidate": "FUHRER, FAITH",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 27.720682738437745,
+        "family_only": 28.599943336650202,
+        "prior_1": 27.748159632131888,
+        "prior_3": 27.798264555927084,
+        "prior_5": 27.842802265967254,
+        "prior_10": 27.935136542879807
+      }
+    },
+    {
+      "seat": "Ivanhoe",
+      "candidate": "RISTEVSKI, SONJA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 12.882303708129465,
+        "family_only": 12.598526962901873,
+        "prior_1": 12.875997558235513,
+        "prior_3": 12.864190298859619,
+        "prior_5": 12.853346897391951,
+        "prior_10": 12.829752459013239
+      }
+    },
+    {
+      "seat": "Ivanhoe",
+      "candidate": "HAYWARD, SARAH",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 0.9452303566657119,
+        "family_only": 0.6475216047684516,
+        "prior_1": 0.8589447398737002,
+        "prior_3": 0.71225919132729,
+        "prior_5": 0.5922437425165863,
+        "prior_10": 0.3699929113856609
+      }
+    },
+    {
+      "seat": "Kalkallo",
+      "candidate": "SANDHU, SMILEY",
+      "family": "CENTRE",
+      "subtype_seats": 6,
+      "family_seats": 6,
+      "errors": {
+        "subtype_only": 18.091478655564256,
+        "family_only": 20.761328575388426,
+        "prior_1": 18.472885786967712,
+        "prior_3": 18.981428628838977,
+        "prior_5": 19.305046800938875,
+        "prior_10": 19.76013485545436
+      }
+    },
+    {
+      "seat": "Kalkallo",
+      "candidate": "LOWE, FRANCES",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 15.690343975906417,
+        "family_only": 15.952666955946308,
+        "prior_1": 15.696173375462857,
+        "prior_3": 15.70708799590896,
+        "prior_5": 15.717111626930894,
+        "prior_10": 15.738922305543431
+      }
+    },
+    {
+      "seat": "Kalkallo",
+      "candidate": "MONSALVE TOBON, SERGIO",
+      "family": "LEFT",
+      "subtype_seats": 5,
+      "family_seats": 5,
+      "errors": {
+        "subtype_only": 13.39340541005711,
+        "family_only": 13.39340541005711,
+        "prior_1": 13.39340541005711,
+        "prior_3": 13.39340541005711,
+        "prior_5": 13.39340541005711,
+        "prior_10": 13.393405410057108
+      }
+    },
+    {
+      "seat": "Kalkallo",
+      "candidate": "SAYER, DAS",
+      "family": "RIGHT",
+      "subtype_seats": 8,
+      "family_seats": 10,
+      "errors": {
+        "subtype_only": 0.8647042814994732,
+        "family_only": 3.516129035025109,
+        "prior_1": 1.1593070318912102,
+        "prior_3": 1.587820123370101,
+        "prior_5": 1.8844830328554885,
+        "prior_10": 2.337718033458161
+      }
+    },
+    {
+      "seat": "Kew",
+      "candidate": "SCHOFIELD, RUBY",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 21.974303675551692,
+        "family_only": 22.79375775760102,
+        "prior_1": 21.999911615615726,
+        "prior_3": 22.046608447497217,
+        "prior_5": 22.088116742502987,
+        "prior_10": 22.174170524832014
+      }
+    },
+    {
+      "seat": "Kew",
+      "candidate": "SEELEY, ANN",
+      "family": "RIGHT",
+      "subtype_seats": 9,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 36.57350747405761,
+        "family_only": 29.539367434671526,
+        "prior_1": 35.870093470119,
+        "prior_3": 34.81497246421109,
+        "prior_5": 34.0613146028483,
+        "prior_10": 32.871328505959674
+      }
+    },
+    {
+      "seat": "Kororoit",
+      "candidate": "CHANDOK, JAZ",
+      "family": "CENTRE",
+      "subtype_seats": 6,
+      "family_seats": 6,
+      "errors": {
+        "subtype_only": 19.85966565986308,
+        "family_only": 16.52346646234964,
+        "prior_1": 19.38306577450402,
+        "prior_3": 18.74759926069193,
+        "prior_5": 18.34321147917515,
+        "prior_10": 17.77454116141718
+      }
+    },
+    {
+      "seat": "Kororoit",
+      "candidate": "DIVITA, KATHERINE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 27.076570860052335,
+        "family_only": 28.000087948994434,
+        "prior_1": 27.097093462028827,
+        "prior_3": 27.13551875934651,
+        "prior_5": 27.17080729769949,
+        "prior_10": 27.247592543189757
+      }
+    },
+    {
+      "seat": "Kororoit",
+      "candidate": "BROWN, ZUZANNA",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 22.260769784789108,
+        "family_only": 15.749311617588468,
+        "prior_1": 21.050036127509102,
+        "prior_3": 19.055886574342036,
+        "prior_5": 17.48155797973646,
+        "prior_10": 16.24166830138059
+      }
+    },
+    {
+      "seat": "Lara",
+      "candidate": "TAYLOR, ASH",
+      "family": "RIGHT",
+      "subtype_seats": 1,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 1.401274932717969,
+        "family_only": 23.919364061885272,
+        "prior_1": 12.30999643653779,
+        "prior_3": 17.981276630897586,
+        "prior_5": 19.89516564631128,
+        "prior_10": 21.724346744299456
+      }
+    },
+    {
+      "seat": "Lara",
+      "candidate": "KELLY, PETER",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 6.673111361312712,
+        "family_only": 6.937993985700262,
+        "prior_1": 6.678997641854657,
+        "prior_3": 6.690018762869363,
+        "prior_5": 6.7001402005359285,
+        "prior_10": 6.722163699162259
+      }
+    },
+    {
+      "seat": "Lara",
+      "candidate": "PAYNE, MAX",
+      "family": "RIGHT",
+      "subtype_seats": 5,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 10.255601050342662,
+        "family_only": 6.393432840359825,
+        "prior_1": 7.984993832391049,
+        "prior_3": 5.470866139146737,
+        "prior_5": 4.981771027915954,
+        "prior_10": 5.285514480860436
+      }
+    },
+    {
+      "seat": "Lara",
+      "candidate": "RANKINE, STEVE",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 7.8831057683915295,
+        "family_only": 7.475550893394795,
+        "prior_1": 7.860463830891707,
+        "prior_3": 7.821972537142019,
+        "prior_5": 7.790479660437731,
+        "prior_10": 7.732159518392742
+      }
+    },
+    {
+      "seat": "Laverton",
+      "candidate": "RAYMOND, TRENT",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 18.757224010173516,
+        "family_only": 30.841158189749596,
+        "prior_1": 19.39322054594068,
+        "prior_3": 20.48350032154153,
+        "prior_5": 21.38416622312484,
+        "prior_10": 23.07291478859354
+      }
+    },
+    {
+      "seat": "Laverton",
+      "candidate": "BAGHERI, POUYA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 16.698353008387,
+        "family_only": 16.95354940896095,
+        "prior_1": 16.704024039510866,
+        "prior_3": 16.714642140338533,
+        "prior_5": 16.72439345742516,
+        "prior_10": 16.745611601085876
+      }
+    },
+    {
+      "seat": "Laverton",
+      "candidate": "FRY, DAVID",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 16.565332890526697,
+        "family_only": 16.841636789872425,
+        "prior_1": 16.46434561000013,
+        "prior_3": 16.28567580599158,
+        "prior_5": 16.13253025969854,
+        "prior_10": 16.2283780594132
+      }
+    },
+    {
+      "seat": "Laverton",
+      "candidate": "WIRTH, MICHAEL",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 12.998129916093031,
+        "family_only": 28.531741797139432,
+        "prior_1": 12.94670950383642,
+        "prior_3": 14.660989236067252,
+        "prior_5": 16.047973821370036,
+        "prior_10": 18.50409235784371
+      }
+    },
+    {
+      "seat": "Laverton",
+      "candidate": "ROBERTSON, CATHERINE",
+      "family": "LEFT",
+      "subtype_seats": 8,
+      "family_seats": 8,
+      "errors": {
+        "subtype_only": 14.201456094962994,
+        "family_only": 14.201456094962994,
+        "prior_1": 14.201456094962994,
+        "prior_3": 14.201456094962994,
+        "prior_5": 14.201456094962994,
+        "prior_10": 14.201456094962994
+      }
+    },
+    {
+      "seat": "Lowan",
+      "candidate": "RAMSAY, TAMASIN",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 16.807228998340875,
+        "family_only": 16.031521534235633,
+        "prior_1": 16.782988140087586,
+        "prior_3": 16.738784222096296,
+        "prior_5": 16.699491850548483,
+        "prior_10": 16.61803205587618
+      }
+    },
+    {
+      "seat": "Lowan",
+      "candidate": "COLEMAN, ROBERT",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 16.84899949009504,
+        "family_only": 17.43257138578542,
+        "prior_1": 16.862376955715412,
+        "prior_3": 16.885483487241515,
+        "prior_5": 16.904738930179928,
+        "prior_10": 16.941257873683817
+      }
+    },
+    {
+      "seat": "Malvern",
+      "candidate": "SCHMIDT, JUDY",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 28.909052078852138,
+        "family_only": 33.471940134125774,
+        "prior_1": 29.137196481615817,
+        "prior_3": 29.531264086389452,
+        "prior_5": 29.859653757034145,
+        "prior_10": 30.48246175308443
+      }
+    },
+    {
+      "seat": "Malvern",
+      "candidate": "NATOLI, AMELIA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 2,
+      "family_seats": 3,
+      "errors": {
+        "subtype_only": 9.480821121876575,
+        "family_only": 6.637651842326838,
+        "prior_1": 8.478696326264712,
+        "prior_3": 7.67699648977523,
+        "prior_5": 7.333410845565442,
+        "prior_10": 6.9755091328469225
+      }
+    },
+    {
+      "seat": "Melbourne",
+      "candidate": "SMITH, STEVEN J.",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 7.025352831786513,
+        "family_only": 18.67049371197117,
+        "prior_1": 7.285101228326189,
+        "prior_3": 7.7303841938227595,
+        "prior_5": 8.653712105776052,
+        "prior_10": 10.44242310688232
+      }
+    },
+    {
+      "seat": "Melbourne",
+      "candidate": "JANSON, MICHAEL",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 25.864197455354443,
+        "family_only": 24.95346064536128,
+        "prior_1": 25.82491158473898,
+        "prior_3": 25.75540581365008,
+        "prior_5": 25.695829438431023,
+        "prior_10": 25.57848203269652
+      }
+    },
+    {
+      "seat": "Melbourne",
+      "candidate": "BANGAAR, RABIN",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 3.885689469504762,
+        "family_only": 3.644888898818033,
+        "prior_1": 3.880272078614882,
+        "prior_3": 3.870128878650851,
+        "prior_5": 3.860813695010416,
+        "prior_10": 3.8405445454224245
+      }
+    },
+    {
+      "seat": "Melbourne",
+      "candidate": "FOXWORTHY, NICOLA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 4,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 4.658955781769717,
+        "family_only": 14.185693330628132,
+        "prior_1": 6.190929466622293,
+        "prior_3": 8.384926379609611,
+        "prior_5": 9.673985702058172,
+        "prior_10": 11.285309855118875
+      }
+    },
+    {
+      "seat": "Melbourne",
+      "candidate": "BOLGER, COLLEEN",
+      "family": "LEFT",
+      "subtype_seats": 8,
+      "family_seats": 8,
+      "errors": {
+        "subtype_only": 10.567521133030631,
+        "family_only": 10.567521133030631,
+        "prior_1": 10.567521133030631,
+        "prior_3": 10.567521133030631,
+        "prior_5": 10.567521133030631,
+        "prior_10": 10.567521133030631
+      }
+    },
+    {
+      "seat": "Melton",
+      "candidate": "CIAPPARA, LUCIENNE",
+      "family": "RIGHT",
+      "subtype_seats": 2,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 8.425966470579423,
+        "family_only": 36.33279466103235,
+        "prior_1": 15.928973271252856,
+        "prior_3": 24.09050182716466,
+        "prior_5": 27.588299779698282,
+        "prior_10": 31.23183931358748
+      }
+    },
+    {
+      "seat": "Melton",
+      "candidate": "KAUR, JASLEEN",
+      "family": "CENTRE",
+      "subtype_seats": 6,
+      "family_seats": 6,
+      "errors": {
+        "subtype_only": 9.886914614745452,
+        "family_only": 7.95313462922125,
+        "prior_1": 9.475873913730792,
+        "prior_3": 9.134346024151872,
+        "prior_5": 8.919580315982667,
+        "prior_10": 8.617566038869723
+      }
+    },
+    {
+      "seat": "Melton",
+      "candidate": "DONALD, SAMANTHA JANE",
+      "family": "CENTRE_RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 7,
+      "errors": {
+        "subtype_only": 23.165258872699614,
+        "family_only": 22.11578484836544,
+        "prior_1": 23.015334012080444,
+        "prior_3": 22.815434197921554,
+        "prior_5": 22.688225225274987,
+        "prior_10": 22.50933760749076
+      }
+    },
+    {
+      "seat": "Melton",
+      "candidate": "DOBRAN, TONY",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 19.40544624559092,
+        "family_only": 30.22996056223096,
+        "prior_1": 19.89746962362001,
+        "prior_3": 20.758510535170924,
+        "prior_5": 21.487083614175543,
+        "prior_10": 22.89722505741029
+      }
+    },
+    {
+      "seat": "Melton",
+      "candidate": "ADIN-JAMES, FIONA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 25.272812590195727,
+        "family_only": 24.407218746168123,
+        "prior_1": 25.24576278256986,
+        "prior_3": 25.196436662781522,
+        "prior_5": 25.15259122296967,
+        "prior_10": 25.061692140432896
+      }
+    },
+    {
+      "seat": "Melton",
+      "candidate": "BRUNT, RICHARD",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 12.301227100859538,
+        "family_only": 10.36202392491062,
+        "prior_1": 12.150586290477694,
+        "prior_3": 11.89038852709088,
+        "prior_5": 11.673557057601863,
+        "prior_10": 11.262324960295116
+      }
+    },
+    {
+      "seat": "Melton",
+      "candidate": "ALP, ASHLEY",
+      "family": "RIGHT",
+      "subtype_seats": 11,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 15.907849204154811,
+        "family_only": 29.231418088987617,
+        "prior_1": 15.798898547135758,
+        "prior_3": 15.627690371820096,
+        "prior_5": 15.604222328877215,
+        "prior_10": 18.84879274795112
+      }
+    },
+    {
+      "seat": "Mildura",
+      "candidate": "ZAYN, ANGYLINA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 20.670195837415196,
+        "family_only": 19.890715944756174,
+        "prior_1": 20.645837090769604,
+        "prior_3": 20.601418199827638,
+        "prior_5": 20.561934741212557,
+        "prior_10": 20.480078790425193
+      }
+    },
+    {
+      "seat": "Mildura",
+      "candidate": "BROUGHAM, PHILIPPE JOHN",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 8.793939629776895,
+        "family_only": 19.55106218547085,
+        "prior_1": 9.139158404765265,
+        "prior_3": 10.006817053157398,
+        "prior_5": 10.740989755643048,
+        "prior_10": 12.161969179808823
+      }
+    },
+    {
+      "seat": "Mildura",
+      "candidate": "SHARPE, FELICITY",
+      "family": "RIGHT",
+      "subtype_seats": 11,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 15.965058630270509,
+        "family_only": 30.068799308260473,
+        "prior_1": 15.895710626684448,
+        "prior_3": 16.567222012366127,
+        "prior_5": 18.25491917435292,
+        "prior_10": 21.06774777766424
+      }
+    },
+    {
+      "seat": "Mildura",
+      "candidate": "STRATTON, BRAD",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 5.713427414085392,
+        "family_only": 4.660875454511931,
+        "prior_1": 5.660799816106716,
+        "prior_3": 5.569897601416283,
+        "prior_5": 5.494145755840924,
+        "prior_10": 5.350478462508337
+      }
+    },
+    {
+      "seat": "Mill Park",
+      "candidate": "SIMONS, MARCIA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 14.76913885275694,
+        "family_only": 15.112929998449816,
+        "prior_1": 14.768958474052962,
+        "prior_3": 14.76862074371359,
+        "prior_5": 14.768310583197838,
+        "prior_10": 14.76763569689042
+      }
+    },
+    {
+      "seat": "Mill Park",
+      "candidate": "ANDERSON, CRAIG",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 7.625673492909016,
+        "family_only": 5.486867938380585,
+        "prior_1": 7.536556594803666,
+        "prior_3": 7.378888236617273,
+        "prior_5": 7.243743929600368,
+        "prior_10": 6.977550597597368
+      }
+    },
+    {
+      "seat": "Mill Park",
+      "candidate": "FILIPPOPOULOS, ANDREW",
+      "family": "RIGHT",
+      "subtype_seats": 1,
+      "family_seats": 10,
+      "errors": {
+        "subtype_only": 15.41139301993914,
+        "family_only": 3.5416156580488023,
+        "prior_1": 5.934888680945166,
+        "prior_3": 1.1966365114481818,
+        "prior_5": 0.3827808783841452,
+        "prior_10": 1.8186148691408084
+      }
+    },
+    {
+      "seat": "Monbulk",
+      "candidate": "BARNES, VERONICA",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 15.008914507287031,
+        "family_only": 25.969991830861467,
+        "prior_1": 15.507145294722232,
+        "prior_3": 16.379049172733836,
+        "prior_5": 17.116813992589808,
+        "prior_10": 18.54474590198846
+      }
+    },
+    {
+      "seat": "Monbulk",
+      "candidate": "HIGGINS, DAVID",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 5.6497999256431575,
+        "family_only": 7.614836379546307,
+        "prior_1": 5.4663656061041195,
+        "prior_3": 5.477164371813179,
+        "prior_5": 5.648409337596927,
+        "prior_10": 5.987448482760612
+      }
+    },
+    {
+      "seat": "Monbulk",
+      "candidate": "FOLLONI, LEAH",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 20.949715207304216,
+        "family_only": 21.770169864029572,
+        "prior_1": 20.975354415326883,
+        "prior_3": 21.02210826525057,
+        "prior_5": 21.063667242960513,
+        "prior_10": 21.149826099188445
+      }
+    },
+    {
+      "seat": "Mordialloc",
+      "candidate": "LUM, PATRICK",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 15.717998303236486,
+        "family_only": 12.391572397964753,
+        "prior_1": 15.5516770079729,
+        "prior_3": 15.264394770699429,
+        "prior_5": 15.024992906304874,
+        "prior_10": 14.57095488762554
+      }
+    },
+    {
+      "seat": "Mordialloc",
+      "candidate": "VO, CHI",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 21.340190710970255,
+        "family_only": 22.07864483551562,
+        "prior_1": 21.363267402362297,
+        "prior_3": 21.405348427841908,
+        "prior_5": 21.44275378382378,
+        "prior_10": 21.52030147305449
+      }
+    },
+    {
+      "seat": "Mordialloc",
+      "candidate": "ALBRECHT, DEBORAH",
+      "family": "RIGHT",
+      "subtype_seats": 2,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 30.96841031456285,
+        "family_only": 26.30701760362408,
+        "prior_1": 28.368617772639855,
+        "prior_3": 27.54397770503354,
+        "prior_5": 27.19056053320227,
+        "prior_10": 26.822417645878026
+      }
+    },
+    {
+      "seat": "Mornington",
+      "candidate": "HAYWARD, ROSS",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 18.007872269380375,
+        "family_only": 15.18661729773163,
+        "prior_1": 17.86680952079794,
+        "prior_3": 17.623155682337362,
+        "prior_5": 17.420110816953553,
+        "prior_10": 17.035025727432533
+      }
+    },
+    {
+      "seat": "Mornington",
+      "candidate": "SCHWEEN, LEONIE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 19.046910793244763,
+        "family_only": 19.869223657405723,
+        "prior_1": 19.07260807024979,
+        "prior_3": 19.119467810670727,
+        "prior_5": 19.16112091326712,
+        "prior_10": 19.247474906454755
+      }
+    },
+    {
+      "seat": "Mornington",
+      "candidate": "PETTITT, PAUL",
+      "family": "RIGHT",
+      "subtype_seats": 2,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 32.883023775785446,
+        "family_only": 28.02164453744772,
+        "prior_1": 30.95141339056071,
+        "prior_3": 29.77950584931552,
+        "prior_5": 29.277259760210434,
+        "prior_10": 28.754086750725964
+      }
+    },
+    {
+      "seat": "Mulgrave",
+      "candidate": "WOOD, MAREE",
+      "family": "RIGHT",
+      "subtype_seats": 11,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 6.825877414508305,
+        "family_only": 20.5274867455264,
+        "prior_1": 5.273572516452337,
+        "prior_3": 3.068957565496242,
+        "prior_5": 3.804742219289385,
+        "prior_10": 6.977116516074963
+      }
+    },
+    {
+      "seat": "Mulgrave",
+      "candidate": "MOULD, DAVID",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 8.675934075059596,
+        "family_only": 7.826548120206928,
+        "prior_1": 8.64939076397045,
+        "prior_3": 8.600988255513771,
+        "prior_5": 8.557963803552282,
+        "prior_10": 8.468766768997968
+      }
+    },
+    {
+      "seat": "Mulgrave",
+      "candidate": "MCLINDON, AIDAN",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 34.02333131252356,
+        "family_only": 27.641585853344992,
+        "prior_1": 33.46011455094066,
+        "prior_3": 32.482999258804334,
+        "prior_5": 31.994743168368238,
+        "prior_10": 31.0497313804274
+      }
+    },
+    {
+      "seat": "Mulgrave",
+      "candidate": "FOREMAN, JANE",
+      "family": "RIGHT",
+      "subtype_seats": 9,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 12.662001870420353,
+        "family_only": 17.285356641162956,
+        "prior_1": 12.975533958562401,
+        "prior_3": 13.44583209077549,
+        "prior_5": 13.970335848467725,
+        "prior_10": 14.842709741282256
+      }
+    },
+    {
+      "seat": "Murray Plains",
+      "candidate": "LEUNG, GLENYS",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 20.87089721828967,
+        "family_only": 20.09122132818839,
+        "prior_1": 20.846532346724008,
+        "prior_3": 20.802102286810147,
+        "prior_5": 20.762608900220048,
+        "prior_10": 20.680732367045458
+      }
+    },
+    {
+      "seat": "Murray Plains",
+      "candidate": "MACPHERSON, CAMERON",
+      "family": "RIGHT",
+      "subtype_seats": 8,
+      "family_seats": 10,
+      "errors": {
+        "subtype_only": 0.4020968663385416,
+        "family_only": 2.27747902380572,
+        "prior_1": 0.10436621187806805,
+        "prior_3": 0.3286965582462553,
+        "prior_5": 0.6285092452554042,
+        "prior_10": 1.086556405963826
+      }
+    },
+    {
+      "seat": "Narre Warren North",
+      "candidate": "GARDNER, SHEREE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 21.749118409859967,
+        "family_only": 22.677782795855393,
+        "prior_1": 21.769755396215427,
+        "prior_3": 21.808394860029892,
+        "prior_5": 21.84388008190032,
+        "prior_10": 21.921093296155416
+      }
+    },
+    {
+      "seat": "Narre Warren North",
+      "candidate": "ZMEGAC, ANDREW",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 22.933165679068107,
+        "family_only": 33.80732543553406,
+        "prior_1": 22.84015227450802,
+        "prior_3": 22.68695372582081,
+        "prior_5": 22.56600750317302,
+        "prior_10": 24.70674624989244
+      }
+    },
+    {
+      "seat": "Narre Warren North",
+      "candidate": "MATULEC, STEPHEN",
+      "family": "RIGHT",
+      "subtype_seats": 5,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 3.9230282460212305,
+        "family_only": 13.66635167007895,
+        "prior_1": 5.129834353565422,
+        "prior_3": 6.8499408525487375,
+        "prior_5": 7.948064174921822,
+        "prior_10": 9.854160006640864
+      }
+    },
+    {
+      "seat": "Narre Warren North",
+      "candidate": "PARKER, CRAIG",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 9.739522734901286,
+        "family_only": 22.40602457673453,
+        "prior_1": 10.406180726576721,
+        "prior_3": 11.549022998020321,
+        "prior_5": 12.493110091821558,
+        "prior_10": 14.263273392698874
+      }
+    },
+    {
+      "seat": "Narre Warren North",
+      "candidate": "ELKINS, CHRISTINE",
+      "family": "RIGHT",
+      "subtype_seats": 8,
+      "family_seats": 10,
+      "errors": {
+        "subtype_only": 8.645757031196643,
+        "family_only": 5.782988692944424,
+        "prior_1": 8.327671660279732,
+        "prior_3": 7.865002029855129,
+        "prior_5": 7.544692285715018,
+        "prior_10": 7.055330176612074
+      }
+    },
+    {
+      "seat": "Narre Warren South",
+      "candidate": "GALLAGHER, MICHAEL",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 5.585534149725853,
+        "family_only": 6.392655782160348,
+        "prior_1": 5.591443781361982,
+        "prior_3": 5.602508623574308,
+        "prior_5": 5.6126702133611355,
+        "prior_10": 5.634781080026925
+      }
+    },
+    {
+      "seat": "Narre Warren South",
+      "candidate": "SKROBO, CHRISTINE",
+      "family": "RIGHT",
+      "subtype_seats": 5,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 4.066906356770442,
+        "family_only": 15.450278581851713,
+        "prior_1": 5.964135060950655,
+        "prior_3": 8.335670941175918,
+        "prior_5": 9.758592469311077,
+        "prior_10": 11.655821173491288
+      }
+    },
+    {
+      "seat": "Narre Warren South",
+      "candidate": "HANSEN, GEOFF",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 11.309108147504112,
+        "family_only": 19.972047301707285,
+        "prior_1": 11.448133269921687,
+        "prior_3": 11.68646205120896,
+        "prior_5": 11.883342348794093,
+        "prior_10": 13.197574438703446
+      }
+    },
+    {
+      "seat": "Narre Warren South",
+      "candidate": "HARVEY, JACQUELINE",
+      "family": "RIGHT",
+      "subtype_seats": 8,
+      "family_seats": 10,
+      "errors": {
+        "subtype_only": 8.876396442953515,
+        "family_only": 6.0085027844400285,
+        "prior_1": 8.557741592007574,
+        "prior_3": 8.09424362699529,
+        "prior_5": 7.773360420448327,
+        "prior_10": 7.283122188223801
+      }
+    },
+    {
+      "seat": "Nepean",
+      "candidate": "SKRUZNY, CYNTHIA",
+      "family": "RIGHT",
+      "subtype_seats": 11,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 16.321077227366505,
+        "family_only": 38.17589750870628,
+        "prior_1": 18.14231225081149,
+        "prior_3": 21.004253001939315,
+        "prior_5": 23.150708565285182,
+        "prior_10": 26.728134504194966
+      }
+    },
+    {
+      "seat": "Nepean",
+      "candidate": "DIJKMAN, JANNY",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 27.45935951524171,
+        "family_only": 29.08715440003383,
+        "prior_1": 27.527184302108047,
+        "prior_3": 27.64718200194849,
+        "prior_5": 27.750037173240305,
+        "prior_10": 27.952630692451443
+      }
+    },
+    {
+      "seat": "Nepean",
+      "candidate": "ENGELANDER, PAMELA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 24.494448884955773,
+        "family_only": 24.199452675789217,
+        "prior_1": 24.48789341364096,
+        "prior_3": 24.47561933968983,
+        "prior_5": 24.464347230959184,
+        "prior_10": 24.43981995733234
+      }
+    },
+    {
+      "seat": "Nepean",
+      "candidate": "LEINE, HANK",
+      "family": "RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 11.109872347002051,
+        "family_only": 10.258869549962018,
+        "prior_1": 10.988300518853473,
+        "prior_3": 10.826204747988704,
+        "prior_5": 10.723052893802034,
+        "prior_10": 10.577995598852032
+      }
+    },
+    {
+      "seat": "Niddrie",
+      "candidate": "MEILAK, SHANNON",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 15.651211462438457,
+        "family_only": 16.585767545967617,
+        "prior_1": 15.671979375405773,
+        "prior_3": 15.710863978408405,
+        "prior_5": 15.746574328104696,
+        "prior_10": 15.824277403832742
+      }
+    },
+    {
+      "seat": "Niddrie",
+      "candidate": "REICH, BRAD",
+      "family": "LEFT",
+      "subtype_seats": 5,
+      "family_seats": 5,
+      "errors": {
+        "subtype_only": 10.563526237172608,
+        "family_only": 10.563526237172608,
+        "prior_1": 10.563526237172608,
+        "prior_3": 10.563526237172608,
+        "prior_5": 10.563526237172608,
+        "prior_10": 10.563526237172605
+      }
+    },
+    {
+      "seat": "Niddrie",
+      "candidate": "KRUSE, HOLLY",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 13.558374313978625,
+        "family_only": 17.71422450959202,
+        "prior_1": 13.503879183051398,
+        "prior_3": 13.41412249681833,
+        "prior_5": 13.343261955055375,
+        "prior_10": 13.217779745683481
+      }
+    },
+    {
+      "seat": "Niddrie",
+      "candidate": "GARCIA, JOANNE",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 7.523093765883085,
+        "family_only": 7.521837069163871,
+        "prior_1": 7.523041403519784,
+        "prior_3": 7.522948762415482,
+        "prior_5": 7.522869355754658,
+        "prior_10": 7.522712948695448
+      }
+    },
+    {
+      "seat": "Niddrie",
+      "candidate": "MAUGERI, FRANK",
+      "family": "RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 14.49563488223895,
+        "family_only": 10.896965282199735,
+        "prior_1": 13.98153922509049,
+        "prior_3": 13.296078348892543,
+        "prior_5": 12.859875973130217,
+        "prior_10": 12.246466382214441
+      }
+    },
+    {
+      "seat": "Northcote",
+      "candidate": "ASHTON, KATHRINE",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 30.458989233243162,
+        "family_only": 26.656601793198124,
+        "prior_1": 30.268869861240905,
+        "prior_3": 29.9404818550552,
+        "prior_5": 29.66682518323378,
+        "prior_10": 29.147821150469007
+      }
+    },
+    {
+      "seat": "Northcote",
+      "candidate": "CAVE, ANTHONY",
+      "family": "RIGHT",
+      "subtype_seats": 5,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 8.46294382119047,
+        "family_only": 15.384671987468392,
+        "prior_1": 8.503320997948807,
+        "prior_3": 10.223658745328706,
+        "prior_5": 11.255861393756643,
+        "prior_10": 12.632131591660562
+      }
+    },
+    {
+      "seat": "Northcote",
+      "candidate": "OSECKAS, TIM",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 9.255057592628416,
+        "family_only": 9.959003694305474,
+        "prior_1": 9.270700839332354,
+        "prior_3": 9.299990322522698,
+        "prior_5": 9.326888827493422,
+        "prior_10": 9.385417981827871
+      }
+    },
+    {
+      "seat": "Northcote",
+      "candidate": "NTOUNI, ANASTACIA",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 38.63748799187618,
+        "family_only": 31.650372336049905,
+        "prior_1": 38.269745062622164,
+        "prior_3": 37.639328612472426,
+        "prior_5": 37.11854980582699,
+        "prior_10": 36.142089543366794
+      }
+    },
+    {
+      "seat": "Northcote",
+      "candidate": "CLARKE, APRIL",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 4,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 4.181454500660452,
+        "family_only": 12.932390359960099,
+        "prior_1": 5.710295929876034,
+        "prior_3": 7.457543277550985,
+        "prior_5": 8.428236248481515,
+        "prior_10": 9.969302796827037
+      }
+    },
+    {
+      "seat": "Northcote",
+      "candidate": "LARKIN, KATH",
+      "family": "LEFT",
+      "subtype_seats": 8,
+      "family_seats": 8,
+      "errors": {
+        "subtype_only": 6.380168876204639,
+        "family_only": 6.380168876204639,
+        "prior_1": 6.380168876204639,
+        "prior_3": 6.380168876204639,
+        "prior_5": 6.380168876204639,
+        "prior_10": 6.380168876204639
+      }
+    },
+    {
+      "seat": "Oakleigh",
+      "candidate": "JACOBS, ANTHONY CHARLES",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 7.310254967240655,
+        "family_only": 18.06221416792491,
+        "prior_1": 7.2692910571502996,
+        "prior_3": 7.1976042144921735,
+        "prior_5": 7.779050509578428,
+        "prior_10": 9.182441532628824
+      }
+    },
+    {
+      "seat": "Oakleigh",
+      "candidate": "FABB, LORAINE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 24.221592444109323,
+        "family_only": 25.019972204494835,
+        "prior_1": 24.24366646148402,
+        "prior_3": 24.283919081402573,
+        "prior_5": 24.319699187996846,
+        "prior_10": 24.39387745776546
+      }
+    },
+    {
+      "seat": "Oakleigh",
+      "candidate": "SOK, EDWARD",
+      "family": "RIGHT",
+      "subtype_seats": 9,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 13.267886656913452,
+        "family_only": 13.019293141945298,
+        "prior_1": 13.23430914633301,
+        "prior_3": 13.183942880462348,
+        "prior_5": 13.147966976269021,
+        "prior_10": 13.091162917016398
+      }
+    },
+    {
+      "seat": "Ovens Valley",
+      "candidate": "SLATER, AISHA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 4.918720028065163,
+        "family_only": 5.592315593557563,
+        "prior_1": 4.933688818409442,
+        "prior_3": 4.96171548969234,
+        "prior_5": 4.987454269441942,
+        "prior_10": 5.043459947600793
+      }
+    },
+    {
+      "seat": "Ovens Valley",
+      "candidate": "WISE, ANNA",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 9.156208381174867,
+        "family_only": 8.098626744485578,
+        "prior_1": 9.086747208099208,
+        "prior_3": 8.963854363426885,
+        "prior_5": 8.858517639422036,
+        "prior_10": 8.651036213351887
+      }
+    },
+    {
+      "seat": "Ovens Valley",
+      "candidate": "BUGGE, MARK",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 19.275902078615495,
+        "family_only": 10.102141224890545,
+        "prior_1": 18.532017410671454,
+        "prior_3": 17.25678655133881,
+        "prior_5": 16.203334971890104,
+        "prior_10": 14.228113260423768
+      }
+    },
+    {
+      "seat": "Pakenham",
+      "candidate": "GORE, CHRISTOPHER",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 30.008847982112396,
+        "family_only": 34.54424113980453,
+        "prior_1": 30.235617639997002,
+        "prior_3": 30.62731068543405,
+        "prior_5": 30.953721556631585,
+        "prior_10": 31.572776657178654
+      }
+    },
+    {
+      "seat": "Pascoe Vale",
+      "candidate": "ADAMS, ELIZABETH",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 10.252325474245348,
+        "family_only": 8.871958108779621,
+        "prior_1": 10.209188994074546,
+        "prior_3": 10.130528353763077,
+        "prior_5": 10.060607784597329,
+        "prior_10": 9.915650507058587
+      }
+    },
+    {
+      "seat": "Pascoe Vale",
+      "candidate": "CIMBARO, RICHARD",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 24.666542016927053,
+        "family_only": 26.31349986989496,
+        "prior_1": 24.74888990957545,
+        "prior_3": 24.891127178695406,
+        "prior_5": 25.00965823629537,
+        "prior_10": 25.23445851795047
+      }
+    },
+    {
+      "seat": "Pascoe Vale",
+      "candidate": "GLOVER, MARGEE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 2,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 24.32272719643854,
+        "family_only": 22.845852834520386,
+        "prior_1": 23.157005458337977,
+        "prior_3": 22.380312045333884,
+        "prior_5": 22.513323699387165,
+        "prior_10": 22.651877505692674
+      }
+    },
+    {
+      "seat": "Pascoe Vale",
+      "candidate": "HAH, MADALEINE",
+      "family": "LEFT",
+      "subtype_seats": 8,
+      "family_seats": 8,
+      "errors": {
+        "subtype_only": 6.7129470527563155,
+        "family_only": 6.7129470527563155,
+        "prior_1": 6.7129470527563155,
+        "prior_3": 6.7129470527563155,
+        "prior_5": 6.7129470527563155,
+        "prior_10": 6.7129470527563155
+      }
+    },
+    {
+      "seat": "Point Cook",
+      "candidate": "GATTI, LISA JANE",
+      "family": "CENTRE",
+      "subtype_seats": 1,
+      "family_seats": 6,
+      "errors": {
+        "subtype_only": 6.108127461510912,
+        "family_only": 20.126489860694594,
+        "prior_1": 8.95937587892613,
+        "prior_3": 14.239156690186178,
+        "prior_5": 16.20160108035566,
+        "prior_10": 17.98564143505517
+      }
+    },
+    {
+      "seat": "Point Cook",
+      "candidate": "CHAUDHARY, RAKHI P.",
+      "family": "CENTRE",
+      "subtype_seats": 6,
+      "family_seats": 6,
+      "errors": {
+        "subtype_only": 9.313314366676325,
+        "family_only": 8.136318847575547,
+        "prior_1": 9.145172149661928,
+        "prior_3": 8.920982526976063,
+        "prior_5": 8.778316403448697,
+        "prior_10": 8.577692167238338
+      }
+    },
+    {
+      "seat": "Point Cook",
+      "candidate": "LAW, EMMA",
+      "family": "RIGHT",
+      "subtype_seats": 2,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 9.283542349281596,
+        "family_only": 30.861526659964362,
+        "prior_1": 9.45772740636303,
+        "prior_3": 17.795555223228217,
+        "prior_5": 21.52868991943855,
+        "prior_10": 25.417371894657638
+      }
+    },
+    {
+      "seat": "Point Cook",
+      "candidate": "GRIMLEY, SCOTT",
+      "family": "CENTRE_RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 7,
+      "errors": {
+        "subtype_only": 6.539665475410894,
+        "family_only": 4.829154034650304,
+        "prior_1": 6.295306698159381,
+        "prior_3": 5.969494995157362,
+        "prior_5": 5.762160275065171,
+        "prior_10": 5.4705958249355255
+      }
+    },
+    {
+      "seat": "Point Cook",
+      "candidate": "ABDULOVSKI, ADRIAN",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 14.701242593695788,
+        "family_only": 20.64597840975719,
+        "prior_1": 14.971457858062214,
+        "prior_3": 15.444334570703466,
+        "prior_5": 15.844461019861445,
+        "prior_10": 16.6188993085543
+      }
+    },
+    {
+      "seat": "Point Cook",
+      "candidate": "BEECH, TERRI",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 18.407551928086445,
+        "family_only": 18.21326668056881,
+        "prior_1": 18.40148051410152,
+        "prior_3": 18.390409112129007,
+        "prior_5": 18.380567865931223,
+        "prior_10": 18.360165282350437
+      }
+    },
+    {
+      "seat": "Point Cook",
+      "candidate": "HAMMAN, DANIEL",
+      "family": "RIGHT",
+      "subtype_seats": 11,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 17.16934600997188,
+        "family_only": 21.155611185736454,
+        "prior_1": 14.981807171408956,
+        "prior_3": 13.557142824368235,
+        "prior_5": 12.75099014577843,
+        "prior_10": 13.081551475999948
+      }
+    },
+    {
+      "seat": "Point Cook",
+      "candidate": "CRONKWRIGHT, CAROLYN",
+      "family": "RIGHT",
+      "subtype_seats": 9,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 23.09920658632497,
+        "family_only": 27.660386730051794,
+        "prior_1": 23.3754629433388,
+        "prior_3": 24.081057752154273,
+        "prior_5": 24.59239046328249,
+        "prior_10": 25.399757901905996
+      }
+    },
+    {
+      "seat": "Polwarth",
+      "candidate": "REMENYI, JOSEPH VINCENT",
+      "family": "CENTRE_RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 7,
+      "errors": {
+        "subtype_only": 16.784397900334085,
+        "family_only": 18.01890804771213,
+        "prior_1": 16.960756492816667,
+        "prior_3": 17.195901282793436,
+        "prior_5": 17.345538876415016,
+        "prior_10": 17.555966742445367
+      }
+    },
+    {
+      "seat": "Polwarth",
+      "candidate": "ATCHISON, ELISHA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 17.457181194572925,
+        "family_only": 18.235573835390678,
+        "prior_1": 17.481505964598476,
+        "prior_3": 17.525862898174488,
+        "prior_5": 17.56529128357539,
+        "prior_10": 17.647033058187013
+      }
+    },
+    {
+      "seat": "Polwarth",
+      "candidate": "HUNTER, HOLLIE",
+      "family": "RIGHT",
+      "subtype_seats": 9,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 10.011092911112971,
+        "family_only": 15.243419233371892,
+        "prior_1": 10.534325543338863,
+        "prior_3": 11.319174491677702,
+        "prior_5": 11.879780883348301,
+        "prior_10": 12.76494887019662
+      }
+    },
+    {
+      "seat": "Prahran",
+      "candidate": "EMILSEN, RONALD",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 31.11114221560135,
+        "family_only": 31.846316193259067,
+        "prior_1": 31.141774464670423,
+        "prior_3": 31.19596998225417,
+        "prior_5": 31.24242328304023,
+        "prior_10": 31.333922208830963
+      }
+    },
+    {
+      "seat": "Prahran",
+      "candidate": "LE HURAY, ALICE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 2,
+      "family_seats": 3,
+      "errors": {
+        "subtype_only": 6.477453716007463,
+        "family_only": 8.511845413064496,
+        "prior_1": 6.888531295401394,
+        "prior_3": 7.2173933589165395,
+        "prior_5": 7.358334243280179,
+        "prior_10": 7.506418578453062
+      }
+    },
+    {
+      "seat": "Preston",
+      "candidate": "UNICOMB, RACHEL",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 11.975346837963617,
+        "family_only": 10.865445115920453,
+        "prior_1": 11.94066240914977,
+        "prior_3": 11.877414333077457,
+        "prior_5": 11.821193821013182,
+        "prior_10": 11.704639100879918
+      }
+    },
+    {
+      "seat": "Preston",
+      "candidate": "SOLIMAN, RAOUF",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 18.979660457076097,
+        "family_only": 17.94731162936244,
+        "prior_1": 18.92804301569041,
+        "prior_3": 18.838885616933325,
+        "prior_5": 18.76458778463575,
+        "prior_10": 18.623678102692075
+      }
+    },
+    {
+      "seat": "Preston",
+      "candidate": "LAHIFF-JENKINS, CARMEN",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 2,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 13.782096737423197,
+        "family_only": 8.305361236137392,
+        "prior_1": 11.090336579016496,
+        "prior_3": 8.93692845229114,
+        "prior_5": 8.01403925512313,
+        "prior_10": 7.83831730779622
+      }
+    },
+    {
+      "seat": "Preston",
+      "candidate": "MATIAS, ANGELIQUE",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 47.78898770718462,
+        "family_only": 39.9165725793767,
+        "prior_1": 47.39777778871061,
+        "prior_3": 46.774344021266124,
+        "prior_5": 46.246823141120785,
+        "prior_10": 45.22581498600077
+      }
+    },
+    {
+      "seat": "Richmond",
+      "candidate": "FREIVERTS, MARKUS",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 31.98063155945659,
+        "family_only": 29.738627487561775,
+        "prior_1": 31.810766338446232,
+        "prior_3": 31.51023556281252,
+        "prior_5": 31.25263775512649,
+        "prior_10": 30.745248133926722
+      }
+    },
+    {
+      "seat": "Richmond",
+      "candidate": "VIGGERS, LIS",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 13.674282903810042,
+        "family_only": 14.342280939347257,
+        "prior_1": 13.689127304599758,
+        "prior_3": 13.716921076291138,
+        "prior_5": 13.742445968660777,
+        "prior_10": 13.797986243724338
+      }
+    },
+    {
+      "seat": "Richmond",
+      "candidate": "COWEN, JEREMY",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 4,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 3.8447775056283806,
+        "family_only": 12.004602399606258,
+        "prior_1": 4.581537701057129,
+        "prior_3": 6.006363632114473,
+        "prior_5": 7.339305580445981,
+        "prior_10": 9.005483015860365
+      }
+    },
+    {
+      "seat": "Richmond",
+      "candidate": "WARD, ROZ",
+      "family": "LEFT",
+      "subtype_seats": 8,
+      "family_seats": 8,
+      "errors": {
+        "subtype_only": 7.412707804015463,
+        "family_only": 7.412707804015463,
+        "prior_1": 7.412707804015463,
+        "prior_3": 7.4127078040154615,
+        "prior_5": 7.412707804015463,
+        "prior_10": 7.412707804015463
+      }
+    },
+    {
+      "seat": "Ringwood",
+      "candidate": "SIEMER, ROBYN M.",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 6.81962971375308,
+        "family_only": 19.36396708227796,
+        "prior_1": 7.479857996307021,
+        "prior_3": 8.611677909256638,
+        "prior_5": 9.546659576475877,
+        "prior_10": 11.299750202511968
+      }
+    },
+    {
+      "seat": "Ringwood",
+      "candidate": "ROWE, NICK",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 8.40773977457903,
+        "family_only": 8.122133621833354,
+        "prior_1": 8.40139297118468,
+        "prior_3": 8.38950959461654,
+        "prior_5": 8.378596289604982,
+        "prior_10": 8.354849746292794
+      }
+    },
+    {
+      "seat": "Ringwood",
+      "candidate": "RYAN, GARY",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 22.562765357899796,
+        "family_only": 39.84646804581228,
+        "prior_1": 23.715012203760626,
+        "prior_3": 25.612830538119645,
+        "prior_5": 27.111108170508345,
+        "prior_10": 29.764308144529995
+      }
+    },
+    {
+      "seat": "Ringwood",
+      "candidate": "GRIFFITH-JONES, RICHARD",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 3.1529017871870804,
+        "family_only": 4.611832955101791,
+        "prior_1": 3.233953518737899,
+        "prior_3": 3.3717414623742865,
+        "prior_5": 3.484477052622237,
+        "prior_10": 3.693246664192529
+      }
+    },
+    {
+      "seat": "Ripon",
+      "candidate": "WILSON, WREN LOUISE",
+      "family": "CENTRE_RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 7,
+      "errors": {
+        "subtype_only": 4.732323616499228,
+        "family_only": 5.265129343983724,
+        "prior_1": 4.808438720425586,
+        "prior_3": 4.909925525660723,
+        "prior_5": 4.974508038083091,
+        "prior_10": 5.065327196177035
+      }
+    },
+    {
+      "seat": "Ripon",
+      "candidate": "SITTERS, HOLLY",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 13.451035513861145,
+        "family_only": 13.70936941926072,
+        "prior_1": 13.456776267314469,
+        "prior_3": 13.467524912078138,
+        "prior_5": 13.477396116452937,
+        "prior_10": 13.498875125972178
+      }
+    },
+    {
+      "seat": "Ripon",
+      "candidate": "GEORGE, CRAIG",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 2.0149662749902104,
+        "family_only": 3.4828811750416153,
+        "prior_1": 1.9598920187883242,
+        "prior_3": 1.8624529501234457,
+        "prior_5": 1.7789337484106957,
+        "prior_10": 1.6692564460271355
+      }
+    },
+    {
+      "seat": "Rowville",
+      "candidate": "GLENANE, DIANE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 14.30876385487531,
+        "family_only": 13.38845887522407,
+        "prior_1": 14.280004324261208,
+        "prior_3": 14.227560474317846,
+        "prior_5": 14.18094371881264,
+        "prior_10": 14.084299225692082
+      }
+    },
+    {
+      "seat": "Rowville",
+      "candidate": "SMULDERS, PETERINE ELIZABETH",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 7.456516456752479,
+        "family_only": 19.50751043967741,
+        "prior_1": 7.8688319793450425,
+        "prior_3": 8.639502093098619,
+        "prior_5": 9.41319345806445,
+        "prior_10": 10.910660616062831
+      }
+    },
+    {
+      "seat": "Rowville",
+      "candidate": "BURGESS, STEPHEN",
+      "family": "RIGHT",
+      "subtype_seats": 9,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 3.81720831352554,
+        "family_only": 6.464702213700309,
+        "prior_1": 4.017616237686368,
+        "prior_3": 4.318228123927606,
+        "prior_5": 4.532950899814209,
+        "prior_10": 4.8719868617404245
+      }
+    },
+    {
+      "seat": "Sandringham",
+      "candidate": "CHALMERS, JILL",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 10.261950935213553,
+        "family_only": 9.566766265702306,
+        "prior_1": 10.227191701737992,
+        "prior_3": 10.167153025734748,
+        "prior_5": 10.117120795732045,
+        "prior_10": 10.022232083657956
+      }
+    },
+    {
+      "seat": "Sandringham",
+      "candidate": "ZMEGAC, KARLA",
+      "family": "RIGHT",
+      "subtype_seats": 11,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 24.517069636299656,
+        "family_only": 38.3843171571153,
+        "prior_1": 24.64570546742321,
+        "prior_3": 24.847847487760216,
+        "prior_5": 24.99945400301298,
+        "prior_10": 27.989264093120447
+      }
+    },
+    {
+      "seat": "Sandringham",
+      "candidate": "EPPINGSTALL, BARBARA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 2,
+      "family_seats": 3,
+      "errors": {
+        "subtype_only": 7.0755783413978595,
+        "family_only": 10.189998082393476,
+        "prior_1": 8.113718255063064,
+        "prior_3": 8.944230185995227,
+        "prior_5": 9.300163870680441,
+        "prior_10": 9.670928125560872
+      }
+    },
+    {
+      "seat": "Shepparton",
+      "candidate": "TAYLOR, KATHERINE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 20.897118657510585,
+        "family_only": 20.117417160535062,
+        "prior_1": 20.8727529857301,
+        "prior_3": 20.82832146660098,
+        "prior_5": 20.788826782930652,
+        "prior_10": 20.706947560687286
+      }
+    },
+    {
+      "seat": "Shepparton",
+      "candidate": "TEASDALE, DIANE M.",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 6.2033436613850705,
+        "family_only": 9.62037938981587,
+        "prior_1": 5.953090170507282,
+        "prior_3": 5.515146561471152,
+        "prior_5": 5.144578892286733,
+        "prior_10": 5.471320677409711
+      }
+    },
+    {
+      "seat": "Shepparton",
+      "candidate": "MCGRATH, SUEIE",
+      "family": "RIGHT",
+      "subtype_seats": 11,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 13.271622818093725,
+        "family_only": 37.558076522071325,
+        "prior_1": 15.29549396009186,
+        "prior_3": 18.475862897517498,
+        "prior_5": 20.861139600586725,
+        "prior_10": 24.836600772368772
+      }
+    },
+    {
+      "seat": "South Barwon",
+      "candidate": "TOMLINSON, SIMONE",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 18.68890957887832,
+        "family_only": 30.937616381164162,
+        "prior_1": 19.333578357946,
+        "prior_3": 20.43872483634773,
+        "prior_5": 21.35167192720133,
+        "prior_10": 23.063447722551835
+      }
+    },
+    {
+      "seat": "South Barwon",
+      "candidate": "BATES, LEONE",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 9.041504530896221,
+        "family_only": 18.71130337192226,
+        "prior_1": 8.997855989491912,
+        "prior_3": 8.925964274237757,
+        "prior_5": 8.869207656931843,
+        "prior_10": 9.098536994587512
+      }
+    },
+    {
+      "seat": "South Barwon",
+      "candidate": "ADAMS, NAOMI",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 11.43097140469686,
+        "family_only": 10.464096303214168,
+        "prior_1": 11.409485291330576,
+        "prior_3": 11.369255972687329,
+        "prior_5": 11.332310680055771,
+        "prior_10": 11.25192045997784
+      }
+    },
+    {
+      "seat": "South Barwon",
+      "candidate": "BARRON, ALAN",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 2.4835765238714016,
+        "family_only": 2.4064300354066925,
+        "prior_1": 2.4678305368754443,
+        "prior_3": 2.4410623589823044,
+        "prior_5": 2.419161122524284,
+        "prior_10": 2.378603277231654
+      }
+    },
+    {
+      "seat": "South-West Coast",
+      "candidate": "GRIMLEY, JAMES BRASH",
+      "family": "CENTRE_RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 7,
+      "errors": {
+        "subtype_only": 10.793244808313338,
+        "family_only": 8.995925626064937,
+        "prior_1": 10.536484925134992,
+        "prior_3": 10.194138414230538,
+        "prior_5": 9.976281543654974,
+        "prior_10": 9.669920319408083
+      }
+    },
+    {
+      "seat": "South-West Coast",
+      "candidate": "ANDERSON, JACINTA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 4.147523254825555,
+        "family_only": 5.0859510313877605,
+        "prior_1": 4.176849122843122,
+        "prior_3": 4.23032570569869,
+        "prior_5": 4.277860446014751,
+        "prior_10": 4.376408078377312
+      }
+    },
+    {
+      "seat": "South-West Coast",
+      "candidate": "BRUNT, CHRIS",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 8.903869833794317,
+        "family_only": 9.502233312416308,
+        "prior_1": 8.927178711485064,
+        "prior_3": 8.967439500223634,
+        "prior_5": 9.000990157505772,
+        "prior_10": 9.064620714420174
+      }
+    },
+    {
+      "seat": "St Albans",
+      "candidate": "MANNAN, ZAFFER",
+      "family": "CENTRE",
+      "subtype_seats": 6,
+      "family_seats": 6,
+      "errors": {
+        "subtype_only": 6.577904763369377,
+        "family_only": 9.149520429036134,
+        "prior_1": 6.830909385037831,
+        "prior_3": 7.168248880595768,
+        "prior_5": 7.382919468678092,
+        "prior_10": 7.898445729968589
+      }
+    },
+    {
+      "seat": "St Albans",
+      "candidate": "CARACASSIS, JASON",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 18.56417742196449,
+        "family_only": 17.63971676500164,
+        "prior_1": 18.5352880264344,
+        "prior_3": 18.48260736399718,
+        "prior_5": 18.43578010849743,
+        "prior_10": 18.338699212949162
+      }
+    },
+    {
+      "seat": "St Albans",
+      "candidate": "CULLEN, KIM J.",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 17.54333199615936,
+        "family_only": 17.73612348469834,
+        "prior_1": 17.48654355605997,
+        "prior_3": 17.38716378588604,
+        "prior_5": 17.30307321112349,
+        "prior_10": 17.140317259970153
+      }
+    },
+    {
+      "seat": "St Albans",
+      "candidate": "WALTON, RUSSELL",
+      "family": "RIGHT",
+      "subtype_seats": 19,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 11.23570301354763,
+        "family_only": 8.007346218938217,
+        "prior_1": 11.06882662033578,
+        "prior_3": 10.78058557751533,
+        "prior_5": 10.540384708498285,
+        "prior_10": 10.08483133622458
+      }
+    },
+    {
+      "seat": "St Albans",
+      "candidate": "RUDD, VAN THANH",
+      "family": "LEFT",
+      "subtype_seats": 5,
+      "family_seats": 5,
+      "errors": {
+        "subtype_only": 11.410135968391412,
+        "family_only": 11.410135968391412,
+        "prior_1": 11.410135968391412,
+        "prior_3": 11.410135968391412,
+        "prior_5": 11.410135968391412,
+        "prior_10": 11.410135968391414
+      }
+    },
+    {
+      "seat": "St Albans",
+      "candidate": "HOBART, MARK",
+      "family": "RIGHT",
+      "subtype_seats": 3,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 8.524529571982079,
+        "family_only": 14.335196171775832,
+        "prior_1": 9.37857517171514,
+        "prior_3": 10.232620771448198,
+        "prior_5": 10.659643571314732,
+        "prior_10": 11.720667410997459
+      }
+    },
+    {
+      "seat": "Sunbury",
+      "candidate": "PATEL, RUSHI VIJAYKUMAR",
+      "family": "CENTRE",
+      "subtype_seats": 6,
+      "family_seats": 6,
+      "errors": {
+        "subtype_only": 21.04711105261949,
+        "family_only": 21.133732675840314,
+        "prior_1": 20.665703921216036,
+        "prior_3": 20.15716107934476,
+        "prior_5": 20.167286989078896,
+        "prior_10": 20.469301266191838
+      }
+    },
+    {
+      "seat": "Sunbury",
+      "candidate": "BAYLISS, PETER",
+      "family": "RIGHT",
+      "subtype_seats": 11,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 15.857399792989286,
+        "family_only": 17.606298144721663,
+        "prior_1": 13.987288528000857,
+        "prior_3": 11.234433675962206,
+        "prior_5": 10.838342937041524,
+        "prior_10": 10.65146618720036
+      }
+    },
+    {
+      "seat": "Sunbury",
+      "candidate": "MOHR, ROHANNA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 11.5675746015556,
+        "family_only": 12.506076227945517,
+        "prior_1": 11.588430193253153,
+        "prior_3": 11.62747896068687,
+        "prior_5": 11.663340073636205,
+        "prior_10": 11.74137119903521
+      }
+    },
+    {
+      "seat": "Sunbury",
+      "candidate": "PACE, CHARLES",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 2.3101921503719187,
+        "family_only": 2.0307502321112545,
+        "prior_1": 2.294667599357439,
+        "prior_3": 2.2682758626328194,
+        "prior_5": 2.246682623494495,
+        "prior_10": 2.2066951436087114
+      }
+    },
+    {
+      "seat": "Sydenham",
+      "candidate": "LEUNG, KARINA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 11.8809899629644,
+        "family_only": 12.819188772580011,
+        "prior_1": 11.901838825400304,
+        "prior_3": 11.940874993365396,
+        "prior_5": 11.976724535374155,
+        "prior_10": 12.05473048326359
+      }
+    },
+    {
+      "seat": "Sydenham",
+      "candidate": "RAMOS, ALEJANDRO",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 13.802636444149652,
+        "family_only": 25.675875101950886,
+        "prior_1": 14.350009337928068,
+        "prior_3": 15.288362870119649,
+        "prior_5": 16.063524483669216,
+        "prior_10": 17.599372916823544
+      }
+    },
+    {
+      "seat": "Sydenham",
+      "candidate": "RADOVANI, JAKUELINE",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 16.5667357453946,
+        "family_only": 18.546118863901214,
+        "prior_1": 15.51393777043083,
+        "prior_3": 13.779917576372858,
+        "prior_5": 12.410954265274462,
+        "prior_10": 11.803162709501366
+      }
+    },
+    {
+      "seat": "Sydenham",
+      "candidate": "CHLIHI, HAJAR",
+      "family": "LEFT",
+      "subtype_seats": 5,
+      "family_seats": 5,
+      "errors": {
+        "subtype_only": 8.161483602220565,
+        "family_only": 8.161483602220565,
+        "prior_1": 8.161483602220565,
+        "prior_3": 8.161483602220565,
+        "prior_5": 8.161483602220565,
+        "prior_10": 8.161483602220565
+      }
+    },
+    {
+      "seat": "Sydenham",
+      "candidate": "TAWADROS, MARVET",
+      "family": "RIGHT",
+      "subtype_seats": 8,
+      "family_seats": 10,
+      "errors": {
+        "subtype_only": 9.866092432211438,
+        "family_only": 12.317486337943482,
+        "prior_1": 10.13846953284833,
+        "prior_3": 10.534654406501998,
+        "prior_5": 10.80893624210838,
+        "prior_10": 11.227977935395906
+      }
+    },
+    {
+      "seat": "Tarneit",
+      "candidate": "RAHN, MAURITA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 17.419597218599037,
+        "family_only": 18.358597374551973,
+        "prior_1": 17.440463888731326,
+        "prior_3": 17.479533398766243,
+        "prior_5": 17.515413561043214,
+        "prior_10": 17.5934861363681
+      }
+    },
+    {
+      "seat": "Tarneit",
+      "candidate": "MAQSOOD, ERUM",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 5.8461492073468175,
+        "family_only": 13.319860993592078,
+        "prior_1": 6.038973179129143,
+        "prior_3": 6.529211632490969,
+        "prior_5": 6.934191224398566,
+        "prior_10": 7.693527959225308
+      }
+    },
+    {
+      "seat": "Tarneit",
+      "candidate": "URIBE, CLAUDIO",
+      "family": "LEFT",
+      "subtype_seats": 5,
+      "family_seats": 5,
+      "errors": {
+        "subtype_only": 11.539219799677188,
+        "family_only": 11.539219799677188,
+        "prior_1": 11.53921979967719,
+        "prior_3": 11.539219799677188,
+        "prior_5": 11.539219799677188,
+        "prior_10": 11.539219799677186
+      }
+    },
+    {
+      "seat": "Tarneit",
+      "candidate": "JEFFREY, THOMAS",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 14.027212420447807,
+        "family_only": 13.478413714369314,
+        "prior_1": 13.996723603443446,
+        "prior_3": 13.944892614536029,
+        "prior_5": 13.902485441793605,
+        "prior_10": 13.823953640418734
+      }
+    },
+    {
+      "seat": "Thomastown",
+      "candidate": "LEVENS, EVIE",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 14.546521095744902,
+        "family_only": 15.058007706498858,
+        "prior_1": 14.55223832830543,
+        "prior_3": 14.562942933950678,
+        "prior_5": 14.572773694237132,
+        "prior_10": 14.594164700415984
+      }
+    },
+    {
+      "seat": "Warrandyte",
+      "candidate": "RAE, NICOLA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 14.718253903924902,
+        "family_only": 14.376904777338734,
+        "prior_1": 14.69683393587726,
+        "prior_3": 14.656728463788049,
+        "prior_5": 14.633269112883474,
+        "prior_10": 14.609531674407105
+      }
+    },
+    {
+      "seat": "Warrandyte",
+      "candidate": "VERNAY, RICHARD",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 8.679088591712294,
+        "family_only": 8.705903366476758,
+        "prior_1": 8.680578301421429,
+        "prior_3": 8.683110807926964,
+        "prior_5": 8.685182858704215,
+        "prior_10": 8.68901998977321
+      }
+    },
+    {
+      "seat": "Wendouree",
+      "candidate": "COLBERT, DIANNE",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 9.94423608801151,
+        "family_only": 18.91642864987651,
+        "prior_1": 9.923841280956601,
+        "prior_3": 9.890249834042642,
+        "prior_5": 9.863730270689512,
+        "prior_10": 9.816768543918345
+      }
+    },
+    {
+      "seat": "Wendouree",
+      "candidate": "HILLS, BRYN",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 4.022945412725138,
+        "family_only": 3.0632278242781656,
+        "prior_1": 4.001618355204097,
+        "prior_3": 3.9616868432497983,
+        "prior_5": 3.925015046557079,
+        "prior_10": 3.845219933383104
+      }
+    },
+    {
+      "seat": "Wendouree",
+      "candidate": "HARKNESS, IAN",
+      "family": "RIGHT",
+      "subtype_seats": 17,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 7.027058591092553,
+        "family_only": 5.334105345516242,
+        "prior_1": 6.933005633004983,
+        "prior_3": 6.773115604256105,
+        "prior_5": 6.64229648982521,
+        "prior_10": 6.400038870508733
+      }
+    },
+    {
+      "seat": "Werribee",
+      "candidate": "HOGAN, KAREN",
+      "family": "RIGHT",
+      "subtype_seats": 2,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 3.0544225844568103,
+        "family_only": 33.59343680245153,
+        "prior_1": 12.300419414582445,
+        "prior_3": 20.817626369730075,
+        "prior_5": 24.467857921936208,
+        "prior_10": 28.270182455484257
+      }
+    },
+    {
+      "seat": "Werribee",
+      "candidate": "TANDON, PRASHANT",
+      "family": "CENTRE",
+      "subtype_seats": 6,
+      "family_seats": 6,
+      "errors": {
+        "subtype_only": 16.066816917182305,
+        "family_only": 17.194391234580504,
+        "prior_1": 16.227898962524904,
+        "prior_3": 16.442675022981703,
+        "prior_5": 16.579350697817848,
+        "prior_10": 16.77155086555618
+      }
+    },
+    {
+      "seat": "Werribee",
+      "candidate": "COLLINS, TREVOR RUSSELL",
+      "family": "CENTRE",
+      "subtype_seats": 1,
+      "family_seats": 6,
+      "errors": {
+        "subtype_only": 6.108127461510912,
+        "family_only": 22.203533192501535,
+        "prior_1": 12.813188006920292,
+        "prior_3": 17.508360599710915,
+        "prior_5": 19.073418130641123,
+        "prior_10": 20.496197704214033
+      }
+    },
+    {
+      "seat": "Werribee",
+      "candidate": "WICKS, PATRICIA ANNE",
+      "family": "CENTRE_RIGHT",
+      "subtype_seats": 6,
+      "family_seats": 7,
+      "errors": {
+        "subtype_only": 10.101584313920373,
+        "family_only": 10.88866840083093,
+        "prior_1": 10.18564710933957,
+        "prior_3": 10.297730836565163,
+        "prior_5": 10.369056844799632,
+        "prior_10": 10.469359043879356
+      }
+    },
+    {
+      "seat": "Werribee",
+      "candidate": "SEGRAVE, JOSH",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 31,
+      "family_seats": 32,
+      "errors": {
+        "subtype_only": 18.43580134902707,
+        "family_only": 17.51146605932295,
+        "prior_1": 18.406915871223816,
+        "prior_3": 18.35424235287671,
+        "prior_5": 18.30742144767928,
+        "prior_10": 18.210353717391918
+      }
+    },
+    {
+      "seat": "Werribee",
+      "candidate": "BREAKWELL, KATHRYN",
+      "family": "RIGHT",
+      "subtype_seats": 11,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 11.683091879030075,
+        "family_only": 27.509405061938626,
+        "prior_1": 11.605845824039822,
+        "prior_3": 11.767624346718106,
+        "prior_5": 13.73534693612067,
+        "prior_10": 17.01488458512495
+      }
+    },
+    {
+      "seat": "Werribee",
+      "candidate": "STROTHER, MARK",
+      "family": "RIGHT",
+      "subtype_seats": 21,
+      "family_seats": 38,
+      "errors": {
+        "subtype_only": 13.931473383253874,
+        "family_only": 23.189027980805736,
+        "prior_1": 14.204670882161702,
+        "prior_3": 14.682766505250418,
+        "prior_5": 15.087308955556253,
+        "prior_10": 15.870294343244948
+      }
+    },
+    {
+      "seat": "Werribee",
+      "candidate": "EMERSON, MATTHEW",
+      "family": "RIGHT",
+      "subtype_seats": 9,
+      "family_seats": 14,
+      "errors": {
+        "subtype_only": 15.960192419126473,
+        "family_only": 19.965504265904226,
+        "prior_1": 16.117232542910152,
+        "prior_3": 16.352792728585676,
+        "prior_5": 16.622244519169747,
+        "prior_10": 17.50204971567882
+      }
+    },
+    {
+      "seat": "Williamstown",
+      "candidate": "MOSELY, JOSHUA",
+      "family": "RIGHT",
+      "subtype_seats": 23,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 15.011212331348634,
+        "family_only": 16.78256492830263,
+        "prior_1": 15.085018689555046,
+        "prior_3": 15.215599169458704,
+        "prior_5": 15.32752529509042,
+        "prior_10": 15.547985845577116
+      }
+    },
+    {
+      "seat": "Williamstown",
+      "candidate": "MACKEVICIUS, PATRICIA",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 8.378833197285351,
+        "family_only": 8.09325497359987,
+        "prior_1": 8.37248701453678,
+        "prior_3": 8.360604800028833,
+        "prior_5": 8.349692562215406,
+        "prior_10": 8.3259483410473
+      }
+    },
+    {
+      "seat": "Williamstown",
+      "candidate": "ANSALONE, ALEXANDER",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 3.6787364469199586,
+        "family_only": 10.673321539783377,
+        "prior_1": 3.372494870535857,
+        "prior_3": 2.847509311020251,
+        "prior_5": 2.4243352567245675,
+        "prior_10": 3.5079277501118638
+      }
+    },
+    {
+      "seat": "Williamstown",
+      "candidate": "MACANDILI, JULIEN Q.",
+      "family": "LEFT",
+      "subtype_seats": 5,
+      "family_seats": 5,
+      "errors": {
+        "subtype_only": 25.55567030293153,
+        "family_only": 25.55567030293153,
+        "prior_1": 25.55567030293153,
+        "prior_3": 25.55567030293153,
+        "prior_5": 25.55567030293153,
+        "prior_10": 25.55567030293153
+      }
+    },
+    {
+      "seat": "Williamstown",
+      "candidate": "FISHER, ROCHELLE",
+      "family": "RIGHT",
+      "subtype_seats": 3,
+      "family_seats": 29,
+      "errors": {
+        "subtype_only": 8.172898783163312,
+        "family_only": 11.962266092788862,
+        "prior_1": 8.996738797836684,
+        "prior_3": 9.873450483690387,
+        "prior_5": 10.311806326617239,
+        "prior_10": 10.81760152999437
+      }
+    },
+    {
+      "seat": "Yan Yean",
+      "candidate": "BOUROUTZIS, CON",
+      "family": "RIGHT",
+      "subtype_seats": 18,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 22.860682454695315,
+        "family_only": 35.074324071301874,
+        "prior_1": 23.503505697674605,
+        "prior_3": 24.60548839992482,
+        "prior_5": 25.5158219365663,
+        "prior_10": 27.222697317769086
+      }
+    },
+    {
+      "seat": "Yan Yean",
+      "candidate": "PARRAMORE, RUTH",
+      "family": "CENTRE_LEFT",
+      "subtype_seats": 44,
+      "family_seats": 46,
+      "errors": {
+        "subtype_only": 5.944992946576779,
+        "family_only": 6.216731724712645,
+        "prior_1": 5.951031586090907,
+        "prior_3": 5.962337974968429,
+        "prior_5": 5.972721393325338,
+        "prior_10": 5.995314942527866
+      }
+    },
+    {
+      "seat": "Yan Yean",
+      "candidate": "WOOLDRIDGE, JACK",
+      "family": "RIGHT",
+      "subtype_seats": 14,
+      "family_seats": 40,
+      "errors": {
+        "subtype_only": 11.528560137598735,
+        "family_only": 15.547425938654353,
+        "prior_1": 10.496665465134626,
+        "prior_3": 8.797074239899624,
+        "prior_5": 7.455291693661463,
+        "prior_10": 6.93295652978885
+      }
+    },
+    {
+      "seat": "Yan Yean",
+      "candidate": "HALL, JAMES",
+      "family": "RIGHT",
+      "subtype_seats": 8,
+      "family_seats": 10,
+      "errors": {
+        "subtype_only": 3.0550629174903228,
+        "family_only": 0.3165322262093512,
+        "prior_1": 2.750781729570215,
+        "prior_3": 2.30819091077733,
+        "prior_5": 2.001781882382256,
+        "prior_10": 1.533656977889783
+      }
+    }
+  ]
+}

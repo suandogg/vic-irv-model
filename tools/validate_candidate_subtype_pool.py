@@ -45,7 +45,7 @@ def load_observations():
                 p = meta[recipient].BroadCategory
                 shares[p] = shares.get(p, 0)+float(row.VotesTransferred)/parcel
             observations.append({'seat': seat, 'candidate': eliminated, 'category': meta[eliminated].BroadCategory,
-                                 'subtype': str(meta[eliminated].CandidateSubtype), 'field': field, 'shares': shares})
+                                 'subtype': str(meta[eliminated].CandidateSubtype), 'family': str(meta[eliminated].IdeologyFamily), 'field': field, 'shares': shares})
     return observations
 
 
