@@ -1,0 +1,2822 @@
+{
+  "Scenario": "ON18",
+  "Method": "Counterfactual on fixed reference-path parcels; not alternate-path attribution",
+  "Rounds": [
+    {
+      "Seat": "Pakenham",
+      "SeatType": "Peri-urban",
+      "Round": 1,
+      "Holder": "IND",
+      "AliveSet": "ALP+GRN+LNP+ON+OTH",
+      "EliminatedSeatVote": 0.05852224185196069,
+      "ReferenceBasis": "ideology prior",
+      "TrialBasis": "single synthetic ON baseline",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.2440616503667482,
+        "LNP": 0.2696964669926651,
+        "GRN": 0.09886613691931541,
+        "ON": 0.30008968215158927,
+        "OTH": 0.08728606356968216
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.30161311414160286,
+        "LNP": 0.33819026713992156,
+        "GRN": 0.004950495049504951,
+        "ON": 0.3502956286194657,
+        "OTH": 0.004950495049504951
+      },
+      "ChangePP": {
+        "ALP": 5.755146377485465,
+        "LNP": 6.849380014725648,
+        "GRN": -9.391564186981045,
+        "ON": 5.0205946467876466,
+        "OTH": -8.23355685201772
+      },
+      "SeatVoteChangePP": {
+        "ALP": 0.3368040681966398,
+        "LNP": 0.40084107375776046,
+        "GRN": -0.5496153907187172,
+        "ON": 0.2938164541599658,
+        "OTH": -0.48184620539564915
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "IND",
+          "Votes": 0.05852224185196069,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.24406165036674818,
+            "LNP": 0.2696964669926651,
+            "GRN": 0.09886613691931541,
+            "ON": 0.30008968215158927,
+            "OTH": 0.08728606356968216
+          },
+          "TrialFlows": {
+            "ALP": 0.30161311414160286,
+            "LNP": 0.3381902671399216,
+            "GRN": 0.004950495049504951,
+            "ON": 0.3502956286194657,
+            "OTH": 0.004950495049504951
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Pakenham",
+      "SeatType": "Peri-urban",
+      "Round": 2,
+      "Holder": "GRN",
+      "AliveSet": "ALP+LNP+ON+OTH",
+      "EliminatedSeatVote": 0.07837978078663214,
+      "ReferenceBasis": "ideology prior",
+      "TrialBasis": "single synthetic ON baseline",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.6345315316040293,
+        "LNP": 0.14244204295914303,
+        "ON": 0.14729839615397633,
+        "OTH": 0.0757280292828513
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.5274550204644756,
+        "LNP": 0.2666378326912143,
+        "ON": 0.2009320224662008,
+        "OTH": 0.0049751243781094535
+      },
+      "ChangePP": {
+        "ALP": -10.707651113955375,
+        "LNP": 12.419578973207129,
+        "ON": 5.363362631222445,
+        "OTH": -7.075290490474185
+      },
+      "SeatVoteChangePP": {
+        "ALP": -0.8392633470515598,
+        "LNP": 0.9734438773822407,
+        "ON": 0.42037918731442986,
+        "OTH": -0.5545597176451096
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "GRN",
+          "Votes": 0.07259391281087091,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.6631869780559604,
+            "LNP": 0.13017758421049982,
+            "ON": 0.1332601756790324,
+            "OTH": 0.07337526205450735
+          },
+          "TrialFlows": {
+            "ALP": 0.5453354369500724,
+            "LNP": 0.26080087103551713,
+            "ON": 0.18888856763630113,
+            "OTH": 0.0049751243781094535
+          }
+        },
+        {
+          "Origin": "IND",
+          "Votes": 0.005785867975761237,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.2749984433962264,
+            "LNP": 0.29632129716981137,
+            "ON": 0.3234326179245283,
+            "OTH": 0.10524764150943396
+          },
+          "TrialFlows": {
+            "ALP": 0.30311367689852625,
+            "LNP": 0.33987280578240875,
+            "ON": 0.3520383929409556,
+            "OTH": 0.0049751243781094535
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Pakenham",
+      "SeatType": "Peri-urban",
+      "Round": 3,
+      "Holder": "OTH",
+      "AliveSet": "ALP+LNP+ON",
+      "EliminatedSeatVote": 0.09485110348886058,
+      "ReferenceBasis": "ideology prior",
+      "TrialBasis": "single synthetic ON baseline",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.17878253193680857,
+        "LNP": 0.2154815552858427,
+        "ON": 0.6057359127773487
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.12158148618367655,
+        "LNP": 0.20425020219967013,
+        "ON": 0.6741683116166535
+      },
+      "ChangePP": {
+        "ALP": -5.7201045753132025,
+        "LNP": -1.1231353086172569,
+        "ON": 6.843239883930474
+      },
+      "SeatVoteChangePP": {
+        "ALP": -0.5425582310401375,
+        "LNP": -0.1065306233896488,
+        "ON": 0.6490888544297877
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "GRN",
+          "Votes": 0.005326597376059712,
+          "ReferenceSources": [
+            "ideology prior",
+            "federal ON evidence trial"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline",
+            "federal ON evidence trial"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.7003063181567374,
+            "LNP": 0.16273430232636032,
+            "ON": 0.1369593795169023
+          },
+          "TrialFlows": {
+            "ALP": 0.563787867848137,
+            "LNP": 0.25967633521630357,
+            "ON": 0.17653579693555946
+          }
+        },
+        {
+          "Origin": "IND",
+          "Votes": 0.005717125081064388,
+          "ReferenceSources": [
+            "full AEC row"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.3046292452830188,
+            "LNP": 0.34157216981132077,
+            "ON": 0.35379858490566035
+          },
+          "TrialFlows": {
+            "ALP": 0.3046292452830188,
+            "LNP": 0.34157216981132077,
+            "ON": 0.35379858490566035
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 0.08380738103173649,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.1370507824248113,
+            "LNP": 0.21023246588385422,
+            "ON": 0.6527167516913345
+          },
+          "TrialFlows": {
+            "ALP": 0.08098885287442198,
+            "LNP": 0.19135969605801997,
+            "ON": 0.7276514510675581
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Pakenham",
+      "SeatType": "Peri-urban",
+      "Round": 4,
+      "Holder": "ON",
+      "AliveSet": "ALP+LNP",
+      "EliminatedSeatVote": 0.3140364911042792,
+      "ReferenceBasis": "federal ON evidence trial",
+      "TrialBasis": "federal ON evidence trial",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.28142333892079846,
+        "LNP": 0.7185766610792016
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.23265169488683812,
+        "LNP": 0.767348305113162
+      },
+      "ChangePP": {
+        "ALP": -4.8771644033960335,
+        "LNP": 4.877164403396039
+      },
+      "SeatVoteChangePP": {
+        "ALP": -1.5316075957811859,
+        "LNP": 1.5316075957811874
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "GRN",
+          "Votes": 0.010403405045966516,
+          "ReferenceSources": [
+            "posterior scenario"
+          ],
+          "TrialSources": [
+            "posterior scenario"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.8455894792265211,
+            "LNP": 0.15441052077347903
+          },
+          "TrialFlows": {
+            "ALP": 0.8455894792265211,
+            "LNP": 0.15441052077347903
+          }
+        },
+        {
+          "Origin": "ON",
+          "Votes": 0.227474634397591,
+          "ReferenceSources": [
+            "ideology prior",
+            "federal ON evidence trial"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline",
+            "federal ON evidence trial"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.19304221533550556,
+            "LNP": 0.8069577846644944
+          },
+          "TrialFlows": {
+            "ALP": 0.12571129732624,
+            "LNP": 0.87428870267376
+          }
+        },
+        {
+          "Origin": "IND",
+          "Votes": 0.021455970145928704,
+          "ReferenceSources": [
+            "posterior scenario"
+          ],
+          "TrialSources": [
+            "posterior scenario"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.47179140625,
+            "LNP": 0.52820859375
+          },
+          "TrialFlows": {
+            "ALP": 0.47179140625,
+            "LNP": 0.52820859375
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 0.054702481514793,
+          "ReferenceSources": [
+            "posterior scenario"
+          ],
+          "TrialSources": [
+            "posterior scenario"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.46698500000000004,
+            "LNP": 0.533015
+          },
+          "TrialFlows": {
+            "ALP": 0.46698500000000004,
+            "LNP": 0.533015
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Morwell",
+      "SeatType": "Provincial",
+      "Round": 1,
+      "Holder": "GRN",
+      "AliveSet": "ALP+IND+LNP+ON+OTH",
+      "EliminatedSeatVote": 0.04129402135142194,
+      "ReferenceBasis": "full AEC row",
+      "TrialBasis": "single synthetic ON baseline",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.5125581395348838,
+        "LNP": 0.15646511627906975,
+        "ON": 0.14883720930232558,
+        "IND": 0.09748837209302325,
+        "OTH": 0.08465116279069768
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.5125581395348838,
+        "LNP": 0.15646511627906975,
+        "ON": 0.14883720930232558,
+        "IND": 0.09748837209302325,
+        "OTH": 0.08465116279069768
+      },
+      "ChangePP": {
+        "ALP": 0.0,
+        "LNP": 0.0,
+        "ON": 0.0,
+        "IND": 0.0,
+        "OTH": 0.0
+      },
+      "SeatVoteChangePP": {
+        "ALP": 0.0,
+        "LNP": 0.0,
+        "ON": 0.0,
+        "IND": 0.0,
+        "OTH": 0.0
+      },
+      "Changed": false,
+      "Material": false,
+      "Parcels": [
+        {
+          "Origin": "GRN",
+          "Votes": 0.04129402135142194,
+          "ReferenceSources": [
+            "full AEC row"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.5125581395348838,
+            "LNP": 0.15646511627906975,
+            "ON": 0.14883720930232558,
+            "IND": 0.09748837209302326,
+            "OTH": 0.08465116279069768
+          },
+          "TrialFlows": {
+            "ALP": 0.5125581395348838,
+            "LNP": 0.15646511627906975,
+            "ON": 0.14883720930232558,
+            "IND": 0.09748837209302326,
+            "OTH": 0.08465116279069768
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Morwell",
+      "SeatType": "Provincial",
+      "Round": 2,
+      "Holder": "OTH",
+      "AliveSet": "ALP+IND+LNP+ON",
+      "EliminatedSeatVote": 0.07325485535707703,
+      "ReferenceBasis": "ideology prior",
+      "TrialBasis": "single synthetic ON baseline",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.15511193847310834,
+        "LNP": 0.2152111276968632,
+        "ON": 0.4611203453003412,
+        "IND": 0.16855658852968733
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.1236848167007974,
+        "LNP": 0.3136925665132585,
+        "ON": 0.542158425592641,
+        "IND": 0.02046419119330313
+      },
+      "ChangePP": {
+        "ALP": -3.142712177231094,
+        "LNP": 9.84814388163953,
+        "ON": 8.103808029229986,
+        "IND": -14.80923973363842
+      },
+      "SeatVoteChangePP": {
+        "ALP": -0.23021892597198843,
+        "LNP": 0.7214243555851869,
+        "ON": 0.5936432850227621,
+        "IND": -1.0848487146359604
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "GRN",
+          "Votes": 0.003495586923701764,
+          "ReferenceSources": [
+            "ideology prior",
+            "federal ON evidence trial"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline",
+            "federal ON evidence trial"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.5614803257113675,
+            "LNP": 0.13506284260934232,
+            "ON": 0.1379033142398025,
+            "IND": 0.16555351743948776
+          },
+          "TrialFlows": {
+            "ALP": 0.5317200061571287,
+            "LNP": 0.15628518284577325,
+            "ON": 0.1489380394677787,
+            "IND": 0.16305677152931938
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 0.06975926843337527,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.1347491099553107,
+            "LNP": 0.2192273007961645,
+            "ON": 0.4773165189797139,
+            "IND": 0.168707070268811
+          },
+          "TrialFlows": {
+            "ALP": 0.10323846591895175,
+            "LNP": 0.32158013764751825,
+            "ON": 0.5618624172017819,
+            "IND": 0.013318979231748235
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Morwell",
+      "SeatType": "Provincial",
+      "Round": 3,
+      "Holder": "IND",
+      "AliveSet": "ALP+LNP+ON",
+      "EliminatedSeatVote": 0.1283367600937752,
+      "ReferenceBasis": "ideology prior",
+      "TrialBasis": "single synthetic ON baseline",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.29825954607010113,
+        "LNP": 0.30841649496221146,
+        "ON": 0.3933239589676876
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.25805236965430406,
+        "LNP": 0.2826286746923404,
+        "ON": 0.45931895565335573
+      },
+      "ChangePP": {
+        "ALP": -4.020717641579708,
+        "LNP": -2.578782026987109,
+        "ON": 6.599499668566811
+      },
+      "SeatVoteChangePP": {
+        "ALP": -0.5160058753722246,
+        "LNP": -0.33095253033158395,
+        "ON": 0.8469584057038078
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "GRN",
+          "Votes": 0.0046043936294589746,
+          "ReferenceSources": [
+            "ideology prior",
+            "federal ON evidence trial"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline",
+            "federal ON evidence trial"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.7013778041410899,
+            "LNP": 0.15760121902355956,
+            "ON": 0.1410209768353507
+          },
+          "TrialFlows": {
+            "ALP": 0.6434649538978696,
+            "LNP": 0.19579217748820926,
+            "ON": 0.16074286861392115
+          }
+        },
+        {
+          "Origin": "IND",
+          "Votes": 0.11196348466282595,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.302027484236065,
+            "LNP": 0.3127566183100707,
+            "ON": 0.38521589745386436
+          },
+          "TrialFlows": {
+            "ALP": 0.2583221171716613,
+            "LNP": 0.2816270806784984,
+            "ON": 0.46005080214984034
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 0.01176888180149029,
+          "ReferenceSources": [
+            "full AEC row"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.10469938760648409,
+            "LNP": 0.326130799972719,
+            "ON": 0.569169812420797
+          },
+          "TrialFlows": {
+            "ALP": 0.10469938760648409,
+            "LNP": 0.326130799972719,
+            "ON": 0.569169812420797
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Morwell",
+      "SeatType": "Provincial",
+      "Round": 4,
+      "Holder": "ALP",
+      "AliveSet": "LNP+ON",
+      "EliminatedSeatVote": 0.27562678629684306,
+      "ReferenceBasis": "ON special prior",
+      "TrialBasis": "ON special prior",
+      "ReferenceEffectiveFlow": {
+        "LNP": 0.7499999999999999,
+        "ON": 0.24999999999999994
+      },
+      "TrialEffectiveFlow": {
+        "LNP": 0.7499999999999999,
+        "ON": 0.24999999999999994
+      },
+      "ChangePP": {
+        "LNP": 0.0,
+        "ON": 0.0
+      },
+      "SeatVoteChangePP": {
+        "LNP": 0.0,
+        "ON": 0.0
+      },
+      "Changed": false,
+      "Material": false,
+      "Parcels": [
+        {
+          "Origin": "ALP",
+          "Votes": 0.2048208331123642,
+          "ReferenceSources": [
+            "ON special prior"
+          ],
+          "TrialSources": [
+            "ON special prior"
+          ],
+          "ReferenceFlows": {
+            "LNP": 0.75,
+            "ON": 0.25
+          },
+          "TrialFlows": {
+            "LNP": 0.75,
+            "ON": 0.25
+          }
+        },
+        {
+          "Origin": "GRN",
+          "Votes": 0.02635770953550222,
+          "ReferenceSources": [
+            "ON special prior"
+          ],
+          "TrialSources": [
+            "ON special prior"
+          ],
+          "ReferenceFlows": {
+            "LNP": 0.75,
+            "ON": 0.25
+          },
+          "TrialFlows": {
+            "LNP": 0.75,
+            "ON": 0.25
+          }
+        },
+        {
+          "Origin": "IND",
+          "Votes": 0.03381604959901657,
+          "ReferenceSources": [
+            "ON special prior"
+          ],
+          "TrialSources": [
+            "ON special prior"
+          ],
+          "ReferenceFlows": {
+            "LNP": 0.75,
+            "ON": 0.25
+          },
+          "TrialFlows": {
+            "LNP": 0.75,
+            "ON": 0.25
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 0.010632194049960048,
+          "ReferenceSources": [
+            "ON special prior"
+          ],
+          "TrialSources": [
+            "ON special prior"
+          ],
+          "ReferenceFlows": {
+            "LNP": 0.75,
+            "ON": 0.25
+          },
+          "TrialFlows": {
+            "LNP": 0.75,
+            "ON": 0.25
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Pascoe Vale",
+      "SeatType": "Middle Ring",
+      "Round": 1,
+      "Holder": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "EliminatedSeatVote": 0.060607043118825615,
+      "ReferenceBasis": "federal ON evidence trial",
+      "TrialBasis": "federal ON evidence trial",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.13978256141255152,
+        "LNP": 0.14911262247390816,
+        "GRN": 0.1945988070483965,
+        "ON": 0.34991801533426364,
+        "IND": 0.16658799373088023
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.12377830911423685,
+        "LNP": 0.1499800616228683,
+        "GRN": 0.2531075776457582,
+        "ON": 0.3932899727822708,
+        "IND": 0.07984407883486586
+      },
+      "ChangePP": {
+        "ALP": -1.6004252298314676,
+        "LNP": 0.08674391489601474,
+        "GRN": 5.85087705973617,
+        "ON": 4.337195744800715,
+        "IND": -8.674391489601438
+      },
+      "SeatVoteChangePP": {
+        "ALP": -0.09699704091285215,
+        "LNP": 0.005257292190398505,
+        "GRN": 0.35460435824237774,
+        "ON": 0.2628646095199239,
+        "IND": -0.5257292190398484
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "OTH",
+          "Votes": 0.060607043118825615,
+          "ReferenceSources": [
+            "ideology prior",
+            "federal ON evidence trial"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline",
+            "federal ON evidence trial"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.13978256141255152,
+            "LNP": 0.14911262247390816,
+            "GRN": 0.1945988070483965,
+            "ON": 0.3499180153342636,
+            "IND": 0.16658799373088023
+          },
+          "TrialFlows": {
+            "ALP": 0.12377830911423685,
+            "LNP": 0.1499800616228683,
+            "GRN": 0.2531075776457582,
+            "ON": 0.3932899727822708,
+            "IND": 0.07984407883486586
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Pascoe Vale",
+      "SeatType": "Middle Ring",
+      "Round": 2,
+      "Holder": "IND",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "EliminatedSeatVote": 0.09075388490725675,
+      "ReferenceBasis": "ideology prior",
+      "TrialBasis": "single synthetic ON baseline",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.26823374476264816,
+        "LNP": 0.18719398668558973,
+        "GRN": 0.26964683214574753,
+        "ON": 0.27492543640601463
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.22101422016769537,
+        "LNP": 0.0834024408647782,
+        "GRN": 0.3880079306465401,
+        "ON": 0.30757540832098634
+      },
+      "ChangePP": {
+        "ALP": -4.721952459495279,
+        "LNP": -10.379154582081153,
+        "GRN": 11.836109850079257,
+        "ON": 3.264997191497171
+      },
+      "SeatVoteChangePP": {
+        "ALP": -0.42853553004657247,
+        "LNP": -0.9419486003768195,
+        "GRN": 1.0741729510837408,
+        "ON": 0.2963111793396508
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "IND",
+          "Votes": 0.08065747918813064,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.2812599106134849,
+            "LNP": 0.19016050342299645,
+            "GRN": 0.26729076466264257,
+            "ON": 0.26128882130087616
+          },
+          "TrialFlows": {
+            "ALP": 0.22812962011097251,
+            "LNP": 0.07337671475787358,
+            "GRN": 0.4004678688687226,
+            "ON": 0.29802579626243125
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 0.01009640571912611,
+          "ReferenceSources": [
+            "full AEC row",
+            "federal ON evidence trial"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline",
+            "federal ON evidence trial"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.16417119713496237,
+            "LNP": 0.1634952795748642,
+            "GRN": 0.2884688237802932,
+            "ON": 0.3838646995098802
+          },
+          "TrialFlows": {
+            "ALP": 0.16417119713496237,
+            "LNP": 0.1634952795748642,
+            "GRN": 0.2884688237802932,
+            "ON": 0.3838646995098802
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Pascoe Vale",
+      "SeatType": "Middle Ring",
+      "Round": 3,
+      "Holder": "LNP",
+      "AliveSet": "ALP+GRN+ON",
+      "EliminatedSeatVote": 0.19570781394044257,
+      "ReferenceBasis": "full AEC row",
+      "TrialBasis": "single synthetic ON baseline",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.26687756881966834,
+        "GRN": 0.39860670144419846,
+        "ON": 0.3345157297361332
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.2544831830939683,
+        "GRN": 0.40914123914350764,
+        "ON": 0.33637557776252414
+      },
+      "ChangePP": {
+        "ALP": -1.2394385725700063,
+        "GRN": 1.0534537699309177,
+        "ON": 0.18598480263909423
+      },
+      "SeatVoteChangePP": {
+        "ALP": -0.24256781355113852,
+        "GRN": 0.20616913440049783,
+        "ON": 0.03639867915064179
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "LNP",
+          "Votes": 0.16968195727761068,
+          "ReferenceSources": [
+            "full AEC row"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.2618920506912442,
+            "GRN": 0.40857534562211983,
+            "ON": 0.32953260368663595
+          },
+          "TrialFlows": {
+            "ALP": 0.2618920506912442,
+            "GRN": 0.40857534562211983,
+            "ON": 0.32953260368663595
+          }
+        },
+        {
+          "Origin": "IND",
+          "Votes": 0.015337866847244782,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.38509611343449035,
+            "GRN": 0.3246923067013473,
+            "ON": 0.2902115798641623
+          },
+          "TrialFlows": {
+            "ALP": 0.2480388448506246,
+            "GRN": 0.4398335825293156,
+            "ON": 0.3121275726200599
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 0.0106879898155871,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.17637712497637928,
+            "GRN": 0.346416353167507,
+            "ON": 0.4772065218561138
+          },
+          "TrialFlows": {
+            "ALP": 0.14610838360340503,
+            "GRN": 0.37408009460394825,
+            "ON": 0.47981152179264674
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Pascoe Vale",
+      "SeatType": "Middle Ring",
+      "Round": 4,
+      "Holder": "ON",
+      "AliveSet": "ALP+GRN",
+      "EliminatedSeatVote": 0.2690363089177703,
+      "ReferenceBasis": "ideology prior",
+      "TrialBasis": "single synthetic ON baseline",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.5491470409651013,
+        "GRN": 0.45085295903489886
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.608430188257177,
+        "GRN": 0.39156981174282296
+      },
+      "ChangePP": {
+        "ALP": 5.928314729207573,
+        "GRN": -5.92831472920759
+      },
+      "SeatVoteChangePP": {
+        "ALP": 1.5949319128488564,
+        "GRN": -1.5949319128488608
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "LNP",
+          "Votes": 0.05591573718033557,
+          "ReferenceSources": [
+            "posterior scenario"
+          ],
+          "TrialSources": [
+            "posterior scenario"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.4523496240601504,
+            "GRN": 0.5476503759398497
+          },
+          "TrialFlows": {
+            "ALP": 0.4523496240601504,
+            "GRN": 0.5476503759398497
+          }
+        },
+        {
+          "Origin": "ON",
+          "Votes": 0.1574109190653334,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.6028708133971292,
+            "GRN": 0.3971291866028709
+          },
+          "TrialFlows": {
+            "ALP": 0.7041936391781592,
+            "GRN": 0.29580636082184075
+          }
+        },
+        {
+          "Origin": "IND",
+          "Votes": 0.02552612423565167,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "ideology prior"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.5603402445507708,
+            "GRN": 0.43965975544922914
+          },
+          "TrialFlows": {
+            "ALP": 0.5603402445507708,
+            "GRN": 0.43965975544922914
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 0.030183528436449666,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "ideology prior"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.4388243335611757,
+            "GRN": 0.5611756664388243
+          },
+          "TrialFlows": {
+            "ALP": 0.4388243335611757,
+            "GRN": 0.5611756664388243
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Ashwood",
+      "SeatType": "Middle Ring",
+      "Round": 1,
+      "Holder": "OTH",
+      "AliveSet": "ALP+GRN+IND+LNP+ON",
+      "EliminatedSeatVote": 1.003922879656127e-12,
+      "ReferenceBasis": "federal ON evidence trial",
+      "TrialBasis": "federal ON evidence trial",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.13586049726046742,
+        "LNP": 0.17076762122830605,
+        "GRN": 0.17686587244608268,
+        "ON": 0.3499180153342636,
+        "IND": 0.16658799373088023
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.11070476194062326,
+        "LNP": 0.22216339080419456,
+        "GRN": 0.1939977956380455,
+        "ON": 0.3932899727822708,
+        "IND": 0.07984407883486586
+      },
+      "ChangePP": {
+        "ALP": -2.5155735319844164,
+        "LNP": 5.139576957588851,
+        "GRN": 1.7131923191962828,
+        "ON": 4.33719574480072,
+        "IND": -8.674391489601438
+      },
+      "SeatVoteChangePP": {
+        "ALP": -2.5254418242165295e-12,
+        "LNP": 5.1597388994768755e-12,
+        "GRN": 1.719912966492291e-12,
+        "ON": 4.35421004175264e-12,
+        "IND": -8.708420083505278e-12
+      },
+      "Changed": true,
+      "Material": false,
+      "Parcels": [
+        {
+          "Origin": "OTH",
+          "Votes": 1.003922879656127e-12,
+          "ReferenceSources": [
+            "ideology prior",
+            "federal ON evidence trial"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline",
+            "federal ON evidence trial"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.13586049726046742,
+            "LNP": 0.17076762122830605,
+            "GRN": 0.17686587244608268,
+            "ON": 0.3499180153342636,
+            "IND": 0.16658799373088023
+          },
+          "TrialFlows": {
+            "ALP": 0.11070476194062326,
+            "LNP": 0.22216339080419456,
+            "GRN": 0.1939977956380455,
+            "ON": 0.3932899727822708,
+            "IND": 0.07984407883486586
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Ashwood",
+      "SeatType": "Middle Ring",
+      "Round": 2,
+      "Holder": "IND",
+      "AliveSet": "ALP+GRN+LNP+ON",
+      "EliminatedSeatVote": 0.009112000987224953,
+      "ReferenceBasis": "ideology prior",
+      "TrialBasis": "single synthetic ON baseline",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.24311651656169112,
+        "LNP": 0.2976295154624763,
+        "GRN": 0.18767209349139716,
+        "ON": 0.27158187448443555
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.17958560322222242,
+        "LNP": 0.39430311027462706,
+        "GRN": 0.1304654299880558,
+        "ON": 0.2956458565150948
+      },
+      "ChangePP": {
+        "ALP": -6.353091333946869,
+        "LNP": 9.667359481215076,
+        "GRN": -5.720666350334136,
+        "ON": 2.4063982030659234
+      },
+      "SeatVoteChangePP": {
+        "ALP": -0.05788937450685417,
+        "LNP": 0.08808898913669029,
+        "GRN": -0.05212671743182922,
+        "ON": 0.02192710280199305
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "IND",
+          "Votes": 0.009112000987057712,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.24311651656333222,
+            "LNP": 0.2976295154638773,
+            "GRN": 0.1876720934904159,
+            "ON": 0.2715818744823747
+          },
+          "TrialFlows": {
+            "ALP": 0.17958560322269748,
+            "LNP": 0.3943031102778024,
+            "GRN": 0.13046542998602453,
+            "ON": 0.29564585651347564
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 1.672414983824421e-13,
+          "ReferenceSources": [
+            "full AEC row",
+            "federal ON evidence trial"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline",
+            "federal ON evidence trial"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.15370243615790102,
+            "LNP": 0.2212967323629043,
+            "GRN": 0.24113613196931444,
+            "ON": 0.3838646995098802
+          },
+          "TrialFlows": {
+            "ALP": 0.15370243615790102,
+            "LNP": 0.2212967323629043,
+            "GRN": 0.24113613196931444,
+            "ON": 0.3838646995098802
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Ashwood",
+      "SeatType": "Middle Ring",
+      "Round": 3,
+      "Holder": "ON",
+      "AliveSet": "ALP+GRN+LNP",
+      "EliminatedSeatVote": 0.10895462015706958,
+      "ReferenceBasis": "federal ON evidence trial",
+      "TrialBasis": "federal ON evidence trial",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.20743043715219373,
+        "LNP": 0.6239709191364952,
+        "GRN": 0.16859864371131106
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.18795355215112353,
+        "LNP": 0.6674410682693186,
+        "GRN": 0.1446053795795579
+      },
+      "ChangePP": {
+        "ALP": -1.9476885001070199,
+        "LNP": 4.347014913282344,
+        "GRN": -2.399326413175315
+      },
+      "SeatVoteChangePP": {
+        "ALP": -0.21220966071345293,
+        "LNP": 0.4736273586937945,
+        "GRN": -0.26141769798034065
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "ON",
+          "Votes": 0.10647996584830371,
+          "ReferenceSources": [
+            "ideology prior",
+            "federal ON evidence trial"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline",
+            "federal ON evidence trial"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.20487560612551464,
+            "LNP": 0.6295698048529215,
+            "GRN": 0.1655545890215639
+          },
+          "TrialFlows": {
+            "ALP": 0.18494606735990526,
+            "LNP": 0.6740502247066004,
+            "GRN": 0.1410037079334944
+          }
+        },
+        {
+          "Origin": "IND",
+          "Votes": 0.002474654308350382,
+          "ReferenceSources": [
+            "posterior scenario"
+          ],
+          "TrialSources": [
+            "posterior scenario"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.31736026432895925,
+            "LNP": 0.3830608422278482,
+            "GRN": 0.2995788934431926
+          },
+          "TrialFlows": {
+            "ALP": 0.31736026432895925,
+            "LNP": 0.3830608422278482,
+            "GRN": 0.2995788934431926
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 4.15488809120089e-13,
+          "ReferenceSources": [
+            "posterior scenario"
+          ],
+          "TrialSources": [
+            "posterior scenario"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.27910591133004925,
+            "LNP": 0.31922536945812807,
+            "GRN": 0.4016687192118227
+          },
+          "TrialFlows": {
+            "ALP": 0.27910591133004925,
+            "LNP": 0.31922536945812807,
+            "GRN": 0.4016687192118227
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Ashwood",
+      "SeatType": "Middle Ring",
+      "Round": 4,
+      "Holder": "GRN",
+      "AliveSet": "ALP+LNP",
+      "EliminatedSeatVote": 0.17570999343420948,
+      "ReferenceBasis": "posterior scenario",
+      "TrialBasis": "posterior scenario",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.8167199657618837,
+        "LNP": 0.18328003423811653
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.8111803616048855,
+        "LNP": 0.1888196383951147
+      },
+      "ChangePP": {
+        "ALP": -0.5539604156998168,
+        "LNP": 0.5539604156998168
+      },
+      "SeatVoteChangePP": {
+        "ALP": -0.09733638100542677,
+        "LNP": 0.09733638100542677
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "GRN",
+          "Votes": 0.15563032394830073,
+          "ReferenceSources": [
+            "posterior scenario"
+          ],
+          "TrialSources": [
+            "posterior scenario"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.8845420833333334,
+            "LNP": 0.11545791666666666
+          },
+          "TrialFlows": {
+            "ALP": 0.8845420833333334,
+            "LNP": 0.11545791666666666
+          }
+        },
+        {
+          "Origin": "ON",
+          "Votes": 0.01762824698504608,
+          "ReferenceSources": [
+            "ideology prior",
+            "federal ON evidence trial"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline",
+            "federal ON evidence trial"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.25675256797269447,
+            "LNP": 0.7432474320273055
+          },
+          "TrialFlows": {
+            "ALP": 0.20153642476344846,
+            "LNP": 0.7984635752365516
+          }
+        },
+        {
+          "Origin": "IND",
+          "Votes": 0.0024514225004778935,
+          "ReferenceSources": [
+            "posterior scenario"
+          ],
+          "TrialSources": [
+            "posterior scenario"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.537725,
+            "LNP": 0.462275
+          },
+          "TrialFlows": {
+            "ALP": 0.537725,
+            "LNP": 0.462275
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 3.8477652180977063e-13,
+          "ReferenceSources": [
+            "posterior scenario"
+          ],
+          "TrialSources": [
+            "posterior scenario"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.5194850000000001,
+            "LNP": 0.48051499999999997
+          },
+          "TrialFlows": {
+            "ALP": 0.5194850000000001,
+            "LNP": 0.48051499999999997
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Yan Yean",
+      "SeatType": "Peri-urban",
+      "Round": 1,
+      "Holder": "IND",
+      "AliveSet": "ALP+GRN+LNP+ON+OTH",
+      "EliminatedSeatVote": 9.902956597926964e-10,
+      "ReferenceBasis": "ideology prior",
+      "TrialBasis": "single ON baseline missing: generic prior",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.21331601466992667,
+        "LNP": 0.23352383863080683,
+        "GRN": 0.15673899755501222,
+        "ON": 0.2717267726161369,
+        "OTH": 0.12469437652811735
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.21331601466992667,
+        "LNP": 0.23352383863080683,
+        "GRN": 0.15673899755501222,
+        "ON": 0.2717267726161369,
+        "OTH": 0.12469437652811735
+      },
+      "ChangePP": {
+        "ALP": 0.0,
+        "LNP": 0.0,
+        "GRN": 0.0,
+        "ON": 0.0,
+        "OTH": 0.0
+      },
+      "SeatVoteChangePP": {
+        "ALP": 0.0,
+        "LNP": 0.0,
+        "GRN": 0.0,
+        "ON": 0.0,
+        "OTH": 0.0
+      },
+      "Changed": false,
+      "Material": false,
+      "Parcels": [
+        {
+          "Origin": "IND",
+          "Votes": 9.902956597926964e-10,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single ON baseline missing: generic prior"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.21331601466992667,
+            "LNP": 0.23352383863080683,
+            "GRN": 0.15673899755501222,
+            "ON": 0.2717267726161369,
+            "OTH": 0.12469437652811736
+          },
+          "TrialFlows": {
+            "ALP": 0.21331601466992667,
+            "LNP": 0.23352383863080683,
+            "GRN": 0.15673899755501222,
+            "ON": 0.2717267726161369,
+            "OTH": 0.12469437652811736
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Yan Yean",
+      "SeatType": "Peri-urban",
+      "Round": 2,
+      "Holder": "GRN",
+      "AliveSet": "ALP+LNP+ON+OTH",
+      "EliminatedSeatVote": 0.06580160445750509,
+      "ReferenceBasis": "full AEC row",
+      "TrialBasis": "single synthetic ON baseline",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.5038679239584715,
+        "LNP": 0.12632075507224536,
+        "ON": 0.1509433966025977,
+        "OTH": 0.21886792436668534
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.5038679239584715,
+        "LNP": 0.12632075507224536,
+        "ON": 0.1509433966025977,
+        "OTH": 0.21886792436668534
+      },
+      "ChangePP": {
+        "ALP": 0.0,
+        "LNP": 0.0,
+        "ON": 0.0,
+        "OTH": 0.0
+      },
+      "SeatVoteChangePP": {
+        "ALP": 0.0,
+        "LNP": 0.0,
+        "ON": 0.0,
+        "OTH": 0.0
+      },
+      "Changed": false,
+      "Material": false,
+      "Parcels": [
+        {
+          "Origin": "GRN",
+          "Votes": 0.06580160430228714,
+          "ReferenceSources": [
+            "full AEC row"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.5038679245283019,
+            "LNP": 0.12632075471698112,
+            "ON": 0.1509433962264151,
+            "OTH": 0.21886792452830187
+          },
+          "TrialFlows": {
+            "ALP": 0.5038679245283019,
+            "LNP": 0.12632075471698112,
+            "ON": 0.1509433962264151,
+            "OTH": 0.21886792452830187
+          }
+        },
+        {
+          "Origin": "IND",
+          "Votes": 1.5521794899898666e-10,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single ON baseline missing: generic prior"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.26229952830188685,
+            "LNP": 0.2769280660377359,
+            "ON": 0.3104186320754717,
+            "OTH": 0.15035377358490565
+          },
+          "TrialFlows": {
+            "ALP": 0.26229952830188685,
+            "LNP": 0.2769280660377359,
+            "ON": 0.3104186320754717,
+            "OTH": 0.15035377358490565
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Yan Yean",
+      "SeatType": "Peri-urban",
+      "Round": 3,
+      "Holder": "OTH",
+      "AliveSet": "ALP+LNP+ON",
+      "EliminatedSeatVote": 0.11311330406814497,
+      "ReferenceBasis": "full AEC row",
+      "TrialBasis": "single synthetic ON baseline",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.23448359912198863,
+        "LNP": 0.2212571533179504,
+        "ON": 0.544259247560061
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.2266352966800097,
+        "LNP": 0.22556895899231316,
+        "ON": 0.5477957443276772
+      },
+      "ChangePP": {
+        "ALP": -0.7848302441978927,
+        "LNP": 0.4311805674362762,
+        "ON": 0.35364967676161374
+      },
+      "SeatVoteChangePP": {
+        "ALP": -0.0887747420538327,
+        "LNP": 0.0487722586326948,
+        "ON": 0.040002483421137595
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "GRN",
+          "Votes": 0.014401860564274165,
+          "ReferenceSources": [
+            "ideology prior",
+            "federal ON evidence trial"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline",
+            "federal ON evidence trial"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.7254455037335644,
+            "LNP": 0.1348770866455284,
+            "ON": 0.13967740962090713
+          },
+          "TrialFlows": {
+            "ALP": 0.6638043417061728,
+            "LNP": 0.16874233510771758,
+            "ON": 0.16745332318610964
+          }
+        },
+        {
+          "Origin": "IND",
+          "Votes": 1.4682190423645796e-10,
+          "ReferenceSources": [
+            "ideology prior"
+          ],
+          "TrialSources": [
+            "single ON baseline missing: generic prior"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.32752653301886786,
+            "LNP": 0.3365423167634253,
+            "ON": 0.33593115021770686
+          },
+          "TrialFlows": {
+            "ALP": 0.32752653301886786,
+            "LNP": 0.3365423167634253,
+            "ON": 0.33593115021770686
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 0.0987114433570489,
+          "ReferenceSources": [
+            "full AEC row"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.16285294855322446,
+            "LNP": 0.23385988321951562,
+            "ON": 0.60328716822726
+          },
+          "TrialFlows": {
+            "ALP": 0.16285294855322446,
+            "LNP": 0.23385988321951562,
+            "ON": 0.60328716822726
+          }
+        }
+      ]
+    },
+    {
+      "Seat": "Yan Yean",
+      "SeatType": "Peri-urban",
+      "Round": 4,
+      "Holder": "ON",
+      "AliveSet": "ALP+LNP",
+      "EliminatedSeatVote": 0.2652270005939571,
+      "ReferenceBasis": "federal ON evidence trial",
+      "TrialBasis": "federal ON evidence trial",
+      "ReferenceEffectiveFlow": {
+        "ALP": 0.2847401737170229,
+        "LNP": 0.7152598262829771
+      },
+      "TrialEffectiveFlow": {
+        "ALP": 0.23555915298576346,
+        "LNP": 0.7644408470142368
+      },
+      "ChangePP": {
+        "ALP": -4.918102073125946,
+        "LNP": 4.918102073125963
+      },
+      "SeatVoteChangePP": {
+        "ALP": -1.304413461470117,
+        "LNP": 1.3044134614701215
+      },
+      "Changed": true,
+      "Material": true,
+      "Parcels": [
+        {
+          "Origin": "GRN",
+          "Votes": 0.01194393220787322,
+          "ReferenceSources": [
+            "posterior scenario"
+          ],
+          "TrialSources": [
+            "posterior scenario"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.8634338712075849,
+            "LNP": 0.13656612879241517
+          },
+          "TrialFlows": {
+            "ALP": 0.8634338712075849,
+            "LNP": 0.13656612879241517
+          }
+        },
+        {
+          "Origin": "ON",
+          "Votes": 0.19373172088498986,
+          "ReferenceSources": [
+            "ideology prior",
+            "federal ON evidence trial"
+          ],
+          "TrialSources": [
+            "single synthetic ON baseline",
+            "federal ON evidence trial"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.19304221533550556,
+            "LNP": 0.8069577846644944
+          },
+          "TrialFlows": {
+            "ALP": 0.12571129732624,
+            "LNP": 0.87428870267376
+          }
+        },
+        {
+          "Origin": "IND",
+          "Votes": 3.6659443814037044e-10,
+          "ReferenceSources": [
+            "posterior scenario"
+          ],
+          "TrialSources": [
+            "posterior scenario"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.48522499999999996,
+            "LNP": 0.514775
+          },
+          "TrialFlows": {
+            "ALP": 0.48522499999999996,
+            "LNP": 0.514775
+          }
+        },
+        {
+          "Origin": "OTH",
+          "Votes": 0.05955134713449961,
+          "ReferenceSources": [
+            "posterior scenario"
+          ],
+          "TrialSources": [
+            "posterior scenario"
+          ],
+          "ReferenceFlows": {
+            "ALP": 0.46698500000000004,
+            "LNP": 0.533015
+          },
+          "TrialFlows": {
+            "ALP": 0.46698500000000004,
+            "LNP": 0.533015
+          }
+        }
+      ]
+    }
+  ],
+  "ActualPaths": {
+    "Pakenham": {
+      "reference": [
+        {
+          "round": "Primary",
+          "eliminated": "",
+          "ALP": 0.24404555652824902,
+          "LNP": 0.31355627337959197,
+          "GRN": 0.07259391281087091,
+          "ON": 0.227474634397591,
+          "IND": 0.05852224185196069,
+          "OTH": 0.08380738103173649,
+          "ALP_flow": null,
+          "LNP_flow": null,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 1",
+          "eliminated": "IND",
+          "source": "Generic matrix or fallback",
+          "basis": "ideology prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 1,
+          "origin_retention": 1.0,
+          "ALP": 0.2583285914578005,
+          "LNP": 0.32933951524755606,
+          "GRN": 0.07837978078663214,
+          "ON": 0.2450365553537443,
+          "IND": 0.0,
+          "OTH": 0.08891555715426705,
+          "ALP_flow": 0.2440616503667482,
+          "LNP_flow": 0.2696964669926651,
+          "GRN_flow": 0.09886613691931541,
+          "ON_flow": 0.30008968215158927,
+          "IND_flow": null,
+          "OTH_flow": 0.08728606356968216
+        },
+        {
+          "round": "Round 2",
+          "eliminated": "GRN",
+          "source": "Generic matrix or fallback",
+          "basis": "ideology prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 2,
+          "origin_retention": 1.0,
+          "ALP": 0.3080630338071303,
+          "LNP": 0.3405040913494937,
+          "GRN": 0.0,
+          "ON": 0.2565817713545155,
+          "IND": 0.0,
+          "OTH": 0.09485110348886058,
+          "ALP_flow": 0.6345315316040293,
+          "LNP_flow": 0.14244204295914303,
+          "GRN_flow": null,
+          "ON_flow": 0.14729839615397633,
+          "IND_flow": null,
+          "OTH_flow": 0.0757280292828513
+        },
+        {
+          "round": "Round 3",
+          "eliminated": "OTH",
+          "source": "Generic matrix or fallback",
+          "basis": "ideology prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 3,
+          "origin_retention": 1.0,
+          "ALP": 0.32502075424586907,
+          "LNP": 0.3609427546498518,
+          "GRN": 0.0,
+          "ON": 0.3140364911042792,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.17878253193680857,
+          "LNP_flow": 0.2154815552858427,
+          "GRN_flow": null,
+          "ON_flow": 0.6057359127773487,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 4",
+          "eliminated": "ON",
+          "source": "Exact federal evidence",
+          "basis": "federal ON evidence trial",
+          "evidence_seats": 3,
+          "reliability": 0.12786809700267798,
+          "parcel_origins": 4,
+          "origin_retention": 1.0,
+          "ALP": 0.4133979521154069,
+          "LNP": 0.5866020478845931,
+          "GRN": 0.0,
+          "ON": 0.0,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.28142333892079846,
+          "LNP_flow": 0.7185766610792016,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        }
+      ],
+      "source_only": [
+        {
+          "round": "Primary",
+          "eliminated": "",
+          "ALP": 0.24404555652824902,
+          "LNP": 0.31355627337959197,
+          "GRN": 0.07259391281087091,
+          "ON": 0.227474634397591,
+          "IND": 0.05852224185196069,
+          "OTH": 0.08380738103173649,
+          "ALP_flow": null,
+          "LNP_flow": null,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 1",
+          "eliminated": "IND",
+          "source": "Generic matrix or fallback",
+          "basis": "single synthetic ON baseline",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 1,
+          "origin_retention": 1.0,
+          "ALP": 0.2616966321397669,
+          "LNP": 0.33334792598513363,
+          "GRN": 0.07288362687944497,
+          "ON": 0.24797471989534398,
+          "IND": 0.0,
+          "OTH": 0.08409709510031055,
+          "ALP_flow": 0.30161311414160286,
+          "LNP_flow": 0.33819026713992156,
+          "GRN_flow": 0.004950495049504951,
+          "ON_flow": 0.3502956286194657,
+          "IND_flow": null,
+          "OTH_flow": 0.004950495049504951
+        },
+        {
+          "round": "Round 2",
+          "eliminated": "GRN",
+          "source": "Generic matrix or fallback",
+          "basis": "single synthetic ON baseline",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 2,
+          "origin_retention": 1.0,
+          "ALP": 0.3013724815989734,
+          "LNP": 0.35237894761144606,
+          "GRN": 0.0,
+          "ON": 0.2617888705804171,
+          "IND": 0.0,
+          "OTH": 0.08445970020916352,
+          "ALP_flow": 0.5443725999645066,
+          "LNP_flow": 0.2611151837681071,
+          "GRN_flow": null,
+          "ON_flow": 0.18953709188927692,
+          "IND_flow": null,
+          "OTH_flow": 0.0049751243781094535
+        },
+        {
+          "round": "Round 3",
+          "eliminated": "OTH",
+          "source": "Generic matrix or fallback",
+          "basis": "single synthetic ON baseline",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 3,
+          "origin_retention": 1.0,
+          "ALP": 0.30845225944860616,
+          "LNP": 0.36860953884359204,
+          "GRN": 0.0,
+          "ON": 0.3229382017078019,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.08382433080036705,
+          "LNP_flow": 0.19216965241353084,
+          "GRN_flow": null,
+          "ON_flow": 0.7240060167861021,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 4",
+          "eliminated": "ALP",
+          "source": "Special prior",
+          "basis": "ON special prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 4,
+          "origin_retention": 1.0,
+          "ALP": 0.0,
+          "LNP": 0.5660189848907,
+          "GRN": 0.0,
+          "ON": 0.4339810151093001,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": null,
+          "LNP_flow": 0.64,
+          "GRN_flow": null,
+          "ON_flow": 0.35999999999999993,
+          "IND_flow": null,
+          "OTH_flow": null
+        }
+      ]
+    },
+    "Morwell": {
+      "reference": [
+        {
+          "round": "Primary",
+          "eliminated": "",
+          "ALP": 0.2048208331123642,
+          "LNP": 0.2676698932010444,
+          "GRN": 0.04129402135142194,
+          "ON": 0.3044924992389683,
+          "IND": 0.11196348466282595,
+          "OTH": 0.06975926843337527,
+          "ALP_flow": null,
+          "LNP_flow": null,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 1",
+          "eliminated": "GRN",
+          "source": "Victorian preference evidence",
+          "basis": "full AEC row",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 1,
+          "origin_retention": 1.0,
+          "ALP": 0.2259864198701628,
+          "LNP": 0.27413096705342505,
+          "GRN": 0.0,
+          "ON": 0.3106385861377846,
+          "IND": 0.11598917158155062,
+          "OTH": 0.07325485535707703,
+          "ALP_flow": 0.5125581395348838,
+          "LNP_flow": 0.15646511627906975,
+          "GRN_flow": null,
+          "ON_flow": 0.14883720930232558,
+          "IND_flow": 0.09748837209302325,
+          "OTH_flow": 0.08465116279069768
+        },
+        {
+          "round": "Round 2",
+          "eliminated": "OTH",
+          "source": "Generic matrix or fallback",
+          "basis": "ideology prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 2,
+          "origin_retention": 1.0,
+          "ALP": 0.2373491224871662,
+          "LNP": 0.2898962270840922,
+          "GRN": 0.0,
+          "ON": 0.3444178903349665,
+          "IND": 0.1283367600937752,
+          "OTH": 0.0,
+          "ALP_flow": 0.15511193847310834,
+          "LNP_flow": 0.2152111276968632,
+          "GRN_flow": null,
+          "ON_flow": 0.4611203453003412,
+          "IND_flow": 0.16855658852968733,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 3",
+          "eliminated": "IND",
+          "source": "Generic matrix or fallback",
+          "basis": "ideology prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 3,
+          "origin_retention": 1.0,
+          "ALP": 0.27562678629684306,
+          "LNP": 0.32947740080702054,
+          "GRN": 0.0,
+          "ON": 0.3948958128961365,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.29825954607010113,
+          "LNP_flow": 0.30841649496221146,
+          "GRN_flow": null,
+          "ON_flow": 0.3933239589676876,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 4",
+          "eliminated": "ALP",
+          "source": "Special prior",
+          "basis": "ON special prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 4,
+          "origin_retention": 1.0,
+          "ALP": 0.0,
+          "LNP": 0.5361974905296528,
+          "GRN": 0.0,
+          "ON": 0.4638025094703473,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": null,
+          "LNP_flow": 0.7499999999999999,
+          "GRN_flow": null,
+          "ON_flow": 0.24999999999999994,
+          "IND_flow": null,
+          "OTH_flow": null
+        }
+      ],
+      "source_only": [
+        {
+          "round": "Primary",
+          "eliminated": "",
+          "ALP": 0.2048208331123642,
+          "LNP": 0.2676698932010444,
+          "GRN": 0.04129402135142194,
+          "ON": 0.3044924992389683,
+          "IND": 0.11196348466282595,
+          "OTH": 0.06975926843337527,
+          "ALP_flow": null,
+          "LNP_flow": null,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 1",
+          "eliminated": "GRN",
+          "source": "Generic matrix or fallback",
+          "basis": "single synthetic ON baseline",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 1,
+          "origin_retention": 1.0,
+          "ALP": 0.2259864198701628,
+          "LNP": 0.27413096705342505,
+          "GRN": 0.0,
+          "ON": 0.3106385861377846,
+          "IND": 0.11598917158155062,
+          "OTH": 0.07325485535707703,
+          "ALP_flow": 0.5125581395348838,
+          "LNP_flow": 0.15646511627906975,
+          "GRN_flow": null,
+          "ON_flow": 0.14883720930232558,
+          "IND_flow": 0.09748837209302325,
+          "OTH_flow": 0.08465116279069768
+        },
+        {
+          "round": "Round 2",
+          "eliminated": "OTH",
+          "source": "Generic matrix or fallback",
+          "basis": "single synthetic ON baseline",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 2,
+          "origin_retention": 1.0,
+          "ALP": 0.2350469332274463,
+          "LNP": 0.29711047063994406,
+          "GRN": 0.0,
+          "ON": 0.35035432318519416,
+          "IND": 0.11748827294741561,
+          "OTH": 0.0,
+          "ALP_flow": 0.1236848167007974,
+          "LNP_flow": 0.3136925665132585,
+          "GRN_flow": null,
+          "ON_flow": 0.542158425592641,
+          "IND_flow": 0.02046419119330313,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 3",
+          "eliminated": "IND",
+          "source": "Generic matrix or fallback",
+          "basis": "single synthetic ON baseline",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 3,
+          "origin_retention": 1.0,
+          "ALP": 0.26702400619648253,
+          "LNP": 0.32984523081038575,
+          "GRN": 0.0,
+          "ON": 0.4031307629931318,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.27217246595622585,
+          "LNP_flow": 0.2786215113153706,
+          "GRN_flow": null,
+          "ON_flow": 0.4492060227284036,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 4",
+          "eliminated": "ALP",
+          "source": "Special prior",
+          "basis": "ON special prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 4,
+          "origin_retention": 1.0,
+          "ALP": 0.0,
+          "LNP": 0.5301132354577477,
+          "GRN": 0.0,
+          "ON": 0.4698867645422524,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": null,
+          "LNP_flow": 0.75,
+          "GRN_flow": null,
+          "ON_flow": 0.25,
+          "IND_flow": null,
+          "OTH_flow": null
+        }
+      ]
+    },
+    "Pascoe Vale": {
+      "reference": [
+        {
+          "round": "Primary",
+          "eliminated": "",
+          "ALP": 0.3052593956984364,
+          "LNP": 0.16968195727761068,
+          "GRN": 0.2263832056516632,
+          "ON": 0.1574109190653334,
+          "IND": 0.08065747918813064,
+          "OTH": 0.060607043118825615,
+          "ALP_flow": null,
+          "LNP_flow": null,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 1",
+          "eliminated": "OTH",
+          "source": "Exact federal evidence",
+          "basis": "federal ON evidence trial",
+          "evidence_seats": 11,
+          "reliability": 0.3370286504376045,
+          "parcel_origins": 1,
+          "origin_retention": 1.0,
+          "ALP": 0.3137312034252268,
+          "LNP": 0.178719232417448,
+          "GRN": 0.23817726394131739,
+          "ON": 0.178618415308751,
+          "IND": 0.09075388490725675,
+          "OTH": 0.0,
+          "ALP_flow": 0.13978256141255152,
+          "LNP_flow": 0.14911262247390816,
+          "GRN_flow": 0.1945988070483965,
+          "ON_flow": 0.34991801533426364,
+          "IND_flow": 0.16658799373088023,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 2",
+          "eliminated": "IND",
+          "source": "Generic matrix or fallback",
+          "basis": "ideology prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 2,
+          "origin_retention": 1.0,
+          "ALP": 0.33807445782565865,
+          "LNP": 0.19570781394044257,
+          "GRN": 0.2626487615114789,
+          "ON": 0.20356896672241978,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.26823374476264816,
+          "LNP_flow": 0.18719398668558973,
+          "GRN_flow": 0.26964683214574753,
+          "ON_flow": 0.27492543640601463,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 3",
+          "eliminated": "LNP",
+          "source": "Victorian preference evidence",
+          "basis": "full AEC row",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 3,
+          "origin_retention": 1.0,
+          "ALP": 0.39030448340909596,
+          "LNP": 0.0,
+          "GRN": 0.3406592076731337,
+          "ON": 0.2690363089177703,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.26687756881966834,
+          "LNP_flow": null,
+          "GRN_flow": 0.39860670144419846,
+          "ON_flow": 0.3345157297361332,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 4",
+          "eliminated": "ON",
+          "source": "Generic matrix or fallback",
+          "basis": "ideology prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 4,
+          "origin_retention": 1.0,
+          "ALP": 0.5380449763634624,
+          "LNP": 0.0,
+          "GRN": 0.46195502363653757,
+          "ON": 0.0,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.5491470409651013,
+          "LNP_flow": null,
+          "GRN_flow": 0.45085295903489886,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        }
+      ],
+      "source_only": [
+        {
+          "round": "Primary",
+          "eliminated": "",
+          "ALP": 0.3052593956984364,
+          "LNP": 0.16968195727761068,
+          "GRN": 0.2263832056516632,
+          "ON": 0.1574109190653334,
+          "IND": 0.08065747918813064,
+          "OTH": 0.060607043118825615,
+          "ALP_flow": null,
+          "LNP_flow": null,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 1",
+          "eliminated": "OTH",
+          "source": "Exact federal evidence",
+          "basis": "federal ON evidence trial",
+          "evidence_seats": 11,
+          "reliability": 0.3370286504376045,
+          "parcel_origins": 1,
+          "origin_retention": 1.0,
+          "ALP": 0.31276123301609826,
+          "LNP": 0.17877180533935197,
+          "GRN": 0.24172330752374116,
+          "ON": 0.18124706140395022,
+          "IND": 0.08549659271685826,
+          "OTH": 0.0,
+          "ALP_flow": 0.12377830911423685,
+          "LNP_flow": 0.1499800616228683,
+          "GRN_flow": 0.2531075776457582,
+          "ON_flow": 0.3932899727822708,
+          "IND_flow": 0.07984407883486586,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 2",
+          "eliminated": "IND",
+          "source": "Generic matrix or fallback",
+          "basis": "single synthetic ON baseline",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 2,
+          "origin_retention": 1.0,
+          "ALP": 0.3319560361634784,
+          "LNP": 0.1854813584021024,
+          "GRN": 0.2754199697103066,
+          "ON": 0.20714263572411257,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.22450956859705687,
+          "LNP_flow": 0.07847743225242501,
+          "GRN_flow": 0.39412871455777987,
+          "ON_flow": 0.30288428459273836,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 3",
+          "eliminated": "LNP",
+          "source": "Generic matrix or fallback",
+          "basis": "single synthetic ON baseline",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 3,
+          "origin_retention": 1.0,
+          "ALP": 0.3793060801696295,
+          "LNP": 0.0,
+          "GRN": 0.351047229701509,
+          "ON": 0.26964669012886144,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.2552819561710436,
+          "LNP_flow": null,
+          "GRN_flow": 0.40773509878686115,
+          "ON_flow": 0.33698294504209536,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 4",
+          "eliminated": "ON",
+          "source": "Generic matrix or fallback",
+          "basis": "single synthetic ON baseline",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 4,
+          "origin_retention": 1.0,
+          "ALP": 0.5433073878665475,
+          "LNP": 0.0,
+          "GRN": 0.4566926121334524,
+          "ON": 0.0,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.6082081245593759,
+          "LNP_flow": null,
+          "GRN_flow": 0.391791875440624,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        }
+      ]
+    },
+    "Ashwood": {
+      "reference": [
+        {
+          "round": "Primary",
+          "eliminated": "",
+          "ALP": 0.32611884986573664,
+          "LNP": 0.4026588593495973,
+          "GRN": 0.15563032394830073,
+          "ON": 0.10647996584830371,
+          "IND": 0.009112000987057712,
+          "OTH": 1.003922879656127e-12,
+          "ALP_flow": null,
+          "LNP_flow": null,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 1",
+          "eliminated": "OTH",
+          "source": "Exact federal evidence",
+          "basis": "federal ON evidence trial",
+          "evidence_seats": 11,
+          "reliability": 0.3370286504376045,
+          "parcel_origins": 1,
+          "origin_retention": 1.0,
+          "ALP": 0.32611884986587303,
+          "LNP": 0.4026588593497687,
+          "GRN": 0.15563032394847828,
+          "ON": 0.106479965848655,
+          "IND": 0.009112000987224953,
+          "OTH": 0.0,
+          "ALP_flow": 0.13586049726046742,
+          "LNP_flow": 0.17076762122830605,
+          "GRN_flow": 0.17686587244608268,
+          "ON_flow": 0.3499180153342636,
+          "IND_flow": 0.16658799373088023,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 2",
+          "eliminated": "IND",
+          "source": "Generic matrix or fallback",
+          "basis": "ideology prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 2,
+          "origin_retention": 1.0,
+          "ALP": 0.3283341278047939,
+          "LNP": 0.4053708597884901,
+          "GRN": 0.15734039224964647,
+          "ON": 0.10895462015706958,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.24311651656169112,
+          "LNP_flow": 0.2976295154624763,
+          "GRN_flow": 0.18767209349139716,
+          "ON_flow": 0.27158187448443555,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 3",
+          "eliminated": "ON",
+          "source": "Exact federal evidence",
+          "basis": "federal ON evidence trial",
+          "evidence_seats": 18,
+          "reliability": 0.461953424015927,
+          "parcel_origins": 3,
+          "origin_retention": 1.0,
+          "ALP": 0.350934632293726,
+          "LNP": 0.4733553742720645,
+          "GRN": 0.17570999343420948,
+          "ON": 0.0,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.20743043715219373,
+          "LNP_flow": 0.6239709191364952,
+          "GRN_flow": 0.16859864371131106,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 4",
+          "eliminated": "GRN",
+          "source": "Victorian preference evidence",
+          "basis": "posterior scenario",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 4,
+          "origin_retention": 1.0,
+          "ALP": 0.49444049211533436,
+          "LNP": 0.5055595078846656,
+          "GRN": 0.0,
+          "ON": 0.0,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.8167199657618837,
+          "LNP_flow": 0.18328003423811653,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        }
+      ],
+      "source_only": [
+        {
+          "round": "Primary",
+          "eliminated": "",
+          "ALP": 0.32611884986573664,
+          "LNP": 0.4026588593495973,
+          "GRN": 0.15563032394830073,
+          "ON": 0.10647996584830371,
+          "IND": 0.009112000987057712,
+          "OTH": 1.003922879656127e-12,
+          "ALP_flow": null,
+          "LNP_flow": null,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 1",
+          "eliminated": "OTH",
+          "source": "Exact federal evidence",
+          "basis": "federal ON evidence trial",
+          "evidence_seats": 11,
+          "reliability": 0.3370286504376045,
+          "parcel_origins": 1,
+          "origin_retention": 1.0,
+          "ALP": 0.32611884986584777,
+          "LNP": 0.4026588593498203,
+          "GRN": 0.1556303239484955,
+          "ON": 0.10647996584869855,
+          "IND": 0.00911200098713787,
+          "OTH": 0.0,
+          "ALP_flow": 0.11070476194062326,
+          "LNP_flow": 0.22216339080419456,
+          "GRN_flow": 0.1939977956380455,
+          "ON_flow": 0.3932899727822708,
+          "IND_flow": 0.07984407883486586,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 2",
+          "eliminated": "IND",
+          "source": "Generic matrix or fallback",
+          "basis": "single synthetic ON baseline",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 2,
+          "origin_retention": 1.0,
+          "ALP": 0.32775523405968665,
+          "LNP": 0.4062517496798893,
+          "GRN": 0.1568191250753244,
+          "ON": 0.10917389118509963,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.17958560322246978,
+          "LNP_flow": 0.39430311027628046,
+          "GRN_flow": 0.13046542998699806,
+          "ON_flow": 0.2956458565142516,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 3",
+          "eliminated": "ON",
+          "source": "Exact federal evidence",
+          "basis": "federal ON evidence trial",
+          "evidence_seats": 18,
+          "reliability": 0.461953424015927,
+          "parcel_origins": 3,
+          "origin_retention": 1.0,
+          "ALP": 0.3483032298528992,
+          "LNP": 0.47905653189507436,
+          "GRN": 0.1726402382520264,
+          "ON": 0.0,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.1882134599230717,
+          "LNP_flow": 0.6668699029124802,
+          "GRN_flow": 0.1449166371644481,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 4",
+          "eliminated": "GRN",
+          "source": "Victorian preference evidence",
+          "basis": "posterior scenario",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 4,
+          "origin_retention": 1.0,
+          "ALP": 0.4900638981933702,
+          "LNP": 0.5099361018066298,
+          "GRN": 0.0,
+          "ON": 0.0,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.8211334146418617,
+          "LNP_flow": 0.17886658535813837,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        }
+      ]
+    },
+    "Yan Yean": {
+      "reference": [
+        {
+          "round": "Primary",
+          "eliminated": "",
+          "ALP": 0.35166200720551616,
+          "LNP": 0.2900932232598623,
+          "GRN": 0.06580160430228714,
+          "ON": 0.19373172088498986,
+          "IND": 9.902956597926964e-10,
+          "OTH": 0.0987114433570489,
+          "ALP_flow": null,
+          "LNP_flow": null,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 1",
+          "eliminated": "IND",
+          "source": "Generic matrix or fallback",
+          "basis": "ideology prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 1,
+          "origin_retention": 1.0,
+          "ALP": 0.35166200741676207,
+          "LNP": 0.29009322349111993,
+          "GRN": 0.06580160445750509,
+          "ON": 0.1937317211540797,
+          "IND": 0.0,
+          "OTH": 0.0987114434805332,
+          "ALP_flow": 0.21331601466992667,
+          "LNP_flow": 0.23352383863080683,
+          "GRN_flow": 0.15673899755501222,
+          "ON_flow": 0.2717267726161369,
+          "IND_flow": null,
+          "OTH_flow": 0.12469437652811735
+        },
+        {
+          "round": "Round 2",
+          "eliminated": "GRN",
+          "source": "Victorian preference evidence",
+          "basis": "full AEC row",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 2,
+          "origin_retention": 1.0,
+          "ALP": 0.3848173252479017,
+          "LNP": 0.2984053318511572,
+          "GRN": 0.0,
+          "ON": 0.20366403883279616,
+          "IND": 0.0,
+          "OTH": 0.11311330406814497,
+          "ALP_flow": 0.5038679239584715,
+          "LNP_flow": 0.12632075507224536,
+          "GRN_flow": null,
+          "ON_flow": 0.1509433966025977,
+          "IND_flow": null,
+          "OTH_flow": 0.21886792436668534
+        },
+        {
+          "round": "Round 3",
+          "eliminated": "OTH",
+          "source": "Victorian preference evidence",
+          "basis": "full AEC row",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 3,
+          "origin_retention": 1.0,
+          "ALP": 0.4113405398943802,
+          "LNP": 0.3234324595116627,
+          "GRN": 0.0,
+          "ON": 0.2652270005939571,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.23448359912198863,
+          "LNP_flow": 0.2212571533179504,
+          "GRN_flow": null,
+          "ON_flow": 0.544259247560061,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 4",
+          "eliminated": "ON",
+          "source": "Exact federal evidence",
+          "basis": "federal ON evidence trial",
+          "evidence_seats": 3,
+          "reliability": 0.12786809700267798,
+          "parcel_origins": 4,
+          "origin_retention": 1.0,
+          "ALP": 0.48686132211794847,
+          "LNP": 0.5131386778820516,
+          "GRN": 0.0,
+          "ON": 0.0,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.2847401737170229,
+          "LNP_flow": 0.7152598262829771,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        }
+      ],
+      "source_only": [
+        {
+          "round": "Primary",
+          "eliminated": "",
+          "ALP": 0.35166200720551616,
+          "LNP": 0.2900932232598623,
+          "GRN": 0.06580160430228714,
+          "ON": 0.19373172088498986,
+          "IND": 9.902956597926964e-10,
+          "OTH": 0.0987114433570489,
+          "ALP_flow": null,
+          "LNP_flow": null,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 1",
+          "eliminated": "IND",
+          "source": "Generic matrix or fallback",
+          "basis": "single ON baseline missing: generic prior",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 1,
+          "origin_retention": 1.0,
+          "ALP": 0.35166200741676207,
+          "LNP": 0.29009322349111993,
+          "GRN": 0.06580160445750509,
+          "ON": 0.1937317211540797,
+          "IND": 0.0,
+          "OTH": 0.0987114434805332,
+          "ALP_flow": 0.21331601466992667,
+          "LNP_flow": 0.23352383863080683,
+          "GRN_flow": 0.15673899755501222,
+          "ON_flow": 0.2717267726161369,
+          "IND_flow": null,
+          "OTH_flow": 0.12469437652811735
+        },
+        {
+          "round": "Round 2",
+          "eliminated": "GRN",
+          "source": "Generic matrix or fallback",
+          "basis": "single synthetic ON baseline",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 2,
+          "origin_retention": 1.0,
+          "ALP": 0.3848173252479017,
+          "LNP": 0.2984053318511572,
+          "GRN": 0.0,
+          "ON": 0.20366403883279616,
+          "IND": 0.0,
+          "OTH": 0.11311330406814497,
+          "ALP_flow": 0.5038679239584715,
+          "LNP_flow": 0.12632075507224536,
+          "GRN_flow": null,
+          "ON_flow": 0.1509433966025977,
+          "IND_flow": null,
+          "OTH_flow": 0.21886792436668534
+        },
+        {
+          "round": "Round 3",
+          "eliminated": "OTH",
+          "source": "Generic matrix or fallback",
+          "basis": "single synthetic ON baseline",
+          "evidence_seats": null,
+          "reliability": null,
+          "parcel_origins": 3,
+          "origin_retention": 1.0,
+          "ALP": 0.41045279247384187,
+          "LNP": 0.3239201820979897,
+          "GRN": 0.0,
+          "ON": 0.2656270254281685,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.2266352966800097,
+          "LNP_flow": 0.22556895899231316,
+          "GRN_flow": null,
+          "ON_flow": 0.5477957443276772,
+          "IND_flow": null,
+          "OTH_flow": null
+        },
+        {
+          "round": "Round 4",
+          "eliminated": "ON",
+          "source": "Exact federal evidence",
+          "basis": "federal ON evidence trial",
+          "evidence_seats": 3,
+          "reliability": 0.12786809700267798,
+          "parcel_origins": 4,
+          "origin_retention": 1.0,
+          "ALP": 0.4732748350738913,
+          "LNP": 0.5267251649261088,
+          "GRN": 0.0,
+          "ON": 0.0,
+          "IND": 0.0,
+          "OTH": 0.0,
+          "ALP_flow": 0.2365047099359922,
+          "LNP_flow": 0.7634952900640078,
+          "GRN_flow": null,
+          "ON_flow": null,
+          "IND_flow": null,
+          "OTH_flow": null
+        }
+      ]
+    }
+  }
+}

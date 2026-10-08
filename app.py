@@ -679,6 +679,16 @@ with st.expander("Five-seat preference trial comparisons", expanded=False):
     panel = pd.DataFrame(comparison_panel(panel_results, panel_scenario, trial_options[panel_variant], matrices))
     st.dataframe(panel, hide_index=True)
     st.download_button("Download five-seat comparison", panel.to_csv(index=False), "five_seat_comparison.csv", "text/csv")
+    if panel_scenario == "ON18" and trial_options[panel_variant] == "matrix_source_only":
+        import json
+        trace = json.loads((Path(__file__).resolve().parent / "reports/preference_review_2026_10_08/five_seat_source_trace.json").read_text())
+        explanation_rows = []
+        for seat in panel["Seat"]:
+            first = next(r for r in trace["Rounds"] if r["Seat"] == seat and r["Material"])
+            displaced = [p["Origin"] + ": " + " + ".join(p["ReferenceSources"]) for p in first["Parcels"] if p["Votes"] > 1e-8 and any(abs(p["TrialFlows"].get(k, 0) - v) > 1e-8 for k, v in p["ReferenceFlows"].items())]
+            explanation_rows.append({"Seat": seat, "First material flow change": "Round " + str(first["Round"]) + " · " + first["Holder"], "Underlying reference sources": "; ".join(displaced), "ALP seat-vote change in this round (pp)": first["SeatVoteChangePP"].get("ALP", 0), "ON seat-vote change in this round (pp)": first["SeatVoteChangePP"].get("ON", 0)})
+        st.caption("Why the sources differ: evaluated on identical reference-path vote parcels. These round effects are not final 2CP swings and exclude negligible vote piles.")
+        st.dataframe(pd.DataFrame(explanation_rows), hide_index=True)
 
 if abs(total_primary - 100) > 0.01:
     st.warning(
