@@ -608,11 +608,14 @@ def diagnose_preference_weights(
             out = normalise_alive(prior_vec, alive) if sum(prior_vec) > 0 else uniform_alive(alive)
             basis = "single ON baseline missing: generic prior" if sum(prior_vec) > 0 else "single ON baseline missing: uniform"
         if basis != "ON special prior":
+            if scalars.get("TRIAL_MATRIX_KEEP_TRANSFORMS", False):
+                out = apply_geo_adjust(out, alive, geography_class, params, eliminated_party=elim)
+                out = apply_on_siphon(out, alive, elim, geography_class, scalars)
             out = enforce_floor(out, alive, scalars)
             out = cap_shares(out, alive, scalars)
         stage_rows.append(vector_stage(
             "single ON baseline trial", out, alive,
-            "Special priors are locked; otherwise use the projected synthetic row without posterior selection, extra AEC anchoring, geography or siphon. Existing floors and caps remain. Missing rows use an explicitly labelled fallback.",
+            "Special priors are locked. Use the projected synthetic row without posterior selection or extra matrix anchoring. Geography and siphon are retained only in the source-only comparison. Existing floors and caps remain; missing rows use labelled fallbacks.",
             {"basis": basis},
         ))
         return {

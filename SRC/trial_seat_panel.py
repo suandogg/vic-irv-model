@@ -2,6 +2,7 @@
 SEATS = ["Pakenham", "Morwell", "Pascoe Vale", "Ashwood", "Yan Yean"]
 EXPLANATIONS = {
     "reference":"Unchanged reference preference rules.",
+    "matrix_source_only":"Change only generic ON-related source selection to the projected matrix; retain geography/siphon, constraints, exact federal blending and locked special priors.",
     "single_on_baseline":"Use the projected synthetic matrix directly in generic ON-related calls, removing posterior/prior selection and extra geography/siphon. Exact federal blending and locked special priors remain.",
     "on_no_extra_transforms":"Keep existing source selection; remove geography and siphoning only in ON-related calls.",
     "no_on_recipient_geography":"Remove only ON's additive geography adjustment; other parties' adjustments and renormalisation remain.",

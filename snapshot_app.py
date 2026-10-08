@@ -2,6 +2,9 @@
 import runpy
 from pathlib import Path
 import SRC.live_sheet_sync as sheet_sync
+import streamlit as st
+
+st.sidebar.caption("Preference laboratory · five-seat comparisons · source-only test")
 
 def frozen_inputs(*args, **kwargs):
     return {"synced": 0, "errors": [], "message": "Frozen preference review inputs — 8 October 2026"}

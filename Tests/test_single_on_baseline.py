@@ -24,6 +24,15 @@ class SingleBaselineTests(unittest.TestCase):
         self.assertEqual(d["basis"],"federal ON evidence trial")
         self.assertAlmostEqual(d["final_flows"]["ON"],.25)
 
+    def test_source_only_retains_transforms(self):
+        params=self.params(); params["scalar_params"]["TRIAL_MATRIX_KEEP_TRANSFORMS"]=True
+        params["scalar_params"]["SIPHON_STRENGTH_ON"]=0
+        from SRC.preference_engine import apply_geo_adjust
+        matrix={"OTH":{"ALP":.2,"LNP":.5,"ON":.3}}
+        d=diagnose_preference_weights("OTH",["ALP","LNP","ON"],matrix,"Regional",params)
+        expected=apply_geo_adjust([.2,.5,0,.3,0,0],["ALP","LNP","ON"],"Regional",params,"OTH")
+        self.assertAlmostEqual(d["final_flows"]["ON"],expected[3])
+
     def test_non_on_round_unchanged(self):
         params=self.params(); plain=self.params(); plain["scalar_params"]["TRIAL_SINGLE_ON_BASELINE"]=False
         args=("OTH",["ALP","LNP"],{"OTH":{"ALP":.2,"LNP":.8}},"Regional")
