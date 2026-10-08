@@ -18,8 +18,9 @@ from SRC.ideology_loader import load_ideology_prior
 from SRC.constants import PARTIES
 from SRC.irv import run_irv_for_district
 from SRC.lnp_precollapse_loader import apply_lnp_precollapse
+from tools.trial_oth_matrix_rebuild import rebuild_oth_matrices
 
-NAMES=("reference","single_on_baseline","no_on_recipient_geography","no_non_on_recipient_geography","no_siphon","no_geography","no_constraints","no_synthetic_priority","simplified")
+NAMES=("reference","oth_params_rebuild","single_on_baseline","no_on_recipient_geography","no_non_on_recipient_geography","no_siphon","no_geography","no_constraints","no_synthetic_priority","simplified")
 
 def main():
     out=ROOT/"reports"/"preference_review_2026_10_08"
@@ -31,6 +32,7 @@ def main():
     raw["key"]=raw.district.str.upper()
     raw=raw.set_index("key")
     matrices=load_synth_pref_matrices(); params=load_params(); ideology=load_ideology_prior()
+    rebuilt = rebuild_oth_matrices(matrices, params)
     baseline=pd.read_csv(ROOT/"data/raw/BASELINE_2CP.csv")
     baseline["key"]=baseline.district.str.upper(); baseline=baseline.set_index("key")
     rows=[]
@@ -46,7 +48,14 @@ def main():
         p=copy.deepcopy(params); p["scalar_params"]["SCENARIO_ON_PRIMARY"]=votes["ON"]*100
         for mode,matrix in (("own_matrix_reconstruction",own["matrix"]),("strict_loo_seat_class",mean_matrix(same or others))):
             for name in NAMES:
-                result=run_irv_for_district(votes,matrix,own["seat_type"],variant(p,name),{},ideology)
+                trial_matrix = matrix
+                if name == "oth_params_rebuild":
+                    if mode == "own_matrix_reconstruction":
+                        trial_matrix = rebuilt[district]["matrix"]
+                    else:
+                        training = [v for k,v in rebuilt.items() if k != district and v["seat_type"] == own["seat_type"]]
+                        trial_matrix = mean_matrix(training or [v for k,v in rebuilt.items() if k != district])
+                result=run_irv_for_district(votes,trial_matrix,own["seat_type"],variant(p,name),{},ideology)
                 pair={result["winner"],result["runner_up"]}=={winner,runner}
                 predicted=result["winner_pct"] if result["winner"]==winner else result["runner_up_pct"] if result["runner_up"]==winner else None
                 rows.append(dict(District=district,Mode=mode,Variant=name,SeatType=own["seat_type"],WinnerCorrect=result["winner"]==winner,FinalPairCorrect=pair,PredictedWinner=result["winner"],ActualWinner=winner,Error=predicted-shares[winner] if pair else None))

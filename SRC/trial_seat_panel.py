@@ -2,6 +2,7 @@
 SEATS = ["Pakenham", "Morwell", "Pascoe Vale", "Ashwood", "Yan Yean"]
 EXPLANATIONS = {
     "reference":"Unchanged reference preference rules.",
+    "oth_params_rebuild":"Rebuild only OTH synthetic rows from historical five-party rows and current OTH→ON PARAMS. Keep source selection, extra transforms, evidence blending and special priors unchanged.",
     "matrix_source_only":"Change only generic ON-related source selection to the projected matrix; retain geography/siphon, constraints, exact federal blending and locked special priors.",
     "single_on_baseline":"Use the projected synthetic matrix directly in generic ON-related calls, removing posterior/prior selection and extra geography/siphon. Exact federal blending and locked special priors remain.",
     "on_no_extra_transforms":"Keep existing source selection; remove geography and siphoning only in ON-related calls.",

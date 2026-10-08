@@ -1,5 +1,6 @@
 District,Mode,Variant,SeatType,WinnerCorrect,FinalPairCorrect,PredictedWinner,ActualWinner,Error
 BOX HILL,own_matrix_reconstruction,reference,Middle ring,True,True,ALP,ALP,1.365227791218393
+BOX HILL,own_matrix_reconstruction,oth_params_rebuild,Middle ring,True,True,ALP,ALP,1.2594633031612124
 BOX HILL,own_matrix_reconstruction,single_on_baseline,Middle ring,True,True,ALP,ALP,1.365227791218393
 BOX HILL,own_matrix_reconstruction,no_on_recipient_geography,Middle ring,True,True,ALP,ALP,1.365227791218393
 BOX HILL,own_matrix_reconstruction,no_non_on_recipient_geography,Middle ring,True,True,ALP,ALP,0.5412979771880155
@@ -9,6 +10,7 @@ BOX HILL,own_matrix_reconstruction,no_constraints,Middle ring,True,True,ALP,ALP,
 BOX HILL,own_matrix_reconstruction,no_synthetic_priority,Middle ring,True,True,ALP,ALP,1.365227791218393
 BOX HILL,own_matrix_reconstruction,simplified,Middle ring,True,True,ALP,ALP,0.5412979771880155
 BOX HILL,strict_loo_seat_class,reference,Middle ring,True,True,ALP,ALP,0.9379025679144504
+BOX HILL,strict_loo_seat_class,oth_params_rebuild,Middle ring,True,True,ALP,ALP,0.843937408679829
 BOX HILL,strict_loo_seat_class,single_on_baseline,Middle ring,True,True,ALP,ALP,0.9379025679144504
 BOX HILL,strict_loo_seat_class,no_on_recipient_geography,Middle ring,True,True,ALP,ALP,0.9379025679144504
 BOX HILL,strict_loo_seat_class,no_non_on_recipient_geography,Middle ring,True,True,ALP,ALP,0.1146921364730158
@@ -18,6 +20,7 @@ BOX HILL,strict_loo_seat_class,no_constraints,Middle ring,True,True,ALP,ALP,0.93
 BOX HILL,strict_loo_seat_class,no_synthetic_priority,Middle ring,True,True,ALP,ALP,0.9379025679144504
 BOX HILL,strict_loo_seat_class,simplified,Middle ring,True,True,ALP,ALP,0.1146921364730158
 BULLEEN,own_matrix_reconstruction,reference,Middle ring,True,True,LNP,LNP,-1.580120057869494
+BULLEEN,own_matrix_reconstruction,oth_params_rebuild,Middle ring,True,True,LNP,LNP,-1.4868522478560076
 BULLEEN,own_matrix_reconstruction,single_on_baseline,Middle ring,True,True,LNP,LNP,-1.580120057869494
 BULLEEN,own_matrix_reconstruction,no_on_recipient_geography,Middle ring,True,True,LNP,LNP,-1.580120057869494
 BULLEEN,own_matrix_reconstruction,no_non_on_recipient_geography,Middle ring,True,True,LNP,LNP,-0.8930465498996454
@@ -27,6 +30,7 @@ BULLEEN,own_matrix_reconstruction,no_constraints,Middle ring,True,True,LNP,LNP,-
 BULLEEN,own_matrix_reconstruction,no_synthetic_priority,Middle ring,True,True,LNP,LNP,-1.580120057869494
 BULLEEN,own_matrix_reconstruction,simplified,Middle ring,True,True,LNP,LNP,-0.8930465498996454
 BULLEEN,strict_loo_seat_class,reference,Middle ring,True,True,LNP,LNP,-2.330664570331331
+BULLEEN,strict_loo_seat_class,oth_params_rebuild,Middle ring,True,True,LNP,LNP,-2.2439721059195894
 BULLEEN,strict_loo_seat_class,single_on_baseline,Middle ring,True,True,LNP,LNP,-2.330664570331331
 BULLEEN,strict_loo_seat_class,no_on_recipient_geography,Middle ring,True,True,LNP,LNP,-2.330664570331331
 BULLEEN,strict_loo_seat_class,no_non_on_recipient_geography,Middle ring,True,True,LNP,LNP,-1.645566087047312
@@ -36,6 +40,7 @@ BULLEEN,strict_loo_seat_class,no_constraints,Middle ring,True,True,LNP,LNP,-2.33
 BULLEEN,strict_loo_seat_class,no_synthetic_priority,Middle ring,True,True,LNP,LNP,-2.330664570331331
 BULLEEN,strict_loo_seat_class,simplified,Middle ring,True,True,LNP,LNP,-1.645566087047312
 GLEN WAVERLEY,own_matrix_reconstruction,reference,Middle ring,True,True,ALP,ALP,1.2066554215195424
+GLEN WAVERLEY,own_matrix_reconstruction,oth_params_rebuild,Middle ring,True,True,ALP,ALP,1.2066554215195424
 GLEN WAVERLEY,own_matrix_reconstruction,single_on_baseline,Middle ring,True,True,ALP,ALP,1.2066554215195424
 GLEN WAVERLEY,own_matrix_reconstruction,no_on_recipient_geography,Middle ring,True,True,ALP,ALP,1.2066554215195424
 GLEN WAVERLEY,own_matrix_reconstruction,no_non_on_recipient_geography,Middle ring,True,True,ALP,ALP,0.6261527220086327
@@ -45,6 +50,7 @@ GLEN WAVERLEY,own_matrix_reconstruction,no_constraints,Middle ring,True,True,ALP
 GLEN WAVERLEY,own_matrix_reconstruction,no_synthetic_priority,Middle ring,True,True,ALP,ALP,1.2066554215195424
 GLEN WAVERLEY,own_matrix_reconstruction,simplified,Middle ring,True,True,ALP,ALP,0.6461652171488086
 GLEN WAVERLEY,strict_loo_seat_class,reference,Middle ring,True,True,ALP,ALP,1.1252099752086742
+GLEN WAVERLEY,strict_loo_seat_class,oth_params_rebuild,Middle ring,True,True,ALP,ALP,1.1252099752086742
 GLEN WAVERLEY,strict_loo_seat_class,single_on_baseline,Middle ring,True,True,ALP,ALP,1.1252099752086742
 GLEN WAVERLEY,strict_loo_seat_class,no_on_recipient_geography,Middle ring,True,True,ALP,ALP,1.1252099752086742
 GLEN WAVERLEY,strict_loo_seat_class,no_non_on_recipient_geography,Middle ring,True,True,ALP,ALP,0.5493248811921925
@@ -54,6 +60,7 @@ GLEN WAVERLEY,strict_loo_seat_class,no_constraints,Middle ring,True,True,ALP,ALP
 GLEN WAVERLEY,strict_loo_seat_class,no_synthetic_priority,Middle ring,True,True,ALP,ALP,1.1252099752086742
 GLEN WAVERLEY,strict_loo_seat_class,simplified,Middle ring,True,True,ALP,ALP,0.562169386391298
 IVANHOE,own_matrix_reconstruction,reference,Middle ring,True,True,ALP,ALP,1.0175060076183629
+IVANHOE,own_matrix_reconstruction,oth_params_rebuild,Middle ring,True,True,ALP,ALP,0.9518812945014776
 IVANHOE,own_matrix_reconstruction,single_on_baseline,Middle ring,True,True,ALP,ALP,1.0175060076183629
 IVANHOE,own_matrix_reconstruction,no_on_recipient_geography,Middle ring,True,True,ALP,ALP,1.0175060076183629
 IVANHOE,own_matrix_reconstruction,no_non_on_recipient_geography,Middle ring,True,True,ALP,ALP,0.13762422395395824
@@ -63,6 +70,7 @@ IVANHOE,own_matrix_reconstruction,no_constraints,Middle ring,True,True,ALP,ALP,1
 IVANHOE,own_matrix_reconstruction,no_synthetic_priority,Middle ring,True,True,ALP,ALP,1.0175060076183629
 IVANHOE,own_matrix_reconstruction,simplified,Middle ring,True,True,ALP,ALP,0.13762422395395824
 IVANHOE,strict_loo_seat_class,reference,Middle ring,True,True,ALP,ALP,-0.22099564147864958
+IVANHOE,strict_loo_seat_class,oth_params_rebuild,Middle ring,True,True,ALP,ALP,-0.28130151252979685
 IVANHOE,strict_loo_seat_class,single_on_baseline,Middle ring,True,True,ALP,ALP,-0.22099564147864958
 IVANHOE,strict_loo_seat_class,no_on_recipient_geography,Middle ring,True,True,ALP,ALP,-0.22099564147864958
 IVANHOE,strict_loo_seat_class,no_non_on_recipient_geography,Middle ring,True,True,ALP,ALP,-1.1110924369386321
@@ -72,6 +80,7 @@ IVANHOE,strict_loo_seat_class,no_constraints,Middle ring,True,True,ALP,ALP,-0.22
 IVANHOE,strict_loo_seat_class,no_synthetic_priority,Middle ring,True,True,ALP,ALP,-0.22099564147864958
 IVANHOE,strict_loo_seat_class,simplified,Middle ring,True,True,ALP,ALP,-1.1110924369386321
 BUNDOORA,own_matrix_reconstruction,reference,Middle ring,True,True,ALP,ALP,1.7585250761453453
+BUNDOORA,own_matrix_reconstruction,oth_params_rebuild,Middle ring,True,True,ALP,ALP,1.6420709487587448
 BUNDOORA,own_matrix_reconstruction,single_on_baseline,Middle ring,True,True,ALP,ALP,1.7585250761453453
 BUNDOORA,own_matrix_reconstruction,no_on_recipient_geography,Middle ring,True,True,ALP,ALP,1.7585250761453453
 BUNDOORA,own_matrix_reconstruction,no_non_on_recipient_geography,Middle ring,True,True,ALP,ALP,0.8845420770897228
@@ -81,6 +90,7 @@ BUNDOORA,own_matrix_reconstruction,no_constraints,Middle ring,True,True,ALP,ALP,
 BUNDOORA,own_matrix_reconstruction,no_synthetic_priority,Middle ring,True,True,ALP,ALP,1.7585250761453453
 BUNDOORA,own_matrix_reconstruction,simplified,Middle ring,True,True,ALP,ALP,0.8845420770897228
 BUNDOORA,strict_loo_seat_class,reference,Middle ring,True,True,ALP,ALP,2.3490013019937694
+BUNDOORA,strict_loo_seat_class,oth_params_rebuild,Middle ring,True,True,ALP,ALP,2.228854592619145
 BUNDOORA,strict_loo_seat_class,single_on_baseline,Middle ring,True,True,ALP,ALP,2.3490013019937694
 BUNDOORA,strict_loo_seat_class,no_on_recipient_geography,Middle ring,True,True,ALP,ALP,2.3490013019937694
 BUNDOORA,strict_loo_seat_class,no_non_on_recipient_geography,Middle ring,True,True,ALP,ALP,1.472059959362193
@@ -90,6 +100,7 @@ BUNDOORA,strict_loo_seat_class,no_constraints,Middle ring,True,True,ALP,ALP,2.34
 BUNDOORA,strict_loo_seat_class,no_synthetic_priority,Middle ring,True,True,ALP,ALP,2.3490013019937694
 BUNDOORA,strict_loo_seat_class,simplified,Middle ring,True,True,ALP,ALP,1.472059959362193
 BAYSWATER,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,2.0562767444309515
+BAYSWATER,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,2.0562767444309515
 BAYSWATER,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,2.0562767444309515
 BAYSWATER,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,2.0562767444309515
 BAYSWATER,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.3278875056054185
@@ -99,6 +110,7 @@ BAYSWATER,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,ALP
 BAYSWATER,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,2.0562767444309515
 BAYSWATER,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,1.3278875056054185
 BAYSWATER,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,1.6968351364646694
+BAYSWATER,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,1.6968351364646694
 BAYSWATER,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,1.6968351364646694
 BAYSWATER,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.6968351364646694
 BAYSWATER,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.9366814692945646
@@ -108,6 +120,7 @@ BAYSWATER,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,1.6
 BAYSWATER,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,1.6968351364646694
 BAYSWATER,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,0.9366814692945646
 CROYDON,own_matrix_reconstruction,reference,Outer Metro,False,True,ALP,LNP,-1.6422722186168748
+CROYDON,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,False,True,ALP,LNP,-1.6422722186168748
 CROYDON,own_matrix_reconstruction,single_on_baseline,Outer Metro,False,True,ALP,LNP,-1.6422722186168748
 CROYDON,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,False,True,ALP,LNP,-1.6422722186168748
 CROYDON,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,LNP,LNP,-0.9578893169832292
@@ -117,6 +130,7 @@ CROYDON,own_matrix_reconstruction,no_constraints,Outer Metro,False,True,ALP,LNP,
 CROYDON,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,False,True,ALP,LNP,-1.6422722186168748
 CROYDON,own_matrix_reconstruction,simplified,Outer Metro,True,True,LNP,LNP,-0.9652818130692298
 CROYDON,strict_loo_seat_class,reference,Outer Metro,True,True,LNP,LNP,-1.145672711254131
+CROYDON,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,LNP,LNP,-1.145672711254131
 CROYDON,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,LNP,LNP,-1.145672711254131
 CROYDON,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,LNP,LNP,-1.145672711254131
 CROYDON,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,LNP,LNP,-0.40906534554150387
@@ -126,6 +140,7 @@ CROYDON,strict_loo_seat_class,no_constraints,Outer Metro,True,True,LNP,LNP,-1.14
 CROYDON,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,LNP,LNP,-1.145672711254131
 CROYDON,strict_loo_seat_class,simplified,Outer Metro,True,True,LNP,LNP,-0.40906534554150387
 RINGWOOD,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,1.269700407509733
+RINGWOOD,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,1.1856367991511574
 RINGWOOD,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,1.269700407509733
 RINGWOOD,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.269700407509733
 RINGWOOD,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.3166158484095183
@@ -135,6 +150,7 @@ RINGWOOD,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,ALP,
 RINGWOOD,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,1.269700407509733
 RINGWOOD,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,0.3166158484095183
 RINGWOOD,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,1.3903682340947965
+RINGWOOD,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,1.33338514516802
 RINGWOOD,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,1.3903682340947965
 RINGWOOD,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.3903682340947965
 RINGWOOD,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.4372836749945819
@@ -144,6 +160,7 @@ RINGWOOD,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,1.39
 RINGWOOD,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,1.3903682340947965
 RINGWOOD,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,0.4372836749945819
 WARRANDYTE,own_matrix_reconstruction,reference,Outer Metro,True,True,LNP,LNP,-1.6810614642808641
+WARRANDYTE,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,LNP,LNP,-1.5674933979218375
 WARRANDYTE,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,LNP,LNP,-1.6810614642808641
 WARRANDYTE,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,LNP,LNP,-1.6810614642808641
 WARRANDYTE,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,LNP,LNP,-0.9947023247499964
@@ -153,6 +170,7 @@ WARRANDYTE,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,LNP,LN
 WARRANDYTE,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,LNP,LNP,-1.6810614642808641
 WARRANDYTE,own_matrix_reconstruction,simplified,Outer Metro,True,True,LNP,LNP,-0.9947023247499964
 WARRANDYTE,strict_loo_seat_class,reference,Outer Metro,True,True,LNP,LNP,-1.9141331246301796
+WARRANDYTE,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,LNP,LNP,-1.8863634295339438
 WARRANDYTE,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,LNP,LNP,-1.9141331246301796
 WARRANDYTE,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,LNP,LNP,-1.9141331246301796
 WARRANDYTE,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,LNP,LNP,-1.2275649467149985
@@ -162,6 +180,7 @@ WARRANDYTE,strict_loo_seat_class,no_constraints,Outer Metro,True,True,LNP,LNP,-1
 WARRANDYTE,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,LNP,LNP,-1.9141331246301796
 WARRANDYTE,strict_loo_seat_class,simplified,Outer Metro,True,True,LNP,LNP,-1.2275649467149985
 ELTHAM,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,1.1020238435517027
+ELTHAM,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,1.0177723310800357
 ELTHAM,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,1.1020238435517027
 ELTHAM,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.1020238435517027
 ELTHAM,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.43056124425194797
@@ -171,6 +190,7 @@ ELTHAM,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,ALP,1.
 ELTHAM,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,1.1020238435517027
 ELTHAM,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,0.43056124425194797
 ELTHAM,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,0.7358234302984545
+ELTHAM,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,0.706040045427514
 ELTHAM,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,0.7358234302984545
 ELTHAM,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.7358234302984545
 ELTHAM,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.06303953864137402
@@ -180,6 +200,7 @@ ELTHAM,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,0.7358
 ELTHAM,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,0.7358234302984545
 ELTHAM,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,0.06303953864137402
 MILL PARK,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,3.819259711092471
+MILL PARK,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,3.557767536615708
 MILL PARK,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,3.819259711092471
 MILL PARK,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,3.819259711092471
 MILL PARK,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,3.0534622112779797
@@ -189,6 +210,7 @@ MILL PARK,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,ALP
 MILL PARK,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,3.819259711092471
 MILL PARK,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,3.0534622112779797
 MILL PARK,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,3.472311517350324
+MILL PARK,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,3.472311517350324
 MILL PARK,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,3.472311517350324
 MILL PARK,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,3.472311517350324
 MILL PARK,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,2.716251209192766
@@ -198,6 +220,7 @@ MILL PARK,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,3.4
 MILL PARK,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,3.472311517350324
 MILL PARK,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,2.716251209192766
 BRUNSWICK,own_matrix_reconstruction,reference,Inner Ring,True,True,GRN,GRN,-3.6464949093467425
+BRUNSWICK,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,True,True,GRN,GRN,-3.3777677525955396
 BRUNSWICK,own_matrix_reconstruction,single_on_baseline,Inner Ring,True,True,GRN,GRN,-3.6464949093467425
 BRUNSWICK,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-3.6464949093467425
 BRUNSWICK,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-3.4374482887711832
@@ -207,6 +230,7 @@ BRUNSWICK,own_matrix_reconstruction,no_constraints,Inner Ring,True,True,GRN,GRN,
 BRUNSWICK,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,True,True,GRN,GRN,-3.6464949093467425
 BRUNSWICK,own_matrix_reconstruction,simplified,Inner Ring,True,True,GRN,GRN,-3.4374482887711832
 BRUNSWICK,strict_loo_seat_class,reference,Inner Ring,True,True,GRN,GRN,-4.408636174288871
+BRUNSWICK,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,GRN,GRN,-4.408636174288871
 BRUNSWICK,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,GRN,GRN,-4.408636174288871
 BRUNSWICK,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-4.408636174288871
 BRUNSWICK,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-4.32726292301494
@@ -216,6 +240,7 @@ BRUNSWICK,strict_loo_seat_class,no_constraints,Inner Ring,True,True,GRN,GRN,-4.4
 BRUNSWICK,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,GRN,GRN,-4.408636174288871
 BRUNSWICK,strict_loo_seat_class,simplified,Inner Ring,True,True,GRN,GRN,-4.32726292301494
 NORTHCOTE,own_matrix_reconstruction,reference,Inner Ring,True,True,ALP,ALP,3.0937382092586785
+NORTHCOTE,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,True,True,ALP,ALP,2.918343643749144
 NORTHCOTE,own_matrix_reconstruction,single_on_baseline,Inner Ring,True,True,ALP,ALP,3.0937382092586785
 NORTHCOTE,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,True,True,ALP,ALP,3.0937382092586785
 NORTHCOTE,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,ALP,ALP,2.9932489671813722
@@ -225,6 +250,7 @@ NORTHCOTE,own_matrix_reconstruction,no_constraints,Inner Ring,True,True,ALP,ALP,
 NORTHCOTE,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,True,True,ALP,ALP,3.0937382092586785
 NORTHCOTE,own_matrix_reconstruction,simplified,Inner Ring,True,True,ALP,ALP,2.9932489671813722
 NORTHCOTE,strict_loo_seat_class,reference,Inner Ring,True,True,ALP,ALP,3.2018642289837973
+NORTHCOTE,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,ALP,ALP,3.2018642289837973
 NORTHCOTE,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,ALP,ALP,3.2018642289837973
 NORTHCOTE,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,ALP,ALP,3.2018642289837973
 NORTHCOTE,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,ALP,ALP,3.1015794193667623
@@ -234,6 +260,7 @@ NORTHCOTE,strict_loo_seat_class,no_constraints,Inner Ring,True,True,ALP,ALP,3.20
 NORTHCOTE,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,ALP,ALP,3.2018642289837973
 NORTHCOTE,strict_loo_seat_class,simplified,Inner Ring,True,True,ALP,ALP,3.1015794193667623
 MELBOURNE,own_matrix_reconstruction,reference,Inner Ring,True,True,GRN,GRN,-3.453897119644944
+MELBOURNE,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,True,True,GRN,GRN,-3.2435640088829487
 MELBOURNE,own_matrix_reconstruction,single_on_baseline,Inner Ring,True,True,GRN,GRN,-3.453897119644944
 MELBOURNE,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-3.453897119644944
 MELBOURNE,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-3.155298237736226
@@ -243,6 +270,7 @@ MELBOURNE,own_matrix_reconstruction,no_constraints,Inner Ring,True,True,GRN,GRN,
 MELBOURNE,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,True,True,GRN,GRN,-3.453897119644944
 MELBOURNE,own_matrix_reconstruction,simplified,Inner Ring,True,True,GRN,GRN,-3.155298237736226
 MELBOURNE,strict_loo_seat_class,reference,Inner Ring,True,True,GRN,GRN,-4.395724120986899
+MELBOURNE,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,GRN,GRN,-4.299409225012473
 MELBOURNE,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,GRN,GRN,-4.395724120986899
 MELBOURNE,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-4.395724120986899
 MELBOURNE,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-4.239806953214453
@@ -252,6 +280,7 @@ MELBOURNE,strict_loo_seat_class,no_constraints,Inner Ring,True,True,GRN,GRN,-4.3
 MELBOURNE,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,GRN,GRN,-4.395724120986899
 MELBOURNE,strict_loo_seat_class,simplified,Inner Ring,True,True,GRN,GRN,-4.239806953214453
 RICHMOND,own_matrix_reconstruction,reference,Inner Ring,True,True,GRN,GRN,-3.1864738893973343
+RICHMOND,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,True,True,GRN,GRN,-3.0166426064088148
 RICHMOND,own_matrix_reconstruction,single_on_baseline,Inner Ring,True,True,GRN,GRN,-3.1864738893973343
 RICHMOND,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-3.1864738893973343
 RICHMOND,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-2.9121071023560208
@@ -261,6 +290,7 @@ RICHMOND,own_matrix_reconstruction,no_constraints,Inner Ring,True,True,GRN,GRN,-
 RICHMOND,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,True,True,GRN,GRN,-3.1864738893973343
 RICHMOND,own_matrix_reconstruction,simplified,Inner Ring,True,True,GRN,GRN,-2.9121071023560208
 RICHMOND,strict_loo_seat_class,reference,Inner Ring,True,True,GRN,GRN,-3.8767056525361165
+RICHMOND,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,GRN,GRN,-3.7829779133661923
 RICHMOND,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,GRN,GRN,-3.8767056525361165
 RICHMOND,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-3.8767056525361165
 RICHMOND,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-3.7182714736030964
@@ -270,6 +300,7 @@ RICHMOND,strict_loo_seat_class,no_constraints,Inner Ring,True,True,GRN,GRN,-3.87
 RICHMOND,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,GRN,GRN,-3.8767056525361165
 RICHMOND,strict_loo_seat_class,simplified,Inner Ring,True,True,GRN,GRN,-3.7182714736030964
 ESSENDON,own_matrix_reconstruction,reference,Middle Ring,True,True,ALP,ALP,-0.4857587340755365
+ESSENDON,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,-0.5292216157718688
 ESSENDON,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,ALP,ALP,-0.4857587340755365
 ESSENDON,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,-0.4857587340755365
 ESSENDON,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,-1.5524481293938797
@@ -279,6 +310,7 @@ ESSENDON,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,ALP,ALP,
 ESSENDON,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,-0.4857587340755365
 ESSENDON,own_matrix_reconstruction,simplified,Middle Ring,True,True,ALP,ALP,-1.5524481293938797
 ESSENDON,strict_loo_seat_class,reference,Middle Ring,True,True,ALP,ALP,-0.7424704609978905
+ESSENDON,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,-0.8273305213271076
 ESSENDON,strict_loo_seat_class,single_on_baseline,Middle Ring,True,True,ALP,ALP,-0.7424704609978905
 ESSENDON,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,-0.7424704609978905
 ESSENDON,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,-1.7965048506881853
@@ -288,6 +320,7 @@ ESSENDON,strict_loo_seat_class,no_constraints,Middle Ring,True,True,ALP,ALP,-0.7
 ESSENDON,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,-0.7424704609978905
 ESSENDON,strict_loo_seat_class,simplified,Middle Ring,True,True,ALP,ALP,-1.7965048506881853
 PASCOE VALE,own_matrix_reconstruction,reference,Middle Ring,True,True,ALP,ALP,4.278461258831623
+PASCOE VALE,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,4.112593971035395
 PASCOE VALE,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,ALP,ALP,4.278461258831623
 PASCOE VALE,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,4.278461258831623
 PASCOE VALE,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,3.8657206885311712
@@ -297,6 +330,7 @@ PASCOE VALE,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,ALP,A
 PASCOE VALE,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,4.278461258831623
 PASCOE VALE,own_matrix_reconstruction,simplified,Middle Ring,True,True,ALP,ALP,3.8657206885311712
 PASCOE VALE,strict_loo_seat_class,reference,Middle Ring,True,True,ALP,ALP,6.3267331894038765
+PASCOE VALE,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,6.285370048629668
 PASCOE VALE,strict_loo_seat_class,single_on_baseline,Middle Ring,True,True,ALP,ALP,6.3267331894038765
 PASCOE VALE,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,6.3267331894038765
 PASCOE VALE,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,5.990656684883
@@ -306,6 +340,7 @@ PASCOE VALE,strict_loo_seat_class,no_constraints,Middle Ring,True,True,ALP,ALP,6
 PASCOE VALE,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,6.3267331894038765
 PASCOE VALE,strict_loo_seat_class,simplified,Middle Ring,True,True,ALP,ALP,5.990656684883
 PRESTON,own_matrix_reconstruction,reference,Middle Ring,True,True,ALP,ALP,6.35441921619373
+PRESTON,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,6.22287787904906
 PRESTON,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,ALP,ALP,6.35441921619373
 PRESTON,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,6.35441921619373
 PRESTON,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,5.780653523558044
@@ -315,6 +350,7 @@ PRESTON,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,ALP,ALP,6
 PRESTON,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,6.35441921619373
 PRESTON,own_matrix_reconstruction,simplified,Middle Ring,True,True,ALP,ALP,5.780653523558044
 PRESTON,strict_loo_seat_class,reference,Middle Ring,True,False,ALP,ALP,
+PRESTON,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,False,ALP,ALP,
 PRESTON,strict_loo_seat_class,single_on_baseline,Middle Ring,True,False,ALP,ALP,
 PRESTON,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,False,ALP,ALP,
 PRESTON,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,False,ALP,ALP,
@@ -324,6 +360,7 @@ PRESTON,strict_loo_seat_class,no_constraints,Middle Ring,True,False,ALP,ALP,
 PRESTON,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,False,ALP,ALP,
 PRESTON,strict_loo_seat_class,simplified,Middle Ring,True,False,ALP,ALP,
 BROADMEADOWS,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,-0.0998704535108419
+BROADMEADOWS,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,-0.0998704535108419
 BROADMEADOWS,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,-0.0998704535108419
 BROADMEADOWS,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,-0.0998704535108419
 BROADMEADOWS,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,-1.1100211649859637
@@ -333,6 +370,7 @@ BROADMEADOWS,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,
 BROADMEADOWS,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,-0.0998704535108419
 BROADMEADOWS,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,-1.1088018152040302
 BROADMEADOWS,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,-0.6119952799281347
+BROADMEADOWS,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,-0.6119952799281347
 BROADMEADOWS,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,-0.6119952799281347
 BROADMEADOWS,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,-0.6119952799281347
 BROADMEADOWS,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,-1.6488333178263703
@@ -342,6 +380,7 @@ BROADMEADOWS,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,
 BROADMEADOWS,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,-0.6119952799281347
 BROADMEADOWS,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,-1.6488333178263703
 GREENVALE,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,4.0450795320258965
+GREENVALE,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,4.111728950908233
 GREENVALE,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,4.0450795320258965
 GREENVALE,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,4.0450795320258965
 GREENVALE,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,2.9340412760118784
@@ -351,6 +390,7 @@ GREENVALE,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,ALP
 GREENVALE,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,4.0450795320258965
 GREENVALE,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,2.9367787072785534
 GREENVALE,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,3.7790315553070886
+GREENVALE,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,3.7790315553070886
 GREENVALE,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,3.7790315553070886
 GREENVALE,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,3.7790315553070886
 GREENVALE,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,2.6877034019928137
@@ -360,6 +400,7 @@ GREENVALE,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,3.7
 GREENVALE,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,3.7790315553070886
 GREENVALE,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,2.6877034019928137
 THOMASTOWN,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,1.416463457251027
+THOMASTOWN,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,1.4643364467778697
 THOMASTOWN,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,1.416463457251027
 THOMASTOWN,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.416463457251027
 THOMASTOWN,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.6163661463056025
@@ -369,6 +410,7 @@ THOMASTOWN,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,AL
 THOMASTOWN,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,1.416463457251027
 THOMASTOWN,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,0.6218776603674869
 THOMASTOWN,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,0.8396019823432299
+THOMASTOWN,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,0.8396019823432299
 THOMASTOWN,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,0.8396019823432299
 THOMASTOWN,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.8396019823432299
 THOMASTOWN,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.08789219338053433
@@ -378,6 +420,7 @@ THOMASTOWN,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,0.
 THOMASTOWN,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,0.8396019823432299
 THOMASTOWN,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,0.08789219338053433
 KALKALLO,own_matrix_reconstruction,reference,Peri-urban,True,True,ALP,ALP,0.3828799692308871
+KALKALLO,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,0.3828799692308871
 KALKALLO,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,ALP,ALP,0.3828799692308871
 KALKALLO,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.3828799692308871
 KALKALLO,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.9537784803891669
@@ -387,6 +430,7 @@ KALKALLO,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,ALP,ALP,0
 KALKALLO,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,0.3828799692308871
 KALKALLO,own_matrix_reconstruction,simplified,Peri-urban,True,True,ALP,ALP,0.9537784803891669
 KALKALLO,strict_loo_seat_class,reference,Peri-urban,True,True,ALP,ALP,0.04256451467530287
+KALKALLO,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,0.04256451467530287
 KALKALLO,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,ALP,ALP,0.04256451467530287
 KALKALLO,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.04256451467530287
 KALKALLO,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.5899432542083249
@@ -396,6 +440,7 @@ KALKALLO,strict_loo_seat_class,no_constraints,Peri-urban,True,True,ALP,ALP,0.042
 KALKALLO,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,0.04256451467530287
 KALKALLO,strict_loo_seat_class,simplified,Peri-urban,True,True,ALP,ALP,0.5899432542083249
 CLARINDA,own_matrix_reconstruction,reference,Middle Ring,True,True,ALP,ALP,1.966366937361086
+CLARINDA,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,1.966366937361086
 CLARINDA,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,ALP,ALP,1.966366937361086
 CLARINDA,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,1.966366937361086
 CLARINDA,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,1.1089191526918674
@@ -405,6 +450,7 @@ CLARINDA,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,ALP,ALP,
 CLARINDA,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,1.966366937361086
 CLARINDA,own_matrix_reconstruction,simplified,Middle Ring,True,True,ALP,ALP,1.1260365291064
 CLARINDA,strict_loo_seat_class,reference,Middle Ring,True,True,ALP,ALP,1.8959690053560907
+CLARINDA,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,1.8959690053560907
 CLARINDA,strict_loo_seat_class,single_on_baseline,Middle Ring,True,True,ALP,ALP,1.8959690053560907
 CLARINDA,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,1.8959690053560907
 CLARINDA,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,0.9925166515675432
@@ -414,6 +460,7 @@ CLARINDA,strict_loo_seat_class,no_constraints,Middle Ring,True,True,ALP,ALP,1.92
 CLARINDA,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,1.8959690053560907
 CLARINDA,strict_loo_seat_class,simplified,Middle Ring,True,True,ALP,ALP,1.0042981830704178
 MORDIALLOC,own_matrix_reconstruction,reference,Middle Ring,True,True,ALP,ALP,1.51312096591103
+MORDIALLOC,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,1.5015581275850343
 MORDIALLOC,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,ALP,ALP,1.51312096591103
 MORDIALLOC,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,1.51312096591103
 MORDIALLOC,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,0.5780379163628391
@@ -423,6 +470,7 @@ MORDIALLOC,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,ALP,AL
 MORDIALLOC,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,1.51312096591103
 MORDIALLOC,own_matrix_reconstruction,simplified,Middle Ring,True,True,ALP,ALP,0.5780379163628391
 MORDIALLOC,strict_loo_seat_class,reference,Middle Ring,True,True,ALP,ALP,2.2056705857724013
+MORDIALLOC,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,2.151421829759992
 MORDIALLOC,strict_loo_seat_class,single_on_baseline,Middle Ring,True,True,ALP,ALP,2.2056705857724013
 MORDIALLOC,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,2.2056705857724013
 MORDIALLOC,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,1.267225248162973
@@ -432,6 +480,7 @@ MORDIALLOC,strict_loo_seat_class,no_constraints,Middle Ring,True,True,ALP,ALP,2.
 MORDIALLOC,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,2.2056705857724013
 MORDIALLOC,strict_loo_seat_class,simplified,Middle Ring,True,True,ALP,ALP,1.267225248162973
 MULGRAVE,own_matrix_reconstruction,reference,Middle Ring,True,True,ALP,ALP,8.15369753832671
+MULGRAVE,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,8.129563642499548
 MULGRAVE,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,ALP,ALP,8.15369753832671
 MULGRAVE,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,8.15369753832671
 MULGRAVE,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,8.009156662554851
@@ -441,6 +490,7 @@ MULGRAVE,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,ALP,ALP,
 MULGRAVE,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,8.15369753832671
 MULGRAVE,own_matrix_reconstruction,simplified,Middle Ring,True,True,ALP,ALP,8.009156662554851
 MULGRAVE,strict_loo_seat_class,reference,Middle Ring,True,True,ALP,ALP,8.971572259415462
+MULGRAVE,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,8.971572259415462
 MULGRAVE,strict_loo_seat_class,single_on_baseline,Middle Ring,True,True,ALP,ALP,8.971572259415462
 MULGRAVE,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,8.971572259415462
 MULGRAVE,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,8.871841985332619
@@ -450,6 +500,7 @@ MULGRAVE,strict_loo_seat_class,no_constraints,Middle Ring,True,True,ALP,ALP,8.97
 MULGRAVE,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,8.971572259415462
 MULGRAVE,strict_loo_seat_class,simplified,Middle Ring,True,True,ALP,ALP,8.872884938981896
 ROWVILLE,own_matrix_reconstruction,reference,Outer Metro,True,True,LNP,LNP,-2.7796090111621874
+ROWVILLE,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,LNP,LNP,-2.7796090111621874
 ROWVILLE,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,LNP,LNP,-2.7796090111621874
 ROWVILLE,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,LNP,LNP,-2.7796090111621874
 ROWVILLE,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,LNP,LNP,-1.8549998778052301
@@ -459,6 +510,7 @@ ROWVILLE,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,LNP,LNP,
 ROWVILLE,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,LNP,LNP,-2.7796090111621874
 ROWVILLE,own_matrix_reconstruction,simplified,Outer Metro,True,True,LNP,LNP,-1.8549998778052301
 ROWVILLE,strict_loo_seat_class,reference,Outer Metro,True,True,LNP,LNP,-3.257123337225565
+ROWVILLE,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,LNP,LNP,-3.2570702519932104
 ROWVILLE,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,LNP,LNP,-3.257123337225565
 ROWVILLE,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,LNP,LNP,-3.257123337225565
 ROWVILLE,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,LNP,LNP,-2.3621429492912127
@@ -468,6 +520,7 @@ ROWVILLE,strict_loo_seat_class,no_constraints,Outer Metro,True,True,LNP,LNP,-3.2
 ROWVILLE,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,LNP,LNP,-3.257123337225565
 ROWVILLE,strict_loo_seat_class,simplified,Outer Metro,True,True,LNP,LNP,-2.3629668486362054
 CRANBOURNE,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,3.2087974908828087
+CRANBOURNE,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,3.0776773611120967
 CRANBOURNE,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,3.2087974908828087
 CRANBOURNE,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,3.2087974908828087
 CRANBOURNE,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,2.3679058542711795
@@ -477,6 +530,7 @@ CRANBOURNE,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,AL
 CRANBOURNE,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,3.2087974908828087
 CRANBOURNE,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,2.3681026659255977
 CRANBOURNE,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,2.9439071279860674
+CRANBOURNE,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,2.9439071279860674
 CRANBOURNE,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,2.9439071279860674
 CRANBOURNE,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,2.9439071279860674
 CRANBOURNE,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,2.1216008028835276
@@ -486,6 +540,7 @@ CRANBOURNE,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,2.
 CRANBOURNE,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,2.9439071279860674
 CRANBOURNE,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,2.1216008028835276
 DANDENONG,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,2.107795952315117
+DANDENONG,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,2.0950027615797673
 DANDENONG,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,2.107795952315117
 DANDENONG,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,2.107795952315117
 DANDENONG,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.3508102250904486
@@ -495,6 +550,7 @@ DANDENONG,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,ALP
 DANDENONG,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,2.107795952315117
 DANDENONG,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,1.3508102250904486
 DANDENONG,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,1.744218711669221
+DANDENONG,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,1.744218711669221
 DANDENONG,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,1.744218711669221
 DANDENONG,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.744218711669221
 DANDENONG,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.002550906590749
@@ -504,6 +560,7 @@ DANDENONG,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,1.7
 DANDENONG,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,1.744218711669221
 DANDENONG,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,1.002550906590749
 NARRE WARREN NORTH,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,3.9755319848380433
+NARRE WARREN NORTH,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,3.785590677731454
 NARRE WARREN NORTH,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,3.9755319848380433
 NARRE WARREN NORTH,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,3.9755319848380433
 NARRE WARREN NORTH,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,3.118942826949811
@@ -513,6 +570,7 @@ NARRE WARREN NORTH,own_matrix_reconstruction,no_constraints,Outer Metro,True,Tru
 NARRE WARREN NORTH,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,3.9755319848380433
 NARRE WARREN NORTH,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,3.118942826949811
 NARRE WARREN NORTH,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,3.9256360676106827
+NARRE WARREN NORTH,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,3.9256360676106827
 NARRE WARREN NORTH,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,3.9256360676106827
 NARRE WARREN NORTH,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,3.9256360676106827
 NARRE WARREN NORTH,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,3.081019840806787
@@ -522,6 +580,7 @@ NARRE WARREN NORTH,strict_loo_seat_class,no_constraints,Outer Metro,True,True,AL
 NARRE WARREN NORTH,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,3.9256360676106827
 NARRE WARREN NORTH,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,3.081019840806787
 NARRE WARREN SOUTH,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,4.516912051912858
+NARRE WARREN SOUTH,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,4.283274207469456
 NARRE WARREN SOUTH,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,4.516912051912858
 NARRE WARREN SOUTH,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,4.516912051912858
 NARRE WARREN SOUTH,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,3.7582743228246396
@@ -531,6 +590,7 @@ NARRE WARREN SOUTH,own_matrix_reconstruction,no_constraints,Outer Metro,True,Tru
 NARRE WARREN SOUTH,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,4.516912051912858
 NARRE WARREN SOUTH,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,3.7582743228246396
 NARRE WARREN SOUTH,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,4.20758670201532
+NARRE WARREN SOUTH,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,4.20758670201532
 NARRE WARREN SOUTH,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,4.20758670201532
 NARRE WARREN SOUTH,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,4.20758670201532
 NARRE WARREN SOUTH,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,3.467495130944531
@@ -540,6 +600,7 @@ NARRE WARREN SOUTH,strict_loo_seat_class,no_constraints,Outer Metro,True,True,AL
 NARRE WARREN SOUTH,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,4.20758670201532
 NARRE WARREN SOUTH,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,3.467495130944531
 FRANKSTON,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,3.1260061811105966
+FRANKSTON,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,2.9777525069412003
 FRANKSTON,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,3.1260061811105966
 FRANKSTON,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,3.1260061811105966
 FRANKSTON,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,2.2070457670208765
@@ -549,6 +610,7 @@ FRANKSTON,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,ALP
 FRANKSTON,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,3.1260061811105966
 FRANKSTON,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,2.225536585618304
 FRANKSTON,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,2.3264257571954827
+FRANKSTON,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,2.3264257571954827
 FRANKSTON,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,2.3264257571954827
 FRANKSTON,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,2.3264257571954827
 FRANKSTON,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.363805860788203
@@ -558,6 +620,7 @@ FRANKSTON,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,2.3
 FRANKSTON,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,2.3264257571954827
 FRANKSTON,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,1.363805860788203
 BERWICK,own_matrix_reconstruction,reference,Peri-urban,True,True,LNP,LNP,-1.5425153452490514
+BERWICK,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,LNP,LNP,-1.5425153452490514
 BERWICK,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,LNP,LNP,-1.5425153452490514
 BERWICK,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,LNP,LNP,-1.5425153452490514
 BERWICK,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,LNP,LNP,-2.0546938222543387
@@ -567,6 +630,7 @@ BERWICK,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,LNP,LNP,-1
 BERWICK,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,LNP,LNP,-1.5425153452490514
 BERWICK,own_matrix_reconstruction,simplified,Peri-urban,True,True,LNP,LNP,-2.0546938222543387
 BERWICK,strict_loo_seat_class,reference,Peri-urban,True,True,LNP,LNP,-2.7339551983440735
+BERWICK,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,LNP,LNP,-2.7339551983440735
 BERWICK,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,LNP,LNP,-2.7339551983440735
 BERWICK,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,LNP,LNP,-2.7339551983440735
 BERWICK,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,LNP,LNP,-3.246133675349361
@@ -576,6 +640,7 @@ BERWICK,strict_loo_seat_class,no_constraints,Peri-urban,True,True,LNP,LNP,-2.733
 BERWICK,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,LNP,LNP,-2.7339551983440735
 BERWICK,strict_loo_seat_class,simplified,Peri-urban,True,True,LNP,LNP,-3.246133675349361
 CARRUM,own_matrix_reconstruction,reference,Peri-urban,True,True,ALP,ALP,1.9014721316509497
+CARRUM,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,1.9014721316509497
 CARRUM,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,ALP,ALP,1.9014721316509497
 CARRUM,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,1.9014721316509497
 CARRUM,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,2.3948771260288493
@@ -585,6 +650,7 @@ CARRUM,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,ALP,ALP,1.9
 CARRUM,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,1.9014721316509497
 CARRUM,own_matrix_reconstruction,simplified,Peri-urban,True,True,ALP,ALP,2.3948771260288493
 CARRUM,strict_loo_seat_class,reference,Peri-urban,True,True,ALP,ALP,1.8202008594075947
+CARRUM,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,1.8202008594075947
 CARRUM,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,ALP,ALP,1.8202008594075947
 CARRUM,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,1.8202008594075947
 CARRUM,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,2.3039976606963553
@@ -594,6 +660,7 @@ CARRUM,strict_loo_seat_class,no_constraints,Peri-urban,True,True,ALP,ALP,1.82020
 CARRUM,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,1.8202008594075947
 CARRUM,strict_loo_seat_class,simplified,Peri-urban,True,True,ALP,ALP,2.3039976606963553
 ALBERT PARK,own_matrix_reconstruction,reference,Inner Ring,True,True,ALP,ALP,2.4979442461014023
+ALBERT PARK,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,True,True,ALP,ALP,2.4173423035067754
 ALBERT PARK,own_matrix_reconstruction,single_on_baseline,Inner Ring,True,True,ALP,ALP,2.4979442461014023
 ALBERT PARK,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,True,True,ALP,ALP,2.4979442461014023
 ALBERT PARK,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,ALP,ALP,-0.36349055933887486
@@ -603,6 +670,7 @@ ALBERT PARK,own_matrix_reconstruction,no_constraints,Inner Ring,True,True,ALP,AL
 ALBERT PARK,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,True,True,ALP,ALP,2.4979442461014023
 ALBERT PARK,own_matrix_reconstruction,simplified,Inner Ring,True,True,ALP,ALP,-0.36349055933887486
 ALBERT PARK,strict_loo_seat_class,reference,Inner Ring,True,True,ALP,ALP,2.8071591223938985
+ALBERT PARK,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,ALP,ALP,2.778893160969653
 ALBERT PARK,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,ALP,ALP,2.8071591223938985
 ALBERT PARK,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,ALP,ALP,2.8071591223938985
 ALBERT PARK,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,ALP,ALP,-0.06895373499647972
@@ -612,6 +680,7 @@ ALBERT PARK,strict_loo_seat_class,no_constraints,Inner Ring,True,True,ALP,ALP,2.
 ALBERT PARK,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,ALP,ALP,2.8071591223938985
 ALBERT PARK,strict_loo_seat_class,simplified,Inner Ring,True,True,ALP,ALP,-0.06895373499647972
 BRIGHTON,own_matrix_reconstruction,reference,Inner Ring,True,True,LNP,LNP,-1.6345728350004918
+BRIGHTON,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,True,True,LNP,LNP,-1.5963662141753487
 BRIGHTON,own_matrix_reconstruction,single_on_baseline,Inner Ring,True,True,LNP,LNP,-1.6345728350004918
 BRIGHTON,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,True,True,LNP,LNP,-1.6345728350004918
 BRIGHTON,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,LNP,LNP,1.1599873898731072
@@ -621,6 +690,7 @@ BRIGHTON,own_matrix_reconstruction,no_constraints,Inner Ring,True,True,LNP,LNP,-
 BRIGHTON,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,True,True,LNP,LNP,-1.6345728350004918
 BRIGHTON,own_matrix_reconstruction,simplified,Inner Ring,True,True,LNP,LNP,1.1599873898731072
 BRIGHTON,strict_loo_seat_class,reference,Inner Ring,True,True,LNP,LNP,-2.4575274263533453
+BRIGHTON,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,LNP,LNP,-2.4135762140261696
 BRIGHTON,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,LNP,LNP,-2.4575274263533453
 BRIGHTON,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,LNP,LNP,-2.4575274263533453
 BRIGHTON,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,LNP,LNP,0.2127556195694047
@@ -630,6 +700,7 @@ BRIGHTON,strict_loo_seat_class,no_constraints,Inner Ring,True,True,LNP,LNP,-2.49
 BRIGHTON,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,LNP,LNP,-2.4575274263533453
 BRIGHTON,strict_loo_seat_class,simplified,Inner Ring,True,True,LNP,LNP,0.2127556195694047
 CAULFIELD,own_matrix_reconstruction,reference,Inner Ring,True,True,LNP,LNP,-1.6376185294799228
+CAULFIELD,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,True,True,LNP,LNP,-1.54177119297928
 CAULFIELD,own_matrix_reconstruction,single_on_baseline,Inner Ring,True,True,LNP,LNP,-1.6376185294799228
 CAULFIELD,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,True,True,LNP,LNP,-1.6376185294799228
 CAULFIELD,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,LNP,LNP,0.8472799595088176
@@ -639,6 +710,7 @@ CAULFIELD,own_matrix_reconstruction,no_constraints,Inner Ring,True,True,LNP,LNP,
 CAULFIELD,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,True,True,LNP,LNP,-1.6376185294799228
 CAULFIELD,own_matrix_reconstruction,simplified,Inner Ring,True,True,LNP,LNP,0.8472799595088176
 CAULFIELD,strict_loo_seat_class,reference,Inner Ring,True,True,LNP,LNP,-1.9495103452738305
+CAULFIELD,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,LNP,LNP,-1.9196451383970414
 CAULFIELD,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,LNP,LNP,-1.9495103452738305
 CAULFIELD,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,LNP,LNP,-1.9495103452738305
 CAULFIELD,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,LNP,LNP,0.45801004538452705
@@ -648,6 +720,7 @@ CAULFIELD,strict_loo_seat_class,no_constraints,Inner Ring,True,True,LNP,LNP,-1.9
 CAULFIELD,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,LNP,LNP,-1.9495103452738305
 CAULFIELD,strict_loo_seat_class,simplified,Inner Ring,True,True,LNP,LNP,0.45801004538452705
 PRAHRAN,own_matrix_reconstruction,reference,Inner Ring,True,True,GRN,GRN,1.9355529652021475
+PRAHRAN,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,True,True,GRN,GRN,1.9222704193897489
 PRAHRAN,own_matrix_reconstruction,single_on_baseline,Inner Ring,True,True,GRN,GRN,1.9355529652021475
 PRAHRAN,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,True,True,GRN,GRN,1.9355529652021475
 PRAHRAN,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-0.7202196901481273
@@ -657,6 +730,7 @@ PRAHRAN,own_matrix_reconstruction,no_constraints,Inner Ring,True,True,GRN,GRN,1.
 PRAHRAN,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,True,True,GRN,GRN,1.9355529652021475
 PRAHRAN,own_matrix_reconstruction,simplified,Inner Ring,True,True,GRN,GRN,-0.7202196901481273
 PRAHRAN,strict_loo_seat_class,reference,Inner Ring,True,True,GRN,GRN,0.8082129317842357
+PRAHRAN,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,GRN,GRN,0.8187571790464809
 PRAHRAN,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,GRN,GRN,0.8082129317842357
 PRAHRAN,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,GRN,GRN,0.8082129317842357
 PRAHRAN,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,GRN,GRN,-1.867272553209276
@@ -666,6 +740,7 @@ PRAHRAN,strict_loo_seat_class,no_constraints,Inner Ring,True,True,GRN,GRN,0.8082
 PRAHRAN,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,GRN,GRN,0.8082129317842357
 PRAHRAN,strict_loo_seat_class,simplified,Inner Ring,True,True,GRN,GRN,-1.867272553209276
 HAWTHORN,own_matrix_reconstruction,reference,Inner Ring,False,True,ALP,LNP,-2.3886818725709857
+HAWTHORN,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,False,True,ALP,LNP,-2.325081987889294
 HAWTHORN,own_matrix_reconstruction,single_on_baseline,Inner Ring,False,True,ALP,LNP,-2.3886818725709857
 HAWTHORN,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,False,True,ALP,LNP,-2.3886818725709857
 HAWTHORN,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,LNP,LNP,0.7939741878912776
@@ -675,6 +750,7 @@ HAWTHORN,own_matrix_reconstruction,no_constraints,Inner Ring,False,True,ALP,LNP,
 HAWTHORN,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,False,True,ALP,LNP,-2.3886818725709857
 HAWTHORN,own_matrix_reconstruction,simplified,Inner Ring,True,True,LNP,LNP,0.7829294446561774
 HAWTHORN,strict_loo_seat_class,reference,Inner Ring,True,True,LNP,LNP,1.6149368069776626
+HAWTHORN,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,LNP,LNP,1.634429703103235
 HAWTHORN,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,LNP,LNP,1.6149368069776626
 HAWTHORN,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,LNP,LNP,1.6149368069776626
 HAWTHORN,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,LNP,LNP,4.580106282771956
@@ -684,6 +760,7 @@ HAWTHORN,strict_loo_seat_class,no_constraints,Inner Ring,True,True,LNP,LNP,1.605
 HAWTHORN,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,LNP,LNP,1.6149368069776626
 HAWTHORN,strict_loo_seat_class,simplified,Inner Ring,True,True,LNP,LNP,4.580106282771956
 KEW,own_matrix_reconstruction,reference,Inner Ring,True,True,LNP,LNP,-2.091330563376481
+KEW,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,True,True,LNP,LNP,-2.027751961064972
 KEW,own_matrix_reconstruction,single_on_baseline,Inner Ring,True,True,LNP,LNP,-2.091330563376481
 KEW,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,True,True,LNP,LNP,-2.091330563376481
 KEW,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,LNP,LNP,0.7707335430416795
@@ -693,6 +770,7 @@ KEW,own_matrix_reconstruction,no_constraints,Inner Ring,True,True,LNP,LNP,-2.110
 KEW,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,True,True,LNP,LNP,-2.091330563376481
 KEW,own_matrix_reconstruction,simplified,Inner Ring,True,True,LNP,LNP,0.7633250111231948
 KEW,strict_loo_seat_class,reference,Inner Ring,True,True,LNP,LNP,1.308079689681152
+KEW,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,LNP,LNP,1.3227333736752667
 KEW,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,LNP,LNP,1.308079689681152
 KEW,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,LNP,LNP,1.308079689681152
 KEW,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,LNP,LNP,4.017059962217806
@@ -702,6 +780,7 @@ KEW,strict_loo_seat_class,no_constraints,Inner Ring,True,True,LNP,LNP,1.30317950
 KEW,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,LNP,LNP,1.308079689681152
 KEW,strict_loo_seat_class,simplified,Inner Ring,True,True,LNP,LNP,4.017059962217806
 MALVERN,own_matrix_reconstruction,reference,Inner Ring,True,True,LNP,LNP,-1.7913592273370305
+MALVERN,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,True,True,LNP,LNP,-1.7702012180583315
 MALVERN,own_matrix_reconstruction,single_on_baseline,Inner Ring,True,True,LNP,LNP,-1.7913592273370305
 MALVERN,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,True,True,LNP,LNP,-1.7913592273370305
 MALVERN,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,LNP,LNP,-0.037772933935931174
@@ -711,6 +790,7 @@ MALVERN,own_matrix_reconstruction,no_constraints,Inner Ring,True,True,LNP,LNP,-1
 MALVERN,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,True,True,LNP,LNP,-1.7913592273370305
 MALVERN,own_matrix_reconstruction,simplified,Inner Ring,True,True,LNP,LNP,-0.037772933935931174
 MALVERN,strict_loo_seat_class,reference,Inner Ring,True,True,LNP,LNP,-2.399802135656426
+MALVERN,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,LNP,LNP,-2.381478372846646
 MALVERN,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,LNP,LNP,-2.399802135656426
 MALVERN,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,LNP,LNP,-2.399802135656426
 MALVERN,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,LNP,LNP,-0.6764095365503486
@@ -720,6 +800,7 @@ MALVERN,strict_loo_seat_class,no_constraints,Inner Ring,True,True,LNP,LNP,-2.440
 MALVERN,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,LNP,LNP,-2.399802135656426
 MALVERN,strict_loo_seat_class,simplified,Inner Ring,True,True,LNP,LNP,-0.6764095365503486
 BENTLEIGH,own_matrix_reconstruction,reference,Middle Ring,True,True,ALP,ALP,0.8966562347596518
+BENTLEIGH,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,0.8391043119071906
 BENTLEIGH,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,ALP,ALP,0.8966562347596518
 BENTLEIGH,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,0.8966562347596518
 BENTLEIGH,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,0.2665198210665798
@@ -729,6 +810,7 @@ BENTLEIGH,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,ALP,ALP
 BENTLEIGH,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,0.8966562347596518
 BENTLEIGH,own_matrix_reconstruction,simplified,Middle Ring,True,True,ALP,ALP,0.2665198210665798
 BENTLEIGH,strict_loo_seat_class,reference,Middle Ring,True,True,ALP,ALP,0.6733780694904934
+BENTLEIGH,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,0.6449176394105027
 BENTLEIGH,strict_loo_seat_class,single_on_baseline,Middle Ring,True,True,ALP,ALP,0.6733780694904934
 BENTLEIGH,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,0.6733780694904934
 BENTLEIGH,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,0.047694929090535965
@@ -738,6 +820,7 @@ BENTLEIGH,strict_loo_seat_class,no_constraints,Middle Ring,True,True,ALP,ALP,0.6
 BENTLEIGH,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,0.6733780694904934
 BENTLEIGH,strict_loo_seat_class,simplified,Middle Ring,True,True,ALP,ALP,0.047694929090535965
 SANDRINGHAM,own_matrix_reconstruction,reference,Middle Ring,True,True,LNP,LNP,-0.4308975838866247
+SANDRINGHAM,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,LNP,LNP,-0.3888070901092666
 SANDRINGHAM,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,LNP,LNP,-0.4308975838866247
 SANDRINGHAM,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,LNP,LNP,-0.4308975838866247
 SANDRINGHAM,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,LNP,LNP,0.6015082472025646
@@ -747,6 +830,7 @@ SANDRINGHAM,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,LNP,L
 SANDRINGHAM,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,LNP,LNP,-0.4308975838866247
 SANDRINGHAM,own_matrix_reconstruction,simplified,Middle Ring,True,True,LNP,LNP,0.6015082472025646
 SANDRINGHAM,strict_loo_seat_class,reference,Middle Ring,True,True,LNP,LNP,-0.2623174321227162
+SANDRINGHAM,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,True,LNP,LNP,-0.21547019678083146
 SANDRINGHAM,strict_loo_seat_class,single_on_baseline,Middle Ring,True,True,LNP,LNP,-0.2623174321227162
 SANDRINGHAM,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,True,LNP,LNP,-0.2623174321227162
 SANDRINGHAM,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,True,LNP,LNP,0.7582442548467294
@@ -756,6 +840,7 @@ SANDRINGHAM,strict_loo_seat_class,no_constraints,Middle Ring,True,True,LNP,LNP,-
 SANDRINGHAM,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,True,LNP,LNP,-0.2623174321227162
 SANDRINGHAM,strict_loo_seat_class,simplified,Middle Ring,True,True,LNP,LNP,0.7582442548467294
 ASHWOOD,own_matrix_reconstruction,reference,Middle Ring,True,True,ALP,ALP,1.1806479063019126
+ASHWOOD,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,1.0967831824705176
 ASHWOOD,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,ALP,ALP,1.1806479063019126
 ASHWOOD,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,1.1806479063019126
 ASHWOOD,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,0.40377039782700797
@@ -765,6 +850,7 @@ ASHWOOD,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,ALP,ALP,1
 ASHWOOD,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,1.1806479063019126
 ASHWOOD,own_matrix_reconstruction,simplified,Middle Ring,True,True,ALP,ALP,0.40377039782700797
 ASHWOOD,strict_loo_seat_class,reference,Middle Ring,True,True,ALP,ALP,0.8619491787210554
+ASHWOOD,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,0.8307749243224971
 ASHWOOD,strict_loo_seat_class,single_on_baseline,Middle Ring,True,True,ALP,ALP,0.8619491787210554
 ASHWOOD,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,0.8619491787210554
 ASHWOOD,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,0.08913662843734738
@@ -774,6 +860,7 @@ ASHWOOD,strict_loo_seat_class,no_constraints,Middle Ring,True,True,ALP,ALP,0.861
 ASHWOOD,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,0.8619491787210554
 ASHWOOD,strict_loo_seat_class,simplified,Middle Ring,True,True,ALP,ALP,0.08913662843734738
 OAKLEIGH,own_matrix_reconstruction,reference,Middle Ring,True,True,ALP,ALP,1.111266773366859
+OAKLEIGH,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,1.111266773366859
 OAKLEIGH,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,ALP,ALP,1.111266773366859
 OAKLEIGH,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,1.111266773366859
 OAKLEIGH,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,0.23307786189205038
@@ -783,6 +870,7 @@ OAKLEIGH,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,ALP,ALP,
 OAKLEIGH,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,1.111266773366859
 OAKLEIGH,own_matrix_reconstruction,simplified,Middle Ring,True,True,ALP,ALP,0.23307786189205038
 OAKLEIGH,strict_loo_seat_class,reference,Middle Ring,True,True,ALP,ALP,0.5047667088019847
+OAKLEIGH,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,0.46631596963507826
 OAKLEIGH,strict_loo_seat_class,single_on_baseline,Middle Ring,True,True,ALP,ALP,0.5047667088019847
 OAKLEIGH,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,0.5047667088019847
 OAKLEIGH,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,-0.3833933107716403
@@ -792,6 +880,7 @@ OAKLEIGH,strict_loo_seat_class,no_constraints,Middle Ring,True,True,ALP,ALP,0.50
 OAKLEIGH,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,0.5047667088019847
 OAKLEIGH,strict_loo_seat_class,simplified,Middle Ring,True,True,ALP,ALP,-0.3833933107716403
 FOOTSCRAY,own_matrix_reconstruction,reference,Inner Ring,True,True,ALP,ALP,2.872199342290438
+FOOTSCRAY,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,True,True,ALP,ALP,2.637514581596445
 FOOTSCRAY,own_matrix_reconstruction,single_on_baseline,Inner Ring,True,True,ALP,ALP,2.872199342290438
 FOOTSCRAY,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,True,True,ALP,ALP,2.872199342290438
 FOOTSCRAY,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,ALP,ALP,2.610239776637402
@@ -801,6 +890,7 @@ FOOTSCRAY,own_matrix_reconstruction,no_constraints,Inner Ring,True,True,ALP,ALP,
 FOOTSCRAY,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,True,True,ALP,ALP,2.872199342290438
 FOOTSCRAY,own_matrix_reconstruction,simplified,Inner Ring,True,True,ALP,ALP,2.610239776637402
 FOOTSCRAY,strict_loo_seat_class,reference,Inner Ring,True,True,ALP,ALP,3.1517996668201764
+FOOTSCRAY,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,ALP,ALP,3.0300099641723532
 FOOTSCRAY,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,ALP,ALP,3.1517996668201764
 FOOTSCRAY,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,ALP,ALP,3.1517996668201764
 FOOTSCRAY,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,ALP,ALP,2.9312739070973426
@@ -810,6 +900,7 @@ FOOTSCRAY,strict_loo_seat_class,no_constraints,Inner Ring,True,True,ALP,ALP,3.15
 FOOTSCRAY,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,ALP,ALP,3.1517996668201764
 FOOTSCRAY,strict_loo_seat_class,simplified,Inner Ring,True,True,ALP,ALP,2.9312739070973426
 WILLIAMSTOWN,own_matrix_reconstruction,reference,Inner Ring,True,True,ALP,ALP,1.4372307329122092
+WILLIAMSTOWN,own_matrix_reconstruction,oth_params_rebuild,Inner Ring,True,True,ALP,ALP,1.3523764973568664
 WILLIAMSTOWN,own_matrix_reconstruction,single_on_baseline,Inner Ring,True,True,ALP,ALP,1.4372307329122092
 WILLIAMSTOWN,own_matrix_reconstruction,no_on_recipient_geography,Inner Ring,True,True,ALP,ALP,1.4372307329122092
 WILLIAMSTOWN,own_matrix_reconstruction,no_non_on_recipient_geography,Inner Ring,True,True,ALP,ALP,-1.2507588376918566
@@ -819,6 +910,7 @@ WILLIAMSTOWN,own_matrix_reconstruction,no_constraints,Inner Ring,True,True,ALP,A
 WILLIAMSTOWN,own_matrix_reconstruction,no_synthetic_priority,Inner Ring,True,True,ALP,ALP,1.4372307329122092
 WILLIAMSTOWN,own_matrix_reconstruction,simplified,Inner Ring,True,True,ALP,ALP,-1.2507588376918566
 WILLIAMSTOWN,strict_loo_seat_class,reference,Inner Ring,True,True,ALP,ALP,1.3763286842068623
+WILLIAMSTOWN,strict_loo_seat_class,oth_params_rebuild,Inner Ring,True,True,ALP,ALP,1.3079109096592378
 WILLIAMSTOWN,strict_loo_seat_class,single_on_baseline,Inner Ring,True,True,ALP,ALP,1.3763286842068623
 WILLIAMSTOWN,strict_loo_seat_class,no_on_recipient_geography,Inner Ring,True,True,ALP,ALP,1.3763286842068623
 WILLIAMSTOWN,strict_loo_seat_class,no_non_on_recipient_geography,Inner Ring,True,True,ALP,ALP,-1.329055996402162
@@ -828,6 +920,7 @@ WILLIAMSTOWN,strict_loo_seat_class,no_constraints,Inner Ring,True,True,ALP,ALP,1
 WILLIAMSTOWN,strict_loo_seat_class,no_synthetic_priority,Inner Ring,True,True,ALP,ALP,1.3763286842068623
 WILLIAMSTOWN,strict_loo_seat_class,simplified,Inner Ring,True,True,ALP,ALP,-1.329055996402162
 LAVERTON,own_matrix_reconstruction,reference,Middle Ring,True,True,ALP,ALP,-1.9070594700160703
+LAVERTON,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,-1.9070594700160703
 LAVERTON,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,ALP,ALP,-1.9070594700160703
 LAVERTON,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,-1.9070594700160703
 LAVERTON,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,-2.89171168111384
@@ -837,6 +930,7 @@ LAVERTON,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,ALP,ALP,
 LAVERTON,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,-1.9070594700160703
 LAVERTON,own_matrix_reconstruction,simplified,Middle Ring,True,True,ALP,ALP,-2.8710452573554868
 LAVERTON,strict_loo_seat_class,reference,Middle Ring,True,True,ALP,ALP,-2.0611902555351613
+LAVERTON,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,-2.0611902555351613
 LAVERTON,strict_loo_seat_class,single_on_baseline,Middle Ring,True,True,ALP,ALP,-2.0611902555351613
 LAVERTON,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,-2.0611902555351613
 LAVERTON,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,-3.0346821362797316
@@ -846,6 +940,7 @@ LAVERTON,strict_loo_seat_class,no_constraints,Middle Ring,True,True,ALP,ALP,-2.0
 LAVERTON,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,-2.0611902555351613
 LAVERTON,strict_loo_seat_class,simplified,Middle Ring,True,True,ALP,ALP,-3.020896992361455
 NIDDRIE,own_matrix_reconstruction,reference,Middle Ring,True,True,ALP,ALP,1.5869545034413735
+NIDDRIE,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,1.5869545034413735
 NIDDRIE,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,ALP,ALP,1.5869545034413735
 NIDDRIE,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,1.5869545034413735
 NIDDRIE,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,0.923985087106094
@@ -855,6 +950,7 @@ NIDDRIE,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,ALP,ALP,1
 NIDDRIE,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,1.5869545034413735
 NIDDRIE,own_matrix_reconstruction,simplified,Middle Ring,True,True,ALP,ALP,0.923985087106094
 NIDDRIE,strict_loo_seat_class,reference,Middle Ring,True,True,ALP,ALP,1.788588515832601
+NIDDRIE,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,1.788588515832601
 NIDDRIE,strict_loo_seat_class,single_on_baseline,Middle Ring,True,True,ALP,ALP,1.788588515832601
 NIDDRIE,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,1.788588515832601
 NIDDRIE,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,1.1238518135463949
@@ -864,6 +960,7 @@ NIDDRIE,strict_loo_seat_class,no_constraints,Middle Ring,True,True,ALP,ALP,1.817
 NIDDRIE,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,1.788588515832601
 NIDDRIE,strict_loo_seat_class,simplified,Middle Ring,True,True,ALP,ALP,1.1369499564580887
 ST ALBANS,own_matrix_reconstruction,reference,Middle Ring,True,True,ALP,ALP,2.0851437273740947
+ST ALBANS,own_matrix_reconstruction,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,2.0851437273740947
 ST ALBANS,own_matrix_reconstruction,single_on_baseline,Middle Ring,True,True,ALP,ALP,2.0851437273740947
 ST ALBANS,own_matrix_reconstruction,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,2.0851437273740947
 ST ALBANS,own_matrix_reconstruction,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,1.0577455448128492
@@ -873,6 +970,7 @@ ST ALBANS,own_matrix_reconstruction,no_constraints,Middle Ring,True,True,ALP,ALP
 ST ALBANS,own_matrix_reconstruction,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,2.0851437273740947
 ST ALBANS,own_matrix_reconstruction,simplified,Middle Ring,True,True,ALP,ALP,1.0577455448128492
 ST ALBANS,strict_loo_seat_class,reference,Middle Ring,True,True,ALP,ALP,2.373516004591114
+ST ALBANS,strict_loo_seat_class,oth_params_rebuild,Middle Ring,True,True,ALP,ALP,2.373516004591114
 ST ALBANS,strict_loo_seat_class,single_on_baseline,Middle Ring,True,True,ALP,ALP,2.373516004591114
 ST ALBANS,strict_loo_seat_class,no_on_recipient_geography,Middle Ring,True,True,ALP,ALP,2.373516004591114
 ST ALBANS,strict_loo_seat_class,no_non_on_recipient_geography,Middle Ring,True,True,ALP,ALP,1.354484374136744
@@ -882,6 +980,7 @@ ST ALBANS,strict_loo_seat_class,no_constraints,Middle Ring,True,True,ALP,ALP,2.4
 ST ALBANS,strict_loo_seat_class,no_synthetic_priority,Middle Ring,True,True,ALP,ALP,2.373516004591114
 ST ALBANS,strict_loo_seat_class,simplified,Middle Ring,True,True,ALP,ALP,1.3664737684671246
 KOROROIT,own_matrix_reconstruction,reference,Outer Metro,True,False,ALP,ALP,
+KOROROIT,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,False,ALP,ALP,
 KOROROIT,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,False,ALP,ALP,
 KOROROIT,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,False,ALP,ALP,
 KOROROIT,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,False,ALP,ALP,
@@ -891,6 +990,7 @@ KOROROIT,own_matrix_reconstruction,no_constraints,Outer Metro,True,False,ALP,ALP
 KOROROIT,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,False,ALP,ALP,
 KOROROIT,own_matrix_reconstruction,simplified,Outer Metro,True,False,ALP,ALP,
 KOROROIT,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,-1.9746617378023856
+KOROROIT,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,-1.9746617378023856
 KOROROIT,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,-1.9746617378023856
 KOROROIT,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,-1.9746617378023856
 KOROROIT,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,-3.0163550718866228
@@ -900,6 +1000,7 @@ KOROROIT,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,-1.9
 KOROROIT,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,-1.9746617378023856
 KOROROIT,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,-3.0163550718866228
 POINT COOK,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,2.264007985571481
+POINT COOK,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,2.264007985571481
 POINT COOK,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,2.264007985571481
 POINT COOK,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,2.264007985571481
 POINT COOK,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.140405085048779
@@ -909,6 +1010,7 @@ POINT COOK,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,AL
 POINT COOK,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,2.264007985571481
 POINT COOK,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,1.140405085048779
 POINT COOK,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,2.597393049046659
+POINT COOK,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,2.597393049046659
 POINT COOK,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,2.597393049046659
 POINT COOK,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,2.597393049046659
 POINT COOK,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.4231654518418235
@@ -918,6 +1020,7 @@ POINT COOK,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,2.
 POINT COOK,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,2.597393049046659
 POINT COOK,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,1.4231654518418235
 SYDENHAM,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,1.1817235262783554
+SYDENHAM,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,1.2171266800505176
 SYDENHAM,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,1.1817235262783554
 SYDENHAM,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.1817235262783554
 SYDENHAM,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.31683833996888344
@@ -927,6 +1030,7 @@ SYDENHAM,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,ALP,
 SYDENHAM,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,1.1817235262783554
 SYDENHAM,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,0.31683833996888344
 SYDENHAM,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,1.1861032798896387
+SYDENHAM,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,1.1861032798896387
 SYDENHAM,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,1.1861032798896387
 SYDENHAM,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.1861032798896387
 SYDENHAM,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.3358224963739609
@@ -936,6 +1040,7 @@ SYDENHAM,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,1.18
 SYDENHAM,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,1.1861032798896387
 SYDENHAM,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,0.3358224963739609
 TARNEIT,own_matrix_reconstruction,reference,Outer Metro,True,True,ALP,ALP,1.13068475599436
+TARNEIT,own_matrix_reconstruction,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,1.13068475599436
 TARNEIT,own_matrix_reconstruction,single_on_baseline,Outer Metro,True,True,ALP,ALP,1.13068475599436
 TARNEIT,own_matrix_reconstruction,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,1.13068475599436
 TARNEIT,own_matrix_reconstruction,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.3079648394150758
@@ -945,6 +1050,7 @@ TARNEIT,own_matrix_reconstruction,no_constraints,Outer Metro,True,True,ALP,ALP,1
 TARNEIT,own_matrix_reconstruction,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,1.13068475599436
 TARNEIT,own_matrix_reconstruction,simplified,Outer Metro,True,True,ALP,ALP,0.3079648394150758
 TARNEIT,strict_loo_seat_class,reference,Outer Metro,True,True,ALP,ALP,0.8333285032959714
+TARNEIT,strict_loo_seat_class,oth_params_rebuild,Outer Metro,True,True,ALP,ALP,0.8333285032959714
 TARNEIT,strict_loo_seat_class,single_on_baseline,Outer Metro,True,True,ALP,ALP,0.8333285032959714
 TARNEIT,strict_loo_seat_class,no_on_recipient_geography,Outer Metro,True,True,ALP,ALP,0.8333285032959714
 TARNEIT,strict_loo_seat_class,no_non_on_recipient_geography,Outer Metro,True,True,ALP,ALP,-0.021215426158416317
@@ -954,6 +1060,7 @@ TARNEIT,strict_loo_seat_class,no_constraints,Outer Metro,True,True,ALP,ALP,0.833
 TARNEIT,strict_loo_seat_class,no_synthetic_priority,Outer Metro,True,True,ALP,ALP,0.8333285032959714
 TARNEIT,strict_loo_seat_class,simplified,Outer Metro,True,True,ALP,ALP,-0.021215426158416317
 SUNBURY,own_matrix_reconstruction,reference,Peri-urban,True,True,ALP,ALP,0.7392248733441686
+SUNBURY,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,0.7392248733441686
 SUNBURY,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,ALP,ALP,0.7392248733441686
 SUNBURY,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.7392248733441686
 SUNBURY,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,1.3661628416539284
@@ -963,6 +1070,7 @@ SUNBURY,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,ALP,ALP,0.
 SUNBURY,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,0.7392248733441686
 SUNBURY,own_matrix_reconstruction,simplified,Peri-urban,True,True,ALP,ALP,1.3661628416539284
 SUNBURY,strict_loo_seat_class,reference,Peri-urban,True,True,ALP,ALP,0.6543310396495916
+SUNBURY,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,0.6543310396495916
 SUNBURY,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,ALP,ALP,0.6543310396495916
 SUNBURY,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.6543310396495916
 SUNBURY,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,1.2801051428158572
@@ -972,6 +1080,7 @@ SUNBURY,strict_loo_seat_class,no_constraints,Peri-urban,True,True,ALP,ALP,0.6543
 SUNBURY,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,0.6543310396495916
 SUNBURY,strict_loo_seat_class,simplified,Peri-urban,True,True,ALP,ALP,1.2801051428158572
 WERRIBEE,own_matrix_reconstruction,reference,Peri-urban,True,True,ALP,ALP,0.21245799883975458
+WERRIBEE,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,0.21245799883975458
 WERRIBEE,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,ALP,ALP,0.21245799883975458
 WERRIBEE,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.21245799883975458
 WERRIBEE,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.9377415631611541
@@ -981,6 +1090,7 @@ WERRIBEE,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,ALP,ALP,0
 WERRIBEE,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,0.21245799883975458
 WERRIBEE,own_matrix_reconstruction,simplified,Peri-urban,True,True,ALP,ALP,0.9377415631611541
 WERRIBEE,strict_loo_seat_class,reference,Peri-urban,True,True,ALP,ALP,0.3029506320090136
+WERRIBEE,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,0.3029506320090136
 WERRIBEE,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,ALP,ALP,0.3029506320090136
 WERRIBEE,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.3029506320090136
 WERRIBEE,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,1.0433066135971059
@@ -990,6 +1100,7 @@ WERRIBEE,strict_loo_seat_class,no_constraints,Peri-urban,True,True,ALP,ALP,0.302
 WERRIBEE,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,0.3029506320090136
 WERRIBEE,strict_loo_seat_class,simplified,Peri-urban,True,True,ALP,ALP,1.0433066135971059
 EVELYN,own_matrix_reconstruction,reference,Peri-urban,True,True,LNP,LNP,-1.2309595710821353
+EVELYN,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,LNP,LNP,-1.2309595710821353
 EVELYN,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,LNP,LNP,-1.2309595710821353
 EVELYN,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,LNP,LNP,-1.2309595710821353
 EVELYN,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,LNP,LNP,-1.725403687192395
@@ -999,6 +1110,7 @@ EVELYN,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,LNP,LNP,-1.
 EVELYN,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,LNP,LNP,-1.2309595710821353
 EVELYN,own_matrix_reconstruction,simplified,Peri-urban,True,True,LNP,LNP,-1.725403687192395
 EVELYN,strict_loo_seat_class,reference,Peri-urban,True,True,LNP,LNP,-0.7516466211861528
+EVELYN,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,LNP,LNP,-0.7516466211861528
 EVELYN,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,LNP,LNP,-0.7516466211861528
 EVELYN,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,LNP,LNP,-0.7516466211861528
 EVELYN,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,LNP,LNP,-1.2438004790570445
@@ -1008,6 +1120,7 @@ EVELYN,strict_loo_seat_class,no_constraints,Peri-urban,True,True,LNP,LNP,-0.7516
 EVELYN,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,LNP,LNP,-0.7516466211861528
 EVELYN,strict_loo_seat_class,simplified,Peri-urban,True,True,LNP,LNP,-1.2438004790570445
 MONBULK,own_matrix_reconstruction,reference,Peri-urban,True,True,ALP,ALP,-0.7004301185755235
+MONBULK,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,-0.7004301185755235
 MONBULK,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,ALP,ALP,-0.7004301185755235
 MONBULK,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,-0.7004301185755235
 MONBULK,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.27415240721563316
@@ -1017,6 +1130,7 @@ MONBULK,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,ALP,ALP,-0
 MONBULK,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,-0.7004301185755235
 MONBULK,own_matrix_reconstruction,simplified,Peri-urban,True,True,ALP,ALP,0.27415240721563316
 MONBULK,strict_loo_seat_class,reference,Peri-urban,True,True,ALP,ALP,-0.5215665940569325
+MONBULK,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,-0.5215665940569325
 MONBULK,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,ALP,ALP,-0.5215665940569325
 MONBULK,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,-0.5215665940569325
 MONBULK,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.45374247577871785
@@ -1026,6 +1140,7 @@ MONBULK,strict_loo_seat_class,no_constraints,Peri-urban,True,True,ALP,ALP,-0.521
 MONBULK,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,-0.5215665940569325
 MONBULK,strict_loo_seat_class,simplified,Peri-urban,True,True,ALP,ALP,0.45374247577871785
 PAKENHAM,own_matrix_reconstruction,reference,Peri-urban,True,True,ALP,ALP,0.6754087664002095
+PAKENHAM,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,0.6754087664002095
 PAKENHAM,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,ALP,ALP,0.7152684476423476
 PAKENHAM,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.6754087664002095
 PAKENHAM,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,1.5260618702622075
@@ -1035,6 +1150,7 @@ PAKENHAM,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,ALP,ALP,0
 PAKENHAM,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,0.7437746465874806
 PAKENHAM,own_matrix_reconstruction,simplified,Peri-urban,True,True,ALP,ALP,1.5978484213765576
 PAKENHAM,strict_loo_seat_class,reference,Peri-urban,True,True,ALP,ALP,0.03307341196729929
+PAKENHAM,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,0.03307341196729929
 PAKENHAM,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,ALP,ALP,0.07293309320942631
 PAKENHAM,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.03307341196729929
 PAKENHAM,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.8804654428927416
@@ -1044,6 +1160,7 @@ PAKENHAM,strict_loo_seat_class,no_constraints,Peri-urban,True,True,ALP,ALP,0.032
 PAKENHAM,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,0.10143929215455927
 PAKENHAM,strict_loo_seat_class,simplified,Peri-urban,True,True,ALP,ALP,0.9522519940070917
 MORNINGTON,own_matrix_reconstruction,reference,Peri-urban,True,False,LNP,LNP,
+MORNINGTON,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,False,LNP,LNP,
 MORNINGTON,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,False,LNP,LNP,
 MORNINGTON,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,False,LNP,LNP,
 MORNINGTON,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,False,LNP,LNP,
@@ -1053,6 +1170,7 @@ MORNINGTON,own_matrix_reconstruction,no_constraints,Peri-urban,True,False,LNP,LN
 MORNINGTON,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,False,LNP,LNP,
 MORNINGTON,own_matrix_reconstruction,simplified,Peri-urban,True,False,LNP,LNP,
 MORNINGTON,strict_loo_seat_class,reference,Peri-urban,True,False,LNP,LNP,
+MORNINGTON,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,False,LNP,LNP,
 MORNINGTON,strict_loo_seat_class,single_on_baseline,Peri-urban,True,False,LNP,LNP,
 MORNINGTON,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,False,LNP,LNP,
 MORNINGTON,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,False,LNP,LNP,
@@ -1062,6 +1180,7 @@ MORNINGTON,strict_loo_seat_class,no_constraints,Peri-urban,True,False,LNP,LNP,
 MORNINGTON,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,False,LNP,LNP,
 MORNINGTON,strict_loo_seat_class,simplified,Peri-urban,True,False,LNP,LNP,
 NEPEAN,own_matrix_reconstruction,reference,Peri-urban,True,True,LNP,LNP,-1.4161965138172472
+NEPEAN,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,LNP,LNP,-1.4161965138172472
 NEPEAN,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,LNP,LNP,-1.4161965138172472
 NEPEAN,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,LNP,LNP,-1.4161965138172472
 NEPEAN,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,LNP,LNP,-1.8763911745298456
@@ -1071,6 +1190,7 @@ NEPEAN,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,LNP,LNP,-1.
 NEPEAN,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,LNP,LNP,-1.4161965138172472
 NEPEAN,own_matrix_reconstruction,simplified,Peri-urban,True,True,LNP,LNP,-1.8806403765912028
 NEPEAN,strict_loo_seat_class,reference,Peri-urban,True,True,LNP,LNP,-0.8542525167253845
+NEPEAN,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,LNP,LNP,-0.8542525167253845
 NEPEAN,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,LNP,LNP,-0.8542525167253845
 NEPEAN,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,LNP,LNP,-0.8542525167253845
 NEPEAN,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,LNP,LNP,-1.3167700104064206
@@ -1080,6 +1200,7 @@ NEPEAN,strict_loo_seat_class,no_constraints,Peri-urban,True,True,LNP,LNP,-0.8542
 NEPEAN,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,LNP,LNP,-0.8542525167253845
 NEPEAN,strict_loo_seat_class,simplified,Peri-urban,True,True,LNP,LNP,-1.3167700104064206
 MORWELL,own_matrix_reconstruction,reference,Provincial,True,True,LNP,LNP,-1.2768492600486958
+MORWELL,own_matrix_reconstruction,oth_params_rebuild,Provincial,True,True,LNP,LNP,-1.2768492600486958
 MORWELL,own_matrix_reconstruction,single_on_baseline,Provincial,True,True,LNP,LNP,-1.3400519125356558
 MORWELL,own_matrix_reconstruction,no_on_recipient_geography,Provincial,True,True,LNP,LNP,-1.2657471423221045
 MORWELL,own_matrix_reconstruction,no_non_on_recipient_geography,Provincial,True,True,LNP,LNP,-2.093939246650589
@@ -1089,6 +1210,7 @@ MORWELL,own_matrix_reconstruction,no_constraints,Provincial,True,True,LNP,LNP,-1
 MORWELL,own_matrix_reconstruction,no_synthetic_priority,Provincial,True,True,LNP,LNP,-1.3951276303294402
 MORWELL,own_matrix_reconstruction,simplified,Provincial,True,True,LNP,LNP,-2.138629215990684
 MORWELL,strict_loo_seat_class,reference,Provincial,True,True,LNP,LNP,-1.1642542108462828
+MORWELL,strict_loo_seat_class,oth_params_rebuild,Provincial,True,True,LNP,LNP,-1.1642542108462828
 MORWELL,strict_loo_seat_class,single_on_baseline,Provincial,True,True,LNP,LNP,-1.213803002753333
 MORWELL,strict_loo_seat_class,no_on_recipient_geography,Provincial,True,True,LNP,LNP,-1.1541174097428608
 MORWELL,strict_loo_seat_class,no_non_on_recipient_geography,Provincial,True,True,LNP,LNP,-1.9738315142950213
@@ -1098,6 +1220,7 @@ MORWELL,strict_loo_seat_class,no_constraints,Provincial,True,True,LNP,LNP,-1.164
 MORWELL,strict_loo_seat_class,no_synthetic_priority,Provincial,True,True,LNP,LNP,-1.2833010896638242
 MORWELL,strict_loo_seat_class,simplified,Provincial,True,True,LNP,LNP,-2.044792897361347
 GIPPSLAND EAST,own_matrix_reconstruction,reference,Regional,True,True,LNP,LNP,-2.4450777615235286
+GIPPSLAND EAST,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,LNP,LNP,-2.4450777615235286
 GIPPSLAND EAST,own_matrix_reconstruction,single_on_baseline,Regional,True,True,LNP,LNP,-2.4450777615235286
 GIPPSLAND EAST,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,LNP,LNP,-2.4450777615235286
 GIPPSLAND EAST,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-3.041147320148463
@@ -1107,6 +1230,7 @@ GIPPSLAND EAST,own_matrix_reconstruction,no_constraints,Regional,True,True,LNP,L
 GIPPSLAND EAST,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,LNP,LNP,-2.4450777615235286
 GIPPSLAND EAST,own_matrix_reconstruction,simplified,Regional,True,True,LNP,LNP,-3.041147320148463
 GIPPSLAND EAST,strict_loo_seat_class,reference,Regional,True,True,LNP,LNP,-2.316097607984613
+GIPPSLAND EAST,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,LNP,LNP,-2.316097607984613
 GIPPSLAND EAST,strict_loo_seat_class,single_on_baseline,Regional,True,True,LNP,LNP,-2.316097607984613
 GIPPSLAND EAST,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,LNP,LNP,-2.316097607984613
 GIPPSLAND EAST,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-2.912167166609547
@@ -1116,6 +1240,7 @@ GIPPSLAND EAST,strict_loo_seat_class,no_constraints,Regional,True,True,LNP,LNP,-
 GIPPSLAND EAST,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,LNP,LNP,-2.316097607984613
 GIPPSLAND EAST,strict_loo_seat_class,simplified,Regional,True,True,LNP,LNP,-2.912167166609547
 GIPPSLAND SOUTH,own_matrix_reconstruction,reference,Regional,True,True,LNP,LNP,-2.1530914331520434
+GIPPSLAND SOUTH,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,LNP,LNP,-2.1530914331520434
 GIPPSLAND SOUTH,own_matrix_reconstruction,single_on_baseline,Regional,True,True,LNP,LNP,-2.1530914331520434
 GIPPSLAND SOUTH,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,LNP,LNP,-2.1530914331520434
 GIPPSLAND SOUTH,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-2.9283578393740517
@@ -1125,6 +1250,7 @@ GIPPSLAND SOUTH,own_matrix_reconstruction,no_constraints,Regional,True,True,LNP,
 GIPPSLAND SOUTH,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,LNP,LNP,-2.1530914331520434
 GIPPSLAND SOUTH,own_matrix_reconstruction,simplified,Regional,True,True,LNP,LNP,-2.9283578393740517
 GIPPSLAND SOUTH,strict_loo_seat_class,reference,Regional,True,True,LNP,LNP,-2.2706501280507108
+GIPPSLAND SOUTH,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,LNP,LNP,-2.2706501280507108
 GIPPSLAND SOUTH,strict_loo_seat_class,single_on_baseline,Regional,True,True,LNP,LNP,-2.2706501280507108
 GIPPSLAND SOUTH,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,LNP,LNP,-2.2706501280507108
 GIPPSLAND SOUTH,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-3.074780378596609
@@ -1134,6 +1260,7 @@ GIPPSLAND SOUTH,strict_loo_seat_class,no_constraints,Regional,True,True,LNP,LNP,
 GIPPSLAND SOUTH,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,LNP,LNP,-2.2706501280507108
 GIPPSLAND SOUTH,strict_loo_seat_class,simplified,Regional,True,True,LNP,LNP,-3.074780378596609
 BASS,own_matrix_reconstruction,reference,Regional,True,True,ALP,ALP,0.25985211827335153
+BASS,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,ALP,ALP,0.25985211827335153
 BASS,own_matrix_reconstruction,single_on_baseline,Regional,True,True,ALP,ALP,0.25985211827335153
 BASS,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,ALP,ALP,0.25985211827335153
 BASS,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,ALP,ALP,1.04704684330017
@@ -1143,6 +1270,7 @@ BASS,own_matrix_reconstruction,no_constraints,Regional,True,True,ALP,ALP,0.25985
 BASS,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,ALP,ALP,0.25985211827335153
 BASS,own_matrix_reconstruction,simplified,Regional,True,True,ALP,ALP,1.04704684330017
 BASS,strict_loo_seat_class,reference,Regional,True,True,ALP,ALP,0.21348405197063602
+BASS,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,ALP,ALP,0.21348405197063602
 BASS,strict_loo_seat_class,single_on_baseline,Regional,True,True,ALP,ALP,0.21348405197063602
 BASS,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,ALP,ALP,0.21348405197063602
 BASS,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,ALP,ALP,0.9794945563848412
@@ -1152,6 +1280,7 @@ BASS,strict_loo_seat_class,no_constraints,Regional,True,True,ALP,ALP,0.213484051
 BASS,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,ALP,ALP,0.21348405197063602
 BASS,strict_loo_seat_class,simplified,Regional,True,True,ALP,ALP,0.9794945563848412
 HASTINGS,own_matrix_reconstruction,reference,Regional,True,True,ALP,ALP,0.4690149993959447
+HASTINGS,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,ALP,ALP,0.4690149993959447
 HASTINGS,own_matrix_reconstruction,single_on_baseline,Regional,True,True,ALP,ALP,0.4690149993959447
 HASTINGS,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,ALP,ALP,0.4690149993959447
 HASTINGS,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,ALP,ALP,1.087684533808675
@@ -1161,6 +1290,7 @@ HASTINGS,own_matrix_reconstruction,no_constraints,Regional,True,True,ALP,ALP,0.4
 HASTINGS,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,ALP,ALP,0.4690149993959447
 HASTINGS,own_matrix_reconstruction,simplified,Regional,True,True,ALP,ALP,1.1000677457976726
 HASTINGS,strict_loo_seat_class,reference,Regional,True,True,ALP,ALP,-0.1314730457447122
+HASTINGS,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,ALP,ALP,-0.1314730457447122
 HASTINGS,strict_loo_seat_class,single_on_baseline,Regional,True,True,ALP,ALP,-0.1314730457447122
 HASTINGS,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,ALP,ALP,-0.1314730457447122
 HASTINGS,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,ALP,ALP,0.4802735132699243
@@ -1170,6 +1300,7 @@ HASTINGS,strict_loo_seat_class,no_constraints,Regional,True,True,ALP,ALP,-0.1314
 HASTINGS,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,ALP,ALP,-0.1314730457447122
 HASTINGS,strict_loo_seat_class,simplified,Regional,True,True,ALP,ALP,0.4802735132699243
 NARRACAN,own_matrix_reconstruction,reference,Regional,True,False,LNP,LNP,
+NARRACAN,own_matrix_reconstruction,oth_params_rebuild,Regional,True,False,LNP,LNP,
 NARRACAN,own_matrix_reconstruction,single_on_baseline,Regional,True,False,LNP,LNP,
 NARRACAN,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,False,LNP,LNP,
 NARRACAN,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,False,LNP,LNP,
@@ -1179,6 +1310,7 @@ NARRACAN,own_matrix_reconstruction,no_constraints,Regional,True,False,LNP,LNP,
 NARRACAN,own_matrix_reconstruction,no_synthetic_priority,Regional,True,False,LNP,LNP,
 NARRACAN,own_matrix_reconstruction,simplified,Regional,True,False,LNP,LNP,
 NARRACAN,strict_loo_seat_class,reference,Regional,True,False,LNP,LNP,
+NARRACAN,strict_loo_seat_class,oth_params_rebuild,Regional,True,False,LNP,LNP,
 NARRACAN,strict_loo_seat_class,single_on_baseline,Regional,True,False,LNP,LNP,
 NARRACAN,strict_loo_seat_class,no_on_recipient_geography,Regional,True,False,LNP,LNP,
 NARRACAN,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,False,LNP,LNP,
@@ -1188,6 +1320,7 @@ NARRACAN,strict_loo_seat_class,no_constraints,Regional,True,False,LNP,LNP,
 NARRACAN,strict_loo_seat_class,no_synthetic_priority,Regional,True,False,LNP,LNP,
 NARRACAN,strict_loo_seat_class,simplified,Regional,True,False,LNP,LNP,
 YAN YEAN,own_matrix_reconstruction,reference,Peri-urban,True,True,ALP,ALP,1.291666854477591
+YAN YEAN,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,1.291666854477591
 YAN YEAN,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,ALP,ALP,1.291666854477591
 YAN YEAN,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,1.291666854477591
 YAN YEAN,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,1.8788790209765538
@@ -1197,6 +1330,7 @@ YAN YEAN,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,ALP,ALP,1
 YAN YEAN,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,1.291666854477591
 YAN YEAN,own_matrix_reconstruction,simplified,Peri-urban,True,True,ALP,ALP,1.87913316694448
 YAN YEAN,strict_loo_seat_class,reference,Peri-urban,True,True,ALP,ALP,0.886332544806967
+YAN YEAN,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,0.886332544806967
 YAN YEAN,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,ALP,ALP,0.886332544806967
 YAN YEAN,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,0.886332544806967
 YAN YEAN,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,1.4511039990274255
@@ -1206,6 +1340,7 @@ YAN YEAN,strict_loo_seat_class,no_constraints,Peri-urban,True,True,ALP,ALP,0.886
 YAN YEAN,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,0.886332544806967
 YAN YEAN,strict_loo_seat_class,simplified,Peri-urban,True,True,ALP,ALP,1.4511039990274255
 SHEPPARTON,own_matrix_reconstruction,reference,Provincial,True,True,LNP,LNP,0.4572121889838576
+SHEPPARTON,own_matrix_reconstruction,oth_params_rebuild,Provincial,True,True,LNP,LNP,0.4572121889838576
 SHEPPARTON,own_matrix_reconstruction,single_on_baseline,Provincial,True,True,LNP,LNP,0.4572121889838576
 SHEPPARTON,own_matrix_reconstruction,no_on_recipient_geography,Provincial,True,True,LNP,LNP,0.4572121889838576
 SHEPPARTON,own_matrix_reconstruction,no_non_on_recipient_geography,Provincial,True,True,LNP,LNP,0.3846203890166211
@@ -1215,6 +1350,7 @@ SHEPPARTON,own_matrix_reconstruction,no_constraints,Provincial,True,True,LNP,LNP
 SHEPPARTON,own_matrix_reconstruction,no_synthetic_priority,Provincial,True,True,LNP,LNP,0.4572121889838576
 SHEPPARTON,own_matrix_reconstruction,simplified,Provincial,True,True,LNP,LNP,0.3846203890166211
 SHEPPARTON,strict_loo_seat_class,reference,Provincial,True,True,LNP,LNP,0.6218588479585452
+SHEPPARTON,strict_loo_seat_class,oth_params_rebuild,Provincial,True,True,LNP,LNP,0.6218588479585452
 SHEPPARTON,strict_loo_seat_class,single_on_baseline,Provincial,True,True,LNP,LNP,0.6218588479585452
 SHEPPARTON,strict_loo_seat_class,no_on_recipient_geography,Provincial,True,True,LNP,LNP,0.6218588479585452
 SHEPPARTON,strict_loo_seat_class,no_non_on_recipient_geography,Provincial,True,True,LNP,LNP,0.5517482092040615
@@ -1224,6 +1360,7 @@ SHEPPARTON,strict_loo_seat_class,no_constraints,Provincial,True,True,LNP,LNP,0.6
 SHEPPARTON,strict_loo_seat_class,no_synthetic_priority,Provincial,True,True,LNP,LNP,0.6218588479585452
 SHEPPARTON,strict_loo_seat_class,simplified,Provincial,True,True,LNP,LNP,0.5517454593468307
 BENDIGO EAST,own_matrix_reconstruction,reference,Provincial,True,True,ALP,ALP,0.3732627946131717
+BENDIGO EAST,own_matrix_reconstruction,oth_params_rebuild,Provincial,True,True,ALP,ALP,0.3732627946131717
 BENDIGO EAST,own_matrix_reconstruction,single_on_baseline,Provincial,True,True,ALP,ALP,0.37025914030347495
 BENDIGO EAST,own_matrix_reconstruction,no_on_recipient_geography,Provincial,True,True,ALP,ALP,0.3727473230526468
 BENDIGO EAST,own_matrix_reconstruction,no_non_on_recipient_geography,Provincial,True,True,ALP,ALP,0.5121909802515923
@@ -1233,6 +1370,7 @@ BENDIGO EAST,own_matrix_reconstruction,no_constraints,Provincial,True,True,ALP,A
 BENDIGO EAST,own_matrix_reconstruction,no_synthetic_priority,Provincial,True,True,ALP,ALP,0.38471906349091256
 BENDIGO EAST,own_matrix_reconstruction,simplified,Provincial,True,True,ALP,ALP,0.4946827755682337
 BENDIGO EAST,strict_loo_seat_class,reference,Provincial,True,True,ALP,ALP,-0.026473842481522514
+BENDIGO EAST,strict_loo_seat_class,oth_params_rebuild,Provincial,True,True,ALP,ALP,-0.026473842481522514
 BENDIGO EAST,strict_loo_seat_class,single_on_baseline,Provincial,True,True,ALP,ALP,0.014414741065238434
 BENDIGO EAST,strict_loo_seat_class,no_on_recipient_geography,Provincial,True,True,ALP,ALP,-0.02699955745981697
 BENDIGO EAST,strict_loo_seat_class,no_non_on_recipient_geography,Provincial,True,True,ALP,ALP,0.7365389713862136
@@ -1242,6 +1380,7 @@ BENDIGO EAST,strict_loo_seat_class,no_constraints,Provincial,True,True,ALP,ALP,-
 BENDIGO EAST,strict_loo_seat_class,no_synthetic_priority,Provincial,True,True,ALP,ALP,0.016546060307276456
 BENDIGO EAST,strict_loo_seat_class,simplified,Provincial,True,True,ALP,ALP,0.7178414996854787
 BENDIGO WEST,own_matrix_reconstruction,reference,Provincial,True,True,ALP,ALP,0.08065254890367024
+BENDIGO WEST,own_matrix_reconstruction,oth_params_rebuild,Provincial,True,True,ALP,ALP,0.08065254890367024
 BENDIGO WEST,own_matrix_reconstruction,single_on_baseline,Provincial,True,True,ALP,ALP,0.08065254890367024
 BENDIGO WEST,own_matrix_reconstruction,no_on_recipient_geography,Provincial,True,True,ALP,ALP,0.08065254890367024
 BENDIGO WEST,own_matrix_reconstruction,no_non_on_recipient_geography,Provincial,True,True,ALP,ALP,0.7557281084237588
@@ -1251,6 +1390,7 @@ BENDIGO WEST,own_matrix_reconstruction,no_constraints,Provincial,True,True,ALP,A
 BENDIGO WEST,own_matrix_reconstruction,no_synthetic_priority,Provincial,True,True,ALP,ALP,0.08065254890367024
 BENDIGO WEST,own_matrix_reconstruction,simplified,Provincial,True,True,ALP,ALP,0.7911712579892205
 BENDIGO WEST,strict_loo_seat_class,reference,Provincial,True,True,ALP,ALP,-0.863768597574055
+BENDIGO WEST,strict_loo_seat_class,oth_params_rebuild,Provincial,True,True,ALP,ALP,-0.863768597574055
 BENDIGO WEST,strict_loo_seat_class,single_on_baseline,Provincial,True,True,ALP,ALP,-0.863768597574055
 BENDIGO WEST,strict_loo_seat_class,no_on_recipient_geography,Provincial,True,True,ALP,ALP,-0.863768597574055
 BENDIGO WEST,strict_loo_seat_class,no_non_on_recipient_geography,Provincial,True,True,ALP,ALP,-0.17283676231411027
@@ -1260,6 +1400,7 @@ BENDIGO WEST,strict_loo_seat_class,no_constraints,Provincial,True,True,ALP,ALP,-
 BENDIGO WEST,strict_loo_seat_class,no_synthetic_priority,Provincial,True,True,ALP,ALP,-0.863768597574055
 BENDIGO WEST,strict_loo_seat_class,simplified,Provincial,True,True,ALP,ALP,-0.17283676231411027
 EILDON,own_matrix_reconstruction,reference,Regional,True,True,LNP,LNP,-0.35086342435798334
+EILDON,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,LNP,LNP,-0.35086342435798334
 EILDON,own_matrix_reconstruction,single_on_baseline,Regional,True,True,LNP,LNP,-0.35086342435798334
 EILDON,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,LNP,LNP,-0.35086342435798334
 EILDON,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-1.1669213796216549
@@ -1269,6 +1410,7 @@ EILDON,own_matrix_reconstruction,no_constraints,Regional,True,True,LNP,LNP,-0.35
 EILDON,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,LNP,LNP,-0.35086342435798334
 EILDON,own_matrix_reconstruction,simplified,Regional,True,True,LNP,LNP,-1.1669213796216549
 EILDON,strict_loo_seat_class,reference,Regional,True,True,LNP,LNP,-0.677826674951354
+EILDON,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,LNP,LNP,-0.677826674951354
 EILDON,strict_loo_seat_class,single_on_baseline,Regional,True,True,LNP,LNP,-0.677826674951354
 EILDON,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,LNP,LNP,-0.677826674951354
 EILDON,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-1.4838687332797362
@@ -1278,6 +1420,7 @@ EILDON,strict_loo_seat_class,no_constraints,Regional,True,True,LNP,LNP,-0.677826
 EILDON,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,LNP,LNP,-0.677826674951354
 EILDON,strict_loo_seat_class,simplified,Regional,True,True,LNP,LNP,-1.4838687332797362
 EUROA,own_matrix_reconstruction,reference,Regional,True,True,LNP,LNP,-2.300014692474228
+EUROA,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,LNP,LNP,-2.300014692474228
 EUROA,own_matrix_reconstruction,single_on_baseline,Regional,True,True,LNP,LNP,-2.300014692474228
 EUROA,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,LNP,LNP,-2.300014692474228
 EUROA,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-2.772364486518075
@@ -1287,6 +1430,7 @@ EUROA,own_matrix_reconstruction,no_constraints,Regional,True,True,LNP,LNP,-2.300
 EUROA,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,LNP,LNP,-2.300014692474228
 EUROA,own_matrix_reconstruction,simplified,Regional,True,True,LNP,LNP,-2.772364486518075
 EUROA,strict_loo_seat_class,reference,Regional,True,True,LNP,LNP,-2.285294815813932
+EUROA,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,LNP,LNP,-2.285294815813932
 EUROA,strict_loo_seat_class,single_on_baseline,Regional,True,True,LNP,LNP,-2.285294815813932
 EUROA,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,LNP,LNP,-2.285294815813932
 EUROA,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-2.757644609857768
@@ -1296,6 +1440,7 @@ EUROA,strict_loo_seat_class,no_constraints,Regional,True,True,LNP,LNP,-2.2852948
 EUROA,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,LNP,LNP,-2.285294815813932
 EUROA,strict_loo_seat_class,simplified,Regional,True,True,LNP,LNP,-2.757644609857768
 MACEDON,own_matrix_reconstruction,reference,Regional,True,True,ALP,ALP,-1.7733581275985233
+MACEDON,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,ALP,ALP,-1.7733581275985233
 MACEDON,own_matrix_reconstruction,single_on_baseline,Regional,True,True,ALP,ALP,-1.6147891461327446
 MACEDON,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,ALP,ALP,-1.7733581275985233
 MACEDON,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,ALP,ALP,-0.7276726425674007
@@ -1305,6 +1450,7 @@ MACEDON,own_matrix_reconstruction,no_constraints,Regional,True,True,ALP,ALP,-1.7
 MACEDON,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,ALP,ALP,-1.7062917264926702
 MACEDON,own_matrix_reconstruction,simplified,Regional,True,True,ALP,ALP,-0.6495480950048482
 MACEDON,strict_loo_seat_class,reference,Regional,True,True,ALP,ALP,-2.156979338899123
+MACEDON,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,ALP,ALP,-2.156979338899123
 MACEDON,strict_loo_seat_class,single_on_baseline,Regional,True,True,ALP,ALP,-1.9984103574333445
 MACEDON,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,ALP,ALP,-2.156979338899123
 MACEDON,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,ALP,ALP,-1.0991682695493221
@@ -1314,6 +1460,7 @@ MACEDON,strict_loo_seat_class,no_constraints,Regional,True,True,ALP,ALP,-2.16154
 MACEDON,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,ALP,ALP,-2.0899129377932812
 MACEDON,strict_loo_seat_class,simplified,Regional,True,True,ALP,ALP,-1.0210437219867696
 BENAMBRA,own_matrix_reconstruction,reference,Regional,True,True,LNP,LNP,2.406758259580577
+BENAMBRA,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,LNP,LNP,2.406758259580577
 BENAMBRA,own_matrix_reconstruction,single_on_baseline,Regional,True,True,LNP,LNP,2.406758259580577
 BENAMBRA,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,LNP,LNP,2.406758259580577
 BENAMBRA,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,1.9378383135103983
@@ -1323,6 +1470,7 @@ BENAMBRA,own_matrix_reconstruction,no_constraints,Regional,True,True,LNP,LNP,2.4
 BENAMBRA,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,LNP,LNP,2.406758259580577
 BENAMBRA,own_matrix_reconstruction,simplified,Regional,True,True,LNP,LNP,1.9378383135103983
 BENAMBRA,strict_loo_seat_class,reference,Regional,True,True,LNP,LNP,3.5979820745525193
+BENAMBRA,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,LNP,LNP,3.5979820745525193
 BENAMBRA,strict_loo_seat_class,single_on_baseline,Regional,True,True,LNP,LNP,3.5979820745525193
 BENAMBRA,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,LNP,LNP,3.5979820745525193
 BENAMBRA,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,3.1782935048065064
@@ -1332,6 +1480,7 @@ BENAMBRA,strict_loo_seat_class,no_constraints,Regional,True,True,LNP,LNP,3.59798
 BENAMBRA,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,LNP,LNP,3.5979820745525193
 BENAMBRA,strict_loo_seat_class,simplified,Regional,True,True,LNP,LNP,3.1782935048065064
 OVENS VALLEY,own_matrix_reconstruction,reference,Regional,True,True,LNP,LNP,-4.468566513327133
+OVENS VALLEY,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,LNP,LNP,-4.468566513327133
 OVENS VALLEY,own_matrix_reconstruction,single_on_baseline,Regional,True,True,LNP,LNP,-4.468566513327133
 OVENS VALLEY,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,LNP,LNP,-4.468566513327133
 OVENS VALLEY,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-5.285056533633215
@@ -1341,6 +1490,7 @@ OVENS VALLEY,own_matrix_reconstruction,no_constraints,Regional,True,True,LNP,LNP
 OVENS VALLEY,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,LNP,LNP,-4.468566513327133
 OVENS VALLEY,own_matrix_reconstruction,simplified,Regional,True,True,LNP,LNP,-5.285056533633215
 OVENS VALLEY,strict_loo_seat_class,reference,Regional,True,True,LNP,LNP,-4.188907933420638
+OVENS VALLEY,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,LNP,LNP,-4.188907933420638
 OVENS VALLEY,strict_loo_seat_class,single_on_baseline,Regional,True,True,LNP,LNP,-4.188907933420638
 OVENS VALLEY,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,LNP,LNP,-4.188907933420638
 OVENS VALLEY,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-5.00539795372672
@@ -1350,6 +1500,7 @@ OVENS VALLEY,strict_loo_seat_class,no_constraints,Regional,True,True,LNP,LNP,-4.
 OVENS VALLEY,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,LNP,LNP,-4.188907933420638
 OVENS VALLEY,strict_loo_seat_class,simplified,Regional,True,True,LNP,LNP,-5.00539795372672
 MILDURA,own_matrix_reconstruction,reference,Regional,True,True,LNP,LNP,-1.1614290154405738
+MILDURA,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,LNP,LNP,-1.1614290154405738
 MILDURA,own_matrix_reconstruction,single_on_baseline,Regional,True,True,LNP,LNP,-1.1614290154405738
 MILDURA,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,LNP,LNP,-1.1614290154405738
 MILDURA,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,False,True,IND,LNP,-1.5100349447968786
@@ -1359,6 +1510,7 @@ MILDURA,own_matrix_reconstruction,no_constraints,Regional,True,True,LNP,LNP,-1.1
 MILDURA,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,LNP,LNP,-1.1614290154405738
 MILDURA,own_matrix_reconstruction,simplified,Regional,False,True,IND,LNP,-1.5100349447968786
 MILDURA,strict_loo_seat_class,reference,Regional,False,True,IND,LNP,-1.2845251610522357
+MILDURA,strict_loo_seat_class,oth_params_rebuild,Regional,False,True,IND,LNP,-1.2845251610522357
 MILDURA,strict_loo_seat_class,single_on_baseline,Regional,False,True,IND,LNP,-1.2845251610522357
 MILDURA,strict_loo_seat_class,no_on_recipient_geography,Regional,False,True,IND,LNP,-1.2845251610522357
 MILDURA,strict_loo_seat_class,no_non_on_recipient_geography,Regional,False,True,IND,LNP,-1.657171337220431
@@ -1368,6 +1520,7 @@ MILDURA,strict_loo_seat_class,no_constraints,Regional,False,True,IND,LNP,-1.2845
 MILDURA,strict_loo_seat_class,no_synthetic_priority,Regional,False,True,IND,LNP,-1.2845251610522357
 MILDURA,strict_loo_seat_class,simplified,Regional,False,True,IND,LNP,-1.657171337220431
 MURRAY PLAINS,own_matrix_reconstruction,reference,Regional,True,True,LNP,LNP,-1.795949331675195
+MURRAY PLAINS,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,LNP,LNP,-1.795949331675195
 MURRAY PLAINS,own_matrix_reconstruction,single_on_baseline,Regional,True,True,LNP,LNP,-1.795949331675195
 MURRAY PLAINS,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,LNP,LNP,-1.795949331675195
 MURRAY PLAINS,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-2.562918365058442
@@ -1377,6 +1530,7 @@ MURRAY PLAINS,own_matrix_reconstruction,no_constraints,Regional,True,True,LNP,LN
 MURRAY PLAINS,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,LNP,LNP,-1.795949331675195
 MURRAY PLAINS,own_matrix_reconstruction,simplified,Regional,True,True,LNP,LNP,-2.562918365058442
 MURRAY PLAINS,strict_loo_seat_class,reference,Regional,True,True,LNP,LNP,-2.2387279748096955
+MURRAY PLAINS,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,LNP,LNP,-2.2387279748096955
 MURRAY PLAINS,strict_loo_seat_class,single_on_baseline,Regional,True,True,LNP,LNP,-2.2387279748096955
 MURRAY PLAINS,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,LNP,LNP,-2.2387279748096955
 MURRAY PLAINS,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-2.996036904296173
@@ -1386,6 +1540,7 @@ MURRAY PLAINS,strict_loo_seat_class,no_constraints,Regional,True,True,LNP,LNP,-2
 MURRAY PLAINS,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,LNP,LNP,-2.2387279748096955
 MURRAY PLAINS,strict_loo_seat_class,simplified,Regional,True,True,LNP,LNP,-2.996036904296173
 LARA,own_matrix_reconstruction,reference,Peri-urban,True,True,ALP,ALP,1.4743184106280949
+LARA,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,1.4743184106280949
 LARA,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,ALP,ALP,1.4743184106280949
 LARA,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,1.4743184106280949
 LARA,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,2.184922113454024
@@ -1395,6 +1550,7 @@ LARA,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,ALP,ALP,1.474
 LARA,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,1.4743184106280949
 LARA,own_matrix_reconstruction,simplified,Peri-urban,True,True,ALP,ALP,2.184922113454024
 LARA,strict_loo_seat_class,reference,Peri-urban,True,True,ALP,ALP,1.0009366486616211
+LARA,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,1.0009366486616211
 LARA,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,ALP,ALP,1.0009366486616211
 LARA,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,1.0009366486616211
 LARA,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,1.7008036859544107
@@ -1404,6 +1560,7 @@ LARA,strict_loo_seat_class,no_constraints,Peri-urban,True,True,ALP,ALP,1.0009366
 LARA,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,1.0009366486616211
 LARA,strict_loo_seat_class,simplified,Peri-urban,True,True,ALP,ALP,1.7008036859544107
 MELTON,own_matrix_reconstruction,reference,Peri-urban,True,True,ALP,ALP,2.412691170761494
+MELTON,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,2.412691170761494
 MELTON,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,ALP,ALP,2.412691170761494
 MELTON,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,2.412691170761494
 MELTON,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,3.332456392581684
@@ -1413,6 +1570,7 @@ MELTON,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,ALP,ALP,2.4
 MELTON,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,2.412691170761494
 MELTON,own_matrix_reconstruction,simplified,Peri-urban,True,True,ALP,ALP,3.3335312063805023
 MELTON,strict_loo_seat_class,reference,Peri-urban,True,True,ALP,ALP,2.3274602052103965
+MELTON,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,2.3274602052103965
 MELTON,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,ALP,ALP,2.3274602052103965
 MELTON,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,2.3274602052103965
 MELTON,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,3.245416708994364
@@ -1422,6 +1580,7 @@ MELTON,strict_loo_seat_class,no_constraints,Peri-urban,True,True,ALP,ALP,2.32746
 MELTON,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,2.3274602052103965
 MELTON,strict_loo_seat_class,simplified,Peri-urban,True,True,ALP,ALP,3.245416708994364
 BELLARINE,own_matrix_reconstruction,reference,Peri-urban,True,True,ALP,ALP,-0.6889826030877622
+BELLARINE,own_matrix_reconstruction,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,-0.6889826030877622
 BELLARINE,own_matrix_reconstruction,single_on_baseline,Peri-urban,True,True,ALP,ALP,-0.6889826030877622
 BELLARINE,own_matrix_reconstruction,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,-0.6889826030877622
 BELLARINE,own_matrix_reconstruction,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,-0.019553170051767044
@@ -1431,6 +1590,7 @@ BELLARINE,own_matrix_reconstruction,no_constraints,Peri-urban,True,True,ALP,ALP,
 BELLARINE,own_matrix_reconstruction,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,-0.6889826030877622
 BELLARINE,own_matrix_reconstruction,simplified,Peri-urban,True,True,ALP,ALP,-0.019553170051767044
 BELLARINE,strict_loo_seat_class,reference,Peri-urban,True,True,ALP,ALP,-0.7092524509834552
+BELLARINE,strict_loo_seat_class,oth_params_rebuild,Peri-urban,True,True,ALP,ALP,-0.7092524509834552
 BELLARINE,strict_loo_seat_class,single_on_baseline,Peri-urban,True,True,ALP,ALP,-0.7092524509834552
 BELLARINE,strict_loo_seat_class,no_on_recipient_geography,Peri-urban,True,True,ALP,ALP,-0.7092524509834552
 BELLARINE,strict_loo_seat_class,no_non_on_recipient_geography,Peri-urban,True,True,ALP,ALP,-0.03036764377415402
@@ -1440,6 +1600,7 @@ BELLARINE,strict_loo_seat_class,no_constraints,Peri-urban,True,True,ALP,ALP,-0.7
 BELLARINE,strict_loo_seat_class,no_synthetic_priority,Peri-urban,True,True,ALP,ALP,-0.7092524509834552
 BELLARINE,strict_loo_seat_class,simplified,Peri-urban,True,True,ALP,ALP,-0.03036764377415402
 WENDOUREE,own_matrix_reconstruction,reference,Provincial,True,True,ALP,ALP,0.37491592936039764
+WENDOUREE,own_matrix_reconstruction,oth_params_rebuild,Provincial,True,True,ALP,ALP,0.37491592936039764
 WENDOUREE,own_matrix_reconstruction,single_on_baseline,Provincial,True,True,ALP,ALP,0.37491592936039764
 WENDOUREE,own_matrix_reconstruction,no_on_recipient_geography,Provincial,True,True,ALP,ALP,0.37491592936039764
 WENDOUREE,own_matrix_reconstruction,no_non_on_recipient_geography,Provincial,True,True,ALP,ALP,0.90438932136917
@@ -1449,6 +1610,7 @@ WENDOUREE,own_matrix_reconstruction,no_constraints,Provincial,True,True,ALP,ALP,
 WENDOUREE,own_matrix_reconstruction,no_synthetic_priority,Provincial,True,True,ALP,ALP,0.37491592936039764
 WENDOUREE,own_matrix_reconstruction,simplified,Provincial,True,True,ALP,ALP,0.9196913732393841
 WENDOUREE,strict_loo_seat_class,reference,Provincial,True,True,ALP,ALP,-0.12691310634539432
+WENDOUREE,strict_loo_seat_class,oth_params_rebuild,Provincial,True,True,ALP,ALP,-0.12691310634539432
 WENDOUREE,strict_loo_seat_class,single_on_baseline,Provincial,True,True,ALP,ALP,-0.12691310634539432
 WENDOUREE,strict_loo_seat_class,no_on_recipient_geography,Provincial,True,True,ALP,ALP,-0.12691310634539432
 WENDOUREE,strict_loo_seat_class,no_non_on_recipient_geography,Provincial,True,True,ALP,ALP,0.41287823670626
@@ -1458,6 +1620,7 @@ WENDOUREE,strict_loo_seat_class,no_constraints,Provincial,True,True,ALP,ALP,-0.1
 WENDOUREE,strict_loo_seat_class,no_synthetic_priority,Provincial,True,True,ALP,ALP,-0.12691310634539432
 WENDOUREE,strict_loo_seat_class,simplified,Provincial,True,True,ALP,ALP,0.41287823670626
 GEELONG,own_matrix_reconstruction,reference,Provincial,True,True,ALP,ALP,-0.4671944591155053
+GEELONG,own_matrix_reconstruction,oth_params_rebuild,Provincial,True,True,ALP,ALP,-0.4671944591155053
 GEELONG,own_matrix_reconstruction,single_on_baseline,Provincial,True,True,ALP,ALP,-0.4671944591155053
 GEELONG,own_matrix_reconstruction,no_on_recipient_geography,Provincial,True,True,ALP,ALP,-0.4671944591155053
 GEELONG,own_matrix_reconstruction,no_non_on_recipient_geography,Provincial,True,True,ALP,ALP,0.24251608693093285
@@ -1467,6 +1630,7 @@ GEELONG,own_matrix_reconstruction,no_constraints,Provincial,True,True,ALP,ALP,-0
 GEELONG,own_matrix_reconstruction,no_synthetic_priority,Provincial,True,True,ALP,ALP,-0.4671944591155053
 GEELONG,own_matrix_reconstruction,simplified,Provincial,True,True,ALP,ALP,0.24251608693093285
 GEELONG,strict_loo_seat_class,reference,Provincial,True,True,ALP,ALP,-0.7309236747832681
+GEELONG,strict_loo_seat_class,oth_params_rebuild,Provincial,True,True,ALP,ALP,-0.7309236747832681
 GEELONG,strict_loo_seat_class,single_on_baseline,Provincial,True,True,ALP,ALP,-0.7309236747832681
 GEELONG,strict_loo_seat_class,no_on_recipient_geography,Provincial,True,True,ALP,ALP,-0.7309236747832681
 GEELONG,strict_loo_seat_class,no_non_on_recipient_geography,Provincial,True,True,ALP,ALP,-0.021706239418850526
@@ -1476,6 +1640,7 @@ GEELONG,strict_loo_seat_class,no_constraints,Provincial,True,True,ALP,ALP,-0.730
 GEELONG,strict_loo_seat_class,no_synthetic_priority,Provincial,True,True,ALP,ALP,-0.7309236747832681
 GEELONG,strict_loo_seat_class,simplified,Provincial,True,True,ALP,ALP,-0.021706239418850526
 SOUTH BARWON,own_matrix_reconstruction,reference,Provincial,True,True,ALP,ALP,-0.18056702494032573
+SOUTH BARWON,own_matrix_reconstruction,oth_params_rebuild,Provincial,True,True,ALP,ALP,-0.18056702494032573
 SOUTH BARWON,own_matrix_reconstruction,single_on_baseline,Provincial,True,True,ALP,ALP,-0.18056702494032573
 SOUTH BARWON,own_matrix_reconstruction,no_on_recipient_geography,Provincial,True,True,ALP,ALP,-0.18056702494032573
 SOUTH BARWON,own_matrix_reconstruction,no_non_on_recipient_geography,Provincial,True,True,ALP,ALP,0.4552659343307619
@@ -1485,6 +1650,7 @@ SOUTH BARWON,own_matrix_reconstruction,no_constraints,Provincial,True,True,ALP,A
 SOUTH BARWON,own_matrix_reconstruction,no_synthetic_priority,Provincial,True,True,ALP,ALP,-0.18056702494032573
 SOUTH BARWON,own_matrix_reconstruction,simplified,Provincial,True,True,ALP,ALP,0.4552659343307619
 SOUTH BARWON,strict_loo_seat_class,reference,Provincial,True,True,ALP,ALP,-0.1209815979703377
+SOUTH BARWON,strict_loo_seat_class,oth_params_rebuild,Provincial,True,True,ALP,ALP,-0.1209815979703377
 SOUTH BARWON,strict_loo_seat_class,single_on_baseline,Provincial,True,True,ALP,ALP,-0.1209815979703377
 SOUTH BARWON,strict_loo_seat_class,no_on_recipient_geography,Provincial,True,True,ALP,ALP,-0.1209815979703377
 SOUTH BARWON,strict_loo_seat_class,no_non_on_recipient_geography,Provincial,True,True,ALP,ALP,0.5148494650561997
@@ -1494,6 +1660,7 @@ SOUTH BARWON,strict_loo_seat_class,no_constraints,Provincial,True,True,ALP,ALP,-
 SOUTH BARWON,strict_loo_seat_class,no_synthetic_priority,Provincial,True,True,ALP,ALP,-0.1209815979703377
 SOUTH BARWON,strict_loo_seat_class,simplified,Provincial,True,True,ALP,ALP,0.5148494650561997
 EUREKA,own_matrix_reconstruction,reference,Regional,True,True,ALP,ALP,0.6281192205586539
+EUREKA,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,ALP,ALP,0.6281192205586539
 EUREKA,own_matrix_reconstruction,single_on_baseline,Regional,True,True,ALP,ALP,0.6281192205586539
 EUREKA,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,ALP,ALP,0.6281192205586539
 EUREKA,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,ALP,ALP,1.4353911762403637
@@ -1503,6 +1670,7 @@ EUREKA,own_matrix_reconstruction,no_constraints,Regional,True,True,ALP,ALP,0.629
 EUREKA,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,ALP,ALP,0.6281192205586539
 EUREKA,own_matrix_reconstruction,simplified,Regional,True,True,ALP,ALP,1.4369838675283964
 EUREKA,strict_loo_seat_class,reference,Regional,True,True,ALP,ALP,0.002619511422308207
+EUREKA,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,ALP,ALP,0.002619511422308207
 EUREKA,strict_loo_seat_class,single_on_baseline,Regional,True,True,ALP,ALP,0.002619511422308207
 EUREKA,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,ALP,ALP,0.002619511422308207
 EUREKA,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,ALP,ALP,0.8041004264559004
@@ -1512,6 +1680,7 @@ EUREKA,strict_loo_seat_class,no_constraints,Regional,True,True,ALP,ALP,0.0026195
 EUREKA,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,ALP,ALP,0.002619511422308207
 EUREKA,strict_loo_seat_class,simplified,Regional,True,True,ALP,ALP,0.8041004264559004
 RIPON,own_matrix_reconstruction,reference,Regional,True,True,ALP,ALP,-0.3538880259416288
+RIPON,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,ALP,ALP,-0.3538880259416288
 RIPON,own_matrix_reconstruction,single_on_baseline,Regional,True,True,ALP,ALP,-0.3538880259416288
 RIPON,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,ALP,ALP,-0.3538880259416288
 RIPON,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,ALP,ALP,0.5664002103345944
@@ -1521,6 +1690,7 @@ RIPON,own_matrix_reconstruction,no_constraints,Regional,True,True,ALP,ALP,-0.353
 RIPON,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,ALP,ALP,-0.3538880259416288
 RIPON,own_matrix_reconstruction,simplified,Regional,True,True,ALP,ALP,0.5665897278532062
 RIPON,strict_loo_seat_class,reference,Regional,True,True,ALP,ALP,-0.951661125959935
+RIPON,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,ALP,ALP,-0.951661125959935
 RIPON,strict_loo_seat_class,single_on_baseline,Regional,True,True,ALP,ALP,-0.951661125959935
 RIPON,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,ALP,ALP,-0.951661125959935
 RIPON,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,ALP,ALP,-0.03361976460687366
@@ -1530,6 +1700,7 @@ RIPON,strict_loo_seat_class,no_constraints,Regional,True,True,ALP,ALP,-0.9516611
 RIPON,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,ALP,ALP,-0.951661125959935
 RIPON,strict_loo_seat_class,simplified,Regional,True,True,ALP,ALP,-0.03361976460687366
 LOWAN,own_matrix_reconstruction,reference,Regional,True,True,LNP,LNP,-2.9823483582694377
+LOWAN,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,LNP,LNP,-2.9823483582694377
 LOWAN,own_matrix_reconstruction,single_on_baseline,Regional,True,True,LNP,LNP,-2.9823483582694377
 LOWAN,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,LNP,LNP,-2.9823483582694377
 LOWAN,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-3.7542216246999383
@@ -1539,6 +1710,7 @@ LOWAN,own_matrix_reconstruction,no_constraints,Regional,True,True,LNP,LNP,-2.983
 LOWAN,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,LNP,LNP,-2.9823483582694377
 LOWAN,own_matrix_reconstruction,simplified,Regional,True,True,LNP,LNP,-3.7557350242281795
 LOWAN,strict_loo_seat_class,reference,Regional,True,True,LNP,LNP,-2.8210101862863324
+LOWAN,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,LNP,LNP,-2.8210101862863324
 LOWAN,strict_loo_seat_class,single_on_baseline,Regional,True,True,LNP,LNP,-2.8210101862863324
 LOWAN,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,LNP,LNP,-2.8210101862863324
 LOWAN,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-3.6390095198285843
@@ -1548,6 +1720,7 @@ LOWAN,strict_loo_seat_class,no_constraints,Regional,True,True,LNP,LNP,-2.8210101
 LOWAN,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,LNP,LNP,-2.8210101862863324
 LOWAN,strict_loo_seat_class,simplified,Regional,True,True,LNP,LNP,-3.6390095198285843
 POLWARTH,own_matrix_reconstruction,reference,Regional,True,True,LNP,LNP,0.18188083169728975
+POLWARTH,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,LNP,LNP,0.18188083169728975
 POLWARTH,own_matrix_reconstruction,single_on_baseline,Regional,True,True,LNP,LNP,0.18188083169728975
 POLWARTH,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,LNP,LNP,0.18188083169728975
 POLWARTH,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-0.5833276275096333
@@ -1557,6 +1730,7 @@ POLWARTH,own_matrix_reconstruction,no_constraints,Regional,True,True,LNP,LNP,0.1
 POLWARTH,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,LNP,LNP,0.18188083169728975
 POLWARTH,own_matrix_reconstruction,simplified,Regional,True,True,LNP,LNP,-0.5833276275096333
 POLWARTH,strict_loo_seat_class,reference,Regional,True,True,LNP,LNP,0.11804287236615307
+POLWARTH,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,LNP,LNP,0.11804287236615307
 POLWARTH,strict_loo_seat_class,single_on_baseline,Regional,True,True,LNP,LNP,0.11804287236615307
 POLWARTH,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,LNP,LNP,0.11804287236615307
 POLWARTH,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,-0.6572263850472271
@@ -1566,6 +1740,7 @@ POLWARTH,strict_loo_seat_class,no_constraints,Regional,True,True,LNP,LNP,0.11804
 POLWARTH,strict_loo_seat_class,no_synthetic_priority,Regional,True,True,LNP,LNP,0.11804287236615307
 POLWARTH,strict_loo_seat_class,simplified,Regional,True,True,LNP,LNP,-0.6572263850472271
 SOUTH-WEST COAST,own_matrix_reconstruction,reference,Regional,True,True,LNP,LNP,1.6858424434235686
+SOUTH-WEST COAST,own_matrix_reconstruction,oth_params_rebuild,Regional,True,True,LNP,LNP,1.6858424434235686
 SOUTH-WEST COAST,own_matrix_reconstruction,single_on_baseline,Regional,True,True,LNP,LNP,1.6858424434235686
 SOUTH-WEST COAST,own_matrix_reconstruction,no_on_recipient_geography,Regional,True,True,LNP,LNP,1.6858424434235686
 SOUTH-WEST COAST,own_matrix_reconstruction,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,0.20789882031553297
@@ -1575,6 +1750,7 @@ SOUTH-WEST COAST,own_matrix_reconstruction,no_constraints,Regional,True,True,LNP
 SOUTH-WEST COAST,own_matrix_reconstruction,no_synthetic_priority,Regional,True,True,LNP,LNP,1.6858424434235686
 SOUTH-WEST COAST,own_matrix_reconstruction,simplified,Regional,True,True,LNP,LNP,0.20587794174684593
 SOUTH-WEST COAST,strict_loo_seat_class,reference,Regional,True,True,LNP,LNP,3.1807971624485343
+SOUTH-WEST COAST,strict_loo_seat_class,oth_params_rebuild,Regional,True,True,LNP,LNP,3.1807971624485343
 SOUTH-WEST COAST,strict_loo_seat_class,single_on_baseline,Regional,True,True,LNP,LNP,3.1807971624485343
 SOUTH-WEST COAST,strict_loo_seat_class,no_on_recipient_geography,Regional,True,True,LNP,LNP,3.1807971624485343
 SOUTH-WEST COAST,strict_loo_seat_class,no_non_on_recipient_geography,Regional,True,True,LNP,LNP,1.6473283672416517

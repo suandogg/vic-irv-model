@@ -493,6 +493,7 @@ from tools.preference_review_trials import variant as preference_trial_variant
 from tools.trial_posterior_reliability import seat_count_trial
 trial_options = {
     "Current reference": "reference",
+    "Rebuild OTH rows from current PARAMS": "oth_params_rebuild",
     "Matrix source only, retain extra transforms": "matrix_source_only",
     "Single synthetic ON fallback baseline": "single_on_baseline",
     "Keep ON source selection, remove extra transforms": "on_no_extra_transforms",
@@ -510,6 +511,12 @@ trial_options = {
 trial_label = st.sidebar.selectbox("Preference trial", list(trial_options))
 trial_method = trial_options[trial_label]
 params = preference_trial_variant(params, trial_method)
+if trial_method == "oth_params_rebuild":
+    from tools.trial_oth_matrix_rebuild import rebuild_oth_matrices
+    matrices = rebuild_oth_matrices(matrices, params)
+if st.sidebar.button("Refresh Google Sheet inputs"):
+    st.cache_data.clear()
+    st.rerun()
 if trial_method.startswith("seat_reliability_"):
     posterior = seat_count_trial(posterior, int(trial_method.rsplit("_", 1)[1]))
 st.sidebar.caption("Live testing-sheet inputs. Trial choice affects Assembly preferences; saved comparison reports use the frozen 8 October inputs.")
