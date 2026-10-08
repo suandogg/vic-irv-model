@@ -1,0 +1,3622 @@
+[
+  {
+    "seat": "Albert Park",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "BRADEA, VIOREL",
+        "category": "OTH",
+        "parcel": 466.0
+      }
+    ],
+    "next_eliminated": "ANTUNOVIC, ELIZABETH",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "DRAGWIDGE, GEORGIE",
+      "SAMIOTIS, KIM",
+      "SHERSON, LAUREN",
+      "SMART, LANCE",
+      "TAYLOR, NINA",
+      "WESTWOOD, CASSANDRA"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Ashwood",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "DOYLE, MICHAEL",
+        "category": "OTH",
+        "parcel": 467.0
+      },
+      {
+        "eliminated": "BAKER, NORMAN F.",
+        "category": "OTH",
+        "parcel": 609.0840958605664
+      },
+      {
+        "eliminated": "SALOUMI, LYNNETTE",
+        "category": "IND",
+        "parcel": 898.1739992628357
+      }
+    ],
+    "next_eliminated": "GEYER, KEITH",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "FREGON, MATT",
+      "GRIFFITHS, MILTON",
+      "JUDAH, ASHER",
+      "MORGAN, PETER"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Bass",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "EDWARDS, MEG",
+        "category": "OTH",
+        "parcel": 872.0
+      }
+    ],
+    "next_eliminated": "MUNDAY, MARCUS",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "BROWN, AARON",
+      "BUGBIRD, CALLUM",
+      "CRUGNALE, JORDAN",
+      "JOBE, JENI",
+      "MOUSELLIS, ELLY",
+      "O'NEILL, MARK",
+      "TESSARI, BRETT",
+      "VERHAGEN, MARTIN"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Bayswater",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "WORMALD, ALYSSA",
+        "category": "OTH",
+        "parcel": 840.0
+      }
+    ],
+    "next_eliminated": "FIELD, CHRIS",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "COOMBES, GARY",
+      "DOLAN, THOMAS",
+      "HEAP, ASHLEY",
+      "MACKALLAH, CHLOE",
+      "SIRNINGER RANKIN, NADIA",
+      "TAYLOR, JACKSON",
+      "WAKELING, NICK"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Bellarine",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "TAYLOR, BRENDAN",
+        "category": "OTH",
+        "parcel": 389.0
+      },
+      {
+        "eliminated": "MUSE, KYLEE",
+        "category": "OTH",
+        "parcel": 493.28336816960285
+      },
+      {
+        "eliminated": "RITCHIE, BRETT ANTHONY",
+        "category": "OTH",
+        "parcel": 917.3074359756067
+      }
+    ],
+    "next_eliminated": "MANUELL, GUY",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "CARDILINI, ADAM",
+      "FENTON, SARAH",
+      "GRIGAU, DONNIE",
+      "MARCHANT, ALISON",
+      "SEMMENS, RACHEL"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Benambra",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "O'BRIEN, ADRIAN JAMES",
+        "category": "OTH",
+        "parcel": 683.0
+      },
+      {
+        "eliminated": "ROSSITER, DEAN",
+        "category": "OTH",
+        "parcel": 924.2108282538544
+      }
+    ],
+    "next_eliminated": "STRATTON, JANELLE",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "BRADY, LUKE",
+      "FUERY, MIKE",
+      "HAWKINS, JACQUI",
+      "TAIT, MARK",
+      "TILLEY, BILL"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Bendigo East",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "KEETELAAR, EVELYN",
+        "category": "OTH",
+        "parcel": 1362.0
+      },
+      {
+        "eliminated": "MCLELLAND-HOWE, VYONNE",
+        "category": "OTH",
+        "parcel": 1757.0
+      },
+      {
+        "eliminated": "LAURIE, JAMES",
+        "category": "IND",
+        "parcel": 2023.0
+      },
+      {
+        "eliminated": "MIHAIL, BEN",
+        "category": "ON",
+        "parcel": 4387.0
+      },
+      {
+        "eliminated": "TOLHURST, MICHAEL JAMES",
+        "category": "GRN",
+        "parcel": 5522.0
+      }
+    ],
+    "final_candidates": [
+      "ALLAN, JACINTA",
+      "SCHADE, DARIN"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      60.847524578651694,
+      39.15247542134831
+    ]
+  },
+  {
+    "seat": "Bendigo West",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "NUSKE, MARILYN",
+        "category": "OTH",
+        "parcel": 349.0
+      },
+      {
+        "eliminated": "WOOLLEY, RICHARD JAMES",
+        "category": "OTH",
+        "parcel": 619.3813574660634
+      },
+      {
+        "eliminated": "MAXWELL, VICTORIA",
+        "category": "OTH",
+        "parcel": 1141.8748486403426
+      },
+      {
+        "eliminated": "BANSEMER, MATT",
+        "category": "IND",
+        "parcel": 1293.2788720190847
+      },
+      {
+        "eliminated": "SERPELL, STEVE",
+        "category": "OTH",
+        "parcel": 2433.7534206783444
+      },
+      {
+        "eliminated": "TAYLOR, WAYNE",
+        "category": "OTH",
+        "parcel": 3830.7526959967868
+      },
+      {
+        "eliminated": "SEARLE, JAMES",
+        "category": "GRN",
+        "parcel": 6676.516290667516
+      }
+    ],
+    "final_candidates": [
+      "EDWARDS, MAREE",
+      "PRICE, KEN"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      64.77575310345848,
+      35.22424689654151
+    ]
+  },
+  {
+    "seat": "Bentleigh",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "GNIESLAW, SIMON",
+        "category": "IND",
+        "parcel": 789.0
+      },
+      {
+        "eliminated": "HARRIS, DAVID",
+        "category": "OTH",
+        "parcel": 1215.52984767394
+      },
+      {
+        "eliminated": "RYAN, PAUL",
+        "category": "OTH",
+        "parcel": 1768.569884131294
+      },
+      {
+        "eliminated": "GALLI-MCROSTIE, ALANA",
+        "category": "GRN",
+        "parcel": 6031.102771557771
+      }
+    ],
+    "final_candidates": [
+      "STAIKOS, NICK",
+      "TAYLOR-HAYNES, DEBBIE"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      58.043753095337614,
+      41.95624690466238
+    ]
+  },
+  {
+    "seat": "Berwick",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "DOLHEGUY, KATHERINE",
+        "category": "OTH",
+        "parcel": 1029.0
+      },
+      {
+        "eliminated": "VAN DER HORST, JOEL",
+        "category": "OTH",
+        "parcel": 1686.5297580117724
+      },
+      {
+        "eliminated": "HAUPT, KERRY",
+        "category": "OTH",
+        "parcel": 2649.3645382258787
+      },
+      {
+        "eliminated": "PERRY, HAYLEY",
+        "category": "GRN",
+        "parcel": 5592.9409469236025
+      }
+    ],
+    "final_candidates": [
+      "BATTIN, BRAD",
+      "ZAVEER, MALIK"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      54.714718732115855,
+      45.285281267884145
+    ]
+  },
+  {
+    "seat": "Box Hill",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "LISTON, CAMERON",
+        "category": "OTH",
+        "parcel": 435.0
+      },
+      {
+        "eliminated": "RIERA, ALICIA",
+        "category": "OTH",
+        "parcel": 562.7595947190666
+      },
+      {
+        "eliminated": "TSENG, WAYNE",
+        "category": "IND",
+        "parcel": 716.0221271327334
+      },
+      {
+        "eliminated": "ONG, GARY",
+        "category": "OTH",
+        "parcel": 1058.1042655511048
+      },
+      {
+        "eliminated": "FOLLONI, SEBASTIAN",
+        "category": "OTH",
+        "parcel": 1281.2703746765278
+      },
+      {
+        "eliminated": "DEAN, PAUL",
+        "category": "OTH",
+        "parcel": 1811.2782904662968
+      },
+      {
+        "eliminated": "SHAN, JOANNE",
+        "category": "GRN",
+        "parcel": 7464.429014782876
+      }
+    ],
+    "final_candidates": [
+      "HAMER, PAUL",
+      "WERNER, NICOLE TA-EI"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      57.24488452436221,
+      42.75511547563779
+    ]
+  },
+  {
+    "seat": "Brighton",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "TIMMS, ALLAN L.",
+        "category": "OTH",
+        "parcel": 211.0
+      },
+      {
+        "eliminated": "CASLEY, JOHN TIGER",
+        "category": "OTH",
+        "parcel": 265.4752018454441
+      },
+      {
+        "eliminated": "SCIOLA, NICK",
+        "category": "OTH",
+        "parcel": 617.3673164985644
+      },
+      {
+        "eliminated": "WALKER, ALICIA",
+        "category": "OTH",
+        "parcel": 1001.765873137965
+      },
+      {
+        "eliminated": "GIBSON, SALLY",
+        "category": "OTH",
+        "parcel": 1320.69283438414
+      },
+      {
+        "eliminated": "FREDERICO, FELICITY",
+        "category": "IND",
+        "parcel": 4430.029524523843
+      },
+      {
+        "eliminated": "DEKIERE, SARAH",
+        "category": "GRN",
+        "parcel": 8629.483788622261
+      }
+    ],
+    "final_candidates": [
+      "NEWBURY, JAMES",
+      "CRAWFORD, LOUISE"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      55.07706457151803,
+      44.92293542848198
+    ]
+  },
+  {
+    "seat": "Broadmeadows",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "HUYBREGTS, ARIE",
+        "category": "OTH",
+        "parcel": 362.0
+      },
+      {
+        "eliminated": "SUTTER, BEN",
+        "category": "OTH",
+        "parcel": 842.3796192609183
+      },
+      {
+        "eliminated": "FEILD, CANDACE",
+        "category": "OTH",
+        "parcel": 1132.2475630291108
+      },
+      {
+        "eliminated": "ELMUSTAPHA, MOHAMAD",
+        "category": "IND",
+        "parcel": 1460.3274703868738
+      },
+      {
+        "eliminated": "TAM, BIENNE",
+        "category": "OTH",
+        "parcel": 2333.87478354705
+      }
+    ],
+    "next_eliminated": "AGUILUS, JOE",
+    "category": "GRN",
+    "same_category_remaining": false,
+    "remaining_candidates": [
+      "DUZOVA, BARIS",
+      "HASSAN, OMAR",
+      "MATTHEWS-WARD, KATHLEEN"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Brunswick",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "TAYLOR, KENNETH CHARLES",
+        "category": "OTH",
+        "parcel": 153.0
+      },
+      {
+        "eliminated": "SHAKER, LILIAN SABRY",
+        "category": "OTH",
+        "parcel": 533.2846857657117
+      },
+      {
+        "eliminated": "LAMARCHE-BEAUCHESNE, RACHEL",
+        "category": "OTH",
+        "parcel": 718.597988770819
+      },
+      {
+        "eliminated": "HELOU, ANTHONY",
+        "category": "IND",
+        "parcel": 814.1825443231942
+      },
+      {
+        "eliminated": "EVANS, SHEA",
+        "category": "OTH",
+        "parcel": 2148.840519976281
+      },
+      {
+        "eliminated": "JIMENEZ, NAHUI",
+        "category": "OTH",
+        "parcel": 4512.126767102226
+      },
+      {
+        "eliminated": "NGUYEN, MINH QUAN",
+        "category": "LNP",
+        "parcel": 5620.883344669757
+      }
+    ],
+    "final_candidates": [
+      "READ, TIM",
+      "WILLIAMS, MIKE"
+    ],
+    "final_categories": [
+      "GRN",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      63.71514581490844,
+      36.28485418509157
+    ]
+  },
+  {
+    "seat": "Bulleen",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "VINCENT, DAVID",
+        "category": "OTH",
+        "parcel": 214.0
+      },
+      {
+        "eliminated": "SABHLOK, SANJEEV",
+        "category": "IND",
+        "parcel": 485.0
+      },
+      {
+        "eliminated": "JAFARI, ELNAZ",
+        "category": "OTH",
+        "parcel": 957.0226007206027
+      },
+      {
+        "eliminated": "STOKES, JASON",
+        "category": "OTH",
+        "parcel": 1247.3039080342717
+      },
+      {
+        "eliminated": "PATRIKIOS, VOULA",
+        "category": "OTH",
+        "parcel": 1960.0676692384468
+      },
+      {
+        "eliminated": "STAFFORD, KELLIE",
+        "category": "GRN",
+        "parcel": 5763.001887334639
+      }
+    ],
+    "final_candidates": [
+      "GUY, MATTHEW",
+      "ROGERS, IAN"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      55.916557472140724,
+      44.08344252785928
+    ]
+  },
+  {
+    "seat": "Bundoora",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "KOELMEYER, ERIC",
+        "category": "IND",
+        "parcel": 408.0
+      },
+      {
+        "eliminated": "HOLGATE, BELLA",
+        "category": "OTH",
+        "parcel": 1282.4641999038924
+      },
+      {
+        "eliminated": "JONES, ETHAN",
+        "category": "OTH",
+        "parcel": 1594.3070983841171
+      },
+      {
+        "eliminated": "LU, ANDREW",
+        "category": "OTH",
+        "parcel": 2933.018956008105
+      },
+      {
+        "eliminated": "O'BRIEN, JULIE",
+        "category": "GRN",
+        "parcel": 6725.365533052782
+      }
+    ],
+    "final_candidates": [
+      "BROOKS, COLIN",
+      "TOMAR, SAHIL"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      62.69436605432409,
+      37.305633945675915
+    ]
+  },
+  {
+    "seat": "Carrum",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "WILLIS, DAMIAN",
+        "category": "IND",
+        "parcel": 981.0
+      },
+      {
+        "eliminated": "MACGREGOR OWEN, TAYLOR",
+        "category": "OTH",
+        "parcel": 1405.3953488372092
+      },
+      {
+        "eliminated": "CAMERON, JEREMY",
+        "category": "OTH",
+        "parcel": 1838.5590653587567
+      },
+      {
+        "eliminated": "EREVNIDIS, GEORGIA",
+        "category": "OTH",
+        "parcel": 3487.468817966347
+      },
+      {
+        "eliminated": "LILLICO, JAYDE",
+        "category": "GRN",
+        "parcel": 5509.650336856228
+      }
+    ],
+    "final_candidates": [
+      "KILKENNY, SONYA",
+      "BUCHANAN, BEC"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      59.811430917130636,
+      40.18856908286937
+    ]
+  },
+  {
+    "seat": "Caulfield",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "EDWELL, LYNNE",
+        "category": "OTH",
+        "parcel": 557.0
+      },
+      {
+        "eliminated": "ABELMAN, MICHAEL",
+        "category": "OTH",
+        "parcel": 855.6605950212507
+      },
+      {
+        "eliminated": "MYERSON, ASHER",
+        "category": "OTH",
+        "parcel": 1102.7524879413993
+      },
+      {
+        "eliminated": "KALTMANN, NOMI",
+        "category": "IND",
+        "parcel": 3076.465879021168
+      },
+      {
+        "eliminated": "IAMPOLSKI, RACHEL",
+        "category": "GRN",
+        "parcel": 8523.8302865062
+      }
+    ],
+    "final_candidates": [
+      "SOUTHWICK, DAVID",
+      "HAREL, LIOR"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      51.98011892773054,
+      48.01988107226947
+    ]
+  },
+  {
+    "seat": "Clarinda",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "WOLFE, STEVE",
+        "category": "OTH",
+        "parcel": 794.0
+      },
+      {
+        "eliminated": "LITCHFIELD, SUE",
+        "category": "OTH",
+        "parcel": 1123.4829443447038
+      },
+      {
+        "eliminated": "VO, HUNG",
+        "category": "OTH",
+        "parcel": 1377.6227552022353
+      },
+      {
+        "eliminated": "HASTINGS, KAREN",
+        "category": "OTH",
+        "parcel": 1801.5447127482266
+      },
+      {
+        "eliminated": "MOFFETT, JESSAMINE",
+        "category": "GRN",
+        "parcel": 4021.9210761952563
+      },
+      {
+        "eliminated": "WHITE, CAROLINE",
+        "category": "IND",
+        "parcel": 5641.814972436704
+      }
+    ],
+    "final_candidates": [
+      "TAK, MENG HEANG",
+      "RICHARDSON, ANTHONY"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      60.25047417412134,
+      39.74952582587865
+    ]
+  },
+  {
+    "seat": "Cranbourne",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "RAGUPATHY, RAVI",
+        "category": "IND",
+        "parcel": 242.0
+      },
+      {
+        "eliminated": "BRENNAN, GWYNNE",
+        "category": "OTH",
+        "parcel": 1018.9806451612903
+      },
+      {
+        "eliminated": "PHILPOTT, PETER BERNARD",
+        "category": "OTH",
+        "parcel": 1222.20033283266
+      },
+      {
+        "eliminated": "HANSEN, GERARDINE FRANCES",
+        "category": "OTH",
+        "parcel": 2151.7387270136433
+      }
+    ],
+    "next_eliminated": "VEMPATI, KIRAN",
+    "category": "GRN",
+    "same_category_remaining": false,
+    "remaining_candidates": [
+      "HARVEY, BRADLEY",
+      "NORTON, CHRIS",
+      "RICHARDS, PAULINE",
+      "SINGH, JAGDEEP"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Croydon",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "MCDONALD-ECKERSALL, HARLEY",
+        "category": "OTH",
+        "parcel": 1501.0
+      },
+      {
+        "eliminated": "DE WIT, SOPHIA",
+        "category": "OTH",
+        "parcel": 2256.3633655994045
+      },
+      {
+        "eliminated": "NEBAUER, DAN",
+        "category": "OTH",
+        "parcel": 2778.7588387591004
+      },
+      {
+        "eliminated": "POWELL, BRENDAN",
+        "category": "GRN",
+        "parcel": 6564.223291902747
+      }
+    ],
+    "final_candidates": [
+      "HODGETT, DAVID",
+      "GRASSO, SORINA"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      51.299885639133926,
+      48.700114360866074
+    ]
+  },
+  {
+    "seat": "Dandenong",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "TURNER, THAM",
+        "category": "OTH",
+        "parcel": 958.0
+      },
+      {
+        "eliminated": "KLOP, ANDREW",
+        "category": "OTH",
+        "parcel": 1066.3490712074304
+      },
+      {
+        "eliminated": "LEVCHENKO, ANTHONY",
+        "category": "OTH",
+        "parcel": 1776.059052162414
+      },
+      {
+        "eliminated": "KIRWAN, MATTHEW",
+        "category": "GRN",
+        "parcel": 3718.077041253697
+      },
+      {
+        "eliminated": "HARMSE, AUDREY",
+        "category": "OTH",
+        "parcel": 5398.041487449678
+      }
+    ],
+    "final_candidates": [
+      "WILLIAMS, GABRIELLE",
+      "BROADLEY, KAREN"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      68.2656336498967,
+      31.734366350103315
+    ]
+  },
+  {
+    "seat": "Eildon",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "THORNTON, ROBERT",
+        "category": "OTH",
+        "parcel": 459.0
+      },
+      {
+        "eliminated": "CORDNER HUNT, KAMMY",
+        "category": "IND",
+        "parcel": 755.0
+      },
+      {
+        "eliminated": "BOND, CHLOE",
+        "category": "OTH",
+        "parcel": 1469.4408755650725
+      },
+      {
+        "eliminated": "RUSIC, JOSHUA",
+        "category": "OTH",
+        "parcel": 1802.797509911008
+      },
+      {
+        "eliminated": "LACEY, TIM",
+        "category": "OTH",
+        "parcel": 3013.268692233405
+      },
+      {
+        "eliminated": "MIKELSONS, WIL",
+        "category": "GRN",
+        "parcel": 6596.720394576052
+      }
+    ],
+    "final_candidates": [
+      "MCLEISH, CINDY",
+      "JUDD, JANE"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      56.97152702488112,
+      43.02847297511888
+    ]
+  },
+  {
+    "seat": "Eltham",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "KARIMI, LEILA",
+        "category": "OTH",
+        "parcel": 710.0
+      },
+      {
+        "eliminated": "MARSHALL, CATRIONA",
+        "category": "OTH",
+        "parcel": 1126.8504495977284
+      },
+      {
+        "eliminated": "STUBLEY, HUGH",
+        "category": "OTH",
+        "parcel": 1569.9092368155723
+      },
+      {
+        "eliminated": "GRIMES, ALEX",
+        "category": "GRN",
+        "parcel": 6864.335818634263
+      }
+    ],
+    "final_candidates": [
+      "WARD, VICKI",
+      "MCCLINTOCK, JASON"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      59.06812320143946,
+      40.93187679856054
+    ]
+  },
+  {
+    "seat": "Essendon",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "MUIR, MARGARET",
+        "category": "OTH",
+        "parcel": 848.0
+      }
+    ],
+    "next_eliminated": "WRIGHT, DAVID",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "BARONESSA, ANGELO",
+      "DADICH, DANIEL NAIR",
+      "HOPE, NICHOLAS",
+      "PEARSON, DANNY",
+      "PRENTIS, JARED",
+      "WILLIAMS, GAYLE"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Eureka",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "BANWELL, MARK WILLIAM",
+        "category": "OTH",
+        "parcel": 220.0
+      },
+      {
+        "eliminated": "RAY, MICHAEL",
+        "category": "OTH",
+        "parcel": 672.7608765710603
+      },
+      {
+        "eliminated": "GIAMPAOLO, ANTHONY JOSEPH",
+        "category": "OTH",
+        "parcel": 991.2848665609167
+      }
+    ],
+    "next_eliminated": "GARCIA, ADRIAN",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "MCCOLL, SAM",
+      "MORRISON, WENDY",
+      "REID, NICOLA",
+      "RICKARD, TABITHA",
+      "SETTLE, MICHAELA",
+      "TATCHELL, PAUL"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Euroa",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "HADDOCK, ELAINE",
+        "category": "OTH",
+        "parcel": 1170.0
+      },
+      {
+        "eliminated": "BACHELOR, PAUL",
+        "category": "OTH",
+        "parcel": 1668.8492647058824
+      },
+      {
+        "eliminated": "BENNETT, JAMES",
+        "category": "GRN",
+        "parcel": 2687.2314231471773
+      },
+      {
+        "eliminated": "ROWBOTHAM, RAYMOND MARK",
+        "category": "OTH",
+        "parcel": 3351.8482627915823
+      },
+      {
+        "eliminated": "HEARN, BRAD",
+        "category": "LNP",
+        "parcel": 10831.53379017252
+      }
+    ],
+    "final_candidates": [
+      "CLEELAND, ANNABELLE",
+      "TOUGH, ANGELA"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      59.81049922244177,
+      40.189500777558244
+    ]
+  },
+  {
+    "seat": "Evelyn",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "DE FRANCESCO, ROSALIE",
+        "category": "OTH",
+        "parcel": 366.0
+      },
+      {
+        "eliminated": "DE FRANCESCO, NAT",
+        "category": "IND",
+        "parcel": 649.0
+      },
+      {
+        "eliminated": "HEALD, JAN",
+        "category": "OTH",
+        "parcel": 2007.6272661348805
+      },
+      {
+        "eliminated": "DOBSON, JEANETTE",
+        "category": "OTH",
+        "parcel": 3132.1225766386838
+      },
+      {
+        "eliminated": "HENLEY, ANDREW",
+        "category": "GRN",
+        "parcel": 5606.453795778872
+      }
+    ],
+    "final_candidates": [
+      "VALLENCE, BRIDGET",
+      "DENT, LORNA"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      55.407012385911756,
+      44.59298761408823
+    ]
+  },
+  {
+    "seat": "Footscray",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "MUIR, RUSSELL",
+        "category": "OTH",
+        "parcel": 838.0
+      },
+      {
+        "eliminated": "MANSOURI JAJAEE, SHOHRE",
+        "category": "OTH",
+        "parcel": 1059.7634904371585
+      },
+      {
+        "eliminated": "WILLIAMS, ALAN",
+        "category": "OTH",
+        "parcel": 1248.8974066704689
+      },
+      {
+        "eliminated": "JORQUERA, JORGE",
+        "category": "OTH",
+        "parcel": 4452.320735457458
+      },
+      {
+        "eliminated": "JOESIKA, EMETE",
+        "category": "LNP",
+        "parcel": 8461.733172140468
+      }
+    ],
+    "final_candidates": [
+      "HALL, KATIE",
+      "PEREYRA, ELENA"
+    ],
+    "final_categories": [
+      "ALP",
+      "GRN"
+    ],
+    "final_shares_pct": [
+      54.16463634896337,
+      45.835363651036644
+    ]
+  },
+  {
+    "seat": "Frankston",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "KELSALL, HENRY",
+        "category": "OTH",
+        "parcel": 369.0
+      },
+      {
+        "eliminated": "BERGWERF, DARREN PAUL",
+        "category": "IND",
+        "parcel": 961.0
+      },
+      {
+        "eliminated": "BROWN, RICHARD",
+        "category": "OTH",
+        "parcel": 1253.8819431368856
+      }
+    ],
+    "next_eliminated": "JOHNSTON, ELIZABETH",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "ABRAHAM, CHRYSTEN",
+      "EDBROOKE, PAUL",
+      "GREEN, EMILY",
+      "O'REILLY, MICHAEL",
+      "SURIC, DRAGAN"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Geelong",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "JUHASZ, STEPHEN",
+        "category": "OTH",
+        "parcel": 455.0
+      },
+      {
+        "eliminated": "CARR, ANGELA",
+        "category": "IND",
+        "parcel": 1148.0
+      },
+      {
+        "eliminated": "MOTTA, BOB",
+        "category": "OTH",
+        "parcel": 1731.6666666666667
+      },
+      {
+        "eliminated": "PARKER-HILL, MADELEINE",
+        "category": "OTH",
+        "parcel": 2847.1574642126793
+      },
+      {
+        "eliminated": "SMITH, ALEISHA",
+        "category": "GRN",
+        "parcel": 8799.798891621136
+      }
+    ],
+    "final_candidates": [
+      "COUZENS, CHRISTINE",
+      "BENNETT-HULLIN, JAMES"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      64.77902088311801,
+      35.22097911688199
+    ]
+  },
+  {
+    "seat": "Gippsland East",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "COURT, SALLY",
+        "category": "OTH",
+        "parcel": 725.0
+      },
+      {
+        "eliminated": "FECHNER, CARL JOHN",
+        "category": "OTH",
+        "parcel": 1130.5524044389642
+      },
+      {
+        "eliminated": "BARNES, ED",
+        "category": "OTH",
+        "parcel": 1653.4748684107565
+      },
+      {
+        "eliminated": "LING, NISSA",
+        "category": "GRN",
+        "parcel": 3121.67036872437
+      },
+      {
+        "eliminated": "MUIR, RICKY",
+        "category": "OTH",
+        "parcel": 4324.641813568579
+      }
+    ],
+    "final_candidates": [
+      "BULL, TIM",
+      "RICHARDSON, STEPHEN"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      74.54583031993911,
+      25.45416968006089
+    ]
+  },
+  {
+    "seat": "Gippsland South",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "FURLONG, PAUL",
+        "category": "OTH",
+        "parcel": 1213.0
+      },
+      {
+        "eliminated": "JEGES, HELEN",
+        "category": "OTH",
+        "parcel": 1594.6725860155382
+      },
+      {
+        "eliminated": "NEWNHAM, ANGELA",
+        "category": "OTH",
+        "parcel": 2112.0556107249254
+      },
+      {
+        "eliminated": "ESLER, CLAY",
+        "category": "IND",
+        "parcel": 3501.786598269431
+      },
+      {
+        "eliminated": "TIZIANI-SIMPSON, JAY",
+        "category": "GRN",
+        "parcel": 4961.097369588777
+      }
+    ],
+    "final_candidates": [
+      "O'BRIEN, DANNY",
+      "RYAN, DENISE"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      65.51757739689262,
+      34.48242260310739
+    ]
+  },
+  {
+    "seat": "Glen Waverley",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "HARRIS, JOYCE MAREE",
+        "category": "OTH",
+        "parcel": 664.0
+      },
+      {
+        "eliminated": "HANCE, MADDY",
+        "category": "OTH",
+        "parcel": 897.2236914600551
+      },
+      {
+        "eliminated": "HUISMAN, KRISTEEN",
+        "category": "OTH",
+        "parcel": 1181.0363516012121
+      },
+      {
+        "eliminated": "MARSH, SCOTT",
+        "category": "OTH",
+        "parcel": 2648.826385278439
+      },
+      {
+        "eliminated": "PARTRIDGE, STEPH",
+        "category": "GRN",
+        "parcel": 5881.8461516948955
+      }
+    ],
+    "final_candidates": [
+      "MULLAHY, JOHN",
+      "ANGUS, NEIL"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      53.35634173286551,
+      46.64365826713449
+    ]
+  },
+  {
+    "seat": "Greenvale",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "STYLES, LAUREN",
+        "category": "OTH",
+        "parcel": 1225.0
+      },
+      {
+        "eliminated": "FURINA, ROSANNA",
+        "category": "OTH",
+        "parcel": 1439.3861758076634
+      },
+      {
+        "eliminated": "ERCIYAS, FATMA",
+        "category": "IND",
+        "parcel": 2583.1947238394587
+      },
+      {
+        "eliminated": "SANTA-ISABEL, CRISTINA",
+        "category": "GRN",
+        "parcel": 2801.206378500612
+      },
+      {
+        "eliminated": "YOLBULAN, MUTULLAH CAN",
+        "category": "OTH",
+        "parcel": 4248.47127058102
+      },
+      {
+        "eliminated": "BENGTSSON, MARIA",
+        "category": "OTH",
+        "parcel": 5597.387569895749
+      }
+    ],
+    "final_candidates": [
+      "WALTERS, IWAN",
+      "GHANI, USMAN"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      57.07216655805157,
+      42.92783344194843
+    ]
+  },
+  {
+    "seat": "Hastings",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "WHITEHILL, ROBERT",
+        "category": "IND",
+        "parcel": 533.0
+      },
+      {
+        "eliminated": "DE WIT, CAMILLE",
+        "category": "OTH",
+        "parcel": 873.9132154006244
+      },
+      {
+        "eliminated": "SABO, TOM",
+        "category": "OTH",
+        "parcel": 1119.294309105917
+      },
+      {
+        "eliminated": "BENSON, JANET FELICITY",
+        "category": "OTH",
+        "parcel": 1692.4751709727223
+      },
+      {
+        "eliminated": "JACK, TYSON",
+        "category": "OTH",
+        "parcel": 2821.205595217205
+      },
+      {
+        "eliminated": "SAUNDERS, PAUL",
+        "category": "GRN",
+        "parcel": 6106.339412911224
+      }
+    ],
+    "final_candidates": [
+      "MERCURIO, PAUL",
+      "HUTTON, BRIONY"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      51.58631796480635,
+      48.41368203519366
+    ]
+  },
+  {
+    "seat": "Hawthorn",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "BELL, STRATTON",
+        "category": "OTH",
+        "parcel": 354.0
+      },
+      {
+        "eliminated": "TRIANTAFILLIS, KEN",
+        "category": "OTH",
+        "parcel": 423.5687462144155
+      }
+    ],
+    "next_eliminated": "PEPPARD, RICHARD",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "FUHRER, FAITH",
+      "KENNEDY, JOHN",
+      "LOWE, MELISSA",
+      "PESUTTO, JOHN",
+      "SAVAGE, NICK"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Ivanhoe",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "LANGDON, CRAIG",
+        "category": "IND",
+        "parcel": 739.0
+      },
+      {
+        "eliminated": "RISTEVSKI, SONJA",
+        "category": "OTH",
+        "parcel": 1034.0510915002321
+      },
+      {
+        "eliminated": "HAYWARD, SARAH",
+        "category": "OTH",
+        "parcel": 1610.7629493641543
+      },
+      {
+        "eliminated": "BIEBER, EMILY",
+        "category": "GRN",
+        "parcel": 8846.131528236967
+      }
+    ],
+    "final_candidates": [
+      "CARBINES, ANTHONY",
+      "KHOURY, BERNADETTE"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      62.738461539648384,
+      37.26153846035161
+    ]
+  },
+  {
+    "seat": "Kalkallo",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "FRENCH, CALLUM JOHN",
+        "category": "OTH",
+        "parcel": 299.0
+      },
+      {
+        "eliminated": "SANDHU, SMILEY",
+        "category": "OTH",
+        "parcel": 413.93668052446435
+      },
+      {
+        "eliminated": "PAREL, JIMMY GEORGE",
+        "category": "IND",
+        "parcel": 777.0655175054162
+      },
+      {
+        "eliminated": "LOWE, FRANCES",
+        "category": "OTH",
+        "parcel": 1620.671606386581
+      },
+      {
+        "eliminated": "MONSALVE TOBON, SERGIO",
+        "category": "OTH",
+        "parcel": 2463.2591243863803
+      },
+      {
+        "eliminated": "UL MURTAZA, MUHAMMAD NISAR",
+        "category": "GRN",
+        "parcel": 3375.638732905791
+      },
+      {
+        "eliminated": "SAYER, DAS",
+        "category": "OTH",
+        "parcel": 4863.739989187134
+      }
+    ],
+    "final_candidates": [
+      "SPENCE, ROS",
+      "SINGH, BIKRAM"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      66.5057920418591,
+      33.49420795814089
+    ]
+  },
+  {
+    "seat": "Kew",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SULLIVAN, KYM",
+        "category": "OTH",
+        "parcel": 147.0
+      },
+      {
+        "eliminated": "DAVIS, FINLAY",
+        "category": "OTH",
+        "parcel": 163.6906779661017
+      },
+      {
+        "eliminated": "SCHOFIELD, RUBY",
+        "category": "OTH",
+        "parcel": 537.2552707357044
+      },
+      {
+        "eliminated": "SEELEY, ANN",
+        "category": "OTH",
+        "parcel": 856.9835757525386
+      },
+      {
+        "eliminated": "CARTER, JACKIE",
+        "category": "GRN",
+        "parcel": 3928.266513312351
+      },
+      {
+        "eliminated": "TORNEY, SOPHIE",
+        "category": "IND",
+        "parcel": 11461.879498781604
+      }
+    ],
+    "final_candidates": [
+      "WILSON, JESS",
+      "SKELTON, LUCY"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      53.990350731527414,
+      46.00964926847258
+    ]
+  },
+  {
+    "seat": "Kororoit",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "CHANDOK, JAZ",
+        "category": "OTH",
+        "parcel": 623.0
+      },
+      {
+        "eliminated": "BAUCH, JOH",
+        "category": "IND",
+        "parcel": 1007.0
+      },
+      {
+        "eliminated": "DIVITA, KATHERINE",
+        "category": "OTH",
+        "parcel": 1377.2409352761777
+      }
+    ],
+    "next_eliminated": "MILUTINOVIC, MELANIE",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "BROWN, ZUZANNA",
+      "CHESTER, BEN",
+      "FLETCHER, JOHN",
+      "GIBSON, BELLE",
+      "GRIGOROVITCH, LUBA"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Lara",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "TAYLOR, ASH",
+        "category": "OTH",
+        "parcel": 938.0
+      },
+      {
+        "eliminated": "HATHWAY, SARAH",
+        "category": "IND",
+        "parcel": 1139.0
+      },
+      {
+        "eliminated": "KELLY, PETER",
+        "category": "OTH",
+        "parcel": 1804.3485276321096
+      },
+      {
+        "eliminated": "PAYNE, MAX",
+        "category": "OTH",
+        "parcel": 2394.5547794122285
+      },
+      {
+        "eliminated": "RANKINE, STEVE",
+        "category": "OTH",
+        "parcel": 3549.4340796493702
+      },
+      {
+        "eliminated": "GARDNER, COURTNEY",
+        "category": "GRN",
+        "parcel": 6822.222867657406
+      }
+    ],
+    "final_candidates": [
+      "GEORGE, ELLA",
+      "KREIN, RALPH"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      65.81239194472589,
+      34.18760805527411
+    ]
+  },
+  {
+    "seat": "Laverton",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "PAREDES, RUFO",
+        "category": "IND",
+        "parcel": 355.0
+      },
+      {
+        "eliminated": "RAYMOND, TRENT",
+        "category": "OTH",
+        "parcel": 660.3250280303974
+      },
+      {
+        "eliminated": "BAGHERI, POUYA",
+        "category": "OTH",
+        "parcel": 762.466367689554
+      },
+      {
+        "eliminated": "SONI, GURNEET",
+        "category": "OTH",
+        "parcel": 1253.6285146502328
+      },
+      {
+        "eliminated": "FRY, DAVID",
+        "category": "OTH",
+        "parcel": 1657.216999768209
+      },
+      {
+        "eliminated": "WIRTH, MICHAEL",
+        "category": "OTH",
+        "parcel": 2841.890208566799
+      },
+      {
+        "eliminated": "ROBERTSON, CATHERINE",
+        "category": "OTH",
+        "parcel": 3566.7429262552305
+      },
+      {
+        "eliminated": "DURZADA, BRAISHNA",
+        "category": "GRN",
+        "parcel": 7449.539730477075
+      }
+    ],
+    "final_candidates": [
+      "CONNOLLY, SARAH",
+      "REDDY, RAJA"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      68.44666820567062,
+      31.55333179432939
+    ]
+  },
+  {
+    "seat": "Lowan",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "RAMSAY, TAMASIN",
+        "category": "OTH",
+        "parcel": 1018.0
+      },
+      {
+        "eliminated": "COLEMAN, ROBERT",
+        "category": "OTH",
+        "parcel": 1771.9768151311775
+      },
+      {
+        "eliminated": "ETHERTON, RICHARD",
+        "category": "OTH",
+        "parcel": 2380.3075242575133
+      },
+      {
+        "eliminated": "LANE, RICHARD",
+        "category": "GRN",
+        "parcel": 3108.217616254813
+      },
+      {
+        "eliminated": "MEAD, AMANDA",
+        "category": "IND",
+        "parcel": 4168.954534651172
+      }
+    ],
+    "final_candidates": [
+      "KEALY, EMMA",
+      "MONAGHAN, MICK"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      71.56396349507939,
+      28.436036504920587
+    ]
+  },
+  {
+    "seat": "Macedon",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SEDGMAN, KERRYN P.",
+        "category": "OTH",
+        "parcel": 770.0
+      },
+      {
+        "eliminated": "MCCORMACK, CHRIS",
+        "category": "OTH",
+        "parcel": 924.7368421052631
+      },
+      {
+        "eliminated": "BERGMANN, IRIS",
+        "category": "OTH",
+        "parcel": 1669.0991902834007
+      },
+      {
+        "eliminated": "BARTON, HUNTLY",
+        "category": "IND",
+        "parcel": 2531.94389807997
+      },
+      {
+        "eliminated": "EVEZARD, AMANDA",
+        "category": "ON",
+        "parcel": 2986.286978136647
+      },
+      {
+        "eliminated": "MCRAE MCLEOD, MARLEY",
+        "category": "GRN",
+        "parcel": 7100.135093786732
+      }
+    ],
+    "final_candidates": [
+      "THOMAS, MARY-ANNE",
+      "BONANNO, DOMINIC"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      59.654222010299975,
+      40.345777989700046
+    ]
+  },
+  {
+    "seat": "Malvern",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SCHMIDT, JUDY",
+        "category": "OTH",
+        "parcel": 632.0
+      },
+      {
+        "eliminated": "STEFANOPOULOS, STEVE",
+        "category": "IND",
+        "parcel": 731.0
+      },
+      {
+        "eliminated": "NATOLI, AMELIA",
+        "category": "OTH",
+        "parcel": 1254.0
+      },
+      {
+        "eliminated": "FULLER, MITCHELL",
+        "category": "GRN",
+        "parcel": 7257.0
+      }
+    ],
+    "final_candidates": [
+      "O'BRIEN, MICHAEL",
+      "NATALE, DARREN"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      58.06427888504817,
+      41.93572111495183
+    ]
+  },
+  {
+    "seat": "Melbourne",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "AL-SAIMARY, LAYLAH",
+        "category": "IND",
+        "parcel": 428.0
+      },
+      {
+        "eliminated": "SMITH, STEVEN J.",
+        "category": "OTH",
+        "parcel": 542.0014082027812
+      },
+      {
+        "eliminated": "JANSON, MICHAEL",
+        "category": "OTH",
+        "parcel": 592.7668382748988
+      },
+      {
+        "eliminated": "BANGAAR, RABIN",
+        "category": "OTH",
+        "parcel": 802.8612447358672
+      },
+      {
+        "eliminated": "FOXWORTHY, NICOLA",
+        "category": "OTH",
+        "parcel": 1956.614510908593
+      },
+      {
+        "eliminated": "BOLGER, COLLEEN",
+        "category": "OTH",
+        "parcel": 3332.4453307238723
+      },
+      {
+        "eliminated": "PALACKALODY, GEORGE",
+        "category": "LNP",
+        "parcel": 8485.75287763931
+      }
+    ],
+    "final_candidates": [
+      "SANDELL, ELLEN",
+      "THISTLETON, REBECCA"
+    ],
+    "final_categories": [
+      "GRN",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      60.246232957319364,
+      39.75376704268063
+    ]
+  },
+  {
+    "seat": "Melton",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "PERERA, JASON SPENCER",
+        "category": "OTH",
+        "parcel": 130.0
+      },
+      {
+        "eliminated": "CIAPPARA, LUCIENNE",
+        "category": "OTH",
+        "parcel": 220.86806247922897
+      },
+      {
+        "eliminated": "KAUR, JASLEEN",
+        "category": "OTH",
+        "parcel": 248.84375255511947
+      },
+      {
+        "eliminated": "DONALD, SAMANTHA JANE",
+        "category": "OTH",
+        "parcel": 691.3050986367123
+      },
+      {
+        "eliminated": "DOBRAN, TONY",
+        "category": "OTH",
+        "parcel": 792.3846625642345
+      },
+      {
+        "eliminated": "ADIN-JAMES, FIONA",
+        "category": "OTH",
+        "parcel": 880.6464370820512
+      },
+      {
+        "eliminated": "BRUNT, RICHARD",
+        "category": "OTH",
+        "parcel": 1184.72703131007
+      }
+    ],
+    "next_eliminated": "MORRIS, PRAISE",
+    "category": "GRN",
+    "same_category_remaining": false,
+    "remaining_candidates": [
+      "ALP, ASHLEY",
+      "BINGHAM, JARROD JAMES",
+      "BIRCHALL, IAN",
+      "BLACKBORROW, PAUL",
+      "MCGHIE, STEVE",
+      "WATT, GRAHAM"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Mildura",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "ZAYN, ANGYLINA",
+        "category": "OTH",
+        "parcel": 333.0
+      },
+      {
+        "eliminated": "BROUGHAM, PHILIPPE JOHN",
+        "category": "OTH",
+        "parcel": 430.6048646167967
+      }
+    ],
+    "next_eliminated": "STRATTON, BRAD",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "BENHAM, JADE",
+      "BRYMER, SONIA",
+      "CLEMENTS, KATIE",
+      "CUPPER, ALI",
+      "MATHESON, PAUL",
+      "MILNE, GLENN",
+      "SHARPE, FELICITY",
+      "ZIGOURAS, STELLA"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Mill Park",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SIMONS, MARCIA",
+        "category": "OTH",
+        "parcel": 1833.0
+      },
+      {
+        "eliminated": "ANDERSON, CRAIG",
+        "category": "OTH",
+        "parcel": 2177.572559366755
+      },
+      {
+        "eliminated": "KEARNEY, CHRIS",
+        "category": "GRN",
+        "parcel": 3482.717863724957
+      },
+      {
+        "eliminated": "FILIPPOPOULOS, ANDREW",
+        "category": "OTH",
+        "parcel": 4758.110499373514
+      }
+    ],
+    "final_candidates": [
+      "D'AMBROSIO, LILY",
+      "YAP, PAIGE"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      61.53587124591512,
+      38.46412875408488
+    ]
+  },
+  {
+    "seat": "Monbulk",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "BARNES, VERONICA",
+        "category": "OTH",
+        "parcel": 910.0
+      },
+      {
+        "eliminated": "HIGGINS, DAVID",
+        "category": "OTH",
+        "parcel": 1345.9972027972028
+      },
+      {
+        "eliminated": "FOLLONI, LEAH",
+        "category": "OTH",
+        "parcel": 2201.0851229860596
+      },
+      {
+        "eliminated": "COLE, CRAIG",
+        "category": "OTH",
+        "parcel": 2906.664402839928
+      },
+      {
+        "eliminated": "SKELTON, JOHANNA",
+        "category": "IND",
+        "parcel": 3927.9249260891547
+      },
+      {
+        "eliminated": "ORMSBY, MICHAEL",
+        "category": "GRN",
+        "parcel": 9611.65904160792
+      }
+    ],
+    "final_candidates": [
+      "DE MARTINO, DANIELA",
+      "WARD, GARETH"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      57.64289727986769,
+      42.357102720132325
+    ]
+  },
+  {
+    "seat": "Mordialloc",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "REID, PHIL",
+        "category": "OTH",
+        "parcel": 154.0
+      },
+      {
+        "eliminated": "LUM, PATRICK",
+        "category": "OTH",
+        "parcel": 896.1380494505495
+      }
+    ],
+    "next_eliminated": "ALBRECHT, DEBORAH",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "LESSA, DANIEL",
+      "O'DONNELL, SARAH",
+      "PEASE, PHILLIP",
+      "RICHARDSON, TIM",
+      "VO, CHI"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Mornington",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "HAYWARD, ROSS",
+        "category": "OTH",
+        "parcel": 375.0
+      },
+      {
+        "eliminated": "AGIRTAN, JANE",
+        "category": "OTH",
+        "parcel": 697.3720066061106
+      },
+      {
+        "eliminated": "SCHWEEN, LEONIE",
+        "category": "OTH",
+        "parcel": 963.6075196844951
+      },
+      {
+        "eliminated": "PETTITT, PAUL",
+        "category": "OTH",
+        "parcel": 1518.5071863020466
+      },
+      {
+        "eliminated": "SINCLAIR, HARRY",
+        "category": "GRN",
+        "parcel": 3173.1251881584694
+      },
+      {
+        "eliminated": "FOWLER, GEORGIA",
+        "category": "ALP",
+        "parcel": 10673.252694260305
+      }
+    ],
+    "final_candidates": [
+      "CREWTHER, CHRIS",
+      "LARDNER, KATE"
+    ],
+    "final_categories": [
+      "LNP",
+      "IND"
+    ],
+    "final_shares_pct": [
+      50.566553455867144,
+      49.433446544132856
+    ]
+  },
+  {
+    "seat": "Morwell",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "PROCTOR, LISA",
+        "category": "OTH",
+        "parcel": 469.0
+      },
+      {
+        "eliminated": "MCAULIFFE, JESSICA",
+        "category": "OTH",
+        "parcel": 701.3893662728249
+      },
+      {
+        "eliminated": "CLARKE, BRENDAN",
+        "category": "OTH",
+        "parcel": 805.4521989165954
+      },
+      {
+        "eliminated": "MAIDANA, ALEX",
+        "category": "OTH",
+        "parcel": 1021.4291950765036
+      },
+      {
+        "eliminated": "LUND, TRACIE",
+        "category": "OTH",
+        "parcel": 1408.2395152825877
+      },
+      {
+        "eliminated": "HINE, ROCHELLE",
+        "category": "GRN",
+        "parcel": 2276.142684825061
+      },
+      {
+        "eliminated": "SNELLING, DAVID",
+        "category": "OTH",
+        "parcel": 2620.6670825853644
+      },
+      {
+        "eliminated": "GIBSON, SHARON",
+        "category": "IND",
+        "parcel": 4108.925213921657
+      },
+      {
+        "eliminated": "HICKEN, ALLAN",
+        "category": "ON",
+        "parcel": 6205.879488932155
+      },
+      {
+        "eliminated": "HARRIMAN, DALE",
+        "category": "LNP",
+        "parcel": 9997.74429246715
+      }
+    ],
+    "final_candidates": [
+      "CAMERON, MARTIN",
+      "MAXFIELD, KATE"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      54.61302251555943,
+      45.38697748444058
+    ]
+  },
+  {
+    "seat": "Mulgrave",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "ISMA, EZRA J. D.",
+        "category": "OTH",
+        "parcel": 91.0
+      },
+      {
+        "eliminated": "LEE, HOWARD",
+        "category": "OTH",
+        "parcel": 121.2684375
+      },
+      {
+        "eliminated": "MOODY, ANNE",
+        "category": "OTH",
+        "parcel": 144.40745381062928
+      },
+      {
+        "eliminated": "TOSCANO, JOSEPH",
+        "category": "OTH",
+        "parcel": 163.2894899168786
+      },
+      {
+        "eliminated": "KING, ANDREW",
+        "category": "OTH",
+        "parcel": 182.6691779007467
+      }
+    ],
+    "next_eliminated": "THEODOSSOPOULOU, FOTINI",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "ANDREWS, DANIEL",
+      "COOK, IAN",
+      "FOREMAN, JANE",
+      "LIM, ROBERT",
+      "MCLINDON, AIDAN",
+      "MOULD, DAVID",
+      "PIASTRINO, MICHAEL",
+      "WOOD, MAREE"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Murray Plains",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "LEUNG, GLENYS",
+        "category": "OTH",
+        "parcel": 902.0
+      },
+      {
+        "eliminated": "OTTO, ANDREA",
+        "category": "IND",
+        "parcel": 1093.0
+      },
+      {
+        "eliminated": "BROWNSTEIN, JOHN",
+        "category": "GRN",
+        "parcel": 1896.0
+      },
+      {
+        "eliminated": "BISH, KATIA",
+        "category": "OTH",
+        "parcel": 2273.3843663274747
+      },
+      {
+        "eliminated": "MACPHERSON, CAMERON",
+        "category": "OTH",
+        "parcel": 4865.409196512951
+      }
+    ],
+    "final_candidates": [
+      "WALSH, PETER",
+      "HURRELL, DAMIEN"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      73.3791276126137,
+      26.620872387386296
+    ]
+  },
+  {
+    "seat": "Narracan",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "HONEY, IAN",
+        "category": "OTH",
+        "parcel": 381.0
+      },
+      {
+        "eliminated": "CRAM, AUSTIN",
+        "category": "OTH",
+        "parcel": 864.57311099531
+      },
+      {
+        "eliminated": "CLARKE, BRENDAN",
+        "category": "OTH",
+        "parcel": 1152.3610884355587
+      },
+      {
+        "eliminated": "ABELMAN, MICHAEL",
+        "category": "OTH",
+        "parcel": 1516.0405117061384
+      },
+      {
+        "eliminated": "MCCABE, ANNEMARIE",
+        "category": "OTH",
+        "parcel": 1692.6971493878052
+      }
+    ],
+    "next_eliminated": "BLACKWELL, LEONIE",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "DE WIT, SOPHIA CAMILLE",
+      "FARNHAM, WAYNE",
+      "MURPHY, CASEY",
+      "WEAVER, ALYSSA",
+      "WOLFE, TONY"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Narre Warren North",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "RUYTER, MONIQUE",
+        "category": "OTH",
+        "parcel": 772.0
+      },
+      {
+        "eliminated": "CAPON, STEPHEN",
+        "category": "IND",
+        "parcel": 1035.0
+      },
+      {
+        "eliminated": "GARDNER, SHEREE",
+        "category": "OTH",
+        "parcel": 1123.2428708747195
+      },
+      {
+        "eliminated": "ZMEGAC, ANDREW",
+        "category": "OTH",
+        "parcel": 1519.34981697502
+      }
+    ],
+    "next_eliminated": "PARKER, CRAIG",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "DRAGAN, TIMOTHY",
+      "ELKINS, CHRISTINE",
+      "MATULEC, STEPHEN",
+      "MCLEAN, LAURA",
+      "WILSON, BELINDA"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Narre Warren South",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "BAKER-PEARCE, TYLERE",
+        "category": "IND",
+        "parcel": 290.0
+      },
+      {
+        "eliminated": "GALLAGHER, MICHAEL",
+        "category": "OTH",
+        "parcel": 1076.5914961544042
+      },
+      {
+        "eliminated": "SKROBO, CHRISTINE",
+        "category": "OTH",
+        "parcel": 1342.5751559480693
+      },
+      {
+        "eliminated": "HANSEN, GEOFF",
+        "category": "OTH",
+        "parcel": 2674.783819165112
+      },
+      {
+        "eliminated": "MOORE, SUSANNA",
+        "category": "GRN",
+        "parcel": 3637.5390894208895
+      },
+      {
+        "eliminated": "HARVEY, JACQUELINE",
+        "category": "OTH",
+        "parcel": 5792.144928858848
+      }
+    ],
+    "final_candidates": [
+      "MAAS, GARY",
+      "SAMUEL, ANNETTE"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      58.29274263157982,
+      41.70725736842017
+    ]
+  },
+  {
+    "seat": "Nepean",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "ANGER, STEVE",
+        "category": "OTH",
+        "parcel": 91.0
+      },
+      {
+        "eliminated": "SKRUZNY, CYNTHIA",
+        "category": "OTH",
+        "parcel": 374.01086366105375
+      },
+      {
+        "eliminated": "AINSLIE, CHARELLE",
+        "category": "OTH",
+        "parcel": 464.7977172869241
+      },
+      {
+        "eliminated": "MILLER, JAY",
+        "category": "OTH",
+        "parcel": 581.5280886715009
+      },
+      {
+        "eliminated": "WOOLCOCK, ELIZABETH",
+        "category": "IND",
+        "parcel": 640.8944791532006
+      },
+      {
+        "eliminated": "DIJKMAN, JANNY",
+        "category": "OTH",
+        "parcel": 887.572472858358
+      },
+      {
+        "eliminated": "ENGELANDER, PAMELA",
+        "category": "OTH",
+        "parcel": 1280.3950880310406
+      },
+      {
+        "eliminated": "LEINE, HANK",
+        "category": "OTH",
+        "parcel": 1976.9247140769119
+      },
+      {
+        "eliminated": "GLEIXNER, ESTHER",
+        "category": "GRN",
+        "parcel": 4787.767817191682
+      }
+    ],
+    "final_candidates": [
+      "GROTH, SAM",
+      "BRAYNE, CHRIS"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      56.482461017488305,
+      43.51753898251168
+    ]
+  },
+  {
+    "seat": "Niddrie",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "GRAMMENOS, GEORGIA",
+        "category": "OTH",
+        "parcel": 269.0
+      },
+      {
+        "eliminated": "MEILAK, SHANNON",
+        "category": "OTH",
+        "parcel": 832.4878048780488
+      },
+      {
+        "eliminated": "REICH, BRAD",
+        "category": "OTH",
+        "parcel": 1074.4120213359447
+      }
+    ],
+    "next_eliminated": "GARCIA, JOANNE",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "CARROLL, BEN",
+      "KRUSE, HOLLY",
+      "MAUGERI, FRANK",
+      "MCGINNESS, DECLAN",
+      "YOUHANA, ALAN"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Northcote",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "VERMA, ASHISH",
+        "category": "OTH",
+        "parcel": 80.0
+      },
+      {
+        "eliminated": "ASHTON, KATHRINE",
+        "category": "OTH",
+        "parcel": 409.57412078943463
+      }
+    ],
+    "next_eliminated": "CAVE, ANTHONY",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "CLARKE, APRIL",
+      "GOME, CAMPBELL",
+      "LARKIN, KATH",
+      "NTOUNI, ANASTACIA",
+      "OSECKAS, TIM",
+      "THEOPHANOUS, KAT",
+      "TODHUNTER, STEWART",
+      "WHITEHEAD, ADRIAN"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Oakleigh",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "KIOUPELIS, PARASHOS",
+        "category": "OTH",
+        "parcel": 234.0
+      },
+      {
+        "eliminated": "JACOBS, ANTHONY CHARLES",
+        "category": "OTH",
+        "parcel": 786.328125
+      }
+    ],
+    "next_eliminated": "SOK, EDWARD",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "DIMOPOULOS, STEVE",
+      "FABB, LORAINE",
+      "GRIVOKOSTOPOULOS, JIM",
+      "HSIEH, HSIANG-HAN",
+      "MURPHY, DOMINIQUE"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Ovens Valley",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "SLATER, AISHA",
+        "category": "OTH",
+        "parcel": 1009.0
+      },
+      {
+        "eliminated": "WISE, ANNA",
+        "category": "OTH",
+        "parcel": 1491.4279835390946
+      },
+      {
+        "eliminated": "BUGGE, MARK",
+        "category": "OTH",
+        "parcel": 2362.199564340123
+      }
+    ],
+    "next_eliminated": "KROMAR, ZOE",
+    "category": "GRN",
+    "same_category_remaining": false,
+    "remaining_candidates": [
+      "FIDGE, JULIAN",
+      "LESCHEN, ZUVELE",
+      "MCCURDY, TIM"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Pakenham",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "SAGOO, RAJVIR SINGH",
+        "category": "OTH",
+        "parcel": 234.0
+      },
+      {
+        "eliminated": "SARKESHIK, SARASADAT",
+        "category": "OTH",
+        "parcel": 672.2851750171585
+      },
+      {
+        "eliminated": "CLARKE, SAMMI",
+        "category": "OTH",
+        "parcel": 994.0855336848845
+      },
+      {
+        "eliminated": "PLEDGER-FIRTH, HANNAH",
+        "category": "OTH",
+        "parcel": 1138.2979371958231
+      }
+    ],
+    "next_eliminated": "GORE, CHRISTOPHER",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "FARRELLY, DAVID",
+      "MAIBAUM, MICHELLE",
+      "OWEN, BRETT",
+      "SILADJI, ANGELA",
+      "SMITH, ELISSA",
+      "VULIN, EMMA"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Pascoe Vale",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "ADAMS, ELIZABETH",
+        "category": "OTH",
+        "parcel": 889.0
+      },
+      {
+        "eliminated": "CIMBARO, RICHARD",
+        "category": "OTH",
+        "parcel": 1168.960557855742
+      },
+      {
+        "eliminated": "GLOVER, MARGEE",
+        "category": "OTH",
+        "parcel": 1491.923459559935
+      },
+      {
+        "eliminated": "BOLTON, SUE",
+        "category": "IND",
+        "parcel": 2308.2133447967185
+      },
+      {
+        "eliminated": "HAH, MADALEINE",
+        "category": "OTH",
+        "parcel": 3854.1430124461067
+      },
+      {
+        "eliminated": "WRIGHT, TOM",
+        "category": "LNP",
+        "parcel": 10124.134114625878
+      }
+    ],
+    "final_candidates": [
+      "CIANFLONE, ANTHONY",
+      "PANOPOULOS, ANGELICA"
+    ],
+    "final_categories": [
+      "ALP",
+      "GRN"
+    ],
+    "final_shares_pct": [
+      51.97677551876217,
+      48.02322448123783
+    ]
+  },
+  {
+    "seat": "Point Cook",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "GATTI, LISA JANE",
+        "category": "OTH",
+        "parcel": 245.0
+      },
+      {
+        "eliminated": "CHAUDHARY, RAKHI P.",
+        "category": "OTH",
+        "parcel": 365.2677020912315
+      },
+      {
+        "eliminated": "LAW, EMMA",
+        "category": "OTH",
+        "parcel": 400.1869041611449
+      }
+    ],
+    "next_eliminated": "SAWANT, SHWETALI",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "ABDULOVSKI, ADRIAN",
+      "BEECH, TERRI",
+      "CRONKWRIGHT, CAROLYN",
+      "GARRA, JOE",
+      "GRIMLEY, SCOTT",
+      "HAMMAN, DANIEL",
+      "HILAKARI, MATHEW",
+      "KHAN, SHAMSHER",
+      "MCAULAY, ALEX",
+      "NEWHOUSE, ANGELA",
+      "ZHAO, LARRY"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Polwarth",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "REMENYI, JOSEPH VINCENT",
+        "category": "OTH",
+        "parcel": 1033.0
+      },
+      {
+        "eliminated": "ATCHISON, ELISHA",
+        "category": "OTH",
+        "parcel": 1293.808557565064
+      },
+      {
+        "eliminated": "HUNTER, HOLLIE",
+        "category": "OTH",
+        "parcel": 1663.6015874554962
+      },
+      {
+        "eliminated": "BORSOS, DENES C.",
+        "category": "IND",
+        "parcel": 2726.6626452219966
+      },
+      {
+        "eliminated": "MCALLISTER, HILARY",
+        "category": "GRN",
+        "parcel": 9146.25474357104
+      }
+    ],
+    "final_candidates": [
+      "RIORDAN, RICHARD",
+      "HUSSEIN, HUTCH"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      51.786076728710974,
+      48.21392327128902
+    ]
+  },
+  {
+    "seat": "Prahran",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "MENADUE, ALAN",
+        "category": "IND",
+        "parcel": 449.0
+      },
+      {
+        "eliminated": "EMILSEN, RONALD",
+        "category": "OTH",
+        "parcel": 682.6680783483324
+      },
+      {
+        "eliminated": "LE HURAY, ALICE",
+        "category": "OTH",
+        "parcel": 1522.9292095479925
+      },
+      {
+        "eliminated": "CHAU, WESA",
+        "category": "ALP",
+        "parcel": 10827.426587567632
+      }
+    ],
+    "final_candidates": [
+      "HIBBINS, SAM",
+      "LUCAS, MATTHEW"
+    ],
+    "final_categories": [
+      "GRN",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      62.03007713074068,
+      37.969922869259335
+    ]
+  },
+  {
+    "seat": "Preston",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "SANAGHAN, BRIAN",
+        "category": "OTH",
+        "parcel": 270.0
+      },
+      {
+        "eliminated": "UNICOMB, RACHEL",
+        "category": "OTH",
+        "parcel": 829.0211120064464
+      },
+      {
+        "eliminated": "SOLIMAN, RAOUF",
+        "category": "OTH",
+        "parcel": 952.7870678919804
+      },
+      {
+        "eliminated": "LAHIFF-JENKINS, CARMEN",
+        "category": "OTH",
+        "parcel": 1050.805138400384
+      },
+      {
+        "eliminated": "MATIAS, ANGELIQUE",
+        "category": "OTH",
+        "parcel": 1464.6540357311492
+      },
+      {
+        "eliminated": "PRICE, STEPH",
+        "category": "OTH",
+        "parcel": 3255.2992953087205
+      },
+      {
+        "eliminated": "GRECO, GAETANO",
+        "category": "IND",
+        "parcel": 7746.467075908452
+      },
+      {
+        "eliminated": "PALIOURAS, AMANDA",
+        "category": "LNP",
+        "parcel": 9471.763627122913
+      }
+    ],
+    "final_candidates": [
+      "LAMBERT, NATHAN",
+      "PATERSON, PATCHOULI"
+    ],
+    "final_categories": [
+      "ALP",
+      "GRN"
+    ],
+    "final_shares_pct": [
+      52.063931252010256,
+      47.936068747989744
+    ]
+  },
+  {
+    "seat": "Richmond",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "HO, MECA",
+        "category": "IND",
+        "parcel": 417.0
+      },
+      {
+        "eliminated": "FREIVERTS, MARKUS",
+        "category": "OTH",
+        "parcel": 475.86653465346535
+      },
+      {
+        "eliminated": "VIGGERS, LIS",
+        "category": "OTH",
+        "parcel": 994.0425467177465
+      }
+    ],
+    "next_eliminated": "WARD, ROZ",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "COWEN, JEREMY",
+      "DE VIETRI, GABRIELLE",
+      "MOON, LUCAS",
+      "O'DWYER, LAUREN"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Ringwood",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "SIEMER, ROBYN M.",
+        "category": "OTH",
+        "parcel": 1038.0
+      },
+      {
+        "eliminated": "ROWE, NICK",
+        "category": "OTH",
+        "parcel": 1403.4575955265611
+      }
+    ],
+    "next_eliminated": "GRIFFITH-JONES, RICHARD",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "FOWLES, WILL",
+      "RYAN, GARY",
+      "STEEN, REUBEN",
+      "WATSON, CYNTHIA"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Ripon",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "QUINCE, BERNARD",
+        "category": "OTH",
+        "parcel": 312.0
+      },
+      {
+        "eliminated": "WILSON, WREN LOUISE",
+        "category": "OTH",
+        "parcel": 956.7689453403739
+      },
+      {
+        "eliminated": "RIGG, WAYNE",
+        "category": "IND",
+        "parcel": 1051.0514775123263
+      },
+      {
+        "eliminated": "SITTERS, HOLLY",
+        "category": "OTH",
+        "parcel": 1347.6268308624713
+      },
+      {
+        "eliminated": "GEORGE, CRAIG",
+        "category": "OTH",
+        "parcel": 1707.4681676984826
+      },
+      {
+        "eliminated": "JAMES, EARL",
+        "category": "GRN",
+        "parcel": 3204.8823073912654
+      },
+      {
+        "eliminated": "SMITH, LUKE",
+        "category": "OTH",
+        "parcel": 6044.546833978342
+      }
+    ],
+    "final_candidates": [
+      "HAYLETT, MARTHA",
+      "STALEY, LOUISE"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      52.979530458353594,
+      47.02046954164638
+    ]
+  },
+  {
+    "seat": "Rowville",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "GLENANE, DIANE",
+        "category": "OTH",
+        "parcel": 859.0
+      },
+      {
+        "eliminated": "SMULDERS, PETERINE ELIZABETH",
+        "category": "OTH",
+        "parcel": 1062.7595044852628
+      },
+      {
+        "eliminated": "BURGESS, STEPHEN",
+        "category": "OTH",
+        "parcel": 2325.631142695645
+      },
+      {
+        "eliminated": "DI CAMILLO, ANGELICA",
+        "category": "GRN",
+        "parcel": 3710.915703053427
+      },
+      {
+        "eliminated": "SEYMOUR, NICOLE",
+        "category": "IND",
+        "parcel": 6975.345315673196
+      }
+    ],
+    "final_candidates": [
+      "WELLS, KIM",
+      "VERMA, MANNIE KAUR"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      53.666347144625135,
+      46.333652855374865
+    ]
+  },
+  {
+    "seat": "Sandringham",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "CAMPBELL, RODNEY",
+        "category": "OTH",
+        "parcel": 115.0
+      },
+      {
+        "eliminated": "CHALMERS, JILL",
+        "category": "OTH",
+        "parcel": 718.3911439114391
+      },
+      {
+        "eliminated": "ZMEGAC, KARLA",
+        "category": "OTH",
+        "parcel": 901.3842114285665
+      },
+      {
+        "eliminated": "EPPINGSTALL, BARBARA",
+        "category": "OTH",
+        "parcel": 1218.2546767821227
+      },
+      {
+        "eliminated": "MARTIN, CLARKE",
+        "category": "IND",
+        "parcel": 3344.78044041139
+      },
+      {
+        "eliminated": "REGAN, ALYSIA",
+        "category": "GRN",
+        "parcel": 7978.2375562746
+      }
+    ],
+    "final_candidates": [
+      "ROWSWELL, BRAD",
+      "PRESCOTT, BETTINA"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      54.99808378745542,
+      45.0019162125446
+    ]
+  },
+  {
+    "seat": "Shepparton",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "TAYLOR, KATHERINE",
+        "category": "OTH",
+        "parcel": 515.0
+      },
+      {
+        "eliminated": "TEASDALE, DIANE M.",
+        "category": "OTH",
+        "parcel": 875.8749025720966
+      }
+    ],
+    "next_eliminated": "WHITE, ALISON",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "CHRISTOE, IAN",
+      "COWAN, LIAM",
+      "HAMMER, CHERYL",
+      "MCGRATH, SUEIE",
+      "O'KEEFFE, KIM",
+      "SHEED, SUZANNA"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "South Barwon",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "TOMLINSON, SIMONE",
+        "category": "OTH",
+        "parcel": 576.0
+      },
+      {
+        "eliminated": "DEAN, JEYNELLE MARIE",
+        "category": "OTH",
+        "parcel": 980.2213896457765
+      }
+    ],
+    "next_eliminated": "ADAMS, NAOMI",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "BARRON, ALAN",
+      "BATES, LEONE",
+      "CHEESEMAN, DARREN",
+      "DAWSON-SCOTT, GENEVIEVE FRANCES",
+      "KATOS, ANDREW"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "South-West Coast",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "GRIMLEY, JAMES BRASH",
+        "category": "OTH",
+        "parcel": 488.0
+      },
+      {
+        "eliminated": "MCCLUSKEY, MICHAEL",
+        "category": "OTH",
+        "parcel": 640.62196193265
+      },
+      {
+        "eliminated": "ANDERSON, JACINTA",
+        "category": "OTH",
+        "parcel": 753.4208103419828
+      },
+      {
+        "eliminated": "BRUNT, CHRIS",
+        "category": "OTH",
+        "parcel": 1048.7579403396326
+      },
+      {
+        "eliminated": "DOUKAS, JIM",
+        "category": "OTH",
+        "parcel": 2259.334452093195
+      },
+      {
+        "eliminated": "CAMPBELL, THOMAS",
+        "category": "GRN",
+        "parcel": 2862.436249312216
+      },
+      {
+        "eliminated": "PURCELL, JAMES",
+        "category": "OTH",
+        "parcel": 4908.00726976753
+      },
+      {
+        "eliminated": "ALTMANN, CAROL",
+        "category": "IND",
+        "parcel": 10312.838423591205
+      }
+    ],
+    "final_candidates": [
+      "BRITNELL, ROMA",
+      "GASTON, KYLIE"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      58.04184483512217,
+      41.958155164877844
+    ]
+  },
+  {
+    "seat": "St Albans",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "MANNAN, ZAFFER",
+        "category": "OTH",
+        "parcel": 192.0
+      },
+      {
+        "eliminated": "CARACASSIS, JASON",
+        "category": "OTH",
+        "parcel": 790.0246280143664
+      },
+      {
+        "eliminated": "CULLEN, KIM J.",
+        "category": "OTH",
+        "parcel": 932.7532581995036
+      },
+      {
+        "eliminated": "WALTON, RUSSELL",
+        "category": "OTH",
+        "parcel": 1177.5024654358963
+      },
+      {
+        "eliminated": "TACHOS, VIRGINIA",
+        "category": "IND",
+        "parcel": 1596.0717232325237
+      },
+      {
+        "eliminated": "RUDD, VAN THANH",
+        "category": "OTH",
+        "parcel": 3112.1247566613856
+      },
+      {
+        "eliminated": "HOBART, MARK",
+        "category": "OTH",
+        "parcel": 4209.485903565037
+      },
+      {
+        "eliminated": "BENTLEY, JOEL",
+        "category": "GRN",
+        "parcel": 5089.603284114953
+      }
+    ],
+    "final_candidates": [
+      "SULEYMAN, NATALIE",
+      "KERR, MARIA"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      59.53997311648869,
+      40.46002688351131
+    ]
+  },
+  {
+    "seat": "Sunbury",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "PATEL, RUSHI VIJAYKUMAR",
+        "category": "OTH",
+        "parcel": 204.0
+      },
+      {
+        "eliminated": "GALLAGHER, JAMES",
+        "category": "OTH",
+        "parcel": 1184.4546952224052
+      },
+      {
+        "eliminated": "BAYLISS, PETER",
+        "category": "OTH",
+        "parcel": 1419.212062217305
+      },
+      {
+        "eliminated": "PINCINI, LAURENCE",
+        "category": "IND",
+        "parcel": 1589.146136548428
+      }
+    ],
+    "next_eliminated": "PACE, CHARLES",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "BULL, JOSH",
+      "BURKE, RICHARD",
+      "COTTOM, SIMMONE",
+      "MOHR, ROHANNA"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Sydenham",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "LEUNG, KARINA",
+        "category": "OTH",
+        "parcel": 1095.0
+      },
+      {
+        "eliminated": "RAMOS, ALEJANDRO",
+        "category": "OTH",
+        "parcel": 1781.1258799665911
+      },
+      {
+        "eliminated": "RADOVANI, JAKUELINE",
+        "category": "OTH",
+        "parcel": 2404.8797973787714
+      },
+      {
+        "eliminated": "CHLIHI, HAJAR",
+        "category": "OTH",
+        "parcel": 2816.4528497141373
+      },
+      {
+        "eliminated": "RALPH, MAGGIE",
+        "category": "GRN",
+        "parcel": 4592.641685512453
+      },
+      {
+        "eliminated": "TAWADROS, MARVET",
+        "category": "OTH",
+        "parcel": 5961.781728568082
+      }
+    ],
+    "final_candidates": [
+      "HUTCHINS, NATALIE",
+      "CULLIA, JOSEPH"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      58.96564097009869,
+      41.03435902990129
+    ]
+  },
+  {
+    "seat": "Tarneit",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "MOINUDDIN, AIJAZ",
+        "category": "IND",
+        "parcel": 534.0
+      },
+      {
+        "eliminated": "RAHN, MAURITA",
+        "category": "OTH",
+        "parcel": 881.7098027925723
+      },
+      {
+        "eliminated": "MAQSOOD, ERUM",
+        "category": "OTH",
+        "parcel": 990.3598331196168
+      },
+      {
+        "eliminated": "PATEL, JAYDEEP",
+        "category": "OTH",
+        "parcel": 1451.5522709474862
+      }
+    ],
+    "next_eliminated": "JEFFREY, THOMAS",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "MILLER, CLARE",
+      "SINGH, PREET",
+      "URIBE, CLAUDIO",
+      "WIGHT, DYLAN"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Thomastown",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "LEVENS, EVIE",
+        "category": "OTH",
+        "parcel": 1072.0
+      },
+      {
+        "eliminated": "SINAPI, MATT",
+        "category": "GRN",
+        "parcel": 2768.0
+      },
+      {
+        "eliminated": "MCNAMARA, COLLEEN",
+        "category": "OTH",
+        "parcel": 3422.6837354945665
+      },
+      {
+        "eliminated": "CVETKOVA, KELLY",
+        "category": "OTH",
+        "parcel": 5025.50687029384
+      }
+    ],
+    "final_candidates": [
+      "HALFPENNY, BRONWYN",
+      "SINGH, GURDAWAR"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      65.79206051302653,
+      34.20793948697348
+    ]
+  },
+  {
+    "seat": "Warrandyte",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "PILLI, CYNTHIA",
+        "category": "IND",
+        "parcel": 659.0
+      },
+      {
+        "eliminated": "RAE, NICOLA",
+        "category": "OTH",
+        "parcel": 1106.8237776996132
+      },
+      {
+        "eliminated": "VERNAY, RICHARD",
+        "category": "OTH",
+        "parcel": 2243.2183287091734
+      },
+      {
+        "eliminated": "JOSHI, DEEPAK",
+        "category": "GRN",
+        "parcel": 6465.666235315473
+      }
+    ],
+    "final_candidates": [
+      "SMITH, RYAN",
+      "OAKLEY, NAOMI"
+    ],
+    "final_categories": [
+      "LNP",
+      "ALP"
+    ],
+    "final_shares_pct": [
+      54.31934377719237,
+      45.680656222807634
+    ]
+  },
+  {
+    "seat": "Wendouree",
+    "status": "complete",
+    "rounds": [
+      {
+        "eliminated": "ECKEL, BREN",
+        "category": "IND",
+        "parcel": 455.0
+      },
+      {
+        "eliminated": "COLBERT, DIANNE",
+        "category": "OTH",
+        "parcel": 1594.5536280939284
+      },
+      {
+        "eliminated": "HILLS, BRYN",
+        "category": "OTH",
+        "parcel": 1909.6862550543192
+      },
+      {
+        "eliminated": "HARKNESS, IAN",
+        "category": "OTH",
+        "parcel": 2607.5577529309116
+      },
+      {
+        "eliminated": "BURNS, ELLEN",
+        "category": "GRN",
+        "parcel": 5990.972263141943
+      }
+    ],
+    "final_candidates": [
+      "ADDISON, JULIANA",
+      "MCINTOSH, SAMANTHA"
+    ],
+    "final_categories": [
+      "ALP",
+      "LNP"
+    ],
+    "final_shares_pct": [
+      61.97525902489147,
+      38.02474097510853
+    ]
+  },
+  {
+    "seat": "Werribee",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "KWAN, HENI CAZLYNN",
+        "category": "OTH",
+        "parcel": 45.0
+      },
+      {
+        "eliminated": "BARCATTA, PATRIZIA",
+        "category": "OTH",
+        "parcel": 214.0021957340025
+      },
+      {
+        "eliminated": "HOGAN, KAREN",
+        "category": "OTH",
+        "parcel": 264.27232251572275
+      },
+      {
+        "eliminated": "TANDON, PRASHANT",
+        "category": "OTH",
+        "parcel": 335.1021612575194
+      },
+      {
+        "eliminated": "COLLINS, TREVOR RUSSELL",
+        "category": "OTH",
+        "parcel": 385.30758718771955
+      }
+    ],
+    "next_eliminated": "STROTHER, MARK",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "BODDEKE, JACK",
+      "BREAKWELL, KATHRYN",
+      "EMERSON, MATTHEW",
+      "HOPPER, PAUL",
+      "MUNRO, SUE",
+      "PALLAS, TIM",
+      "SEGRAVE, JOSH",
+      "SHAW, MIA",
+      "WICKS, PATRICIA ANNE"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Williamstown",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "MOSELY, JOSHUA",
+        "category": "OTH",
+        "parcel": 675.0
+      }
+    ],
+    "next_eliminated": "ANSALONE, ALEXANDER",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "FISHER, ROCHELLE",
+      "HORNE, MELISSA",
+      "KELLANDER, DARIA",
+      "MACANDILI, JULIEN Q.",
+      "MACKEVICIUS, PATRICIA",
+      "RODOREDA, SUZETTE"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  },
+  {
+    "seat": "Yan Yean",
+    "status": "unresolved",
+    "rounds": [
+      {
+        "eliminated": "GRIMLEY, MANDY ANNE",
+        "category": "OTH",
+        "parcel": 793.0
+      },
+      {
+        "eliminated": "BOUROUTZIS, CON",
+        "category": "OTH",
+        "parcel": 1097.7825203252032
+      },
+      {
+        "eliminated": "KRSTIC, ALEXANDAR",
+        "category": "OTH",
+        "parcel": 1269.396855716081
+      },
+      {
+        "eliminated": "PARRAMORE, RUTH",
+        "category": "OTH",
+        "parcel": 1466.556539070104
+      }
+    ],
+    "next_eliminated": "HALL, JAMES",
+    "category": "OTH",
+    "same_category_remaining": true,
+    "remaining_candidates": [
+      "KATHAGE, LAUREN",
+      "MASON, SAMANTHA",
+      "WELCH, RICHARD",
+      "WOOLDRIDGE, JACK"
+    ],
+    "reason": "No exact continuing-candidate-field evidence"
+  }
+]
