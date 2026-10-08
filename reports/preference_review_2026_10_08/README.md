@@ -31,3 +31,56 @@ Streamlit deployment: repository suandogg/vic-irv-model. Frozen backup branch
 codex/model-backup-2026-10-08, entrypoint snapshot_app.py. Trial branch
 codex/preference-review-2026-10-08, entrypoint snapshot_app.py. The snapshot
 entrypoint disables live Sheet synchronization to preserve comparison inputs.
+
+## Historical validation
+
+The new historical test uses actual candidate-level 2022 primary totals, not
+projected primaries. It excludes pooled posterior and federal evidence because
+their current metadata cannot reliably remove a held-out seat. Existing
+seat-specific LNP pre-collapse corrections remain. This is therefore a
+conditional matrix holdout, not fully independent validation of the engine.
+Margin errors below apply to the 85 seats with matching final pairs.
+
+| Test | Reference mean absolute error | No preference geography |
+| --- | ---: | ---: |
+| Own-seat matrix reconstruction | 1.827 percentage points | 1.601 percentage points |
+| Held-out seat, other-seat class matrices | 1.820 percentage points | 1.719 percentage points |
+
+Removing geography modestly improves this historical metric. It does not
+validate high-ON contests, which were largely absent in 2022. See
+historical_validation_summary.csv and historical_validation_seats.csv.
+
+## Rule-use audit
+
+In the reference high-ON scenarios, all available holder-level special priors
+were selected: 22 of 22 for ON18, 33 of 33 for ON20 and 47 of 47 for ON24.
+This narrows the concern about those priors being displaced in these paths;
+it is not proof for every possible scenario or parcel-origin subcall.
+ON_SPECIAL_SCENARIO_PRIORS values are unchanged in all trial variants.
+round_rule_audit.csv records the selected sources and contest gaps.
+parcel_stage_audit.csv records local changes at each transformation stage;
+summing them is not a causal statewide effect because paths and later blends
+can differ.
+
+## Seat-count reliability sensitivity
+
+Three additional variants replace the existing posterior reliability with
+n/(n+k), where n is the recorded evidence-seat count and k is 5, 10 or 20.
+They retain federal evidence and do not invent missing variance or membership.
+These are sensitivity tests, not calibrated production recommendations.
+
+All three change one ON18 winner from ALP to LNP, leaving ON at three seats.
+None changes winners in ON20 or ON24. The projected 2022-input scenario also
+changes, but must not be confused with the actual-primary historical test.
+
+## Interactive testing
+
+The testing app's Preference trial selector exposes the reference and eight
+alternatives. Reference remains the default. Only Assembly preferences are
+varied; primaries, special-prior values and Council logic are preserved.
+Inputs remain frozen for reproducibility.
+
+Recommended next step: separate ON-recipient geography from non-ON geography,
+then test those independently before selecting a production setting. Improve
+scenario provenance and per-seat evidence membership before calibrating
+posterior shrinkage. No production configuration is selected by this report.

@@ -16,6 +16,7 @@ from SRC.federal_on_evidence_loader import apply_production_federal_on_evidence
 from SRC.ideology_loader import load_ideology_prior
 from SRC.seat_adjustments_loader import load_lower_seat_adjustments
 from SRC.irv import run_irv_all
+from tools.trial_posterior_reliability import seat_count_trial
 
 SCENARIOS = {
     "2022": dict(ALP=36.66,LNP=34.48,GRN=11.5,ON=.28,IND=5.55,OTH=11.53),
@@ -53,8 +54,9 @@ def main():
         primary, p=build_primaries(inputs,params,targets,adjustments)
         primary.to_csv(out/f"primaries_{scenario}.csv",index=False)
         reference=None
-        for name in ("reference","no_siphon","no_geography","no_constraints","no_synthetic_priority","simplified"):
-            result=run_irv_all(primary,matrices,variant(p,name),posterior,ideology)
+        for name in ("reference","no_siphon","no_geography","no_constraints","no_synthetic_priority","simplified","seat_reliability_5","seat_reliability_10","seat_reliability_20"):
+            post=seat_count_trial(posterior,int(name.rsplit("_",1)[1])) if name.startswith("seat_reliability_") else posterior
+            result=run_irv_all(primary,matrices,variant(p,name),post,ideology)
             if isinstance(result,tuple): result=result[0]
             result=pd.DataFrame(result)
             if reference is None: reference=result.copy()

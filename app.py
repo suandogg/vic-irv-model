@@ -489,6 +489,30 @@ st.title("Victorian IRV Election Model")
     sync_status,
 ) = load_static_inputs()
 
+from tools.preference_review_trials import variant as preference_trial_variant
+from tools.trial_posterior_reliability import seat_count_trial
+trial_options = {
+    "Current reference": "reference",
+    "No generic ON siphon": "no_siphon",
+    "No preference geography": "no_geography",
+    "No preference floors or caps": "no_constraints",
+    "Remove complete-row priority in ON rounds": "no_synthetic_priority",
+    "Combined simplified preferences": "simplified",
+    "Seat-count shrinkage: 5 prior seats": "seat_reliability_5",
+    "Seat-count shrinkage: 10 prior seats": "seat_reliability_10",
+    "Seat-count shrinkage: 20 prior seats": "seat_reliability_20",
+}
+trial_label = st.sidebar.selectbox("Preference trial", list(trial_options))
+trial_method = trial_options[trial_label]
+params = preference_trial_variant(params, trial_method)
+if trial_method.startswith("seat_reliability_"):
+    posterior = seat_count_trial(posterior, int(trial_method.rsplit("_", 1)[1]))
+st.sidebar.caption("Development comparisons with frozen inputs. Trial choice affects Assembly preferences.")
+if trial_method == "no_synthetic_priority":
+    st.sidebar.caption("Broad hierarchy sensitivity: applies to all ON-related rows until provenance is established.")
+elif trial_method.startswith("seat_reliability_"):
+    st.sidebar.caption("Seat-count sensitivity only; between-seat variance is not available in the current scenario input.")
+
 baseline_lookup = baseline_2cp.set_index("district")
 
 if sync_status.get("synced", 0) > 0:

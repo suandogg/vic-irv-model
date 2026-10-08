@@ -275,6 +275,8 @@ def apply_on_siphon(vec, alive, eliminated_party, seat_type, scalars):
 def posterior_reliability(post_obj):
     if not post_obj:
         return 0
+    if "__trial_reliability_override__" in post_obj:
+        return clamp01(float(post_obj["__trial_reliability_override__"]))
 
     k = 0
 
@@ -629,7 +631,7 @@ def diagnose_preference_weights(
                 },
             ))
 
-            if ide_vec is not None and rel < 0.75:
+            if ide_vec is not None and (rel < 0.75 or "__trial_reliability_override__" in post_obj):
                 post_vec = normalise_alive(
                     [
                         rel * post_vec[i] + (1 - rel) * ide_vec[i]
