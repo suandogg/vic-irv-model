@@ -23,7 +23,7 @@ from SRC.posterior_loader import load_posterior_scenarios
 
 
 BASELINE = {"ALP": 36.66, "LNP": 34.48, "GRN": 11.50, "ON": 0.28, "IND": 5.55, "OTH": 11.53}
-ON_LEVELS = [10.0, 20.0, 24.4]
+ON_LEVELS = [10.0, 18.0, 20.0, 24.4]
 OUTPUT = ROOT / "reports" / "unmatched_on_preference_rounds.csv"
 SUMMARY = ROOT / "reports" / "unmatched_on_preference_summary.csv"
 
@@ -57,6 +57,9 @@ def audit() -> pd.DataFrame:
     rows = []
 
     for level in ON_LEVELS:
+        scenario_params = dict(params)
+        scenario_params["scalar_params"] = dict(params.get("scalar_params", {}))
+        scenario_params["scalar_params"]["SCENARIO_ON_PRIMARY"] = level
         wide = build_corrected_primary_table(inputs, targets_for_on(level), on_alpha=on_alpha)
         lookup = wide.assign(
             district_key=wide["district"].astype(str).str.strip().str.upper()
@@ -65,7 +68,7 @@ def audit() -> pd.DataFrame:
             seat = lookup.loc[str(district).strip().upper()]
             votes = {p: float(seat[p]) for p in PARTIES}
             trace = trace_preference_diagnostics_for_district(
-                votes, matrix_obj["matrix"], seat["seat_type"], params, posterior, ideology
+                votes, matrix_obj["matrix"], seat["seat_type"], scenario_params, posterior, ideology
             )
             frame = pd.DataFrame(trace)
             for round_name, stages in frame.groupby("round", sort=False):
@@ -96,12 +99,14 @@ def audit() -> pd.DataFrame:
                     "District": district,
                     "SeatType": seat["seat_type"],
                     "Round": round_name,
+                    "EliminatedVoteShare": float(first["eliminated_vote"]),
                     "Eliminated": eliminated,
                     "AliveSet": "+".join(sorted(alive)),
                     "EvidenceBacked": not evidence_stage.empty,
                     "Basis": basis,
                     "GenericSiphonApplied": siphon_effect > 1e-12,
                     "GenericSiphonTVD": siphon_effect,
+                    "SiphonVoteMass": float(first["eliminated_vote"]) * siphon_effect,
                     "MissingExactEvidence": evidence_stage.empty,
                 })
     return pd.DataFrame(rows)
@@ -119,6 +124,8 @@ def main() -> None:
             SiphonRounds=("GenericSiphonApplied", "sum"),
             MeanSiphonTVD=("GenericSiphonTVD", "mean"),
             MaximumSiphonTVD=("GenericSiphonTVD", "max"),
+            MeanEliminatedVoteShare=("EliminatedVoteShare", "mean"),
+            TotalSiphonVoteMass=("SiphonVoteMass", "sum"),
         )
         .sort_values(["ONLevel", "EvidenceBacked", "Rounds"], ascending=[True, True, False])
     )

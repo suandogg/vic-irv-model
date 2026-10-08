@@ -34,6 +34,11 @@ from SRC.lnp_precollapse_loader import apply_lnp_precollapse
 from SRC.baseline_loader import load_baseline_2cp
 from SRC.baseline_region_loader import load_baseline_region_summary
 from SRC.live_sheet_sync import sync_inputs_from_google_sheet
+from SRC.turnout_loader import (
+    attach_turnout_weights,
+    load_lower_turnout_weights,
+    turnout_weighted_share,
+)
 from SRC.upper_house_named_loader import load_upper_named_inputs
 from SRC.upper_house_forecast import run_upper_house_forecast
 from SRC.irv import (
@@ -280,6 +285,8 @@ def load_static_inputs():
     log_checkpoint(f"loaded baseline_2cp rows={len(baseline_2cp)}")
     baseline_regions = load_baseline_region_summary()
     log_checkpoint(f"loaded baseline_regions rows={len(baseline_regions)}")
+    turnout_weights = load_lower_turnout_weights()
+    log_checkpoint(f"loaded turnout_weights rows={len(turnout_weights)}")
 
     seat_adjustments = load_lower_seat_adjustments()
     log_checkpoint(f"loaded seat_adjustments rows={len(seat_adjustments)}")
@@ -296,6 +303,7 @@ def load_static_inputs():
         ideology,
         baseline_2cp,
         baseline_regions,
+        turnout_weights,
         seat_adjustments,
         poll_scenarios,
         upper_inputs,
@@ -316,7 +324,7 @@ def params_for_scenario(params, targets):
 
 def run_model(
     primary_inputs, matrices, params, posterior, ideology, targets,
-    seat_adjustments=None,
+    seat_adjustments=None, turnout_weights=None,
 ):
     log_checkpoint(f"run_model start targets={targets}")
     scenario_params = params_for_scenario(params, targets)
@@ -394,7 +402,10 @@ def run_model(
     )
     log_checkpoint(f"run_model irv complete results={len(results)}")
 
-    return pd.DataFrame(results), adjusted, seat_adjustment_diagnostics
+    results_df = pd.DataFrame(results)
+    if turnout_weights is not None:
+        results_df = attach_turnout_weights(results_df, turnout_weights)
+    return results_df, adjusted, seat_adjustment_diagnostics
 
 
 def region_primary_shares(adjusted_seat_helper):
@@ -471,6 +482,7 @@ st.title("Victorian IRV Election Model")
     ideology,
     baseline_2cp,
     baseline_regions,
+    turnout_weights,
     seat_adjustments,
     poll_scenarios,
     upper_inputs,
@@ -636,6 +648,7 @@ results_df, adjusted_seat_helper, seat_adjustment_diagnostics = run_model(
     ideology,
     targets,
     seat_adjustments,
+    turnout_weights,
 )
 
 if house_view == "Dashboard":
@@ -660,10 +673,10 @@ if house_view == "Dashboard":
     else:
         government_result = "Hung Parliament"
 
-    alp_2pp = float(results_df["ALP_2PP"].mean()) * 100
-    lnp_2pp = float(results_df["LNP_2PP"].mean()) * 100
-    alp_on_2cp = float(results_df["ALP_ON_2CP"].mean()) * 100
-    on_alp_2cp = float(results_df["ON_ALP_2CP"].mean()) * 100
+    alp_2pp = turnout_weighted_share(results_df, "ALP_2PP") * 100
+    lnp_2pp = turnout_weighted_share(results_df, "LNP_2PP") * 100
+    alp_on_2cp = turnout_weighted_share(results_df, "ALP_ON_2CP") * 100
+    on_alp_2cp = turnout_weighted_share(results_df, "ON_ALP_2CP") * 100
 
     st.header("Election dashboard")
     result_col, alp_2pp_col, lnp_2pp_col, alt_col = st.columns([1.5, 1, 1, 1.35])
@@ -832,8 +845,8 @@ st.subheader(f"{view_title} Summary")
 seat_count_map = view_results_df["winner"].value_counts().to_dict()
 held_count_map = view_seat_helper["held_by"].value_counts().to_dict()
 
-alp_2pp = view_results_df["ALP_2PP"].mean() * 100
-lnp_2pp = view_results_df["LNP_2PP"].mean() * 100
+alp_2pp = turnout_weighted_share(view_results_df, "ALP_2PP") * 100
+lnp_2pp = turnout_weighted_share(view_results_df, "LNP_2PP") * 100
 
 summary_df = pd.DataFrame([
     {
@@ -917,8 +930,8 @@ with st.expander("Result sensitivity (not probabilities)", expanded=False):
 
 st.subheader(f"{view_title} Alternate 2PP")
 
-alp_on_2cp = view_results_df["ALP_ON_2CP"].mean() * 100
-on_alp_2cp = view_results_df["ON_ALP_2CP"].mean() * 100
+alp_on_2cp = turnout_weighted_share(view_results_df, "ALP_ON_2CP") * 100
+on_alp_2cp = turnout_weighted_share(view_results_df, "ON_ALP_2CP") * 100
 
 alternate_2pp_df = pd.DataFrame([
     {

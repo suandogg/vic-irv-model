@@ -104,6 +104,8 @@ def normalise_alive(vec, alive):
 
 
 def enforce_floor(vec, alive, scalars):
+    if scalars.get("TRIAL_NO_FLOOR", False):
+        return normalise_alive(vec, alive)
     min_support = float(scalars.get("MIN_SUPPORT", 0.005) or 0.005)
 
     out = vec.copy()
@@ -654,6 +656,7 @@ def diagnose_preference_weights(
         aec_usable
         and len(missing) == 0
         and coverage >= 0.999
+        and not (scalars.get("TRIAL_NO_SYNTHETIC_ON_PRIORITY", False) and ("ON" in alive or elim == "ON"))
     ):
         out = aec_proj.copy()
         basis = "full AEC row"

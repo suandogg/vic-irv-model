@@ -122,3 +122,19 @@ def load_upper_party_relationships(filename="UPPER_PARTY_RELATIONSHIPS.csv"):
             }
 
     return relationships
+
+def load_upper_incumbents(filename="UPPER_INCUMBENTS.csv"):
+    df = read_csv_raw(filename)
+
+    df.columns = [
+        str(col).strip().lower()
+        for col in df.columns
+    ]
+
+    df["region"] = df["region"].astype(str).str.strip()
+    df["party"] = df["party"].apply(norm_party)
+    df["seats"] = df["seats"].astype(int)
+
+    df = df[df["party"].isin(UPPER_PARTIES)].copy()
+
+    return df.reset_index(drop=True)

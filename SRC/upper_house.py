@@ -184,3 +184,264 @@ def derive_upper_house_projection(
         "statewide_targets": statewide_targets,
         "region_targets": region_targets,
     }
+
+
+def votes_from_region_df(region_votes_df):
+    return {
+        row["party"]: float(row["upper_primary_vote"])
+        for _, row in region_votes_df.iterrows()
+    }
+
+
+def apply_oth_efficiency(votes, params):
+    adjusted = votes.copy()
+
+    othl_efficiency = float(params.get("OTHL_EFFICIENCY", 1.0) or 1.0)
+    othr_efficiency = float(params.get("OTHR_EFFICIENCY", 1.0) or 1.0)
+
+    adjusted["OTH_L"] = adjusted.get("OTH_L", 0) * othl_efficiency
+    adjusted["OTH_R"] = adjusted.get("OTH_R", 0) * othr_efficiency
+
+    return adjusted
+
+
+def allocate_quota_seats_from_votes(
+    region,
+    votes,
+    seats_to_fill=5,
+):
+    quota = 100 / (seats_to_fill + 1)
+
+    votes = {
+        party: float(votes.get(party, 0) or 0)
+        for party in UPPER_PARTIES
+    }
+
+    seats = {
+        party: 0
+        for party in UPPER_PARTIES
+    }
+
+    trace = []
+    seats_filled = 0
+
+    for party in UPPER_PARTIES:
+        full_quotas = int(votes.get(party, 0) // quota)
+
+        if full_quotas <= 0:
+            continue
+
+        seats_won = min(full_quotas, seats_to_fill - seats_filled)
+
+        seats[party] += seats_won
+        seats_filled += seats_won
+        votes[party] -= seats_won * quota
+
+        trace.append({
+            "region": region,
+            "round": "Quota allocation",
+            "action": "ELECT",
+            "party": party,
+            "seats_won": seats_won,
+            "quota": quota,
+            **{p: votes.get(p, 0) for p in UPPER_PARTIES},
+            **{f"{p}_seats": seats[p] for p in UPPER_PARTIES},
+        })
+
+        if seats_filled >= seats_to_fill:
+            break
+
+    return {
+        "region": region,
+        "quota": quota,
+        "seats": seats,
+        "remainders": votes,
+        "seats_filled": seats_filled,
+        "seats_remaining": seats_to_fill - seats_filled,
+        "trace": trace,
+    }
+
+
+def allocate_quota_seats(
+    region,
+    region_votes_df,
+    seats_to_fill=5,
+):
+    votes = votes_from_region_df(region_votes_df)
+
+    return allocate_quota_seats_from_votes(
+        region=region,
+        votes=votes,
+        seats_to_fill=seats_to_fill,
+    )
+
+
+def run_upper_stv_region(
+    region,
+    region_votes_df,
+    relationships,
+    params=None,
+    seats_to_fill=5,
+):
+    params = params or {}
+
+    raw_votes = votes_from_region_df(region_votes_df)
+    adjusted_votes = apply_oth_efficiency(raw_votes, params)
+
+    allocation = allocate_quota_seats_from_votes(
+        region=region,
+        votes=adjusted_votes,
+        seats_to_fill=seats_to_fill,
+    )
+
+    quota = allocation["quota"]
+    votes = allocation["remainders"]
+    seats = allocation["seats"]
+    trace = allocation["trace"]
+
+    trace.insert(0, {
+        "region": region,
+        "round": "OTH efficiency adjustment",
+        "action": "ADJUST",
+        "party": "OTH",
+        "quota": quota,
+        **{p: adjusted_votes.get(p, 0) for p in UPPER_PARTIES},
+        **{f"{p}_seats": 0 for p in UPPER_PARTIES},
+    })
+
+    active = [
+        party for party in UPPER_PARTIES
+        if votes.get(party, 0) > 0
+    ]
+
+    round_no = 1
+
+    while sum(seats.values()) < seats_to_fill and active:
+
+        if len(active) <= 1:
+            final_party = active[0]
+            seats[final_party] += seats_to_fill - sum(seats.values())
+
+            trace.append({
+                "region": region,
+                "round": f"Remainder {round_no}",
+                "action": "FILL_REMAINING",
+                "party": final_party,
+                "quota": quota,
+                **{p: votes.get(p, 0) for p in UPPER_PARTIES},
+                **{f"{p}_seats": seats[p] for p in UPPER_PARTIES},
+            })
+
+            break
+
+        elected = False
+
+        for party in list(active):
+            if votes.get(party, 0) >= quota and sum(seats.values()) < seats_to_fill:
+                seats[party] += 1
+                votes[party] -= quota
+
+                active = [
+                    p for p in active
+                    if p != party
+                ]
+
+                elected = True
+
+                trace.append({
+                    "region": region,
+                    "round": f"Remainder {round_no}",
+                    "action": "ELECT",
+                    "party": party,
+                    "quota": quota,
+                    **{p: votes.get(p, 0) for p in UPPER_PARTIES},
+                    **{f"{p}_seats": seats[p] for p in UPPER_PARTIES},
+                })
+
+                round_no += 1
+
+        if elected:
+            continue
+
+        eliminated = min(
+            active,
+            key=lambda party: votes.get(party, 0)
+        )
+
+        eliminated_votes = votes.get(eliminated, 0)
+
+        active = [
+            party for party in active
+            if party != eliminated
+        ]
+
+        flows = relationships.get(eliminated, {})
+
+        available_flows = {
+            party: flows.get(party, 0)
+            for party in active
+        }
+
+        flow_total = sum(available_flows.values())
+
+        if flow_total > 0:
+            available_flows = {
+                party: value / flow_total
+                for party, value in available_flows.items()
+            }
+
+            for party, share in available_flows.items():
+                votes[party] += eliminated_votes * share
+
+        votes[eliminated] = 0
+
+        trace.append({
+            "region": region,
+            "round": f"Remainder {round_no}",
+            "action": "EXCLUDE",
+            "party": eliminated,
+            "quota": quota,
+            **{p: votes.get(p, 0) for p in UPPER_PARTIES},
+            **{f"{p}_seats": seats[p] for p in UPPER_PARTIES},
+        })
+
+        round_no += 1
+
+    return {
+        "region": region,
+        "quota": quota,
+        "seats": seats,
+        "trace": trace,
+    }
+
+
+def run_upper_house_all_regions(
+    region_targets,
+    relationships,
+    params=None,
+):
+    results = []
+
+    for region in sorted(
+        region_targets["region"].unique()
+    ):
+
+        region_votes = region_targets[
+            region_targets["region"] == region
+        ]
+
+        result = run_upper_stv_region(
+            region=region,
+            region_votes_df=region_votes,
+            relationships=relationships,
+            params=params,
+        )
+
+        row = {
+            "region": region,
+            **result["seats"],
+        }
+
+        results.append(row)
+
+    return pd.DataFrame(results)

@@ -1,25 +1,25 @@
 PartyKey,IdeologyFamily,IdeologyPosition,PriorConcentration,Enabled,Notes
-ALP,CENTRE_LEFT,-0.40,1.00,TRUE,Editable modelling classification
-LIB,CENTRE_RIGHT,0.40,1.00,TRUE,Editable modelling classification
-LNP,CENTRE_RIGHT,0.45,1.00,TRUE,Joint Liberal and Nationals regional ticket
-GRN,GREEN_LEFT,-0.80,1.00,TRUE,Editable modelling classification
-LCV,PROGRESSIVE,-0.55,0.80,TRUE,Editable modelling classification
-DLP,SOCIAL_CONSERVATIVE,0.55,0.60,TRUE,Editable modelling classification
-LDP,LIBERTARIAN_RIGHT,0.70,0.80,TRUE,Editable modelling classification
+ALP,CENTRE_LEFT,-0.4,1.0,TRUE,Editable modelling classification
+LIB,CENTRE_RIGHT,0.4,1.0,TRUE,Editable modelling classification
+LNP,CENTRE_RIGHT,0.45,1.0,TRUE,Joint Liberal and Nationals regional ticket
+GRN,GREEN_LEFT,-0.8,1.0,TRUE,Editable modelling classification
+LCV,PROGRESSIVE,-0.55,0.8,TRUE,Editable modelling classification
+DLP,SOCIAL_CONSERVATIVE,0.55,0.6,TRUE,Editable modelling classification
+LDP,LIBERTARIAN_RIGHT,0.7,0.8,TRUE,Editable modelling classification
 SFF,POPULIST_RIGHT,0.55,0.75,TRUE,Editable modelling classification
-ON,POPULIST_RIGHT,0.85,1.00,TRUE,Editable modelling classification
-FFV,SOCIAL_CONSERVATIVE,0.80,0.85,TRUE,Editable modelling classification
+ON,POPULIST_RIGHT,0.85,1.0,TRUE,Editable modelling classification
+FFV,SOCIAL_CONSERVATIVE,0.8,0.85,TRUE,Editable modelling classification
 DHJP,CENTRE,0.05,0.45,TRUE,Low-confidence broad classification
-AJP,GREEN_LEFT,-0.70,0.80,TRUE,Editable modelling classification
-VS,FAR_LEFT,-1.00,0.90,TRUE,Editable modelling classification
-REASON,PROGRESSIVE,-0.50,0.75,TRUE,Editable modelling classification
-FREEDOM,POPULIST_RIGHT,0.90,0.70,TRUE,Editable modelling classification
-SDA,POPULIST_RIGHT,0.90,0.70,TRUE,Editable modelling classification
-UAP,POPULIST_RIGHT,0.80,0.75,TRUE,Editable modelling classification
-HAP,ALTERNATIVE,0.20,0.35,TRUE,Low-confidence broad classification
-SAP,CENTRE,0.00,0.55,TRUE,Editable modelling classification
-CPP,ISSUE,0.00,0.30,TRUE,Low-confidence issue-party classification
-AVP,POPULIST_RIGHT,0.65,0.50,TRUE,Low-confidence broad classification
-TMP,CENTRE,0.00,0.40,TRUE,Low-confidence broad classification
-NDP,CENTRE,0.00,0.35,TRUE,Low-confidence broad classification
-IND,CENTRE,0.00,0.20,TRUE,Catch-all only; replace with candidate-specific classification
+AJP,GREEN_LEFT,-0.7,0.8,TRUE,Editable modelling classification
+VS,FAR_LEFT,-1.0,0.9,TRUE,Editable modelling classification
+REASON,PROGRESSIVE,-0.5,0.75,TRUE,Editable modelling classification
+FREEDOM,POPULIST_RIGHT,0.9,0.7,TRUE,Editable modelling classification
+SDA,POPULIST_RIGHT,0.9,0.7,TRUE,Editable modelling classification
+UAP,POPULIST_RIGHT,0.8,0.75,TRUE,Editable modelling classification
+HAP,ALTERNATIVE,0.2,0.35,TRUE,Low-confidence broad classification
+SAP,CENTRE,0.0,0.55,TRUE,Editable modelling classification
+CPP,ISSUE,0.0,0.3,TRUE,Low-confidence issue-party classification
+AVP,POPULIST_RIGHT,0.65,0.5,TRUE,Low-confidence broad classification
+TMP,CENTRE,0.0,0.4,TRUE,Low-confidence broad classification
+NDP,CENTRE,0.0,0.35,TRUE,Low-confidence broad classification
+IND,CENTRE,0.0,0.2,TRUE,Catch-all only; replace with candidate-specific classification
