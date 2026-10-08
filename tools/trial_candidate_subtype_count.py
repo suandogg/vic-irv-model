@@ -10,7 +10,7 @@ from tools.validate_candidate_subtype_pool import load_observations, pooled_shar
 from tools.trial_candidate_endogenous_count import count_candidates
 
 
-def main():
+def main(minimum=3):
     observations = load_observations()
     candidates = pd.read_csv(ROOT/'data/development/VEC_2022_CANDIDATE_CLASSIFICATION.csv')
     actual = {r['seat']: r for r in json.loads((ROOT/'reports/preference_review_2026_10_08/vec_candidate_replay.json').read_text())}
@@ -24,7 +24,7 @@ def main():
             if categories[eliminated] == 'ON' or 'ON' in field:
                 return None  # This test does not invent native/synthetic ON flows.
             target = {'seat': seat, 'category': categories[eliminated], 'subtype': str(metadata[eliminated].CandidateSubtype), 'field': field}
-            pool = pooled_share(observations, target, True, 3)
+            pool = pooled_share(observations, target, True, minimum)
             if pool is None:
                 return None
             return {'field': sorted(remaining), 'shares': pool[0], 'training_seats': pool[1], 'method': 'subtype exact broad-field pool; proportional recipients'}
@@ -35,10 +35,11 @@ def main():
         results.append(dict(seat=seat, **result))
     complete = [r for r in results if r['status'] == 'complete']
     summary = {'seats': len(results), 'complete': len(complete), 'unresolved': len(results)-len(complete), 'correct_winners_among_complete': sum(r['winner_correct'] for r in complete), 'correct_pairs_among_complete': sum(r['pair_correct'] for r in complete)}
-    (ROOT/'reports/preference_review_2026_10_08/candidate_subtype_count.json').write_text(json.dumps({'summary': summary, 'seats': results}, indent=2)+'\n')
+    filename = 'candidate_subtype_count.json' if minimum == 3 else f'candidate_subtype_count_min{minimum}.json'
+    (ROOT/'reports/preference_review_2026_10_08'/filename).write_text(json.dumps({'minimum_training_seats': minimum, 'summary': summary, 'seats': results}, indent=2)+'\n')
     print(json.dumps(summary))
     print([(r['seat'], r['status'], r.get('final_categories'), r.get('next_eliminated')) for r in results if r['seat'] in ('Laverton', 'Kororoit', 'Pakenham', 'Morwell', 'Pascoe Vale', 'Ashwood', 'Yan Yean')])
 
 
 if __name__ == '__main__':
-    main()
+    main(int(sys.argv[1]) if len(sys.argv) > 1 else 3)

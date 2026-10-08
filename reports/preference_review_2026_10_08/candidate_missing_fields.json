@@ -1,0 +1,973 @@
+{
+  "summary": {
+    "only two training seats": 22,
+    "subtype field unobserved elsewhere": 12,
+    "only one training seat": 14,
+    "ON excluded from this diagnostic": 5
+  },
+  "first_missing_fields": [
+    {
+      "seat": "Albert Park",
+      "subtype": "OTH_LTP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 51,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Bass",
+      "subtype": "NAT",
+      "category": "LNP",
+      "field": [
+        "ALP",
+        "LNP"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 2,
+      "reason": "subtype field unobserved elsewhere"
+    },
+    {
+      "seat": "Bayswater",
+      "subtype": "OTH_HMP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 42,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Bellarine",
+      "subtype": "OTH_AVP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 51,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Benambra",
+      "subtype": "OTH_LTP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 51,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Bendigo East",
+      "subtype": "OTH_FFPA",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "ON",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 0,
+      "reason": "ON excluded from this diagnostic"
+    },
+    {
+      "seat": "Bendigo West",
+      "subtype": "OTH_HMP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 42,
+      "reason": "subtype field unobserved elsewhere"
+    },
+    {
+      "seat": "Brighton",
+      "subtype": "IND_MINOR",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 21,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Broadmeadows",
+      "subtype": "OTH_REASON",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 51,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Caulfield",
+      "subtype": "OTH_LTP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 51,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Cranbourne",
+      "subtype": "OTH_DHJP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 52,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Euroa",
+      "subtype": "LIB",
+      "category": "LNP",
+      "field": [
+        "ALP",
+        "LNP"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 2,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Gippsland East",
+      "subtype": "OTH_ASP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 14,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Gippsland South",
+      "subtype": "OTH_FPV",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 21,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Greenvale",
+      "subtype": "OTH_VNS",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 2,
+      "reason": "subtype field unobserved elsewhere"
+    },
+    {
+      "seat": "Hastings",
+      "subtype": "OTH_AJP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 42,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Hawthorn",
+      "subtype": "IND_PROMINENT",
+      "category": "IND",
+      "field": [
+        "ALP",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 7,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Kew",
+      "subtype": "IND_PROMINENT",
+      "category": "IND",
+      "field": [
+        "ALP",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 7,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Kororoit",
+      "subtype": "OTH_VNS",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 14,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Lara",
+      "subtype": "OTH_AVP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 51,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Laverton",
+      "subtype": "OTH_ND",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 52,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Lowan",
+      "subtype": "OTH_AVP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 21,
+      "reason": "subtype field unobserved elsewhere"
+    },
+    {
+      "seat": "Macedon",
+      "subtype": "OTH_FPV",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "ON",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 0,
+      "reason": "ON excluded from this diagnostic"
+    },
+    {
+      "seat": "Malvern",
+      "subtype": "OTH_AJP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 42,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Melton",
+      "subtype": "OTH_HAP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 51,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Mildura",
+      "subtype": "IND_MINOR",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 1,
+      "reason": "subtype field unobserved elsewhere"
+    },
+    {
+      "seat": "Mill Park",
+      "subtype": "OTH_FPV",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 14,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Mornington",
+      "subtype": "OTH_FPV",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 21,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Morwell",
+      "subtype": "IND_MINOR",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "ON",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 0,
+      "reason": "ON excluded from this diagnostic"
+    },
+    {
+      "seat": "Mulgrave",
+      "subtype": "LIB",
+      "category": "LNP",
+      "field": [
+        "ALP",
+        "IND"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 0,
+      "reason": "subtype field unobserved elsewhere"
+    },
+    {
+      "seat": "Murray Plains",
+      "subtype": "OTH_FPV",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 3,
+      "reason": "subtype field unobserved elsewhere"
+    },
+    {
+      "seat": "Narracan",
+      "subtype": "IND_MINOR",
+      "category": "OTH",
+      "field": [
+        "GRN",
+        "IND",
+        "LNP",
+        "ON",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 0,
+      "reason": "ON excluded from this diagnostic"
+    },
+    {
+      "seat": "Narre Warren North",
+      "subtype": "OTH_ASP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 51,
+      "reason": "subtype field unobserved elsewhere"
+    },
+    {
+      "seat": "Nepean",
+      "subtype": "OTH_CPP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 51,
+      "reason": "subtype field unobserved elsewhere"
+    },
+    {
+      "seat": "Niddrie",
+      "subtype": "OTH_ND",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 52,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Ovens Valley",
+      "subtype": "OTH_LTP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 15,
+      "reason": "subtype field unobserved elsewhere"
+    },
+    {
+      "seat": "Pakenham",
+      "subtype": "IND_MINOR",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "ON",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 0,
+      "reason": "ON excluded from this diagnostic"
+    },
+    {
+      "seat": "Pascoe Vale",
+      "subtype": "OTH_REASON",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 51,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Point Cook",
+      "subtype": "OTH_TM",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 51,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Prahran",
+      "subtype": "OTH_AJP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 42,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Preston",
+      "subtype": "OTH_REASON",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 51,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Richmond",
+      "subtype": "OTH_REASON",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 42,
+      "reason": "subtype field unobserved elsewhere"
+    },
+    {
+      "seat": "Ripon",
+      "subtype": "OTH_ASP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 14,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Sandringham",
+      "subtype": "OTH_AJP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 21,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Shepparton",
+      "subtype": "OTH_DLP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "IND",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 0,
+      "matching_broad_seats": 3,
+      "reason": "subtype field unobserved elsewhere"
+    },
+    {
+      "seat": "South Barwon",
+      "subtype": "OTH_DHJP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 52,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "South-West Coast",
+      "subtype": "IND_MINOR",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "IND",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 3,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "St Albans",
+      "subtype": "OTH_VNS",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 4,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Sunbury",
+      "subtype": "OTH_VNS",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 51,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Tarneit",
+      "subtype": "OTH_ND",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 52,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Thomastown",
+      "subtype": "OTH_VNS",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "LNP"
+      ],
+      "same_category_alive": false,
+      "matching_subtype_seats": 1,
+      "matching_broad_seats": 14,
+      "reason": "only one training seat"
+    },
+    {
+      "seat": "Werribee",
+      "subtype": "OTH_HAP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "IND",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 51,
+      "reason": "only two training seats"
+    },
+    {
+      "seat": "Yan Yean",
+      "subtype": "OTH_DHJP",
+      "category": "OTH",
+      "field": [
+        "ALP",
+        "GRN",
+        "LNP",
+        "OTH"
+      ],
+      "same_category_alive": true,
+      "matching_subtype_seats": 2,
+      "matching_broad_seats": 52,
+      "reason": "only two training seats"
+    }
+  ],
+  "combinations": [
+    {
+      "subtype": "OTH_LTP",
+      "field": "ALP+GRN+IND+LNP+OTH",
+      "seats_stopped": 3
+    },
+    {
+      "subtype": "OTH_REASON",
+      "field": "ALP+GRN+IND+LNP+OTH",
+      "seats_stopped": 3
+    },
+    {
+      "subtype": "OTH_DHJP",
+      "field": "ALP+GRN+LNP+OTH",
+      "seats_stopped": 3
+    },
+    {
+      "subtype": "OTH_AJP",
+      "field": "ALP+GRN+LNP",
+      "seats_stopped": 3
+    },
+    {
+      "subtype": "OTH_ND",
+      "field": "ALP+GRN+LNP+OTH",
+      "seats_stopped": 3
+    },
+    {
+      "subtype": "OTH_HMP",
+      "field": "ALP+GRN+LNP",
+      "seats_stopped": 2
+    },
+    {
+      "subtype": "OTH_AVP",
+      "field": "ALP+GRN+IND+LNP+OTH",
+      "seats_stopped": 2
+    },
+    {
+      "subtype": "OTH_ASP",
+      "field": "ALP+LNP",
+      "seats_stopped": 2
+    },
+    {
+      "subtype": "OTH_FPV",
+      "field": "ALP+GRN+IND+LNP",
+      "seats_stopped": 2
+    },
+    {
+      "subtype": "IND_PROMINENT",
+      "field": "ALP+LNP",
+      "seats_stopped": 2
+    },
+    {
+      "subtype": "OTH_VNS",
+      "field": "ALP+LNP",
+      "seats_stopped": 2
+    },
+    {
+      "subtype": "OTH_HAP",
+      "field": "ALP+GRN+IND+LNP+OTH",
+      "seats_stopped": 2
+    },
+    {
+      "subtype": "IND_MINOR",
+      "field": "ALP+GRN+IND+LNP+ON+OTH",
+      "seats_stopped": 2
+    },
+    {
+      "subtype": "NAT",
+      "field": "ALP+LNP",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_FFPA",
+      "field": "ALP+GRN+IND+LNP+ON+OTH",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "IND_MINOR",
+      "field": "ALP+GRN+IND+LNP",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "LIB",
+      "field": "ALP+LNP",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_VNS",
+      "field": "ALP+IND+LNP+OTH",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_AVP",
+      "field": "ALP+GRN+IND+LNP",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_FPV",
+      "field": "ALP+GRN+IND+LNP+ON+OTH",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "IND_MINOR",
+      "field": "ALP+IND+LNP+OTH",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_FPV",
+      "field": "ALP+LNP",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "LIB",
+      "field": "ALP+IND",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_FPV",
+      "field": "ALP+LNP+OTH",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "IND_MINOR",
+      "field": "GRN+IND+LNP+ON+OTH",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_ASP",
+      "field": "ALP+GRN+IND+LNP+OTH",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_CPP",
+      "field": "ALP+GRN+IND+LNP+OTH",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_LTP",
+      "field": "ALP+LNP",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_TM",
+      "field": "ALP+GRN+IND+LNP+OTH",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_REASON",
+      "field": "ALP+GRN+LNP",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_AJP",
+      "field": "ALP+GRN+IND+LNP",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_DLP",
+      "field": "ALP+IND+LNP",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "IND_MINOR",
+      "field": "ALP+IND+LNP",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_VNS",
+      "field": "ALP+LNP+OTH",
+      "seats_stopped": 1
+    },
+    {
+      "subtype": "OTH_VNS",
+      "field": "ALP+GRN+IND+LNP+OTH",
+      "seats_stopped": 1
+    }
+  ]
+}

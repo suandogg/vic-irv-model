@@ -1,0 +1,4626 @@
+{
+  "minimum_training_seats": 2,
+  "summary": {
+    "seats": 88,
+    "complete": 51,
+    "unresolved": 37,
+    "correct_winners_among_complete": 50,
+    "correct_pairs_among_complete": 51
+  },
+  "seats": [
+    {
+      "seat": "Albert Park",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "BRADEA, VIOREL",
+          "category": "OTH",
+          "parcel": 466.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "ANTUNOVIC, ELIZABETH",
+          "category": "OTH",
+          "parcel": 559.5050683708175,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "SMART, LANCE",
+          "category": "OTH",
+          "parcel": 672.6627491204554,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "WESTWOOD, CASSANDRA",
+          "category": "OTH",
+          "parcel": 1684.6055840092486,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "DRAGWIDGE, GEORGIE",
+          "category": "IND",
+          "parcel": 2870.361256447097,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 12
+        },
+        {
+          "eliminated": "SAMIOTIS, KIM",
+          "category": "GRN",
+          "parcel": 10043.044041302684,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "TAYLOR, NINA",
+        "SHERSON, LAUREN"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        58.74245124410314,
+        41.25754875589686
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Ashwood",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "DOYLE, MICHAEL",
+          "category": "OTH",
+          "parcel": 467.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "BAKER, NORMAN F.",
+          "category": "OTH",
+          "parcel": 608.2592607654411,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "SALOUMI, LYNNETTE",
+          "category": "IND",
+          "parcel": 952.060354035797,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "GEYER, KEITH",
+          "category": "OTH",
+          "parcel": 1282.993245918146,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 24
+        },
+        {
+          "eliminated": "GRIFFITHS, MILTON",
+          "category": "OTH",
+          "parcel": 1946.7187656696701,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        },
+        {
+          "eliminated": "MORGAN, PETER",
+          "category": "GRN",
+          "parcel": 8090.518912504771,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "FREGON, MATT",
+        "JUDAH, ASHER"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        55.92031200654062,
+        44.07968799345937
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Bass",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "EDWARDS, MEG",
+          "category": "OTH",
+          "parcel": 872.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "MUNDAY, MARCUS",
+          "category": "OTH",
+          "parcel": 1078.6115476458176,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "MOUSELLIS, ELLY",
+          "category": "OTH",
+          "parcel": 1324.952211422732,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "JOBE, JENI",
+          "category": "IND",
+          "parcel": 1593.1799271771363,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "VERHAGEN, MARTIN",
+          "category": "OTH",
+          "parcel": 1938.3092374085286,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 24
+        },
+        {
+          "eliminated": "O'NEILL, MARK",
+          "category": "OTH",
+          "parcel": 3366.7575419002314,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 4
+        },
+        {
+          "eliminated": "BUGBIRD, CALLUM",
+          "category": "GRN",
+          "parcel": 5093.450109125057,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "next_eliminated": "TESSARI, BRETT",
+      "category": "LNP",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "BROWN, AARON",
+        "CRUGNALE, JORDAN"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Bayswater",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "WORMALD, ALYSSA",
+          "category": "OTH",
+          "parcel": 840.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "FIELD, CHRIS",
+          "category": "OTH",
+          "parcel": 988.4027707332651,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "DOLAN, THOMAS",
+          "category": "OTH",
+          "parcel": 1125.1866802295328,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 11
+        },
+        {
+          "eliminated": "MACKALLAH, CHLOE",
+          "category": "IND",
+          "parcel": 1238.73790752469,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "COOMBES, GARY",
+          "category": "OTH",
+          "parcel": 2031.1279047514126,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 24
+        }
+      ],
+      "next_eliminated": "HEAP, ASHLEY",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "SIRNINGER RANKIN, NADIA",
+        "TAYLOR, JACKSON",
+        "WAKELING, NICK"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Bellarine",
+      "status": "unresolved",
+      "rounds": [],
+      "next_eliminated": "TAYLOR, BRENDAN",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "CARDILINI, ADAM",
+        "FENTON, SARAH",
+        "GRIGAU, DONNIE",
+        "MANUELL, GUY",
+        "MARCHANT, ALISON",
+        "MUSE, KYLEE",
+        "RITCHIE, BRETT ANTHONY",
+        "SEMMENS, RACHEL"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Benambra",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "O'BRIEN, ADRIAN JAMES",
+          "category": "OTH",
+          "parcel": 683.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "ROSSITER, DEAN",
+          "category": "OTH",
+          "parcel": 909.938481753253,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "STRATTON, JANELLE",
+          "category": "OTH",
+          "parcel": 983.205160297915,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 20
+        },
+        {
+          "eliminated": "BRADY, LUKE",
+          "category": "GRN",
+          "parcel": 1781.9567530818008,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 4
+        }
+      ],
+      "next_eliminated": "FUERY, MIKE",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "HAWKINS, JACQUI",
+        "TAIT, MARK",
+        "TILLEY, BILL"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Bendigo East",
+      "status": "unresolved",
+      "rounds": [],
+      "next_eliminated": "KEETELAAR, EVELYN",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "ALLAN, JACINTA",
+        "LAURIE, JAMES",
+        "MCLELLAND-HOWE, VYONNE",
+        "MIHAIL, BEN",
+        "SCHADE, DARIN",
+        "TOLHURST, MICHAEL JAMES"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Bendigo West",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "NUSKE, MARILYN",
+          "category": "OTH",
+          "parcel": 349.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "WOOLLEY, RICHARD JAMES",
+          "category": "OTH",
+          "parcel": 619.3417022280066,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "MAXWELL, VICTORIA",
+          "category": "OTH",
+          "parcel": 1133.4013511452536,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "BANSEMER, MATT",
+          "category": "IND",
+          "parcel": 1329.387258446697,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "SERPELL, STEVE",
+          "category": "OTH",
+          "parcel": 2281.352406928474,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        }
+      ],
+      "next_eliminated": "TAYLOR, WAYNE",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "EDWARDS, MAREE",
+        "PRICE, KEN",
+        "SEARLE, JAMES"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Bentleigh",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "GNIESLAW, SIMON",
+          "category": "IND",
+          "parcel": 789.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "HARRIS, DAVID",
+          "category": "OTH",
+          "parcel": 1261.5403914953952,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "RYAN, PAUL",
+          "category": "OTH",
+          "parcel": 2016.9168948172692,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 17
+        },
+        {
+          "eliminated": "GALLI-MCROSTIE, ALANA",
+          "category": "GRN",
+          "parcel": 5945.221004594003,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "STAIKOS, NICK",
+        "TAYLOR-HAYNES, DEBBIE"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        57.315268120693396,
+        42.68473187930661
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Berwick",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "DOLHEGUY, KATHERINE",
+          "category": "OTH",
+          "parcel": 1029.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "VAN DER HORST, JOEL",
+          "category": "OTH",
+          "parcel": 1679.8072514220723,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "HAUPT, KERRY",
+          "category": "OTH",
+          "parcel": 2573.204568510363,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "PERRY, HAYLEY",
+          "category": "GRN",
+          "parcel": 5547.3306337894255,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "BATTIN, BRAD",
+        "ZAVEER, MALIK"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        52.76936314113671,
+        47.230636858863285
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Box Hill",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "LISTON, CAMERON",
+          "category": "OTH",
+          "parcel": 435.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "RIERA, ALICIA",
+          "category": "OTH",
+          "parcel": 566.3083445118077,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "TSENG, WAYNE",
+          "category": "IND",
+          "parcel": 692.3767995311003,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "ONG, GARY",
+          "category": "OTH",
+          "parcel": 1031.1120835948236,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "FOLLONI, SEBASTIAN",
+          "category": "OTH",
+          "parcel": 1264.001214000157,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "DEAN, PAUL",
+          "category": "OTH",
+          "parcel": 2154.0469739285477,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        },
+        {
+          "eliminated": "SHAN, JOANNE",
+          "category": "GRN",
+          "parcel": 7455.724519412514,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "HAMER, PAUL",
+        "WERNER, NICOLE TA-EI"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        56.73343851457222,
+        43.26656148542778
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Brighton",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "TIMMS, ALLAN L.",
+          "category": "OTH",
+          "parcel": 211.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "CASLEY, JOHN TIGER",
+          "category": "OTH",
+          "parcel": 257.9356820315039,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "SCIOLA, NICK",
+          "category": "OTH",
+          "parcel": 594.2805352504402,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "WALKER, ALICIA",
+          "category": "OTH",
+          "parcel": 1021.6003116378548,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        }
+      ],
+      "next_eliminated": "GIBSON, SALLY",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "CRAWFORD, LOUISE",
+        "DEKIERE, SARAH",
+        "FREDERICO, FELICITY",
+        "NEWBURY, JAMES"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Broadmeadows",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "HUYBREGTS, ARIE",
+          "category": "OTH",
+          "parcel": 362.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "SUTTER, BEN",
+          "category": "OTH",
+          "parcel": 831.0612556484765,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "FEILD, CANDACE",
+          "category": "OTH",
+          "parcel": 1085.5166555099725,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "ELMUSTAPHA, MOHAMAD",
+          "category": "IND",
+          "parcel": 1757.339467985662,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "TAM, BIENNE",
+          "category": "OTH",
+          "parcel": 2114.025829363354,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "AGUILUS, JOE",
+          "category": "GRN",
+          "parcel": 4091.023381613652,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 15
+        },
+        {
+          "eliminated": "HASSAN, OMAR",
+          "category": "OTH",
+          "parcel": 5813.099408111997,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        }
+      ],
+      "final_candidates": [
+        "MATTHEWS-WARD, KATHLEEN",
+        "DUZOVA, BARIS"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        65.89148736995357,
+        34.10851263004643
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Brunswick",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "TAYLOR, KENNETH CHARLES",
+          "category": "OTH",
+          "parcel": 153.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "SHAKER, LILIAN SABRY",
+          "category": "OTH",
+          "parcel": 533.2297245004189,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "HELOU, ANTHONY",
+          "category": "IND",
+          "parcel": 668.9013168253703,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "LAMARCHE-BEAUCHESNE, RACHEL",
+          "category": "OTH",
+          "parcel": 764.4239458994986,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 45
+        },
+        {
+          "eliminated": "EVANS, SHEA",
+          "category": "OTH",
+          "parcel": 2218.074440328735,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 4
+        },
+        {
+          "eliminated": "JIMENEZ, NAHUI",
+          "category": "OTH",
+          "parcel": 4667.034814912372,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        },
+        {
+          "eliminated": "NGUYEN, MINH QUAN",
+          "category": "LNP",
+          "parcel": 5912.291949127244,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        }
+      ],
+      "final_candidates": [
+        "READ, TIM",
+        "WILLIAMS, MIKE"
+      ],
+      "final_categories": [
+        "GRN",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        62.735754622579755,
+        37.26424537742024
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Bulleen",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "VINCENT, DAVID",
+          "category": "OTH",
+          "parcel": 214.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "SABHLOK, SANJEEV",
+          "category": "IND",
+          "parcel": 492.44411868597655,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "JAFARI, ELNAZ",
+          "category": "OTH",
+          "parcel": 951.7179955832116,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "STOKES, JASON",
+          "category": "OTH",
+          "parcel": 1283.2810665564302,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "PATRIKIOS, VOULA",
+          "category": "OTH",
+          "parcel": 2100.6170572551873,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "STAFFORD, KELLIE",
+          "category": "GRN",
+          "parcel": 5735.680888434735,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "GUY, MATTHEW",
+        "ROGERS, IAN"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        55.39890554915118,
+        44.60109445084883
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Bundoora",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "KOELMEYER, ERIC",
+          "category": "IND",
+          "parcel": 408.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "HOLGATE, BELLA",
+          "category": "OTH",
+          "parcel": 1286.033700817699,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "JONES, ETHAN",
+          "category": "OTH",
+          "parcel": 1568.853224805727,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "LU, ANDREW",
+          "category": "OTH",
+          "parcel": 2728.6273699570447,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "O'BRIEN, JULIE",
+          "category": "GRN",
+          "parcel": 6759.098062443791,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "BROOKS, COLIN",
+        "TOMAR, SAHIL"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        62.79026885346194,
+        37.209731146538054
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Carrum",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "WILLIS, DAMIAN",
+          "category": "IND",
+          "parcel": 981.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "MACGREGOR OWEN, TAYLOR",
+          "category": "OTH",
+          "parcel": 1322.578814673771,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "CAMERON, JEREMY",
+          "category": "OTH",
+          "parcel": 1710.8098976326924,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "EREVNIDIS, GEORGIA",
+          "category": "OTH",
+          "parcel": 3020.9549124220116,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "LILLICO, JAYDE",
+          "category": "GRN",
+          "parcel": 4862.368117411731,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "KILKENNY, SONYA",
+        "BUCHANAN, BEC"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        60.94022828223861,
+        39.0597717177614
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Caulfield",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "EDWELL, LYNNE",
+          "category": "OTH",
+          "parcel": 557.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "ABELMAN, MICHAEL",
+          "category": "OTH",
+          "parcel": 837.6410437652178,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "MYERSON, ASHER",
+          "category": "OTH",
+          "parcel": 1319.679905084511,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "KALTMANN, NOMI",
+          "category": "IND",
+          "parcel": 3111.813433492479,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 12
+        },
+        {
+          "eliminated": "IAMPOLSKI, RACHEL",
+          "category": "GRN",
+          "parcel": 8183.651585858041,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "SOUTHWICK, DAVID",
+        "HAREL, LIOR"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        54.355090781599515,
+        45.6449092184005
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Clarinda",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "WOLFE, STEVE",
+          "category": "OTH",
+          "parcel": 794.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "LITCHFIELD, SUE",
+          "category": "OTH",
+          "parcel": 1134.7709741697884,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "VO, HUNG",
+          "category": "OTH",
+          "parcel": 1446.1270383153924,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "HASTINGS, KAREN",
+          "category": "OTH",
+          "parcel": 2076.46039246864,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 9
+        },
+        {
+          "eliminated": "MOFFETT, JESSAMINE",
+          "category": "GRN",
+          "parcel": 4117.798717630557,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        },
+        {
+          "eliminated": "WHITE, CAROLINE",
+          "category": "IND",
+          "parcel": 6110.460396083277,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 5
+        }
+      ],
+      "final_candidates": [
+        "TAK, MENG HEANG",
+        "RICHARDSON, ANTHONY"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        58.30224839582691,
+        41.69775160417308
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Cranbourne",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "RAGUPATHY, RAVI",
+          "category": "IND",
+          "parcel": 242.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "BRENNAN, GWYNNE",
+          "category": "OTH",
+          "parcel": 1019.5062983495941,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "PHILPOTT, PETER BERNARD",
+          "category": "OTH",
+          "parcel": 1201.6963157884586,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "HANSEN, GERARDINE FRANCES",
+          "category": "OTH",
+          "parcel": 2099.2911133120365,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "NORTON, CHRIS",
+          "category": "OTH",
+          "parcel": 2982.9547199695116,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "VEMPATI, KIRAN",
+          "category": "GRN",
+          "parcel": 3406.339234603701,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "HARVEY, BRADLEY",
+          "category": "OTH",
+          "parcel": 5050.198799502996,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        }
+      ],
+      "final_candidates": [
+        "RICHARDS, PAULINE",
+        "SINGH, JAGDEEP"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        59.185491455681486,
+        40.81450854431853
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Croydon",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "MCDONALD-ECKERSALL, HARLEY",
+          "category": "OTH",
+          "parcel": 1501.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "DE WIT, SOPHIA",
+          "category": "OTH",
+          "parcel": 2260.603045887229,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "NEBAUER, DAN",
+          "category": "OTH",
+          "parcel": 3014.9378755611287,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 17
+        },
+        {
+          "eliminated": "POWELL, BRENDAN",
+          "category": "GRN",
+          "parcel": 6544.405526063554,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "HODGETT, DAVID",
+        "GRASSO, SORINA"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        51.82462834787812,
+        48.175371652121875
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Dandenong",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "TURNER, THAM",
+          "category": "OTH",
+          "parcel": 958.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 5
+        },
+        {
+          "eliminated": "KLOP, ANDREW",
+          "category": "OTH",
+          "parcel": 1060.8370797816847,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "LEVCHENKO, ANTHONY",
+          "category": "OTH",
+          "parcel": 1753.9944405495144,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "KIRWAN, MATTHEW",
+          "category": "GRN",
+          "parcel": 3763.7796095253507,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "HARMSE, AUDREY",
+          "category": "OTH",
+          "parcel": 5267.848767605508,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        }
+      ],
+      "final_candidates": [
+        "WILLIAMS, GABRIELLE",
+        "BROADLEY, KAREN"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        66.20456752648755,
+        33.795432473512456
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Eildon",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "THORNTON, ROBERT",
+          "category": "OTH",
+          "parcel": 459.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "CORDNER HUNT, KAMMY",
+          "category": "IND",
+          "parcel": 737.3687939506293,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "BOND, CHLOE",
+          "category": "OTH",
+          "parcel": 1499.0079084730437,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "RUSIC, JOSHUA",
+          "category": "OTH",
+          "parcel": 1882.412112321509,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "LACEY, TIM",
+          "category": "OTH",
+          "parcel": 2997.0086786080306,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 17
+        },
+        {
+          "eliminated": "MIKELSONS, WIL",
+          "category": "GRN",
+          "parcel": 6388.857813723793,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "MCLEISH, CINDY",
+        "JUDD, JANE"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        57.08353012946651,
+        42.91646987053349
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Eltham",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "KARIMI, LEILA",
+          "category": "OTH",
+          "parcel": 710.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "MARSHALL, CATRIONA",
+          "category": "OTH",
+          "parcel": 1089.4541795167227,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "STUBLEY, HUGH",
+          "category": "OTH",
+          "parcel": 1644.6164385953002,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 17
+        },
+        {
+          "eliminated": "GRIMES, ALEX",
+          "category": "GRN",
+          "parcel": 6797.039565486896,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "WARD, VICKI",
+        "MCCLINTOCK, JASON"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        57.883111767066666,
+        42.11688823293333
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Essendon",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "MUIR, MARGARET",
+          "category": "OTH",
+          "parcel": 848.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "WRIGHT, DAVID",
+          "category": "OTH",
+          "parcel": 1084.4184477926574,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "HOPE, NICHOLAS",
+          "category": "OTH",
+          "parcel": 1258.927222934843,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 4
+        },
+        {
+          "eliminated": "WILLIAMS, GAYLE",
+          "category": "OTH",
+          "parcel": 1576.3900779752764,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "DADICH, DANIEL NAIR",
+          "category": "OTH",
+          "parcel": 3231.169282536536,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        },
+        {
+          "eliminated": "PRENTIS, JARED",
+          "category": "GRN",
+          "parcel": 9823.523025834975,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "PEARSON, DANNY",
+        "BARONESSA, ANGELO"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        62.24216740340333,
+        37.757832596596664
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Eureka",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "BANWELL, MARK WILLIAM",
+          "category": "OTH",
+          "parcel": 220.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "RAY, MICHAEL",
+          "category": "OTH",
+          "parcel": 674.3507690498789,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "GIAMPAOLO, ANTHONY JOSEPH",
+          "category": "OTH",
+          "parcel": 1020.7585092212654,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "GARCIA, ADRIAN",
+          "category": "OTH",
+          "parcel": 1450.5592842415676,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 20
+        },
+        {
+          "eliminated": "REID, NICOLA",
+          "category": "IND",
+          "parcel": 1716.9785889964048,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "MORRISON, WENDY",
+          "category": "OTH",
+          "parcel": 2406.2024864404375,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 45
+        },
+        {
+          "eliminated": "RICKARD, TABITHA",
+          "category": "OTH",
+          "parcel": 3807.0664061731736,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 4
+        },
+        {
+          "eliminated": "MCCOLL, SAM",
+          "category": "GRN",
+          "parcel": 7058.591198889318,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "SETTLE, MICHAELA",
+        "TATCHELL, PAUL"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        57.399199619583385,
+        42.6008003804166
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Euroa",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "HADDOCK, ELAINE",
+          "category": "OTH",
+          "parcel": 1170.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "BACHELOR, PAUL",
+          "category": "OTH",
+          "parcel": 1700.0015747210355,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "ROWBOTHAM, RAYMOND MARK",
+          "category": "OTH",
+          "parcel": 2818.9430654157677,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 7
+        },
+        {
+          "eliminated": "BENNETT, JAMES",
+          "category": "GRN",
+          "parcel": 3621.4575873686526,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 50
+        }
+      ],
+      "next_eliminated": "HEARN, BRAD",
+      "category": "LNP",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "CLEELAND, ANNABELLE",
+        "TOUGH, ANGELA"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Evelyn",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "DE FRANCESCO, ROSALIE",
+          "category": "OTH",
+          "parcel": 366.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "DE FRANCESCO, NAT",
+          "category": "IND",
+          "parcel": 570.4628385003151,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "HEALD, JAN",
+          "category": "OTH",
+          "parcel": 1989.666032219398,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "DOBSON, JEANETTE",
+          "category": "OTH",
+          "parcel": 3302.6828119207944,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 17
+        },
+        {
+          "eliminated": "HENLEY, ANDREW",
+          "category": "GRN",
+          "parcel": 5735.871773604201,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "VALLENCE, BRIDGET",
+        "DENT, LORNA"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        55.00288542179158,
+        44.997114578208425
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Footscray",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "MUIR, RUSSELL",
+          "category": "OTH",
+          "parcel": 838.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "MANSOURI JAJAEE, SHOHRE",
+          "category": "OTH",
+          "parcel": 1056.568392682605,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "WILLIAMS, ALAN",
+          "category": "OTH",
+          "parcel": 1264.835165061888,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "JORQUERA, JORGE",
+          "category": "OTH",
+          "parcel": 4722.679975047666,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        },
+        {
+          "eliminated": "JOESIKA, EMETE",
+          "category": "LNP",
+          "parcel": 8447.371665911909,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        }
+      ],
+      "final_candidates": [
+        "HALL, KATIE",
+        "PEREYRA, ELENA"
+      ],
+      "final_categories": [
+        "ALP",
+        "GRN"
+      ],
+      "final_shares_pct": [
+        54.200273291845136,
+        45.79972670815485
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Frankston",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "KELSALL, HENRY",
+          "category": "OTH",
+          "parcel": 369.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "BERGWERF, DARREN PAUL",
+          "category": "IND",
+          "parcel": 970.5254730079289,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "BROWN, RICHARD",
+          "category": "OTH",
+          "parcel": 1197.9488794039125,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "JOHNSTON, ELIZABETH",
+          "category": "OTH",
+          "parcel": 1691.230420290844,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "ABRAHAM, CHRYSTEN",
+          "category": "OTH",
+          "parcel": 2080.9683455224313,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 5
+        },
+        {
+          "eliminated": "SURIC, DRAGAN",
+          "category": "OTH",
+          "parcel": 3083.16105613643,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "GREEN, EMILY",
+          "category": "GRN",
+          "parcel": 6908.2276039926555,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "EDBROOKE, PAUL",
+        "O'REILLY, MICHAEL"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        58.04425475511136,
+        41.95574524488864
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Geelong",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "JUHASZ, STEPHEN",
+          "category": "OTH",
+          "parcel": 455.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "CARR, ANGELA",
+          "category": "IND",
+          "parcel": 1149.6662336547633,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "MOTTA, BOB",
+          "category": "OTH",
+          "parcel": 1749.5752181644632,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "PARKER-HILL, MADELEINE",
+          "category": "OTH",
+          "parcel": 3125.6815252570773,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 17
+        },
+        {
+          "eliminated": "SMITH, ALEISHA",
+          "category": "GRN",
+          "parcel": 8506.779154998892,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "COUZENS, CHRISTINE",
+        "BENNETT-HULLIN, JAMES"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        63.16117555594598,
+        36.838824444054026
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Gippsland East",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "COURT, SALLY",
+          "category": "OTH",
+          "parcel": 725.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "FECHNER, CARL JOHN",
+          "category": "OTH",
+          "parcel": 1128.9689753277153,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "BARNES, ED",
+          "category": "OTH",
+          "parcel": 1601.3662443360245,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "LING, NISSA",
+          "category": "GRN",
+          "parcel": 3223.6100849941513,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        }
+      ],
+      "next_eliminated": "MUIR, RICKY",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "BULL, TIM",
+        "RICHARDSON, STEPHEN"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Gippsland South",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "FURLONG, PAUL",
+          "category": "OTH",
+          "parcel": 1213.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "JEGES, HELEN",
+          "category": "OTH",
+          "parcel": 1587.3952677408322,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "NEWNHAM, ANGELA",
+          "category": "OTH",
+          "parcel": 2115.713292740473,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "ESLER, CLAY",
+          "category": "IND",
+          "parcel": 3618.9228920502937,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 12
+        },
+        {
+          "eliminated": "TIZIANI-SIMPSON, JAY",
+          "category": "GRN",
+          "parcel": 5666.4506244203985,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "O'BRIEN, DANNY",
+        "RYAN, DENISE"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        63.150254171325805,
+        36.84974582867419
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Glen Waverley",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "HARRIS, JOYCE MAREE",
+          "category": "OTH",
+          "parcel": 664.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "HANCE, MADDY",
+          "category": "OTH",
+          "parcel": 887.8513938592016,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "HUISMAN, KRISTEEN",
+          "category": "OTH",
+          "parcel": 1193.5926977784964,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "MARSH, SCOTT",
+          "category": "OTH",
+          "parcel": 2857.62265740405,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        },
+        {
+          "eliminated": "PARTRIDGE, STEPH",
+          "category": "GRN",
+          "parcel": 5238.763973571854,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "MULLAHY, JOHN",
+        "ANGUS, NEIL"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        52.298124576829075,
+        47.70187542317091
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Greenvale",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "STYLES, LAUREN",
+          "category": "OTH",
+          "parcel": 1225.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "FURINA, ROSANNA",
+          "category": "OTH",
+          "parcel": 1423.3124543601919,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "SANTA-ISABEL, CRISTINA",
+          "category": "GRN",
+          "parcel": 2681.9184762414798,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 4
+        }
+      ],
+      "next_eliminated": "YOLBULAN, MUTULLAH CAN",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "BENGTSSON, MARIA",
+        "ERCIYAS, FATMA",
+        "GHANI, USMAN",
+        "WALTERS, IWAN"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Hastings",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "WHITEHILL, ROBERT",
+          "category": "IND",
+          "parcel": 533.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "DE WIT, CAMILLE",
+          "category": "OTH",
+          "parcel": 875.1010622267054,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "SABO, TOM",
+          "category": "OTH",
+          "parcel": 1115.1647320549503,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "BENSON, JANET FELICITY",
+          "category": "OTH",
+          "parcel": 1593.748597484606,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "JACK, TYSON",
+          "category": "OTH",
+          "parcel": 3207.2997439974897,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "SAUNDERS, PAUL",
+          "category": "GRN",
+          "parcel": 6343.742115390227,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "MERCURIO, PAUL",
+        "HUTTON, BRIONY"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        52.22630869425225,
+        47.77369130574775
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Hawthorn",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "BELL, STRATTON",
+          "category": "OTH",
+          "parcel": 354.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 11
+        },
+        {
+          "eliminated": "TRIANTAFILLIS, KEN",
+          "category": "OTH",
+          "parcel": 427.4284541994452,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "PEPPARD, RICHARD",
+          "category": "OTH",
+          "parcel": 689.3634942742863,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        },
+        {
+          "eliminated": "FUHRER, FAITH",
+          "category": "OTH",
+          "parcel": 953.5921945980839,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        },
+        {
+          "eliminated": "SAVAGE, NICK",
+          "category": "GRN",
+          "parcel": 5468.109540159584,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        }
+      ],
+      "next_eliminated": "LOWE, MELISSA",
+      "category": "IND",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "KENNEDY, JOHN",
+        "PESUTTO, JOHN"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Ivanhoe",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "LANGDON, CRAIG",
+          "category": "IND",
+          "parcel": 739.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "RISTEVSKI, SONJA",
+          "category": "OTH",
+          "parcel": 1084.7022580862547,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "HAYWARD, SARAH",
+          "category": "OTH",
+          "parcel": 1826.5706072764808,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 17
+        },
+        {
+          "eliminated": "BIEBER, EMILY",
+          "category": "GRN",
+          "parcel": 8790.00287797381,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "CARBINES, ANTHONY",
+        "KHOURY, BERNADETTE"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        60.697644779384305,
+        39.3023552206157
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Kalkallo",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "FRENCH, CALLUM JOHN",
+          "category": "OTH",
+          "parcel": 299.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "SANDHU, SMILEY",
+          "category": "OTH",
+          "parcel": 414.83009576044265,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "PAREL, JIMMY GEORGE",
+          "category": "IND",
+          "parcel": 762.8735086269028,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "LOWE, FRANCES",
+          "category": "OTH",
+          "parcel": 1619.906517958199,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "MONSALVE TOBON, SERGIO",
+          "category": "OTH",
+          "parcel": 2419.978577093843,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 5
+        },
+        {
+          "eliminated": "SAYER, DAS",
+          "category": "OTH",
+          "parcel": 3523.0913675955226,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "UL MURTAZA, MUHAMMAD NISAR",
+          "category": "GRN",
+          "parcel": 4882.184179599876,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 50
+        }
+      ],
+      "final_candidates": [
+        "SPENCE, ROS",
+        "SINGH, BIKRAM"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        67.29806019278769,
+        32.701939807212305
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Kew",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "SULLIVAN, KYM",
+          "category": "OTH",
+          "parcel": 147.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "DAVIS, FINLAY",
+          "category": "OTH",
+          "parcel": 163.7667537138852,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "SCHOFIELD, RUBY",
+          "category": "OTH",
+          "parcel": 548.7092673666007,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "SEELEY, ANN",
+          "category": "OTH",
+          "parcel": 995.3472557846386,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 9
+        },
+        {
+          "eliminated": "CARTER, JACKIE",
+          "category": "GRN",
+          "parcel": 3991.4129084554074,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        }
+      ],
+      "next_eliminated": "TORNEY, SOPHIE",
+      "category": "IND",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "SKELTON, LUCY",
+        "WILSON, JESS"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Kororoit",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "CHANDOK, JAZ",
+          "category": "OTH",
+          "parcel": 623.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "BAUCH, JOH",
+          "category": "IND",
+          "parcel": 1057.4274179034048,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "DIVITA, KATHERINE",
+          "category": "OTH",
+          "parcel": 1346.7759334876075,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "MILUTINOVIC, MELANIE",
+          "category": "OTH",
+          "parcel": 2677.5385919363016,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 24
+        },
+        {
+          "eliminated": "BROWN, ZUZANNA",
+          "category": "OTH",
+          "parcel": 3507.4099187336,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "CHESTER, BEN",
+          "category": "GRN",
+          "parcel": 4158.75948444797,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        }
+      ],
+      "next_eliminated": "GIBSON, BELLE",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "FLETCHER, JOHN",
+        "GRIGOROVITCH, LUBA"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Lara",
+      "status": "unresolved",
+      "rounds": [],
+      "next_eliminated": "TAYLOR, ASH",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "GARDNER, COURTNEY",
+        "GEORGE, ELLA",
+        "HATHWAY, SARAH",
+        "KELLY, PETER",
+        "KREIN, RALPH",
+        "PAYNE, MAX",
+        "RANKINE, STEVE"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Laverton",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "PAREDES, RUFO",
+          "category": "IND",
+          "parcel": 355.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "RAYMOND, TRENT",
+          "category": "OTH",
+          "parcel": 653.7429108477221,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "BAGHERI, POUYA",
+          "category": "OTH",
+          "parcel": 743.3441629913458,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "SONI, GURNEET",
+          "category": "OTH",
+          "parcel": 1204.6178713042364,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "FRY, DAVID",
+          "category": "OTH",
+          "parcel": 1646.8258985238126,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "WIRTH, MICHAEL",
+          "category": "OTH",
+          "parcel": 2878.2137772947585,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "ROBERTSON, CATHERINE",
+          "category": "OTH",
+          "parcel": 3953.039308319129,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        },
+        {
+          "eliminated": "DURZADA, BRAISHNA",
+          "category": "GRN",
+          "parcel": 7367.061348255106,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "CONNOLLY, SARAH",
+        "REDDY, RAJA"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        66.77585837775409,
+        33.2241416222459
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Lowan",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "RAMSAY, TAMASIN",
+          "category": "OTH",
+          "parcel": 1018.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "COLEMAN, ROBERT",
+          "category": "OTH",
+          "parcel": 1729.772127143943,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        }
+      ],
+      "next_eliminated": "ETHERTON, RICHARD",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "KEALY, EMMA",
+        "LANE, RICHARD",
+        "MEAD, AMANDA",
+        "MONAGHAN, MICK"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Macedon",
+      "status": "unresolved",
+      "rounds": [],
+      "next_eliminated": "SEDGMAN, KERRYN P.",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "BARTON, HUNTLY",
+        "BERGMANN, IRIS",
+        "BONANNO, DOMINIC",
+        "EVEZARD, AMANDA",
+        "MCCORMACK, CHRIS",
+        "MCRAE MCLEOD, MARLEY",
+        "THOMAS, MARY-ANNE"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Malvern",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "SCHMIDT, JUDY",
+          "category": "OTH",
+          "parcel": 632.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "STEFANOPOULOS, STEVE",
+          "category": "IND",
+          "parcel": 728.266875022326,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "NATOLI, AMELIA",
+          "category": "OTH",
+          "parcel": 1596.267370277186,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "FULLER, MITCHELL",
+          "category": "GRN",
+          "parcel": 7503.235114377241,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "O'BRIEN, MICHAEL",
+        "NATALE, DARREN"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        58.5722859634099,
+        41.42771403659011
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Melbourne",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "AL-SAIMARY, LAYLAH",
+          "category": "IND",
+          "parcel": 428.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "SMITH, STEVEN J.",
+          "category": "OTH",
+          "parcel": 538.791393365448,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "JANSON, MICHAEL",
+          "category": "OTH",
+          "parcel": 585.9762914038557,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "BANGAAR, RABIN",
+          "category": "OTH",
+          "parcel": 811.001605210032,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "FOXWORTHY, NICOLA",
+          "category": "OTH",
+          "parcel": 1979.1449477737629,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 4
+        },
+        {
+          "eliminated": "BOLGER, COLLEEN",
+          "category": "OTH",
+          "parcel": 3463.025962059394,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        },
+        {
+          "eliminated": "PALACKALODY, GEORGE",
+          "category": "LNP",
+          "parcel": 8614.177224006951,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        }
+      ],
+      "final_candidates": [
+        "SANDELL, ELLEN",
+        "THISTLETON, REBECCA"
+      ],
+      "final_categories": [
+        "GRN",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        58.80384405830016,
+        41.19615594169985
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Melton",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "PERERA, JASON SPENCER",
+          "category": "OTH",
+          "parcel": 130.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "CIAPPARA, LUCIENNE",
+          "category": "OTH",
+          "parcel": 220.07189081330318,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "KAUR, JASLEEN",
+          "category": "OTH",
+          "parcel": 247.6004501302461,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "DONALD, SAMANTHA JANE",
+          "category": "OTH",
+          "parcel": 686.9572371187455,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "DOBRAN, TONY",
+          "category": "OTH",
+          "parcel": 772.9635082937912,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "ADIN-JAMES, FIONA",
+          "category": "OTH",
+          "parcel": 843.5529929361575,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "BRUNT, RICHARD",
+          "category": "OTH",
+          "parcel": 1113.7281789770077,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "ALP, ASHLEY",
+          "category": "OTH",
+          "parcel": 2047.9921025463484,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 11
+        }
+      ],
+      "next_eliminated": "BLACKBORROW, PAUL",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "BINGHAM, JARROD JAMES",
+        "BIRCHALL, IAN",
+        "MCGHIE, STEVE",
+        "MORRIS, PRAISE",
+        "WATT, GRAHAM"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Mildura",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "ZAYN, ANGYLINA",
+          "category": "OTH",
+          "parcel": 333.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "BROUGHAM, PHILIPPE JOHN",
+          "category": "OTH",
+          "parcel": 426.2217118898947,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "STRATTON, BRAD",
+          "category": "OTH",
+          "parcel": 606.3002208497984,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "SHARPE, FELICITY",
+          "category": "OTH",
+          "parcel": 676.0196517068663,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 11
+        },
+        {
+          "eliminated": "CLEMENTS, KATIE",
+          "category": "GRN",
+          "parcel": 1160.5052084036524,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        }
+      ],
+      "next_eliminated": "BRYMER, SONIA",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "BENHAM, JADE",
+        "CUPPER, ALI",
+        "MATHESON, PAUL",
+        "MILNE, GLENN",
+        "ZIGOURAS, STELLA"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Mill Park",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "SIMONS, MARCIA",
+          "category": "OTH",
+          "parcel": 1833.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "ANDERSON, CRAIG",
+          "category": "OTH",
+          "parcel": 2182.1303841246436,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "KEARNEY, CHRIS",
+          "category": "GRN",
+          "parcel": 3650.0010409940633,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        }
+      ],
+      "next_eliminated": "FILIPPOPOULOS, ANDREW",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "D'AMBROSIO, LILY",
+        "YAP, PAIGE"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Monbulk",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "BARNES, VERONICA",
+          "category": "OTH",
+          "parcel": 910.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "HIGGINS, DAVID",
+          "category": "OTH",
+          "parcel": 1313.3323470422526,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "FOLLONI, LEAH",
+          "category": "OTH",
+          "parcel": 2146.84514459428,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "SKELTON, JOHANNA",
+          "category": "IND",
+          "parcel": 2793.9063782716735,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 40
+        },
+        {
+          "eliminated": "COLE, CRAIG",
+          "category": "OTH",
+          "parcel": 4539.453293457544,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 12
+        },
+        {
+          "eliminated": "ORMSBY, MICHAEL",
+          "category": "GRN",
+          "parcel": 9083.395928106478,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "DE MARTINO, DANIELA",
+        "WARD, GARETH"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        57.52167311087776,
+        42.47832688912224
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Mordialloc",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "REID, PHIL",
+          "category": "OTH",
+          "parcel": 154.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "LUM, PATRICK",
+          "category": "OTH",
+          "parcel": 903.6085521787284,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "ALBRECHT, DEBORAH",
+          "category": "OTH",
+          "parcel": 1140.8468324329397,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 22
+        },
+        {
+          "eliminated": "VO, CHI",
+          "category": "OTH",
+          "parcel": 1895.8219850616933,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        },
+        {
+          "eliminated": "O'DONNELL, SARAH",
+          "category": "IND",
+          "parcel": 3984.4448772600213,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 12
+        },
+        {
+          "eliminated": "LESSA, DANIEL",
+          "category": "GRN",
+          "parcel": 6977.534495197654,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "RICHARDSON, TIM",
+        "PEASE, PHILLIP"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        59.328381169652324,
+        40.671618830347676
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Mornington",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "HAYWARD, ROSS",
+          "category": "OTH",
+          "parcel": 375.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "AGIRTAN, JANE",
+          "category": "OTH",
+          "parcel": 679.6425021778641,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "SCHWEEN, LEONIE",
+          "category": "OTH",
+          "parcel": 881.0407761311518,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "PETTITT, PAUL",
+          "category": "OTH",
+          "parcel": 1530.9771109890535,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "SINCLAIR, HARRY",
+          "category": "GRN",
+          "parcel": 3185.240820008576,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        },
+        {
+          "eliminated": "FOWLER, GEORGIA",
+          "category": "ALP",
+          "parcel": 11243.60434744101,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        }
+      ],
+      "final_candidates": [
+        "CREWTHER, CHRIS",
+        "LARDNER, KATE"
+      ],
+      "final_categories": [
+        "LNP",
+        "IND"
+      ],
+      "final_shares_pct": [
+        55.44717991160412,
+        44.5528200883959
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Morwell",
+      "status": "unresolved",
+      "rounds": [],
+      "next_eliminated": "PROCTOR, LISA",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "CAMERON, MARTIN",
+        "CLARKE, BRENDAN",
+        "GIBSON, SHARON",
+        "HARRIMAN, DALE",
+        "HICKEN, ALLAN",
+        "HINE, ROCHELLE",
+        "LUND, TRACIE",
+        "MAIDANA, ALEX",
+        "MAXFIELD, KATE",
+        "MCAULIFFE, JESSICA",
+        "SNELLING, DAVID"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Mulgrave",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "ISMA, EZRA J. D.",
+          "category": "OTH",
+          "parcel": 91.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "LEE, HOWARD",
+          "category": "OTH",
+          "parcel": 120.17397667307219,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "MOODY, ANNE",
+          "category": "OTH",
+          "parcel": 142.25213569209768,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "TOSCANO, JOSEPH",
+          "category": "OTH",
+          "parcel": 160.1862850395222,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "KING, ANDREW",
+          "category": "OTH",
+          "parcel": 179.15737478509234,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "THEODOSSOPOULOU, FOTINI",
+          "category": "OTH",
+          "parcel": 329.48554855799114,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "WOOD, MAREE",
+          "category": "OTH",
+          "parcel": 371.692541650035,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 11
+        },
+        {
+          "eliminated": "MOULD, DAVID",
+          "category": "OTH",
+          "parcel": 492.8077767776774,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "FOREMAN, JANE",
+          "category": "OTH",
+          "parcel": 949.8843803725798,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 20
+        },
+        {
+          "eliminated": "MCLINDON, AIDAN",
+          "category": "OTH",
+          "parcel": 1426.3906869413563,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        },
+        {
+          "eliminated": "LIM, ROBERT",
+          "category": "GRN",
+          "parcel": 2433.0109007522237,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        }
+      ],
+      "next_eliminated": "PIASTRINO, MICHAEL",
+      "category": "LNP",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "ANDREWS, DANIEL",
+        "COOK, IAN"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Murray Plains",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "LEUNG, GLENYS",
+          "category": "OTH",
+          "parcel": 902.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "OTTO, ANDREA",
+          "category": "IND",
+          "parcel": 1135.912915541286,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "BROWNSTEIN, JOHN",
+          "category": "GRN",
+          "parcel": 2022.6443244621348,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        }
+      ],
+      "next_eliminated": "BISH, KATIA",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "HURRELL, DAMIEN",
+        "MACPHERSON, CAMERON",
+        "WALSH, PETER"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Narracan",
+      "status": "unresolved",
+      "rounds": [],
+      "next_eliminated": "HONEY, IAN",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "ABELMAN, MICHAEL",
+        "BLACKWELL, LEONIE",
+        "CLARKE, BRENDAN",
+        "CRAM, AUSTIN",
+        "DE WIT, SOPHIA CAMILLE",
+        "FARNHAM, WAYNE",
+        "MCCABE, ANNEMARIE",
+        "MURPHY, CASEY",
+        "WEAVER, ALYSSA",
+        "WOLFE, TONY"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Narre Warren North",
+      "status": "unresolved",
+      "rounds": [],
+      "next_eliminated": "RUYTER, MONIQUE",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "CAPON, STEPHEN",
+        "DRAGAN, TIMOTHY",
+        "ELKINS, CHRISTINE",
+        "GARDNER, SHEREE",
+        "MATULEC, STEPHEN",
+        "MCLEAN, LAURA",
+        "PARKER, CRAIG",
+        "WILSON, BELINDA",
+        "ZMEGAC, ANDREW"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Narre Warren South",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "BAKER-PEARCE, TYLERE",
+          "category": "IND",
+          "parcel": 290.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "GALLAGHER, MICHAEL",
+          "category": "OTH",
+          "parcel": 1067.8627579558324,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "SKROBO, CHRISTINE",
+          "category": "OTH",
+          "parcel": 1319.6217977503477,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 5
+        },
+        {
+          "eliminated": "HANSEN, GEOFF",
+          "category": "OTH",
+          "parcel": 2619.9952446715774,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "MOORE, SUSANNA",
+          "category": "GRN",
+          "parcel": 3551.983425058087,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "HARVEY, JACQUELINE",
+          "category": "OTH",
+          "parcel": 5557.739380712309,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        }
+      ],
+      "final_candidates": [
+        "MAAS, GARY",
+        "SAMUEL, ANNETTE"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        58.98392575973782,
+        41.01607424026217
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Nepean",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "ANGER, STEVE",
+          "category": "OTH",
+          "parcel": 91.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "SKRUZNY, CYNTHIA",
+          "category": "OTH",
+          "parcel": 372.1323035858616,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 11
+        },
+        {
+          "eliminated": "AINSLIE, CHARELLE",
+          "category": "OTH",
+          "parcel": 463.9505913169541,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        }
+      ],
+      "next_eliminated": "MILLER, JAY",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "BRAYNE, CHRIS",
+        "DIJKMAN, JANNY",
+        "ENGELANDER, PAMELA",
+        "GLEIXNER, ESTHER",
+        "GROTH, SAM",
+        "LEINE, HANK",
+        "WOOLCOCK, ELIZABETH"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Niddrie",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "GRAMMENOS, GEORGIA",
+          "category": "OTH",
+          "parcel": 269.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "MEILAK, SHANNON",
+          "category": "OTH",
+          "parcel": 824.9683955246205,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "REICH, BRAD",
+          "category": "OTH",
+          "parcel": 1040.4082893510633,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 5
+        },
+        {
+          "eliminated": "GARCIA, JOANNE",
+          "category": "OTH",
+          "parcel": 1236.378505952386,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "KRUSE, HOLLY",
+          "category": "OTH",
+          "parcel": 1547.760655265871,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "MAUGERI, FRANK",
+          "category": "OTH",
+          "parcel": 2943.5676151398393,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "MCGINNESS, DECLAN",
+          "category": "GRN",
+          "parcel": 5106.997589733221,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "CARROLL, BEN",
+        "YOUHANA, ALAN"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        56.61256706056956,
+        43.387432939430425
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Northcote",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "VERMA, ASHISH",
+          "category": "OTH",
+          "parcel": 80.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "ASHTON, KATHRINE",
+          "category": "OTH",
+          "parcel": 409.69235792908665,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "CAVE, ANTHONY",
+          "category": "OTH",
+          "parcel": 545.336424218516,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        },
+        {
+          "eliminated": "WHITEHEAD, ADRIAN",
+          "category": "IND",
+          "parcel": 674.6688744976674,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "NTOUNI, ANASTACIA",
+          "category": "OTH",
+          "parcel": 805.5935525200956,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "OSECKAS, TIM",
+          "category": "OTH",
+          "parcel": 909.5913812874534,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "CLARKE, APRIL",
+          "category": "OTH",
+          "parcel": 1972.9279890720495,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 4
+        },
+        {
+          "eliminated": "LARKIN, KATH",
+          "category": "OTH",
+          "parcel": 4146.313685740771,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        },
+        {
+          "eliminated": "TODHUNTER, STEWART",
+          "category": "LNP",
+          "parcel": 6748.700992426118,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        }
+      ],
+      "final_candidates": [
+        "GOME, CAMPBELL",
+        "THEOPHANOUS, KAT"
+      ],
+      "final_categories": [
+        "GRN",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        50.23679975076132,
+        49.76320024923869
+      ],
+      "winner_correct": false,
+      "pair_correct": true
+    },
+    {
+      "seat": "Oakleigh",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "KIOUPELIS, PARASHOS",
+          "category": "OTH",
+          "parcel": 234.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "JACOBS, ANTHONY CHARLES",
+          "category": "OTH",
+          "parcel": 793.6164014988984,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "SOK, EDWARD",
+          "category": "OTH",
+          "parcel": 1134.4905657892593,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 20
+        },
+        {
+          "eliminated": "MURPHY, DOMINIQUE",
+          "category": "IND",
+          "parcel": 1423.8156105914438,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 40
+        },
+        {
+          "eliminated": "FABB, LORAINE",
+          "category": "OTH",
+          "parcel": 2372.6726822470932,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        },
+        {
+          "eliminated": "HSIEH, HSIANG-HAN",
+          "category": "GRN",
+          "parcel": 9023.956228365401,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "DIMOPOULOS, STEVE",
+        "GRIVOKOSTOPOULOS, JIM"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        62.82954787458463,
+        37.170452125415366
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Ovens Valley",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "SLATER, AISHA",
+          "category": "OTH",
+          "parcel": 1009.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "WISE, ANNA",
+          "category": "OTH",
+          "parcel": 1487.756871106725,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "BUGGE, MARK",
+          "category": "OTH",
+          "parcel": 2319.9104117532142,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "KROMAR, ZOE",
+          "category": "GRN",
+          "parcel": 4359.014348545664,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 15
+        }
+      ],
+      "next_eliminated": "FIDGE, JULIAN",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "LESCHEN, ZUVELE",
+        "MCCURDY, TIM"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Pakenham",
+      "status": "unresolved",
+      "rounds": [],
+      "next_eliminated": "SAGOO, RAJVIR SINGH",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "CLARKE, SAMMI",
+        "FARRELLY, DAVID",
+        "GORE, CHRISTOPHER",
+        "MAIBAUM, MICHELLE",
+        "OWEN, BRETT",
+        "PLEDGER-FIRTH, HANNAH",
+        "SARKESHIK, SARASADAT",
+        "SILADJI, ANGELA",
+        "SMITH, ELISSA",
+        "VULIN, EMMA"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Pascoe Vale",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "ADAMS, ELIZABETH",
+          "category": "OTH",
+          "parcel": 889.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "CIMBARO, RICHARD",
+          "category": "OTH",
+          "parcel": 1147.510432045473,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "GLOVER, MARGEE",
+          "category": "OTH",
+          "parcel": 1531.2591792853793,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "BOLTON, SUE",
+          "category": "IND",
+          "parcel": 2111.310968277423,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "HAH, MADALEINE",
+          "category": "OTH",
+          "parcel": 4192.954590163216,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        },
+        {
+          "eliminated": "WRIGHT, TOM",
+          "category": "LNP",
+          "parcel": 9848.968173006722,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        }
+      ],
+      "final_candidates": [
+        "CIANFLONE, ANTHONY",
+        "PANOPOULOS, ANGELICA"
+      ],
+      "final_categories": [
+        "ALP",
+        "GRN"
+      ],
+      "final_shares_pct": [
+        51.23868952454481,
+        48.76131047545519
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Point Cook",
+      "status": "unresolved",
+      "rounds": [],
+      "next_eliminated": "GATTI, LISA JANE",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "ABDULOVSKI, ADRIAN",
+        "BEECH, TERRI",
+        "CHAUDHARY, RAKHI P.",
+        "CRONKWRIGHT, CAROLYN",
+        "GARRA, JOE",
+        "GRIMLEY, SCOTT",
+        "HAMMAN, DANIEL",
+        "HILAKARI, MATHEW",
+        "KHAN, SHAMSHER",
+        "LAW, EMMA",
+        "MCAULAY, ALEX",
+        "NEWHOUSE, ANGELA",
+        "SAWANT, SHWETALI",
+        "ZHAO, LARRY"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Polwarth",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "REMENYI, JOSEPH VINCENT",
+          "category": "OTH",
+          "parcel": 1033.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "ATCHISON, ELISHA",
+          "category": "OTH",
+          "parcel": 1370.4906586898119,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "HUNTER, HOLLIE",
+          "category": "OTH",
+          "parcel": 1902.393668675754,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 9
+        },
+        {
+          "eliminated": "BORSOS, DENES C.",
+          "category": "IND",
+          "parcel": 2959.1944736311407,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 12
+        },
+        {
+          "eliminated": "MCALLISTER, HILARY",
+          "category": "GRN",
+          "parcel": 9530.519356610454,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "RIORDAN, RICHARD",
+        "HUSSEIN, HUTCH"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        51.931573286990286,
+        48.06842671300971
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Prahran",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "MENADUE, ALAN",
+          "category": "IND",
+          "parcel": 449.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "EMILSEN, RONALD",
+          "category": "OTH",
+          "parcel": 694.0321058002339,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "LE HURAY, ALICE",
+          "category": "OTH",
+          "parcel": 1740.2592834212714,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        }
+      ],
+      "next_eliminated": "CHAU, WESA",
+      "category": "ALP",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "HIBBINS, SAM",
+        "LUCAS, MATTHEW"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Preston",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "SANAGHAN, BRIAN",
+          "category": "OTH",
+          "parcel": 270.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "UNICOMB, RACHEL",
+          "category": "OTH",
+          "parcel": 834.6621447776083,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "SOLIMAN, RAOUF",
+          "category": "OTH",
+          "parcel": 942.8372276474812,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "LAHIFF-JENKINS, CARMEN",
+          "category": "OTH",
+          "parcel": 1021.5533023481685,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "MATIAS, ANGELIQUE",
+          "category": "OTH",
+          "parcel": 1409.8569237654692,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        }
+      ],
+      "next_eliminated": "PRICE, STEPH",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "GRECO, GAETANO",
+        "LAMBERT, NATHAN",
+        "PALIOURAS, AMANDA",
+        "PATERSON, PATCHOULI"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Richmond",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "HO, MECA",
+          "category": "IND",
+          "parcel": 417.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "FREIVERTS, MARKUS",
+          "category": "OTH",
+          "parcel": 475.2028041833944,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "VIGGERS, LIS",
+          "category": "OTH",
+          "parcel": 1016.3033142160618,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "WARD, ROZ",
+          "category": "OTH",
+          "parcel": 2182.24403781314,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        }
+      ],
+      "next_eliminated": "COWEN, JEREMY",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "DE VIETRI, GABRIELLE",
+        "MOON, LUCAS",
+        "O'DWYER, LAUREN"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Ringwood",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "SIEMER, ROBYN M.",
+          "category": "OTH",
+          "parcel": 1038.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "ROWE, NICK",
+          "category": "OTH",
+          "parcel": 1383.468135882653,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "GRIFFITH-JONES, RICHARD",
+          "category": "OTH",
+          "parcel": 1834.257891129035,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 24
+        },
+        {
+          "eliminated": "RYAN, GARY",
+          "category": "OTH",
+          "parcel": 3090.1164820675094,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 4
+        },
+        {
+          "eliminated": "STEEN, REUBEN",
+          "category": "GRN",
+          "parcel": 8525.148237823098,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "FOWLES, WILL",
+        "WATSON, CYNTHIA"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        56.342309781215995,
+        43.65769021878401
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Ripon",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "QUINCE, BERNARD",
+          "category": "OTH",
+          "parcel": 312.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "WILSON, WREN LOUISE",
+          "category": "OTH",
+          "parcel": 954.5116593969535,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "RIGG, WAYNE",
+          "category": "IND",
+          "parcel": 1075.859184457442,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "SITTERS, HOLLY",
+          "category": "OTH",
+          "parcel": 1347.765756607174,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "GEORGE, CRAIG",
+          "category": "OTH",
+          "parcel": 1686.73315389802,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "JAMES, EARL",
+          "category": "GRN",
+          "parcel": 3472.9561637985107,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        }
+      ],
+      "next_eliminated": "SMITH, LUKE",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "HAYLETT, MARTHA",
+        "STALEY, LOUISE"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Rowville",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "GLENANE, DIANE",
+          "category": "OTH",
+          "parcel": 859.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "SMULDERS, PETERINE ELIZABETH",
+          "category": "OTH",
+          "parcel": 1015.0857105450029,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "BURGESS, STEPHEN",
+          "category": "OTH",
+          "parcel": 2148.193787841139,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 9
+        },
+        {
+          "eliminated": "DI CAMILLO, ANGELICA",
+          "category": "GRN",
+          "parcel": 3777.250142390965,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 8
+        },
+        {
+          "eliminated": "SEYMOUR, NICOLE",
+          "category": "IND",
+          "parcel": 7621.381089109911,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 5
+        }
+      ],
+      "final_candidates": [
+        "WELLS, KIM",
+        "VERMA, MANNIE KAUR"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        54.187449043471034,
+        45.81255095652896
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Sandringham",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "CAMPBELL, RODNEY",
+          "category": "OTH",
+          "parcel": 115.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "CHALMERS, JILL",
+          "category": "OTH",
+          "parcel": 725.9970326820835,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "ZMEGAC, KARLA",
+          "category": "OTH",
+          "parcel": 885.886320012151,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 11
+        },
+        {
+          "eliminated": "EPPINGSTALL, BARBARA",
+          "category": "OTH",
+          "parcel": 1361.545070497201,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "MARTIN, CLARKE",
+          "category": "IND",
+          "parcel": 3327.7489811447126,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 12
+        },
+        {
+          "eliminated": "REGAN, ALYSIA",
+          "category": "GRN",
+          "parcel": 7856.769624908091,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "ROWSWELL, BRAD",
+        "PRESCOTT, BETTINA"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        56.14708129074155,
+        43.85291870925844
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Shepparton",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "TAYLOR, KATHERINE",
+          "category": "OTH",
+          "parcel": 515.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "TEASDALE, DIANE M.",
+          "category": "OTH",
+          "parcel": 859.2619426287633,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "WHITE, ALISON",
+          "category": "OTH",
+          "parcel": 1166.2107339829795,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 20
+        },
+        {
+          "eliminated": "CHRISTOE, IAN",
+          "category": "GRN",
+          "parcel": 1381.6428976838063,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        }
+      ],
+      "next_eliminated": "MCGRATH, SUEIE",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "COWAN, LIAM",
+        "HAMMER, CHERYL",
+        "O'KEEFFE, KIM",
+        "SHEED, SUZANNA"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "South Barwon",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "TOMLINSON, SIMONE",
+          "category": "OTH",
+          "parcel": 576.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "DEAN, JEYNELLE MARIE",
+          "category": "OTH",
+          "parcel": 958.4424445539655,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "ADAMS, NAOMI",
+          "category": "OTH",
+          "parcel": 1331.6969566318112,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "BATES, LEONE",
+          "category": "OTH",
+          "parcel": 1591.52915965587,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "BARRON, ALAN",
+          "category": "OTH",
+          "parcel": 2401.504476446461,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 17
+        },
+        {
+          "eliminated": "DAWSON-SCOTT, GENEVIEVE FRANCES",
+          "category": "GRN",
+          "parcel": 7157.641892563005,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "CHEESEMAN, DARREN",
+        "KATOS, ANDREW"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        59.09837267791389,
+        40.901627322086114
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "South-West Coast",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "GRIMLEY, JAMES BRASH",
+          "category": "OTH",
+          "parcel": 488.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "MCCLUSKEY, MICHAEL",
+          "category": "OTH",
+          "parcel": 638.3576683607981,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "ANDERSON, JACINTA",
+          "category": "OTH",
+          "parcel": 737.0944910669996,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "BRUNT, CHRIS",
+          "category": "OTH",
+          "parcel": 1030.2303981184687,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "DOUKAS, JIM",
+          "category": "OTH",
+          "parcel": 2247.0890020646907,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "CAMPBELL, THOMAS",
+          "category": "GRN",
+          "parcel": 3041.324858365621,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        },
+        {
+          "eliminated": "PURCELL, JAMES",
+          "category": "OTH",
+          "parcel": 4684.996104509674,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "ALTMANN, CAROL",
+          "category": "IND",
+          "parcel": 10066.629689667296,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 5
+        }
+      ],
+      "final_candidates": [
+        "BRITNELL, ROMA",
+        "GASTON, KYLIE"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        64.75751527278538,
+        35.242484727214624
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "St Albans",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "MANNAN, ZAFFER",
+          "category": "OTH",
+          "parcel": 192.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "CARACASSIS, JASON",
+          "category": "OTH",
+          "parcel": 790.9116358963693,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 31
+        },
+        {
+          "eliminated": "CULLEN, KIM J.",
+          "category": "OTH",
+          "parcel": 915.5048027340688,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 21
+        },
+        {
+          "eliminated": "WALTON, RUSSELL",
+          "category": "OTH",
+          "parcel": 1171.8088819290467,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 19
+        },
+        {
+          "eliminated": "TACHOS, VIRGINIA",
+          "category": "IND",
+          "parcel": 1556.181198534282,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "BENTLEY, JOEL",
+          "category": "GRN",
+          "parcel": 3105.0723900485573,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 15
+        }
+      ],
+      "next_eliminated": "RUDD, VAN THANH",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "HOBART, MARK",
+        "KERR, MARIA",
+        "SULEYMAN, NATALIE"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Sunbury",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "PATEL, RUSHI VIJAYKUMAR",
+          "category": "OTH",
+          "parcel": 204.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        },
+        {
+          "eliminated": "GALLAGHER, JAMES",
+          "category": "OTH",
+          "parcel": 1183.722204328522,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "BAYLISS, PETER",
+          "category": "OTH",
+          "parcel": 1390.5074602263564,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 11
+        },
+        {
+          "eliminated": "PACE, CHARLES",
+          "category": "OTH",
+          "parcel": 1663.9130070069932,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 20
+        },
+        {
+          "eliminated": "PINCINI, LAURENCE",
+          "category": "IND",
+          "parcel": 1902.9096855289795,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "MOHR, ROHANNA",
+          "category": "OTH",
+          "parcel": 3306.199341083411,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        },
+        {
+          "eliminated": "BURKE, RICHARD",
+          "category": "GRN",
+          "parcel": 5500.6634674072975,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "BULL, JOSH",
+        "COTTOM, SIMMONE"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        59.17663631487784,
+        40.82336368512216
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Sydenham",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "LEUNG, KARINA",
+          "category": "OTH",
+          "parcel": 1095.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "RAMOS, ALEJANDRO",
+          "category": "OTH",
+          "parcel": 1755.1717078346335,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "RADOVANI, JAKUELINE",
+          "category": "OTH",
+          "parcel": 2304.0756310784755,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "CHLIHI, HAJAR",
+          "category": "OTH",
+          "parcel": 2648.503132682304,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 5
+        },
+        {
+          "eliminated": "TAWADROS, MARVET",
+          "category": "OTH",
+          "parcel": 4297.671458920279,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "RALPH, MAGGIE",
+          "category": "GRN",
+          "parcel": 5686.656876580901,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 50
+        }
+      ],
+      "final_candidates": [
+        "HUTCHINS, NATALIE",
+        "CULLIA, JOSEPH"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        58.83707449971348,
+        41.162925500286526
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Tarneit",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "MOINUDDIN, AIJAZ",
+          "category": "IND",
+          "parcel": 534.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "RAHN, MAURITA",
+          "category": "OTH",
+          "parcel": 872.2678442942607,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "MAQSOOD, ERUM",
+          "category": "OTH",
+          "parcel": 960.514237623203,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "PATEL, JAYDEEP",
+          "category": "OTH",
+          "parcel": 1408.0096165391642,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "JEFFREY, THOMAS",
+          "category": "OTH",
+          "parcel": 2656.76568628489,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 24
+        },
+        {
+          "eliminated": "URIBE, CLAUDIO",
+          "category": "OTH",
+          "parcel": 4059.5649634666156,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 9
+        },
+        {
+          "eliminated": "MILLER, CLARE",
+          "category": "GRN",
+          "parcel": 6938.0664883995005,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "WIGHT, DYLAN",
+        "SINGH, PREET"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        64.01402022159954,
+        35.98597977840047
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Thomastown",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "LEVENS, EVIE",
+          "category": "OTH",
+          "parcel": 1072.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "MCNAMARA, COLLEEN",
+          "category": "OTH",
+          "parcel": 2755.431511829205,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 24
+        },
+        {
+          "eliminated": "SINAPI, MATT",
+          "category": "GRN",
+          "parcel": 3257.8988111090366,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        }
+      ],
+      "next_eliminated": "CVETKOVA, KELLY",
+      "category": "OTH",
+      "same_category_remaining": false,
+      "remaining_candidates": [
+        "HALFPENNY, BRONWYN",
+        "SINGH, GURDAWAR"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Warrandyte",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "PILLI, CYNTHIA",
+          "category": "IND",
+          "parcel": 659.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "RAE, NICOLA",
+          "category": "OTH",
+          "parcel": 1128.1846381861103,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "VERNAY, RICHARD",
+          "category": "OTH",
+          "parcel": 2452.5598227603878,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 17
+        },
+        {
+          "eliminated": "JOSHI, DEEPAK",
+          "category": "GRN",
+          "parcel": 6437.499242209601,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "SMITH, RYAN",
+        "OAKLEY, NAOMI"
+      ],
+      "final_categories": [
+        "LNP",
+        "ALP"
+      ],
+      "final_shares_pct": [
+        54.38072875565899,
+        45.619271244341014
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Wendouree",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "ECKEL, BREN",
+          "category": "IND",
+          "parcel": 455.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 39
+        },
+        {
+          "eliminated": "COLBERT, DIANNE",
+          "category": "OTH",
+          "parcel": 1574.6357544536356,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 14
+        },
+        {
+          "eliminated": "HILLS, BRYN",
+          "category": "OTH",
+          "parcel": 1899.9261472225535,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "HARKNESS, IAN",
+          "category": "OTH",
+          "parcel": 2646.063292284841,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 17
+        },
+        {
+          "eliminated": "BURNS, ELLEN",
+          "category": "GRN",
+          "parcel": 6016.639670569104,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "ADDISON, JULIANA",
+        "MCINTOSH, SAMANTHA"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        61.54492300912988,
+        38.45507699087012
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Werribee",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "KWAN, HENI CAZLYNN",
+          "category": "OTH",
+          "parcel": 45.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "BARCATTA, PATRIZIA",
+          "category": "OTH",
+          "parcel": 213.5157551497051,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 28
+        },
+        {
+          "eliminated": "HOGAN, KAREN",
+          "category": "OTH",
+          "parcel": 263.71993306589906,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "TANDON, PRASHANT",
+          "category": "OTH",
+          "parcel": 334.1660140462862,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 6
+        }
+      ],
+      "next_eliminated": "COLLINS, TREVOR RUSSELL",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "BODDEKE, JACK",
+        "BREAKWELL, KATHRYN",
+        "EMERSON, MATTHEW",
+        "HOPPER, PAUL",
+        "MUNRO, SUE",
+        "PALLAS, TIM",
+        "SEGRAVE, JOSH",
+        "SHAW, MIA",
+        "STROTHER, MARK",
+        "WICKS, PATRICIA ANNE"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    },
+    {
+      "seat": "Williamstown",
+      "status": "complete",
+      "rounds": [
+        {
+          "eliminated": "MOSELY, JOSHUA",
+          "category": "OTH",
+          "parcel": 675.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 23
+        },
+        {
+          "eliminated": "ANSALONE, ALEXANDER",
+          "category": "OTH",
+          "parcel": 1035.9857537436983,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        },
+        {
+          "eliminated": "MACKEVICIUS, PATRICIA",
+          "category": "OTH",
+          "parcel": 1265.839189913275,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 44
+        },
+        {
+          "eliminated": "MACANDILI, JULIEN Q.",
+          "category": "OTH",
+          "parcel": 2079.1467036171157,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 5
+        },
+        {
+          "eliminated": "FISHER, ROCHELLE",
+          "category": "OTH",
+          "parcel": 2718.987111401729,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 3
+        },
+        {
+          "eliminated": "RODOREDA, SUZETTE",
+          "category": "GRN",
+          "parcel": 8029.962213382315,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 49
+        }
+      ],
+      "final_candidates": [
+        "HORNE, MELISSA",
+        "KELLANDER, DARIA"
+      ],
+      "final_categories": [
+        "ALP",
+        "LNP"
+      ],
+      "final_shares_pct": [
+        61.52559739127709,
+        38.474402608722905
+      ],
+      "winner_correct": true,
+      "pair_correct": true
+    },
+    {
+      "seat": "Yan Yean",
+      "status": "unresolved",
+      "rounds": [
+        {
+          "eliminated": "GRIMLEY, MANDY ANNE",
+          "category": "OTH",
+          "parcel": 793.0,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 2
+        },
+        {
+          "eliminated": "BOUROUTZIS, CON",
+          "category": "OTH",
+          "parcel": 1086.9996857922988,
+          "recipient_method": "subtype exact broad-field pool; proportional recipients",
+          "training_seats": 18
+        }
+      ],
+      "next_eliminated": "KRSTIC, ALEXANDAR",
+      "category": "OTH",
+      "same_category_remaining": true,
+      "remaining_candidates": [
+        "HALL, JAMES",
+        "KATHAGE, LAUREN",
+        "MASON, SAMANTHA",
+        "PARRAMORE, RUTH",
+        "WELCH, RICHARD",
+        "WOOLDRIDGE, JACK"
+      ],
+      "reason": "No exact continuing-candidate-field evidence"
+    }
+  ]
+}
