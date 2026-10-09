@@ -518,9 +518,10 @@ params = preference_trial_variant(params, trial_method)
 if trial_method in ("vec_exact_field", "vec_field_coverage"):
     from tools.trial_vec_field_evidence import attach_vec_fields
     matrices = attach_vec_fields(matrices)
-if trial_method == "oth_params_rebuild":
-    from tools.trial_oth_matrix_rebuild import rebuild_oth_matrices
+if trial_method in ("oth_params_rebuild", "vec_field_coverage"):
+    from SRC.oth_matrix_builder import rebuild_oth_matrices
     matrices = rebuild_oth_matrices(matrices, params)
+    st.sidebar.caption("OTH synthetic rows use PARAMS ON-column priors; empty historical rows and ON special scenario priors remain unchanged.")
 if st.sidebar.button("Refresh Google Sheet inputs"):
     st.cache_data.clear()
     st.rerun()
