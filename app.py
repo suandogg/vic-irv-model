@@ -30,6 +30,7 @@ from SRC.params_loader import load_params
 from SRC.posterior_loader import load_posterior_scenarios
 from SRC.ideology_loader import load_ideology_prior
 from SRC.federal_on_evidence_loader import apply_production_federal_on_evidence
+from SRC.on_evidence_panel import current_on_evidence_rows
 from SRC.lnp_precollapse_loader import apply_lnp_precollapse
 from SRC.baseline_loader import load_baseline_2cp
 from SRC.baseline_region_loader import load_baseline_region_summary
@@ -680,6 +681,24 @@ total_primary = sum(targets.values())
 
 st.markdown(f"**Primary total: {total_primary:.2f}%**")
 
+with st.expander("Refinement guide · decisions and limitations", expanded=False):
+    st.markdown(
+        "**Current default:** corrected coverage for matching Victorian preference evidence. "
+        "It improved held-out non-ON flow testing; it does not validate high-ON forecasts.\n\n"
+        "**Keep conservative:** existing Victorian-federal evidence weights. Some important "
+        "fields have only three regional source seats and remain mainly baseline-driven.\n\n"
+        "**Experimental only:** generic-prior pass-through, matrix-source-only fallback, and "
+        "two-pool OTH composition. Their combined results can differ substantially, but no "
+        "replacement default has been established. These experiments are not activated by this guide.\n\n"
+        "**Read the current evidence:** Assembly → Seat Detail → ON evidence audit. "
+        "This follows the current ordinary count, not the separate forced 2PP calculation.\n\n"
+        "**Read saved tests cautiously:** the comparison panel below uses frozen inputs, not "
+        "your current polling scenario. The trial selector in the sidebar can change the active "
+        "Assembly method; select corrected VEC coverage to return to the conservative default. "
+        "ON special-prior rows are unchanged by the new offline experiments."
+    )
+    st.caption("Research checkpoint: 9 October 2026. No forecast probability interval has been calibrated.")
+
 with st.expander("Five-seat preference trial comparisons", expanded=False):
     from SRC.trial_seat_panel import comparison_panel, EXPLANATIONS
     from pathlib import Path
@@ -1159,6 +1178,27 @@ else:
         hide_index=True,
         column_config=trace_column_config,
     )
+
+    with st.expander("ON evidence audit · current seat and scenario"):
+        st.caption(
+            "Ordinary count only—not the forced 2PP count. Evidence weights are blend weights, "
+            "not probabilities that the result is correct. Parcels can appear in multiple rounds. "
+            "Federal flows are reconstructed category-origin estimates and may not transfer directly to state contests."
+        )
+        evidence_rows = current_on_evidence_rows(
+            district_votes, matrix, seat_row["seat_type"], active_scenario_params, posterior, ideology
+        )
+        if evidence_rows:
+            evidence_frame = pd.DataFrame(evidence_rows)
+            st.dataframe(evidence_frame, width="stretch", hide_index=True)
+            st.download_button("Download current ON evidence audit", evidence_frame.to_csv(index=False),
+                file_name=f"{selected_seat}_ON_evidence_audit.csv", mime="text/csv")
+        else:
+            st.info("No ON-related preference calls in this seat's ordinary count.")
+        st.caption(
+            "Offline tests retained conservative federal weights. Generic pass-through and two-pool OTH "
+            "composition remain experimental; this panel does not activate them or display a forecast interval."
+        )
 
     show_preference_diagnostics = st.checkbox(
         "Show preference flow diagnostics",
