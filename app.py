@@ -1123,6 +1123,16 @@ else:
         sorted(detail_display["district"].unique()),
     )
 
+    from SRC.assumption_sensitivity import finding_for_seat
+    sensitivity_finding = finding_for_seat(selected_seat)
+    if sensitivity_finding:
+        assumption, explanation, baseline_share, stress_share = sensitivity_finding
+        with st.expander("Assumption-sensitive contest · saved central-scenario test", expanded=True):
+            st.warning("This seat changed winner in offline combined assumption tests. This is not a probability or a live-scenario sensitivity calculation.")
+            st.write(f"Decisive assumption: {assumption}. {explanation}")
+            st.write(f"Saved ordinary final-count ALP share: {baseline_share:.2f}% baseline → {stress_share:.2f}% combined stress test.")
+            st.caption("Frozen 9 October test: ALP 24.6, LNP 29.1, GRN 13.3, ON 22, IND 5.5, OTH 5.5. Combined stress enables generic pass-through, disables generic OTH depletion, and removes two sparse federal evidence blends. Primaries and ON special priors are unchanged. Current settings and winners are not modified; findings may not apply to other scenarios. Absence of a flag does not establish robustness.")
+
     selected_seat_helper = adjusted_seat_helper[
         adjusted_seat_helper["district"] == selected_seat
     ].copy()
