@@ -508,6 +508,19 @@ def diagnose_preference_weights(
         }
 
     raw = matrix.get(elim, {})
+    vec_record = matrix.get("__vec_field_rows__", {}).get(elim)
+    vec_matched = (
+        vec_record is not None
+        and set(vec_record["field"]) == alive - {"ON"}
+        and get_on_special_prior(elim, alive, geography_class, params) is None
+    )
+    if vec_matched:
+        # Exact historical non-ON field only. Retain the synthetic ON share;
+        # never replace a configured special ON scenario prior.
+        stored_on = float(raw.get("ON", 0) or 0)
+        raw = {party: stored_on if party == "ON" else
+               float(vec_record["shares"].get(party, 0)) * (1 - stored_on)
+               for party in PARTIES}
     base = [
         float(raw.get(party, 0) or 0)
         for party in PARTIES
@@ -528,6 +541,11 @@ def diagnose_preference_weights(
     aec_usable = alive_mass > 0
     aec_proj = normalise_alive(base, alive) if aec_usable else None
     coverage = alive_mass / total_row if total_row > 0 else 0
+    vec_coverage_corrected = bool(vec_matched and "ON" not in alive and alive_mass > 0)
+    if vec_coverage_corrected:
+        # Synthetic ON mass outside an exact historical field is not missing
+        # historical evidence. No ON-containing coverage is promoted.
+        coverage = 1.0
     alive_count = len(alive_arr)
     missing_parties = [
         PARTIES[i]
@@ -543,6 +561,9 @@ def diagnose_preference_weights(
             "basis": "matrix",
             "aec_coverage": coverage,
             "missing_parties": ", ".join(missing_parties),
+            "vec_exact_field_matched": bool(vec_matched),
+            "vec_field_coverage_corrected": vec_coverage_corrected,
+            "vec_evidence_field": "+".join(vec_record["field"]) if vec_matched else None,
         },
     ))
 

@@ -27,6 +27,8 @@ from SRC.seat_adjustments_loader import load_lower_seat_adjustments
 from SRC.poll_scenarios_loader import load_poll_scenarios
 from SRC.matrix_loader import load_synth_pref_matrices
 from SRC.params_loader import load_params
+from SRC.oth_matrix_builder import rebuild_oth_matrices
+from SRC.vec_field_evidence import attach_vec_fields
 from SRC.posterior_loader import load_posterior_scenarios
 from SRC.ideology_loader import load_ideology_prior
 from SRC.federal_on_evidence_loader import apply_production_federal_on_evidence
@@ -266,6 +268,7 @@ def load_static_inputs():
     matrices = load_synth_pref_matrices()
     log_checkpoint(f"loaded matrices count={len(matrices)}")
     params = load_params()
+    matrices = attach_vec_fields(rebuild_oth_matrices(matrices, params))
     log_checkpoint(
         "loaded params "
         f"scalars={len(params.get('scalar_params', {}))} "
