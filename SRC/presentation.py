@@ -60,6 +60,16 @@ def table(data,*args,settings=None,probabilities=False,**kwargs):
                 digits = s['PROBABILITY_DECIMALS'] if probabilities or 'win (%)' in str(column) or 'probability' in str(column).lower() or 'majority (%)' in str(column).lower() else s['PERCENT_DECIMALS']
                 config[column] = st.column_config.NumberColumn(format=f'%.{digits}f')
         kwargs['column_config'] = config
+        if 'Party' in frame.columns and s['COLOUR_PARTY_CELLS']:
+            # Summary tables contain configured display labels, whereas other
+            # tables may retain party codes. Both use the same live palette.
+            styles = {}
+            for party in PARTIES:
+                style = f'background-color: {s[party+"_COLOUR"]}; color: {s[party+"_TEXT_COLOUR"]}'
+                styles[party] = style
+                styles[s[party+'_LABEL']] = style
+            styled = data.style if isinstance(data,pd.DataFrame) else data
+            data = styled.map(lambda value: styles.get(value,''),subset=['Party'])
     return st.dataframe(data,*args,**kwargs)
 
 

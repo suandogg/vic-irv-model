@@ -1,6 +1,7 @@
 import csv
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 import pandas as pd
 from SRC.display_params import SPECS, defaults, load_display_params, parameter_rows, validate_one
@@ -8,6 +9,24 @@ from SRC.presentation import effective, party_summary
 
 
 class DisplayTests(unittest.TestCase):
+    def test_summary_party_cells_use_configured_palette(self):
+        from SRC.presentation import table
+        settings = defaults()
+        settings['ALP_COLOUR'] = '#123456'
+        settings['ALP_TEXT_COLOUR'] = '#abcdef'
+        frame = pd.DataFrame({'Party':[settings['ALP_LABEL'],'LNP'], 'Seats':[30,40]})
+        with patch('SRC.presentation.st.dataframe') as render:
+            table(frame,settings=settings)
+            styled = render.call_args.args[0]
+            styled._compute()
+            self.assertIn(('background-color','#123456'),styled.ctx[(0,0)])
+            self.assertIn(('color','#abcdef'),styled.ctx[(0,0)])
+            self.assertNotIn((0,1),styled.ctx)
+        settings['COLOUR_PARTY_CELLS'] = False
+        with patch('SRC.presentation.st.dataframe') as render:
+            table(frame,settings=settings)
+            self.assertIs(render.call_args.args[0],frame)
+
     def test_committed_settings_match_defaults(self):
         actual,warnings = load_display_params()
         self.assertEqual(warnings,[])
