@@ -112,12 +112,15 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         if display['GOVERNMENT_CHART_MODE'] in ('bars','both'):
             event_bars(result['government'],display)
         if display['GOVERNMENT_CHART_MODE'] in ('table','both'):
-            display_table(result['government'],hide_index=True,width='stretch',probabilities=True)
-        st.caption('Single-party majorities plus hung parliament are mutually exclusive and exhaustive. '
-                   'The LNP + ON rows overlap these outcomes and do not predict a coalition agreement. '
+            display_table(result['government'].iloc[:7],hide_index=True,width='stretch',probabilities=True)
+            st.divider()
+            display_table(result['government'].iloc[7:],hide_index=True,width='stretch',probabilities=True)
+        st.caption('Majority and hung parliament are complementary. The detailed rows can overlap: '
+                   'coalition rows require both partners below 45 individually and do not predict an agreement. '
+                   'The larger partner determines the leader; equal LNP/ON seat counts are in neither led row. '
                    'ALP minority means ALP is below 45 and ALP + GRN or ALP + IND reaches 45; '
                    'both routes qualifying counts once. It assumes support, not an agreement prediction. '
-                   'Deadlock means ALP + GRN = 44 and LNP + ON = 44. These detailed rows overlap hung parliament.')
+                   'Deadlock means ALP + GRN = 44 and LNP + ON = 44.')
         histogram = pd.DataFrame({party:result['draws'][party].value_counts().reindex(range(89),fill_value=0)
                                   /settings['SIMULATIONS'] for party in PARTIES})
         histogram.index.name = 'Seats'

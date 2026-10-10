@@ -36,16 +36,19 @@ def forecast_counts(adjusted, matrices, params, posterior, ideology):
 
 
 def government_events(count_frame):
-    events = {party+' majority':count_frame[party]>=45 for party in PARTIES}
-    events['Hung parliament (no single-party majority)'] = count_frame.max(axis=1)<45
-    events['ALP minority (GRN or IND support assumed)'] = (
+    events = {'ALP Majority': count_frame.ALP>=45}
+    events['ALP minority'] = (
         (count_frame.ALP<45) & ((count_frame.ALP+count_frame.GRN>=45) |
                                (count_frame.ALP+count_frame.IND>=45)))
-    events['Deadlock (ALP + GRN 44; LNP + ON 44)'] = (
+    events['LNP majority'] = count_frame.LNP>=45
+    joint = (count_frame.LNP+count_frame.ON>=45) & (count_frame.LNP<45) & (count_frame.ON<45)
+    events['LNP-ON Majority (LNP-led)'] = joint & (count_frame.LNP>count_frame.ON)
+    events['ON-LNP Majority (ON-led)'] = joint & (count_frame.ON>count_frame.LNP)
+    events['ON Majority'] = count_frame.ON>=45
+    events['Deadlock'] = (
         (count_frame.ALP+count_frame.GRN==44) & (count_frame.LNP+count_frame.ON==44))
-    events['LNP + ON jointly reach 45 (overlaps other events)'] = count_frame.LNP+count_frame.ON>=45
-    events['LNP + ON reach 45; neither alone (not a formation prediction)'] = (
-        (count_frame.LNP+count_frame.ON>=45)&(count_frame.LNP<45)&(count_frame.ON<45))
+    events['Hung parliament'] = count_frame[PARTIES].max(axis=1)<45
+    events['Majority'] = count_frame[PARTIES].max(axis=1)>=45
     return events
 
 

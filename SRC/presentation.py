@@ -121,10 +121,16 @@ def seat_intervals(frame,settings):
 
 def event_bars(frame,settings):
     s = effective(settings); row_height = s['CHART_ROW_HEIGHT_PX']
-    height = len(frame)*row_height+25
+    height = len(frame)*row_height+50
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Overlapping parliamentary event probabilities" viewBox="0 0 1100 {height}" style="width:100%;min-width:750px;font-family:{FONTS[s["BODY_FONT"]]};font-size:{s["CHART_LABEL_FONT_PX"]}px;fill:{s["TEXT"]}">']
     for i,row in frame.reset_index(drop=True).iterrows():
         label = str(row['Event']); value = float(row['Probability (%)']); y=i*row_height+25
+        if 'Hung parliament' in frame['Event'].values:
+            divider_index = list(frame['Event']).index('Hung parliament')
+            if i == divider_index:
+                parts.append(f'<line x1="5" x2="1090" y1="{y-row_height/2}" y2="{y-row_height/2}" stroke="{s["BORDER"]}" stroke-width="2"/>')
+            if i >= divider_index:
+                y += 25
         colour = next((s[p+'_COLOUR'] for p in PARTIES if label.startswith(p)),s['MUTED_TEXT'])
         lines = textwrap.wrap(label,width=max(40,int(620/(s['CHART_LABEL_FONT_PX']*.58))))
         for line_index,line in enumerate(lines):

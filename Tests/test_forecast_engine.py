@@ -31,6 +31,24 @@ def calculator_fixture():
 
 
 class ForecastTests(unittest.TestCase):
+    def test_led_coalitions_and_aggregate_outcomes(self):
+        from SRC.forecast_engine import government_events
+        frame = pd.DataFrame([
+            [30,35,5,18,0,0], [30,18,5,35,0,0],
+            [20,45,5,18,0,0], [20,18,5,45,0,0],
+            [30,24,10,24,0,0], [20,20,45,3,0,0],
+        ], columns=PARTIES)
+        events = government_events(frame)
+        self.assertEqual(list(events), ['ALP Majority','ALP minority','LNP majority',
+            'LNP-ON Majority (LNP-led)','ON-LNP Majority (ON-led)',
+            'ON Majority','Deadlock','Hung parliament','Majority'])
+        self.assertEqual(events['LNP-ON Majority (LNP-led)'].tolist(),
+                         [True,False,False,False,False,False])
+        self.assertEqual(events['ON-LNP Majority (ON-led)'].tolist(),
+                         [False,True,False,False,False,False])
+        self.assertTrue((events['Majority'] != events['Hung parliament']).all())
+        self.assertTrue(events['Majority'].iloc[-1])
+
     def test_support_arithmetic(self):
         from SRC.forecast_engine import government_events
         frame = pd.DataFrame([
@@ -38,9 +56,9 @@ class ForecastTests(unittest.TestCase):
             [40,30,5,8,5,0], [40,30,4,14,0,0],
             [45,30,0,13,0,0]], columns=PARTIES)
         events = government_events(frame)
-        self.assertEqual(events['ALP minority (GRN or IND support assumed)'].tolist(),
+        self.assertEqual(events['ALP minority'].tolist(),
                          [True,True,True,False,False])
-        self.assertEqual(events['Deadlock (ALP + GRN 44; LNP + ON 44)'].tolist(),
+        self.assertEqual(events['Deadlock'].tolist(),
                          [False,False,False,True,False])
 
     def test_fast_counts_match_original(self):
