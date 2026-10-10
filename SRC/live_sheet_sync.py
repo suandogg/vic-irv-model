@@ -17,6 +17,7 @@ DEFAULT_SHEET_ID = "1sLmANVOERsbV08BIZYUfT_fccTGw-mCvAwJSAD_4968"
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 
 FILES = {
+    "FORECAST PARAMS": "FORECAST PARAMS.csv",
     "LOWER_PRIMARY_INPUTS": "LEGACY_PRIMARY_INPUTS.csv",
     "LOWER_TURNOUT_WEIGHTS": "LOWER_TURNOUT_WEIGHTS.csv",
     "SEAT HELPER": "SEAT HELPER.csv",

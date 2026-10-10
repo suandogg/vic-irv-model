@@ -1,0 +1,22 @@
+Section,Parameter,Value,Units,Explanation
+Run,SIMULATIONS,200.0,draws,Preview count; increase after assumptions are reviewed. Not a calibrated forecast.
+Run,SEED,20261010.0,integer,Fixed seed makes repeated runs reproducible with the same inputs.
+Reporting,LOWER_QUANTILE,0.05,fraction,Lower endpoint of the displayed central seat-count interval.
+Reporting,UPPER_QUANTILE,0.95,fraction,Upper endpoint of the displayed central seat-count interval.
+Local votes,REGION_PRIMARY_SD_PP,0.75,primary pp SD,Shared party shock within each of the eight upper-house regions; rebalanced to drawn statewide totals.
+Local votes,SEAT_PRIMARY_SD_PP,1.5,primary pp SD,Independent seat/party residual; rebalanced to drawn statewide totals. Includes unmodelled candidate variation.
+ON geography,ON_ALPHA_SD,0.08,parameter SD,Uncertainty around the active ON alpha; truncated by clipping to 0.01–2.
+ON geography,ON_DONOR_STRENGTH_SD,0.05,parameter SD,Uncertainty around active donor strength; clipped to 0–1.
+Candidate effects,RETIREMENT_EFFECT_SD_PP,0.3,primary pp SD,Shared uncertainty in the default retirement penalty; explicit seat overrides stay fixed.
+Candidate effects,SOPHOMORE_EFFECT_SD_PP,0.3,primary pp SD,Shared uncertainty in the default sophomore bonus; explicit seat overrides stay fixed.
+Preferences,PREF_GENERIC_LOG_SD,0.2,log-weight SD,Shared origin/recipient perturbation of generic or synthetic preference flows.
+Preferences,PREF_FEDERAL_LOG_SD,0.1,log-weight SD,"Perturbation scale for federal-evidence blends; provisional, not sample-size calibration."
+Preferences,PREF_VEC_LOG_SD,0.05,log-weight SD,Perturbation scale for exact non-ON VEC fields; provisional.
+Preferences,PREF_SPECIAL_LOG_SD,0.2,log-weight SD,Perturbation scale for hypothetical ON special final-pair flows; source Sheet rows unchanged.
+Preferences,PREF_CLASS_ON_LOG_SD,0.1,log-weight SD,Additional ON-recipient shock shared by all seats in a seat class.
+Statewide votes,STATEWIDE_SD_ALP_PP,2.0,primary pp SD,Provisional independent party error before projecting all six shares to a non-negative total of 100; not an empirically fitted polling covariance.
+Statewide votes,STATEWIDE_SD_LNP_PP,2.0,primary pp SD,Provisional independent party error before projecting all six shares to a non-negative total of 100; not an empirically fitted polling covariance.
+Statewide votes,STATEWIDE_SD_GRN_PP,1.0,primary pp SD,Provisional independent party error before projecting all six shares to a non-negative total of 100; not an empirically fitted polling covariance.
+Statewide votes,STATEWIDE_SD_ON_PP,3.0,primary pp SD,Provisional independent party error before projecting all six shares to a non-negative total of 100; not an empirically fitted polling covariance.
+Statewide votes,STATEWIDE_SD_IND_PP,1.0,primary pp SD,Provisional independent party error before projecting all six shares to a non-negative total of 100; not an empirically fitted polling covariance.
+Statewide votes,STATEWIDE_SD_OTH_PP,1.0,primary pp SD,Provisional independent party error before projecting all six shares to a non-negative total of 100; not an empirically fitted polling covariance.

@@ -411,7 +411,7 @@ def vector_stage(stage, vec, alive, note="", metadata=None):
     return row
 
 
-def diagnose_preference_weights(
+def _diagnose_preference_weights_base(
     eliminated_party,
     alive_parties,
     matrix,
@@ -473,7 +473,7 @@ def diagnose_preference_weights(
                 params.get("scalar_params", {})
             )
             production_params["scalar_params"]["SIPHON_STRENGTH_ON"] = 0.0
-        production = diagnose_preference_weights(
+        production = _diagnose_preference_weights_base(
             eliminated_party=elim,
             alive_parties=alive_arr,
             matrix=matrix,
@@ -853,6 +853,25 @@ def diagnose_preference_weights(
         "final_flows": vector_to_dict(out, alive),
         "stages": stage_rows,
     }
+
+
+def diagnose_preference_weights(eliminated_party, alive_parties, matrix,
+                                geography_class, params, posterior=None, ideology=None):
+    """Central engine unchanged unless a simulation explicitly supplies shocks."""
+    result = _diagnose_preference_weights_base(
+        eliminated_party, alive_parties, matrix, geography_class, params, posterior, ideology)
+    shocks = params.get('_forecast_preference_shocks')
+    if shocks is None:
+        return result
+    from SRC.forecast_engine import perturb_preference_flows
+    result = dict(result)
+    result['final_flows'] = perturb_preference_flows(
+        result, eliminated_party, geography_class, shocks)
+    result['final_vector'] = [result['final_flows'].get(party,0.0) for party in PARTIES]
+    result['stages'] = list(result['stages']) + [vector_stage(
+        'forecast preference draw',result['final_vector'],set(alive_parties),
+        'Simulation-only correlated uncertainty around the central flow; source rows unchanged.')]
+    return result
 
 
 def get_preference_weights(

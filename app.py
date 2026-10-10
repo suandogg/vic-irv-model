@@ -328,64 +328,10 @@ def run_model(
     seat_adjustments=None, turnout_weights=None,
 ):
     log_checkpoint(f"run_model start targets={targets}")
+    from SRC.primary_pipeline import build_projected_primaries
     scenario_params = params_for_scenario(params, targets)
-    on_alpha = float(
-        scenario_params.get("scalar_params", {}).get("ON alpha", 0.6) or 0.6
-    )
-    grn_pvi_persistence = float(
-        scenario_params.get("scalar_params", {}).get(
-            "GRN_PVI_PERSISTENCE", 1.0
-        ) or 1.0
-    )
-    adjusted = build_corrected_primary_table(
-        primary_inputs=primary_inputs,
-        targets=targets,
-        on_alpha=on_alpha,
-        pvi_strengths={"GRN": grn_pvi_persistence},
-    )
-    donor_strength = float(
-        scenario_params.get("scalar_params", {}).get(
-            "ON_PRIMARY_DONOR_STRENGTH", 0.0
-        ) or 0.0
-    )
-    source_matrix = scenario_params.get("on_vote_source_matrix", {})
-    depletion_strength = float(
-        scenario_params.get("scalar_params", {}).get(
-            "ON_PRIMARY_OTH_DEPLETION_STRENGTH", 0.0
-        ) or 0.0
-    )
-    if depletion_strength > 0:
-        source_matrix = deplete_on_primary_source_matrix(
-            source_matrix,
-            on_level=scenario_params["scalar_params"]["SCENARIO_ON_PRIMARY"],
-            max_depletion=depletion_strength,
-            start_level=float(scenario_params["scalar_params"].get(
-                "ON_PRIMARY_OTH_DEPLETION_START", 10.0
-            )),
-            full_level=float(scenario_params["scalar_params"].get(
-                "ON_PRIMARY_OTH_DEPLETION_FULL", 30.0
-            )),
-        )
-    adjusted = apply_on_primary_donor_geography(
-        primary_inputs=primary_inputs,
-        current=adjusted,
-        targets=targets,
-        source_matrix=source_matrix,
-        strength=donor_strength,
-        on_alpha=on_alpha,
-    )
-    adjusted, seat_adjustment_diagnostics = apply_seat_primary_adjustments(
-        current=adjusted,
-        adjustments=seat_adjustments,
-        targets=targets,
-        retirement_penalty_pp=float(scenario_params["scalar_params"].get(
-            "RETIRING_INCUMBENT_PENALTY_PP", 1.0
-        )),
-        sophomore_bonus_pp=float(scenario_params["scalar_params"].get(
-            "SOPHOMORE_SURGE_BONUS_PP", 1.0
-        )),
-    )
-    adjusted = apply_lnp_precollapse(adjusted)
+    adjusted, seat_adjustment_diagnostics = build_projected_primaries(
+        primary_inputs, params, targets, seat_adjustments)
     log_checkpoint("run_model adjusted primaries")
 
     primary_votes = build_primary_vote_table(adjusted)
@@ -550,7 +496,7 @@ if sync_status.get("errors"):
 
 house_view = st.sidebar.radio(
     "View",
-    ["Dashboard", "Legislative Assembly", "Legislative Council"],
+    ["Dashboard", "Legislative Assembly", "Legislative Council", "Forecast (experimental)"],
     horizontal=False,
 )
 
@@ -681,6 +627,12 @@ log_checkpoint(f"scenario inputs complete targets={targets}")
 total_primary = sum(targets.values())
 
 st.markdown(f"**Primary total: {total_primary:.2f}%**")
+
+if house_view == "Forecast (experimental)":
+    from SRC.forecast_ui import render_forecast
+    render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
+                    seat_adjustments,trial_label,sync_status,run_model,turnout_weights)
+    st.stop()
 
 with st.expander("Refinement guide · decisions and limitations", expanded=False):
     st.markdown(

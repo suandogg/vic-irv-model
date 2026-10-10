@@ -1,0 +1,10 @@
+Event,Probability (%),MC standard error (pp)
+ALP majority,0.5,0.4987484335815001
+LNP majority,22.5,2.9527529527544294
+GRN majority,0.0,0.0
+ON majority,0.0,0.0
+IND majority,0.0,0.0
+OTH majority,0.0,0.0
+Hung parliament (no single-party majority),77.0,2.975735203273302
+LNP + ON jointly reach 45 (overlaps other events),87.0,2.378024390118823
+LNP + ON reach 45; neither alone (not a formation prediction),64.5,3.3836001536824645

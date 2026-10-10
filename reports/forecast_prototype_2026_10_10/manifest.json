@@ -1,0 +1,38 @@
+{
+  "settings": {
+    "SIMULATIONS": 200,
+    "SEED": 20261010,
+    "LOWER_QUANTILE": 0.05,
+    "UPPER_QUANTILE": 0.95,
+    "REGION_PRIMARY_SD_PP": 0.75,
+    "SEAT_PRIMARY_SD_PP": 1.5,
+    "ON_ALPHA_SD": 0.08,
+    "ON_DONOR_STRENGTH_SD": 0.05,
+    "RETIREMENT_EFFECT_SD_PP": 0.3,
+    "SOPHOMORE_EFFECT_SD_PP": 0.3,
+    "PREF_GENERIC_LOG_SD": 0.2,
+    "PREF_FEDERAL_LOG_SD": 0.1,
+    "PREF_VEC_LOG_SD": 0.05,
+    "PREF_SPECIAL_LOG_SD": 0.2,
+    "PREF_CLASS_ON_LOG_SD": 0.1,
+    "STATEWIDE_SD_ALP_PP": 2,
+    "STATEWIDE_SD_LNP_PP": 2,
+    "STATEWIDE_SD_GRN_PP": 1,
+    "STATEWIDE_SD_ON_PP": 3,
+    "STATEWIDE_SD_IND_PP": 1,
+    "STATEWIDE_SD_OTH_PP": 1
+  },
+  "targets": {
+    "ALP": 24.6,
+    "LNP": 29.1,
+    "GRN": 13.3,
+    "ON": 22,
+    "IND": 5.5,
+    "OTH": 5.5
+  },
+  "input_mode": "committed CSV snapshot",
+  "calibration": "none; engineering smoke run only",
+  "preference_trial": "vec_field_coverage",
+  "signature": "a2e7853317398c96da63a6857d45ce73075d20eeed56285e8d54b91d6b912d89",
+  "runtime_seconds": 33.19398062501568
+}
