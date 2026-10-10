@@ -7,11 +7,14 @@ import streamlit as st
 from SRC.constants import PARTIES
 from SRC.forecast_params import load_forecast_params, parameter_table
 from SRC.forecast_engine import fingerprint, simulate, engine_source_hash, uncertainty_profile
+from SRC.display_params import defaults as display_defaults
+from SRC.presentation import table as display_table, seat_intervals, event_bars, party_summary
 
 
 def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                     seat_adjustments,trial_label,sync_status,central_runner,turnout_weights):
-    st.header('Lower-house forecast · experimental')
+    display = st.session_state.get('_display_settings',display_defaults())
+    st.header(display['FORECAST_TITLE'])
     st.warning('Model-based scenario probabilities — provisional, not historically calibrated. '
                'These are conditional on your primary inputs and uncertainty assumptions, not an independent polling forecast.')
     st.caption('The existing calculator is unchanged. This view runs whole-election simulations '
@@ -25,7 +28,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
     st.caption(source+'. Refresh Google Sheet inputs after editing the FORECAST PARAMS tab. '
                'If sync is unavailable, the committed CSV settings are used.')
     with st.expander('Current forecast settings and methodology',expanded=False):
-        st.dataframe(parameter_table(settings),hide_index=True,width='stretch')
+        display_table(parameter_table(settings),hide_index=True,width='stretch')
         st.markdown('All SDs are **provisional assumptions**, not fitted estimates. Statewide party errors '
             'start independent, then are constrained to total 100%; a fitted polling covariance is not yet available. '
             'Regional/local shocks preserve each simulated scenario’s underlying equal-seat statewide totals '
@@ -87,7 +90,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
             for key in ('parties','government'):
                 table = pd.concat([value[key].assign(Assumptions=label)
                                    for label,value in comparison[1].items()],ignore_index=True)
-                st.dataframe(table,hide_index=True,width='stretch')
+                display_table(table,hide_index=True,width='stretch')
                 st.download_button('Download comparison '+key,table.to_csv(index=False),
                                    'forecast_uncertainty_'+key+'.csv','text/csv')
     st.caption('Run completed (UTC): '+stored['created_utc']+' · '+stored['sync_message'])
@@ -97,9 +100,19 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         st.caption(f"Lower/upper endpoints: {100*settings['LOWER_QUANTILE']:g}th / "
                    f"{100*settings['UPPER_QUANTILE']:g}th percentiles. "
                    'Party medians and interval endpoints need not sum to 88. Every individual draw does.')
-        st.dataframe(result['parties'],hide_index=True,width='stretch')
+        party_table = result['parties']
+        if not display['SHOW_ZERO_SEAT_PARTIES']:
+            party_table = party_table[party_table['Upper seats']>0]
+        if display['SEAT_CHART_MODE'] in ('intervals','both'):
+            seat_intervals(party_table,display)
+            st.caption('Wide band: selected lower–upper percentiles; narrow band: middle 50%; black marker: median. The majority line is fixed at 45.')
+        if display['SHOW_FORECAST_SEAT_TABLE'] or display['SEAT_CHART_MODE']=='table':
+            display_table(party_summary(party_table,display),hide_index=True,width='stretch')
         st.subheader('Majority and parliamentary arithmetic')
-        st.dataframe(result['government'],hide_index=True,width='stretch')
+        if display['GOVERNMENT_CHART_MODE'] in ('bars','both'):
+            event_bars(result['government'],display)
+        if display['GOVERNMENT_CHART_MODE'] in ('table','both'):
+            display_table(result['government'],hide_index=True,width='stretch',probabilities=True)
         st.caption('Single-party majorities plus hung parliament are mutually exclusive and exhaustive. '
                    'The LNP + ON rows overlap these outcomes and do not predict a coalition agreement. '
                    'ALP minority means ALP is below 45 and ALP + GRN or ALP + IND reaches 45; '
@@ -108,16 +121,20 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         histogram = pd.DataFrame({party:result['draws'][party].value_counts().reindex(range(89),fill_value=0)
                                   /settings['SIMULATIONS'] for party in PARTIES})
         histogram.index.name = 'Seats'
-        st.bar_chart(histogram,x_label='Seat count',y_label='Fraction of simulations',stack=False)
+        if display['SEAT_CHART_MODE'] in ('histogram','both'):
+            order = display['PARTY_ORDER'].split(',')
+            st.bar_chart(histogram[order].rename(columns={p:display[p+'_LABEL'] for p in order}),
+                         x_label='Seat count',y_label='Fraction of simulations',stack=False,
+                         height=display['CHART_HEIGHT_PX'],color=[display[p+'_COLOUR'] for p in order])
     with seats:
         st.subheader('Five demonstration seats')
-        st.dataframe(result['seats'][result['seats'].Seat.isin(
+        display_table(result['seats'][result['seats'].Seat.isin(
             ['Pakenham','Morwell','Pascoe Vale','Ashwood','Yan Yean'])],hide_index=True,width='stretch')
         st.subheader('All 88 seats')
-        st.dataframe(result['seats'],hide_index=True,width='stretch')
+        display_table(result['seats'],hide_index=True,width='stretch')
         seat = st.selectbox('Inspect a seat',sorted(result['seats'].Seat),key='forecast_seat')
         row = result['seats'].set_index('Seat').loc[seat]
-        st.dataframe(pd.DataFrame({'Party':PARTIES,'Win probability (%)':[row[p+' win (%)'] for p in PARTIES]}),hide_index=True)
+        display_table(pd.DataFrame({'Party':PARTIES,'Win probability (%)':[row[p+' win (%)'] for p in PARTIES]}),hide_index=True)
         st.caption('Winner margin is the winner’s share above 50%, not the incumbent swing. '
                    'Forced ALP–LNP 2PP remains comparable when actual finalists differ.')
         st.download_button('Download seat probabilities',result['seats'].to_csv(index=False),
@@ -130,7 +147,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         st.subheader('Drawn statewide primaries')
         centre = np.array([targets[p] for p in PARTIES],dtype=float)
         centre = centre/centre.sum()*100
-        st.dataframe(pd.DataFrame({'Party':PARTIES,'Central (%)':centre,
+        display_table(pd.DataFrame({'Party':PARTIES,'Central (%)':centre,
             'Draw mean (%)':primary.mean().reindex(PARTIES).to_numpy(),
             '5th percentile (%)':primary.quantile(.05).reindex(PARTIES).to_numpy(),
             '95th percentile (%)':primary.quantile(.95).reindex(PARTIES).to_numpy()}),hide_index=True)

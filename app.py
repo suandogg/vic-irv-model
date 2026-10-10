@@ -17,6 +17,10 @@ from SRC.transform import build_primary_vote_table
 from SRC.legacy_primary_loader import load_legacy_primary_inputs
 from SRC.loaders import load_seat_held_metadata, apply_seat_held_metadata
 from SRC.display_metrics import held_party_2cp_swing
+from SRC.display_params import load_display_params, defaults as display_defaults
+from SRC.presentation import apply_theme, table as display_table, party_summary, headline_metric
+
+DISPLAY = display_defaults()
 from SRC.legacy_primary_model import (
     apply_seat_primary_adjustments,
     apply_on_primary_donor_geography,
@@ -140,6 +144,8 @@ log_checkpoint("app import complete")
 
 
 def party_cell_style(value):
+    if not DISPLAY['COLOUR_PARTY_CELLS']:
+        return ''
     party = str(value).split()[0]
 
     if party not in PARTY_COLOURS:
@@ -161,6 +167,8 @@ def party_cell_style(value):
 
 
 def placement_cell_style(value):
+    if not DISPLAY['COLOUR_PARTY_CELLS']:
+        return ''
     party = str(value).strip()
 
     if party not in PARTY_COLOURS:
@@ -219,7 +227,7 @@ def render_result_table(df):
 
     log_checkpoint("render_result_table styled")
 
-    st.dataframe(
+    display_table(
         styled_df,
         width="stretch",
         hide_index=True,
@@ -419,8 +427,6 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("Victorian IRV Election Model")
-
 (
     primary_inputs,
     matrices,
@@ -435,6 +441,25 @@ st.title("Victorian IRV Election Model")
     upper_inputs,
     sync_status,
 ) = load_static_inputs()
+
+DISPLAY, display_warnings = load_display_params()
+st.session_state['_display_settings'] = DISPLAY
+apply_theme(DISPLAY)
+st.set_page_config(page_title=DISPLAY['APP_TITLE'],layout='wide')
+st.title(DISPLAY['APP_TITLE'])
+PARTY_LABELS = {p:DISPLAY[p+'_LABEL'] for p in PARTIES}
+PARTY_COLOURS = {p:{'bg':DISPLAY[p+'_COLOUR'],'text':DISPLAY[p+'_TEXT_COLOUR']} for p in PARTIES}
+if display_warnings:
+    with st.sidebar.expander('Display settings warnings'):
+        for warning in display_warnings:
+            st.warning(warning)
+with st.sidebar.expander('Formatting controls'):
+    st.caption('Edit Value (column C) in DISPLAY PARAMS, then refresh Google Sheet inputs. '
+               'Formatting does not change calculations or require rerunning a saved forecast. '
+               'THEME=custom uses your colour rows. Invalid values fall back safely and appear above.')
+    st.download_button('Download formatting guide',
+        (Path(__file__).resolve().parent/'reports/DISPLAY_PARAMS_GUIDE.md').read_text(),
+        'DISPLAY_PARAMS_GUIDE.md','text/markdown')
 
 from tools.preference_review_trials import variant as preference_trial_variant
 from tools.trial_posterior_reliability import seat_count_trial
@@ -498,6 +523,8 @@ house_view = st.sidebar.radio(
     "View",
     ["Dashboard", "Legislative Assembly", "Legislative Council", "Forecast (experimental)"],
     horizontal=False,
+    format_func=lambda name:DISPLAY[{'Dashboard':'NAV_DASHBOARD','Legislative Assembly':'NAV_ASSEMBLY',
+        'Legislative Council':'NAV_COUNCIL','Forecast (experimental)':'NAV_FORECAST'}[name]],
 )
 
 if house_view == "Legislative Council":
@@ -527,7 +554,7 @@ if house_view == "Legislative Council":
         **{"Primary input %": ("StatewidePrimaryPct", "sum"), "Seats": ("Seats", "max")}
     ).sort_values(["Seats", "Primary input %"], ascending=False)
     st.subheader("Statewide summary")
-    st.dataframe(
+    display_table(
         family_summary,
         width="stretch",
         hide_index=True,
@@ -536,7 +563,7 @@ if house_view == "Legislative Council":
 
     result = upper_projection["results"].copy()
     st.subheader("Members elected by region")
-    st.dataframe(
+    display_table(
         result[[
             "Region", "ElectedOrder", "Candidate", "GroupKey", "FinalTallyQuotas",
             "FinalSeatMarginVotes", "Reliability", "ExhaustedPct",
@@ -554,7 +581,7 @@ if house_view == "Legislative Council":
     region_table = upper_projection["regions"].pivot(
         index="Region", columns="PartyKey", values="UpperPrimaryPct"
     ).reset_index()
-    st.dataframe(region_table, width="stretch", hide_index=True)
+    display_table(region_table, width="stretch", hide_index=True)
 
     with st.expander("Upper-house reliability and evidence diagnostics", expanded=False):
         low_reliability = result[result["ElectedOrder"].eq(5)][[
@@ -564,11 +591,11 @@ if house_view == "Legislative Council":
             "Reliability describes sensitivity of the final regional seat to modest "
             "preference or input changes; it is not a win probability."
         )
-        st.dataframe(low_reliability, width="stretch", hide_index=True)
-        st.dataframe(
+        display_table(low_reliability, width="stretch", hide_index=True)
+        display_table(
             upper_projection["preference_diagnostics"], width="stretch", hide_index=True
         )
-        st.dataframe(upper_projection["ballots"], width="stretch", hide_index=True)
+        display_table(upper_projection["ballots"], width="stretch", hide_index=True)
     st.stop()
 
 selected_view = st.selectbox(
@@ -662,7 +689,7 @@ with st.expander("Five-seat preference trial comparisons", expanded=False):
     st.caption({"ON18":"ALP 29, LNP 32, GRN 12, ON 18, IND 4.5, OTH 4.5", "ON20":"ALP 25, LNP 30, GRN 14, ON 20, IND 5.5, OTH 5.5", "ON24":"ALP 25, LNP 28, GRN 12, ON 24, IND 5.5, OTH 5.5", "2022":"Projected baseline-input sensitivity, not the actual-primary historical validation."}[panel_scenario])
     panel_results = pd.read_csv(Path(__file__).resolve().parent / "reports/preference_review_2026_10_08/seat_results.csv")
     panel = pd.DataFrame(comparison_panel(panel_results, panel_scenario, trial_options[panel_variant], matrices))
-    st.dataframe(panel, hide_index=True)
+    display_table(panel, hide_index=True)
     st.download_button("Download five-seat comparison", panel.to_csv(index=False), "five_seat_comparison.csv", "text/csv")
     if panel_scenario == "ON18" and trial_options[panel_variant] == "matrix_source_only":
         import json
@@ -673,7 +700,7 @@ with st.expander("Five-seat preference trial comparisons", expanded=False):
             displaced = [p["Origin"] + ": " + " + ".join(p["ReferenceSources"]) for p in first["Parcels"] if p["Votes"] > 1e-8 and any(abs(p["TrialFlows"].get(k, 0) - v) > 1e-8 for k, v in p["ReferenceFlows"].items())]
             explanation_rows.append({"Seat": seat, "First material flow change": "Round " + str(first["Round"]) + " · " + first["Holder"], "Underlying reference sources": "; ".join(displaced), "ALP seat-vote change in this round (pp)": first["SeatVoteChangePP"].get("ALP", 0), "ON seat-vote change in this round (pp)": first["SeatVoteChangePP"].get("ON", 0)})
         st.caption("Why the sources differ: evaluated on identical reference-path vote parcels. These round effects are not final 2CP swings and exclude negligible vote piles.")
-        st.dataframe(pd.DataFrame(explanation_rows), hide_index=True)
+        display_table(pd.DataFrame(explanation_rows), hide_index=True)
 
 if abs(total_primary - 100) > 0.01:
     st.warning(
@@ -719,12 +746,17 @@ if house_view == "Dashboard":
     alp_on_2cp = turnout_weighted_share(results_df, "ALP_ON_2CP") * 100
     on_alp_2cp = turnout_weighted_share(results_df, "ON_ALP_2CP") * 100
 
-    st.header("Election dashboard")
-    result_col, alp_2pp_col, lnp_2pp_col, alt_col = st.columns([1.5, 1, 1, 1.35])
-    result_col.metric("Projected result", government_result)
-    alp_2pp_col.metric("ALP 2PP", f"{alp_2pp:.2f}%", f"{alp_2pp - 55:.2f} pp")
-    lnp_2pp_col.metric("LNP 2PP", f"{lnp_2pp:.2f}%", f"{lnp_2pp - 45:.2f} pp")
-    alt_col.metric("Alternate 2CP", f"ALP {alp_on_2cp:.2f}%", f"ON {on_alp_2cp:.2f}%", delta_color="off")
+    st.header(DISPLAY['DASHBOARD_TITLE'])
+    cards = [('Projected result',government_result,None)]
+    digits = DISPLAY['PERCENT_DECIMALS']
+    if DISPLAY['SHOW_DASHBOARD_2PP']:
+        cards.extend([('ALP 2PP',f'{alp_2pp:.{digits}f}%',alp_2pp-55),
+                      ('LNP 2PP',f'{lnp_2pp:.{digits}f}%',lnp_2pp-45)])
+    if DISPLAY['SHOW_DASHBOARD_ALTERNATE_2CP']:
+        cards.append(('Alternate 2CP',f'ALP {alp_on_2cp:.{digits}f}% / ON {on_alp_2cp:.{digits}f}%',None))
+    for column,(label,value,delta) in zip(st.columns(len(cards)),cards):
+        with column:
+            headline_metric(label,value,delta,DISPLAY)
 
     assembly_rows = []
     for party in PARTIES:
@@ -755,24 +787,27 @@ if house_view == "Dashboard":
         for party in council_parties
     ]).sort_values(["Seats", "Party"], ascending=[False, True])
 
-    assembly_col, council_col = st.columns(2)
+    assembly_summary = party_summary(assembly_summary,DISPLAY)
+    council_summary = party_summary(council_summary,DISPLAY)
+    assembly_col, council_col = st.columns(2) if DISPLAY['DASHBOARD_CHAMBERS_SIDE_BY_SIDE'] else (st.container(),st.container())
     with assembly_col:
         st.subheader("Legislative Assembly · 88 seats")
         st.caption("45 seats required for a majority")
-        st.dataframe(assembly_summary, width="stretch", hide_index=True)
+        display_table(assembly_summary, width="stretch", hide_index=True)
     with council_col:
         st.subheader("Legislative Council · 40 seats")
         st.caption("21 seats required for a chamber majority")
-        st.dataframe(council_summary, width="stretch", hide_index=True)
+        display_table(council_summary, width="stretch", hide_index=True)
 
-    st.subheader("Government formation")
     formation = pd.DataFrame([
         {"Path": "Labor", "Seats": alp_seats, "Majority threshold": 45, "Status": "Majority" if alp_seats >= 45 else "Short"},
         {"Path": "LNP", "Seats": lnp_seats, "Majority threshold": 45, "Status": "Majority" if lnp_seats >= 45 else "Short"},
         {"Path": "LNP + ON", "Seats": lnp_seats + on_seats, "Majority threshold": 45, "Status": "Majority" if lnp_seats + on_seats >= 45 else "Short"},
     ])
     formation["Seats from majority"] = formation["Seats"] - formation["Majority threshold"]
-    st.dataframe(formation, width="stretch", hide_index=True)
+    if DISPLAY['SHOW_DASHBOARD_FORMATION_TABLE']:
+        st.subheader("Government formation")
+        display_table(formation, width="stretch", hide_index=True)
 
     with st.expander("Dashboard methodology", expanded=False):
         st.write(
@@ -808,7 +843,7 @@ with st.expander("Production diagnostics", expanded=False):
         f"synced tabs: {sync_status.get('synced', 0)}; "
         f"active seat adjustments: {len(seat_adjustment_diagnostics)}."
     )
-    st.dataframe(
+    display_table(
         reconciliation,
         width="stretch",
         hide_index=True,
@@ -825,7 +860,7 @@ with st.expander("Production diagnostics", expanded=False):
         f"Negative primary cells: {(adjusted_seat_helper[PARTIES] < 0).sum().sum()}."
     )
     if not seat_adjustment_diagnostics.empty:
-        st.dataframe(
+        display_table(
             seat_adjustment_diagnostics,
             width="stretch",
             hide_index=True,
@@ -870,7 +905,7 @@ primary_df = pd.DataFrame([
     for party in PARTIES
 ])
 
-st.dataframe(
+display_table(
     primary_df.style.map(party_cell_style, subset=["Party"]),
     width="stretch",
     hide_index=True,
@@ -928,7 +963,7 @@ summary_style = (
     )
 )
 
-st.dataframe(
+display_table(
     summary_style,
     width="stretch",
     hide_index=True,
@@ -957,7 +992,7 @@ with st.expander("Result sensitivity (not probabilities)", expanded=False):
         "These bands describe sensitivity to modest input or preference-flow changes. "
         "They are not Monte Carlo win probabilities."
     )
-    st.dataframe(
+    display_table(
         sensitivity,
         width="stretch",
         hide_index=True,
@@ -985,7 +1020,7 @@ alternate_2pp_df = pd.DataFrame([
     },
 ])
 
-st.dataframe(
+display_table(
     alternate_2pp_df.style.map(party_cell_style, subset=["Party"]),
     width="stretch",
     hide_index=True,
@@ -1061,7 +1096,7 @@ else:
         for col in seat_detail_percent_cols
     }
 
-    st.dataframe(
+    display_table(
         detail_display.style
         .map(party_cell_style, subset=["held_by", "winner", "Result"])
         .map(placement_cell_style, subset=["2nd", "3rd", "4th", "5th", "6th"]),
@@ -1135,7 +1170,7 @@ else:
 
     st.subheader(f"{selected_seat} IRV Count Trace")
 
-    st.dataframe(
+    display_table(
         trace_df,
         width="stretch",
         hide_index=True,
@@ -1153,7 +1188,7 @@ else:
         )
         if evidence_rows:
             evidence_frame = pd.DataFrame(evidence_rows)
-            st.dataframe(evidence_frame, width="stretch", hide_index=True)
+            display_table(evidence_frame, width="stretch", hide_index=True)
             st.download_button("Download current ON evidence audit", evidence_frame.to_csv(index=False),
                 file_name=f"{selected_seat}_ON_evidence_audit.csv", mime="text/csv")
         else:
@@ -1235,7 +1270,7 @@ else:
 
         st.subheader(f"{selected_seat} Preference Flow Diagnostics")
 
-        st.dataframe(
+        display_table(
             round_diagnostics[diagnostic_columns],
             width="stretch",
             hide_index=True,
