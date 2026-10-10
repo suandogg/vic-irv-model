@@ -1,0 +1,9 @@
+Configuration,ALP,LNP,GRN,ON,IND,OTH,Changed winners,Mean seat ALP 2PP (%)
+Central model,23,40,5,20,0,0,0,45.62976562349482
+Sparse federal evidence off,23,40,5,20,0,0,0,45.74393592942052
+Generic fallback pass-through,26,37,6,19,0,0,5,47.67421846955658
+Pass-through + sparse evidence off,27,36,6,19,0,0,6,48.0913703731056
+OTH preference depletion off,23,40,5,20,0,0,0,45.63846136526125
+Joint architecture stress,27,36,6,19,0,0,6,48.10000061403492
+Special priors: ON minus 5 pp,28,40,5,15,0,0,5,45.62976562349482
+Special priors: ON plus 5 pp,23,38,5,22,0,0,2,45.62976562349482

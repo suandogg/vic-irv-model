@@ -641,6 +641,62 @@ results_df, adjusted_seat_helper, seat_adjustment_diagnostics = run_model(
     seat_adjustments,
 )
 
+if house_view in ("Dashboard", "Legislative Assembly"):
+    with st.expander("Preference assumptions and sensitivity comparisons", expanded=False):
+        st.caption(
+            "Alternative assumptions, not probabilities or confidence bounds. "
+            "The central dashboard is unchanged. Every comparison uses identical seat primaries "
+            "and the current loaded Sheet inputs. Special-prior ±5 pp tests are illustrative "
+            "stress sizes, not estimated plausible limits."
+        )
+        run_sensitivity = st.checkbox("Calculate preference sensitivity comparisons", key="run_main_sensitivity")
+        if run_sensitivity:
+            from SRC.preference_sensitivity import compare, assumption_rows, configure, CONFIGURATIONS
+            sensitivity_primary = build_primary_vote_table(adjusted_seat_helper)
+            sensitivity_params = params_for_scenario(params, targets)
+            with st.spinner("Comparing preference assumptions with fixed primaries..."):
+                sensitivity_summary, sensitivity_detail = compare(
+                    sensitivity_primary, matrices, sensitivity_params, posterior, ideology
+                )
+            st.dataframe(sensitivity_summary, hide_index=True, width="stretch")
+            st.caption("2PP above is the unweighted mean across 88 seats, matching Main's dashboard convention. It is not turnout-weighted statewide 2PP.")
+            st.dataframe(pd.DataFrame([{"Configuration":name,"What changes":description}
+                                      for name,description in CONFIGURATIONS.items()]),hide_index=True,width="stretch")
+            consequential = sensitivity_detail[sensitivity_detail["Winner changed"]]
+            st.subheader("Seats whose winner changes in a tested alternative")
+            st.dataframe(consequential[["district","Configuration","winner_central","winner","matchup_central","matchup","ALP 2PP change (pp)"]],hide_index=True,width="stretch")
+            st.download_button("Download all sensitivity seat results", sensitivity_detail.to_csv(index=False),
+                               "main_preference_sensitivity.csv", "text/csv")
+            focus = ["Pakenham","Morwell","Pascoe Vale","Ashwood","Yan Yean"]
+            st.subheader("Five demonstration seats")
+            st.dataframe(sensitivity_detail[sensitivity_detail.district.isin(focus)][[
+                "district","Configuration","winner","matchup","ALP 2PP change (pp)"
+            ]],hide_index=True,width="stretch")
+            affected = sorted(set(consequential.district))
+            seats = affected + [seat for seat in sorted(results_df.district) if seat not in affected]
+            reviewed_seat = st.selectbox("Inspect ON preference assumptions", seats,key="main_assumption_seat")
+            reviewed_configuration = st.selectbox("Assumption configuration", list(CONFIGURATIONS),key="main_assumption_configuration")
+            audit_params, audit_posterior = configure(sensitivity_params,posterior,reviewed_configuration)
+            assumptions = assumption_rows(sensitivity_primary,matrices,audit_params,audit_posterior,ideology,reviewed_seat)
+            st.caption("These are the selected count's actual primary-origin parcels, not only the excluded holder's label. Alternative counts can follow different elimination paths. Blend weights are not accuracy probabilities.")
+            st.caption("Blank federal sample sizes mean no federal pool supplied that row, not a zero-observation estimate. The legacy Victorian posterior loader retains shares only; its sample sizes are not available here.")
+            st.dataframe(assumptions,hide_index=True,width="stretch")
+            st.download_button("Download this seat's ON assumption audit",assumptions.to_csv(index=False),
+                               "main_on_assumptions.csv","text/csv")
+        audit_path = Path(__file__).resolve().parent / "reports/federal_endpoint_audit_2026_10_10/category_summary.csv"
+        if audit_path.exists():
+            st.subheader("Federal reconstruction endpoint audit — 10 October 2026")
+            st.caption(
+                "202 non-finalist candidates in 38 Victorian federal divisions. "
+                "Reconstructed original-voter endpoints compared with AEC final-pair counts compiled by Antony Green (February 2026). "
+                "This audits the mixed-pile approximation, not the accuracy of hypothetical Victorian ON contests. "
+                "The endpoint report already informed classification metadata, so this is not a pristine held-out test."
+            )
+            st.dataframe(pd.read_csv(audit_path),hide_index=True,width="stretch")
+            st.caption("Errors are percentage points of an origin candidate's preferences—not percentage points of a seat's total vote. No central evidence weights have been changed.")
+            st.caption("Imported exact final-pair subset below: three ON→ALP/LNP observations are active; the one-seat Indi pool does not pass the minimum sample size. Other hypothetical fields cannot be validated with this endpoint report.")
+            st.dataframe(pd.read_csv(audit_path.parent / "imported_exact_pair_endpoints.csv"),hide_index=True,width="stretch")
+
 if house_view == "Dashboard":
     upper_targets = {
         party: float(targets[party]) / total_primary * 100

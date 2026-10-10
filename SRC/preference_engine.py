@@ -615,6 +615,17 @@ def diagnose_preference_weights(
         ]
 
         ide_vec = normalise_alive(ide_vec, alive)
+        if scalars.get("SENSITIVITY_GENERIC_PASS_THROUGH", False):
+            from SRC.fallback_projection import pass_through_prior
+            projected = pass_through_prior(elim, alive, ideology)
+            if projected is not None:
+                ide_vec = [projected.get(party, 0.0) for party in PARTIES]
+            stage_rows.append(vector_stage(
+                "sensitivity generic pass-through",
+                ide_vec, alive,
+                "Alternative generic ranking assumption only. Unsupported paths retain reference projection. Empirical and special-prior records are not projected.",
+                {"pass_through_supported": projected is not None},
+            ))
         stage_rows.append(vector_stage(
             "ideology prior",
             ide_vec,
