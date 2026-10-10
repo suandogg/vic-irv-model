@@ -858,10 +858,17 @@ def _diagnose_preference_weights_base(
 def diagnose_preference_weights(eliminated_party, alive_parties, matrix,
                                 geography_class, params, posterior=None, ideology=None):
     """Central engine unchanged unless a simulation explicitly supplies shocks."""
+    cache = params.get('_forecast_flow_cache')
+    key = (eliminated_party, tuple(sorted(alive_parties)), id(matrix),
+           geography_class, id(posterior), id(ideology))
+    if cache is not None and key in cache:
+        return cache[key]
     result = _diagnose_preference_weights_base(
         eliminated_party, alive_parties, matrix, geography_class, params, posterior, ideology)
     shocks = params.get('_forecast_preference_shocks')
     if shocks is None:
+        if cache is not None:
+            cache[key] = result
         return result
     from SRC.forecast_engine import perturb_preference_flows
     result = dict(result)
@@ -871,6 +878,8 @@ def diagnose_preference_weights(eliminated_party, alive_parties, matrix,
     result['stages'] = list(result['stages']) + [vector_stage(
         'forecast preference draw',result['final_vector'],set(alive_parties),
         'Simulation-only correlated uncertainty around the central flow; source rows unchanged.')]
+    if cache is not None:
+        cache[key] = result
     return result
 
 

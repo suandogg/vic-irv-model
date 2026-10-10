@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 from SRC.constants import PARTIES
 from SRC.forecast_params import load_forecast_params, parameter_table
-from SRC.forecast_engine import fingerprint, simulate, engine_source_hash
+from SRC.forecast_engine import fingerprint, simulate, engine_source_hash, uncertainty_profile
 
 
 def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
@@ -15,7 +15,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
     st.warning('Model-based scenario probabilities — provisional, not historically calibrated. '
                'These are conditional on your primary inputs and uncertainty assumptions, not an independent polling forecast.')
     st.caption('The existing calculator is unchanged. This view runs whole-election simulations '
-               'around it. Council probabilities and minority-government formation are not yet modelled.')
+               'around it. Council probabilities are not yet modelled; minority outcomes assume the support specified below.')
     st.caption('Active preference method: '+trial_label)
     try:
         settings, source = load_forecast_params()
@@ -68,6 +68,28 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                 'Opening this view does not automatically start simulations.')
         return
     result = stored['result']
+    with st.expander('Compare narrower / current / wider uncertainty'):
+        st.caption('Halve or multiply all uncertainty SDs by 1.5, keeping central inputs, '
+                   'preference method, seed and draw count fixed. This is sensitivity testing, '
+                   'not calibration. Sheet settings are not changed. Two additional runs are required.')
+        if st.button('Run uncertainty comparison',key='compare_forecast_uncertainty'):
+            comparison = {'Current':result}
+            with st.spinner('Running narrower and wider assumptions…'):
+                try:
+                    for label,multiplier in [('Narrower (0.5× SD)',.5),('Wider (1.5× SD)',1.5)]:
+                        comparison[label] = simulate(primary_inputs,matrices,params,posterior,ideology,
+                            targets,seat_adjustments,uncertainty_profile(settings,multiplier))
+                    st.session_state['forecast_uncertainty_comparison'] = (signature,comparison)
+                except (ValueError,KeyError,ArithmeticError) as exc:
+                    st.error('Comparison not published: '+str(exc))
+        comparison = st.session_state.get('forecast_uncertainty_comparison')
+        if comparison and comparison[0]==signature:
+            for key in ('parties','government'):
+                table = pd.concat([value[key].assign(Assumptions=label)
+                                   for label,value in comparison[1].items()],ignore_index=True)
+                st.dataframe(table,hide_index=True,width='stretch')
+                st.download_button('Download comparison '+key,table.to_csv(index=False),
+                                   'forecast_uncertainty_'+key+'.csv','text/csv')
     st.caption('Run completed (UTC): '+stored['created_utc']+' · '+stored['sync_message'])
     overview,seats,assumptions = st.tabs(['Parliament','Seat probabilities','Run details'])
     with overview:
@@ -80,7 +102,9 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         st.dataframe(result['government'],hide_index=True,width='stretch')
         st.caption('Single-party majorities plus hung parliament are mutually exclusive and exhaustive. '
                    'The LNP + ON rows overlap these outcomes and do not predict a coalition agreement. '
-                   'No minority-government probability is assigned without support assumptions.')
+                   'ALP minority means ALP is below 45 and ALP + GRN or ALP + IND reaches 45; '
+                   'both routes qualifying counts once. It assumes support, not an agreement prediction. '
+                   'Deadlock means ALP + GRN = 44 and LNP + ON = 44. These detailed rows overlap hung parliament.')
         histogram = pd.DataFrame({party:result['draws'][party].value_counts().reindex(range(89),fill_value=0)
                                   /settings['SIMULATIONS'] for party in PARTIES})
         histogram.index.name = 'Seats'

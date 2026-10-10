@@ -56,6 +56,10 @@ The seed is fixed and input changes invalidate displayed cached results.
 - Mutually exclusive single-party majority events and hung parliament.
 - Separate overlapping LNP+ON joint-majority arithmetic; this is not a coalition
   agreement or minority-government formation forecast.
+- ALP minority: ALP below 45 and either ALP+GRN or ALP+IND reaches 45.
+  This assumes support; both routes qualifying counts once. Deadlock is exactly
+  ALP+GRN=44 and LNP+ON=44. These events are subsets of hung parliament, not
+  additional mutually exclusive probabilities to add to the majority/hung rows.
 - Monte Carlo standard errors, full seat-count draws, statewide primary draws,
   and a run manifest. Zero simulated wins is not impossibility. Simulation
   error is not model error. Party medians/interval bounds need not sum to 88.
@@ -77,6 +81,17 @@ Forecast (experimental), choose primaries and click Run lower-house forecast.
 Inputs are validated for known keys, finite values, bounds and integer run/seed
 settings. Missing/duplicate parameters produce errors rather than silent guesses.
 The committed CSV is the fallback if Google sync is unavailable.
+
+The uncertainty comparison button runs 0.5×, current and 1.5× SD profiles with
+the same central inputs, architecture, seed and number of draws. It does not
+write new Sheet settings. Comparison results are hidden when inputs change.
+The numerical interval endpoints remain unchanged: profiles change uncertainty,
+not the percentile labels. This is sensitivity testing, not evidence of accuracy.
+
+Forecast counting skips the unused forced ALP–ON count and avoids long-table
+reshaping. A cache scoped to each count reuses identical preference diagnostics;
+it cannot carry flows between draws. Tests compare the retained winners, margins
+and ALP–LNP 2PP exactly against the original counting path, with shocks enabled.
 
 Settings do not yet include a date-based polling-drift schedule, fitted party
 covariance, named-candidate uncertainty by seat, architecture-mixture weights,

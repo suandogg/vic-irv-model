@@ -14,8 +14,45 @@ import pandas as pd
 from SRC.constants import PARTIES
 from SRC.forecast_params import validate
 from SRC.primary_pipeline import build_projected_primaries, params_for_scenario
-from SRC.transform import build_primary_vote_table
-from SRC.irv import run_irv_all
+from SRC.irv import run_irv_for_district, run_forced_2pp_for_district, district_key
+
+
+def forecast_counts(adjusted, matrices, params, posterior, ideology):
+    """Same statutory count; omit unused alternate 2CP and dataframe reshaping."""
+    # Scoped to this count only: never reused across draws, settings or evidence.
+    params = dict(params)
+    params['_forecast_flow_cache'] = {}
+    rows = []
+    for seat in adjusted.to_dict('records'):
+        votes = {party:seat[party] for party in PARTIES}
+        matrix = matrices[district_key(seat['district'])]['matrix']
+        args = dict(district_votes=votes, matrix=matrix, seat_type=seat['seat_type'],
+                    params=params, posterior=posterior, ideology=ideology)
+        result = run_irv_for_district(**args)
+        forced = run_forced_2pp_for_district(**args, party_a='ALP', party_b='LNP')
+        rows.append(dict(district=seat['district'], winner=result['winner'],
+                         margin=result['margin'], ALP_2PP=forced['ALP_2pp']))
+    return pd.DataFrame(rows)
+
+
+def government_events(count_frame):
+    events = {party+' majority':count_frame[party]>=45 for party in PARTIES}
+    events['Hung parliament (no single-party majority)'] = count_frame.max(axis=1)<45
+    events['ALP minority (GRN or IND support assumed)'] = (
+        (count_frame.ALP<45) & ((count_frame.ALP+count_frame.GRN>=45) |
+                               (count_frame.ALP+count_frame.IND>=45)))
+    events['Deadlock (ALP + GRN 44; LNP + ON 44)'] = (
+        (count_frame.ALP+count_frame.GRN==44) & (count_frame.LNP+count_frame.ON==44))
+    events['LNP + ON jointly reach 45 (overlaps other events)'] = count_frame.LNP+count_frame.ON>=45
+    events['LNP + ON reach 45; neither alone (not a formation prediction)'] = (
+        (count_frame.LNP+count_frame.ON>=45)&(count_frame.LNP<45)&(count_frame.ON<45))
+    return events
+
+
+def uncertainty_profile(settings, multiplier):
+    """Sensitivity experiment only: preserve central inputs, seed and draw count."""
+    return validate({key:value*multiplier if '_SD' in key else value
+                     for key,value in settings.items()})
 
 
 def engine_source_hash():
@@ -137,8 +174,7 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
         model_params = draw_model_params(params,drawn_targets,settings,primary_inputs.seat_type,rng)
         adjusted,_ = build_projected_primaries(primary_inputs,model_params,drawn_targets,seat_adjustments)
         adjusted = perturb_local_primaries(adjusted,settings,rng)
-        result = pd.DataFrame(run_irv_all(build_primary_vote_table(adjusted),matrices,
-                                         model_params,posterior,ideology)).set_index('district').loc[districts]
+        result = forecast_counts(adjusted,matrices,model_params,posterior,ideology).set_index('district').loc[districts]
         if len(result)!=88 or result.winner.isna().any() or not result.winner.isin(PARTIES).all():
             raise ValueError('Incomplete draw; no partial probabilities published')
         winners = result.winner.to_numpy()
@@ -167,11 +203,7 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
         party_rows.append({'Party':party,'Lower seats':int(qs[0]),'25th percentile':int(qs[1]),
             'Median seats':int(qs[2]),'75th percentile':int(qs[3]),'Upper seats':int(qs[4]),
             'Majority (%)':100*float(np.mean(seats>=45))})
-    events = {party+' majority':count_frame[party]>=45 for party in PARTIES}
-    events['Hung parliament (no single-party majority)'] = (count_frame.max(axis=1)<45)
-    events['LNP + ON jointly reach 45 (overlaps other events)'] = count_frame.LNP+count_frame.ON>=45
-    events['LNP + ON reach 45; neither alone (not a formation prediction)'] = (
-        (count_frame.LNP+count_frame.ON>=45)&(count_frame.LNP<45)&(count_frame.ON<45))
+    events = government_events(count_frame)
     government = pd.DataFrame([{'Event':label,'Probability (%)':100*float(np.mean(event)),
         'MC standard error (pp)':100*float(np.sqrt(np.mean(event)*(1-np.mean(event))/n))}
         for label,event in events.items()])

@@ -1,0 +1,34 @@
+Event,Probability (%),MC standard error (pp),Assumptions
+ALP majority,0.0,0.0,Narrower
+LNP majority,11.5,2.255825791146116,Narrower
+GRN majority,0.0,0.0,Narrower
+ON majority,0.0,0.0,Narrower
+IND majority,0.0,0.0,Narrower
+OTH majority,0.0,0.0,Narrower
+Hung parliament (no single-party majority),88.5,2.255825791146116,Narrower
+ALP minority (GRN or IND support assumed),0.0,0.0,Narrower
+Deadlock (ALP + GRN 44; LNP + ON 44),0.0,0.0,Narrower
+LNP + ON jointly reach 45 (overlaps other events),100.0,0.0,Narrower
+LNP + ON reach 45; neither alone (not a formation prediction),88.5,2.255825791146116,Narrower
+ALP majority,0.5,0.4987484335815001,Current
+LNP majority,22.5,2.9527529527544294,Current
+GRN majority,0.0,0.0,Current
+ON majority,0.0,0.0,Current
+IND majority,0.0,0.0,Current
+OTH majority,0.0,0.0,Current
+Hung parliament (no single-party majority),77.0,2.975735203273302,Current
+ALP minority (GRN or IND support assumed),8.0,1.918332609325088,Current
+Deadlock (ALP + GRN 44; LNP + ON 44),2.0,0.9899494936611665,Current
+LNP + ON jointly reach 45 (overlaps other events),87.0,2.378024390118823,Current
+LNP + ON reach 45; neither alone (not a formation prediction),64.5,3.3836001536824645,Current
+ALP majority,5.0,1.5411035007422442,Wider
+LNP majority,27.0,3.1392674304684522,Wider
+GRN majority,0.0,0.0,Wider
+ON majority,0.0,0.0,Wider
+IND majority,0.0,0.0,Wider
+OTH majority,0.0,0.0,Wider
+Hung parliament (no single-party majority),68.0,3.298484500494128,Wider
+ALP minority (GRN or IND support assumed),10.5,2.1676600286945367,Wider
+Deadlock (ALP + GRN 44; LNP + ON 44),2.0,0.9899494936611665,Wider
+LNP + ON jointly reach 45 (overlaps other events),78.5,2.9049526674285073,Wider
+LNP + ON reach 45; neither alone (not a formation prediction),51.5,3.533942557541082,Wider

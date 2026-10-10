@@ -1,0 +1,19 @@
+Party,Lower seats,25th percentile,Median seats,75th percentile,Upper seats,Majority (%),Assumptions
+ALP,21,25,29,31,35,0.0,Narrower
+LNP,36,38,40,43,46,11.5,Narrower
+GRN,5,5,5,5,6,0.0,Narrower
+ON,7,11,13,16,20,0.0,Narrower
+IND,0,0,0,1,1,0.0,Narrower
+OTH,0,0,0,0,0,0.0,Narrower
+ALP,17,24,29,34,41,0.5,Current
+LNP,32,36,40,44,49,22.5,Current
+GRN,5,5,5,6,8,0.0,Current
+ON,4,8,13,18,24,0.0,Current
+IND,0,0,0,0,1,0.0,Current
+OTH,0,0,0,0,0,0.0,Current
+ALP,12,22,29,36,44,5.0,Wider
+LNP,28,35,39,45,53,27.0,Wider
+GRN,4,5,6,7,9,0.0,Wider
+ON,1,6,12,20,28,0.0,Wider
+IND,0,0,0,0,1,0.0,Wider
+OTH,0,0,0,0,0,0.0,Wider

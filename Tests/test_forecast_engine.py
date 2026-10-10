@@ -31,6 +31,31 @@ def calculator_fixture():
 
 
 class ForecastTests(unittest.TestCase):
+    def test_support_arithmetic(self):
+        from SRC.forecast_engine import government_events
+        frame = pd.DataFrame([
+            [40,30,5,10,3,0], [40,30,2,10,6,0],
+            [40,30,5,8,5,0], [40,30,4,14,0,0],
+            [45,30,0,13,0,0]], columns=PARTIES)
+        events = government_events(frame)
+        self.assertEqual(events['ALP minority (GRN or IND support assumed)'].tolist(),
+                         [True,True,True,False,False])
+        self.assertEqual(events['Deadlock (ALP + GRN 44; LNP + ON 44)'].tolist(),
+                         [False,False,False,True,False])
+
+    def test_fast_counts_match_original(self):
+        from SRC.forecast_engine import forecast_counts
+        from SRC.irv import run_irv_all
+        from SRC.transform import build_primary_vote_table
+        from SRC.primary_pipeline import build_projected_primaries
+        _,primary,matrices,params,posterior,ideology,adjustments = self.fixture
+        targets = dict(ALP=24.6,LNP=29.1,GRN=13.3,ON=22,IND=5.5,OTH=5.5)
+        drawn = draw_model_params(params,targets,defaults(),primary.seat_type,np.random.default_rng(17))
+        adjusted,_ = build_projected_primaries(primary,drawn,targets,adjustments)
+        actual = forecast_counts(adjusted,matrices,drawn,posterior,ideology).set_index('district').sort_index()
+        expected = pd.DataFrame(run_irv_all(build_primary_vote_table(adjusted),matrices,drawn,posterior,ideology)).set_index('district').sort_index()
+        pd.testing.assert_frame_equal(actual,expected[actual.columns])
+
     @classmethod
     def setUpClass(cls):
         cls.fixture = calculator_fixture()
