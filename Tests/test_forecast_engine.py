@@ -123,6 +123,8 @@ class ForecastTests(unittest.TestCase):
             pd.testing.assert_frame_equal(a[key],b[key])
         np.testing.assert_allclose(a['primary_draws'].sum(axis=1),100)
         self.assertTrue(a['draws'][PARTIES].sum(axis=1).eq(88).all())
+        self.assertAlmostEqual(a['parties']['Average seats'].sum(),88)
+        np.testing.assert_allclose(a['parties']['Average seats'],a['draws'][PARTIES].mean().to_numpy())
         np.testing.assert_allclose(a['seats'].filter(like='win (%)').sum(axis=1),100)
         self.assertAlmostEqual(a['government'].iloc[:7]['Probability (%)'].sum(),100)
 

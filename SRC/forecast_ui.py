@@ -99,7 +99,8 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         st.subheader('Seat-count distributions')
         st.caption(f"Lower/upper endpoints: {100*settings['LOWER_QUANTILE']:g}th / "
                    f"{100*settings['UPPER_QUANTILE']:g}th percentiles. "
-                   'Party medians and interval endpoints need not sum to 88. Every individual draw does.')
+                   'Party medians and interval endpoints need not sum to 88. Every individual draw does. '
+                   'Average seats sum to 88 before display rounding; fractional seats represent averages across simulations, not a single election.')
         party_table = result['parties']
         if not display['SHOW_ZERO_SEAT_PARTIES']:
             party_table = party_table[party_table['Upper seats']>0]
@@ -107,7 +108,8 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
             seat_intervals(party_table,display)
             st.caption('Wide band: selected lower–upper percentiles; narrow band: middle 50%; black marker: median. The majority line is fixed at 45.')
         if display['SHOW_FORECAST_SEAT_TABLE'] or display['SEAT_CHART_MODE']=='table':
-            display_table(party_summary(party_table,display),hide_index=True,width='stretch')
+            display_table(party_summary(party_table,display),hide_index=True,width='stretch',
+                          column_config={'Average seats':st.column_config.NumberColumn('Average seats',format='%.2f')})
         st.subheader('Majority and parliamentary arithmetic')
         if display['GOVERNMENT_CHART_MODE'] in ('bars','both'):
             event_bars(result['government'],display)

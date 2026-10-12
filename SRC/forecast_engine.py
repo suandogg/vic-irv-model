@@ -204,7 +204,8 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
         seats = count_frame[party]
         qs = np.quantile(seats,[settings['LOWER_QUANTILE'],.25,.5,.75,settings['UPPER_QUANTILE']],method='nearest')
         party_rows.append({'Party':party,'Lower seats':int(qs[0]),'25th percentile':int(qs[1]),
-            'Median seats':int(qs[2]),'75th percentile':int(qs[3]),'Upper seats':int(qs[4]),
+            'Median seats':int(qs[2]),'Average seats':float(seats.mean()),
+            '75th percentile':int(qs[3]),'Upper seats':int(qs[4]),
             'Majority (%)':100*float(np.mean(seats>=45))})
     events = government_events(count_frame)
     government = pd.DataFrame([{'Event':label,'Probability (%)':100*float(np.mean(event)),
