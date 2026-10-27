@@ -58,6 +58,14 @@ def uncertainty_profile(settings, multiplier):
                      for key,value in settings.items()})
 
 
+def binomial_interval(rate, n, z=1.96):
+    """Wilson interval: Monte Carlo precision only, including zero/all wins."""
+    denominator = 1+z*z/n
+    centre = (rate+z*z/(2*n))/denominator
+    half = z*np.sqrt(rate*(1-rate)/n+z*z/(4*n*n))/denominator
+    return max(0.,centre-half),min(1.,centre+half)
+
+
 def engine_source_hash():
     root = Path(__file__).resolve().parent
     files = ('forecast_engine.py','forecast_params.py','primary_pipeline.py',
@@ -171,12 +179,13 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     if len(districts)!=88 or len(set(districts))!=88:
         raise ValueError('Lower-house forecast requires 88 unique districts')
     rng = np.random.default_rng(settings['SEED'])
-    winner_draws, margin_draws, counts, primaries, alp_2pp = [],[],[],[],[]
+    winner_draws, margin_draws, counts, primaries, alp_2pp, seat_primaries = [],[],[],[],[],[]
     for draw in range(settings['SIMULATIONS']):
         drawn_targets = draw_targets(targets,settings,rng)
         model_params = draw_model_params(params,drawn_targets,settings,primary_inputs.seat_type,rng)
         adjusted,_ = build_projected_primaries(primary_inputs,model_params,drawn_targets,seat_adjustments)
         adjusted = perturb_local_primaries(adjusted,settings,rng)
+        seat_primaries.append(adjusted.set_index('district').loc[districts,PARTIES].to_numpy(dtype=float))
         result = forecast_counts(adjusted,matrices,model_params,posterior,ideology).set_index('district').loc[districts]
         if len(result)!=88 or result.winner.isna().any() or not result.winner.isin(PARTIES).all():
             raise ValueError('Incomplete draw; no partial probabilities published')
@@ -192,8 +201,22 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     count_frame = pd.DataFrame(counts,columns=PARTIES)
     n = len(count_frame)
     seat_rows = []
+    diagnostic_rows = []
+    primary_array = np.asarray(seat_primaries)*100
+    two_pp = np.asarray(alp_2pp)*100
     for i,seat in enumerate(districts):
         rates = {party:float(np.mean(winners[:,i]==party)) for party in PARTIES}
+        leading = max(rates,key=rates.get)
+        low,high = binomial_interval(rates[leading],n)
+        diagnostic_rows.append({'Seat':seat,'Leading party':leading,
+            'Leading win (%)':100*rates[leading], 'At least 98%':rates[leading]>=.98,
+            'MC 95% lower (%)':100*low,'MC 95% upper (%)':100*high,
+            'ALP–LNP 2PP SD (pp)':float(two_pp[:,i].std()),
+            'ALP–LNP 2PP 5th (%)':float(np.quantile(two_pp[:,i],.05)),
+            'ALP–LNP 2PP 95th (%)':float(np.quantile(two_pp[:,i],.95)),
+            'ON primary SD (pp)':float(primary_array[:,i,PARTIES.index('ON')].std()),
+            'ALP primary SD (pp)':float(primary_array[:,i,PARTIES.index('ALP')].std()),
+            'Zero-support parties':'+'.join(p for j,p in enumerate(PARTIES) if np.all(primary_array[:,i,j]==0))})
         row = {'Seat':seat,**{party+' win (%)':100*rate for party,rate in rates.items()},
                'Median winner margin (pp above 50)':100*float(np.median(np.array(margin_draws)[:,i])),
                'Median forced ALP–LNP 2PP (%)':100*float(np.median(np.array(alp_2pp)[:,i])),
@@ -215,4 +238,4 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     return {'seats':pd.DataFrame(seat_rows),'parties':pd.DataFrame(party_rows),
             'government':government,'draws':count_frame,
             'primary_draws':pd.DataFrame(primaries,columns=PARTIES),'settings':settings,
-            'central_targets':dict(targets)}
+            'central_targets':dict(targets),'diagnostics':pd.DataFrame(diagnostic_rows)}

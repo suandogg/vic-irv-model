@@ -70,6 +70,15 @@ any uncertainty about the model itself. Increasing draws reduces numerical
 sampling noise, not model uncertainty. The app reports the actual sampled
 primary means so boundary effects are visible.
 
+The Seat probabilities tab also has a near-certainty diagnostic expander.
+It reports seats with at least 98% simulated wins and allows an all-seat CSV
+download. Diagnostics include leading-party frequency, Wilson 95% Monte Carlo
+intervals, realised ON/ALP primary SDs, forced ALP–LNP 2PP SD/range and
+zero-support parties. Wilson intervals quantify finite draw sampling only;
+they are not calibrated uncertainty about model correctness. Forced 2PP spread
+does not describe every possible actual final pair. Diagnostics do not alter
+draws, defaults, source inputs or forecast probabilities.
+
 ## Sheet and app controls
 
 Only the testing spreadsheet is changed:

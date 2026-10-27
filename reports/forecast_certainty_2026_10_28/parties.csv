@@ -1,0 +1,37 @@
+Party,Lower seats,25th percentile,Median seats,Average seats,75th percentile,Upper seats,Majority (%),Trial
+ALP,17,24,29,28.875,34,41,0.5,Current
+LNP,32,36,40,40.225,44,49,22.5,Current
+GRN,5,5,5,5.655,6,8,0.0,Current
+ON,4,8,13,13.015,18,24,0.0,Current
+IND,0,0,0,0.23,0,1,0.0,Current
+OTH,0,0,0,0.0,0,0,0.0,Current
+ALP,17,24,29,28.79,34,41,0.5,Local SD 2.5
+LNP,32,37,40,40.335,44,50,20.5,Local SD 2.5
+GRN,4,5,6,5.765,6,8,0.0,Local SD 2.5
+ON,4,8,12,12.925,18,24,0.0,Local SD 2.5
+IND,0,0,0,0.185,0,1,0.0,Local SD 2.5
+OTH,0,0,0,0.0,0,0,0.0,Local SD 2.5
+ALP,17,24,29,28.81,34,41,0.5,Local SD 3.0
+LNP,32,37,40,40.29,44,49,20.5,Local SD 3.0
+GRN,4,5,6,5.835,6,7,0.0,Local SD 3.0
+ON,4,8,12,12.89,18,24,0.0,Local SD 3.0
+IND,0,0,0,0.175,0,1,0.0,Local SD 3.0
+OTH,0,0,0,0.0,0,0,0.0,Local SD 3.0
+ALP,15,23,29,28.66,35,41,1.0,Preference SDs x1.5
+LNP,32,36,40,40.075,44,49,22.0,Preference SDs x1.5
+GRN,4,5,5,5.72,6,8,0.0,Preference SDs x1.5
+ON,4,7,13,13.24,18,25,0.0,Preference SDs x1.5
+IND,0,0,0,0.305,1,1,0.0,Preference SDs x1.5
+OTH,0,0,0,0.0,0,0,0.0,Preference SDs x1.5
+ALP,12,22,28,28.83,35,44,4.5,Statewide SDs x1.5
+LNP,29,35,39,40.045,44,52,23.5,Statewide SDs x1.5
+GRN,4,5,5,5.755,6,9,0.0,Statewide SDs x1.5
+ON,1,6,12,13.115,19,29,0.0,Statewide SDs x1.5
+IND,0,0,0,0.255,0,1,0.0,Statewide SDs x1.5
+OTH,0,0,0,0.0,0,0,0.0,Statewide SDs x1.5
+ALP,16,23,29,28.61,34,41,1.0,Combined local 2.5 + preferences
+LNP,31,36,40,40.165,44,50,19.0,Combined local 2.5 + preferences
+GRN,4,5,6,5.86,7,8,0.0,Combined local 2.5 + preferences
+ON,4,8,12,13.1,18,25,0.0,Combined local 2.5 + preferences
+IND,0,0,0,0.265,0,1,0.0,Combined local 2.5 + preferences
+OTH,0,0,0,0.0,0,0,0.0,Combined local 2.5 + preferences

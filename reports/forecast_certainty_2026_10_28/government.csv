@@ -1,0 +1,55 @@
+Event,Probability (%),MC standard error (pp),Trial
+ALP Majority,0.5,0.4987484335815001,Current
+ALP minority,8.0,1.918332609325088,Current
+LNP majority,22.5,2.9527529527544294,Current
+LNP-ON Majority (LNP-led),64.5,3.3836001536824645,Current
+ON-LNP Majority (ON-led),0.0,0.0,Current
+ON Majority,0.0,0.0,Current
+Deadlock,2.0,0.9899494936611665,Current
+Hung parliament,77.0,2.975735203273302,Current
+Majority,23.0,2.975735203273302,Current
+ALP Majority,0.5,0.4987484335815001,Local SD 2.5
+ALP minority,7.5,1.8624580532189177,Local SD 2.5
+LNP majority,20.5,2.854601548377637,Local SD 2.5
+LNP-ON Majority (LNP-led),68.5,3.284623266068728,Local SD 2.5
+ON-LNP Majority (ON-led),0.0,0.0,Local SD 2.5
+ON Majority,0.0,0.0,Local SD 2.5
+Deadlock,2.0,0.9899494936611665,Local SD 2.5
+Hung parliament,79.0,2.8801041647829333,Local SD 2.5
+Majority,21.0,2.8801041647829333,Local SD 2.5
+ALP Majority,0.5,0.4987484335815001,Local SD 3.0
+ALP minority,6.0,1.6792855623746665,Local SD 3.0
+LNP majority,20.5,2.854601548377637,Local SD 3.0
+LNP-ON Majority (LNP-led),68.5,3.284623266068728,Local SD 3.0
+ON-LNP Majority (ON-led),0.0,0.0,Local SD 3.0
+ON Majority,0.0,0.0,Local SD 3.0
+Deadlock,3.5000000000000004,1.2995191418367027,Local SD 3.0
+Hung parliament,79.0,2.8801041647829333,Local SD 3.0
+Majority,21.0,2.8801041647829333,Local SD 3.0
+ALP Majority,1.0,0.7035623639735145,Preference SDs x1.5
+ALP minority,8.5,1.971991379291502,Preference SDs x1.5
+LNP majority,22.0,2.929163703175362,Preference SDs x1.5
+LNP-ON Majority (LNP-led),62.5,3.423265984407288,Preference SDs x1.5
+ON-LNP Majority (ON-led),0.0,0.0,Preference SDs x1.5
+ON Majority,0.0,0.0,Preference SDs x1.5
+Deadlock,2.0,0.9899494936611665,Preference SDs x1.5
+Hung parliament,77.0,2.975735203273302,Preference SDs x1.5
+Majority,23.0,2.975735203273302,Preference SDs x1.5
+ALP Majority,4.5,1.4658615214269048,Statewide SDs x1.5
+ALP minority,12.0,2.2978250586152114,Statewide SDs x1.5
+LNP majority,23.5,2.9981244136960026,Statewide SDs x1.5
+LNP-ON Majority (LNP-led),55.00000000000001,3.517811819867572,Statewide SDs x1.5
+ON-LNP Majority (ON-led),2.0,0.9899494936611665,Statewide SDs x1.5
+ON Majority,0.0,0.0,Statewide SDs x1.5
+Deadlock,1.5,0.8595056718835542,Statewide SDs x1.5
+Hung parliament,72.0,3.1749015732775088,Statewide SDs x1.5
+Majority,28.000000000000004,3.1749015732775088,Statewide SDs x1.5
+ALP Majority,1.0,0.7035623639735145,Combined local 2.5 + preferences
+ALP minority,7.5,1.8624580532189177,Combined local 2.5 + preferences
+LNP majority,19.0,2.773986301336039,Combined local 2.5 + preferences
+LNP-ON Majority (LNP-led),66.0,3.349626844888845,Combined local 2.5 + preferences
+ON-LNP Majority (ON-led),0.0,0.0,Combined local 2.5 + preferences
+ON Majority,0.0,0.0,Combined local 2.5 + preferences
+Deadlock,3.0,1.2062338081814818,Combined local 2.5 + preferences
+Hung parliament,80.0,2.8284271247461903,Combined local 2.5 + preferences
+Majority,20.0,2.8284271247461903,Combined local 2.5 + preferences

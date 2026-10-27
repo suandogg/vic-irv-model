@@ -132,6 +132,17 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                          x_label='Seat count',y_label='Fraction of simulations',stack=False,
                          height=display['CHART_HEIGHT_PX'],color=[display[p+'_COLOUR'] for p in order])
     with seats:
+        with st.expander('Uncertainty diagnostics · near-certain seats'):
+            diagnostics = result.get('diagnostics')
+            if diagnostics is not None:
+                certain = diagnostics[diagnostics['At least 98%']]
+                st.caption(f'{len(certain)} of 88 seats have a leading win frequency of at least 98%. '
+                           'MC intervals describe finite simulation precision only—not missing model uncertainty. '
+                           'Forced ALP–LNP 2PP spread does not measure every possible final-pair contest. '
+                           'Zero-support parties cannot gain support through local shocks.')
+                display_table(certain,hide_index=True,width='stretch')
+                st.download_button('Download all-seat uncertainty diagnostics',diagnostics.to_csv(index=False),
+                                   'forecast_uncertainty_diagnostics.csv','text/csv')
         st.subheader('Five demonstration seats')
         display_table(result['seats'][result['seats'].Seat.isin(
             ['Pakenham','Morwell','Pascoe Vale','Ashwood','Yan Yean'])],hide_index=True,width='stretch')

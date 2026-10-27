@@ -124,6 +124,11 @@ class ForecastTests(unittest.TestCase):
         np.testing.assert_allclose(a['primary_draws'].sum(axis=1),100)
         self.assertTrue(a['draws'][PARTIES].sum(axis=1).eq(88).all())
         self.assertAlmostEqual(a['parties']['Average seats'].sum(),88)
+        self.assertEqual(len(a['diagnostics']),88)
+        self.assertTrue(a['diagnostics']['MC 95% upper (%)'].le(100).all())
+        from SRC.forecast_engine import binomial_interval
+        self.assertLess(binomial_interval(1,200)[0],1)
+        self.assertGreater(binomial_interval(0,200)[1],0)
         np.testing.assert_allclose(a['parties']['Average seats'],a['draws'][PARTIES].mean().to_numpy())
         np.testing.assert_allclose(a['seats'].filter(like='win (%)').sum(axis=1),100)
         self.assertAlmostEqual(a['government'].iloc[:7]['Probability (%)'].sum(),100)
