@@ -97,6 +97,39 @@ write new Sheet settings. Comparison results are hidden when inputs change.
 The numerical interval endpoints remain unchanged: profiles change uncertainty,
 not the percentile labels. This is sensitivity testing, not evidence of accuracy.
 
+### Opt-in structural uncertainty trials (28 October)
+
+Inside Current forecast settings and methodology, the Structural uncertainty
+trial selector defaults to Current. This is an experimental UI selector, not a
+new production FORECAST PARAMS setting; no live Sheet schema is changed yet.
+
+- Preference split: replace each shared origin/recipient normal error Z with
+  sqrt(0.5) × Z + sqrt(0.5) × Z_local. Marginal origin/recipient variance stays
+  fixed; cross-seat correlation falls. Existing class-ON errors are unchanged.
+- Preference added: Z + Z_local. Keep the original shared variance and add an
+  equally scaled independent seat component. Origin/recipient variance doubles,
+  but the separate class-ON variance does not. This deliberately differs from
+  raising every preference SD by sqrt(2).
+- Heavy tails t5: multiply each local primary normal error by sqrt(3 / Q),
+  Q independently chi-square(5). This produces t5 errors scaled to retain the
+  original variance before zero constraints, clipping and balancing. Regional
+  and statewide error distributions remain unchanged.
+- Added preferences + t5 combines the latter two.
+
+Local preference errors are shared across continuing fields for each seat and
+origin/recipient within a draw; they are not independently redrawn at every
+elimination. They inherit the existing source-based SD choice. These SDs have
+not been calibrated from evidence sample size. Matrices and special-prior rows
+are unchanged. Count caches are isolated by seat when local flows are active.
+
+Separate SeedSequence streams for local preferences and t scales preserve the
+baseline RNG stream, so national/parameter draws remain paired across trials.
+Changing the trial invalidates displayed results and is recorded in the manifest.
+Narrower/wider comparisons retain the selected structural trial. Central count
+outputs and all-zero-uncertainty runs remain unchanged. Heavier tails need not
+reduce every seat probability: at fixed variance the distribution also becomes
+more concentrated near its centre, and count/balancing transformations are nonlinear.
+
 Forecast counting skips the unused forced ALP–ON count and avoids long-table
 reshaping. A cache scoped to each count reuses identical preference diagnostics;
 it cannot carry flows between draws. Tests compare the retained winners, margins

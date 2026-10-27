@@ -1,0 +1,60 @@
+{
+  "settings": {
+    "SIMULATIONS": 200,
+    "SEED": 20261010,
+    "LOWER_QUANTILE": 0.05,
+    "UPPER_QUANTILE": 0.95,
+    "REGION_PRIMARY_SD_PP": 0.75,
+    "SEAT_PRIMARY_SD_PP": 1.5,
+    "ON_ALPHA_SD": 0.08,
+    "ON_DONOR_STRENGTH_SD": 0.05,
+    "RETIREMENT_EFFECT_SD_PP": 0.3,
+    "SOPHOMORE_EFFECT_SD_PP": 0.3,
+    "PREF_GENERIC_LOG_SD": 0.2,
+    "PREF_FEDERAL_LOG_SD": 0.1,
+    "PREF_VEC_LOG_SD": 0.05,
+    "PREF_SPECIAL_LOG_SD": 0.2,
+    "PREF_CLASS_ON_LOG_SD": 0.1,
+    "STATEWIDE_SD_ALP_PP": 2.0,
+    "STATEWIDE_SD_LNP_PP": 2.0,
+    "STATEWIDE_SD_GRN_PP": 1.0,
+    "STATEWIDE_SD_ON_PP": 3.0,
+    "STATEWIDE_SD_IND_PP": 1.0,
+    "STATEWIDE_SD_OTH_PP": 1.0
+  },
+  "draws_per_seed": 100,
+  "seeds": [
+    20261010,
+    20261011,
+    20261012
+  ],
+  "targets": {
+    "ALP": 24.6,
+    "LNP": 29.1,
+    "GRN": 13.3,
+    "ON": 22,
+    "IND": 5.5,
+    "OTH": 5.5
+  },
+  "experiments": {
+    "Current": {},
+    "Preference split": {
+      "local_preference_mode": "split"
+    },
+    "Preference added": {
+      "local_preference_mode": "add"
+    },
+    "Heavy tails t5": {
+      "local_primary_t_df": 5
+    },
+    "Added preferences + t5": {
+      "local_preference_mode": "add",
+      "local_primary_t_df": 5
+    }
+  },
+  "input_mode": "committed snapshot, not live Sheet",
+  "preference_trial": "vec_field_coverage",
+  "engine_hash": "0507ce58cf33d06642c7265dfc88cde1a3ac4e8c17e60f2cf3e998587e2eac05",
+  "input_hash": "ef833e057b39aea8b265ba9c69ef222695956a334460981149fc9aa568d6a336",
+  "caveat": "Uncalibrated paired sensitivity trials; same marginal variance pre-balancing for t5; split preserves origin-recipient marginal variance, add increases it"
+}

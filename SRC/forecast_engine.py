@@ -16,6 +16,14 @@ from SRC.forecast_params import validate
 from SRC.primary_pipeline import build_projected_primaries, params_for_scenario
 from SRC.irv import run_irv_for_district, run_forced_2pp_for_district, district_key
 
+STRUCTURAL_EXPERIMENTS = {
+    'Current':{},
+    'Preference split':{'local_preference_mode':'split'},
+    'Preference added':{'local_preference_mode':'add'},
+    'Heavy tails t5':{'local_primary_t_df':5},
+    'Added preferences + t5':{'local_preference_mode':'add','local_primary_t_df':5},
+}
+
 
 def forecast_counts(adjusted, matrices, params, posterior, ideology):
     """Same statutory count; omit unused alternate 2CP and dataframe reshaping."""
@@ -26,8 +34,21 @@ def forecast_counts(adjusted, matrices, params, posterior, ideology):
     for seat in adjusted.to_dict('records'):
         votes = {party:seat[party] for party in PARTIES}
         matrix = matrices[district_key(seat['district'])]['matrix']
+        seat_params = params
+        local = params.get('_forecast_local_preference',{}).get(seat['district'])
+        if local is not None and '_forecast_preference_shocks' in params:
+            seat_params = dict(params)
+            shocks = dict(params['_forecast_preference_shocks'])
+            split = params.get('_forecast_local_preference_mode')=='split'
+            shared_weight,local_weight = (np.sqrt(.5),np.sqrt(.5)) if split else (1.,1.)
+            shocks['origin'] = {origin:{party:shared_weight*shocks['origin'][origin][party]
+                +local_weight*local[i,j] for j,party in enumerate(PARTIES)}
+                for i,origin in enumerate(PARTIES)}
+            seat_params['_forecast_preference_shocks'] = shocks
+            # Local flows must never leak between districts sharing a matrix.
+            seat_params['_forecast_flow_cache'] = {}
         args = dict(district_votes=votes, matrix=matrix, seat_type=seat['seat_type'],
-                    params=params, posterior=posterior, ideology=ideology)
+                    params=seat_params, posterior=posterior, ideology=ideology)
         result = run_irv_for_district(**args)
         forced = run_forced_2pp_for_district(**args, party_a='ALP', party_b='LNP')
         rows.append(dict(district=seat['district'], winner=result['winner'],
@@ -99,7 +120,7 @@ def draw_targets(targets, settings, rng):
     return dict(zip(PARTIES,draw))
 
 
-def perturb_local_primaries(adjusted, settings, rng):
+def perturb_local_primaries(adjusted, settings, rng, tail_rng=None, tail_df=None):
     if not settings['REGION_PRIMARY_SD_PP'] and not settings['SEAT_PRIMARY_SD_PP']:
         return adjusted.copy()
     base = adjusted[PARTIES].to_numpy(dtype=float)
@@ -111,7 +132,12 @@ def perturb_local_primaries(adjusted, settings, rng):
     regional = {region:rng.normal(0,settings['REGION_PRIMARY_SD_PP'],len(PARTIES))/100
                 for region in region_names}
     shock = np.array([regional[region] for region in adjusted.region])
-    shock += rng.normal(0,settings['SEAT_PRIMARY_SD_PP']/100,base.shape)
+    local = rng.normal(0,settings['SEAT_PRIMARY_SD_PP']/100,base.shape)
+    if tail_df is not None:
+        # Normal/chi-square mixture: t errors with the SAME pre-balancing variance.
+        # Extra randomness uses a separate stream; baseline draws stay paired.
+        local *= np.sqrt((tail_df-2)/tail_rng.chisquare(tail_df,base.shape))
+    shock += local
     perturbed = np.where(base>0, np.maximum(base+shock,1e-12),0)
     # Raking preserves the current draw's column totals and every seat total.
     # This does not turn the calculator's equal-seat primary convention into
@@ -173,8 +199,17 @@ def perturb_preference_flows(diagnostic, origin, seat_class, shocks):
 
 
 def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
-             seat_adjustments, settings, progress=None):
+             seat_adjustments, settings, progress=None, experiment=None):
     settings = validate(settings)
+    experiment = {} if experiment is None else dict(experiment)
+    if set(experiment)-{'local_preference_mode','local_primary_t_df'}:
+        raise ValueError('Unknown forecast experiment')
+    mode = experiment.get('local_preference_mode')
+    if mode not in (None,'split','add'):
+        raise ValueError('Local preference experiment must be split or add')
+    tail_df = experiment.get('local_primary_t_df')
+    if tail_df is not None and (not np.isfinite(tail_df) or tail_df<=2):
+        raise ValueError('Variance-matched t experiment requires df > 2')
     districts = list(primary_inputs.district)
     if len(districts)!=88 or len(set(districts))!=88:
         raise ValueError('Lower-house forecast requires 88 unique districts')
@@ -183,8 +218,14 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     for draw in range(settings['SIMULATIONS']):
         drawn_targets = draw_targets(targets,settings,rng)
         model_params = draw_model_params(params,drawn_targets,settings,primary_inputs.seat_type,rng)
+        if mode is not None:
+            local_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,101]))
+            model_params['_forecast_local_preference'] = {seat:local_rng.normal(size=(len(PARTIES),len(PARTIES)))
+                                                         for seat in sorted(districts)}
+            model_params['_forecast_local_preference_mode'] = mode
         adjusted,_ = build_projected_primaries(primary_inputs,model_params,drawn_targets,seat_adjustments)
-        adjusted = perturb_local_primaries(adjusted,settings,rng)
+        tail_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,202])) if tail_df else None
+        adjusted = perturb_local_primaries(adjusted,settings,rng,tail_rng,tail_df)
         seat_primaries.append(adjusted.set_index('district').loc[districts,PARTIES].to_numpy(dtype=float))
         result = forecast_counts(adjusted,matrices,model_params,posterior,ideology).set_index('district').loc[districts]
         if len(result)!=88 or result.winner.isna().any() or not result.winner.isin(PARTIES).all():
@@ -238,4 +279,5 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     return {'seats':pd.DataFrame(seat_rows),'parties':pd.DataFrame(party_rows),
             'government':government,'draws':count_frame,
             'primary_draws':pd.DataFrame(primaries,columns=PARTIES),'settings':settings,
-            'central_targets':dict(targets),'diagnostics':pd.DataFrame(diagnostic_rows)}
+            'central_targets':dict(targets),'diagnostics':pd.DataFrame(diagnostic_rows),
+            'experiment':experiment}

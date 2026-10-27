@@ -31,6 +31,36 @@ def calculator_fixture():
 
 
 class ForecastTests(unittest.TestCase):
+    def test_structural_experiments_keep_primary_draws_paired(self):
+        _,p,m,params,post,i,a = self.fixture
+        targets = dict(ALP=24.6,LNP=29.1,GRN=13.3,ON=22,IND=5.5,OTH=5.5)
+        s = defaults()|{'SIMULATIONS':2}
+        baseline = simulate(p,m,params,post,i,targets,a,s)
+        for experiment in ({'local_preference_mode':'split'},
+                           {'local_preference_mode':'add','local_primary_t_df':5}):
+            x = simulate(p,m,params,post,i,targets,a,s,experiment=experiment)
+            y = simulate(p,m,params,post,i,targets,a,s,experiment=experiment)
+            pd.testing.assert_frame_equal(x['draws'],y['draws'])
+            pd.testing.assert_frame_equal(x['primary_draws'],baseline['primary_draws'])
+            self.assertTrue(x['draws'][PARTIES].sum(axis=1).eq(88).all())
+        with self.assertRaises(ValueError):
+            simulate(p,m,params,post,i,targets,a,s,experiment={'local_primary_t_df':2})
+        zero = {k:0 if '_SD' in k else v for k,v in s.items()}
+        ordinary = simulate(p,m,params,post,i,targets,a,zero)
+        trial = simulate(p,m,params,post,i,targets,a,zero,
+                         experiment={'local_preference_mode':'add','local_primary_t_df':5})
+        pd.testing.assert_frame_equal(ordinary['draws'],trial['draws'])
+
+    def test_t_local_shocks_conserve_totals(self):
+        from SRC.primary_pipeline import build_projected_primaries
+        _,p,_,params,_,_,a = self.fixture
+        targets = dict(ALP=24.6,LNP=29.1,GRN=13.3,ON=22,IND=5.5,OTH=5.5)
+        base,_ = build_projected_primaries(p,params,targets,a)
+        x = perturb_local_primaries(base,defaults(),np.random.default_rng(1),np.random.default_rng(2),5)
+        np.testing.assert_allclose(x[PARTIES].sum(),base[PARTIES].sum(),atol=1e-9)
+        np.testing.assert_allclose(x[PARTIES].sum(axis=1),base[PARTIES].sum(axis=1),atol=1e-9)
+        self.assertTrue((x[PARTIES].to_numpy()[base[PARTIES].to_numpy()==0]==0).all())
+
     def test_led_coalitions_and_aggregate_outcomes(self):
         from SRC.forecast_engine import government_events
         frame = pd.DataFrame([

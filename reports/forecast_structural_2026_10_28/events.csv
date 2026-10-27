@@ -1,0 +1,46 @@
+Trial,Event,Probability
+Current,ALP Majority,1.0
+Current,ALP minority,6.666666666666667
+Current,LNP majority,26.666666666666668
+Current,LNP-ON Majority (LNP-led),59.0
+Current,ON-LNP Majority (ON-led),0.6666666666666667
+Current,ON Majority,0.0
+Current,Deadlock,2.0
+Current,Hung parliament,72.33333333333334
+Current,Majority,27.666666666666668
+Preference split,ALP Majority,0.33333333333333337
+Preference split,ALP minority,7.000000000000001
+Preference split,LNP majority,25.333333333333336
+Preference split,LNP-ON Majority (LNP-led),63.66666666666667
+Preference split,ON-LNP Majority (ON-led),0.33333333333333337
+Preference split,ON Majority,0.0
+Preference split,Deadlock,1.0
+Preference split,Hung parliament,74.33333333333333
+Preference split,Majority,25.666666666666664
+Preference added,ALP Majority,0.6666666666666667
+Preference added,ALP minority,6.0
+Preference added,LNP majority,25.333333333333336
+Preference added,LNP-ON Majority (LNP-led),63.33333333333333
+Preference added,ON-LNP Majority (ON-led),0.33333333333333337
+Preference added,ON Majority,0.0
+Preference added,Deadlock,0.6666666666666667
+Preference added,Hung parliament,74.0
+Preference added,Majority,26.0
+Heavy tails t5,ALP Majority,1.3333333333333335
+Heavy tails t5,ALP minority,7.666666666666666
+Heavy tails t5,LNP majority,25.333333333333336
+Heavy tails t5,LNP-ON Majority (LNP-led),61.0
+Heavy tails t5,ON-LNP Majority (ON-led),0.6666666666666667
+Heavy tails t5,ON Majority,0.0
+Heavy tails t5,Deadlock,2.666666666666667
+Heavy tails t5,Hung parliament,73.33333333333333
+Heavy tails t5,Majority,26.666666666666668
+Added preferences + t5,ALP Majority,1.0
+Added preferences + t5,ALP minority,5.333333333333334
+Added preferences + t5,LNP majority,23.666666666666668
+Added preferences + t5,LNP-ON Majority (LNP-led),63.66666666666667
+Added preferences + t5,ON-LNP Majority (ON-led),0.6666666666666667
+Added preferences + t5,ON Majority,0.0
+Added preferences + t5,Deadlock,2.0
+Added preferences + t5,Hung parliament,75.33333333333333
+Added preferences + t5,Majority,24.666666666666668

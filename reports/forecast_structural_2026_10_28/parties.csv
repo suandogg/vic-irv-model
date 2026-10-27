@@ -1,0 +1,31 @@
+Trial,Party,Lower,Median,Upper,Average
+Current,ALP,17,28,41,28.713333333333335
+Current,LNP,31,39,50,39.94
+Current,GRN,5,5,8,5.733333333333333
+Current,ON,4,13,26,13.35
+Current,IND,0,0,1,0.2633333333333333
+Current,OTH,0,0,0,0.0
+Preference split,ALP,17,29,41,28.616666666666667
+Preference split,LNP,31,40,49,40.07
+Preference split,GRN,5,5,8,5.763333333333334
+Preference split,ON,4,13,25,13.283333333333333
+Preference split,IND,0,0,1,0.26666666666666666
+Preference split,OTH,0,0,0,0.0
+Preference added,ALP,17,28,41,28.483333333333334
+Preference added,LNP,30,40,49,39.97
+Preference added,GRN,5,6,8,5.823333333333333
+Preference added,ON,3,13,26,13.39
+Preference added,IND,0,0,1,0.3333333333333333
+Preference added,OTH,0,0,0,0.0
+Heavy tails t5,ALP,16,29,41,28.706666666666667
+Heavy tails t5,LNP,31,40,49,39.833333333333336
+Heavy tails t5,GRN,5,5,8,5.726666666666667
+Heavy tails t5,ON,3,13,26,13.46
+Heavy tails t5,IND,0,0,1,0.2733333333333333
+Heavy tails t5,OTH,0,0,0,0.0
+Added preferences + t5,ALP,17,28,41,28.543333333333333
+Added preferences + t5,LNP,30,40,50,39.86666666666667
+Added preferences + t5,GRN,5,6,8,5.803333333333334
+Added preferences + t5,ON,3,13,26,13.47
+Added preferences + t5,IND,0,0,1,0.31666666666666665
+Added preferences + t5,OTH,0,0,0,0.0

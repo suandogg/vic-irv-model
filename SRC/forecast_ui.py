@@ -6,7 +6,7 @@ import pandas as pd
 import streamlit as st
 from SRC.constants import PARTIES
 from SRC.forecast_params import load_forecast_params, parameter_table
-from SRC.forecast_engine import fingerprint, simulate, engine_source_hash, uncertainty_profile
+from SRC.forecast_engine import fingerprint, simulate, engine_source_hash, uncertainty_profile, STRUCTURAL_EXPERIMENTS
 from SRC.display_params import defaults as display_defaults
 from SRC.presentation import table as display_table, seat_intervals, event_bars, party_summary
 
@@ -28,6 +28,15 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
     st.caption(source+'. Refresh Google Sheet inputs after editing the FORECAST PARAMS tab. '
                'If sync is unavailable, the committed CSV settings are used.')
     with st.expander('Current forecast settings and methodology',expanded=False):
+        experiment_label = st.selectbox('Structural uncertainty trial (unvalidated)',
+            list(STRUCTURAL_EXPERIMENTS),key='forecast_structural_trial')
+        experiment = STRUCTURAL_EXPERIMENTS[experiment_label]
+        st.caption('Current is the unchanged default. Preference split replaces half the shared '
+                   'origin/recipient variance with local variance; Preference added retains shared '
+                   'variance and adds an equally scaled local component. Heavy tails t5 changes only '
+                   'local primary error shape, preserving variance before balancing. Combined applies '
+                   'added local preferences and t5. These are uncalibrated trials; source preference '
+                   'rows and Sheet values remain unchanged.')
         display_table(parameter_table(settings),hide_index=True,width='stretch')
         st.markdown('All SDs are **provisional assumptions**, not fitted estimates. Statewide party errors '
             'start independent, then are constrained to total 100%; a fitted polling covariance is not yet available. '
@@ -37,7 +46,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
             'The selected preference architecture stays fixed in a run: this does not cover all structural model uncertainty. '
             'Explicit candidate/seat overrides stay central; local residual variation covers unmodelled local effects.')
     signature = fingerprint(primary_inputs,matrices,params,posterior,ideology,targets,
-                            seat_adjustments,settings,trial_label)
+                            seat_adjustments,settings,trial_label,experiment)
     stored = st.session_state.get('lower_forecast_run')
     if stored and stored['signature']!=signature:
         st.info('Inputs, preference method or settings changed. Previous results are hidden; run again.')
@@ -53,7 +62,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                 progress.progress(done/total,text=f'Simulation {done:,} of {total:,}')
         try:
             result = simulate(primary_inputs,matrices,params,posterior,ideology,targets,
-                              seat_adjustments,settings,update)
+                              seat_adjustments,settings,update,experiment=experiment)
             central,_,_ = central_runner(primary_inputs,matrices,params,posterior,ideology,
                                          targets,seat_adjustments,turnout_weights)
             result['seats'].insert(1,'Central winner',result['seats'].Seat.map(central.set_index('district').winner))
@@ -71,6 +80,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                 'Opening this view does not automatically start simulations.')
         return
     result = stored['result']
+    st.caption('Structural uncertainty trial: '+experiment_label)
     with st.expander('Compare narrower / current / wider uncertainty'):
         st.caption('Halve or multiply all uncertainty SDs by 1.5, keeping central inputs, '
                    'preference method, seed and draw count fixed. This is sensitivity testing, '
@@ -81,7 +91,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                 try:
                     for label,multiplier in [('Narrower (0.5× SD)',.5),('Wider (1.5× SD)',1.5)]:
                         comparison[label] = simulate(primary_inputs,matrices,params,posterior,ideology,
-                            targets,seat_adjustments,uncertainty_profile(settings,multiplier))
+                            targets,seat_adjustments,uncertainty_profile(settings,multiplier),experiment=experiment)
                     st.session_state['forecast_uncertainty_comparison'] = (signature,comparison)
                 except (ValueError,KeyError,ArithmeticError) as exc:
                     st.error('Comparison not published: '+str(exc))
@@ -170,6 +180,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         st.caption('Projection and clipping can shift average draws near boundaries; shown explicitly above.')
         manifest = {k:stored[k] for k in ('signature','created_utc','trial','sync_message')}
         manifest.update(settings=settings,central_targets=targets,engine='forecast-v1',
+                        structural_experiment=experiment,
                         engine_source_hash=engine_source_hash(),
                         calibration='provisional; not calibrated to high-ON Victorian results')
         st.download_button('Download reproducibility record',json.dumps(manifest,indent=2),
