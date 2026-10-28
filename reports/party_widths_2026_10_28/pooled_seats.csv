@@ -1,0 +1,969 @@
+Seat,ALP win (%),LNP win (%),GRN win (%),ON win (%),IND win (%),OTH win (%),Trial
+Box Hill,33.5,66.5,0.0,0.0,0.0,0.0,Current
+Bulleen,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Glen Waverley,1.0,99.0,0.0,0.0,0.0,0.0,Current
+Ivanhoe,98.5,1.5,0.0,0.0,0.0,0.0,Current
+Bundoora,99.5,0.5,0.0,0.0,0.0,0.0,Current
+Bayswater,0.5,99.5,0.0,0.0,0.0,0.0,Current
+Croydon,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Ringwood,31.5,68.5,0.0,0.0,0.0,0.0,Current
+Warrandyte,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Eltham,60.5,39.5,0.0,0.0,0.0,0.0,Current
+Mill Park,86.5,0.0,0.0,13.5,0.0,0.0,Current
+Brunswick,0.0,0.0,100.0,0.0,0.0,0.0,Current
+Northcote,3.5,0.0,96.5,0.0,0.0,0.0,Current
+Melbourne,0.0,0.0,100.0,0.0,0.0,0.0,Current
+Richmond,0.0,0.0,100.0,0.0,0.0,0.0,Current
+Essendon,80.0,17.0,0.5,2.5,0.0,0.0,Current
+Pascoe Vale,64.5,0.0,35.5,0.0,0.0,0.0,Current
+Preston,91.0,0.0,8.5,0.5,0.0,0.0,Current
+Broadmeadows,98.0,0.0,0.0,2.0,0.0,0.0,Current
+Greenvale,97.0,2.0,0.0,1.0,0.0,0.0,Current
+Thomastown,99.0,0.0,0.0,1.0,0.0,0.0,Current
+Kalkallo,93.5,0.0,0.0,6.5,0.0,0.0,Current
+Clarinda,91.5,7.5,0.0,1.0,0.0,0.0,Current
+Mordialloc,54.0,45.0,0.0,1.0,0.0,0.0,Current
+Mulgrave,100.0,0.0,0.0,0.0,0.0,0.0,Current
+Rowville,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Cranbourne,31.5,2.0,0.0,66.5,0.0,0.0,Current
+Dandenong,99.5,0.0,0.0,0.5,0.0,0.0,Current
+Narre Warren North,50.5,2.0,0.0,47.5,0.0,0.0,Current
+Narre Warren South,58.5,4.0,0.0,37.5,0.0,0.0,Current
+Frankston,42.0,20.0,0.0,38.0,0.0,0.0,Current
+Berwick,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Carrum,13.5,30.0,0.0,56.5,0.0,0.0,Current
+Albert Park,85.0,0.0,15.0,0.0,0.0,0.0,Current
+Brighton,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Caulfield,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Prahran,0.0,0.0,100.0,0.0,0.0,0.0,Current
+Hawthorn,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Kew,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Malvern,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Bentleigh,50.5,49.5,0.0,0.0,0.0,0.0,Current
+Sandringham,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Ashwood,18.0,82.0,0.0,0.0,0.0,0.0,Current
+Oakleigh,98.5,1.5,0.0,0.0,0.0,0.0,Current
+Footscray,88.5,0.0,11.5,0.0,0.0,0.0,Current
+Williamstown,100.0,0.0,0.0,0.0,0.0,0.0,Current
+Laverton,99.5,0.0,0.0,0.5,0.0,0.0,Current
+Niddrie,36.0,44.5,0.0,19.5,0.0,0.0,Current
+St Albans,92.5,0.0,0.0,7.5,0.0,0.0,Current
+Kororoit,98.0,0.0,0.0,2.0,0.0,0.0,Current
+Point Cook,46.0,1.0,0.0,53.0,0.0,0.0,Current
+Sydenham,53.5,4.5,0.0,42.0,0.0,0.0,Current
+Tarneit,91.0,1.0,0.0,8.0,0.0,0.0,Current
+Sunbury,0.5,16.5,0.0,83.0,0.0,0.0,Current
+Werribee,11.5,1.0,0.0,87.5,0.0,0.0,Current
+Evelyn,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Monbulk,3.0,70.0,0.0,27.0,0.0,0.0,Current
+Pakenham,0.0,69.0,0.0,31.0,0.0,0.0,Current
+Mornington,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Nepean,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Morwell,0.0,30.0,0.0,70.0,0.0,0.0,Current
+Gippsland East,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Gippsland South,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Bass,0.0,96.0,0.0,4.0,0.0,0.0,Current
+Hastings,0.0,91.0,0.0,9.0,0.0,0.0,Current
+Narracan,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Yan Yean,7.5,40.0,0.0,52.5,0.0,0.0,Current
+Shepparton,0.0,86.0,0.0,13.0,1.0,0.0,Current
+Bendigo East,50.5,46.0,0.0,3.5,0.0,0.0,Current
+Bendigo West,87.5,2.0,0.0,10.5,0.0,0.0,Current
+Eildon,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Euroa,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Macedon,13.5,28.5,0.0,58.0,0.0,0.0,Current
+Benambra,0.0,84.0,0.0,16.0,0.0,0.0,Current
+Ovens Valley,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Mildura,0.0,46.0,0.0,34.0,20.0,0.0,Current
+Murray Plains,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Lara,22.5,0.0,0.0,77.5,0.0,0.0,Current
+Melton,2.5,0.5,0.0,95.0,2.0,0.0,Current
+Bellarine,32.0,68.0,0.0,0.0,0.0,0.0,Current
+Wendouree,36.0,21.5,0.0,42.5,0.0,0.0,Current
+Geelong,36.5,1.0,0.0,62.5,0.0,0.0,Current
+South Barwon,6.0,89.0,0.0,5.0,0.0,0.0,Current
+Eureka,0.0,6.5,0.0,93.5,0.0,0.0,Current
+Ripon,0.0,32.0,0.0,68.0,0.0,0.0,Current
+Lowan,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Polwarth,0.0,100.0,0.0,0.0,0.0,0.0,Current
+South-West Coast,0.0,100.0,0.0,0.0,0.0,0.0,Current
+Box Hill,31.5,68.5,0.0,0.0,0.0,0.0,ALP only 0.20
+Bulleen,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Glen Waverley,2.0,98.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Ivanhoe,98.0,2.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Bundoora,99.5,0.5,0.0,0.0,0.0,0.0,ALP only 0.20
+Bayswater,0.5,99.5,0.0,0.0,0.0,0.0,ALP only 0.20
+Croydon,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Ringwood,29.0,71.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Warrandyte,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Eltham,59.0,41.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Mill Park,86.5,0.0,0.0,13.5,0.0,0.0,ALP only 0.20
+Brunswick,0.0,0.0,100.0,0.0,0.0,0.0,ALP only 0.20
+Northcote,3.5,0.0,96.5,0.0,0.0,0.0,ALP only 0.20
+Melbourne,0.0,0.0,100.0,0.0,0.0,0.0,ALP only 0.20
+Richmond,0.0,0.0,100.0,0.0,0.0,0.0,ALP only 0.20
+Essendon,79.5,17.5,0.5,2.5,0.0,0.0,ALP only 0.20
+Pascoe Vale,64.0,0.0,36.0,0.0,0.0,0.0,ALP only 0.20
+Preston,91.0,0.0,8.5,0.5,0.0,0.0,ALP only 0.20
+Broadmeadows,98.0,0.0,0.0,2.0,0.0,0.0,ALP only 0.20
+Greenvale,96.5,2.0,0.0,1.5,0.0,0.0,ALP only 0.20
+Thomastown,99.5,0.0,0.0,0.5,0.0,0.0,ALP only 0.20
+Kalkallo,92.5,0.5,0.0,7.0,0.0,0.0,ALP only 0.20
+Clarinda,91.0,8.0,0.0,1.0,0.0,0.0,ALP only 0.20
+Mordialloc,52.5,46.5,0.0,1.0,0.0,0.0,ALP only 0.20
+Mulgrave,99.5,0.5,0.0,0.0,0.0,0.0,ALP only 0.20
+Rowville,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Cranbourne,30.0,2.5,0.0,67.5,0.0,0.0,ALP only 0.20
+Dandenong,99.5,0.0,0.0,0.5,0.0,0.0,ALP only 0.20
+Narre Warren North,52.0,1.5,0.0,46.5,0.0,0.0,ALP only 0.20
+Narre Warren South,56.5,6.0,0.0,37.5,0.0,0.0,ALP only 0.20
+Frankston,43.0,20.0,0.0,37.0,0.0,0.0,ALP only 0.20
+Berwick,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Carrum,18.5,30.0,0.0,51.5,0.0,0.0,ALP only 0.20
+Albert Park,85.0,0.0,15.0,0.0,0.0,0.0,ALP only 0.20
+Brighton,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Caulfield,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Prahran,0.0,0.0,100.0,0.0,0.0,0.0,ALP only 0.20
+Hawthorn,1.0,99.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Kew,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Malvern,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Bentleigh,50.0,50.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Sandringham,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Ashwood,18.5,81.5,0.0,0.0,0.0,0.0,ALP only 0.20
+Oakleigh,97.5,2.5,0.0,0.0,0.0,0.0,ALP only 0.20
+Footscray,86.0,0.0,14.0,0.0,0.0,0.0,ALP only 0.20
+Williamstown,100.0,0.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Laverton,99.5,0.0,0.0,0.5,0.0,0.0,ALP only 0.20
+Niddrie,34.5,46.0,0.0,19.5,0.0,0.0,ALP only 0.20
+St Albans,93.0,0.5,0.0,6.5,0.0,0.0,ALP only 0.20
+Kororoit,96.5,0.0,0.0,3.5,0.0,0.0,ALP only 0.20
+Point Cook,45.0,1.0,0.0,54.0,0.0,0.0,ALP only 0.20
+Sydenham,54.0,5.0,0.0,41.0,0.0,0.0,ALP only 0.20
+Tarneit,90.5,1.0,0.0,8.5,0.0,0.0,ALP only 0.20
+Sunbury,1.0,16.5,0.0,82.5,0.0,0.0,ALP only 0.20
+Werribee,12.5,1.0,0.0,86.5,0.0,0.0,ALP only 0.20
+Evelyn,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Monbulk,2.5,71.5,0.0,26.0,0.0,0.0,ALP only 0.20
+Pakenham,0.0,67.5,0.0,32.5,0.0,0.0,ALP only 0.20
+Mornington,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Nepean,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Morwell,0.0,28.5,0.0,71.5,0.0,0.0,ALP only 0.20
+Gippsland East,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Gippsland South,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Bass,0.0,96.0,0.0,4.0,0.0,0.0,ALP only 0.20
+Hastings,0.0,91.0,0.0,9.0,0.0,0.0,ALP only 0.20
+Narracan,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Yan Yean,8.5,40.0,0.0,51.5,0.0,0.0,ALP only 0.20
+Shepparton,0.0,86.5,0.0,12.5,1.0,0.0,ALP only 0.20
+Bendigo East,50.0,45.5,0.0,4.5,0.0,0.0,ALP only 0.20
+Bendigo West,89.0,1.5,0.0,9.5,0.0,0.0,ALP only 0.20
+Eildon,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Euroa,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Macedon,12.0,30.0,0.0,58.0,0.0,0.0,ALP only 0.20
+Benambra,0.0,84.0,0.0,16.0,0.0,0.0,ALP only 0.20
+Ovens Valley,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Mildura,0.0,45.0,0.0,34.5,20.5,0.0,ALP only 0.20
+Murray Plains,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Lara,24.0,0.0,0.0,76.0,0.0,0.0,ALP only 0.20
+Melton,2.5,0.0,0.0,95.0,2.5,0.0,ALP only 0.20
+Bellarine,30.5,69.5,0.0,0.0,0.0,0.0,ALP only 0.20
+Wendouree,31.5,22.5,0.0,46.0,0.0,0.0,ALP only 0.20
+Geelong,36.0,1.0,0.0,63.0,0.0,0.0,ALP only 0.20
+South Barwon,6.0,89.0,0.0,5.0,0.0,0.0,ALP only 0.20
+Eureka,0.0,6.5,0.0,93.5,0.0,0.0,ALP only 0.20
+Ripon,0.0,32.5,0.0,67.5,0.0,0.0,ALP only 0.20
+Lowan,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Polwarth,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+South-West Coast,0.0,100.0,0.0,0.0,0.0,0.0,ALP only 0.20
+Box Hill,33.0,67.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Bulleen,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Glen Waverley,10.5,89.5,0.0,0.0,0.0,0.0,LNP only 0.20
+Ivanhoe,98.5,1.5,0.0,0.0,0.0,0.0,LNP only 0.20
+Bundoora,99.5,0.5,0.0,0.0,0.0,0.0,LNP only 0.20
+Bayswater,0.5,99.5,0.0,0.0,0.0,0.0,LNP only 0.20
+Croydon,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Ringwood,32.0,68.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Warrandyte,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Eltham,58.0,42.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Mill Park,86.5,1.0,0.0,12.5,0.0,0.0,LNP only 0.20
+Brunswick,0.0,0.0,100.0,0.0,0.0,0.0,LNP only 0.20
+Northcote,3.0,0.0,97.0,0.0,0.0,0.0,LNP only 0.20
+Melbourne,0.0,0.0,100.0,0.0,0.0,0.0,LNP only 0.20
+Richmond,0.0,0.0,100.0,0.0,0.0,0.0,LNP only 0.20
+Essendon,80.0,17.0,0.5,2.5,0.0,0.0,LNP only 0.20
+Pascoe Vale,63.0,0.5,36.5,0.0,0.0,0.0,LNP only 0.20
+Preston,88.5,0.5,9.0,2.0,0.0,0.0,LNP only 0.20
+Broadmeadows,97.0,0.5,0.0,2.5,0.0,0.0,LNP only 0.20
+Greenvale,95.0,3.5,0.0,1.5,0.0,0.0,LNP only 0.20
+Thomastown,99.0,0.0,0.0,1.0,0.0,0.0,LNP only 0.20
+Kalkallo,93.0,1.0,0.0,6.0,0.0,0.0,LNP only 0.20
+Clarinda,88.5,10.5,0.0,1.0,0.0,0.0,LNP only 0.20
+Mordialloc,54.0,45.5,0.0,0.5,0.0,0.0,LNP only 0.20
+Mulgrave,99.5,0.5,0.0,0.0,0.0,0.0,LNP only 0.20
+Rowville,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Cranbourne,32.0,4.5,0.0,63.5,0.0,0.0,LNP only 0.20
+Dandenong,99.5,0.0,0.0,0.5,0.0,0.0,LNP only 0.20
+Narre Warren North,51.5,3.5,0.0,45.0,0.0,0.0,LNP only 0.20
+Narre Warren South,57.0,5.0,0.0,38.0,0.0,0.0,LNP only 0.20
+Frankston,45.0,18.0,0.0,37.0,0.0,0.0,LNP only 0.20
+Berwick,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Carrum,13.5,28.5,0.0,58.0,0.0,0.0,LNP only 0.20
+Albert Park,85.0,0.5,14.5,0.0,0.0,0.0,LNP only 0.20
+Brighton,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Caulfield,1.5,97.5,1.0,0.0,0.0,0.0,LNP only 0.20
+Prahran,0.0,0.0,100.0,0.0,0.0,0.0,LNP only 0.20
+Hawthorn,2.0,97.0,0.0,0.0,1.0,0.0,LNP only 0.20
+Kew,0.0,99.5,0.0,0.0,0.5,0.0,LNP only 0.20
+Malvern,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Bentleigh,48.5,51.5,0.0,0.0,0.0,0.0,LNP only 0.20
+Sandringham,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Ashwood,24.5,75.5,0.0,0.0,0.0,0.0,LNP only 0.20
+Oakleigh,98.5,1.5,0.0,0.0,0.0,0.0,LNP only 0.20
+Footscray,89.5,0.0,10.5,0.0,0.0,0.0,LNP only 0.20
+Williamstown,100.0,0.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Laverton,97.0,1.5,0.0,1.5,0.0,0.0,LNP only 0.20
+Niddrie,37.5,42.5,0.0,20.0,0.0,0.0,LNP only 0.20
+St Albans,90.5,4.0,0.0,5.5,0.0,0.0,LNP only 0.20
+Kororoit,97.0,0.0,0.0,3.0,0.0,0.0,LNP only 0.20
+Point Cook,45.0,7.0,0.0,48.0,0.0,0.0,LNP only 0.20
+Sydenham,55.00000000000001,4.5,0.0,40.5,0.0,0.0,LNP only 0.20
+Tarneit,89.5,1.5,0.0,9.0,0.0,0.0,LNP only 0.20
+Sunbury,1.5,17.0,0.0,81.5,0.0,0.0,LNP only 0.20
+Werribee,20.0,4.5,0.0,75.5,0.0,0.0,LNP only 0.20
+Evelyn,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Monbulk,2.5,69.0,0.0,28.5,0.0,0.0,LNP only 0.20
+Pakenham,0.0,66.0,0.0,34.0,0.0,0.0,LNP only 0.20
+Mornington,0.0,99.5,0.0,0.5,0.0,0.0,LNP only 0.20
+Nepean,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Morwell,0.0,27.0,0.0,73.0,0.0,0.0,LNP only 0.20
+Gippsland East,0.0,96.0,0.0,4.0,0.0,0.0,LNP only 0.20
+Gippsland South,0.0,99.0,0.0,1.0,0.0,0.0,LNP only 0.20
+Bass,0.0,95.5,0.0,4.5,0.0,0.0,LNP only 0.20
+Hastings,0.0,90.5,0.0,9.5,0.0,0.0,LNP only 0.20
+Narracan,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Yan Yean,5.5,40.5,0.0,54.0,0.0,0.0,LNP only 0.20
+Shepparton,0.0,86.0,0.0,13.0,1.0,0.0,LNP only 0.20
+Bendigo East,51.0,44.0,0.0,5.0,0.0,0.0,LNP only 0.20
+Bendigo West,86.0,5.5,0.0,8.5,0.0,0.0,LNP only 0.20
+Eildon,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Euroa,0.0,98.5,0.0,1.5,0.0,0.0,LNP only 0.20
+Macedon,11.0,32.0,0.0,57.0,0.0,0.0,LNP only 0.20
+Benambra,0.0,83.0,0.0,17.0,0.0,0.0,LNP only 0.20
+Ovens Valley,0.0,98.0,0.0,2.0,0.0,0.0,LNP only 0.20
+Mildura,0.0,44.5,0.0,35.0,20.5,0.0,LNP only 0.20
+Murray Plains,0.0,97.0,0.0,3.0,0.0,0.0,LNP only 0.20
+Lara,29.0,2.0,0.0,69.0,0.0,0.0,LNP only 0.20
+Melton,2.0,7.000000000000001,0.0,89.0,2.0,0.0,LNP only 0.20
+Bellarine,33.5,66.5,0.0,0.0,0.0,0.0,LNP only 0.20
+Wendouree,34.0,23.5,0.0,42.5,0.0,0.0,LNP only 0.20
+Geelong,38.5,5.0,0.0,56.5,0.0,0.0,LNP only 0.20
+South Barwon,8.5,86.5,0.0,5.0,0.0,0.0,LNP only 0.20
+Eureka,0.0,7.0,0.0,93.0,0.0,0.0,LNP only 0.20
+Ripon,0.0,27.0,0.0,73.0,0.0,0.0,LNP only 0.20
+Lowan,0.0,99.5,0.0,0.5,0.0,0.0,LNP only 0.20
+Polwarth,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+South-West Coast,0.0,100.0,0.0,0.0,0.0,0.0,LNP only 0.20
+Box Hill,32.0,68.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Bulleen,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Glen Waverley,1.0,99.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Ivanhoe,95.0,3.5,1.5,0.0,0.0,0.0,GRN only 0.20
+Bundoora,99.5,0.5,0.0,0.0,0.0,0.0,GRN only 0.20
+Bayswater,0.5,99.5,0.0,0.0,0.0,0.0,GRN only 0.20
+Croydon,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Ringwood,26.0,73.5,0.5,0.0,0.0,0.0,GRN only 0.20
+Warrandyte,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Eltham,58.0,42.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Mill Park,87.5,0.0,0.0,12.5,0.0,0.0,GRN only 0.20
+Brunswick,2.5,0.0,97.5,0.0,0.0,0.0,GRN only 0.20
+Northcote,33.0,0.0,67.0,0.0,0.0,0.0,GRN only 0.20
+Melbourne,3.0,0.0,97.0,0.0,0.0,0.0,GRN only 0.20
+Richmond,10.0,0.0,90.0,0.0,0.0,0.0,GRN only 0.20
+Essendon,75.0,18.0,2.0,5.0,0.0,0.0,GRN only 0.20
+Pascoe Vale,62.0,0.0,38.0,0.0,0.0,0.0,GRN only 0.20
+Preston,92.0,0.0,7.5,0.5,0.0,0.0,GRN only 0.20
+Broadmeadows,98.0,0.0,0.0,2.0,0.0,0.0,GRN only 0.20
+Greenvale,98.0,1.5,0.0,0.5,0.0,0.0,GRN only 0.20
+Thomastown,99.5,0.0,0.0,0.5,0.0,0.0,GRN only 0.20
+Kalkallo,94.5,0.0,0.0,5.5,0.0,0.0,GRN only 0.20
+Clarinda,90.0,9.0,0.0,1.0,0.0,0.0,GRN only 0.20
+Mordialloc,53.5,45.5,0.0,1.0,0.0,0.0,GRN only 0.20
+Mulgrave,100.0,0.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Rowville,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Cranbourne,32.5,2.0,0.0,65.5,0.0,0.0,GRN only 0.20
+Dandenong,99.5,0.0,0.0,0.5,0.0,0.0,GRN only 0.20
+Narre Warren North,53.0,1.5,0.0,45.5,0.0,0.0,GRN only 0.20
+Narre Warren South,62.5,3.5,0.0,34.0,0.0,0.0,GRN only 0.20
+Frankston,41.5,19.5,0.0,39.0,0.0,0.0,GRN only 0.20
+Berwick,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Carrum,13.0,31.0,0.0,56.0,0.0,0.0,GRN only 0.20
+Albert Park,75.5,2.5,22.0,0.0,0.0,0.0,GRN only 0.20
+Brighton,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Caulfield,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Prahran,0.0,21.0,79.0,0.0,0.0,0.0,GRN only 0.20
+Hawthorn,0.5,99.5,0.0,0.0,0.0,0.0,GRN only 0.20
+Kew,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Malvern,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Bentleigh,51.0,49.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Sandringham,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Ashwood,20.0,80.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Oakleigh,97.5,2.5,0.0,0.0,0.0,0.0,GRN only 0.20
+Footscray,78.5,0.0,21.5,0.0,0.0,0.0,GRN only 0.20
+Williamstown,100.0,0.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Laverton,99.5,0.0,0.0,0.5,0.0,0.0,GRN only 0.20
+Niddrie,35.5,42.5,0.0,22.0,0.0,0.0,GRN only 0.20
+St Albans,93.5,0.0,0.0,6.5,0.0,0.0,GRN only 0.20
+Kororoit,98.0,0.0,0.0,2.0,0.0,0.0,GRN only 0.20
+Point Cook,44.5,2.5,0.0,53.0,0.0,0.0,GRN only 0.20
+Sydenham,56.0,4.5,0.0,39.5,0.0,0.0,GRN only 0.20
+Tarneit,92.0,1.0,0.0,7.0,0.0,0.0,GRN only 0.20
+Sunbury,1.0,18.0,0.0,81.0,0.0,0.0,GRN only 0.20
+Werribee,11.5,0.0,0.0,88.5,0.0,0.0,GRN only 0.20
+Evelyn,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Monbulk,3.5,69.5,0.0,27.0,0.0,0.0,GRN only 0.20
+Pakenham,0.0,68.0,0.0,32.0,0.0,0.0,GRN only 0.20
+Mornington,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Nepean,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Morwell,0.0,30.5,0.0,69.5,0.0,0.0,GRN only 0.20
+Gippsland East,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Gippsland South,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Bass,0.0,96.0,0.0,4.0,0.0,0.0,GRN only 0.20
+Hastings,0.0,91.0,0.0,9.0,0.0,0.0,GRN only 0.20
+Narracan,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Yan Yean,9.5,37.5,0.0,53.0,0.0,0.0,GRN only 0.20
+Shepparton,0.0,86.5,0.0,12.0,1.5,0.0,GRN only 0.20
+Bendigo East,49.5,47.5,0.0,3.0,0.0,0.0,GRN only 0.20
+Bendigo West,87.0,2.0,0.0,11.0,0.0,0.0,GRN only 0.20
+Eildon,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Euroa,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Macedon,13.5,28.5,0.0,58.0,0.0,0.0,GRN only 0.20
+Benambra,0.0,84.0,0.0,16.0,0.0,0.0,GRN only 0.20
+Ovens Valley,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Mildura,0.0,44.5,0.0,32.0,23.5,0.0,GRN only 0.20
+Murray Plains,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Lara,24.0,0.0,0.0,76.0,0.0,0.0,GRN only 0.20
+Melton,3.5,0.5,0.0,92.5,3.5,0.0,GRN only 0.20
+Bellarine,31.5,68.5,0.0,0.0,0.0,0.0,GRN only 0.20
+Wendouree,33.0,22.0,0.0,45.0,0.0,0.0,GRN only 0.20
+Geelong,35.5,1.0,0.0,63.5,0.0,0.0,GRN only 0.20
+South Barwon,5.5,89.5,0.0,5.0,0.0,0.0,GRN only 0.20
+Eureka,0.0,6.0,0.0,94.0,0.0,0.0,GRN only 0.20
+Ripon,0.0,30.5,0.0,69.5,0.0,0.0,GRN only 0.20
+Lowan,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Polwarth,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+South-West Coast,0.0,100.0,0.0,0.0,0.0,0.0,GRN only 0.20
+Box Hill,36.0,64.0,0.0,0.0,0.0,0.0,ON only 0.20
+Bulleen,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Glen Waverley,1.5,98.5,0.0,0.0,0.0,0.0,ON only 0.20
+Ivanhoe,98.5,1.5,0.0,0.0,0.0,0.0,ON only 0.20
+Bundoora,99.5,0.5,0.0,0.0,0.0,0.0,ON only 0.20
+Bayswater,0.5,99.5,0.0,0.0,0.0,0.0,ON only 0.20
+Croydon,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Ringwood,31.0,69.0,0.0,0.0,0.0,0.0,ON only 0.20
+Warrandyte,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Eltham,58.5,41.0,0.0,0.5,0.0,0.0,ON only 0.20
+Mill Park,83.5,0.0,0.0,16.5,0.0,0.0,ON only 0.20
+Brunswick,0.0,0.0,100.0,0.0,0.0,0.0,ON only 0.20
+Northcote,4.0,0.0,96.0,0.0,0.0,0.0,ON only 0.20
+Melbourne,0.0,0.0,100.0,0.0,0.0,0.0,ON only 0.20
+Richmond,0.0,0.0,100.0,0.0,0.0,0.0,ON only 0.20
+Essendon,80.0,16.0,0.5,3.5,0.0,0.0,ON only 0.20
+Pascoe Vale,63.5,0.0,36.5,0.0,0.0,0.0,ON only 0.20
+Preston,90.5,0.0,9.0,0.5,0.0,0.0,ON only 0.20
+Broadmeadows,98.0,0.0,0.0,2.0,0.0,0.0,ON only 0.20
+Greenvale,95.5,1.5,0.0,3.0,0.0,0.0,ON only 0.20
+Thomastown,99.5,0.0,0.0,0.5,0.0,0.0,ON only 0.20
+Kalkallo,93.5,0.0,0.0,6.5,0.0,0.0,ON only 0.20
+Clarinda,90.5,8.5,0.0,1.0,0.0,0.0,ON only 0.20
+Mordialloc,53.5,45.0,0.0,1.5,0.0,0.0,ON only 0.20
+Mulgrave,100.0,0.0,0.0,0.0,0.0,0.0,ON only 0.20
+Rowville,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Cranbourne,32.0,3.0,0.0,65.0,0.0,0.0,ON only 0.20
+Dandenong,100.0,0.0,0.0,0.0,0.0,0.0,ON only 0.20
+Narre Warren North,49.5,2.5,0.0,48.0,0.0,0.0,ON only 0.20
+Narre Warren South,56.5,4.0,0.0,39.5,0.0,0.0,ON only 0.20
+Frankston,46.0,19.0,0.0,35.0,0.0,0.0,ON only 0.20
+Berwick,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Carrum,14.0,31.5,0.0,54.5,0.0,0.0,ON only 0.20
+Albert Park,84.0,1.5,14.5,0.0,0.0,0.0,ON only 0.20
+Brighton,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Caulfield,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Prahran,0.0,1.5,98.5,0.0,0.0,0.0,ON only 0.20
+Hawthorn,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Kew,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Malvern,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Bentleigh,55.5,44.5,0.0,0.0,0.0,0.0,ON only 0.20
+Sandringham,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Ashwood,21.0,79.0,0.0,0.0,0.0,0.0,ON only 0.20
+Oakleigh,98.5,1.5,0.0,0.0,0.0,0.0,ON only 0.20
+Footscray,88.0,0.0,12.0,0.0,0.0,0.0,ON only 0.20
+Williamstown,100.0,0.0,0.0,0.0,0.0,0.0,ON only 0.20
+Laverton,99.0,0.0,0.0,1.0,0.0,0.0,ON only 0.20
+Niddrie,36.5,42.0,0.0,21.5,0.0,0.0,ON only 0.20
+St Albans,93.0,0.5,0.0,6.5,0.0,0.0,ON only 0.20
+Kororoit,98.0,0.0,0.0,2.0,0.0,0.0,ON only 0.20
+Point Cook,47.5,2.0,0.0,50.5,0.0,0.0,ON only 0.20
+Sydenham,52.0,5.0,0.0,43.0,0.0,0.0,ON only 0.20
+Tarneit,91.0,1.0,0.0,8.0,0.0,0.0,ON only 0.20
+Sunbury,1.0,22.0,0.0,77.0,0.0,0.0,ON only 0.20
+Werribee,14.0,1.5,0.0,84.5,0.0,0.0,ON only 0.20
+Evelyn,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Monbulk,3.0,71.5,0.0,25.5,0.0,0.0,ON only 0.20
+Pakenham,0.0,65.0,0.0,35.0,0.0,0.0,ON only 0.20
+Mornington,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Nepean,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Morwell,0.0,36.5,0.0,63.5,0.0,0.0,ON only 0.20
+Gippsland East,0.0,95.5,0.0,4.5,0.0,0.0,ON only 0.20
+Gippsland South,0.0,98.0,0.0,2.0,0.0,0.0,ON only 0.20
+Bass,0.0,93.0,0.0,7.0,0.0,0.0,ON only 0.20
+Hastings,0.0,90.0,0.0,10.0,0.0,0.0,ON only 0.20
+Narracan,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Yan Yean,6.0,42.0,0.0,52.0,0.0,0.0,ON only 0.20
+Shepparton,0.0,87.0,0.0,13.0,0.0,0.0,ON only 0.20
+Bendigo East,51.0,44.5,0.0,4.5,0.0,0.0,ON only 0.20
+Bendigo West,88.0,1.0,0.0,11.0,0.0,0.0,ON only 0.20
+Eildon,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Euroa,0.0,97.5,0.0,2.5,0.0,0.0,ON only 0.20
+Macedon,16.0,30.0,0.0,54.0,0.0,0.0,ON only 0.20
+Benambra,0.0,78.5,0.0,20.0,1.5,0.0,ON only 0.20
+Ovens Valley,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Mildura,0.0,43.0,0.0,39.0,18.0,0.0,ON only 0.20
+Murray Plains,0.0,97.5,0.0,2.5,0.0,0.0,ON only 0.20
+Lara,29.5,0.0,0.0,70.5,0.0,0.0,ON only 0.20
+Melton,4.5,0.5,0.0,92.0,3.0,0.0,ON only 0.20
+Bellarine,32.5,67.5,0.0,0.0,0.0,0.0,ON only 0.20
+Wendouree,33.5,22.5,0.0,44.0,0.0,0.0,ON only 0.20
+Geelong,39.0,2.0,0.0,59.0,0.0,0.0,ON only 0.20
+South Barwon,7.0,89.5,0.0,3.5,0.0,0.0,ON only 0.20
+Eureka,0.0,10.5,0.0,89.5,0.0,0.0,ON only 0.20
+Ripon,0.0,34.5,0.0,65.5,0.0,0.0,ON only 0.20
+Lowan,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Polwarth,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+South-West Coast,0.0,100.0,0.0,0.0,0.0,0.0,ON only 0.20
+Box Hill,34.0,66.0,0.0,0.0,0.0,0.0,IND only 0.20
+Bulleen,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Glen Waverley,1.0,99.0,0.0,0.0,0.0,0.0,IND only 0.20
+Ivanhoe,98.5,1.5,0.0,0.0,0.0,0.0,IND only 0.20
+Bundoora,99.5,0.5,0.0,0.0,0.0,0.0,IND only 0.20
+Bayswater,0.5,99.5,0.0,0.0,0.0,0.0,IND only 0.20
+Croydon,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Ringwood,31.5,68.5,0.0,0.0,0.0,0.0,IND only 0.20
+Warrandyte,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Eltham,58.5,41.5,0.0,0.0,0.0,0.0,IND only 0.20
+Mill Park,86.5,0.0,0.0,13.5,0.0,0.0,IND only 0.20
+Brunswick,0.0,0.0,100.0,0.0,0.0,0.0,IND only 0.20
+Northcote,3.5,0.0,96.5,0.0,0.0,0.0,IND only 0.20
+Melbourne,0.0,0.0,100.0,0.0,0.0,0.0,IND only 0.20
+Richmond,0.0,0.0,100.0,0.0,0.0,0.0,IND only 0.20
+Essendon,80.0,17.0,0.5,2.5,0.0,0.0,IND only 0.20
+Pascoe Vale,64.5,0.0,35.5,0.0,0.0,0.0,IND only 0.20
+Preston,92.0,0.0,7.5,0.5,0.0,0.0,IND only 0.20
+Broadmeadows,98.0,0.0,0.0,2.0,0.0,0.0,IND only 0.20
+Greenvale,97.0,2.0,0.0,1.0,0.0,0.0,IND only 0.20
+Thomastown,99.0,0.0,0.0,1.0,0.0,0.0,IND only 0.20
+Kalkallo,93.5,0.0,0.0,6.5,0.0,0.0,IND only 0.20
+Clarinda,91.5,7.5,0.0,1.0,0.0,0.0,IND only 0.20
+Mordialloc,54.0,45.0,0.0,1.0,0.0,0.0,IND only 0.20
+Mulgrave,100.0,0.0,0.0,0.0,0.0,0.0,IND only 0.20
+Rowville,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Cranbourne,31.5,2.0,0.0,66.5,0.0,0.0,IND only 0.20
+Dandenong,99.5,0.0,0.0,0.5,0.0,0.0,IND only 0.20
+Narre Warren North,51.0,1.5,0.0,47.5,0.0,0.0,IND only 0.20
+Narre Warren South,58.5,4.0,0.0,37.5,0.0,0.0,IND only 0.20
+Frankston,42.0,20.5,0.0,37.5,0.0,0.0,IND only 0.20
+Berwick,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Carrum,14.5,29.0,0.0,56.5,0.0,0.0,IND only 0.20
+Albert Park,85.0,0.0,15.0,0.0,0.0,0.0,IND only 0.20
+Brighton,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Caulfield,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Prahran,0.0,0.0,100.0,0.0,0.0,0.0,IND only 0.20
+Hawthorn,0.5,99.5,0.0,0.0,0.0,0.0,IND only 0.20
+Kew,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Malvern,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Bentleigh,51.0,49.0,0.0,0.0,0.0,0.0,IND only 0.20
+Sandringham,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Ashwood,18.0,82.0,0.0,0.0,0.0,0.0,IND only 0.20
+Oakleigh,98.5,1.5,0.0,0.0,0.0,0.0,IND only 0.20
+Footscray,88.5,0.0,11.5,0.0,0.0,0.0,IND only 0.20
+Williamstown,100.0,0.0,0.0,0.0,0.0,0.0,IND only 0.20
+Laverton,99.5,0.0,0.0,0.5,0.0,0.0,IND only 0.20
+Niddrie,35.5,44.5,0.0,20.0,0.0,0.0,IND only 0.20
+St Albans,92.5,0.0,0.0,7.5,0.0,0.0,IND only 0.20
+Kororoit,98.0,0.0,0.0,2.0,0.0,0.0,IND only 0.20
+Point Cook,45.5,1.5,0.0,53.0,0.0,0.0,IND only 0.20
+Sydenham,53.0,4.5,0.0,42.5,0.0,0.0,IND only 0.20
+Tarneit,90.5,1.0,0.0,8.5,0.0,0.0,IND only 0.20
+Sunbury,0.5,16.5,0.0,83.0,0.0,0.0,IND only 0.20
+Werribee,11.5,1.0,0.0,87.5,0.0,0.0,IND only 0.20
+Evelyn,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Monbulk,3.0,70.0,0.0,27.0,0.0,0.0,IND only 0.20
+Pakenham,0.0,68.5,0.0,31.5,0.0,0.0,IND only 0.20
+Mornington,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Nepean,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Morwell,0.0,29.5,0.0,70.5,0.0,0.0,IND only 0.20
+Gippsland East,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Gippsland South,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Bass,0.0,96.0,0.0,4.0,0.0,0.0,IND only 0.20
+Hastings,0.0,91.0,0.0,9.0,0.0,0.0,IND only 0.20
+Narracan,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Yan Yean,8.0,39.5,0.0,52.5,0.0,0.0,IND only 0.20
+Shepparton,0.0,85.5,0.0,8.5,6.0,0.0,IND only 0.20
+Bendigo East,51.0,45.5,0.0,3.5,0.0,0.0,IND only 0.20
+Bendigo West,88.0,2.0,0.0,10.0,0.0,0.0,IND only 0.20
+Eildon,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Euroa,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Macedon,13.5,28.5,0.0,58.0,0.0,0.0,IND only 0.20
+Benambra,0.0,81.0,0.0,14.5,4.5,0.0,IND only 0.20
+Ovens Valley,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Mildura,0.0,40.0,0.0,35.0,25.0,0.0,IND only 0.20
+Murray Plains,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Lara,23.0,0.0,0.0,77.0,0.0,0.0,IND only 0.20
+Melton,3.0,1.5,0.0,91.5,4.0,0.0,IND only 0.20
+Bellarine,32.5,67.5,0.0,0.0,0.0,0.0,IND only 0.20
+Wendouree,36.0,22.0,0.0,42.0,0.0,0.0,IND only 0.20
+Geelong,36.5,1.0,0.0,62.5,0.0,0.0,IND only 0.20
+South Barwon,5.5,89.5,0.0,5.0,0.0,0.0,IND only 0.20
+Eureka,0.0,6.5,0.0,93.5,0.0,0.0,IND only 0.20
+Ripon,0.0,31.0,0.0,69.0,0.0,0.0,IND only 0.20
+Lowan,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+Polwarth,0.0,100.0,0.0,0.0,0.0,0.0,IND only 0.20
+South-West Coast,0.0,97.5,0.0,0.0,2.5,0.0,IND only 0.20
+Box Hill,34.0,66.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Bulleen,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Glen Waverley,1.0,99.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Ivanhoe,98.5,1.5,0.0,0.0,0.0,0.0,OTH only 0.20
+Bundoora,99.5,0.5,0.0,0.0,0.0,0.0,OTH only 0.20
+Bayswater,0.5,99.5,0.0,0.0,0.0,0.0,OTH only 0.20
+Croydon,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Ringwood,31.5,68.5,0.0,0.0,0.0,0.0,OTH only 0.20
+Warrandyte,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Eltham,60.5,39.5,0.0,0.0,0.0,0.0,OTH only 0.20
+Mill Park,86.0,0.0,0.0,14.0,0.0,0.0,OTH only 0.20
+Brunswick,0.0,0.0,100.0,0.0,0.0,0.0,OTH only 0.20
+Northcote,3.5,0.0,96.5,0.0,0.0,0.0,OTH only 0.20
+Melbourne,0.0,0.0,100.0,0.0,0.0,0.0,OTH only 0.20
+Richmond,0.0,0.0,100.0,0.0,0.0,0.0,OTH only 0.20
+Essendon,80.5,16.5,0.5,2.5,0.0,0.0,OTH only 0.20
+Pascoe Vale,64.5,0.0,35.5,0.0,0.0,0.0,OTH only 0.20
+Preston,91.0,0.0,8.5,0.5,0.0,0.0,OTH only 0.20
+Broadmeadows,98.0,0.0,0.0,2.0,0.0,0.0,OTH only 0.20
+Greenvale,97.0,2.0,0.0,1.0,0.0,0.0,OTH only 0.20
+Thomastown,99.0,0.0,0.0,1.0,0.0,0.0,OTH only 0.20
+Kalkallo,93.5,0.0,0.0,6.5,0.0,0.0,OTH only 0.20
+Clarinda,91.5,7.5,0.0,1.0,0.0,0.0,OTH only 0.20
+Mordialloc,54.0,45.0,0.0,1.0,0.0,0.0,OTH only 0.20
+Mulgrave,100.0,0.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Rowville,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Cranbourne,31.0,2.0,0.0,67.0,0.0,0.0,OTH only 0.20
+Dandenong,99.5,0.0,0.0,0.5,0.0,0.0,OTH only 0.20
+Narre Warren North,50.0,2.0,0.0,48.0,0.0,0.0,OTH only 0.20
+Narre Warren South,58.0,4.5,0.0,37.5,0.0,0.0,OTH only 0.20
+Frankston,42.0,20.0,0.0,38.0,0.0,0.0,OTH only 0.20
+Berwick,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Carrum,13.5,30.0,0.0,56.5,0.0,0.0,OTH only 0.20
+Albert Park,84.5,0.0,15.5,0.0,0.0,0.0,OTH only 0.20
+Brighton,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Caulfield,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Prahran,0.0,0.0,100.0,0.0,0.0,0.0,OTH only 0.20
+Hawthorn,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Kew,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Malvern,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Bentleigh,50.5,49.5,0.0,0.0,0.0,0.0,OTH only 0.20
+Sandringham,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Ashwood,18.0,82.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Oakleigh,98.5,1.5,0.0,0.0,0.0,0.0,OTH only 0.20
+Footscray,88.5,0.0,11.5,0.0,0.0,0.0,OTH only 0.20
+Williamstown,100.0,0.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Laverton,99.5,0.0,0.0,0.5,0.0,0.0,OTH only 0.20
+Niddrie,36.0,44.5,0.0,19.5,0.0,0.0,OTH only 0.20
+St Albans,92.5,0.0,0.0,7.5,0.0,0.0,OTH only 0.20
+Kororoit,98.0,0.0,0.0,2.0,0.0,0.0,OTH only 0.20
+Point Cook,46.0,1.0,0.0,53.0,0.0,0.0,OTH only 0.20
+Sydenham,53.5,4.5,0.0,42.0,0.0,0.0,OTH only 0.20
+Tarneit,91.0,1.0,0.0,8.0,0.0,0.0,OTH only 0.20
+Sunbury,0.5,16.5,0.0,83.0,0.0,0.0,OTH only 0.20
+Werribee,11.5,1.0,0.0,87.5,0.0,0.0,OTH only 0.20
+Evelyn,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Monbulk,3.0,70.5,0.0,26.5,0.0,0.0,OTH only 0.20
+Pakenham,0.0,69.0,0.0,31.0,0.0,0.0,OTH only 0.20
+Mornington,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Nepean,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Morwell,0.0,30.0,0.0,70.0,0.0,0.0,OTH only 0.20
+Gippsland East,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Gippsland South,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Bass,0.0,96.0,0.0,4.0,0.0,0.0,OTH only 0.20
+Hastings,0.0,91.0,0.0,9.0,0.0,0.0,OTH only 0.20
+Narracan,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Yan Yean,7.5,39.5,0.0,53.0,0.0,0.0,OTH only 0.20
+Shepparton,0.0,86.0,0.0,13.0,1.0,0.0,OTH only 0.20
+Bendigo East,50.5,46.0,0.0,3.5,0.0,0.0,OTH only 0.20
+Bendigo West,88.0,2.0,0.0,10.0,0.0,0.0,OTH only 0.20
+Eildon,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Euroa,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Macedon,13.5,29.0,0.0,57.5,0.0,0.0,OTH only 0.20
+Benambra,0.0,84.0,0.0,16.0,0.0,0.0,OTH only 0.20
+Ovens Valley,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Mildura,0.0,46.0,0.0,34.0,20.0,0.0,OTH only 0.20
+Murray Plains,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Lara,22.5,0.0,0.0,77.5,0.0,0.0,OTH only 0.20
+Melton,2.5,0.0,0.0,95.5,2.0,0.0,OTH only 0.20
+Bellarine,32.0,68.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Wendouree,35.0,22.0,0.0,43.0,0.0,0.0,OTH only 0.20
+Geelong,36.0,1.0,0.0,63.0,0.0,0.0,OTH only 0.20
+South Barwon,6.0,89.0,0.0,5.0,0.0,0.0,OTH only 0.20
+Eureka,0.0,6.5,0.0,93.5,0.0,0.0,OTH only 0.20
+Ripon,0.0,32.0,0.0,68.0,0.0,0.0,OTH only 0.20
+Lowan,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Polwarth,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+South-West Coast,0.0,100.0,0.0,0.0,0.0,0.0,OTH only 0.20
+Box Hill,34.5,65.5,0.0,0.0,0.0,0.0,Uniform 0.10
+Bulleen,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Glen Waverley,4.5,95.5,0.0,0.0,0.0,0.0,Uniform 0.10
+Ivanhoe,97.5,2.0,0.5,0.0,0.0,0.0,Uniform 0.10
+Bundoora,99.5,0.5,0.0,0.0,0.0,0.0,Uniform 0.10
+Bayswater,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Croydon,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Ringwood,28.5,71.5,0.0,0.0,0.0,0.0,Uniform 0.10
+Warrandyte,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Eltham,59.0,41.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Mill Park,87.5,0.0,0.0,12.5,0.0,0.0,Uniform 0.10
+Brunswick,0.0,0.0,100.0,0.0,0.0,0.0,Uniform 0.10
+Northcote,17.5,0.0,82.5,0.0,0.0,0.0,Uniform 0.10
+Melbourne,0.0,0.0,100.0,0.0,0.0,0.0,Uniform 0.10
+Richmond,1.5,0.0,98.5,0.0,0.0,0.0,Uniform 0.10
+Essendon,79.5,15.5,1.0,4.0,0.0,0.0,Uniform 0.10
+Pascoe Vale,65.0,0.0,35.0,0.0,0.0,0.0,Uniform 0.10
+Preston,91.5,0.0,8.0,0.5,0.0,0.0,Uniform 0.10
+Broadmeadows,98.0,0.0,0.0,2.0,0.0,0.0,Uniform 0.10
+Greenvale,96.5,2.0,0.0,1.5,0.0,0.0,Uniform 0.10
+Thomastown,99.5,0.0,0.0,0.5,0.0,0.0,Uniform 0.10
+Kalkallo,93.0,0.5,0.0,6.5,0.0,0.0,Uniform 0.10
+Clarinda,91.5,7.5,0.0,1.0,0.0,0.0,Uniform 0.10
+Mordialloc,53.5,45.5,0.0,1.0,0.0,0.0,Uniform 0.10
+Mulgrave,100.0,0.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Rowville,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Cranbourne,31.0,4.0,0.0,65.0,0.0,0.0,Uniform 0.10
+Dandenong,99.5,0.0,0.0,0.5,0.0,0.0,Uniform 0.10
+Narre Warren North,53.0,2.0,0.0,45.0,0.0,0.0,Uniform 0.10
+Narre Warren South,56.5,4.5,0.0,39.0,0.0,0.0,Uniform 0.10
+Frankston,44.0,19.5,0.0,36.5,0.0,0.0,Uniform 0.10
+Berwick,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Carrum,11.5,29.5,0.0,59.0,0.0,0.0,Uniform 0.10
+Albert Park,84.0,1.5,14.5,0.0,0.0,0.0,Uniform 0.10
+Brighton,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Caulfield,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Prahran,0.0,7.5,92.5,0.0,0.0,0.0,Uniform 0.10
+Hawthorn,0.5,99.5,0.0,0.0,0.0,0.0,Uniform 0.10
+Kew,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Malvern,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Bentleigh,51.5,48.5,0.0,0.0,0.0,0.0,Uniform 0.10
+Sandringham,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Ashwood,20.5,79.5,0.0,0.0,0.0,0.0,Uniform 0.10
+Oakleigh,98.0,2.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Footscray,86.0,0.0,14.0,0.0,0.0,0.0,Uniform 0.10
+Williamstown,100.0,0.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Laverton,98.5,0.0,0.0,1.5,0.0,0.0,Uniform 0.10
+Niddrie,36.5,42.0,0.0,21.5,0.0,0.0,Uniform 0.10
+St Albans,94.5,0.5,0.0,5.0,0.0,0.0,Uniform 0.10
+Kororoit,98.0,0.0,0.0,2.0,0.0,0.0,Uniform 0.10
+Point Cook,48.0,1.5,0.0,50.5,0.0,0.0,Uniform 0.10
+Sydenham,56.0,4.0,0.0,40.0,0.0,0.0,Uniform 0.10
+Tarneit,92.0,0.5,0.0,7.5,0.0,0.0,Uniform 0.10
+Sunbury,1.0,23.5,0.0,75.5,0.0,0.0,Uniform 0.10
+Werribee,17.0,2.0,0.0,81.0,0.0,0.0,Uniform 0.10
+Evelyn,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Monbulk,3.0,70.5,0.0,26.5,0.0,0.0,Uniform 0.10
+Pakenham,0.0,68.0,0.0,32.0,0.0,0.0,Uniform 0.10
+Mornington,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Nepean,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Morwell,0.0,28.5,0.0,71.5,0.0,0.0,Uniform 0.10
+Gippsland East,0.0,99.0,0.0,1.0,0.0,0.0,Uniform 0.10
+Gippsland South,0.0,99.5,0.0,0.5,0.0,0.0,Uniform 0.10
+Bass,0.0,95.0,0.0,5.0,0.0,0.0,Uniform 0.10
+Hastings,0.0,91.5,0.0,8.5,0.0,0.0,Uniform 0.10
+Narracan,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Yan Yean,8.0,39.5,0.0,52.5,0.0,0.0,Uniform 0.10
+Shepparton,0.0,86.0,0.0,12.5,1.5,0.0,Uniform 0.10
+Bendigo East,50.0,46.0,0.0,4.0,0.0,0.0,Uniform 0.10
+Bendigo West,87.0,2.0,0.0,11.0,0.0,0.0,Uniform 0.10
+Eildon,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Euroa,0.0,99.5,0.0,0.5,0.0,0.0,Uniform 0.10
+Macedon,13.0,29.0,0.0,57.99999999999999,0.0,0.0,Uniform 0.10
+Benambra,0.0,81.5,0.0,16.5,2.0,0.0,Uniform 0.10
+Ovens Valley,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Mildura,0.0,38.5,0.0,39.5,22.0,0.0,Uniform 0.10
+Murray Plains,0.0,99.5,0.0,0.5,0.0,0.0,Uniform 0.10
+Lara,27.0,0.0,0.0,73.0,0.0,0.0,Uniform 0.10
+Melton,3.0,3.0,0.0,91.0,3.0,0.0,Uniform 0.10
+Bellarine,33.5,66.5,0.0,0.0,0.0,0.0,Uniform 0.10
+Wendouree,34.0,24.0,0.0,42.0,0.0,0.0,Uniform 0.10
+Geelong,40.0,2.5,0.0,57.5,0.0,0.0,Uniform 0.10
+South Barwon,7.0,88.5,0.0,4.5,0.0,0.0,Uniform 0.10
+Eureka,0.0,6.5,0.0,93.5,0.0,0.0,Uniform 0.10
+Ripon,0.0,28.5,0.0,71.5,0.0,0.0,Uniform 0.10
+Lowan,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+Polwarth,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.10
+South-West Coast,0.0,99.5,0.0,0.0,0.5,0.0,Uniform 0.10
+Box Hill,33.0,67.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Bulleen,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Glen Waverley,9.0,91.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Ivanhoe,95.0,3.0,2.0,0.0,0.0,0.0,Uniform 0.20
+Bundoora,98.5,1.5,0.0,0.0,0.0,0.0,Uniform 0.20
+Bayswater,1.0,99.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Croydon,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Ringwood,30.0,70.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Warrandyte,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Eltham,56.5,43.0,0.0,0.5,0.0,0.0,Uniform 0.20
+Mill Park,85.0,0.5,0.0,14.5,0.0,0.0,Uniform 0.20
+Brunswick,3.0,0.0,97.0,0.0,0.0,0.0,Uniform 0.20
+Northcote,32.5,0.0,67.5,0.0,0.0,0.0,Uniform 0.20
+Melbourne,4.0,0.0,96.0,0.0,0.0,0.0,Uniform 0.20
+Richmond,9.5,0.0,90.5,0.0,0.0,0.0,Uniform 0.20
+Essendon,74.5,19.5,2.0,4.0,0.0,0.0,Uniform 0.20
+Pascoe Vale,63.0,0.0,37.0,0.0,0.0,0.0,Uniform 0.20
+Preston,89.0,0.5,9.0,1.5,0.0,0.0,Uniform 0.20
+Broadmeadows,97.5,0.0,0.0,2.5,0.0,0.0,Uniform 0.20
+Greenvale,95.0,2.5,0.0,2.5,0.0,0.0,Uniform 0.20
+Thomastown,99.5,0.0,0.0,0.5,0.0,0.0,Uniform 0.20
+Kalkallo,93.5,1.0,0.0,5.5,0.0,0.0,Uniform 0.20
+Clarinda,88.5,10.5,0.0,1.0,0.0,0.0,Uniform 0.20
+Mordialloc,54.0,45.0,0.0,1.0,0.0,0.0,Uniform 0.20
+Mulgrave,99.0,1.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Rowville,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Cranbourne,36.0,5.5,0.0,58.5,0.0,0.0,Uniform 0.20
+Dandenong,99.5,0.0,0.0,0.5,0.0,0.0,Uniform 0.20
+Narre Warren North,52.5,3.5,0.0,44.0,0.0,0.0,Uniform 0.20
+Narre Warren South,57.5,6.5,0.0,36.0,0.0,0.0,Uniform 0.20
+Frankston,46.0,20.5,0.0,33.5,0.0,0.0,Uniform 0.20
+Berwick,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Carrum,14.0,31.5,0.0,54.5,0.0,0.0,Uniform 0.20
+Albert Park,73.5,4.0,22.5,0.0,0.0,0.0,Uniform 0.20
+Brighton,0.0,99.5,0.5,0.0,0.0,0.0,Uniform 0.20
+Caulfield,0.0,98.5,1.5,0.0,0.0,0.0,Uniform 0.20
+Prahran,1.0,19.5,79.5,0.0,0.0,0.0,Uniform 0.20
+Hawthorn,3.0,96.0,0.0,0.0,1.0,0.0,Uniform 0.20
+Kew,1.0,98.5,0.0,0.0,0.5,0.0,Uniform 0.20
+Malvern,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Bentleigh,53.0,47.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Sandringham,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Ashwood,23.5,76.5,0.0,0.0,0.0,0.0,Uniform 0.20
+Oakleigh,97.5,2.5,0.0,0.0,0.0,0.0,Uniform 0.20
+Footscray,77.5,0.0,22.5,0.0,0.0,0.0,Uniform 0.20
+Williamstown,99.0,0.5,0.5,0.0,0.0,0.0,Uniform 0.20
+Laverton,97.5,1.0,0.0,1.5,0.0,0.0,Uniform 0.20
+Niddrie,33.5,43.0,0.0,23.5,0.0,0.0,Uniform 0.20
+St Albans,93.0,3.5,0.0,3.5,0.0,0.0,Uniform 0.20
+Kororoit,97.5,0.0,0.0,2.5,0.0,0.0,Uniform 0.20
+Point Cook,51.0,7.5,0.0,41.5,0.0,0.0,Uniform 0.20
+Sydenham,56.0,4.5,0.0,39.5,0.0,0.0,Uniform 0.20
+Tarneit,90.5,2.0,0.0,7.5,0.0,0.0,Uniform 0.20
+Sunbury,1.5,24.0,0.0,74.5,0.0,0.0,Uniform 0.20
+Werribee,19.5,6.5,0.0,74.0,0.0,0.0,Uniform 0.20
+Evelyn,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Monbulk,3.0,70.5,0.0,26.5,0.0,0.0,Uniform 0.20
+Pakenham,0.0,63.5,0.0,36.5,0.0,0.0,Uniform 0.20
+Mornington,0.0,99.0,0.0,1.0,0.0,0.0,Uniform 0.20
+Nepean,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Morwell,0.0,37.5,0.0,62.5,0.0,0.0,Uniform 0.20
+Gippsland East,0.0,92.5,0.0,7.5,0.0,0.0,Uniform 0.20
+Gippsland South,0.0,96.5,0.0,3.5,0.0,0.0,Uniform 0.20
+Bass,0.0,92.0,0.0,8.0,0.0,0.0,Uniform 0.20
+Hastings,0.0,90.0,0.0,10.0,0.0,0.0,Uniform 0.20
+Narracan,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.20
+Yan Yean,7.5,40.0,0.0,52.5,0.0,0.0,Uniform 0.20
+Shepparton,0.0,81.5,0.0,15.0,3.5,0.0,Uniform 0.20
+Bendigo East,52.0,43.0,0.0,5.0,0.0,0.0,Uniform 0.20
+Bendigo West,84.5,5.5,0.0,10.0,0.0,0.0,Uniform 0.20
+Eildon,0.0,99.0,0.0,1.0,0.0,0.0,Uniform 0.20
+Euroa,0.0,95.5,0.0,4.5,0.0,0.0,Uniform 0.20
+Macedon,14.0,33.0,0.0,53.0,0.0,0.0,Uniform 0.20
+Benambra,0.0,76.0,0.0,19.0,5.0,0.0,Uniform 0.20
+Ovens Valley,0.0,98.5,0.0,1.5,0.0,0.0,Uniform 0.20
+Mildura,0.0,34.0,0.0,36.5,29.5,0.0,Uniform 0.20
+Murray Plains,0.0,93.5,0.0,6.5,0.0,0.0,Uniform 0.20
+Lara,35.5,2.0,0.0,62.5,0.0,0.0,Uniform 0.20
+Melton,4.0,7.0,0.0,83.0,6.0,0.0,Uniform 0.20
+Bellarine,31.5,68.5,0.0,0.0,0.0,0.0,Uniform 0.20
+Wendouree,32.5,25.5,0.0,42.0,0.0,0.0,Uniform 0.20
+Geelong,42.0,6.0,0.0,52.0,0.0,0.0,Uniform 0.20
+South Barwon,7.0,89.0,0.0,4.0,0.0,0.0,Uniform 0.20
+Eureka,1.0,12.5,0.0,86.5,0.0,0.0,Uniform 0.20
+Ripon,0.0,33.5,0.0,66.5,0.0,0.0,Uniform 0.20
+Lowan,0.0,98.5,0.0,1.5,0.0,0.0,Uniform 0.20
+Polwarth,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.20
+South-West Coast,0.0,97.5,0.0,0.5,2.0,0.0,Uniform 0.20
+Box Hill,32.5,65.5,0.0,2.0,0.0,0.0,Uniform 0.30
+Bulleen,1.0,99.0,0.0,0.0,0.0,0.0,Uniform 0.30
+Glen Waverley,14.5,84.5,0.0,1.0,0.0,0.0,Uniform 0.30
+Ivanhoe,86.5,7.5,6.0,0.0,0.0,0.0,Uniform 0.30
+Bundoora,97.5,2.5,0.0,0.0,0.0,0.0,Uniform 0.30
+Bayswater,3.0,97.0,0.0,0.0,0.0,0.0,Uniform 0.30
+Croydon,0.5,99.0,0.0,0.5,0.0,0.0,Uniform 0.30
+Ringwood,30.0,68.5,1.0,0.5,0.0,0.0,Uniform 0.30
+Warrandyte,1.5,98.0,0.0,0.5,0.0,0.0,Uniform 0.30
+Eltham,57.0,42.5,0.0,0.5,0.0,0.0,Uniform 0.30
+Mill Park,83.0,2.0,0.0,15.0,0.0,0.0,Uniform 0.30
+Brunswick,8.5,2.5,89.0,0.0,0.0,0.0,Uniform 0.30
+Northcote,40.5,2.0,57.5,0.0,0.0,0.0,Uniform 0.30
+Melbourne,10.5,2.0,87.5,0.0,0.0,0.0,Uniform 0.30
+Richmond,20.0,1.5,78.5,0.0,0.0,0.0,Uniform 0.30
+Essendon,73.0,21.5,2.0,3.5,0.0,0.0,Uniform 0.30
+Pascoe Vale,60.0,2.0,37.0,1.0,0.0,0.0,Uniform 0.30
+Preston,85.0,3.0,9.0,3.0,0.0,0.0,Uniform 0.30
+Broadmeadows,95.0,2.0,0.0,3.0,0.0,0.0,Uniform 0.30
+Greenvale,91.0,4.0,0.0,5.0,0.0,0.0,Uniform 0.30
+Thomastown,98.5,0.5,0.0,1.0,0.0,0.0,Uniform 0.30
+Kalkallo,92.0,2.0,0.0,6.0,0.0,0.0,Uniform 0.30
+Clarinda,88.5,11.0,0.0,0.5,0.0,0.0,Uniform 0.30
+Mordialloc,55.5,43.5,0.0,1.0,0.0,0.0,Uniform 0.30
+Mulgrave,96.5,3.0,0.0,0.5,0.0,0.0,Uniform 0.30
+Rowville,0.5,99.5,0.0,0.0,0.0,0.0,Uniform 0.30
+Cranbourne,38.0,9.0,0.0,53.0,0.0,0.0,Uniform 0.30
+Dandenong,98.5,1.0,0.0,0.5,0.0,0.0,Uniform 0.30
+Narre Warren North,53.0,5.0,0.0,42.0,0.0,0.0,Uniform 0.30
+Narre Warren South,57.5,8.0,0.0,34.5,0.0,0.0,Uniform 0.30
+Frankston,43.5,23.5,0.0,33.0,0.0,0.0,Uniform 0.30
+Berwick,0.0,98.5,0.0,1.5,0.0,0.0,Uniform 0.30
+Carrum,21.000000000000004,29.5,0.0,49.5,0.0,0.0,Uniform 0.30
+Albert Park,66.0,7.0,27.0,0.0,0.0,0.0,Uniform 0.30
+Brighton,0.5,96.5,3.0,0.0,0.0,0.0,Uniform 0.30
+Caulfield,2.5,93.0,4.5,0.0,0.0,0.0,Uniform 0.30
+Prahran,3.5,31.5,64.5,0.5,0.0,0.0,Uniform 0.30
+Hawthorn,3.5,94.5,0.0,0.5,1.5,0.0,Uniform 0.30
+Kew,2.0,95.5,0.0,0.5,2.0,0.0,Uniform 0.30
+Malvern,1.0,97.0,2.0,0.0,0.0,0.0,Uniform 0.30
+Bentleigh,53.0,47.0,0.0,0.0,0.0,0.0,Uniform 0.30
+Sandringham,0.5,99.5,0.0,0.0,0.0,0.0,Uniform 0.30
+Ashwood,27.5,71.5,0.0,1.0,0.0,0.0,Uniform 0.30
+Oakleigh,96.0,4.0,0.0,0.0,0.0,0.0,Uniform 0.30
+Footscray,72.5,0.5,27.0,0.0,0.0,0.0,Uniform 0.30
+Williamstown,97.0,2.5,0.5,0.0,0.0,0.0,Uniform 0.30
+Laverton,97.0,2.0,0.0,1.0,0.0,0.0,Uniform 0.30
+Niddrie,35.5,37.5,0.0,27.0,0.0,0.0,Uniform 0.30
+St Albans,90.5,5.5,0.0,4.0,0.0,0.0,Uniform 0.30
+Kororoit,97.5,1.0,0.0,1.5,0.0,0.0,Uniform 0.30
+Point Cook,53.0,12.5,0.0,34.5,0.0,0.0,Uniform 0.30
+Sydenham,58.0,6.5,0.0,35.5,0.0,0.0,Uniform 0.30
+Tarneit,87.5,5.5,0.0,7.0,0.0,0.0,Uniform 0.30
+Sunbury,2.0,31.5,0.0,66.5,0.0,0.0,Uniform 0.30
+Werribee,23.0,13.0,0.0,64.0,0.0,0.0,Uniform 0.30
+Evelyn,0.0,99.0,0.0,1.0,0.0,0.0,Uniform 0.30
+Monbulk,5.5,68.0,0.5,26.0,0.0,0.0,Uniform 0.30
+Pakenham,0.0,61.0,0.0,39.0,0.0,0.0,Uniform 0.30
+Mornington,0.0,97.0,0.0,1.5,1.5,0.0,Uniform 0.30
+Nepean,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.30
+Morwell,0.0,36.5,0.0,63.5,0.0,0.0,Uniform 0.30
+Gippsland East,0.0,87.5,0.0,12.5,0.0,0.0,Uniform 0.30
+Gippsland South,0.0,90.5,0.0,9.5,0.0,0.0,Uniform 0.30
+Bass,0.0,88.5,0.0,11.5,0.0,0.0,Uniform 0.30
+Hastings,0.0,88.5,0.0,11.5,0.0,0.0,Uniform 0.30
+Narracan,0.0,98.5,0.0,1.5,0.0,0.0,Uniform 0.30
+Yan Yean,10.0,39.5,0.0,50.5,0.0,0.0,Uniform 0.30
+Shepparton,0.0,74.0,0.0,16.0,10.0,0.0,Uniform 0.30
+Bendigo East,50.0,44.5,0.0,5.5,0.0,0.0,Uniform 0.30
+Bendigo West,82.0,9.0,0.0,9.0,0.0,0.0,Uniform 0.30
+Eildon,0.0,96.5,0.0,3.5,0.0,0.0,Uniform 0.30
+Euroa,0.0,92.0,0.0,8.0,0.0,0.0,Uniform 0.30
+Macedon,15.5,35.0,0.0,49.5,0.0,0.0,Uniform 0.30
+Benambra,0.0,68.5,0.0,21.5,10.0,0.0,Uniform 0.30
+Ovens Valley,0.0,95.5,0.0,4.5,0.0,0.0,Uniform 0.30
+Mildura,0.0,30.0,0.0,37.5,32.5,0.0,Uniform 0.30
+Murray Plains,0.0,88.0,0.0,12.0,0.0,0.0,Uniform 0.30
+Lara,36.5,5.0,0.0,58.5,0.0,0.0,Uniform 0.30
+Melton,5.5,8.5,0.0,78.5,7.5,0.0,Uniform 0.30
+Bellarine,32.0,66.0,0.0,2.0,0.0,0.0,Uniform 0.30
+Wendouree,34.5,23.5,0.0,42.0,0.0,0.0,Uniform 0.30
+Geelong,43.5,11.0,0.0,45.5,0.0,0.0,Uniform 0.30
+South Barwon,8.5,87.0,0.0,4.5,0.0,0.0,Uniform 0.30
+Eureka,2.5,22.0,0.0,75.5,0.0,0.0,Uniform 0.30
+Ripon,0.0,38.0,0.0,62.0,0.0,0.0,Uniform 0.30
+Lowan,0.0,94.0,0.0,6.0,0.0,0.0,Uniform 0.30
+Polwarth,0.0,100.0,0.0,0.0,0.0,0.0,Uniform 0.30
+South-West Coast,0.0,95.5,0.0,1.0,3.5,0.0,Uniform 0.30
+Box Hill,33.5,65.0,0.0,1.5,0.0,0.0,Differentiated stress
+Bulleen,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Glen Waverley,6.0,94.0,0.0,0.0,0.0,0.0,Differentiated stress
+Ivanhoe,97.5,1.5,1.0,0.0,0.0,0.0,Differentiated stress
+Bundoora,98.5,1.0,0.0,0.5,0.0,0.0,Differentiated stress
+Bayswater,0.5,99.5,0.0,0.0,0.0,0.0,Differentiated stress
+Croydon,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Ringwood,33.0,66.5,0.0,0.5,0.0,0.0,Differentiated stress
+Warrandyte,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Eltham,60.0,39.5,0.0,0.5,0.0,0.0,Differentiated stress
+Mill Park,79.0,0.0,0.0,21.0,0.0,0.0,Differentiated stress
+Brunswick,0.5,0.0,99.5,0.0,0.0,0.0,Differentiated stress
+Northcote,24.5,0.0,75.5,0.0,0.0,0.0,Differentiated stress
+Melbourne,0.5,0.0,99.5,0.0,0.0,0.0,Differentiated stress
+Richmond,5.0,0.0,95.0,0.0,0.0,0.0,Differentiated stress
+Essendon,76.5,17.5,1.5,4.5,0.0,0.0,Differentiated stress
+Pascoe Vale,63.5,0.0,36.5,0.0,0.0,0.0,Differentiated stress
+Preston,91.5,0.0,8.0,0.5,0.0,0.0,Differentiated stress
+Broadmeadows,98.0,0.0,0.0,2.0,0.0,0.0,Differentiated stress
+Greenvale,94.0,2.0,0.0,4.0,0.0,0.0,Differentiated stress
+Thomastown,100.0,0.0,0.0,0.0,0.0,0.0,Differentiated stress
+Kalkallo,93.0,0.5,0.0,6.5,0.0,0.0,Differentiated stress
+Clarinda,90.5,8.5,0.0,1.0,0.0,0.0,Differentiated stress
+Mordialloc,52.5,46.5,0.0,1.0,0.0,0.0,Differentiated stress
+Mulgrave,100.0,0.0,0.0,0.0,0.0,0.0,Differentiated stress
+Rowville,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Cranbourne,34.0,5.0,0.0,61.0,0.0,0.0,Differentiated stress
+Dandenong,100.0,0.0,0.0,0.0,0.0,0.0,Differentiated stress
+Narre Warren North,53.5,2.0,0.0,44.5,0.0,0.0,Differentiated stress
+Narre Warren South,55.5,4.5,0.0,40.0,0.0,0.0,Differentiated stress
+Frankston,46.5,20.0,0.0,33.5,0.0,0.0,Differentiated stress
+Berwick,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Carrum,15.0,32.0,0.0,53.0,0.0,0.0,Differentiated stress
+Albert Park,78.0,3.0,19.0,0.0,0.0,0.0,Differentiated stress
+Brighton,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Caulfield,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Prahran,0.0,14.5,85.5,0.0,0.0,0.0,Differentiated stress
+Hawthorn,0.5,98.5,0.0,0.5,0.5,0.0,Differentiated stress
+Kew,0.0,99.0,0.0,0.5,0.5,0.0,Differentiated stress
+Malvern,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Bentleigh,52.5,47.5,0.0,0.0,0.0,0.0,Differentiated stress
+Sandringham,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Ashwood,19.5,80.0,0.0,0.5,0.0,0.0,Differentiated stress
+Oakleigh,97.5,2.5,0.0,0.0,0.0,0.0,Differentiated stress
+Footscray,80.5,0.0,19.5,0.0,0.0,0.0,Differentiated stress
+Williamstown,99.5,0.0,0.5,0.0,0.0,0.0,Differentiated stress
+Laverton,98.5,0.0,0.0,1.5,0.0,0.0,Differentiated stress
+Niddrie,34.5,38.5,0.0,27.0,0.0,0.0,Differentiated stress
+St Albans,95.0,0.5,0.0,4.5,0.0,0.0,Differentiated stress
+Kororoit,98.0,0.0,0.0,2.0,0.0,0.0,Differentiated stress
+Point Cook,48.5,3.0,0.0,48.5,0.0,0.0,Differentiated stress
+Sydenham,55.0,5.0,0.0,40.0,0.0,0.0,Differentiated stress
+Tarneit,92.5,0.5,0.0,7.0,0.0,0.0,Differentiated stress
+Sunbury,1.5,28.5,0.0,70.0,0.0,0.0,Differentiated stress
+Werribee,18.0,3.5,0.0,78.5,0.0,0.0,Differentiated stress
+Evelyn,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Monbulk,4.5,71.0,0.0,24.5,0.0,0.0,Differentiated stress
+Pakenham,0.0,65.5,0.0,34.5,0.0,0.0,Differentiated stress
+Mornington,0.0,99.5,0.0,0.5,0.0,0.0,Differentiated stress
+Nepean,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Morwell,0.0,40.0,0.0,60.0,0.0,0.0,Differentiated stress
+Gippsland East,0.0,89.5,0.0,10.5,0.0,0.0,Differentiated stress
+Gippsland South,0.0,92.0,0.0,8.0,0.0,0.0,Differentiated stress
+Bass,0.0,90.0,0.0,10.0,0.0,0.0,Differentiated stress
+Hastings,0.0,90.0,0.0,10.0,0.0,0.0,Differentiated stress
+Narracan,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Yan Yean,8.5,40.5,0.0,51.0,0.0,0.0,Differentiated stress
+Shepparton,0.0,81.0,0.0,15.5,3.5,0.0,Differentiated stress
+Bendigo East,50.5,45.5,0.0,4.0,0.0,0.0,Differentiated stress
+Bendigo West,88.0,2.5,0.0,9.5,0.0,0.0,Differentiated stress
+Eildon,0.0,99.5,0.0,0.5,0.0,0.0,Differentiated stress
+Euroa,0.0,93.5,0.0,6.5,0.0,0.0,Differentiated stress
+Macedon,16.0,30.5,0.0,53.5,0.0,0.0,Differentiated stress
+Benambra,0.0,74.5,0.0,20.5,5.0,0.0,Differentiated stress
+Ovens Valley,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+Mildura,0.0,32.5,0.0,39.0,28.5,0.0,Differentiated stress
+Murray Plains,0.0,93.0,0.0,7.0,0.0,0.0,Differentiated stress
+Lara,36.5,0.0,0.0,63.5,0.0,0.0,Differentiated stress
+Melton,4.5,3.5,0.0,84.5,7.5,0.0,Differentiated stress
+Bellarine,33.5,64.5,0.0,2.0,0.0,0.0,Differentiated stress
+Wendouree,35.5,22.5,0.0,42.0,0.0,0.0,Differentiated stress
+Geelong,42.5,3.5000000000000004,0.0,54.0,0.0,0.0,Differentiated stress
+South Barwon,6.5,90.0,0.0,3.5,0.0,0.0,Differentiated stress
+Eureka,2.5,17.5,0.0,80.0,0.0,0.0,Differentiated stress
+Ripon,0.0,35.5,0.0,64.5,0.0,0.0,Differentiated stress
+Lowan,0.0,99.0,0.0,1.0,0.0,0.0,Differentiated stress
+Polwarth,0.0,100.0,0.0,0.0,0.0,0.0,Differentiated stress
+South-West Coast,0.0,97.5,0.0,0.5,2.0,0.0,Differentiated stress

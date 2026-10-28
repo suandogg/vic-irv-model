@@ -239,7 +239,8 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     settings = validate(settings)
     experiment = {} if experiment is None else dict(experiment)
     if set(experiment)-{'local_preference_mode','local_primary_t_df','subregion_fraction',
-                       'concentration_log_sd','preference_region_share','preference_local_share'}:
+                       'concentration_log_sd','concentration_by_party',
+                       'preference_region_share','preference_local_share'}:
         raise ValueError('Unknown forecast experiment')
     mode = experiment.get('local_preference_mode')
     if mode not in (None,'split','add'):
@@ -252,6 +253,12 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     local_share = float(experiment.get('preference_local_share',0))
     if not np.isfinite(concentration_sd) or not 0<=concentration_sd<=1:
         raise ValueError('Concentration stress SD must be between 0 and 1')
+    overrides = experiment.get('concentration_by_party',{})
+    if not isinstance(overrides,dict) or set(overrides)-set(PARTIES):
+        raise ValueError('Party concentration overrides must name only valid party codes')
+    concentration_sds = np.array([float(overrides.get(p,concentration_sd)) for p in PARTIES])
+    if not np.isfinite(concentration_sds).all() or (concentration_sds<0).any() or (concentration_sds>1).any():
+        raise ValueError('Every party concentration SD must be between 0 and 1')
     if not np.isfinite([region_share,local_share]).all() or min(region_share,local_share)<0 or region_share+local_share>1:
         raise ValueError('Preference variance fractions must be nonnegative and sum to at most 1')
     if mode is not None and region_share+local_share>0:
@@ -271,7 +278,7 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     for draw in range(settings['SIMULATIONS']):
         drawn_targets = draw_targets(targets,settings,rng)
         model_params = draw_model_params(params,drawn_targets,settings,primary_inputs.seat_type,rng)
-        if concentration_sd:
+        if concentration_sds[PARTIES.index('ON')]>0:
             # Replace ON concentration uncertainty, do not stack it. Its old
             # RNG draw was still consumed to preserve the paired baseline stream.
             model_params['scalar_params']['ON alpha'] = float(params.get('scalar_params',{}).get('ON alpha',.6))
@@ -287,9 +294,9 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
             model_params['_forecast_local_preference_mode'] = mode
         adjusted,_ = build_projected_primaries(primary_inputs,model_params,drawn_targets,seat_adjustments)
         coefficients = np.zeros(len(PARTIES))
-        if concentration_sd:
+        if np.any(concentration_sds):
             pattern_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,505]))
-            coefficients = pattern_rng.normal(0,concentration_sd,len(PARTIES))
+            coefficients = pattern_rng.normal(size=len(PARTIES))*concentration_sds
             base = adjusted[PARTIES].to_numpy(dtype=float)
             adjusted = adjusted.copy()
             adjusted[PARTIES] = balance_primary_pattern(base,strength_contrast(base)*coefficients)

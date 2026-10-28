@@ -202,3 +202,19 @@ remain unchanged, and confidence labels are not numeric variance multipliers.
 
 Separate subgroup RNG streams keep baseline draws paired. All-zero uncertainty,
 seat totals, party totals and structural-zero behaviour remain unchanged.
+
+## Party-specific concentration stress widths
+
+Concentration trials now have a Use party-specific concentration widths checkbox.
+The six research controls override the common width for their party, between 0
+and 1. Internally `concentration_by_party` accepts a dictionary; unspecified
+parties inherit `concentration_log_sd` (or zero if no common width is supplied).
+Unknown party codes, negative/nonfinite values and widths over 1 fail validation.
+
+ON-alpha uncertainty is replaced only when ON's effective concentration width
+is positive. Setting ON to zero retains ordinary alpha uncertainty even while
+other parties' spatial patterns vary. Concentration coefficients for zero-width
+parties stay zero; compositional balancing can still change their seat shares.
+Uniform per-party widths reproduce the common-width implementation exactly.
+Narrower/wider comparisons scale overrides as well as the common width. Controls
+are research UI only pending empirical review; no Sheet values/defaults change.

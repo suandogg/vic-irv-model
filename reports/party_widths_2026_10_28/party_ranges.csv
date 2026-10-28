@@ -1,0 +1,67 @@
+Trial,Party,Lower,Median,Upper,Average
+Current,ALP,17,28,41,28.455
+Current,LNP,31,40,49,40.13
+Current,GRN,5,5,8,5.675
+Current,ON,4,13,26,13.51
+Current,IND,0,0,1,0.23
+Current,OTH,0,0,0,0.0
+ALP only 0.20,ALP,17,28,41,28.3
+ALP only 0.20,LNP,31,40,49,40.275
+ALP only 0.20,GRN,5,5,8,5.705
+ALP only 0.20,ON,3,13,26,13.48
+ALP only 0.20,IND,0,0,1,0.24
+ALP only 0.20,OTH,0,0,0,0.0
+LNP only 0.20,ALP,17,29,41,28.615
+LNP only 0.20,LNP,30,39,50,40.09
+LNP only 0.20,GRN,5,5,8,5.69
+LNP only 0.20,ON,3,13,26,13.355
+LNP only 0.20,IND,0,0,1,0.25
+LNP only 0.20,OTH,0,0,0,0.0
+GRN only 0.20,ALP,17,28,41,28.63
+GRN only 0.20,LNP,31,40,50,40.44
+GRN only 0.20,GRN,2,5,8,5.235
+GRN only 0.20,ON,4,13,26,13.41
+GRN only 0.20,IND,0,0,1,0.285
+GRN only 0.20,OTH,0,0,0,0.0
+ON only 0.20,ALP,17,28,41,28.645
+ON only 0.20,LNP,30,40,51,40.045
+ON only 0.20,GRN,5,5,8,5.67
+ON only 0.20,ON,2,13,27,13.415
+ON only 0.20,IND,0,0,1,0.225
+ON only 0.20,OTH,0,0,0,0.0
+IND only 0.20,ALP,17,28,41,28.48
+IND only 0.20,LNP,31,39,49,39.995
+IND only 0.20,GRN,5,5,8,5.665
+IND only 0.20,ON,4,13,26,13.44
+IND only 0.20,IND,0,0,2,0.42
+IND only 0.20,OTH,0,0,0,0.0
+OTH only 0.20,ALP,17,28,41,28.43
+OTH only 0.20,LNP,31,40,49,40.13
+OTH only 0.20,GRN,5,5,8,5.68
+OTH only 0.20,ON,4,13,26,13.53
+OTH only 0.20,IND,0,0,1,0.23
+OTH only 0.20,OTH,0,0,0,0.0
+Uniform 0.10,ALP,17,29,40,28.81
+Uniform 0.10,LNP,31,40,49,40.115
+Uniform 0.10,GRN,4,5,8,5.465
+Uniform 0.10,ON,3,13,26,13.32
+Uniform 0.10,IND,0,0,1,0.29
+Uniform 0.10,OTH,0,0,0,0.0
+Uniform 0.20,ALP,17,29,41,28.995
+Uniform 0.20,LNP,30,40,51,40.38
+Uniform 0.20,GRN,2,5,9,5.28
+Uniform 0.20,ON,1,12,26,12.87
+Uniform 0.20,IND,0,0,2,0.475
+Uniform 0.20,OTH,0,0,0,0.0
+Uniform 0.30,ALP,16,30,41,29.29
+Uniform 0.30,LNP,28,39,54,40.335
+Uniform 0.30,GRN,0,5,9,4.965
+Uniform 0.30,ON,0,11,28,12.725
+Uniform 0.30,IND,0,0,4,0.685
+Uniform 0.30,OTH,0,0,0,0.0
+Differentiated stress,ALP,17,29,40,29.01
+Differentiated stress,LNP,28,40,51,39.94
+Differentiated stress,GRN,3,5,8,5.41
+Differentiated stress,ON,1,12,28,13.165
+Differentiated stress,IND,0,0,2,0.475
+Differentiated stress,OTH,0,0,0,0.0

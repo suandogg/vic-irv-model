@@ -1,0 +1,96 @@
+{
+  "profiles": {
+    "Current": {},
+    "ALP only 0.20": {
+      "concentration_by_party": {
+        "ALP": 0.2
+      }
+    },
+    "LNP only 0.20": {
+      "concentration_by_party": {
+        "LNP": 0.2
+      }
+    },
+    "GRN only 0.20": {
+      "concentration_by_party": {
+        "GRN": 0.2
+      }
+    },
+    "ON only 0.20": {
+      "concentration_by_party": {
+        "ON": 0.2
+      }
+    },
+    "IND only 0.20": {
+      "concentration_by_party": {
+        "IND": 0.2
+      }
+    },
+    "OTH only 0.20": {
+      "concentration_by_party": {
+        "OTH": 0.2
+      }
+    },
+    "Uniform 0.10": {
+      "concentration_log_sd": 0.1
+    },
+    "Uniform 0.20": {
+      "concentration_log_sd": 0.2
+    },
+    "Uniform 0.30": {
+      "concentration_log_sd": 0.3
+    },
+    "Differentiated stress": {
+      "concentration_by_party": {
+        "ALP": 0.1,
+        "LNP": 0.1,
+        "GRN": 0.15,
+        "ON": 0.3,
+        "IND": 0.2,
+        "OTH": 0.2
+      }
+    }
+  },
+  "settings": {
+    "SIMULATIONS": 200,
+    "SEED": 20261010,
+    "LOWER_QUANTILE": 0.05,
+    "UPPER_QUANTILE": 0.95,
+    "REGION_PRIMARY_SD_PP": 0.75,
+    "SEAT_PRIMARY_SD_PP": 1.5,
+    "ON_ALPHA_SD": 0.08,
+    "ON_DONOR_STRENGTH_SD": 0.05,
+    "RETIREMENT_EFFECT_SD_PP": 0.3,
+    "SOPHOMORE_EFFECT_SD_PP": 0.3,
+    "PREF_GENERIC_LOG_SD": 0.2,
+    "PREF_FEDERAL_LOG_SD": 0.1,
+    "PREF_VEC_LOG_SD": 0.05,
+    "PREF_SPECIAL_LOG_SD": 0.2,
+    "PREF_CLASS_ON_LOG_SD": 0.1,
+    "STATEWIDE_SD_ALP_PP": 2.0,
+    "STATEWIDE_SD_LNP_PP": 2.0,
+    "STATEWIDE_SD_GRN_PP": 1.0,
+    "STATEWIDE_SD_ON_PP": 3.0,
+    "STATEWIDE_SD_IND_PP": 1.0,
+    "STATEWIDE_SD_OTH_PP": 1.0
+  },
+  "draws_per_seed": 100,
+  "seeds": [
+    20261010,
+    20261011
+  ],
+  "targets": {
+    "ALP": 24.6,
+    "LNP": 29.1,
+    "GRN": 13.3,
+    "ON": 22,
+    "IND": 5.5,
+    "OTH": 5.5
+  },
+  "input_mode": "committed model snapshot, not current polling/live settings",
+  "preference_trial": "vec_field_coverage",
+  "geography": "upper-house regions; preference-pattern trial off",
+  "engine_hash": "d1e11e66dd7a744ae880bf0c5fb61985380af7fe81704ace0f53ff608fb7994c",
+  "input_hash": "b71d779debc39e42497c893a666ceb818c76bf22564bbfb7d6d85678e083c206",
+  "caveat": "Exploratory widths, not calibration. Positive ON width replaces alpha SD; zero retains it."
+}

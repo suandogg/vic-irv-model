@@ -63,6 +63,16 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                        'then balances all party and seat totals. Positive concentrates, negative flattens. '
                        'This replaces ON alpha uncertainty for this trial, not its central value. '
                        'The default 0.20 is a stress-test assumption, not a fitted estimate.')
+            if st.checkbox('Use party-specific concentration widths (research)',key='forecast_party_widths'):
+                widths = {}
+                columns = st.columns(3)
+                for index,party in enumerate(PARTIES):
+                    with columns[index%3]:
+                        widths[party] = st.number_input(party+' concentration log-SD',min_value=0.,max_value=1.,
+                            value=.2,step=.05,key='forecast_concentration_'+party)
+                experiment['concentration_by_party'] = widths
+                st.caption('Party-specific values override the common width. An ON value of zero retains '
+                           'ordinary ON-alpha uncertainty; a positive value replaces it. These controls do not edit Sheets.')
         if experiment.get('preference_region_share',0):
             st.caption('Regional preference trial: existing origin/recipient variance is partitioned '
                        '50% statewide, 25% geographic, 25% local for every party. Source-based SDs '
@@ -124,6 +134,9 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                         trial_experiment = dict(experiment)
                         if 'concentration_log_sd' in trial_experiment:
                             trial_experiment['concentration_log_sd'] *= multiplier
+                        if 'concentration_by_party' in trial_experiment:
+                            trial_experiment['concentration_by_party'] = {
+                                p:width*multiplier for p,width in trial_experiment['concentration_by_party'].items()}
                         comparison[label] = simulate(primary_inputs,matrices,params,posterior,ideology,
                             targets,seat_adjustments,uncertainty_profile(settings,multiplier),
                             experiment=trial_experiment,subregions=subregions)
@@ -225,6 +238,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                            'lower_forecast_draws.csv','text/csv')
         st.download_button('Download statewide primary draws',primary.to_csv(index=False),
                            'lower_forecast_primary_draws.csv','text/csv')
-        if result.get('experiment',{}).get('concentration_log_sd',0):
+        if result.get('experiment',{}).get('concentration_log_sd',0) or any(
+                result.get('experiment',{}).get('concentration_by_party',{}).values()):
             st.download_button('Download concentration pattern coefficients',result['concentration_draws'].to_csv(index=False),
                                'forecast_concentration_draws.csv','text/csv')

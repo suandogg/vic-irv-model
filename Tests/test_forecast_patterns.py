@@ -80,3 +80,24 @@ class PatternTests(unittest.TestCase):
         x = draw_preference_pattern({'origin':origin},seats,1.,0.,np.random.default_rng(3))
         np.testing.assert_array_equal(x['A'],x['B'])
         self.assertFalse(np.allclose(x['A'],x['C']))
+
+    def test_party_specific_widths(self):
+        from Tests.test_forecast_engine import calculator_fixture
+        from SRC.forecast_params import defaults
+        from SRC.forecast_engine import simulate
+        from SRC.constants import PARTIES
+        import pandas as pd
+        _,p,m,params,post,i,a = calculator_fixture()
+        t = dict(ALP=24.6,LNP=29.1,GRN=13.3,ON=22,IND=5.5,OTH=5.5)
+        s = defaults()|{'SIMULATIONS':2}
+        scalar = simulate(p,m,params,post,i,t,a,s,experiment={'concentration_log_sd':.2})
+        vector = simulate(p,m,params,post,i,t,a,s,
+                          experiment={'concentration_by_party':dict.fromkeys(PARTIES,.2)})
+        pd.testing.assert_frame_equal(scalar['draws'],vector['draws'])
+        pd.testing.assert_frame_equal(scalar['concentration_draws'],vector['concentration_draws'])
+        one = simulate(p,m,params,post,i,t,a,s,experiment={'concentration_by_party':{'ALP':.2}})
+        self.assertTrue((one['concentration_draws'].drop(columns='ALP')==0).all().all())
+        self.assertTrue(one['draws'][PARTIES].sum(axis=1).eq(88).all())
+        for override in ({'TYPO':.2},{'ON':float('nan')},{'GRN':-1}):
+            with self.assertRaises(ValueError):
+                simulate(p,m,params,post,i,t,a,s,experiment={'concentration_by_party':override})
