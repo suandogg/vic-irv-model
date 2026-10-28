@@ -28,6 +28,7 @@ STRUCTURAL_EXPERIMENTS = {
     'All-party concentration patterns':{'concentration_log_sd':.2},
     'Concentration + regional preferences':{'concentration_log_sd':.2,
         'preference_region_share':.25,'preference_local_share':.25},
+    'Structured nowcast (development)':{'structured_nowcast':{}},
 }
 
 
@@ -127,7 +128,7 @@ def binomial_interval(rate, n, z=1.96):
 
 def engine_source_hash():
     root = Path(__file__).resolve().parent
-    files = ('forecast_engine.py','forecast_params.py','primary_pipeline.py',
+    files = ('forecast_engine.py','forecast_params.py','nowcast_uncertainty.py','nowcast_loader.py','primary_pipeline.py',
              'legacy_primary_model.py','lnp_precollapse_loader.py','preference_engine.py','irv.py','forecast_subregions.py','forecast_patterns.py')
     return hashlib.sha256(b''.join((root/name).read_bytes() for name in files)).hexdigest()
 
@@ -227,17 +228,22 @@ def perturb_preference_flows(diagnostic, origin, seat_class, shocks):
     settings = shocks['settings']
     if basis=='ON special prior':
         scale = settings['PREF_SPECIAL_LOG_SD']
+        source = 'special'
     elif basis=='federal ON evidence trial':
         scale = settings['PREF_FEDERAL_LOG_SD']
+        source = 'federal'
     elif 'ON' not in flows and any(s.get('vec_exact_field_matched') for s in diagnostic['stages']):
         scale = settings['PREF_VEC_LOG_SD']
+        source = 'vec'
     else:
         scale = settings['PREF_GENERIC_LOG_SD']
+        source = 'generic'
     values = {}
     for party,value in flows.items():
         tilt = scale*shocks['origin'].get(origin,{}).get(party,0)
         if party=='ON':
             tilt += settings['PREF_CLASS_ON_LOG_SD']*shocks['class_on'].get(seat_class,0)
+        tilt += shocks.get('transport',{}).get(source,{}).get(origin,{}).get(party,0)
         values[party] = float(value)*np.exp(tilt)
     total = sum(values.values())
     return {party:value/total for party,value in values.items()} if total else dict(flows)
@@ -249,7 +255,7 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     experiment = {} if experiment is None else dict(experiment)
     if set(experiment)-{'local_preference_mode','local_primary_t_df','subregion_fraction',
                        'concentration_log_sd','concentration_by_party','concentration_form',
-                       'preference_region_share','preference_local_share'}:
+                       'preference_region_share','preference_local_share','structured_nowcast'}:
         raise ValueError('Unknown forecast experiment')
     mode = experiment.get('local_preference_mode')
     if mode not in (None,'split','add'):
@@ -278,6 +284,13 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     districts = list(primary_inputs.district)
     if len(districts)!=88 or len(set(districts))!=88:
         raise ValueError('Lower-house forecast requires 88 unique districts')
+    nowcast = experiment.get('structured_nowcast')
+    if nowcast is not None:
+        from SRC.nowcast_uncertainty import validate_config
+        nowcast = validate_config(nowcast,districts)
+        experiment['structured_nowcast'] = nowcast
+        if np.any(concentration_sds) or mode is not None or tail_df is not None:
+            raise ValueError('Structured nowcast replaces primary-pattern/local-noise trials; do not stack them')
     sub_fraction = float(experiment.get('subregion_fraction',0))
     if not np.isfinite(sub_fraction) or not 0<=sub_fraction<=1:
         raise ValueError('Subregion variance fraction must be between 0 and 1')
@@ -294,6 +307,12 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     for draw in range(settings['SIMULATIONS']):
         drawn_targets = draw_targets(targets,settings,rng)
         model_params = draw_model_params(params,drawn_targets,settings,primary_inputs.seat_type,rng)
+        if nowcast is not None and any(nowcast['transport_log_sd'].values()):
+            from SRC.nowcast_uncertainty import draw_transport
+            transport_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,606]))
+            shocks = model_params.setdefault('_forecast_preference_shocks',{
+                'settings':settings,'origin':{},'class_on':{}})
+            shocks['transport'] = draw_transport(nowcast,transport_rng)
         if concentration_sds[PARTIES.index('ON')]>0:
             # Replace ON concentration uncertainty, do not stack it. Its old
             # RNG draw was still consumed to preserve the paired baseline stream.
@@ -324,8 +343,19 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
         exponent_draws.append(exponents)
         tail_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,202])) if tail_df else None
         sub_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,303])) if sub_fraction else None
-        adjusted = perturb_local_primaries(adjusted,settings,rng,tail_rng,tail_df,
-                                           subregions,sub_fraction,sub_rng)
+        if nowcast is None:
+            adjusted = perturb_local_primaries(adjusted,settings,rng,tail_rng,tail_df,
+                                               subregions,sub_fraction,sub_rng)
+        else:
+            # Preserve the ordinary stream for later statewide/model draws.
+            # Its residuals are consumed but NOT applied; the new budget replaces them.
+            if settings['REGION_PRIMARY_SD_PP'] or settings['SEAT_PRIMARY_SD_PP']:
+                rng.normal(0,settings['REGION_PRIMARY_SD_PP']/100,
+                           (len(adjusted.region.unique()),len(PARTIES)))
+                rng.normal(0,settings['SEAT_PRIMARY_SD_PP']/100,(len(adjusted),len(PARTIES)))
+            from SRC.nowcast_uncertainty import perturb_district_leans
+            lean_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,707]))
+            adjusted,_ = perturb_district_leans(adjusted,nowcast,lean_rng,subregions,sub_fraction)
         seat_primaries.append(adjusted.set_index('district').loc[districts,PARTIES].to_numpy(dtype=float))
         result = forecast_counts(adjusted,matrices,model_params,posterior,ideology).set_index('district').loc[districts]
         if len(result)!=88 or result.winner.isna().any() or not result.winner.isin(PARTIES).all():

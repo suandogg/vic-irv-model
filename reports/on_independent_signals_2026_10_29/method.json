@@ -1,0 +1,6 @@
+{
+  "source": "Committed district federal-derived strength index and official 2022 Council regional primary inputs",
+  "aggregation": "Compare means of strength^0.6 across 11 districts per region with Council raw regional lean; each signal renormalised to equal-region mean one",
+  "limitation": "Different years, chambers, campaign and candidate fields. No district-level state-ON inference, no calibrated distribution weight. Signals are pre-calibration, before donor adjustment.",
+  "active": false
+}

@@ -1,0 +1,2 @@
+# Preserve downloaded evidence byte-for-byte for the manifest's SHA-256 checks.
+sources/** -text -diff

@@ -38,6 +38,23 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         sub_fraction = {'Upper-house regions (current)':0.,'Blend upper-house and sub-regions':.5,
                         'Sub-regions only':1.}[geographic_label]
         experiment = dict(experiment)
+        structured='structured_nowcast' in experiment
+        if structured:
+            from SRC.nowcast_loader import load_nowcast_inputs
+            try:
+                config,review=load_nowcast_inputs(list(primary_inputs.district))
+            except (ValueError,TypeError) as exc:
+                st.error(str(exc))
+                return
+            experiment['structured_nowcast']=config
+            st.warning('Development configuration, not a calibrated replacement forecast. '
+                'ALP/LNP/Greens scales are historical proxies; ON/IND/OTH scales are inherited '
+                'assumptions. New preference-transport scales start at zero. '
+                'This replaces ordinary regional/local primary noise; it does not add concentration noise.')
+            st.caption(f"Candidate/context review: {review['unreviewed_contexts']} unreviewed; "
+                       f"{review['enabled_contexts']} enabled. No new candidate appearances are simulated.")
+            display_table(review['budget'],hide_index=True,width='stretch')
+            display_table(review['correlation'],hide_index=True,width='stretch')
         subregions,subregion_source = None,'Upper-house regions only; SUB-REGIONS not used'
         if sub_fraction:
             try:
@@ -50,6 +67,9 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         st.caption(subregion_source+'. Geographic primary SD stays fixed; blend splits its '
                    'pre-balancing variance equally between the two crossed groupings. '
                    'Regional preference trials use the same grouping; other trials leave preferences unchanged.')
+        if structured and sub_fraction:
+            st.caption('The historical regional scale was estimated on historical upper-house regions, '
+                       'not these sub-regions. This blend is an additional assumption, not a fitted component.')
         st.caption('Current is the unchanged default. Preference split replaces half the shared '
                    'origin/recipient variance with local variance; Preference added retains shared '
                    'variance and adds an equally scaled local component. Heavy tails t5 changes only '
@@ -89,6 +109,11 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                        'and the separate class-ON shock stay unchanged. No extra origin/recipient '
                        'variance is added. Flow regimes and source rows are unchanged.')
         display_table(parameter_table(settings),hide_index=True,width='stretch')
+        if structured:
+            st.caption('In this mode REGION_PRIMARY_SD_PP and SEAT_PRIMARY_SD_PP above are replaced '
+                       'by NOWCAST BUDGET. Other FORECAST PARAMS, including statewide uncertainty '
+                       'and existing preference SDs, remain active. NOWCAST CONTEXTS affects only '
+                       'reviewed, enabled rows. Central candidate overrides are not changed.')
         st.markdown('All SDs are **provisional assumptions**, not fitted estimates. Statewide party errors '
             'start independent, then are constrained to total 100%; a fitted polling covariance is not yet available. '
             'Regional/local shocks preserve each simulated scenario’s underlying equal-seat statewide totals '
@@ -147,6 +172,10 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                         if 'concentration_by_party' in trial_experiment:
                             trial_experiment['concentration_by_party'] = {
                                 p:width*multiplier for p,width in trial_experiment['concentration_by_party'].items()}
+                        if 'structured_nowcast' in trial_experiment:
+                            from SRC.nowcast_loader import scale_config
+                            trial_experiment['structured_nowcast']=scale_config(
+                                trial_experiment['structured_nowcast'],multiplier)
                         comparison[label] = simulate(primary_inputs,matrices,params,posterior,ideology,
                             targets,seat_adjustments,uncertainty_profile(settings,multiplier),
                             experiment=trial_experiment,subregions=subregions)

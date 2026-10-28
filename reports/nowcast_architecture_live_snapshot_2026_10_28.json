@@ -1,0 +1,3988 @@
+{
+  "spreadsheet_id": "1sLmANVOERsbV08BIZYUfT_fccTGw-mCvAwJSAD_4968",
+  "date": "2026-10-28",
+  "sheets": {
+    "FORECAST PARAMS": {
+      "range": "'FORECAST PARAMS'!A1:E25",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "Section",
+          "Parameter",
+          "Value",
+          "Units",
+          "Explanation"
+        ],
+        [
+          "Run",
+          "SIMULATIONS",
+          "500",
+          "draws",
+          "Preview count; increase after assumptions are reviewed. Not a calibrated forecast."
+        ],
+        [
+          "Run",
+          "SEED",
+          "20261010",
+          "integer",
+          "Fixed seed makes repeated runs reproducible with the same inputs."
+        ],
+        [
+          "Reporting",
+          "LOWER_QUANTILE",
+          "0.05",
+          "fraction",
+          "Lower endpoint of the displayed central seat-count interval."
+        ],
+        [
+          "Reporting",
+          "UPPER_QUANTILE",
+          "0.95",
+          "fraction",
+          "Upper endpoint of the displayed central seat-count interval."
+        ],
+        [
+          "Local votes",
+          "REGION_PRIMARY_SD_PP",
+          "0.75",
+          "primary pp SD",
+          "Shared party shock within each of the eight upper-house regions; rebalanced to drawn statewide totals."
+        ],
+        [
+          "Local votes",
+          "SEAT_PRIMARY_SD_PP",
+          "2.5",
+          "primary pp SD",
+          "Independent seat/party residual; rebalanced to drawn statewide totals. Includes unmodelled candidate variation."
+        ],
+        [
+          "ON geography",
+          "ON_ALPHA_SD",
+          "0.08",
+          "parameter SD",
+          "Uncertainty around the active ON alpha; truncated by clipping to 0.01–2."
+        ],
+        [
+          "ON geography",
+          "ON_DONOR_STRENGTH_SD",
+          "0.05",
+          "parameter SD",
+          "Uncertainty around active donor strength; clipped to 0–1."
+        ],
+        [
+          "Candidate effects",
+          "RETIREMENT_EFFECT_SD_PP",
+          "0.3",
+          "primary pp SD",
+          "Shared uncertainty in the default retirement penalty; explicit seat overrides stay fixed."
+        ],
+        [
+          "Candidate effects",
+          "SOPHOMORE_EFFECT_SD_PP",
+          "0.3",
+          "primary pp SD",
+          "Shared uncertainty in the default sophomore bonus; explicit seat overrides stay fixed."
+        ],
+        [
+          "Preferences",
+          "PREF_GENERIC_LOG_SD",
+          "0.2",
+          "log-weight SD",
+          "Shared origin/recipient perturbation of generic or synthetic preference flows."
+        ],
+        [
+          "Preferences",
+          "PREF_FEDERAL_LOG_SD",
+          "0.1",
+          "log-weight SD",
+          "Perturbation scale for federal-evidence blends; provisional, not sample-size calibration."
+        ],
+        [
+          "Preferences",
+          "PREF_VEC_LOG_SD",
+          "0.05",
+          "log-weight SD",
+          "Perturbation scale for exact non-ON VEC fields; provisional."
+        ],
+        [
+          "Preferences",
+          "PREF_SPECIAL_LOG_SD",
+          "0.2",
+          "log-weight SD",
+          "Perturbation scale for hypothetical ON special final-pair flows; source Sheet rows unchanged."
+        ],
+        [
+          "Preferences",
+          "PREF_CLASS_ON_LOG_SD",
+          "0.1",
+          "log-weight SD",
+          "Additional ON-recipient shock shared by all seats in a seat class."
+        ],
+        [
+          "Statewide votes",
+          "STATEWIDE_SD_ALP_PP",
+          "2",
+          "primary pp SD",
+          "Provisional independent party error before projecting all six shares to a non-negative total of 100; not an empirically fitted polling covariance."
+        ],
+        [
+          "Statewide votes",
+          "STATEWIDE_SD_LNP_PP",
+          "2",
+          "primary pp SD",
+          "Provisional independent party error before projecting all six shares to a non-negative total of 100; not an empirically fitted polling covariance."
+        ],
+        [
+          "Statewide votes",
+          "STATEWIDE_SD_GRN_PP",
+          "1",
+          "primary pp SD",
+          "Provisional independent party error before projecting all six shares to a non-negative total of 100; not an empirically fitted polling covariance."
+        ],
+        [
+          "Statewide votes",
+          "STATEWIDE_SD_ON_PP",
+          "3",
+          "primary pp SD",
+          "Provisional independent party error before projecting all six shares to a non-negative total of 100; not an empirically fitted polling covariance."
+        ],
+        [
+          "Statewide votes",
+          "STATEWIDE_SD_IND_PP",
+          "1",
+          "primary pp SD",
+          "Provisional independent party error before projecting all six shares to a non-negative total of 100; not an empirically fitted polling covariance."
+        ],
+        [
+          "Statewide votes",
+          "STATEWIDE_SD_OTH_PP",
+          "1",
+          "primary pp SD",
+          "Provisional independent party error before projecting all six shares to a non-negative total of 100; not an empirically fitted polling covariance."
+        ]
+      ]
+    },
+    "LOWER_PRIMARY_INPUTS": {
+      "range": "LOWER_PRIMARY_INPUTS!A1:J100",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "district",
+          "region",
+          "seat_type",
+          "held_by",
+          "ALP_pvi",
+          "LNP_pvi",
+          "GRN_pvi",
+          "IND_pvi",
+          "OTH_pvi",
+          "ON_strength"
+        ],
+        [
+          "Box Hill",
+          "North-Eastern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.030123",
+          "0.027192",
+          "0.026514",
+          "-0.041585",
+          "-0.042244",
+          "0.263303"
+        ],
+        [
+          "Bulleen",
+          "North-Eastern Metro",
+          "Middle Ring",
+          "LNP",
+          "-0.044654",
+          "0.143978",
+          "-0.005393",
+          "-0.045750",
+          "-0.048181",
+          "0.338627"
+        ],
+        [
+          "Glen Waverley",
+          "North-Eastern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.027557",
+          "0.075311",
+          "-0.020227",
+          "-0.056800",
+          "-0.025841",
+          "0.308713"
+        ],
+        [
+          "Ivanhoe",
+          "North-Eastern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.054082",
+          "-0.033585",
+          "0.068045",
+          "-0.043148",
+          "-0.045394",
+          "0.486108"
+        ],
+        [
+          "Bundoora",
+          "North-Eastern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.114833",
+          "-0.065001",
+          "0.006144",
+          "-0.049210",
+          "-0.006767",
+          "0.486108"
+        ],
+        [
+          "Bayswater",
+          "North-Eastern Metro",
+          "Outer Metro",
+          "ALP",
+          "0.029517",
+          "0.039856",
+          "-0.035306",
+          "-0.041107",
+          "0.007042",
+          "0.600941"
+        ],
+        [
+          "Croydon",
+          "North-Eastern Metro",
+          "Outer Metro",
+          "LNP",
+          "-0.027576",
+          "0.091717",
+          "-0.009284",
+          "-0.056800",
+          "0.001943",
+          "0.600756"
+        ],
+        [
+          "Ringwood",
+          "North-Eastern Metro",
+          "Outer Metro",
+          "LNP",
+          "0.015560",
+          "0.016204",
+          "0.037265",
+          "-0.056800",
+          "-0.012230",
+          "0.362906"
+        ],
+        [
+          "Warrandyte",
+          "North-Eastern Metro",
+          "Outer Metro",
+          "LNP",
+          "-0.044519",
+          "0.133922",
+          "0.001180",
+          "-0.045830",
+          "-0.044752",
+          "0.432615"
+        ],
+        [
+          "Eltham",
+          "North-Eastern Metro",
+          "Outer Metro",
+          "ALP",
+          "0.075864",
+          "0.012549",
+          "0.013725",
+          "-0.056800",
+          "-0.045338",
+          "0.654810"
+        ],
+        [
+          "Mill Park",
+          "North-Eastern Metro",
+          "Outer Metro",
+          "ALP",
+          "0.148855",
+          "-0.098872",
+          "-0.044969",
+          "-0.056800",
+          "0.051786",
+          "1.198217"
+        ],
+        [
+          "Brunswick",
+          "Northern Metro",
+          "Inner Ring",
+          "GRN",
+          "-0.073366",
+          "-0.244388",
+          "0.320366",
+          "-0.036846",
+          "0.034483",
+          "0.356125"
+        ],
+        [
+          "Northcote",
+          "Northern Metro",
+          "Inner Ring",
+          "ALP",
+          "0.026424",
+          "-0.228287",
+          "0.210828",
+          "-0.046276",
+          "0.037062",
+          "0.643922"
+        ],
+        [
+          "Melbourne",
+          "Northern Metro",
+          "Inner Ring",
+          "GRN",
+          "-0.062828",
+          "-0.170441",
+          "0.263117",
+          "-0.046984",
+          "0.017386",
+          "0.416380"
+        ],
+        [
+          "Richmond",
+          "Northern Metro",
+          "Inner Ring",
+          "GRN",
+          "-0.024968",
+          "-0.205863",
+          "0.230581",
+          "-0.019804",
+          "0.019880",
+          "0.365034"
+        ],
+        [
+          "Essendon",
+          "Northern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.041379",
+          "-0.056822",
+          "0.042752",
+          "-0.038300",
+          "0.011240",
+          "0.833871"
+        ],
+        [
+          "Pascoe Vale",
+          "Northern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.004279",
+          "-0.160009",
+          "0.106544",
+          "0.032389",
+          "0.016797",
+          "0.658375"
+        ],
+        [
+          "Preston",
+          "Northern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.030970",
+          "-0.175408",
+          "0.036941",
+          "0.068540",
+          "0.039207",
+          "1.070377"
+        ],
+        [
+          "Broadmeadows",
+          "Northern Metro",
+          "Outer Metro",
+          "ALP",
+          "0.102031",
+          "-0.135318",
+          "-0.030664",
+          "0.016811",
+          "0.046890",
+          "0.810633"
+        ],
+        [
+          "Greenvale",
+          "Northern Metro",
+          "Outer Metro",
+          "ALP",
+          "0.079090",
+          "-0.095463",
+          "-0.052057",
+          "0.000809",
+          "0.067621",
+          "0.537263"
+        ],
+        [
+          "Thomastown",
+          "Northern Metro",
+          "Outer Metro",
+          "ALP",
+          "0.162273",
+          "-0.127640",
+          "-0.051338",
+          "-0.027050",
+          "0.044255",
+          "1.004125"
+        ],
+        [
+          "Kalkallo",
+          "Northern Metro",
+          "Peri-urban",
+          "ALP",
+          "0.170829",
+          "-0.111578",
+          "-0.058585",
+          "-0.039733",
+          "0.039142",
+          "0.710840"
+        ],
+        [
+          "Clarinda",
+          "South-Eastern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.095265",
+          "-0.063305",
+          "-0.035722",
+          "0.036434",
+          "-0.032923",
+          "0.771089"
+        ],
+        [
+          "Mordialloc",
+          "South-Eastern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.075173",
+          "-0.033725",
+          "-0.017049",
+          "0.007983",
+          "-0.032632",
+          "0.757011"
+        ],
+        [
+          "Mulgrave",
+          "South-Eastern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.146525",
+          "-0.148062",
+          "-0.059208",
+          "0.101075",
+          "-0.041080",
+          "0.762040"
+        ],
+        [
+          "Rowville",
+          "South-Eastern Metro",
+          "Outer Metro",
+          "LNP",
+          "-0.045763",
+          "0.084970",
+          "-0.036583",
+          "0.043566",
+          "-0.046140",
+          "0.480075"
+        ],
+        [
+          "Cranbourne",
+          "South-Eastern Metro",
+          "Outer Metro",
+          "ALP",
+          "0.085984",
+          "-0.054253",
+          "-0.061124",
+          "-0.043622",
+          "0.073515",
+          "1.453556"
+        ],
+        [
+          "Dandenong",
+          "South-Eastern Metro",
+          "Outer Metro",
+          "ALP",
+          "0.190615",
+          "-0.129070",
+          "-0.034393",
+          "-0.052550",
+          "0.025648",
+          "0.985846"
+        ],
+        [
+          "Narre Warren North",
+          "South-Eastern Metro",
+          "Outer Metro",
+          "ALP",
+          "0.096743",
+          "-0.053357",
+          "-0.046609",
+          "-0.040370",
+          "0.044867",
+          "1.453393"
+        ],
+        [
+          "Narre Warren South",
+          "South-Eastern Metro",
+          "Outer Metro",
+          "ALP",
+          "0.108470",
+          "-0.048494",
+          "-0.049027",
+          "-0.048526",
+          "0.037578",
+          "1.287697"
+        ],
+        [
+          "Frankston",
+          "South-Eastern Metro",
+          "Outer Metro",
+          "ALP",
+          "0.045388",
+          "-0.044866",
+          "0.001162",
+          "-0.029180",
+          "0.027246",
+          "1.060803"
+        ],
+        [
+          "Berwick",
+          "South-Eastern Metro",
+          "Peri-urban",
+          "LNP",
+          "-0.007173",
+          "0.111940",
+          "-0.022251",
+          "-0.056050",
+          "-0.026715",
+          "1.097298"
+        ],
+        [
+          "Carrum",
+          "South-Eastern Metro",
+          "Peri-urban",
+          "ALP",
+          "0.124241",
+          "-0.037321",
+          "-0.042468",
+          "-0.036525",
+          "-0.007927",
+          "1.185771"
+        ],
+        [
+          "Albert Park",
+          "Southern Metro",
+          "Inner Ring",
+          "ALP",
+          "-0.000141",
+          "-0.044492",
+          "0.084828",
+          "-0.011145",
+          "-0.021800",
+          "0.468329"
+        ],
+        [
+          "Brighton",
+          "Southern Metro",
+          "Inner Ring",
+          "LNP",
+          "-0.116627",
+          "0.107537",
+          "0.027602",
+          "0.038761",
+          "-0.030273",
+          "0.280531"
+        ],
+        [
+          "Caulfield",
+          "Southern Metro",
+          "Inner Ring",
+          "LNP",
+          "-0.088818",
+          "0.102008",
+          "0.042694",
+          "-0.008084",
+          "-0.050300",
+          "0.337944"
+        ],
+        [
+          "Prahran",
+          "Southern Metro",
+          "Inner Ring",
+          "Greens",
+          "-0.106799",
+          "-0.031767",
+          "0.230764",
+          "-0.047358",
+          "-0.014339",
+          "0.389561"
+        ],
+        [
+          "Hawthorn",
+          "Southern Metro",
+          "Inner Ring",
+          "LNP",
+          "-0.133704",
+          "0.080559",
+          "0.014169",
+          "0.093002",
+          "-0.049226",
+          "0.162193"
+        ],
+        [
+          "Kew",
+          "Southern Metro",
+          "Inner Ring",
+          "LNP",
+          "-0.132856",
+          "0.109124",
+          "-0.012916",
+          "0.106745",
+          "-0.062846",
+          "0.177989"
+        ],
+        [
+          "Malvern",
+          "Southern Metro",
+          "Inner Ring",
+          "LNP",
+          "-0.111880",
+          "0.175957",
+          "0.037127",
+          "-0.044987",
+          "-0.040417",
+          "0.221322"
+        ],
+        [
+          "Bentleigh",
+          "Southern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.085451",
+          "0.009397",
+          "-0.011895",
+          "-0.036813",
+          "-0.039641",
+          "0.547415"
+        ],
+        [
+          "Sandringham",
+          "Southern Metro",
+          "Middle Ring",
+          "LNP",
+          "-0.105981",
+          "0.107563",
+          "0.017578",
+          "0.018158",
+          "-0.025317",
+          "0.349495"
+        ],
+        [
+          "Ashwood",
+          "Southern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.021058",
+          "0.042834",
+          "0.028111",
+          "-0.037159",
+          "-0.069144",
+          "0.311323"
+        ],
+        [
+          "Oakleigh",
+          "Southern Metro",
+          "Middle Ring",
+          "ALP",
+          "0.088821",
+          "-0.052752",
+          "0.039723",
+          "-0.034284",
+          "-0.046259",
+          "0.729381"
+        ],
+        [
+          "Footscray",
+          "Western Metro",
+          "Inner Ring",
+          "ALP",
+          "0.078411",
+          "-0.169770",
+          "0.105694",
+          "-0.052300",
+          "0.042465",
+          "0.583844"
+        ],
+        [
+          "Williamstown",
+          "Western Metro",
+          "Inner Ring",
+          "ALP",
+          "0.053369",
+          "-0.085458",
+          "0.036007",
+          "-0.020800",
+          "0.016882",
+          "0.864739"
+        ],
+        [
+          "Laverton",
+          "Western Metro",
+          "Middle Ring",
+          "ALP",
+          "0.105426",
+          "-0.129627",
+          "-0.012624",
+          "-0.033740",
+          "0.070315",
+          "0.782934"
+        ],
+        [
+          "Niddrie",
+          "Western Metro",
+          "Middle Ring",
+          "ALP",
+          "0.084689",
+          "-0.006283",
+          "-0.040486",
+          "-0.056300",
+          "0.018130",
+          "1.336365"
+        ],
+        [
+          "St Albans",
+          "Western Metro",
+          "Middle Ring",
+          "ALP",
+          "0.086512",
+          "-0.096264",
+          "-0.034130",
+          "-0.024796",
+          "0.068753",
+          "0.880423"
+        ],
+        [
+          "Kororoit",
+          "Western Metro",
+          "Outer Metro",
+          "ALP",
+          "0.100815",
+          "-0.112589",
+          "-0.043137",
+          "-0.038626",
+          "0.093486",
+          "0.839941"
+        ],
+        [
+          "Point Cook",
+          "Western Metro",
+          "Outer Metro",
+          "ALP",
+          "0.042595",
+          "-0.101015",
+          "-0.042319",
+          "0.065377",
+          "0.035463",
+          "1.118136"
+        ],
+        [
+          "Sydenham",
+          "Western Metro",
+          "Outer Metro",
+          "ALP",
+          "0.097057",
+          "-0.058872",
+          "-0.053191",
+          "-0.046300",
+          "0.061306",
+          "1.122448"
+        ],
+        [
+          "Tarneit",
+          "Western Metro",
+          "Outer Metro",
+          "ALP",
+          "0.108649",
+          "-0.081051",
+          "-0.038308",
+          "-0.021850",
+          "0.032810",
+          "0.975134"
+        ],
+        [
+          "Sunbury",
+          "Western Metro",
+          "Peri-urban",
+          "ALP",
+          "0.087695",
+          "-0.025883",
+          "-0.044810",
+          "-0.018822",
+          "0.011244",
+          "1.529019"
+        ],
+        [
+          "Werribee",
+          "Western Metro",
+          "Peri-urban",
+          "ALP",
+          "0.073043",
+          "-0.115028",
+          "-0.046086",
+          "0.061644",
+          "0.026176",
+          "1.247112"
+        ],
+        [
+          "Evelyn",
+          "Eastern Victoria",
+          "Peri-urban",
+          "LNP",
+          "-0.035126",
+          "0.124761",
+          "-0.019225",
+          "-0.041658",
+          "-0.029252",
+          "0.821904"
+        ],
+        [
+          "Monbulk",
+          "Eastern Victoria",
+          "Peri-urban",
+          "ALP",
+          "-0.006524",
+          "-0.031425",
+          "0.039627",
+          "0.026530",
+          "-0.021709",
+          "0.851398"
+        ],
+        [
+          "Pakenham",
+          "Eastern Victoria",
+          "Peri-urban",
+          "ALP",
+          "-0.014991",
+          "0.002211",
+          "-0.044876",
+          "0.012446",
+          "0.047460",
+          "1.341798"
+        ],
+        [
+          "Mornington",
+          "Eastern Victoria",
+          "Peri-urban",
+          "LNP",
+          "-0.131532",
+          "0.099200",
+          "-0.040881",
+          "0.122805",
+          "-0.049717",
+          "0.651488"
+        ],
+        [
+          "Nepean",
+          "Eastern Victoria",
+          "Peri-urban",
+          "LNP",
+          "-0.042401",
+          "0.124536",
+          "-0.019805",
+          "-0.020161",
+          "-0.041994",
+          "0.912758"
+        ],
+        [
+          "Morwell",
+          "Eastern Victoria",
+          "Provincial",
+          "LNP",
+          "-0.050706",
+          "0.001302",
+          "-0.071974",
+          "0.077804",
+          "0.043573",
+          "2.770334"
+        ],
+        [
+          "Gippsland East",
+          "Eastern Victoria",
+          "Regional",
+          "LNP",
+          "-0.199996",
+          "0.270298",
+          "-0.049775",
+          "-0.034300",
+          "0.013523",
+          "2.052490"
+        ],
+        [
+          "Gippsland South",
+          "Eastern Victoria",
+          "Regional",
+          "LNP",
+          "-0.135867",
+          "0.199483",
+          "-0.027235",
+          "-0.008550",
+          "-0.027580",
+          "1.802508"
+        ],
+        [
+          "Bass",
+          "Eastern Victoria",
+          "Regional",
+          "ALP",
+          "-0.046326",
+          "0.088101",
+          "-0.036406",
+          "-0.006062",
+          "-0.002307",
+          "1.334939"
+        ],
+        [
+          "Hastings",
+          "Eastern Victoria",
+          "Regional",
+          "ALP",
+          "-0.006050",
+          "0.064013",
+          "-0.012651",
+          "-0.046623",
+          "0.001561",
+          "1.353178"
+        ],
+        [
+          "Narracan",
+          "Eastern Victoria",
+          "Regional",
+          "LNP",
+          "-0.073200",
+          "0.165200",
+          "0.047400",
+          "0.007000",
+          "-0.101475",
+          "1.554444"
+        ],
+        [
+          "Yan Yean",
+          "Northern Victoria",
+          "Peri-urban",
+          "ALP",
+          "0.068409",
+          "-0.023117",
+          "-0.051409",
+          "-0.056800",
+          "0.062917",
+          "1.026038"
+        ],
+        [
+          "Shepparton",
+          "Northern Victoria",
+          "Provincial",
+          "LNP",
+          "-0.240000",
+          "0.147110",
+          "-0.087707",
+          "0.259785",
+          "-0.025626",
+          "1.797372"
+        ],
+        [
+          "Bendigo East",
+          "Northern Victoria",
+          "Provincial",
+          "ALP",
+          "0.105914",
+          "-0.050267",
+          "-0.027973",
+          "-0.030422",
+          "-0.041044",
+          "0.724216"
+        ],
+        [
+          "Bendigo West",
+          "Northern Victoria",
+          "Provincial",
+          "ALP",
+          "0.100119",
+          "-0.091474",
+          "0.005861",
+          "-0.032055",
+          "0.017549",
+          "0.735490"
+        ],
+        [
+          "Eildon",
+          "Northern Victoria",
+          "Regional",
+          "LNP",
+          "-0.072626",
+          "0.126166",
+          "-0.001923",
+          "-0.038396",
+          "-0.013095",
+          "1.218300"
+        ],
+        [
+          "Euroa",
+          "Northern Victoria",
+          "Regional",
+          "LNP",
+          "-0.083887",
+          "0.205324",
+          "-0.060129",
+          "-0.056800",
+          "-0.004508",
+          "1.716350"
+        ],
+        [
+          "Macedon",
+          "Northern Victoria",
+          "Regional",
+          "ALP",
+          "0.048788",
+          "-0.042179",
+          "0.005845",
+          "-0.010449",
+          "-0.023586",
+          "1.044780"
+        ],
+        [
+          "Benambra",
+          "Northern Victoria",
+          "Regional",
+          "LNP",
+          "-0.239933",
+          "0.075669",
+          "-0.075323",
+          "0.254656",
+          "-0.015070",
+          "1.291014"
+        ],
+        [
+          "Ovens Valley",
+          "Northern Victoria",
+          "Regional",
+          "LNP",
+          "-0.174854",
+          "0.154595",
+          "-0.034007",
+          "-0.009300",
+          "0.063566",
+          "1.171601"
+        ],
+        [
+          "Mildura",
+          "Northern Victoria",
+          "Regional",
+          "LNP",
+          "-0.240000",
+          "0.091545",
+          "-0.086085",
+          "0.329577",
+          "-0.046215",
+          "1.839468"
+        ],
+        [
+          "Murray Plains",
+          "Northern Victoria",
+          "Regional",
+          "LNP",
+          "-0.192874",
+          "0.267879",
+          "-0.073201",
+          "-0.037715",
+          "0.035812",
+          "1.871836"
+        ],
+        [
+          "Lara",
+          "Western Victoria",
+          "Peri-urban",
+          "ALP",
+          "0.135338",
+          "-0.125738",
+          "-0.009319",
+          "-0.036876",
+          "0.036445",
+          "2.155067"
+        ],
+        [
+          "Melton",
+          "Western Victoria",
+          "Peri-urban",
+          "ALP",
+          "-0.013067",
+          "-0.122989",
+          "-0.067543",
+          "0.154724",
+          "0.051875",
+          "1.407879"
+        ],
+        [
+          "Bellarine",
+          "Western Victoria",
+          "Peri-urban",
+          "ALP",
+          "0.061736",
+          "-0.009152",
+          "-0.002099",
+          "-0.022534",
+          "-0.027951",
+          "0.511072"
+        ],
+        [
+          "Wendouree",
+          "Western Victoria",
+          "Provincial",
+          "ALP",
+          "0.101534",
+          "-0.038807",
+          "-0.012522",
+          "-0.048024",
+          "-0.002182",
+          "1.193473"
+        ],
+        [
+          "Geelong",
+          "Western Victoria",
+          "Provincial",
+          "ALP",
+          "0.070526",
+          "-0.087431",
+          "0.024234",
+          "0.021721",
+          "-0.029150",
+          "1.513584"
+        ],
+        [
+          "South Barwon",
+          "Western Victoria",
+          "Provincial",
+          "ALP",
+          "0.045848",
+          "-0.009086",
+          "0.003046",
+          "-0.056800",
+          "0.016991",
+          "0.760411"
+        ],
+        [
+          "Eureka",
+          "Western Victoria",
+          "Regional",
+          "ALP",
+          "0.036452",
+          "-0.031865",
+          "-0.009268",
+          "-0.024158",
+          "0.028964",
+          "1.584351"
+        ],
+        [
+          "Ripon",
+          "Western Victoria",
+          "Regional",
+          "ALP",
+          "0.009616",
+          "0.016370",
+          "-0.056664",
+          "-0.035837",
+          "0.066515",
+          "1.589054"
+        ],
+        [
+          "Lowan",
+          "Western Victoria",
+          "Regional",
+          "LNP",
+          "-0.180274",
+          "0.257715",
+          "-0.054974",
+          "-0.015741",
+          "-0.007052",
+          "1.516348"
+        ],
+        [
+          "Polwarth",
+          "Western Victoria",
+          "Regional",
+          "LNP",
+          "-0.085482",
+          "0.086414",
+          "0.038511",
+          "-0.023904",
+          "-0.015489",
+          "0.625357"
+        ],
+        [
+          "South-West Coast",
+          "Western Victoria",
+          "Regional",
+          "LNP",
+          "-0.161713",
+          "0.061133",
+          "-0.057020",
+          "0.197168",
+          "-0.039567",
+          "0.587502"
+        ]
+      ]
+    },
+    "PARAMS": {
+      "range": "PARAMS!A1:K220",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "ON Vote source matrix"
+        ],
+        [
+          "Seat Type",
+          "ALP",
+          "LNP",
+          "GRN",
+          "IND",
+          "OTH"
+        ],
+        [
+          "Inner Ring",
+          "18%",
+          "50%",
+          "2%",
+          "5%",
+          "25%",
+          "100%"
+        ],
+        [
+          "Middle Ring",
+          "21%",
+          "50%",
+          "2%",
+          "5%",
+          "22%",
+          "100%"
+        ],
+        [
+          "Outer Metro",
+          "21%",
+          "50%",
+          "2%",
+          "5%",
+          "22%",
+          "100%"
+        ],
+        [
+          "Peri-urban",
+          "23%",
+          "50%",
+          "2%",
+          "3%",
+          "23%",
+          "100%"
+        ],
+        [
+          "Provincial",
+          "25%",
+          "50%",
+          "2%",
+          "3%",
+          "20%",
+          "100%"
+        ],
+        [
+          "Regional",
+          "10%",
+          "65%",
+          "2%",
+          "3%",
+          "20%",
+          "100%"
+        ],
+        [],
+        [
+          "ON-column prior table (pref to ON)",
+          "Inner Ring",
+          "Middle Ring",
+          "Outer Metro",
+          "Peri-urban",
+          "Provincial",
+          "Regional"
+        ],
+        [
+          "ALP",
+          "0.1",
+          "0.15",
+          "0.2",
+          "0.2",
+          "0.15",
+          "0.25"
+        ],
+        [
+          "LNP",
+          "0.2",
+          "0.3",
+          "0.35",
+          "0.45",
+          "0.6",
+          "0.6"
+        ],
+        [
+          "GRN",
+          "0.05",
+          "0.05",
+          "0.05",
+          "0.1",
+          "0.1",
+          "0.1"
+        ],
+        [
+          "IND",
+          "0.15",
+          "0.15",
+          "0.15",
+          "0.25",
+          "0.25",
+          "0.25"
+        ],
+        [
+          "OTH",
+          "0.25",
+          "0.35",
+          "0.45",
+          "0.5",
+          "0.5",
+          "0.5"
+        ],
+        [],
+        [
+          "ON-row prior table (pref from ON)"
+        ],
+        [
+          "Seat Type",
+          "ALP",
+          "LNP",
+          "GRN",
+          "IND",
+          "OTH"
+        ],
+        [
+          "Inner Ring",
+          "0.12",
+          "0.53",
+          "0.05",
+          "0.10",
+          "0.20",
+          "1.00"
+        ],
+        [
+          "Middle Ring",
+          "0.12",
+          "0.58",
+          "0.05",
+          "0.06",
+          "0.19",
+          "1.00"
+        ],
+        [
+          "Outer Metro",
+          "0.12",
+          "0.58",
+          "0.05",
+          "0.06",
+          "0.19",
+          "1.00"
+        ],
+        [
+          "Peri-urban",
+          "0.10",
+          "0.63",
+          "0.03",
+          "0.06",
+          "0.18",
+          "1.00"
+        ],
+        [
+          "Provincial",
+          "0.10",
+          "0.62",
+          "0.03",
+          "0.06",
+          "0.19",
+          "1.00"
+        ],
+        [
+          "Regional",
+          "0.10",
+          "0.63",
+          "0.03",
+          "0.05",
+          "0.19",
+          "1.00"
+        ],
+        [],
+        [
+          "Adjusts preference flows by geography. Positive values increase flow toward that party; negative values reduce it. Applied after ideology but before caps."
+        ],
+        [
+          "Geography",
+          "ALP",
+          "LNP",
+          "GRN",
+          "ON",
+          "IND",
+          "OTH"
+        ],
+        [
+          "InnerMetro",
+          "0.1",
+          "-0.1",
+          "0.12",
+          "-0.12",
+          "0.06",
+          "0"
+        ],
+        [
+          "OuterMetro",
+          "0.04",
+          "-0.04",
+          "0.02",
+          "0.04",
+          "0.02",
+          "0"
+        ],
+        [
+          "Provincial",
+          "-0.03",
+          "0.03",
+          "-0.05",
+          "0.06",
+          "0.02",
+          "0"
+        ],
+        [
+          "Rural",
+          "-0.06",
+          "0.06",
+          "-0.1",
+          "0.1",
+          "0.02",
+          "0"
+        ],
+        [],
+        [
+          "ON alpha",
+          "0.6"
+        ],
+        [],
+        [
+          "Core blending/evidence params"
+        ],
+        [
+          "AEC_PRIOR_BLEND",
+          "0.7",
+          "How much weight to give seat-specific AEC conditional flows vs ideological priors when estimating unknown preference mass."
+        ],
+        [
+          "AEC_ANCHOR_WHEN_MISSING",
+          "0.4",
+          "Baseline AEC weight applied when alive parties are missing, regardless of coverage"
+        ],
+        [
+          "AEC_MISMATCH_MAX",
+          "0.3",
+          "Maximum allowed AEC anchor weight when the AEC row is missing any alive party"
+        ],
+        [
+          "AEC_BLEND_COV_MIN",
+          "0.5",
+          "Coverage level where AEC blending begins"
+        ],
+        [
+          "AEC_BLEND_COV_MAX",
+          "0.9",
+          "Coverage level where AEC reaches full strength"
+        ],
+        [
+          "AEC_BLEND_STRENGTH",
+          "0.75",
+          "Overall multiplier on AEC influence"
+        ],
+        [
+          "POST_ENTRY_STRENGTH",
+          "0.75",
+          "Proportion of posterior mass allowed to enter when a party is alive but missing from AEC row"
+        ],
+        [
+          "POST_ENTRY_FLOOR",
+          "0.15",
+          "Hard minimum share given to missing alive parties when posterior parsing yields zero"
+        ],
+        [
+          "MIN_SUPPORT",
+          "0.005",
+          "Minimum floor applied to all alive parties to prevent zero-probability outcomes and numerical instability."
+        ],
+        [],
+        [
+          "Caps/plausibility controls"
+        ],
+        [
+          "MAJOR_PAIR_MAX",
+          "0.9",
+          "Maximum share any party can receive in a final two-candidate (2CP) count, unless overridden by strong AEC evidence."
+        ],
+        [
+          "THREE_WAY_MAX",
+          "0.8",
+          "Maximum share any party can receive in a three-candidate (3CP) scenario to prevent implausible dominance."
+        ],
+        [
+          "IND_OTH_MAX",
+          "0.75",
+          "Tighter cap applied when IND or OTH are involved, preventing unrealistic landslide flows from minor parties."
+        ],
+        [],
+        [
+          "Shrinkage/smoothing"
+        ],
+        [
+          "EMPIRICAL_SHRINKAGE_K",
+          "10",
+          "Controls how strongly small-sample empirical posteriors are shrunk toward the prior."
+        ],
+        [
+          "K_DIRICHLET",
+          "50"
+        ],
+        [
+          "PARCEL_ORIGIN_RETENTION",
+          "1",
+          "Share of transferred lower-house preference parcels that retain primary-origin behaviour; 0 reproduces the legacy holder-only engine and 1 is fully parcel-aware. ON special scenario priors remain locked holder-level rules."
+        ],
+        [],
+        [
+          "ON-specific"
+        ],
+        [
+          "AEC_2CP_ANCHOR_ON",
+          "0.15",
+          "AEC anchor strength when ON is eliminated in a final ALP–LNP count"
+        ],
+        [
+          "SIPHON_STRENGTH_ON",
+          "0.25",
+          "Party-specific siphon aggressiveness"
+        ],
+        [
+          "SIPHON_DONOR_CAP",
+          "0.15",
+          "Maximum share a donor party can lose to siphoning"
+        ],
+        [
+          "GRN_RURAL_GEO_STRENGTH",
+          "0"
+        ],
+        [
+          "SIPHON_ON_FROM_GRN_MULT",
+          "0"
+        ],
+        [
+          "OTH_ON_DONOR_DEPLETION_STRENGTH",
+          "0.5",
+          "Reduces only the generic OTH-to-ON siphon as ON rises; 0 disables and 1 removes the full siphon by the reference ON vote."
+        ],
+        [
+          "OTH_ON_DEPLETION_BASELINE",
+          "0.28",
+          "Historical statewide ON primary used as the zero-depletion anchor."
+        ],
+        [
+          "OTH_ON_DEPLETION_REFERENCE",
+          "24.4",
+          "Statewide ON primary at which the full configured depletion strength applies."
+        ],
+        [
+          "Geography"
+        ],
+        [
+          "CLASS_SMOOTH_K",
+          "50000"
+        ],
+        [
+          "NON_ON_GEOGRAPHY_STRENGTH",
+          "0.75",
+          "Multiplier applied to ALP, LNP, GRN, IND and OTH preference-geography adjustments; ON adjustments remain at full strength."
+        ],
+        [
+          "GRN_PVI_PERSISTENCE",
+          "1",
+          "Multiplier applied to the Greens' 2022 district PVI before statewide primary calibration; 1 retains the current geography and lower values flatten it."
+        ],
+        [
+          "ON_PRIMARY_DONOR_STRENGTH",
+          "0.35",
+          "Blends primary geography toward explicit ON vote sourcing from the seat-class source matrix; 0 is legacy proportional geography and 1 is full matrix sourcing."
+        ],
+        [
+          "ON_PRIMARY_OTH_DEPLETION_STRENGTH",
+          "0.75",
+          "Maximum fraction of OTH's primary donor weight reallocated as ON rises; released weight moves one-third to ALP and two-thirds to LNP."
+        ],
+        [
+          "ON_PRIMARY_OTH_DEPLETION_START",
+          "10",
+          "Statewide ON primary at which primary-source OTH depletion begins."
+        ],
+        [
+          "ON_PRIMARY_OTH_DEPLETION_FULL",
+          "30",
+          "Statewide ON primary at which maximum primary-source OTH depletion applies."
+        ],
+        [
+          "RETIRING_INCUMBENT_PENALTY_PP",
+          "1",
+          "Default primary-vote penalty when the incumbent member retires; editable by seat in LOWER_SEAT_ADJUSTMENTS."
+        ],
+        [
+          "SOPHOMORE_SURGE_BONUS_PP",
+          "1",
+          "Default primary-vote bonus for a member contesting their first re-election; editable by seat in LOWER_SEAT_ADJUSTMENTS."
+        ],
+        [
+          "Optional for later"
+        ],
+        [
+          "PRIMARY_TILT_K",
+          "0.2",
+          "Strength of primary-vote adjustment when allocating preferences between ALP and LNP (bounded by PRIMARY_TILT_MAX)."
+        ],
+        [
+          "PRIMARY_TILT_MAX",
+          "0.03",
+          "Hard limit on how much primary-vote differences can move preference flows in either direction."
+        ],
+        [
+          "IND_OTH_WEAK_TILT_K",
+          "0.3",
+          "Weak adjustment for IND/OTH preferences based on GRN vs ON primaries (used instead of LNP primaries to avoid teal distortions)."
+        ],
+        [
+          "IND_OTH_WEAK_TILT_MAX",
+          "0.02",
+          "Maximum size of the weak GRN–ON tilt applied to IND or OTH preference flows."
+        ],
+        [
+          "IND_TO_GRN_INNERMETROBUMP",
+          "0.06",
+          "Extra boost for IND → GRN preference flows in inner-metro seats, reflecting teal–Green voter overlap."
+        ],
+        [
+          "IND_TO_GRN_OTHER_BUMP",
+          "0.02",
+          "Smaller IND → GRN boost applied outside inner-metro seats."
+        ],
+        [
+          "RESERVE_MASS_WHEN_ALIVE_ZERO",
+          "0.12",
+          "Forces some preference mass to be allocated by priors when AEC data shows zero flows to still-alive parties, preventing “two-destination collapse”."
+        ],
+        [
+          "SMOOTH_LAMBDA",
+          "0.1",
+          "Weakly blends in the completed (Markov) matrix to smooth sharp edges when AEC data is sparse. Set to 0 to disable smoothing entirely."
+        ],
+        [],
+        [
+          "ON_SPECIAL_SCENARIO_PRIORS"
+        ],
+        [
+          "AliveSet",
+          "Eliminated",
+          "Seat Type",
+          "ALP",
+          "LNP",
+          "ON"
+        ],
+        [
+          "ALP+ON",
+          "LNP",
+          "Inner Ring",
+          "0.5",
+          "",
+          "0.5"
+        ],
+        [
+          "ALP+ON",
+          "GRN",
+          "Inner Ring",
+          "0.91",
+          "",
+          "0.09"
+        ],
+        [
+          "ALP+ON",
+          "IND",
+          "Inner Ring",
+          "0.85",
+          "",
+          "0.15"
+        ],
+        [
+          "ALP+ON",
+          "OTH",
+          "Inner Ring",
+          "0.7",
+          "",
+          "0.3"
+        ],
+        [
+          "ALP+ON",
+          "LNP",
+          "Outer Metro",
+          "0.37",
+          "",
+          "0.63"
+        ],
+        [
+          "ALP+ON",
+          "GRN",
+          "Outer Metro",
+          "0.91",
+          "",
+          "0.09"
+        ],
+        [
+          "ALP+ON",
+          "IND",
+          "Outer Metro",
+          "0.75",
+          "",
+          "0.25"
+        ],
+        [
+          "ALP+ON",
+          "OTH",
+          "Outer Metro",
+          "0.58",
+          "",
+          "0.42"
+        ],
+        [
+          "ALP+ON",
+          "LNP",
+          "Provincial",
+          "0.31",
+          "",
+          "0.69"
+        ],
+        [
+          "ALP+ON",
+          "GRN",
+          "Provincial",
+          "0.91",
+          "",
+          "0.09"
+        ],
+        [
+          "ALP+ON",
+          "IND",
+          "Provincial",
+          "0.75",
+          "",
+          "0.25"
+        ],
+        [
+          "ALP+ON",
+          "OTH",
+          "Provincial",
+          "0.58",
+          "",
+          "0.42"
+        ],
+        [
+          "ALP+ON",
+          "LNP",
+          "Peri-urban",
+          "0.24",
+          "",
+          "0.76"
+        ],
+        [
+          "ALP+ON",
+          "GRN",
+          "Peri-urban",
+          "0.87",
+          "",
+          "0.13"
+        ],
+        [
+          "ALP+ON",
+          "IND",
+          "Peri-urban",
+          "0.55",
+          "",
+          "0.45"
+        ],
+        [
+          "ALP+ON",
+          "OTH",
+          "Peri-urban",
+          "0.53",
+          "",
+          "0.47"
+        ],
+        [
+          "ALP+ON",
+          "LNP",
+          "Regional",
+          "0.21",
+          "",
+          "0.79"
+        ],
+        [
+          "ALP+ON",
+          "GRN",
+          "Regional",
+          "0.87",
+          "",
+          "0.13"
+        ],
+        [
+          "ALP+ON",
+          "IND",
+          "Regional",
+          "0.55",
+          "",
+          "0.45"
+        ],
+        [
+          "ALP+ON",
+          "OTH",
+          "Regional",
+          "0.53",
+          "",
+          "0.47"
+        ],
+        [
+          "LNP+ON",
+          "ALP",
+          "Inner Ring",
+          "",
+          "0.72",
+          "0.28"
+        ],
+        [
+          "LNP+ON",
+          "GRN",
+          "Inner Ring",
+          "",
+          "0.82",
+          "0.18"
+        ],
+        [
+          "LNP+ON",
+          "IND",
+          "Inner Ring",
+          "",
+          "0.8",
+          "0.2"
+        ],
+        [
+          "LNP+ON",
+          "OTH",
+          "Inner Ring",
+          "",
+          "0.77",
+          "0.23"
+        ],
+        [
+          "LNP+ON",
+          "ALP",
+          "Outer Metro",
+          "",
+          "0.75",
+          "0.25"
+        ],
+        [
+          "LNP+ON",
+          "GRN",
+          "Outer Metro",
+          "",
+          "0.7",
+          "0.3"
+        ],
+        [
+          "LNP+ON",
+          "IND",
+          "Outer Metro",
+          "",
+          "0.65",
+          "0.35"
+        ],
+        [
+          "LNP+ON",
+          "OTH",
+          "Outer Metro",
+          "",
+          "0.58",
+          "0.42"
+        ],
+        [
+          "LNP+ON",
+          "ALP",
+          "Provincial",
+          "",
+          "0.75",
+          "0.25"
+        ],
+        [
+          "LNP+ON",
+          "GRN",
+          "Provincial",
+          "",
+          "0.7",
+          "0.3"
+        ],
+        [
+          "LNP+ON",
+          "IND",
+          "Provincial",
+          "",
+          "0.65",
+          "0.35"
+        ],
+        [
+          "LNP+ON",
+          "OTH",
+          "Provincial",
+          "",
+          "0.58",
+          "0.42"
+        ],
+        [
+          "LNP+ON",
+          "ALP",
+          "Peri-urban",
+          "",
+          "0.64",
+          "0.36"
+        ],
+        [
+          "LNP+ON",
+          "GRN",
+          "Peri-urban",
+          "",
+          "0.77",
+          "0.23"
+        ],
+        [
+          "LNP+ON",
+          "IND",
+          "Peri-urban",
+          "",
+          "0.5",
+          "0.5"
+        ],
+        [
+          "LNP+ON",
+          "OTH",
+          "Peri-urban",
+          "",
+          "0.54",
+          "0.46"
+        ],
+        [
+          "LNP+ON",
+          "ALP",
+          "Regional",
+          "",
+          "0.64",
+          "0.36"
+        ],
+        [
+          "LNP+ON",
+          "GRN",
+          "Regional",
+          "",
+          "0.77",
+          "0.23"
+        ],
+        [
+          "LNP+ON",
+          "IND",
+          "Regional",
+          "",
+          "0.5",
+          "0.5"
+        ],
+        [
+          "LNP+ON",
+          "OTH",
+          "Regional",
+          "",
+          "0.54",
+          "0.46"
+        ],
+        [
+          "ALP+ON",
+          "LNP",
+          "Middle Ring",
+          "0.44",
+          "",
+          "0.56"
+        ],
+        [
+          "ALP+ON",
+          "GRN",
+          "Middle Ring",
+          "0.91",
+          "",
+          "0.09"
+        ],
+        [
+          "ALP+ON",
+          "IND",
+          "Middle Ring",
+          "0.8",
+          "",
+          "0.2"
+        ],
+        [
+          "ALP+ON",
+          "OTH",
+          "Middle Ring",
+          "0.64",
+          "",
+          "0.36"
+        ],
+        [
+          "LNP+ON",
+          "ALP",
+          "Middle Ring",
+          "",
+          "0.73",
+          "0.27"
+        ],
+        [
+          "LNP+ON",
+          "GRN",
+          "Middle Ring",
+          "",
+          "0.85",
+          "0.15"
+        ],
+        [
+          "LNP+ON",
+          "IND",
+          "Middle Ring",
+          "",
+          "0.73",
+          "0.27"
+        ],
+        [
+          "LNP+ON",
+          "OTH",
+          "Middle Ring",
+          "",
+          "0.62",
+          "0.38"
+        ]
+      ]
+    },
+    "LOWER_SEAT_ADJUSTMENTS": {
+      "range": "LOWER_SEAT_ADJUSTMENTS!A1:J100",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "district",
+          "party",
+          "retiring_incumbent",
+          "first_re_election",
+          "retirement_penalty_pp",
+          "sophomore_bonus_pp",
+          "candidate_strength_pp",
+          "manual_adjustment_pp",
+          "enabled",
+          "notes"
+        ],
+        [
+          "Albert Park",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Ashwood",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Bass",
+          "ALP",
+          "TRUE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Bayswater",
+          "ALP",
+          "TRUE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Bellarine",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Benambra",
+          "LNP",
+          "TRUE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Bendigo East",
+          "ALP",
+          "TRUE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Bendigo West",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Bentleigh",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Berwick",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Box Hill",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Brighton",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Broadmeadows",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Brunswick",
+          "GRN",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Bulleen",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Bundoora",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Carrum",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Caulfield",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Clarinda",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Cranbourne",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Croydon",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Dandenong",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Eildon",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Eltham",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Essendon",
+          "ALP",
+          "TRUE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Eureka",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Euroa",
+          "LNP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Evelyn",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Footscray",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Frankston",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Geelong",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Gippsland East",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Gippsland South",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Glen Waverley",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Greenvale",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Hastings",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Hawthorn",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Ivanhoe",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Kalkallo",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Kew",
+          "LNP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Kororoit",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Lara",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Laverton",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Lowan",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Macedon",
+          "ALP",
+          "TRUE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Malvern",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Melbourne",
+          "GRN",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Melton",
+          "ALP",
+          "TRUE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Mildura",
+          "LNP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Mill Park",
+          "ALP",
+          "TRUE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Monbulk",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Mordialloc",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Mornington",
+          "LNP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Morwell",
+          "LNP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Mulgrave",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Murray Plains",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Narracan",
+          "LNP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Narre Warren North",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Narre Warren South",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Nepean",
+          "LNP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Niddrie",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Northcote",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Oakleigh",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Ovens Valley",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Pakenham",
+          "ALP",
+          "TRUE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Pascoe Vale",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Point Cook",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Polwarth",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Prahran",
+          "GRN",
+          "TRUE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Preston",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Richmond",
+          "GRN",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Ringwood",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Ripon",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Rowville",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Sandringham",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Shepparton",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "South Barwon",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "South-West Coast",
+          "LNP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "St Albans",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Sunbury",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Sydenham",
+          "ALP",
+          "TRUE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Tarneit",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Thomastown",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Warrandyte",
+          "LNP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Wendouree",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Werribee",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Williamstown",
+          "ALP",
+          "FALSE",
+          "FALSE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Yan Yean",
+          "ALP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE"
+        ],
+        [
+          "Prahran",
+          "LNP",
+          "FALSE",
+          "TRUE",
+          "",
+          "",
+          "",
+          "",
+          "TRUE",
+          "LNP incumbent elected at 2025 by-election; sophomore effect while general-election held party remains GRN"
+        ]
+      ]
+    },
+    "LOWER_LNP_PRECOLLAPSE": {
+      "range": "LOWER_LNP_PRECOLLAPSE!A1:J100",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "Electorate",
+          "OriginCategory",
+          "DestinationCategory",
+          "Share",
+          "FrontierRound",
+          "CandidateSubtypeMix",
+          "Enabled",
+          "Strength",
+          "ManualOverrideShare",
+          "Source"
+        ],
+        [
+          "Bass",
+          "LNP",
+          "ALP",
+          "9.54%",
+          "8",
+          "LIB:12482|NAT:5506",
+          "TRUE",
+          "100.00%",
+          "",
+          "VEC 2022 candidate-origin pass-through"
+        ],
+        [
+          "Bass",
+          "LNP",
+          "LNP",
+          "90.46%",
+          "8",
+          "LIB:12482|NAT:5506",
+          "TRUE",
+          "100.00%",
+          "",
+          "VEC 2022 candidate-origin pass-through"
+        ],
+        [
+          "Euroa",
+          "LNP",
+          "ALP",
+          "5.28%",
+          "5",
+          "NAT:13496|LIB:9227",
+          "TRUE",
+          "100.00%",
+          "",
+          "VEC 2022 candidate-origin pass-through"
+        ],
+        [
+          "Euroa",
+          "LNP",
+          "LNP",
+          "94.72%",
+          "5",
+          "NAT:13496|LIB:9227",
+          "TRUE",
+          "100.00%",
+          "",
+          "VEC 2022 candidate-origin pass-through"
+        ],
+        [
+          "Mildura",
+          "LNP",
+          "IND",
+          "9.74%",
+          "9",
+          "NAT:9868|LIB:7291",
+          "TRUE",
+          "100.00%",
+          "",
+          "VEC 2022 candidate-origin pass-through"
+        ],
+        [
+          "Mildura",
+          "LNP",
+          "LNP",
+          "90.26%",
+          "9",
+          "NAT:9868|LIB:7291",
+          "TRUE",
+          "100.00%",
+          "",
+          "VEC 2022 candidate-origin pass-through"
+        ],
+        [
+          "Morwell",
+          "LNP",
+          "ALP",
+          "4.55%",
+          "10",
+          "NAT:9902|LIB:6710",
+          "TRUE",
+          "100.00%",
+          "",
+          "VEC 2022 candidate-origin pass-through"
+        ],
+        [
+          "Morwell",
+          "LNP",
+          "LNP",
+          "95.45%",
+          "10",
+          "NAT:9902|LIB:6710",
+          "TRUE",
+          "100.00%",
+          "",
+          "VEC 2022 candidate-origin pass-through"
+        ],
+        [
+          "Shepparton",
+          "LNP",
+          "IND",
+          "9.16%",
+          "7",
+          "NAT:13242|LIB:8491",
+          "TRUE",
+          "100.00%",
+          "",
+          "VEC 2022 candidate-origin pass-through"
+        ],
+        [
+          "Shepparton",
+          "LNP",
+          "LNP",
+          "90.84%",
+          "7",
+          "NAT:13242|LIB:8491",
+          "TRUE",
+          "100.00%",
+          "",
+          "VEC 2022 candidate-origin pass-through"
+        ]
+      ]
+    },
+    "LOWER_ON_PREF_CONFIG": {
+      "range": "LOWER_ON_PREF_CONFIG!A1:C20",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "Parameter",
+          "Value",
+          "Description"
+        ],
+        [
+          "ENABLED",
+          "TRUE",
+          "Use Victorian-only 2025 federal preference evidence for exact ON-related scenarios"
+        ],
+        [
+          "REMOVE_ON_SIPHON",
+          "TRUE",
+          "Remove the generic ON siphon whenever an evidence-backed exact scenario is used"
+        ],
+        [
+          "MINIMUM_SEATS",
+          "2",
+          "Exclude scenarios observed in fewer Victorian federal electorates"
+        ],
+        [
+          "PRIOR_EQUIVALENT_SEATS",
+          "20",
+          "Controls sample-size shrinkage toward the Victorian model"
+        ],
+        [
+          "VARIANCE_PENALTY",
+          "10",
+          "Downweights scenarios with greater between-seat variation"
+        ],
+        [
+          "MAXIMUM_EVIDENCE_WEIGHT",
+          "0.5",
+          "Maximum share assigned to federal evidence"
+        ],
+        [
+          "SOURCE_STATE",
+          "VIC",
+          "Restrict source evidence to Victorian federal electorates"
+        ],
+        [
+          "POOLING_METHOD",
+          "EQUAL_SEAT",
+          "Give each observed federal electorate equal influence"
+        ]
+      ]
+    },
+    "SUB-REGIONS": {
+      "range": "'SUB-REGIONS'!A1:D95",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "District",
+          "Proposed sub-region",
+          "Confidence",
+          "Rationale / validation priority"
+        ],
+        [
+          "Albert Park",
+          "Inner East",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Ashwood",
+          "Eastern Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Bass",
+          "Mornington Peninsula & Western Port",
+          "Medium",
+          "Review historical swing correlations"
+        ],
+        [
+          "Bayswater",
+          "Outer Eastern Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Bellarine",
+          "Geelong & Bellarine",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Benambra",
+          "North-East Victoria",
+          "Medium",
+          "Review historical swing correlations"
+        ],
+        [
+          "Bendigo East",
+          "Bendigo & Loddon",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Bendigo West",
+          "Bendigo & Loddon",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Bentleigh",
+          "Inner South-East",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Berwick",
+          "South-Eastern Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Box Hill",
+          "Eastern Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Brighton",
+          "Inner South",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Broadmeadows",
+          "Northern Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Brunswick",
+          "Inner North",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Bulleen",
+          "North-Eastern Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Bundoora",
+          "Northern Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Carrum",
+          "South-Eastern Bayside",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Caulfield",
+          "Inner South",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Clarinda",
+          "South-Eastern Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Cranbourne",
+          "South-Eastern Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Croydon",
+          "Outer Eastern Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Dandenong",
+          "South-Eastern Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Eildon",
+          "Yarra Ranges Fringe",
+          "Low",
+          "Review historical swing correlations"
+        ],
+        [
+          "Eltham",
+          "North-Eastern Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Essendon",
+          "Inner West",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Eureka",
+          "Ballarat & Central West",
+          "Medium",
+          "Review historical swing correlations"
+        ],
+        [
+          "Euroa",
+          "Northern Plains & Goulburn",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Evelyn",
+          "Yarra Ranges Fringe",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Footscray",
+          "Inner West",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Frankston",
+          "South-Eastern Bayside",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Geelong",
+          "Geelong & Bellarine",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Gippsland East",
+          "Gippsland",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Gippsland South",
+          "Gippsland",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Glen Waverley",
+          "Eastern Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Greenvale",
+          "Northern Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Hastings",
+          "Mornington Peninsula & Western Port",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Hawthorn",
+          "Inner East",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Ivanhoe",
+          "Northern Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Kalkallo",
+          "Northern Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Kew",
+          "Inner East",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Kororoit",
+          "Western Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Lara",
+          "Geelong & Bellarine",
+          "Medium",
+          "Review historical swing correlations"
+        ],
+        [
+          "Laverton",
+          "Western Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Lowan",
+          "Western District & Surf Coast",
+          "Low",
+          "Review historical swing correlations"
+        ],
+        [
+          "Macedon",
+          "North-Western Fringe",
+          "Medium",
+          "Review historical swing correlations"
+        ],
+        [
+          "Malvern",
+          "Inner South",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Melbourne",
+          "Inner North",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Melton",
+          "Western Growth Corridor",
+          "Medium",
+          "Review historical swing correlations"
+        ],
+        [
+          "Mildura",
+          "Northern Plains & Goulburn",
+          "Low",
+          "Review historical swing correlations"
+        ],
+        [
+          "Mill Park",
+          "Northern Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Monbulk",
+          "Yarra Ranges Fringe",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Mordialloc",
+          "South-Eastern Bayside",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Mornington",
+          "Mornington Peninsula & Western Port",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Morwell",
+          "Gippsland",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Mulgrave",
+          "South-Eastern Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Murray Plains",
+          "Bendigo & Loddon",
+          "Low",
+          "Review historical swing correlations"
+        ],
+        [
+          "Narracan",
+          "Gippsland",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Narre Warren North",
+          "South-Eastern Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Narre Warren South",
+          "South-Eastern Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Nepean",
+          "Mornington Peninsula & Western Port",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Niddrie",
+          "Western Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Northcote",
+          "Inner North",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Oakleigh",
+          "Inner South-East",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Ovens Valley",
+          "North-East Victoria",
+          "Medium",
+          "Review historical swing correlations"
+        ],
+        [
+          "Pakenham",
+          "South-Eastern Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Pascoe Vale",
+          "Inner West",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Point Cook",
+          "Western Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Polwarth",
+          "Western District & Surf Coast",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Prahran",
+          "Inner East",
+          "Medium",
+          "Review historical swing correlations"
+        ],
+        [
+          "Preston",
+          "Northern Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Richmond",
+          "Inner North",
+          "Medium",
+          "Review historical swing correlations"
+        ],
+        [
+          "Ringwood",
+          "Eastern Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Ripon",
+          "Ballarat & Central West",
+          "Medium",
+          "Review historical swing correlations"
+        ],
+        [
+          "Rowville",
+          "Outer Eastern Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Sandringham",
+          "Inner South-East",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Shepparton",
+          "Northern Plains & Goulburn",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "South Barwon",
+          "Geelong & Bellarine",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "South-West Coast",
+          "Western District & Surf Coast",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "St Albans",
+          "Western Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Sunbury",
+          "North-Western Fringe",
+          "Medium",
+          "Review historical swing correlations"
+        ],
+        [
+          "Sydenham",
+          "Western Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Tarneit",
+          "Western Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Thomastown",
+          "Northern Middle Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Warrandyte",
+          "North-Eastern Suburbs",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Wendouree",
+          "Ballarat & Central West",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Werribee",
+          "Western Growth Corridor",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Williamstown",
+          "Inner West",
+          "High",
+          "Geographic and settlement-pattern fit"
+        ],
+        [
+          "Yan Yean",
+          "North-Western Fringe",
+          "Medium",
+          "Review historical swing correlations"
+        ]
+      ]
+    },
+    "PARTISAN LEAN": {
+      "range": "'PARTISAN LEAN'!A1:L8",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          null,
+          null,
+          null,
+          null,
+          "Labor Lean",
+          "Coalition Lean",
+          "Greens Lean",
+          "One Nation Lean",
+          "Independent Lean",
+          "Other Lean",
+          "Labor 2PP Lean",
+          "Coalition 2PP Lean"
+        ],
+        [
+          "Box Hill",
+          "North-Eastern Metro",
+          "Middle Ring",
+          "ALP",
+          "3.01%",
+          "2.72%",
+          "2.65%"
+        ],
+        [
+          "Bulleen",
+          "North-Eastern Metro",
+          "Middle Ring",
+          "LNP",
+          "-4.47%",
+          "14.40%",
+          "-0.54%"
+        ],
+        [
+          "Glen Waverley",
+          "North-Eastern Metro",
+          "Middle Ring",
+          "ALP",
+          "2.76%",
+          "7.53%",
+          "-2.02%"
+        ],
+        [
+          "Ivanhoe",
+          "North-Eastern Metro",
+          "Middle Ring",
+          "ALP",
+          "5.41%",
+          "-3.36%",
+          "6.80%"
+        ],
+        [
+          "Bundoora",
+          "North-Eastern Metro",
+          "Middle Ring",
+          "ALP",
+          "11.48%",
+          "-6.50%",
+          "0.61%"
+        ],
+        [
+          "Bayswater",
+          "North-Eastern Metro",
+          "Outer Metro",
+          "ALP",
+          "2.95%",
+          "3.99%",
+          "-3.53%"
+        ],
+        [
+          "Croydon",
+          "North-Eastern Metro",
+          "Outer Metro",
+          "LNP",
+          "-2.76%",
+          "9.17%",
+          "-0.93%"
+        ]
+      ]
+    },
+    "AVERAGE PRIMARY LEANS": {
+      "range": "'AVERAGE PRIMARY LEANS'!A1:J8",
+      "majorDimension": "ROWS",
+      "values": [
+        [
+          "Electorate",
+          "Labor",
+          "Coalition",
+          "Greens",
+          "One Nation",
+          "Independent",
+          "Other"
+        ],
+        [
+          "Albert Park",
+          "+0.9%",
+          "-2.0%",
+          "+9.0%",
+          "-4.8%",
+          "-1.0%",
+          "-2.1%"
+        ],
+        [
+          "Ashwood",
+          "+3.4%",
+          "+8.1%",
+          "+3.4%",
+          "-7.8%",
+          "-3.1%",
+          "-4.0%"
+        ],
+        [
+          "Bass",
+          "-1.9%",
+          "+2.9%",
+          "-4.0%",
+          "+4.5%",
+          "-0.8%",
+          "-0.7%"
+        ],
+        [
+          "Bayswater",
+          "+3.2%",
+          "+6.1%",
+          "-3.4%",
+          "-2.9%",
+          "-3.4%",
+          "+0.5%"
+        ],
+        [
+          "Bellarine",
+          "+6.9%",
+          "+1.7%",
+          "+0.1%",
+          "-4.1%",
+          "-2.0%",
+          "-2.5%"
+        ],
+        [
+          "Benambra",
+          "-22.9%",
+          "+5.6%",
+          "-7.7%",
+          "+4.3%",
+          "+22.4%",
+          "-1.8%"
+        ],
+        [
+          "Bendigo East",
+          "+11.7%",
+          "-2.8%",
+          "-2.4%",
+          "-0.6%",
+          "-2.6%",
+          "-3.4%"
+        ]
+      ]
+    }
+  }
+}

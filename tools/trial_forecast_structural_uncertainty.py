@@ -19,7 +19,8 @@ def main():
     settings,_ = load_forecast_params()
     out = ROOT/'reports/forecast_structural_2026_10_28'
     out.mkdir(exist_ok=True)
-    experiments = STRUCTURAL_EXPERIMENTS
+    # The structured nowcast needs its own explicit Sheet-controlled configuration.
+    experiments = {k:v for k,v in STRUCTURAL_EXPERIMENTS.items() if 'structured_nowcast' not in v}
     seeds = [20261010,20261011,20261012]
     summaries,raw_seats,raw_counts,parties,events = [],[],[],[],[]
     for label,experiment in experiments.items():

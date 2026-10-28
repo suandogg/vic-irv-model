@@ -1,0 +1,15 @@
+{
+  "source_url": "https://www.vec.vic.gov.au/-/media/d8a664a8c6554fccbd9329d100ee32a4.pdf?sc_lang=en",
+  "source_page": "Appendix 2, printed page 34 (PDF page index 40)",
+  "boundary_basis": "2013 redivision; historical 2014/2018 only",
+  "regions": {
+    "Eastern Metropolitan": ["Bayswater", "Box Hill", "Bulleen", "Croydon", "Eltham", "Ferntree Gully", "Forest Hill", "Ivanhoe", "Mount Waverley", "Ringwood", "Warrandyte"],
+    "Eastern Victoria": ["Bass", "Evelyn", "Gembrook", "Gippsland East", "Gippsland South", "Hastings", "Monbulk", "Mornington", "Morwell", "Narracan", "Nepean"],
+    "Northern Metropolitan": ["Broadmeadows", "Brunswick", "Bundoora", "Melbourne", "Mill Park", "Northcote", "Pascoe Vale", "Preston", "Richmond", "Thomastown", "Yuroke"],
+    "Northern Victoria": ["Benambra", "Bendigo East", "Bendigo West", "Eildon", "Euroa", "Macedon", "Mildura", "Murray Plains", "Ovens Valley", "Shepparton", "Yan Yean"],
+    "South-Eastern Metropolitan": ["Carrum", "Clarinda", "Cranbourne", "Dandenong", "Frankston", "Keysborough", "Mordialloc", "Mulgrave", "Narre Warren North", "Narre Warren South", "Rowville"],
+    "Southern Metropolitan": ["Albert Park", "Bentleigh", "Brighton", "Burwood", "Caulfield", "Hawthorn", "Kew", "Malvern", "Oakleigh", "Prahran", "Sandringham"],
+    "Western Metropolitan": ["Altona", "Essendon", "Footscray", "Kororoit", "Niddrie", "St Albans", "Sunbury", "Sydenham", "Tarneit", "Werribee", "Williamstown"],
+    "Western Victoria": ["Bellarine", "Buninyong", "Geelong", "Lara", "Lowan", "Melton", "Polwarth", "Ripon", "South Barwon", "South-West Coast", "Wendouree"]
+  }
+}

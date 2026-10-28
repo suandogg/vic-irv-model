@@ -1,0 +1,4 @@
+Party,Districts,Regions,Historical_local_SD_pp,Historical_region_SD_pp,Historical_total_SD_pp,Interpretation
+ALP,65,8,3.4967458877023994,1.313754738076702,3.735396005108779,"Historical component proxy, not a calibrated nowcast SD"
+LNP,65,8,3.239010169333644,1.8858276600373616,3.7480038474378268,"Historical component proxy, not a calibrated nowcast SD"
+GRN,65,8,1.7874961500011957,0.4064545153217921,1.833125134652452,"Historical component proxy, not a calibrated nowcast SD"

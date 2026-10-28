@@ -1,0 +1,907 @@
+{
+  "created_utc": "2026-10-28T22:36:07.244830+00:00",
+  "years": [
+    2014,
+    2018
+  ],
+  "district_rows": 176,
+  "candidate_rows": 1052,
+  "formal_totals": {
+    "2014": 3355707,
+    "2018": 3514474
+  },
+  "sources": [
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/summary.html",
+      "sha256": "741b86b256eb8a08455daf2736ee0bb61c6e3fe69f390de9f12db8cc62485b06",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/summary.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/albertparkdistrict.html",
+      "sha256": "c75a9f86e39c11fba8d491128b59b0bd3b858669976c0d581192fa168d52e130",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/albertparkdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/altonadistrict.html",
+      "sha256": "3d967abab5628420d3909256c7a7148db9879b8190c731a7bab4ab9b11843ded",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/altonadistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/bassdistrict.html",
+      "sha256": "40d251eff377df0f7021fccad96928fe7d7b2eaf4500fdd805a3123d9c2f1aac",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/bassdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/bayswaterdistrict.html",
+      "sha256": "0e01050b005a5229350fe3a93cc46a41351da9922fd51bc4741b803a20bb43fb",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/bayswaterdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/bellarinedistrict.html",
+      "sha256": "6fa8ebabcb3eaa3dfce2746ab01bb60977900cba63a9b8eb0e23bb9ad11dd496",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/bellarinedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/benambradistrict.html",
+      "sha256": "d5112ecbc9593376f63d1031fec5f71d0ecefd83b2bd8451fe78a33a13678467",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/benambradistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/bendigoeastdistrict.html",
+      "sha256": "21799af4253c12ac76f637e7562b12e87d26a4059d80b4bfaf0c8d7f0ba0a166",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/bendigoeastdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/bendigowestdistrict.html",
+      "sha256": "36d842eafd620f06db42f7f001910cb477569251b04f41910c2216b829b8b6be",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/bendigowestdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/bentleighdistrict.html",
+      "sha256": "5d9ad36111c47f4c2c625ff47a8876a59fb9b222b7001a1fea64ab65bd833bf0",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/bentleighdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/boxhilldistrict.html",
+      "sha256": "441be87dbd6b6f202f7af5082dfa58dd443b35338d535ebaa05ba8e1fa6609b9",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/boxhilldistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/brightondistrict.html",
+      "sha256": "f37af7367036bf3f08c15255b019b0dc38485c0fe64bf0573b58e3037ed7e20c",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/brightondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/broadmeadowsdistrict.html",
+      "sha256": "2ee53483e579ded9b6bacc3ba8e81d630c9874b9c1f405748bb076659e91af79",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/broadmeadowsdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/brunswickdistrict.html",
+      "sha256": "e7b56170d391c5d60fdb870cbd445e70eeb88fedaec4446d9610e5995a210b3a",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/brunswickdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/bulleendistrict.html",
+      "sha256": "c7f6eceeeac0c110907d4e8cf4dde1d1e95b4e9ee0ede8b96167df09f3e40734",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/bulleendistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/bundooradistrict.html",
+      "sha256": "f906b9a0d3922de012e711e43849c526ff4749127b2482db737de3bb6a0025b6",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/bundooradistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/buninyongdistrict.html",
+      "sha256": "70ef254228052d6cc9598a5959fae7f91423671c19848659135f39e2352caba6",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/buninyongdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/burwooddistrict.html",
+      "sha256": "0ebdc8d1f4163eaeb1447750d43b6843c3f80e11db620ddff7ac96859ce99144",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/burwooddistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/carrumdistrict.html",
+      "sha256": "a9e72e8388b6fdf30e6d98d104f111a25e376c9a08aca2c401ada75c51040f0e",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/carrumdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/caulfielddistrict.html",
+      "sha256": "fe51eb102e883c7fa430cad755665da2f9441fa140a61509c682c2d556353a9e",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/caulfielddistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/clarindadistrict.html",
+      "sha256": "82391741cdb4ad66be30c6c0955ab616ba1e4c9adc662fd4fb8480804ccc2ac8",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/clarindadistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/cranbournedistrict.html",
+      "sha256": "8a184efe33fa482c66dfcf5332899380bd87d5801f2fbdd760aed54953421fbe",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/cranbournedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/croydondistrict.html",
+      "sha256": "c0213db760393799de9223698b3be7030ba1f4ca1937d9bf6ddf56ec07bf5990",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/croydondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/dandenongdistrict.html",
+      "sha256": "8a46a0fb28533e6e295d34451990fc7976391ea0ab98eeda8e7e415f1299fc3b",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/dandenongdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/eildondistrict.html",
+      "sha256": "850f699b2ffa679a9a149ef539529672cbd19a7f4e66c7f5c7139484787b2be3",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/eildondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/elthamdistrict.html",
+      "sha256": "a2b23fbacadeb22a3e69dc0feec5dc4d850b9db7ac4988299367b26993ad668e",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/elthamdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/essendondistrict.html",
+      "sha256": "ed865baa92df7b5d85f4bc0cc15fa10364150aa22ea37b588980b7a8e841c82c",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/essendondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/euroadistrict.html",
+      "sha256": "0e50a39cd850ae4c19c90e11e8f6f9ae8879a8bfa984f5c8392e3719a84055b8",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/euroadistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/evelyndistrict.html",
+      "sha256": "4ea7219401d3dafbb5881a8e926fcb6d1a36cb609f8fda9706bac32966ecbc68",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/evelyndistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/ferntreegullydistrict.html",
+      "sha256": "630eb33d433a3d0144f9f7c82f0aed6b667fd3029663402293bab34867b381ec",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/ferntreegullydistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/footscraydistrict.html",
+      "sha256": "205c3fea820f0b8dd1fce4e8229f4ffb533643b31e317a731f53f0cf8ebe4328",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/footscraydistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/foresthilldistrict.html",
+      "sha256": "e7e47d266e3804013dd666c5408632ccc40320e761b2e86fbfe723e098b2fc6d",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/foresthilldistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/frankstondistrict.html",
+      "sha256": "e6acca82e35bcfd96745cc24570c041a53ea9412cbd477686c5b4c8e40a39f33",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/frankstondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/geelongdistrict.html",
+      "sha256": "7f865a8b1649ded1270db2c813069a865b421d0fc53d8b1de9b9f44a03cc80f1",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/geelongdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/gembrookdistrict.html",
+      "sha256": "728186dce00c3b225cb21bfb251d5c11e43703a9931683b106f8da81be5823bc",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/gembrookdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/gippslandeastdistrict.html",
+      "sha256": "ae3061a4c09902d00d316348305a382bfb85d22d5195c3322d3bc625ea5bbb16",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/gippslandeastdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/gippslandsouthdistrict.html",
+      "sha256": "a7f93eaab3baf4e9a757eb11b8a3b8d488eea5998dc6bcc2482801af461bf2a4",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/gippslandsouthdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/hastingsdistrict.html",
+      "sha256": "442f033c4be61c939cf25971074fed07ff5995c0df35a2f57ea3113fea62c0c7",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/hastingsdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/hawthorndistrict.html",
+      "sha256": "18f21de30536ce87d5e629e8dd72b20b2732a9653691319290f06ca1eb5a92b2",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/hawthorndistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/ivanhoedistrict.html",
+      "sha256": "bfa5483862ece29d72bec6521e2cf96a6d357e130bd6e9651cd57864da07ba24",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/ivanhoedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/kewdistrict.html",
+      "sha256": "968bfe3068ebc265e62d907b9cb970681a14d86d8e2a514a9149775f80dd8456",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/kewdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/keysboroughdistrict.html",
+      "sha256": "d6d94e92143e8bdebba1d906c0773dd673bd0d6b8f5c41ac748c792f1dc07d9d",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/keysboroughdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/kororoitdistrict.html",
+      "sha256": "1aa4b05f68d7bc11cb8d478e8489b2b1d3da83a2b8c157485d27eaa821dbcfa6",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/kororoitdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/laradistrict.html",
+      "sha256": "742b6fc02c484527460501ac7d31b8d38828222da8a75b130b11050142f801ab",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/laradistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/lowandistrict.html",
+      "sha256": "33ef9b3bffe39fea8c81ad3e76ad5d11aa55b0718f9a35f05647a09ad3cd2002",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/lowandistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/macedondistrict.html",
+      "sha256": "c3e7f40e5292984ad941607ed6763be61a44539a438fbffb9d586165608e1e45",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/macedondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/malverndistrict.html",
+      "sha256": "35687d20027a3b830202fc0a34ac9ee7feb77626bc21aaa68599c32d574c2ad3",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/malverndistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/melbournedistrict.html",
+      "sha256": "ffb40a1569fd709f9323a6c542ce606ce06f835ff0a6d4dd5cfe1d557b7c7706",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/melbournedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/meltondistrict.html",
+      "sha256": "d9f80847a6107be0b1ea048a1be98b51a4c1d8ca5280b7ada6514a40cb0672df",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/meltondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/milduradistrict.html",
+      "sha256": "ad1c02643aa6d2f51be45374f8377f3d16a67b93478d08100e6ac20f86009a60",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/milduradistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/millparkdistrict.html",
+      "sha256": "0ffd547436ff8c28f16d1a7982abd8d98d73cc9402bab55e8485735085f5ef62",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/millparkdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/monbulkdistrict.html",
+      "sha256": "4d38dc82f9bb71cdc0a3bd53cc8efecd1e575dd6b65fa457ac65627ed7abf2e5",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/monbulkdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/mordiallocdistrict.html",
+      "sha256": "3756bc7970bf53afd4a74940eff7c1462734a2493cccb73bc9bf5f3439c8e72d",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/mordiallocdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/morningtondistrict.html",
+      "sha256": "2b06028e43d06b949c1dd663dd58de649fca5c8a416cf6aa975af5183c4788dc",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/morningtondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/morwelldistrict.html",
+      "sha256": "1e57cc8ac855669d4055acefd22db5f9ce3cd8fe9f5b37cf784eb31eb6dcd293",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/morwelldistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/mountwaverleydistrict.html",
+      "sha256": "d675494237c0aa486c7ed5bfb5e2639577b9cbe10a7202c218165a118b5ee6e0",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/mountwaverleydistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/mulgravedistrict.html",
+      "sha256": "ef883b856f4b1c111479d6e84135193aad376daeddcf60f1daa6ffcebf879e0a",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/mulgravedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/murrayplainsdistrict.html",
+      "sha256": "a3aafec450ec4637ac19236706919747e80046639020815c429cf4f5d80ab4be",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/murrayplainsdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/narracandistrict.html",
+      "sha256": "b055fd60253b8993943e48718209e43869b57f568c352b72f30aff167d7d7d66",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/narracandistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/narrewarrennorthdistrict.html",
+      "sha256": "2809a165c1b57ebdf34695ec68e6ce8fa19550554c8488f29677bc52036064b8",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/narrewarrennorthdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/narrewarrensouthdistrict.html",
+      "sha256": "b589f17520d5596be3c5ecc411d27726790bd504fec1b6ec75235a373453aa90",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/narrewarrensouthdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/nepeandistrict.html",
+      "sha256": "7930305c95550bbab37d77725059452659389d4bb35220e86f00d589b473f7a5",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/nepeandistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/niddriedistrict.html",
+      "sha256": "bb51c2229f2221c95038ba7f792be262fd7221a43adcfac851856c3bdf180ba3",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/niddriedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/northcotedistrict.html",
+      "sha256": "7ec28b40116706824433fc960ccaa2e24cc8ad2bdfeb0cb9b743e8ae373fab55",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/northcotedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/oakleighdistrict.html",
+      "sha256": "03fad5af93279e00987e7a1743591c3b56afa8cf200a4ca4c747dffe32094960",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/oakleighdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/ovensvalleydistrict.html",
+      "sha256": "41a041187800044031412f9e889e66234a7a93af495fa6778937453f95134ad2",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/ovensvalleydistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/pascoevaledistrict.html",
+      "sha256": "af8e0e300bf440d483f14821a86939a7598225507447ccfbb707cde4e88d3e83",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/pascoevaledistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/polwarthdistrict.html",
+      "sha256": "b95086e630d810a0865592822f2da62f0bbf9c70b48da8df7bc1e8d8e42d517a",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/polwarthdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/prahrandistrict.html",
+      "sha256": "ac84d9f4e9ca8d4b39e4d66e642bc94220539146399267b34a000e3dc1719986",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/prahrandistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/prestondistrict.html",
+      "sha256": "cd227c0398919d02ac701677417b0463b7e3d56c2640a1bf8e49e82effe53b62",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/prestondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/richmonddistrict.html",
+      "sha256": "d2c1ac779835259a9db38dd79d92abf922fa3c9d93a3555acf22b44691eadf8e",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/richmonddistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/ringwooddistrict.html",
+      "sha256": "7dc0311bcf54814511590787454eadeffd6fe0c5c24427e6d41584f1a0d236a3",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/ringwooddistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/ripondistrict.html",
+      "sha256": "1f9f4bca9d91b6573166028db83a97e0f77d835bc7a04b106d3bb8f35347356e",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/ripondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/rowvilledistrict.html",
+      "sha256": "b8bf2796b61febf8262a4de27ccd1d20b2c98ed0a3f90b67a796349824acd047",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/rowvilledistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/sandringhamdistrict.html",
+      "sha256": "e0974f7a4094c8a283e901d72b50b508a898ce4d633675c3e7f055565b2df929",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/sandringhamdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/sheppartondistrict.html",
+      "sha256": "5ced252425ceac2727dfc13230e72696f1d9336d8785e5d7f33e15a3336337a0",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/sheppartondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/south-westcoastdistrict.html",
+      "sha256": "2a7ab4af1671705418e5a6c7f42fe936df4646f616e721d2983b2cf59e4f175b",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/south-westcoastdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/southbarwondistrict.html",
+      "sha256": "449e8c42ab8ea9eb6a20a54119183593339b9042d22bac57c8f4ed91a35ee575",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/southbarwondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/stalbansdistrict.html",
+      "sha256": "fe9501da4b9d5619ac42f67b261f1aa27af7bb6b1b0be6976114b152340c9e82",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/stalbansdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/sunburydistrict.html",
+      "sha256": "f439d764e90f4fdc30ec7b471d4421e26bcb34c524e679950d7f344981baf179",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/sunburydistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/sydenhamdistrict.html",
+      "sha256": "0f0fd6f11deba1ce6418df6d98827e241cc9780108b6b4c37ca263eefe2bbdcc",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/sydenhamdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/tarneitdistrict.html",
+      "sha256": "08cc3aed0f811000d9fbda94779a48f4cae9696843834183dba90707efc67a59",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/tarneitdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/thomastowndistrict.html",
+      "sha256": "d7e0cd701690d8cf7c129af8053e1a49a32671cb9bf29c39bc7daacfb97ac570",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/thomastowndistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/warrandytedistrict.html",
+      "sha256": "7382dc3a6c3016fb276bf50cccf68060308e26681461296acc82a94325814398",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/warrandytedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/wendoureedistrict.html",
+      "sha256": "e29760bdc33a49ce519b3f5768ad9178f2a361ab763d30e78fe5945d992ad0bc",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/wendoureedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/werribeedistrict.html",
+      "sha256": "1928a5fbe8e20b78c7cc50cb577865d8825196665f4a1f50c642bfb7163ce168",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/werribeedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/williamstowndistrict.html",
+      "sha256": "2d77cff21efa0a5f35ee97fc51f8f1bf8c559d200e371f94250af01d4fdf6797",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/williamstowndistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/yanyeandistrict.html",
+      "sha256": "02460965c437c6af85e4aaf8a1849cb227d2d5dc32301d0c455e4ec8a4f78233",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/yanyeandistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2014/yurokedistrict.html",
+      "sha256": "c0d37d1fbf5181ab3e94e8bcf2b946f5d57e68e221ef30f4fce19161b6ad2eb6",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2014/yurokedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/summary.html",
+      "sha256": "93b01ebc563e6f39e59f306bbfa10db40688f66c7daa3924532df11e32d3c267",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/summary.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/albertparkdistrict.html",
+      "sha256": "b40499a2074537eef9b043801bf5925d1511a660adc0ee7f84428c5221fdc891",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/albertparkdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/altonadistrict.html",
+      "sha256": "71b87225616d972e69befc5f349429b33ae379795860340ea76028b9fd56028b",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/altonadistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/bassdistrict.html",
+      "sha256": "7b62e7433054e7e37216437d72ed0b537321caa5997602bd124c4d31c2e4f5b0",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/bassdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/bayswaterdistrict.html",
+      "sha256": "d17010dd7e5938701ab1000d5a9d62bc22896b3077a16db8005858ff47b025a4",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/bayswaterdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/bellarinedistrict.html",
+      "sha256": "bba490fd8390b7ec722c83c98bd232c92c9875ae19a05a0775e2ad390822ddf7",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/bellarinedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/benambradistrict.html",
+      "sha256": "e73cdc260c191ce24b6b11d76d6b6235d1ec63556e70be0a537a3ce8a15ab80e",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/benambradistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/bendigoeastdistrict.html",
+      "sha256": "f5bada50cc540cc6c4eb2b36f3495a6c6b9736eb232d0df7fea17c2984b3f38a",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/bendigoeastdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/bendigowestdistrict.html",
+      "sha256": "2535759a2cb8327ee844a44cb0353af4f17538d622df3be23338af0d68e09a0f",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/bendigowestdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/bentleighdistrict.html",
+      "sha256": "d057702ca840e27ffb5c69ff8df276db153728c04ce93486a78158234a59a202",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/bentleighdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/boxhilldistrict.html",
+      "sha256": "1eeaae49b6ecec300995cb326fe4722edd53789ae58d9d3897dd5ce23e18c2a0",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/boxhilldistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/brightondistrict.html",
+      "sha256": "97c54afeb18f1db5f4f456959647d42a39a00f4cac3ca0384792530458aa4015",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/brightondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/broadmeadowsdistrict.html",
+      "sha256": "9900f4934a083f1de7edcc4b644936d05ddcc2d1f4f124a5c4f4b95e9d0db325",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/broadmeadowsdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/brunswickdistrict.html",
+      "sha256": "e49d1694dbcdcccff768eed7c1c97d7ee00f62ab14deb757c8e7aee770a8c689",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/brunswickdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/bulleendistrict.html",
+      "sha256": "bb34faeab37378b865801a677d031537dfe7ff9b814a2afbdebcd0822c96208c",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/bulleendistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/bundooradistrict.html",
+      "sha256": "9af9d5cd605598e0e3e4e7dc4263b69391c5bde3db452bb28b01e8d5a3e34882",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/bundooradistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/buninyongdistrict.html",
+      "sha256": "ada1ae517342663b900352e97e03c5e3a922da31535f22e7be1e9c7cec7d8833",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/buninyongdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/burwooddistrict.html",
+      "sha256": "08404714cf0b05ee0836640382fc53bc8692fa7c65eeadfd58465170ce938689",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/burwooddistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/carrumdistrict.html",
+      "sha256": "39cbf90115437509d4570c22912a5cd70ec36e22e1f7ad53760b9bf21e4f84a1",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/carrumdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/caulfielddistrict.html",
+      "sha256": "c5d274a995e364c0f4a033bc27bcc6aa249852a6d1599062bc04b1a53eea7fe0",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/caulfielddistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/clarindadistrict.html",
+      "sha256": "c507f07178ed60267b8bb15716f86749520e229993b6ab6aad4b7368eb284314",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/clarindadistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/cranbournedistrict.html",
+      "sha256": "40231b31cb7b3403dac3ca6a87ebe160c0d27eb792248d7f1b2c7824a8c940e2",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/cranbournedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/croydondistrict.html",
+      "sha256": "befc8b9e5eb69918d8b8fca6e1dd5f96b17e6b474b2998c5b49d4c8c7b2e2b53",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/croydondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/dandenongdistrict.html",
+      "sha256": "9f9329cd07a2199257d72d80bb0321b4a83386cb10537e819ee339bedecc12df",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/dandenongdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/eildondistrict.html",
+      "sha256": "67bc3f92138d92c78c2ca3f0dfee7753462961b483828a38212624f513717da7",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/eildondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/elthamdistrict.html",
+      "sha256": "a7d161b4251daa5fe5f755a115e86c737d9219dd90069ebb4d42fb12121eac64",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/elthamdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/essendondistrict.html",
+      "sha256": "684d3eb62705f4dc33c3b3c71b9550150c70cac219e6904fb82c9e25542a295e",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/essendondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/euroadistrict.html",
+      "sha256": "f5960860be8c233b1da3c602bee3e4828c5c9500222f978831e93eadb4d054a2",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/euroadistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/evelyndistrict.html",
+      "sha256": "f05ba05f00a7003e205b6c83446f95fba761549f6202c79b7270e6d24325c1f5",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/evelyndistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/ferntreegullydistrict.html",
+      "sha256": "3bc3de3cad0b446205e2c5e97fe146a4ba09bf59efeda32bcd596d8771032d7e",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/ferntreegullydistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/footscraydistrict.html",
+      "sha256": "c849dfa81f5eee9b72f9411bfd3f8771f722409c9ca21e76e52b5367b0a8be65",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/footscraydistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/foresthilldistrict.html",
+      "sha256": "043f6336f26862012089f1049144d9fac93eb240038c8e34a4c741a45489eb46",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/foresthilldistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/frankstondistrict.html",
+      "sha256": "dc00107e921a6c9c94eabb923a915165baa3b918b063f9397a7d197dbec91285",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/frankstondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/geelongdistrict.html",
+      "sha256": "a3d27b3ba774969675e99d3595e6ede56828042958aa98cc5e5a31de8335240a",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/geelongdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/gembrookdistrict.html",
+      "sha256": "7c2cc94ebcabd39f232efd4ae6ab6c77ef85369cecf5b9419cdf43b256d61449",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/gembrookdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/gippslandeastdistrict.html",
+      "sha256": "94aa7c21741d869602fd42bff31a705298b55af4e37549bb6571e8d147adb03c",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/gippslandeastdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/gippslandsouthdistrict.html",
+      "sha256": "640a340f0dd478dbde6e7da77476b34c54e2dbe0be48b6e6ed85b288a9620a2b",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/gippslandsouthdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/hastingsdistrict.html",
+      "sha256": "f9f4674ef62cd35673a20f8fcc1b6592714e611fb73fd648f5849e134ce32fb4",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/hastingsdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/hawthorndistrict.html",
+      "sha256": "2e2973c77a571ec646da6042c22e7c53f1cc90abf596a8518144be276805af5a",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/hawthorndistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/ivanhoedistrict.html",
+      "sha256": "a51affdba06a2cd142c3964bb2f0ad11a42c453b53389c988720f738b7828f50",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/ivanhoedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/kewdistrict.html",
+      "sha256": "446e4bc85fb598323d825f9af3cc3ed0947a0251f7ae51e88e784b09e6bd32d5",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/kewdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/keysboroughdistrict.html",
+      "sha256": "19a8d863dd3b6c470d46c17dbd61d140c4d2d0b88eead183ccd441328e4dc7f7",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/keysboroughdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/kororoitdistrict.html",
+      "sha256": "75e93f70fcc6e7e1a2c020ecf89c5e778b05f94c6054a8741184be8dd9b06f57",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/kororoitdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/laradistrict.html",
+      "sha256": "168e4059baf37298e7d362ab82810ec8a82bafd7bcd2b0d45df1f27381c9ac4a",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/laradistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/lowandistrict.html",
+      "sha256": "738317a6e3750bb5ebaaed90e1e4af0bb0dbf25fedb6a438086f03a5932f6513",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/lowandistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/macedondistrict.html",
+      "sha256": "027045ddfd5fbb992fcaccc76eba5721d342302d0d759bbe45c2441c081c623a",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/macedondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/malverndistrict.html",
+      "sha256": "0ecac15ced18bf5055ddab12ad800858409855975993c7f8665ee7fc929a2de9",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/malverndistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/melbournedistrict.html",
+      "sha256": "a7810708bd3c33f027bb8608dc95bd8f4023bd6317ca2dfa4c475fc250a90ec5",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/melbournedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/meltondistrict.html",
+      "sha256": "2a7d744c65d9b98de0ab36e0e4b282d05f0a6c470e9bd14ec84c6206bc2ed019",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/meltondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/milduradistrict.html",
+      "sha256": "071a551436aab4c3acaf82e752b48dbd066384b47d54eb61c31c00db9b7b480f",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/milduradistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/millparkdistrict.html",
+      "sha256": "d5795b68bbb2effe1ecb5aef2d941801a8a042cd605a50fdac95b88896b5da40",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/millparkdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/monbulkdistrict.html",
+      "sha256": "5c8b25513478b78c687afb2bd47ad2a964fc1208a53ce744107028599787f8f4",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/monbulkdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/mordiallocdistrict.html",
+      "sha256": "34de72fc00160fd062e49811ef8aa81a6ab4620e3aaa5bf0ff6f70bb5a311891",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/mordiallocdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/morningtondistrict.html",
+      "sha256": "9690adf7f29bd9a1abfb2cf9ceb5093d745eeaac5cfb47f2327cdce9661b81a2",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/morningtondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/morwelldistrict.html",
+      "sha256": "25268b5037be09ef3397d8b516e4d79f6fddcc76426d34712ff1e1468998de85",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/morwelldistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/mountwaverleydistrict.html",
+      "sha256": "3ebcafdcf9a7ea19a1ad6c27b082c59794541eefe5d3583495684b79e3baacb7",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/mountwaverleydistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/mulgravedistrict.html",
+      "sha256": "c696bd1c0bac18dc24b9c2469173ed3363f01ba7ef6974fcd6bc3eb41546024c",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/mulgravedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/murrayplainsdistrict.html",
+      "sha256": "cc0039e4183f03e87d312d16303b701930f92200efdd56e2c1431ce5891b2585",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/murrayplainsdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/narracandistrict.html",
+      "sha256": "fca1c3fd1acc570012d63ba014485fea146e34f0699a00f60b85eab9ca060562",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/narracandistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/narrewarrennorthdistrict.html",
+      "sha256": "5bfece137866d102a9c93cb4c52214e7d99de863861acc0a151faa3a0c6a9c11",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/narrewarrennorthdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/narrewarrensouthdistrict.html",
+      "sha256": "546bcf481185f4eba62409dae1a4ab42fd4eee45fcee64de29b5f30503275ba3",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/narrewarrensouthdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/nepeandistrict.html",
+      "sha256": "aa9629328024c4026bc943253767e15aef669d6b002cc16af941af4b99dcb357",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/nepeandistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/niddriedistrict.html",
+      "sha256": "9e99f95cc2464591fa69ab8270c8860f09b641af5330e7e23f2c2264bde1f93c",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/niddriedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/northcotedistrict.html",
+      "sha256": "43eb93778c564bbf4ba60f16b93d78f4cb8759a493f2c25d768d3b72b3442eaf",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/northcotedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/oakleighdistrict.html",
+      "sha256": "4d2a7034582006dc45c0558997e448894dd5a8b0dfb5b97d441dbcbca1dd7cbe",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/oakleighdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/ovensvalleydistrict.html",
+      "sha256": "4d10140b92b980020c5e9138a0695e66473156744e63dbbaa2c64de5575579b2",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/ovensvalleydistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/pascoevaledistrict.html",
+      "sha256": "a728ddc4f755d2e66299598e1f1bd1c2cd60b3b788520a00fe9956dc8eccb36c",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/pascoevaledistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/polwarthdistrict.html",
+      "sha256": "c53f1440d669979a34cb56bce1eeb7660b87808b708599f28f2e2aae85acbb3b",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/polwarthdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/prahrandistrict.html",
+      "sha256": "e33a970b50f98fe1c665f51228e7402eea0c1b42fbed58579c86c5a9c6d6b74b",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/prahrandistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/prestondistrict.html",
+      "sha256": "30598d7a458224c026db88b61780ed1090bc9fc0b7aff729455d22ca7fcc6e00",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/prestondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/richmonddistrict.html",
+      "sha256": "bf87436770e06de8f5124d4e5d3c5782f3d5da9f9a3786ac48e96f3d29772044",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/richmonddistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/ringwooddistrict.html",
+      "sha256": "d08bfbea093761400581aa29f4e0380c41fbdf3512a1c12c5cd9b0e003e6327e",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/ringwooddistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/ripondistrict.html",
+      "sha256": "5dc2d4f0ea7f76da15eb39ef5e9bb52f43071dd4dbf32c552498e2a096696082",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/ripondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/rowvilledistrict.html",
+      "sha256": "e153162702f6db4b921e14fcd4aa0cbc9e80e1a17a2bf0ed9f3907ef99ff1c5f",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/rowvilledistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/sandringhamdistrict.html",
+      "sha256": "86741d783633ad1237a08efbfff8ee225758c8d7d0f25d9f98acd00a6e7be8c8",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/sandringhamdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/sheppartondistrict.html",
+      "sha256": "c6ca53d9118836c6b3d9b46378225cf04aa9edc29d1e48a031c96f445d4a0a96",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/sheppartondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/south-westcoastdistrict.html",
+      "sha256": "ca57418f7b9277b149b6b20f935f22f37cb2146106d2d7bce34550da75b345e3",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/south-westcoastdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/southbarwondistrict.html",
+      "sha256": "3fff623b3548a94984c101edeb7ebcd2d9b078c332d9b147a5a8863a2d528cd1",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/southbarwondistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/stalbansdistrict.html",
+      "sha256": "45d6e3eaf4511c22f7d060d761c4bbeb21739b0bd6a84557b28d7a16d13aec38",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/stalbansdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/sunburydistrict.html",
+      "sha256": "c68393d9f815948454c0f32a9296d4bb20a2ba97bbe2438c30e3a560bb0e0381",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/sunburydistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/sydenhamdistrict.html",
+      "sha256": "91dba73d01df515f595d71914e105c797a9f967b21773fb8a275854709369841",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/sydenhamdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/tarneitdistrict.html",
+      "sha256": "2db2eba7847c66b7e3ac30a3c2945a23f4bf66005908a3f016ed6e2d16403192",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/tarneitdistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/thomastowndistrict.html",
+      "sha256": "4c04bc1c63efe9e545367c2290043cfe43ee27604b0cf5bccd2caea687a93740",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/thomastowndistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/warrandytedistrict.html",
+      "sha256": "4dd08294798afa7d0cb2843f08526806c30aaf53034fa28673d3615c00171980",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/warrandytedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/wendoureedistrict.html",
+      "sha256": "cfaf865cd63905f2f9d0e86454aced6fc47e8b964dab5591d3c5612cc872e2d3",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/wendoureedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/werribeedistrict.html",
+      "sha256": "cd276b80ab2ab16e3c4ded82f2ccfb0fb41db876e22252034a695f2d72f43bbc",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/werribeedistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/williamstowndistrict.html",
+      "sha256": "a53717ef8de0a55370a160df894d858c2a5c90057ec4347ac4a4f54dcc1db745",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/williamstowndistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/yanyeandistrict.html",
+      "sha256": "7f7c110a64a39ff906404a2d05dceae29e83b0162fdd96f11f48f077ac65407b",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/yanyeandistrict.html"
+    },
+    {
+      "url": "https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/yurokedistrict.html",
+      "sha256": "b1334955be9ca7318466037a969864ad075b834b21b6a9f1abb4c45081c20521",
+      "cached_path": "data/research/historical_primaries_2026_10_29/sources/state2018/yurokedistrict.html"
+    }
+  ],
+  "boundary_source": "https://www.parliament.vic.gov.au/49950e/globalassets/sections-shared/about/publications/research-papers/the2022victorianstateelection_rp_2023_2.pdf",
+  "warning": "Independent raw historical evidence, not calibrated nowcast errors. Do not join to current districts by name without boundary reconciliation. Candidate labels retained, not production subjective classifications."
+}

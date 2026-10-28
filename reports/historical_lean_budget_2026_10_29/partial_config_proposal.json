@@ -1,0 +1,100 @@
+{
+  "status": "NOT_ACTIVE; partial historical proxy only",
+  "config": {
+    "local_sd_pp": {
+      "ALP": 3.4967458877023994,
+      "LNP": 3.239010169333644,
+      "GRN": 1.7874961500011957,
+      "ON": 2.5,
+      "IND": 2.5,
+      "OTH": 2.5
+    },
+    "region_sd_pp": {
+      "ALP": 1.313754738076702,
+      "LNP": 1.8858276600373616,
+      "GRN": 0.4064545153217921,
+      "ON": 0.75,
+      "IND": 0.75,
+      "OTH": 0.75
+    },
+    "class_sd_pp": {
+      "ALP": 0.0,
+      "LNP": 0.0,
+      "GRN": 0.0,
+      "ON": 0.0,
+      "IND": 0.0,
+      "OTH": 0.0
+    },
+    "transport_log_sd": {
+      "vec": 0.0,
+      "federal": 0.0,
+      "special": 0.0,
+      "generic": 0.0
+    },
+    "contexts": {},
+    "tail_df": null,
+    "provenance": "2014\u20132018 historical component proxy for ALP/LNP/GRN; ON/IND/OTH retain explicit snapshot assumptions. Partial proposal, not fitted full-nowcast probabilities.",
+    "correlation": [
+      [
+        1.0000000000000002,
+        -0.3611893597113387,
+        -0.17371247859750982,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.3611893597113387,
+        0.9999999999999998,
+        0.19104366364323103,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.17371247859750982,
+        0.19104366364323103,
+        0.9999999999999999,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "identity_shrinkage_weight": 0.23,
+  "conditional_score_is_forecast_validation": false,
+  "unresolved": [
+    "Only one four-year electoral transition; not calibrated current-error coverage",
+    "ON absent from panel; all ON geography/source transport uncertainty still requires explicit assumptions",
+    "IND/OTH candidate-field/composition uncertainty not inferred from category residuals",
+    "Regional correlation borrows within-region party correlation; only eight historical regions",
+    "Current region/subregion transferability is an assumption, not a boundary crosswalk",
+    "No fitted subregion variance: do not relabel the historical regional component as an estimated blend",
+    "Existing preference SDs and ON-alpha/donor terms remain provisional; new transport scales not set"
+  ],
+  "source_sha256": "16d8e6bccaf52c85156a70a06fc6f760a0a390739d9f953ab7b125c4496a5295"
+}

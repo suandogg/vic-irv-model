@@ -1,0 +1,8 @@
+{
+  "definition": "(2018 district share - 2018 statewide share) - (2014 district share - 2014 statewide share)",
+  "statewide_convention": "Formal-vote weighted official statewide share; descriptive only, not a change to production equal-seat balancing",
+  "observation": "One four-year historical electoral transition, 88 common-boundary districts",
+  "context_split": "All three established parties present at both elections; no multiple Coalition candidates; no individual independent reaching 10% in either election. The 10% split is descriptive, not estimated.",
+  "classification": "All official-label independents aggregated. Do not substitute for production principal-IND classification.",
+  "warning": "Realised lean movement combines structural, regional, candidate and local effects. Do not apply each full SD independently to every forecast layer. ON absent, no ON calibration. No current boundary mapping inferred."
+}
