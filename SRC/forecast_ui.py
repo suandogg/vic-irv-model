@@ -49,8 +49,13 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
             experiment['structured_nowcast']=config
             st.warning('Development configuration, not a calibrated replacement forecast. '
                 'ALP/LNP/Greens scales are historical proxies; ON/IND/OTH scales are inherited '
-                'assumptions. New preference-transport scales start at zero. '
-                'This replaces ordinary regional/local primary noise; it does not add concentration noise.')
+                'assumptions. Preference-transport scales come from NOWCAST BUDGET. '
+                'This replaces ordinary regional/local primary noise.')
+            if 'concentration_log_sd' in experiment:
+                st.caption('Combined development mode retains all-party concentration uncertainty '
+                    'and replaces only its ordinary district/regional residuals with NOWCAST BUDGET. '
+                    'These components can overlap; the combination is a deliberate judgment-based '
+                    '2026 assumption, not a historically calibrated probability model.')
             st.caption(f"Candidate/context review: {review['unreviewed_contexts']} unreviewed; "
                        f"{review['enabled_contexts']} enabled. No new candidate appearances are simulated.")
             display_table(review['budget'],hide_index=True,width='stretch')
@@ -77,9 +82,11 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                    'added local preferences and t5. These are uncalibrated trials; source preference '
                    'rows and Sheet values remain unchanged.')
         if 'concentration_log_sd' in experiment:
+            combined = structured
             mapping_label = st.selectbox('Concentration mapping (research)',
                 ['Linear (existing stress)','Positive softplus','Positive bounded (0–2)'],
-                key='forecast_concentration_form')
+                index=2 if combined else 0,
+                key='forecast_combined_concentration_form' if combined else 'forecast_concentration_form')
             form = {'Linear (existing stress)':'linear','Positive softplus':'positive_softplus',
                     'Positive bounded (0–2)':'positive_bounded'}[mapping_label]
             if form!='linear':
@@ -88,11 +95,13 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                            'Softplus has no upper power limit; bounded constrains powers between 0 and 2. '
                            'Both match the original near its centre, not its full variance. Neither caps seat counts.')
             experiment['concentration_log_sd'] = st.number_input('Common concentration input width (research)',
-                min_value=0.,max_value=1.,value=.2,step=.05,key='forecast_concentration_sd')
+                min_value=0.,max_value=1.,value=.3 if combined else .2,step=.05,
+                key='forecast_combined_concentration_sd' if combined else 'forecast_concentration_sd')
             st.caption('One coefficient per party per election varies concentration of current positive support, '
                        'then balances all party and seat totals. Positive concentrates, negative flattens. '
                        'This replaces ON alpha uncertainty for this trial, not its central value. '
-                       'The default 0.20 is a stress-test assumption, not a fitted estimate.')
+                       'The width is a judgment-based assumption, not a fitted estimate; '
+                       'combined mode starts at the previous trial’s 0.30.')
             if st.checkbox('Use party-specific concentration widths (research)',key='forecast_party_widths'):
                 widths = {}
                 columns = st.columns(3)

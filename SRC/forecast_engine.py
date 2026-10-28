@@ -29,6 +29,9 @@ STRUCTURAL_EXPERIMENTS = {
     'Concentration + regional preferences':{'concentration_log_sd':.2,
         'preference_region_share':.25,'preference_local_share':.25},
     'Structured nowcast (development)':{'structured_nowcast':{}},
+    'Concentration + structured nowcast (development)':{
+        'structured_nowcast':{},'concentration_log_sd':.3,
+        'concentration_form':'positive_bounded'},
 }
 
 
@@ -289,8 +292,11 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
         from SRC.nowcast_uncertainty import validate_config
         nowcast = validate_config(nowcast,districts)
         experiment['structured_nowcast'] = nowcast
-        if np.any(concentration_sds) or mode is not None or tail_df is not None:
-            raise ValueError('Structured nowcast replaces primary-pattern/local-noise trials; do not stack them')
+        # Concentration changes the statewide spatial pattern; the structured
+        # budget supplies residual district/region errors around that pattern.
+        # It REPLACES ordinary residuals, so those are never applied twice.
+        if mode is not None or tail_df is not None:
+            raise ValueError('Structured nowcast supplies local-noise shape; do not stack local-noise trials')
     sub_fraction = float(experiment.get('subregion_fraction',0))
     if not np.isfinite(sub_fraction) or not 0<=sub_fraction<=1:
         raise ValueError('Subregion variance fraction must be between 0 and 1')

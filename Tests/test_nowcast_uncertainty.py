@@ -103,8 +103,24 @@ class NowcastUncertaintyTests(unittest.TestCase):
         pd.testing.assert_frame_equal(trial['primary_draws'],ordinary['primary_draws'])
         self.assertTrue(trial['draws'][PARTIES].sum(axis=1).eq(88).all())
         self.assertEqual(params.get('_forecast_preference_shocks'),None)
+        combined=dict(structured_nowcast=config,concentration_log_sd=.3,
+                      concentration_form='positive_bounded')
+        combined_run=simulate(*args,experiment=combined)
+        pd.testing.assert_frame_equal(combined_run['primary_draws'],ordinary['primary_draws'])
+        self.assertTrue(combined_run['draws'][PARTIES].sum(axis=1).eq(88).all())
+        self.assertTrue((combined_run['concentration_exponents'].to_numpy()>0).all())
+        self.assertTrue((combined_run['concentration_exponents'].to_numpy()<2).all())
+        pd.testing.assert_frame_equal(combined_run['draws'],simulate(*args,experiment=combined)['draws'])
+        # A zero structured budget recovers the same concentration draw with
+        # ordinary residual scales disabled, proving no duplicate residual layer.
+        no_residual=settings|{'REGION_PRIMARY_SD_PP':0,'SEAT_PRIMARY_SD_PP':0}
+        concentration=dict(concentration_log_sd=.3,concentration_form='positive_bounded')
+        only=simulate(p,m,params,post,i,target,a,no_residual,experiment=concentration)
+        both=simulate(p,m,params,post,i,target,a,no_residual,
+                      experiment=concentration|{'structured_nowcast':self.config})
+        pd.testing.assert_frame_equal(only['seats'],both['seats'],check_exact=True)
         with self.assertRaises(ValueError):
-            simulate(*args,experiment={'structured_nowcast':config,'concentration_log_sd':.2})
+            simulate(*args,experiment={'structured_nowcast':config,'local_primary_t_df':5})
         # No stochastic scales returns the original deterministic calculator.
         zero={k:0 if '_SD' in k else v for k,v in settings.items()}
         baseline=simulate(p,m,params,post,i,target,a,zero)

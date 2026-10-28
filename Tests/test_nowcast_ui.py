@@ -48,6 +48,17 @@ class NowcastUITests(unittest.TestCase):
         app.selectbox(key='forecast_geographic_trial').set_value('Blend upper-house and sub-regions').run()
         self.assertEqual(len(app.exception),0)
         self.assertTrue(any('changed' in str(x.value).lower() for x in app.info))
+        app.selectbox(key='forecast_structural_trial').set_value('Concentration + structured nowcast (development)').run()
+        self.assertEqual(len(app.exception),0)
+        self.assertEqual(app.selectbox(key='forecast_combined_concentration_form').value,'Positive bounded (0–2)')
+        self.assertEqual(app.number_input(key='forecast_combined_concentration_sd').value,.3)
+        app.button(key='run_lower_forecast').click().run()
+        self.assertEqual(len(app.exception),0)
+        self.assertEqual(len(app.error),0)
+        combined=app.session_state['lower_forecast_run']['result']['experiment']
+        self.assertEqual(combined['concentration_form'],'positive_bounded')
+        self.assertEqual(combined['concentration_log_sd'],.3)
+        self.assertIn('structured_nowcast',combined)
 
 
 if __name__=='__main__':

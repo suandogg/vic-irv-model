@@ -14,7 +14,7 @@ FILES={'budget':'NOWCAST BUDGET.csv','correlation':'NOWCAST CORRELATION.csv',
 def parse_inputs(budget,correlation,contexts,districts):
     if not {'Component','Party / Source','SD','Units','Evidence status','Notes'}.issubset(budget.columns):
         raise ValueError('NOWCAST BUDGET headers missing')
-    config={'provenance':'Sheet-controlled development proposal; historical-proxy ALP/LNP/GRN core; review inherited and unestimated assumptions.'}
+    config={'provenance':'Sheet-controlled development proposal; historical-proxy ALP/LNP/GRN core, inherited minor-party residuals and explicitly judgment-based 2026 source applicability; not calibrated coverage.'}
     seen=set()
     for row in budget.fillna('').to_dict('records'):
         key=(str(row['Component']).strip(),str(row['Party / Source']).strip())

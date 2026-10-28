@@ -19,7 +19,7 @@ Edit the SD column. Component meanings:
 - `local_sd_pp`: party-specific uncertainty in district primary leans.
 - `region_sd_pp`: party-specific geographic uncertainty shared across districts in the selected group.
 - `class_sd_pp`: shared seat-class uncertainty, initially zero to avoid an unjustified second geographic term.
-- `transport_log_sd`: additional uncertainty about applying a preference source to the present field. Sources are vec/federal/special/generic. These start at zero because the new transport component has not yet been estimated or elicited. Existing source SDs in FORECAST PARAMS remain active.
+- `transport_log_sd`: additional uncertainty about applying a preference source to the present field. Sources are vec/federal/special/generic. They initially started at zero; the 29 October combined follow-up uses judgment-based values 0.15/0.25/0.35/0.35 respectively. Existing source SDs in FORECAST PARAMS remain active.
 - `tail_df`: zero selects a normal distribution. A positive value must exceed two. This shape is not historically fitted.
 
 Historical-proxy starting values:
@@ -64,6 +64,18 @@ The comparison uses committed input tables, not a freshly rebuilt SA1 allocation
 ## Limits and next work
 
 The current mode is a working partial configuration, not completion of exceptional candidate-field uncertainty or ON structural uncertainty. The historical core estimates one four-year transition on a subset defined partly by realised independent results; they are not validated current-error coverage. Do not optimise settings to force nearly every seat below 95%.
+
+## Combined development mode: 29 October follow-up
+
+The standalone structured mode initially replaced the concentration trial. This was not the user's intended direction: the historical budget should inform residual errors without removing plausible 2026 spatial-pattern uncertainty.
+
+**Concentration + structured nowcast (development)** now retains all-party concentration, starting at the prior positive-bounded width of 0.30, and applies the structured regional/local lean budget after it. The ordinary regional/local residual layer is still replaced, not duplicated. Ordinary ON-alpha uncertainty is still replaced by ON concentration, as in the previous concentration trial. Main, Current, and the earlier standalone options are unchanged.
+
+Concentration allows support to become more or less spatially concentrated across the state; structured residuals allow individual districts and geographic groups to diverge from that pattern. They are distinct mechanisms but not empirically orthogonal, so combining them is an explicit judgment-based 2026 assumption. Historical evidence is not an upper bound on 2026 uncertainty. Nonlinear constraints mean a wider input model need not lower every district's favourite probability.
+
+To reproduce the matched combined comparison, choose this mode, Positive bounded (0–2), width 0.30, no party-specific overrides, and Blend upper-house and sub-regions. The blend is an additional assumption, not historically fitted. Statewide inputs remain ALP 24.2, LNP 30.2, GRN 14.7, ON 21.9, IND 4.5, OTH 4.5.
+
+The follow-up also tests additional source-applicability log-weight SDs of VEC 0.15, federal 0.25, special 0.35, generic 0.35. These are deliberately judgment-based sensitivity assumptions, not inferred confidence intervals. For a two-recipient row, 0.35 corresponds to a roughly 2.6-fold odds multiplier at the approximate 95% log-odds endpoint before other components. They represent systematic source-to-2026 mismatch in addition to the existing preference uncertainty. Source rows and the central deterministic calculator remain unchanged, but nonlinear transformations can shift simulation means. Following the user's instruction to continue with judgment-based 2026 uncertainty, these four values are now in testing NOWCAST BUDGET C20:C23 and the matching CSV, marked JUDGMENT_2026. They affect both structured options; other modes, FORECAST PARAMS, Main and special-prior source rows are unchanged. Set all four to zero to reproduce the no-additional-applicability versions.
 
 Next specify prospective local contexts and source-applicability ranges, then compare the single coherent configuration across all 88 districts and all six parties. Assess which outcomes become possible and why, not just whether average leading-party probability falls. Council probabilities remain out of scope.
 

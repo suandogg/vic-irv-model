@@ -20,7 +20,9 @@ class NowcastLoaderTests(unittest.TestCase):
         self.assertEqual(review['enabled_contexts'],0)
         self.assertEqual(config['contexts'],{})
         self.assertGreater(config['region_sd_pp']['ALP'],.75)
-        self.assertTrue(all(v==0 for v in config['transport_log_sd'].values()))
+        self.assertEqual(config['transport_log_sd'],dict(vec=.15,federal=.25,special=.35,generic=.35))
+        source_rows=review['budget'].query("Component == 'transport_log_sd'")
+        self.assertTrue(source_rows['Evidence status'].eq('JUDGMENT_2026').all())
         actual,_=load_nowcast_inputs(self.districts)
         self.assertEqual(actual,config)
 

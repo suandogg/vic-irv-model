@@ -1,0 +1,10 @@
+Event,Probability (%),MC standard error (pp)
+ALP Majority,0.8,0.3983967871356395
+ALP minority,5.2,0.992935043192655
+LNP majority,32.4,2.092959626939803
+LNP-ON Majority (LNP-led),59.199999999999996,2.1978898971513563
+ON-LNP Majority (ON-led),0.0,0.0
+ON Majority,0.0,0.0
+Deadlock,2.0,0.6260990336999411
+Hung parliament,66.8,2.106067425321421
+Majority,33.2,2.106067425321421
