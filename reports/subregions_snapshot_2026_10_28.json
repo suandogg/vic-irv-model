@@ -1,0 +1,542 @@
+{
+  "spreadsheet_id": "1sLmANVOERsbV08BIZYUfT_fccTGw-mCvAwJSAD_4968",
+  "sheet": "SUB-REGIONS",
+  "sheet_id": 1018258823,
+  "range": "A1:D100",
+  "rows": [
+    [
+      "District",
+      "Proposed sub-region",
+      "Confidence",
+      "Rationale / validation priority"
+    ],
+    [
+      "Albert Park",
+      "Inner East",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Ashwood",
+      "Eastern Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Bass",
+      "Mornington Peninsula & Western Port",
+      "Medium",
+      "Review historical swing correlations"
+    ],
+    [
+      "Bayswater",
+      "Outer Eastern Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Bellarine",
+      "Geelong & Bellarine",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Benambra",
+      "North-East Victoria",
+      "Medium",
+      "Review historical swing correlations"
+    ],
+    [
+      "Bendigo East",
+      "Bendigo & Loddon",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Bendigo West",
+      "Bendigo & Loddon",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Bentleigh",
+      "Inner South-East",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Berwick",
+      "South-Eastern Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Box Hill",
+      "Eastern Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Brighton",
+      "Inner South",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Broadmeadows",
+      "Northern Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Brunswick",
+      "Inner North",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Bulleen",
+      "North-Eastern Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Bundoora",
+      "Northern Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Carrum",
+      "South-Eastern Bayside",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Caulfield",
+      "Inner South",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Clarinda",
+      "South-Eastern Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Cranbourne",
+      "South-Eastern Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Croydon",
+      "Outer Eastern Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Dandenong",
+      "South-Eastern Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Eildon",
+      "Yarra Ranges Fringe",
+      "Low",
+      "Review historical swing correlations"
+    ],
+    [
+      "Eltham",
+      "North-Eastern Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Essendon",
+      "Inner West",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Eureka",
+      "Ballarat & Central West",
+      "Medium",
+      "Review historical swing correlations"
+    ],
+    [
+      "Euroa",
+      "Northern Plains & Goulburn",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Evelyn",
+      "Yarra Ranges Fringe",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Footscray",
+      "Inner West",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Frankston",
+      "South-Eastern Bayside",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Geelong",
+      "Geelong & Bellarine",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Gippsland East",
+      "Gippsland",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Gippsland South",
+      "Gippsland",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Glen Waverley",
+      "Eastern Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Greenvale",
+      "Northern Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Hastings",
+      "Mornington Peninsula & Western Port",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Hawthorn",
+      "Inner East",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Ivanhoe",
+      "Northern Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Kalkallo",
+      "Northern Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Kew",
+      "Inner East",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Kororoit",
+      "Western Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Lara",
+      "Geelong & Bellarine",
+      "Medium",
+      "Review historical swing correlations"
+    ],
+    [
+      "Laverton",
+      "Western Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Lowan",
+      "Western District & Surf Coast",
+      "Low",
+      "Review historical swing correlations"
+    ],
+    [
+      "Macedon",
+      "North-Western Fringe",
+      "Medium",
+      "Review historical swing correlations"
+    ],
+    [
+      "Malvern",
+      "Inner South",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Melbourne",
+      "Inner North",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Melton",
+      "Western Growth Corridor",
+      "Medium",
+      "Review historical swing correlations"
+    ],
+    [
+      "Mildura",
+      "Northern Plains & Goulburn",
+      "Low",
+      "Review historical swing correlations"
+    ],
+    [
+      "Mill Park",
+      "Northern Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Monbulk",
+      "Yarra Ranges Fringe",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Mordialloc",
+      "South-Eastern Bayside",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Mornington",
+      "Mornington Peninsula & Western Port",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Morwell",
+      "Gippsland",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Mulgrave",
+      "South-Eastern Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Murray Plains",
+      "Bendigo & Loddon",
+      "Low",
+      "Review historical swing correlations"
+    ],
+    [
+      "Narracan",
+      "Gippsland",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Narre Warren North",
+      "South-Eastern Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Narre Warren South",
+      "South-Eastern Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Nepean",
+      "Mornington Peninsula & Western Port",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Niddrie",
+      "Western Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Northcote",
+      "Inner North",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Oakleigh",
+      "Inner South-East",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Ovens Valley",
+      "North-East Victoria",
+      "Medium",
+      "Review historical swing correlations"
+    ],
+    [
+      "Pakenham",
+      "South-Eastern Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Pascoe Vale",
+      "Inner West",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Point Cook",
+      "Western Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Polwarth",
+      "Western District & Surf Coast",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Prahran",
+      "Inner East",
+      "Medium",
+      "Review historical swing correlations"
+    ],
+    [
+      "Preston",
+      "Northern Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Richmond",
+      "Inner North",
+      "Medium",
+      "Review historical swing correlations"
+    ],
+    [
+      "Ringwood",
+      "Eastern Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Ripon",
+      "Ballarat & Central West",
+      "Medium",
+      "Review historical swing correlations"
+    ],
+    [
+      "Rowville",
+      "Outer Eastern Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Sandringham",
+      "Inner South-East",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Shepparton",
+      "Northern Plains & Goulburn",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "South Barwon",
+      "Geelong & Bellarine",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "South-West Coast",
+      "Western District & Surf Coast",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "St Albans",
+      "Western Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Sunbury",
+      "North-Western Fringe",
+      "Medium",
+      "Review historical swing correlations"
+    ],
+    [
+      "Sydenham",
+      "Western Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Tarneit",
+      "Western Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Thomastown",
+      "Northern Middle Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Warrandyte",
+      "North-Eastern Suburbs",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Wendouree",
+      "Ballarat & Central West",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Werribee",
+      "Western Growth Corridor",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Williamstown",
+      "Inner West",
+      "High",
+      "Geographic and settlement-pattern fit"
+    ],
+    [
+      "Yan Yean",
+      "North-Western Fringe",
+      "Medium",
+      "Review historical swing correlations"
+    ]
+  ]
+}

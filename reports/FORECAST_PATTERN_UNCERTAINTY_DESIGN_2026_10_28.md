@@ -74,6 +74,10 @@ For example, ON can overperform its current pattern across western Melbourne
 while underperforming elsewhere, with unchanged statewide ON support.
 
 Initially use the eight existing region assignments as a transparent grouping.
+Update after inspecting SUB-REGIONS: 25 groups cover all 88 seats, and nine cross
+upper-house region boundaries. Preserve memberships and test cross-classified
+upper-only, sub-region-only and fixed-variance blended effects rather than
+assuming strict nesting. See `SUBREGIONS_REVIEW_2026_10_28.md` for the audit.
 Audit their boundaries before treating them as ideal: Council regions are
 administrative groupings, not automatically optimal voting-pattern regions.
 Alternative groupings can be compared later, not layered on simultaneously by
