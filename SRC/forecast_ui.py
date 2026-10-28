@@ -8,6 +8,7 @@ from SRC.constants import PARTIES
 from SRC.forecast_params import load_forecast_params, parameter_table
 from SRC.forecast_engine import fingerprint, simulate, engine_source_hash, uncertainty_profile, STRUCTURAL_EXPERIMENTS
 from SRC.display_params import defaults as display_defaults
+from SRC.forecast_subregions import load_subregions
 from SRC.presentation import table as display_table, seat_intervals, event_bars, party_summary
 
 
@@ -31,6 +32,24 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         experiment_label = st.selectbox('Structural uncertainty trial (unvalidated)',
             list(STRUCTURAL_EXPERIMENTS),key='forecast_structural_trial')
         experiment = STRUCTURAL_EXPERIMENTS[experiment_label]
+        geographic_label = st.selectbox('Primary geographic uncertainty grouping',
+            ['Upper-house regions (current)','Blend upper-house and sub-regions','Sub-regions only'],
+            key='forecast_geographic_trial')
+        sub_fraction = {'Upper-house regions (current)':0.,'Blend upper-house and sub-regions':.5,
+                        'Sub-regions only':1.}[geographic_label]
+        experiment = dict(experiment)
+        subregions,subregion_source = None,'Upper-house regions only; SUB-REGIONS not used'
+        if sub_fraction:
+            try:
+                mapping,subregion_source = load_subregions(list(primary_inputs.district))
+            except ValueError as exc:
+                st.error(str(exc))
+                return
+            subregions = dict(zip(mapping.district,mapping.subregion))
+            experiment['subregion_fraction'] = sub_fraction
+        st.caption(subregion_source+'. Geographic primary SD stays fixed; blend splits its '
+                   'pre-balancing variance equally between the two crossed groupings. '
+                   'This selector does not introduce regional preference variation.')
         st.caption('Current is the unchanged default. Preference split replaces half the shared '
                    'origin/recipient variance with local variance; Preference added retains shared '
                    'variance and adds an equally scaled local component. Heavy tails t5 changes only '
@@ -46,7 +65,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
             'The selected preference architecture stays fixed in a run: this does not cover all structural model uncertainty. '
             'Explicit candidate/seat overrides stay central; local residual variation covers unmodelled local effects.')
     signature = fingerprint(primary_inputs,matrices,params,posterior,ideology,targets,
-                            seat_adjustments,settings,trial_label,experiment)
+                            seat_adjustments,settings,trial_label,experiment,subregions)
     stored = st.session_state.get('lower_forecast_run')
     if stored and stored['signature']!=signature:
         st.info('Inputs, preference method or settings changed. Previous results are hidden; run again.')
@@ -62,7 +81,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                 progress.progress(done/total,text=f'Simulation {done:,} of {total:,}')
         try:
             result = simulate(primary_inputs,matrices,params,posterior,ideology,targets,
-                              seat_adjustments,settings,update,experiment=experiment)
+                              seat_adjustments,settings,update,experiment=experiment,subregions=subregions)
             central,_,_ = central_runner(primary_inputs,matrices,params,posterior,ideology,
                                          targets,seat_adjustments,turnout_weights)
             result['seats'].insert(1,'Central winner',result['seats'].Seat.map(central.set_index('district').winner))
@@ -80,7 +99,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                 'Opening this view does not automatically start simulations.')
         return
     result = stored['result']
-    st.caption('Structural uncertainty trial: '+experiment_label)
+    st.caption('Structural uncertainty trial: '+experiment_label+' · '+geographic_label)
     with st.expander('Compare narrower / current / wider uncertainty'):
         st.caption('Halve or multiply all uncertainty SDs by 1.5, keeping central inputs, '
                    'preference method, seed and draw count fixed. This is sensitivity testing, '
@@ -91,7 +110,8 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                 try:
                     for label,multiplier in [('Narrower (0.5× SD)',.5),('Wider (1.5× SD)',1.5)]:
                         comparison[label] = simulate(primary_inputs,matrices,params,posterior,ideology,
-                            targets,seat_adjustments,uncertainty_profile(settings,multiplier),experiment=experiment)
+                            targets,seat_adjustments,uncertainty_profile(settings,multiplier),
+                            experiment=experiment,subregions=subregions)
                     st.session_state['forecast_uncertainty_comparison'] = (signature,comparison)
                 except (ValueError,KeyError,ArithmeticError) as exc:
                     st.error('Comparison not published: '+str(exc))
@@ -181,6 +201,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         manifest = {k:stored[k] for k in ('signature','created_utc','trial','sync_message')}
         manifest.update(settings=settings,central_targets=targets,engine='forecast-v1',
                         structural_experiment=experiment,
+                        subregions=subregions,subregion_source=subregion_source,
                         engine_source_hash=engine_source_hash(),
                         calibration='provisional; not calibrated to high-ON Victorian results')
         st.download_button('Download reproducibility record',json.dumps(manifest,indent=2),

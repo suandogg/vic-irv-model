@@ -1,0 +1,25 @@
+Trial,Party,Lower,Median,Upper,Average
+Upper-house only,ALP,17,28,41,28.713333333333335
+Upper-house only,LNP,31,39,50,39.94
+Upper-house only,GRN,5,5,8,5.733333333333333
+Upper-house only,ON,4,13,26,13.35
+Upper-house only,IND,0,0,1,0.2633333333333333
+Upper-house only,OTH,0,0,0,0.0
+Equal variance blend,ALP,17,28,41,28.703333333333333
+Equal variance blend,LNP,31,39,50,39.97
+Equal variance blend,GRN,5,5,8,5.726666666666667
+Equal variance blend,ON,3,13,26,13.333333333333334
+Equal variance blend,IND,0,0,1,0.26666666666666666
+Equal variance blend,OTH,0,0,0,0.0
+Sub-regions only,ALP,17,29,41,28.713333333333335
+Sub-regions only,LNP,31,40,50,39.97
+Sub-regions only,GRN,5,5,8,5.756666666666667
+Sub-regions only,ON,3,13,25,13.29
+Sub-regions only,IND,0,0,1,0.27
+Sub-regions only,OTH,0,0,0,0.0
+Sub-regions + local preferences + t5,ALP,16,29,41,28.643333333333334
+Sub-regions + local preferences + t5,LNP,31,40,50,39.74
+Sub-regions + local preferences + t5,GRN,5,6,8,5.826666666666667
+Sub-regions + local preferences + t5,ON,4,12,26,13.443333333333333
+Sub-regions + local preferences + t5,IND,0,0,1,0.3466666666666667
+Sub-regions + local preferences + t5,OTH,0,0,0,0.0

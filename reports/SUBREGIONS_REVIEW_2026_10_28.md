@@ -71,6 +71,8 @@ and label other effects as provisional.
 
 ## Status
 
-SUB-REGIONS is inspected and documented but **not yet synced or used by the app**.
-No settings, memberships, defaults or Main changes. Next: opt-in fixed-budget
-comparison preserving current assignments.
+Subsequent implementation on 28 October adds read-only sync and a forecast-only
+loader, plus opt-in upper-only/sub-only/blended primary geographic uncertainty.
+The default still does not use the mapping. Memberships, Sheet values, central
+calculator and Main remain unchanged. See SUBREGIONS_TRIAL_RESULTS_2026_10_28.md
+for the controlled comparison; this does not yet add regional preference effects.

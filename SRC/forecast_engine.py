@@ -90,7 +90,7 @@ def binomial_interval(rate, n, z=1.96):
 def engine_source_hash():
     root = Path(__file__).resolve().parent
     files = ('forecast_engine.py','forecast_params.py','primary_pipeline.py',
-             'legacy_primary_model.py','preference_engine.py','irv.py')
+             'legacy_primary_model.py','preference_engine.py','irv.py','forecast_subregions.py')
     return hashlib.sha256(b''.join((root/name).read_bytes() for name in files)).hexdigest()
 
 
@@ -120,7 +120,8 @@ def draw_targets(targets, settings, rng):
     return dict(zip(PARTIES,draw))
 
 
-def perturb_local_primaries(adjusted, settings, rng, tail_rng=None, tail_df=None):
+def perturb_local_primaries(adjusted, settings, rng, tail_rng=None, tail_df=None,
+                            subregions=None, subregion_fraction=0., subregion_rng=None):
     if not settings['REGION_PRIMARY_SD_PP'] and not settings['SEAT_PRIMARY_SD_PP']:
         return adjusted.copy()
     base = adjusted[PARTIES].to_numpy(dtype=float)
@@ -132,6 +133,12 @@ def perturb_local_primaries(adjusted, settings, rng, tail_rng=None, tail_df=None
     regional = {region:rng.normal(0,settings['REGION_PRIMARY_SD_PP'],len(PARTIES))/100
                 for region in region_names}
     shock = np.array([regional[region] for region in adjusted.region])
+    if subregion_fraction>0:
+        groups = [subregions[seat] for seat in adjusted.district]
+        subgroup_shocks = {group:subregion_rng.normal(0,settings['REGION_PRIMARY_SD_PP'],len(PARTIES))/100
+                           for group in sorted(set(groups))}
+        shock = np.sqrt(1-subregion_fraction)*shock + np.sqrt(subregion_fraction)*np.array(
+            [subgroup_shocks[group] for group in groups])
     local = rng.normal(0,settings['SEAT_PRIMARY_SD_PP']/100,base.shape)
     if tail_df is not None:
         # Normal/chi-square mixture: t errors with the SAME pre-balancing variance.
@@ -199,10 +206,10 @@ def perturb_preference_flows(diagnostic, origin, seat_class, shocks):
 
 
 def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
-             seat_adjustments, settings, progress=None, experiment=None):
+             seat_adjustments, settings, progress=None, experiment=None, subregions=None):
     settings = validate(settings)
     experiment = {} if experiment is None else dict(experiment)
-    if set(experiment)-{'local_preference_mode','local_primary_t_df'}:
+    if set(experiment)-{'local_preference_mode','local_primary_t_df','subregion_fraction'}:
         raise ValueError('Unknown forecast experiment')
     mode = experiment.get('local_preference_mode')
     if mode not in (None,'split','add'):
@@ -213,6 +220,12 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     districts = list(primary_inputs.district)
     if len(districts)!=88 or len(set(districts))!=88:
         raise ValueError('Lower-house forecast requires 88 unique districts')
+    sub_fraction = float(experiment.get('subregion_fraction',0))
+    if not np.isfinite(sub_fraction) or not 0<=sub_fraction<=1:
+        raise ValueError('Subregion variance fraction must be between 0 and 1')
+    if sub_fraction>0 and (subregions is None or set(subregions)!=set(districts) or
+                           any(not isinstance(v,str) or not v.strip() for v in subregions.values())):
+        raise ValueError('Selected subregion trial requires a complete validated district mapping')
     rng = np.random.default_rng(settings['SEED'])
     winner_draws, margin_draws, counts, primaries, alp_2pp, seat_primaries = [],[],[],[],[],[]
     for draw in range(settings['SIMULATIONS']):
@@ -225,7 +238,9 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
             model_params['_forecast_local_preference_mode'] = mode
         adjusted,_ = build_projected_primaries(primary_inputs,model_params,drawn_targets,seat_adjustments)
         tail_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,202])) if tail_df else None
-        adjusted = perturb_local_primaries(adjusted,settings,rng,tail_rng,tail_df)
+        sub_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,303])) if sub_fraction else None
+        adjusted = perturb_local_primaries(adjusted,settings,rng,tail_rng,tail_df,
+                                           subregions,sub_fraction,sub_rng)
         seat_primaries.append(adjusted.set_index('district').loc[districts,PARTIES].to_numpy(dtype=float))
         result = forecast_counts(adjusted,matrices,model_params,posterior,ideology).set_index('district').loc[districts]
         if len(result)!=88 or result.winner.isna().any() or not result.winner.isin(PARTIES).all():
@@ -280,4 +295,4 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
             'government':government,'draws':count_frame,
             'primary_draws':pd.DataFrame(primaries,columns=PARTIES),'settings':settings,
             'central_targets':dict(targets),'diagnostics':pd.DataFrame(diagnostic_rows),
-            'experiment':experiment}
+            'experiment':experiment,'subregions':dict(subregions) if sub_fraction else {}}

@@ -180,3 +180,25 @@ pre-feature commit, confirming it predates this change.
 The new Sheet's values, validation rules, frozen panes and formatting were read
 back through the Sheets connector. Native browser visual verification was not
 available in this session.
+
+## Opt-in subregion primary geography (28 October)
+
+The primary geographic uncertainty grouping selector in the settings expander
+defaults to upper-house regions. Sub-regions only replaces that grouping; Blend
+uses sqrt(0.5) times each independent group effect. REGION_PRIMARY_SD_PP remains
+the same total pre-balancing geographic SD. Crossed group membership is preserved.
+This does not add regional preference variation or change the central calculator.
+
+SUB-REGIONS is now in the read-only Sheet sync mapping. The forecast-only loader
+requires exact complete district coverage, rejects duplicate/blank groups and
+preserves confidence/notes as metadata. A committed JSON snapshot provides an
+explicitly labelled fallback if no synced CSV exists. A malformed present CSV
+fails the selected trial, rather than silently falling back. Current mode does
+not require or consume the mapping. Group selections combine with structural
+trials and are retained in narrower/wider comparisons. The mapping is part of
+the forecast fingerprint and downloadable manifest when used; Sheet membership
+edits take effect after Refresh Google Sheet inputs. Defaults and memberships
+remain unchanged, and confidence labels are not numeric variance multipliers.
+
+Separate subgroup RNG streams keep baseline draws paired. All-zero uncertainty,
+seat totals, party totals and structural-zero behaviour remain unchanged.

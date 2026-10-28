@@ -1,0 +1,13 @@
+Trial,Seed,Seats_at_least_98,Seats_all_draws
+Upper-house only,20261010,40,34
+Upper-house only,20261011,40,33
+Upper-house only,20261012,42,32
+Equal variance blend,20261010,40,34
+Equal variance blend,20261011,40,33
+Equal variance blend,20261012,43,32
+Sub-regions only,20261010,40,35
+Sub-regions only,20261011,39,33
+Sub-regions only,20261012,42,32
+Sub-regions + local preferences + t5,20261010,36,30
+Sub-regions + local preferences + t5,20261011,36,25
+Sub-regions + local preferences + t5,20261012,40,32
