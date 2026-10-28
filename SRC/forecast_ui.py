@@ -32,7 +32,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         experiment_label = st.selectbox('Structural uncertainty trial (unvalidated)',
             list(STRUCTURAL_EXPERIMENTS),key='forecast_structural_trial')
         experiment = STRUCTURAL_EXPERIMENTS[experiment_label]
-        geographic_label = st.selectbox('Primary geographic uncertainty grouping',
+        geographic_label = st.selectbox('Geographic uncertainty grouping',
             ['Upper-house regions (current)','Blend upper-house and sub-regions','Sub-regions only'],
             key='forecast_geographic_trial')
         sub_fraction = {'Upper-house regions (current)':0.,'Blend upper-house and sub-regions':.5,
@@ -49,13 +49,25 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
             experiment['subregion_fraction'] = sub_fraction
         st.caption(subregion_source+'. Geographic primary SD stays fixed; blend splits its '
                    'pre-balancing variance equally between the two crossed groupings. '
-                   'This selector does not introduce regional preference variation.')
+                   'Regional preference trials use the same grouping; other trials leave preferences unchanged.')
         st.caption('Current is the unchanged default. Preference split replaces half the shared '
                    'origin/recipient variance with local variance; Preference added retains shared '
                    'variance and adds an equally scaled local component. Heavy tails t5 changes only '
                    'local primary error shape, preserving variance before balancing. Combined applies '
                    'added local preferences and t5. These are uncalibrated trials; source preference '
                    'rows and Sheet values remain unchanged.')
+        if 'concentration_log_sd' in experiment:
+            experiment['concentration_log_sd'] = st.number_input('All-party concentration log-tilt SD (research)',
+                min_value=0.,max_value=1.,value=.2,step=.05,key='forecast_concentration_sd')
+            st.caption('One coefficient per party per election varies concentration of current positive support, '
+                       'then balances all party and seat totals. Positive concentrates, negative flattens. '
+                       'This replaces ON alpha uncertainty for this trial, not its central value. '
+                       'The default 0.20 is a stress-test assumption, not a fitted estimate.')
+        if experiment.get('preference_region_share',0):
+            st.caption('Regional preference trial: existing origin/recipient variance is partitioned '
+                       '50% statewide, 25% geographic, 25% local for every party. Source-based SDs '
+                       'and the separate class-ON shock stay unchanged. No extra origin/recipient '
+                       'variance is added. Flow regimes and source rows are unchanged.')
         display_table(parameter_table(settings),hide_index=True,width='stretch')
         st.markdown('All SDs are **provisional assumptions**, not fitted estimates. Statewide party errors '
             'start independent, then are constrained to total 100%; a fitted polling covariance is not yet available. '
@@ -109,9 +121,12 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
             with st.spinner('Running narrower and wider assumptions…'):
                 try:
                     for label,multiplier in [('Narrower (0.5× SD)',.5),('Wider (1.5× SD)',1.5)]:
+                        trial_experiment = dict(experiment)
+                        if 'concentration_log_sd' in trial_experiment:
+                            trial_experiment['concentration_log_sd'] *= multiplier
                         comparison[label] = simulate(primary_inputs,matrices,params,posterior,ideology,
                             targets,seat_adjustments,uncertainty_profile(settings,multiplier),
-                            experiment=experiment,subregions=subregions)
+                            experiment=trial_experiment,subregions=subregions)
                     st.session_state['forecast_uncertainty_comparison'] = (signature,comparison)
                 except (ValueError,KeyError,ArithmeticError) as exc:
                     st.error('Comparison not published: '+str(exc))
@@ -210,3 +225,6 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                            'lower_forecast_draws.csv','text/csv')
         st.download_button('Download statewide primary draws',primary.to_csv(index=False),
                            'lower_forecast_primary_draws.csv','text/csv')
+        if result.get('experiment',{}).get('concentration_log_sd',0):
+            st.download_button('Download concentration pattern coefficients',result['concentration_draws'].to_csv(index=False),
+                               'forecast_concentration_draws.csv','text/csv')

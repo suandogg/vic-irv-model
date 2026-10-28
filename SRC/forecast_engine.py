@@ -15,6 +15,7 @@ from SRC.constants import PARTIES
 from SRC.forecast_params import validate
 from SRC.primary_pipeline import build_projected_primaries, params_for_scenario
 from SRC.irv import run_irv_for_district, run_forced_2pp_for_district, district_key
+from SRC.forecast_patterns import balance_primary_pattern,strength_contrast
 
 STRUCTURAL_EXPERIMENTS = {
     'Current':{},
@@ -22,7 +23,28 @@ STRUCTURAL_EXPERIMENTS = {
     'Preference added':{'local_preference_mode':'add'},
     'Heavy tails t5':{'local_primary_t_df':5},
     'Added preferences + t5':{'local_preference_mode':'add','local_primary_t_df':5},
+    'Regional preference patterns':{'preference_region_share':.25,'preference_local_share':.25},
+    'All-party concentration patterns':{'concentration_log_sd':.2},
+    'Concentration + regional preferences':{'concentration_log_sd':.2,
+        'preference_region_share':.25,'preference_local_share':.25},
 }
+
+
+def draw_preference_pattern(shocks, primary_inputs, regional_share, local_share,
+                            rng, subregions=None, subregion_fraction=0.):
+    """Partition existing origin/recipient variance; retain class-ON separately."""
+    shared = np.array([[shocks['origin'][o][p] for p in PARTIES] for o in PARTIES])
+    shape = shared.shape
+    upper = {r:rng.normal(size=shape) for r in sorted(primary_inputs.region.unique())}
+    lower = {r:rng.normal(size=shape) for r in sorted(set(subregions.values()))} if subregion_fraction else {}
+    seats = {}
+    for seat in primary_inputs.sort_values('district').itertuples():
+        geographic = upper[seat.region]
+        if subregion_fraction:
+            geographic = np.sqrt(1-subregion_fraction)*geographic + np.sqrt(subregion_fraction)*lower[subregions[seat.district]]
+        seats[seat.district] = (np.sqrt(1-regional_share-local_share)*shared
+            +np.sqrt(regional_share)*geographic+np.sqrt(local_share)*rng.normal(size=shape))
+    return seats
 
 
 def forecast_counts(adjusted, matrices, params, posterior, ideology):
@@ -36,7 +58,14 @@ def forecast_counts(adjusted, matrices, params, posterior, ideology):
         matrix = matrices[district_key(seat['district'])]['matrix']
         seat_params = params
         local = params.get('_forecast_local_preference',{}).get(seat['district'])
-        if local is not None and '_forecast_preference_shocks' in params:
+        patterned = params.get('_forecast_origin_by_seat',{}).get(seat['district'])
+        if patterned is not None and '_forecast_preference_shocks' in params:
+            seat_params = dict(params)
+            shocks = dict(params['_forecast_preference_shocks'])
+            shocks['origin'] = {origin:dict(zip(PARTIES,patterned[i])) for i,origin in enumerate(PARTIES)}
+            seat_params['_forecast_preference_shocks'] = shocks
+            seat_params['_forecast_flow_cache'] = {}
+        elif local is not None and '_forecast_preference_shocks' in params:
             seat_params = dict(params)
             shocks = dict(params['_forecast_preference_shocks'])
             split = params.get('_forecast_local_preference_mode')=='split'
@@ -90,7 +119,7 @@ def binomial_interval(rate, n, z=1.96):
 def engine_source_hash():
     root = Path(__file__).resolve().parent
     files = ('forecast_engine.py','forecast_params.py','primary_pipeline.py',
-             'legacy_primary_model.py','preference_engine.py','irv.py','forecast_subregions.py')
+             'legacy_primary_model.py','preference_engine.py','irv.py','forecast_subregions.py','forecast_patterns.py')
     return hashlib.sha256(b''.join((root/name).read_bytes() for name in files)).hexdigest()
 
 
@@ -209,7 +238,8 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
              seat_adjustments, settings, progress=None, experiment=None, subregions=None):
     settings = validate(settings)
     experiment = {} if experiment is None else dict(experiment)
-    if set(experiment)-{'local_preference_mode','local_primary_t_df','subregion_fraction'}:
+    if set(experiment)-{'local_preference_mode','local_primary_t_df','subregion_fraction',
+                       'concentration_log_sd','preference_region_share','preference_local_share'}:
         raise ValueError('Unknown forecast experiment')
     mode = experiment.get('local_preference_mode')
     if mode not in (None,'split','add'):
@@ -217,6 +247,15 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     tail_df = experiment.get('local_primary_t_df')
     if tail_df is not None and (not np.isfinite(tail_df) or tail_df<=2):
         raise ValueError('Variance-matched t experiment requires df > 2')
+    concentration_sd = float(experiment.get('concentration_log_sd',0))
+    region_share = float(experiment.get('preference_region_share',0))
+    local_share = float(experiment.get('preference_local_share',0))
+    if not np.isfinite(concentration_sd) or not 0<=concentration_sd<=1:
+        raise ValueError('Concentration stress SD must be between 0 and 1')
+    if not np.isfinite([region_share,local_share]).all() or min(region_share,local_share)<0 or region_share+local_share>1:
+        raise ValueError('Preference variance fractions must be nonnegative and sum to at most 1')
+    if mode is not None and region_share+local_share>0:
+        raise ValueError('Do not stack two local preference variance models')
     districts = list(primary_inputs.district)
     if len(districts)!=88 or len(set(districts))!=88:
         raise ValueError('Lower-house forecast requires 88 unique districts')
@@ -228,15 +267,33 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
         raise ValueError('Selected subregion trial requires a complete validated district mapping')
     rng = np.random.default_rng(settings['SEED'])
     winner_draws, margin_draws, counts, primaries, alp_2pp, seat_primaries = [],[],[],[],[],[]
+    coefficient_draws = []
     for draw in range(settings['SIMULATIONS']):
         drawn_targets = draw_targets(targets,settings,rng)
         model_params = draw_model_params(params,drawn_targets,settings,primary_inputs.seat_type,rng)
+        if concentration_sd:
+            # Replace ON concentration uncertainty, do not stack it. Its old
+            # RNG draw was still consumed to preserve the paired baseline stream.
+            model_params['scalar_params']['ON alpha'] = float(params.get('scalar_params',{}).get('ON alpha',.6))
+        if region_share+local_share>0 and '_forecast_preference_shocks' in model_params:
+            preference_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,404]))
+            model_params['_forecast_origin_by_seat'] = draw_preference_pattern(
+                model_params['_forecast_preference_shocks'],primary_inputs,region_share,local_share,
+                preference_rng,subregions,sub_fraction)
         if mode is not None:
             local_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,101]))
             model_params['_forecast_local_preference'] = {seat:local_rng.normal(size=(len(PARTIES),len(PARTIES)))
                                                          for seat in sorted(districts)}
             model_params['_forecast_local_preference_mode'] = mode
         adjusted,_ = build_projected_primaries(primary_inputs,model_params,drawn_targets,seat_adjustments)
+        coefficients = np.zeros(len(PARTIES))
+        if concentration_sd:
+            pattern_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,505]))
+            coefficients = pattern_rng.normal(0,concentration_sd,len(PARTIES))
+            base = adjusted[PARTIES].to_numpy(dtype=float)
+            adjusted = adjusted.copy()
+            adjusted[PARTIES] = balance_primary_pattern(base,strength_contrast(base)*coefficients)
+        coefficient_draws.append(coefficients)
         tail_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,202])) if tail_df else None
         sub_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,303])) if sub_fraction else None
         adjusted = perturb_local_primaries(adjusted,settings,rng,tail_rng,tail_df,
@@ -295,4 +352,5 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
             'government':government,'draws':count_frame,
             'primary_draws':pd.DataFrame(primaries,columns=PARTIES),'settings':settings,
             'central_targets':dict(targets),'diagnostics':pd.DataFrame(diagnostic_rows),
-            'experiment':experiment,'subregions':dict(subregions) if sub_fraction else {}}
+            'experiment':experiment,'subregions':dict(subregions) if sub_fraction else {},
+            'concentration_draws':pd.DataFrame(coefficient_draws,columns=PARTIES)}

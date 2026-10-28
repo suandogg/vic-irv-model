@@ -1,0 +1,31 @@
+Trial,Party,Lower,Median,Upper,Average
+Current,ALP,17,28,41,28.713333333333335
+Current,LNP,31,39,50,39.94
+Current,GRN,5,5,8,5.733333333333333
+Current,ON,4,13,26,13.35
+Current,IND,0,0,1,0.2633333333333333
+Current,OTH,0,0,0,0.0
+Concentration,ALP,17,29,41,29.2
+Concentration,LNP,30,40,52,40.22
+Concentration,GRN,2,5,9,5.41
+Concentration,ON,1,12,26,12.686666666666667
+Concentration,IND,0,0,2,0.48333333333333334
+Concentration,OTH,0,0,0,0.0
+Regional preferences,ALP,17,29,41,28.68
+Regional preferences,LNP,31,40,49,40.02333333333333
+Regional preferences,GRN,5,5,8,5.756666666666667
+Regional preferences,ON,4,13,25,13.286666666666667
+Regional preferences,IND,0,0,1,0.25333333333333335
+Regional preferences,OTH,0,0,0,0.0
+Both upper regions,ALP,17,29,41,29.263333333333332
+Both upper regions,LNP,30,39,51,40.07666666666667
+Both upper regions,GRN,2,5,9,5.3933333333333335
+Both upper regions,ON,2,12,26,12.78
+Both upper regions,IND,0,0,2,0.4866666666666667
+Both upper regions,OTH,0,0,0,0.0
+Both subregions,ALP,17,29,41,29.18
+Both subregions,LNP,30,40,51,40.306666666666665
+Both subregions,GRN,2,5,9,5.366666666666666
+Both subregions,ON,2,12,25,12.68
+Both subregions,IND,0,0,2,0.4666666666666667
+Both subregions,OTH,0,0,0,0.0

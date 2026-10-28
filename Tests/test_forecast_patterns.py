@@ -44,3 +44,39 @@ class PatternTests(unittest.TestCase):
             tilt_preference_pattern({'ALP':1.},{'ON':.3})
         with self.assertRaises(ValueError):
             tilt_preference_pattern({'ALP':0.},{})
+
+    def test_integrated_patterns_reproducible_and_paired(self):
+        from Tests.test_forecast_engine import calculator_fixture
+        from SRC.forecast_params import defaults
+        from SRC.forecast_engine import simulate,fingerprint
+        from SRC.constants import PARTIES
+        import pandas as pd
+        _,p,m,params,post,i,a = calculator_fixture()
+        t = dict(ALP=24.6,LNP=29.1,GRN=13.3,ON=22,IND=5.5,OTH=5.5)
+        s = defaults()|{'SIMULATIONS':2}
+        before = fingerprint(p,m,params,post,i,a)
+        baseline = simulate(p,m,params,post,i,t,a,s)
+        e = {'concentration_log_sd':.2,'preference_region_share':.25,'preference_local_share':.25}
+        x = simulate(p,m,params,post,i,t,a,s,experiment=e)
+        y = simulate(p,m,params,post,i,t,a,s,experiment=e)
+        pd.testing.assert_frame_equal(x['draws'],y['draws'])
+        pd.testing.assert_frame_equal(x['primary_draws'],baseline['primary_draws'])
+        self.assertEqual(before,fingerprint(p,m,params,post,i,a))
+        self.assertTrue(x['draws'][PARTIES].sum(axis=1).eq(88).all())
+        self.assertTrue(np.any(x['concentration_draws'].to_numpy()!=0))
+        off = simulate(p,m,params,post,i,t,a,s,experiment={'concentration_log_sd':0})
+        pd.testing.assert_frame_equal(off['draws'],baseline['draws'])
+        with self.assertRaises(ValueError):
+            simulate(p,m,params,post,i,t,a,s,experiment={'preference_region_share':.8,'preference_local_share':.3})
+        with self.assertRaises(ValueError):
+            simulate(p,m,params,post,i,t,a,s,experiment={'preference_region_share':.2,'local_preference_mode':'add'})
+
+    def test_regional_flow_shocks_reused(self):
+        import pandas as pd
+        from SRC.forecast_engine import draw_preference_pattern
+        from SRC.constants import PARTIES
+        origin = {o:{p:0. for p in PARTIES} for o in PARTIES}
+        seats = pd.DataFrame({'district':['A','B','C'],'region':['X','X','Y']})
+        x = draw_preference_pattern({'origin':origin},seats,1.,0.,np.random.default_rng(3))
+        np.testing.assert_array_equal(x['A'],x['B'])
+        self.assertFalse(np.allclose(x['A'],x['C']))

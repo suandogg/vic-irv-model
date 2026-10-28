@@ -9,11 +9,11 @@ and preference architecture should not be mistaken for robustness across plausib
 architectures.
 
 This document is an implementation design, not a calibrated forecast. Deterministic
-research primitives have been built in `SRC/forecast_patterns.py` and tested, but
-are **not connected to the app's simulation loop**. No Sheet, live forecast,
-central values or defaults have been changed. Existing opt-in trials remain as
-previously implemented. Numerical widths/mixture probabilities below are not
-silently invented or adopted.
+research primitives were initially built in `SRC/forecast_patterns.py`. Subsequent
+28 October work connects concentration and regional preference prototypes as
+**opt-in research trials**, not defaults. See ALL_PARTY_PATTERN_RESULTS_2026_10_28.md.
+The current central calculator, Main and Sheet values remain unchanged. Numerical
+research widths and variance allocations are provisional, not fitted estimates.
 
 ## 1. Separate four questions
 
@@ -279,8 +279,11 @@ forecast median. The central deterministic calculator itself remains unchanged.
 - Equal-seat-centred regional contrasts.
 - Recipient tilts on a specified preference row, preserving zeros and source data.
 
-Five new tests pass alongside the ten existing forecast tests. These primitives
-do not draw coefficients, assign model weights, read new Sheets or run inside
-the live forecast. Evidence fitting, all-party variance budgets, the new Sheet
-schemas and combined trials are the next implementation stage. Current numerical
-uncertainty defaults have not been presented as calibrated or replaced.
+The primitives are now used by opt-in all-party concentration trials. Regional
+preference trials partition existing origin/recipient variance into 50% statewide,
+25% geographic and 25% local; the separate existing class-ON shock remains
+explicitly unchanged. Concentration stress uses a declared 0.20 log-tilt SD,
+editable in the app, replacing ON-alpha uncertainty rather than stacking it.
+This is a first prototype, not the full design: alternate evidence maps,
+field-specific preference regimes, evidence fitting and the additional Sheet
+schemas remain to be implemented. Defaults have not been calibrated or replaced.

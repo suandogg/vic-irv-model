@@ -1,4 +1,4 @@
-"""Deterministic pattern primitives for research; not connected to production.
+"""Pattern primitives used only by opt-in forecast research trials.
 
 Callers supply pattern coefficients. This module assigns no mixture probabilities,
 uncertainty widths or new central values. Positive cells are not candidate flags.
