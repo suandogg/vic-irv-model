@@ -514,10 +514,9 @@ if sync_status.get("synced", 0) > 0:
     st.sidebar.caption(sync_status.get("message", "Google Sheet inputs synced"))
 elif sync_status.get("message"):
     st.sidebar.caption(f"Using committed CSV inputs ({sync_status['message']}).")
-if sync_status.get("errors"):
-    st.sidebar.warning(
-        "Some Google Sheet tabs could not be synced; using available CSV inputs."
-    )
+from SRC.sync_status_ui import render_sync_diagnostics
+with st.sidebar:
+    render_sync_diagnostics(sync_status)
 
 house_view = st.sidebar.radio(
     "View",

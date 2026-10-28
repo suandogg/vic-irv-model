@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Mapping
 
@@ -137,6 +138,42 @@ def worksheet_to_dataframe(worksheet, tab_name: str) -> pd.DataFrame:
     return pd.DataFrame(worksheet.get_all_records())
 
 
+def safe_sync_error(exc: Exception) -> str:
+    """Public app diagnostics must never echo arbitrary credential/API payloads."""
+    response = getattr(exc, "response", None)
+    code = getattr(response, "status_code", None)
+    if code == 429:
+        return "Google read-request quota/rate limit reached (HTTP 429)."
+    if code in (401, 403):
+        return f"Google authentication or spreadsheet permission error (HTTP {code})."
+    if code == 404:
+        return "Google could not find the spreadsheet or tab (HTTP 404)."
+    if isinstance(code, int) and code >= 500:
+        return f"Google service temporarily unavailable (HTTP {code})."
+    message = str(exc).lower()
+    if "header" in message and ("duplicate" in message or "unique" in message):
+        return "Duplicate column headings: the tab could not be imported as named columns."
+    if "timeout" in message or "timed out" in message:
+        return "The Google Sheet request timed out."
+    if isinstance(exc, OSError):
+        return "Network or local saved-input access failed."
+    if isinstance(exc, (ValueError, TypeError)):
+        return "The tab could not be converted to the expected input table."
+    return "Sheet import failed; exception type: " + type(exc).__name__ + "."
+
+
+def input_diagnostic(tab_name: str, filename: str, status: str, reason: str = "") -> dict:
+    path = DATA_DIR / filename
+    try:
+        available = path.is_file() and path.stat().st_size > 0
+        modified = (datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).isoformat()
+                    if available else None)
+    except OSError:
+        available, modified = None, None
+    return {"tab":tab_name,"file":filename,"status":status,"reason":reason,
+            "saved_csv_available":available,"saved_csv_modified_utc":modified}
+
+
 def sync_inputs_from_google_sheet(
     secrets: Mapping[str, Any] | None = None,
     only_tabs: set[str] | None = None,
@@ -149,6 +186,7 @@ def sync_inputs_from_google_sheet(
             "skipped": [],
             "errors": [],
             "message": "Missing Google service-account credentials",
+            "diagnostics": [],
         }
 
     try:
@@ -161,25 +199,30 @@ def sync_inputs_from_google_sheet(
             "synced": 0,
             "skipped": [],
             "errors": [str(exc)],
-            "message": f"Google Sheet connection failed: {exc}",
+            "message": "Google Sheet connection failed: " + safe_sync_error(exc),
+            "diagnostics": [{"tab":"Spreadsheet connection","status":"error",
+                "reason":safe_sync_error(exc),"file":"","saved_csv_available":None}],
         }
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     synced = 0
     skipped = []
     errors = []
+    diagnostics = []
 
     for tab_name, csv_filename in FILES.items():
         if only_tabs and tab_name not in only_tabs and csv_filename not in only_tabs:
             continue
         if tab_name not in available_tabs:
             skipped.append(tab_name)
+            diagnostics.append(input_diagnostic(tab_name,csv_filename,"skipped","Tab not found in workbook."))
             continue
 
         try:
             dataframe = worksheet_to_dataframe(sheet.worksheet(tab_name), tab_name)
             if dataframe.empty:
                 skipped.append(tab_name)
+                diagnostics.append(input_diagnostic(tab_name,csv_filename,"skipped","Tab has no data rows."))
                 continue
 
             output_path = DATA_DIR / csv_filename
@@ -189,8 +232,10 @@ def sync_inputs_from_google_sheet(
                 header=tab_name not in RAW_GRID_TABS,
             )
             synced += 1
+            diagnostics.append(input_diagnostic(tab_name,csv_filename,"synced"))
         except Exception as exc:
             errors.append(f"{tab_name}: {exc}")
+            diagnostics.append(input_diagnostic(tab_name,csv_filename,"error",safe_sync_error(exc)))
 
     return {
         "ok": not errors,
@@ -198,4 +243,5 @@ def sync_inputs_from_google_sheet(
         "skipped": skipped,
         "errors": errors,
         "message": f"Synced {synced} Google Sheet tabs",
+        "diagnostics": diagnostics,
     }
