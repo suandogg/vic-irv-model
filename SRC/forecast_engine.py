@@ -15,7 +15,7 @@ from SRC.constants import PARTIES
 from SRC.forecast_params import validate
 from SRC.primary_pipeline import build_projected_primaries, params_for_scenario
 from SRC.irv import run_irv_for_district, run_forced_2pp_for_district, district_key
-from SRC.forecast_patterns import balance_primary_pattern,strength_contrast
+from SRC.forecast_patterns import balance_primary_pattern,strength_contrast,concentration_exponents
 
 STRUCTURAL_EXPERIMENTS = {
     'Current':{},
@@ -275,6 +275,7 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     rng = np.random.default_rng(settings['SEED'])
     winner_draws, margin_draws, counts, primaries, alp_2pp, seat_primaries = [],[],[],[],[],[]
     coefficient_draws = []
+    exponent_draws = []
     for draw in range(settings['SIMULATIONS']):
         drawn_targets = draw_targets(targets,settings,rng)
         model_params = draw_model_params(params,drawn_targets,settings,primary_inputs.seat_type,rng)
@@ -294,13 +295,16 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
             model_params['_forecast_local_preference_mode'] = mode
         adjusted,_ = build_projected_primaries(primary_inputs,model_params,drawn_targets,seat_adjustments)
         coefficients = np.zeros(len(PARTIES))
+        exponents = np.ones(len(PARTIES))
         if np.any(concentration_sds):
             pattern_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,505]))
             coefficients = pattern_rng.normal(size=len(PARTIES))*concentration_sds
             base = adjusted[PARTIES].to_numpy(dtype=float)
+            exponents = concentration_exponents(base,coefficients)
             adjusted = adjusted.copy()
             adjusted[PARTIES] = balance_primary_pattern(base,strength_contrast(base)*coefficients)
         coefficient_draws.append(coefficients)
+        exponent_draws.append(exponents)
         tail_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,202])) if tail_df else None
         sub_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,303])) if sub_fraction else None
         adjusted = perturb_local_primaries(adjusted,settings,rng,tail_rng,tail_df,
@@ -360,4 +364,5 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
             'primary_draws':pd.DataFrame(primaries,columns=PARTIES),'settings':settings,
             'central_targets':dict(targets),'diagnostics':pd.DataFrame(diagnostic_rows),
             'experiment':experiment,'subregions':dict(subregions) if sub_fraction else {},
-            'concentration_draws':pd.DataFrame(coefficient_draws,columns=PARTIES)}
+            'concentration_draws':pd.DataFrame(coefficient_draws,columns=PARTIES),
+            'concentration_exponents':pd.DataFrame(exponent_draws,columns=PARTIES)}

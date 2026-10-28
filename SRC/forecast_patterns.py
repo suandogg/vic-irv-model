@@ -63,6 +63,28 @@ def strength_contrast(base):
     return result
 
 
+def concentration_exponents(base,coefficients):
+    """Equivalent pre-balancing power; <=0 flags flattening/rank reversal.
+
+    Balancing and other parties can also change final rankings. This is a
+    diagnostic, not an assertion of final seat ordering or a rejection rule.
+    """
+    base = np.asarray(base,dtype=float)
+    coefficients = np.asarray(coefficients,dtype=float)
+    if base.ndim!=2 or coefficients.shape!=(base.shape[1],):
+        raise ValueError('Invalid concentration exponent dimensions')
+    if not np.isfinite(base).all() or (base<0).any() or not np.isfinite(coefficients).all():
+        raise ValueError('Invalid concentration exponent inputs')
+    exponents = np.ones(base.shape[1])
+    for j in range(base.shape[1]):
+        active = base[:,j]>0
+        if active.any():
+            sd = np.log(base[active,j]).std()
+            if sd>1e-12:
+                exponents[j] += coefficients[j]/sd
+    return exponents
+
+
 def centre_region_contrasts(regions, region_scores):
     """Remove constant geographic tilts using equal-seat weighting.
 

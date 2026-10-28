@@ -218,3 +218,10 @@ parties stay zero; compositional balancing can still change their seat shares.
 Uniform per-party widths reproduce the common-width implementation exactly.
 Narrower/wider comparisons scale overrides as well as the common width. Controls
 are research UI only pending empirical review; no Sheet values/defaults change.
+
+The tail audit found unrestricted coefficients can yield a negative initial
+strength power, reversing the source pattern before balancing. Run details now
+show negative-power counts and min/max powers, with a warning/download. This is
+instrumentation only: no draw clipping, rejection or seat-range cap. See
+GREENS_TAIL_MECHANISM_REVIEW_2026_10_28.md before interpreting wide settings as
+calibrated uncertainty. Positive-persistence alternatives remain to be tested.

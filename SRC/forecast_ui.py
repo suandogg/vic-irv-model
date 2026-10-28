@@ -240,5 +240,18 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                            'lower_forecast_primary_draws.csv','text/csv')
         if result.get('experiment',{}).get('concentration_log_sd',0) or any(
                 result.get('experiment',{}).get('concentration_by_party',{}).values()):
+            powers = result.get('concentration_exponents')
+            if powers is not None:
+                reversals = (powers<0).sum()
+                if reversals.any():
+                    st.warning('Some concentration draws reverse the initial strength ranking '
+                               '(negative power), rather than merely flattening it. These are '
+                               'uncalibrated stress results; review the diagnostic before adopting widths.')
+                display_table(pd.DataFrame({'Party':PARTIES,
+                    'Negative initial-power draws':reversals.reindex(PARTIES).to_numpy(),
+                    'Minimum initial power':powers.min().reindex(PARTIES).to_numpy(),
+                    'Maximum initial power':powers.max().reindex(PARTIES).to_numpy()}),hide_index=True)
+                st.download_button('Download concentration power diagnostics',powers.to_csv(index=False),
+                                   'forecast_concentration_exponents.csv','text/csv')
             st.download_button('Download concentration pattern coefficients',result['concentration_draws'].to_csv(index=False),
                                'forecast_concentration_draws.csv','text/csv')

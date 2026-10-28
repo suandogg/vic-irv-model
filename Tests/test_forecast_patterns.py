@@ -5,6 +5,12 @@ from SRC.forecast_patterns import (balance_primary_pattern,strength_contrast,
 
 
 class PatternTests(unittest.TestCase):
+    def test_concentration_exponent_diagnostic(self):
+        from SRC.forecast_patterns import concentration_exponents
+        base = np.array([[.1,.4],[.2,.4],[.4,.4]])
+        sd = np.log(base[:,0]).std()
+        np.testing.assert_allclose(concentration_exponents(base,[-2*sd,.5]),[-1,1])
+        np.testing.assert_allclose(concentration_exponents(base,[0,0]),[1,1])
     def setUp(self):
         self.base = np.array([[.7,.3,0],[.4,.4,.2],[.2,.5,.3]])
 
