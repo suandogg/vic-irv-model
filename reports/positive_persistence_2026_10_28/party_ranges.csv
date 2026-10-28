@@ -1,0 +1,43 @@
+Trial,Party,Lower,Median,Upper,Average
+Current,ALP,17,28,41,28.455
+Current,LNP,31,40,49,40.13
+Current,GRN,5,5,8,5.675
+Current,ON,4,13,26,13.51
+Current,IND,0,0,1,0.23
+Current,OTH,0,0,0,0.0
+linear 0.20,ALP,17,29,41,28.995
+linear 0.20,LNP,30,40,51,40.38
+linear 0.20,GRN,2,5,9,5.28
+linear 0.20,ON,1,12,26,12.87
+linear 0.20,IND,0,0,2,0.475
+linear 0.20,OTH,0,0,0,0.0
+linear 0.30,ALP,16,30,41,29.29
+linear 0.30,LNP,28,39,54,40.335
+linear 0.30,GRN,0,5,9,4.965
+linear 0.30,ON,0,11,28,12.725
+linear 0.30,IND,0,0,4,0.685
+linear 0.30,OTH,0,0,0,0.0
+positive_softplus 0.20,ALP,17,29,41,28.83
+positive_softplus 0.20,LNP,29,39,50,39.505
+positive_softplus 0.20,GRN,3,5,9,5.465
+positive_softplus 0.20,ON,2,13,27,13.73
+positive_softplus 0.20,IND,0,0,2,0.47
+positive_softplus 0.20,OTH,0,0,0,0.0
+positive_softplus 0.30,ALP,17,29,41,29.06
+positive_softplus 0.30,LNP,27,38,50,38.995
+positive_softplus 0.30,GRN,2,5,9,5.39
+positive_softplus 0.30,ON,1,12,29,13.935
+positive_softplus 0.30,IND,0,0,4,0.62
+positive_softplus 0.30,OTH,0,0,0,0.0
+positive_bounded 0.20,ALP,17,29,40,28.79
+positive_bounded 0.20,LNP,30,40,50,40.32
+positive_bounded 0.20,GRN,3,5,8,5.35
+positive_bounded 0.20,ON,2,12,26,13.1
+positive_bounded 0.20,IND,0,0,2,0.44
+positive_bounded 0.20,OTH,0,0,0,0.0
+positive_bounded 0.30,ALP,17,30,41,29.035
+positive_bounded 0.30,LNP,29,40,51,40.55
+positive_bounded 0.30,GRN,1,5,9,5.035
+positive_bounded 0.30,ON,1,12,27,12.8
+positive_bounded 0.30,IND,0,0,3,0.58
+positive_bounded 0.30,OTH,0,0,0,0.0

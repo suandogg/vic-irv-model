@@ -15,7 +15,7 @@ from SRC.constants import PARTIES
 from SRC.forecast_params import validate
 from SRC.primary_pipeline import build_projected_primaries, params_for_scenario
 from SRC.irv import run_irv_for_district, run_forced_2pp_for_district, district_key
-from SRC.forecast_patterns import balance_primary_pattern,strength_contrast,concentration_exponents
+from SRC.forecast_patterns import balance_primary_pattern,concentration_pattern
 
 STRUCTURAL_EXPERIMENTS = {
     'Current':{},
@@ -239,7 +239,7 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     settings = validate(settings)
     experiment = {} if experiment is None else dict(experiment)
     if set(experiment)-{'local_preference_mode','local_primary_t_df','subregion_fraction',
-                       'concentration_log_sd','concentration_by_party',
+                       'concentration_log_sd','concentration_by_party','concentration_form',
                        'preference_region_share','preference_local_share'}:
         raise ValueError('Unknown forecast experiment')
     mode = experiment.get('local_preference_mode')
@@ -249,6 +249,9 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     if tail_df is not None and (not np.isfinite(tail_df) or tail_df<=2):
         raise ValueError('Variance-matched t experiment requires df > 2')
     concentration_sd = float(experiment.get('concentration_log_sd',0))
+    concentration_form = experiment.get('concentration_form','linear')
+    if concentration_form not in ('linear','positive_softplus','positive_bounded'):
+        raise ValueError('Unknown concentration mapping')
     region_share = float(experiment.get('preference_region_share',0))
     local_share = float(experiment.get('preference_local_share',0))
     if not np.isfinite(concentration_sd) or not 0<=concentration_sd<=1:
@@ -300,9 +303,9 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
             pattern_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,505]))
             coefficients = pattern_rng.normal(size=len(PARTIES))*concentration_sds
             base = adjusted[PARTIES].to_numpy(dtype=float)
-            exponents = concentration_exponents(base,coefficients)
+            tilt,exponents = concentration_pattern(base,coefficients,concentration_form)
             adjusted = adjusted.copy()
-            adjusted[PARTIES] = balance_primary_pattern(base,strength_contrast(base)*coefficients)
+            adjusted[PARTIES] = balance_primary_pattern(base,tilt)
         coefficient_draws.append(coefficients)
         exponent_draws.append(exponents)
         tail_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,202])) if tail_df else None
@@ -365,4 +368,6 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
             'central_targets':dict(targets),'diagnostics':pd.DataFrame(diagnostic_rows),
             'experiment':experiment,'subregions':dict(subregions) if sub_fraction else {},
             'concentration_draws':pd.DataFrame(coefficient_draws,columns=PARTIES),
-            'concentration_exponents':pd.DataFrame(exponent_draws,columns=PARTIES)}
+            'concentration_exponents':pd.DataFrame(exponent_draws,columns=PARTIES),
+            'primary_extremes':pd.DataFrame({p+' '+label+' (%)':operation(primary_array[:,:,j],axis=1)
+                for j,p in enumerate(PARTIES) for label,operation in [('min',np.min),('max',np.max),('mean',np.mean)]})}

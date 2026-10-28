@@ -5,6 +5,43 @@ from SRC.forecast_patterns import (balance_primary_pattern,strength_contrast,
 
 
 class PatternTests(unittest.TestCase):
+    def test_positive_mappings_and_local_matching(self):
+        from SRC.forecast_patterns import concentration_pattern
+        base = np.array([[.1,.4],[.2,.4],[.4,.4]])
+        sd = np.log(base[:,0]).std()
+        for form in ('positive_softplus','positive_bounded'):
+            tilt,power = concentration_pattern(base,[-4*sd,0],form)
+            self.assertTrue((power>0).all())
+            self.assertLess(power[0],1)
+            initial = base[:,0]*np.exp(tilt[:,0])
+            self.assertTrue(np.all(np.diff(initial)>0))
+            tilt,power = concentration_pattern(base,[0,0],form)
+            np.testing.assert_array_equal(tilt,0)
+            np.testing.assert_array_equal(power,1)
+            _,power = concentration_pattern(base,[sd*1e-6,0],form)
+            self.assertAlmostEqual((power[0]-1)/1e-6,1,places=5)
+            x = balance_primary_pattern(base,concentration_pattern(base,[.3,0],form)[0])
+            np.testing.assert_allclose(x.sum(axis=0),base.sum(axis=0),atol=1e-9)
+
+    def test_positive_simulation_identity_and_constraints(self):
+        from Tests.test_forecast_engine import calculator_fixture
+        from SRC.forecast_engine import simulate
+        from SRC.forecast_params import defaults
+        import pandas as pd
+        _,p,m,params,post,i,a = calculator_fixture()
+        target = dict(ALP=24.6,LNP=29.1,GRN=13.3,ON=22,IND=5.5,OTH=5.5)
+        settings = defaults()|{'SIMULATIONS':2}
+        baseline = simulate(p,m,params,post,i,target,a,settings)
+        for form in ('positive_softplus','positive_bounded'):
+            off = simulate(p,m,params,post,i,target,a,settings,experiment={'concentration_form':form})
+            pd.testing.assert_frame_equal(off['draws'],baseline['draws'])
+            trial = simulate(p,m,params,post,i,target,a,settings,
+                             experiment={'concentration_form':form,'concentration_log_sd':.3})
+            self.assertTrue((trial['concentration_exponents']>0).all().all())
+            if form=='positive_bounded':
+                self.assertTrue((trial['concentration_exponents']<2).all().all())
+            pd.testing.assert_frame_equal(trial['primary_draws'],baseline['primary_draws'])
+
     def test_concentration_exponent_diagnostic(self):
         from SRC.forecast_patterns import concentration_exponents
         base = np.array([[.1,.4],[.2,.4],[.4,.4]])

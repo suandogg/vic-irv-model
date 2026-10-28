@@ -57,7 +57,17 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                    'added local preferences and t5. These are uncalibrated trials; source preference '
                    'rows and Sheet values remain unchanged.')
         if 'concentration_log_sd' in experiment:
-            experiment['concentration_log_sd'] = st.number_input('All-party concentration log-tilt SD (research)',
+            mapping_label = st.selectbox('Concentration mapping (research)',
+                ['Linear (existing stress)','Positive softplus','Positive bounded (0–2)'],
+                key='forecast_concentration_form')
+            form = {'Linear (existing stress)':'linear','Positive softplus':'positive_softplus',
+                    'Positive bounded (0–2)':'positive_bounded'}[mapping_label]
+            if form!='linear':
+                experiment['concentration_form'] = form
+                st.caption('Positive forms prevent initial power reversal, not all final seat-rank changes. '
+                           'Softplus has no upper power limit; bounded constrains powers between 0 and 2. '
+                           'Both match the original near its centre, not its full variance. Neither caps seat counts.')
+            experiment['concentration_log_sd'] = st.number_input('Common concentration input width (research)',
                 min_value=0.,max_value=1.,value=.2,step=.05,key='forecast_concentration_sd')
             st.caption('One coefficient per party per election varies concentration of current positive support, '
                        'then balances all party and seat totals. Positive concentrates, negative flattens. '
@@ -68,7 +78,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                 columns = st.columns(3)
                 for index,party in enumerate(PARTIES):
                     with columns[index%3]:
-                        widths[party] = st.number_input(party+' concentration log-SD',min_value=0.,max_value=1.,
+                        widths[party] = st.number_input(party+' concentration input width',min_value=0.,max_value=1.,
                             value=.2,step=.05,key='forecast_concentration_'+party)
                 experiment['concentration_by_party'] = widths
                 st.caption('Party-specific values override the common width. An ON value of zero retains '
@@ -255,3 +265,6 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                                    'forecast_concentration_exponents.csv','text/csv')
             st.download_button('Download concentration pattern coefficients',result['concentration_draws'].to_csv(index=False),
                                'forecast_concentration_draws.csv','text/csv')
+            if 'primary_extremes' in result:
+                st.download_button('Download primary dispersion diagnostics',result['primary_extremes'].to_csv(index=False),
+                                   'forecast_primary_extremes.csv','text/csv')

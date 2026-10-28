@@ -224,4 +224,9 @@ strength power, reversing the source pattern before balancing. Run details now
 show negative-power counts and min/max powers, with a warning/download. This is
 instrumentation only: no draw clipping, rejection or seat-range cap. See
 GREENS_TAIL_MECHANISM_REVIEW_2026_10_28.md before interpreting wide settings as
-calibrated uncertainty. Positive-persistence alternatives remain to be tested.
+calibrated uncertainty. Positive-persistence alternatives are now opt-in:
+Positive softplus and Positive bounded (0–2), selected independently of the
+concentration width. Both keep the zero coefficient at power one and match the
+linear derivative there, not its global variance. Bounded's power-two limit is
+an explicit research prior, not a seat-count cap. The original linear mapping
+remains the default. See POSITIVE_PERSISTENCE_REVIEW_2026_10_28.md for paired tests.

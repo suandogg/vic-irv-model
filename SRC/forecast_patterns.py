@@ -85,6 +85,35 @@ def concentration_exponents(base,coefficients):
     return exponents
 
 
+def concentration_pattern(base,coefficients,form='linear'):
+    """Return spatial log tilts and their initial strength powers.
+
+    Positive alternatives preserve power 1 and the linear local derivative at
+    coefficient zero, NOT the same global variance or expected power. They are
+    declared research priors, not neutral transformations or seat-count caps.
+    """
+    base = np.asarray(base,dtype=float)
+    powers = concentration_exponents(base,coefficients)
+    if form=='linear':
+        return strength_contrast(base)*coefficients,powers
+    delta = powers-1
+    if form=='positive_softplus':
+        offset = np.log(np.expm1(1.))
+        scale = 1/(1-np.exp(-1.))
+        powers = np.logaddexp(0,offset+scale*delta)
+    elif form=='positive_bounded':
+        # 1+tanh(delta), evaluated stably. Bounds (0,2) are an explicit prior.
+        powers = 2*np.exp(-np.logaddexp(0,-2*delta))
+    else:
+        raise ValueError('Unknown concentration mapping')
+    powers = np.where(delta==0,1.,powers)
+    if not np.isfinite(powers).all() or (powers<=0).any():
+        raise ValueError('Positive concentration mapping underflow/overflow; no partial run published')
+    logs = np.zeros_like(base)
+    np.log(base,out=logs,where=base>0)
+    return logs*(powers-1),powers
+
+
 def centre_region_contrasts(regions, region_scores):
     """Remove constant geographic tilts using equal-seat weighting.
 
