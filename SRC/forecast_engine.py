@@ -14,6 +14,7 @@ import pandas as pd
 from SRC.constants import PARTIES
 from SRC.forecast_params import validate
 from SRC.primary_pipeline import build_projected_primaries, params_for_scenario
+from SRC.lnp_precollapse_loader import load_lnp_precollapse_inputs, compile_lnp_precollapse
 from SRC.irv import run_irv_for_district, run_forced_2pp_for_district, district_key
 from SRC.forecast_patterns import balance_primary_pattern,concentration_pattern
 
@@ -79,9 +80,17 @@ def forecast_counts(adjusted, matrices, params, posterior, ideology):
         args = dict(district_votes=votes, matrix=matrix, seat_type=seat['seat_type'],
                     params=seat_params, posterior=posterior, ideology=ideology)
         result = run_irv_for_district(**args)
-        forced = run_forced_2pp_for_district(**args, party_a='ALP', party_b='LNP')
+        if {result['winner'],result['runner_up']} == {'ALP','LNP'}:
+            # Neither protected party was removed, so the forced count follows
+            # exactly the same eliminations and parcel transfers. Reuse it.
+            final = result['final_votes']
+            total = final['ALP'] + final['LNP']
+            alp_2pp = final['ALP']/total if total else 0
+        else:
+            forced = run_forced_2pp_for_district(**args, party_a='ALP', party_b='LNP')
+            alp_2pp = forced['ALP_2pp']
         rows.append(dict(district=seat['district'], winner=result['winner'],
-                         margin=result['margin'], ALP_2PP=forced['ALP_2pp']))
+                         margin=result['margin'], ALP_2PP=alp_2pp))
     return pd.DataFrame(rows)
 
 
@@ -119,7 +128,7 @@ def binomial_interval(rate, n, z=1.96):
 def engine_source_hash():
     root = Path(__file__).resolve().parent
     files = ('forecast_engine.py','forecast_params.py','primary_pipeline.py',
-             'legacy_primary_model.py','preference_engine.py','irv.py','forecast_subregions.py','forecast_patterns.py')
+             'legacy_primary_model.py','lnp_precollapse_loader.py','preference_engine.py','irv.py','forecast_subregions.py','forecast_patterns.py')
     return hashlib.sha256(b''.join((root/name).read_bytes() for name in files)).hexdigest()
 
 
@@ -279,6 +288,9 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     winner_draws, margin_draws, counts, primaries, alp_2pp, seat_primaries = [],[],[],[],[],[]
     coefficient_draws = []
     exponent_draws = []
+    # Snapshot static inputs once per run; no cross-run cache, so Sheet refreshes
+    # still take effect on the next forecast.
+    lnp_precollapse_inputs = compile_lnp_precollapse(districts,load_lnp_precollapse_inputs())
     for draw in range(settings['SIMULATIONS']):
         drawn_targets = draw_targets(targets,settings,rng)
         model_params = draw_model_params(params,drawn_targets,settings,primary_inputs.seat_type,rng)
@@ -296,7 +308,9 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
             model_params['_forecast_local_preference'] = {seat:local_rng.normal(size=(len(PARTIES),len(PARTIES)))
                                                          for seat in sorted(districts)}
             model_params['_forecast_local_preference_mode'] = mode
-        adjusted,_ = build_projected_primaries(primary_inputs,model_params,drawn_targets,seat_adjustments)
+        adjusted,_ = build_projected_primaries(primary_inputs,model_params,drawn_targets,seat_adjustments,
+                                              lnp_precollapse_inputs=lnp_precollapse_inputs,
+                                              collect_diagnostics=False)
         coefficients = np.zeros(len(PARTIES))
         exponents = np.ones(len(PARTIES))
         if np.any(concentration_sds):

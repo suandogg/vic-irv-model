@@ -15,7 +15,8 @@ def params_for_scenario(params, targets):
     return result
 
 
-def build_projected_primaries(primary_inputs, params, targets, seat_adjustments=None):
+def build_projected_primaries(primary_inputs, params, targets, seat_adjustments=None,
+                              lnp_precollapse_inputs=None, collect_diagnostics=True):
     scenario_params = params_for_scenario(params, targets)
     scalars = scenario_params['scalar_params']
     on_alpha = float(scalars.get('ON alpha', 0.6) or 0.6)
@@ -39,5 +40,6 @@ def build_projected_primaries(primary_inputs, params, targets, seat_adjustments=
     adjusted, diagnostics = apply_seat_primary_adjustments(
         current=adjusted, adjustments=seat_adjustments, targets=targets,
         retirement_penalty_pp=float(scalars.get('RETIRING_INCUMBENT_PENALTY_PP', 1.0)),
-        sophomore_bonus_pp=float(scalars.get('SOPHOMORE_SURGE_BONUS_PP', 1.0)))
-    return apply_lnp_precollapse(adjusted), diagnostics
+        sophomore_bonus_pp=float(scalars.get('SOPHOMORE_SURGE_BONUS_PP', 1.0)),
+        collect_diagnostics=collect_diagnostics)
+    return apply_lnp_precollapse(adjusted, inputs=lnp_precollapse_inputs), diagnostics

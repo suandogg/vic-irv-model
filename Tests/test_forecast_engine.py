@@ -31,6 +31,26 @@ def calculator_fixture():
 
 
 class ForecastTests(unittest.TestCase):
+    def test_precollapse_inputs_are_snapshotted_once_per_run(self):
+        from unittest.mock import patch
+        from SRC.lnp_precollapse_loader import load_lnp_precollapse_inputs
+        _,p,m,params,post,i,a = self.fixture
+        targets = dict(ALP=24.6,LNP=29.1,GRN=13.3,ON=22,IND=5.5,OTH=5.5)
+        with patch('SRC.forecast_engine.load_lnp_precollapse_inputs',
+                   wraps=load_lnp_precollapse_inputs) as loader:
+            simulate(p,m,params,post,i,targets,a,defaults()|{'SIMULATIONS':3})
+            self.assertEqual(loader.call_count,1)
+        from SRC.primary_pipeline import build_projected_primaries
+        ordinary,diagnostics = build_projected_primaries(p,params,targets,a)
+        preloaded,other = build_projected_primaries(
+            p,params,targets,a,lnp_precollapse_inputs=load_lnp_precollapse_inputs())
+        pd.testing.assert_frame_equal(ordinary,preloaded,check_exact=True)
+        pd.testing.assert_frame_equal(diagnostics,other,check_exact=True)
+        compact,empty = build_projected_primaries(
+            p,params,targets,a,collect_diagnostics=False)
+        pd.testing.assert_frame_equal(ordinary,compact,check_exact=True)
+        self.assertTrue(empty.empty)
+
     def test_structural_experiments_keep_primary_draws_paired(self):
         _,p,m,params,post,i,a = self.fixture
         targets = dict(ALP=24.6,LNP=29.1,GRN=13.3,ON=22,IND=5.5,OTH=5.5)
@@ -103,6 +123,20 @@ class ForecastTests(unittest.TestCase):
         actual = forecast_counts(adjusted,matrices,drawn,posterior,ideology).set_index('district').sort_index()
         expected = pd.DataFrame(run_irv_all(build_primary_vote_table(adjusted),matrices,drawn,posterior,ideology)).set_index('district').sort_index()
         pd.testing.assert_frame_equal(actual,expected[actual.columns])
+
+    def test_alp_lnp_final_reuses_count(self):
+        from unittest.mock import patch
+        from SRC.forecast_engine import forecast_counts
+        from SRC.irv import run_forced_2pp_for_district
+        from SRC.primary_pipeline import build_projected_primaries
+        _,primary,matrices,params,posterior,ideology,adjustments = self.fixture
+        targets = dict(ALP=36,LNP=36,GRN=12,ON=5,IND=5.5,OTH=5.5)
+        adjusted,_ = build_projected_primaries(primary,params,targets,adjustments)
+        with patch('SRC.forecast_engine.run_forced_2pp_for_district',
+                   wraps=run_forced_2pp_for_district) as forced:
+            result = forecast_counts(adjusted,matrices,params,posterior,ideology)
+        self.assertLess(forced.call_count,len(primary))
+        self.assertEqual(len(result),88)
 
     @classmethod
     def setUpClass(cls):

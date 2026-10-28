@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import pandas as pd
+import numpy as np
 
 from SRC.constants import PARTIES
 
@@ -129,43 +130,44 @@ def build_corrected_primary_table(
         if target_shares[party] == 0:
             components[party] = 0.0
 
+    values = components.to_numpy(copy=True)
     for _ in range(iterations):
-        row_totals = components.sum(axis=1)
+        row_totals = np.nansum(values, axis=1)
         if (row_totals <= 0).any():
             raise ValueError("Corrected primary calibration produced a zero row")
 
-        shares = components.div(row_totals, axis=0)
-        current = shares.mean(axis=0)
+        shares = values / row_totals[:, None]
+        current = np.nanmean(shares, axis=0)
 
         max_error = max(
-            abs(float(current[party]) - target_shares[party])
-            for party in PARTIES
+            abs(float(current[j]) - target_shares[party])
+            for j, party in enumerate(PARTIES)
         )
         if max_error <= tolerance:
             break
 
-        for party in PARTIES:
+        for j, party in enumerate(PARTIES):
             target = target_shares[party]
-            observed = float(current[party])
+            observed = float(current[j])
             if target == 0:
-                components[party] = 0.0
+                values[:, j] = 0.0
             elif observed <= 0:
                 raise ValueError(
                     f"Cannot calibrate {party}: no positive seat-level mass"
                 )
             else:
-                components[party] *= target / observed
+                values[:, j] *= target / observed
     else:
         raise ValueError(
             "Corrected primary calibration did not converge within "
             f"{iterations} iterations"
         )
 
-    row_totals = components.sum(axis=1)
-    calibrated = components.div(row_totals, axis=0)
+    row_totals = np.nansum(values, axis=1)
+    calibrated = values / row_totals[:, None]
     out = legacy.copy()
-    for party in PARTIES:
-        out[party] = calibrated[party]
+    for j, party in enumerate(PARTIES):
+        out[party] = calibrated[:, j]
 
     return out
 
@@ -203,16 +205,16 @@ def _calibrate_primary_components(
     iterations: int = 300,
     tolerance: float = 1e-12,
 ) -> pd.DataFrame:
-    out = components[PARTIES].clip(lower=1e-12).copy()
+    out = components[PARTIES].clip(lower=1e-12).to_numpy(copy=True)
     total = sum(float(targets[p]) for p in PARTIES)
     target = {p: float(targets[p]) / total for p in PARTIES}
     for _ in range(iterations):
-        shares = out.div(out.sum(axis=1), axis=0)
-        current = shares.mean()
-        if max(abs(float(current[p]) - target[p]) for p in PARTIES) <= tolerance:
-            return shares
-        for party in PARTIES:
-            out[party] *= target[party] / float(current[party])
+        shares = out / np.nansum(out, axis=1)[:, None]
+        current = np.nanmean(shares, axis=0)
+        if max(abs(float(current[j]) - target[p]) for j,p in enumerate(PARTIES)) <= tolerance:
+            return pd.DataFrame(shares,index=components.index,columns=PARTIES)
+        for j,party in enumerate(PARTIES):
+            out[:, j] *= target[party] / float(current[j])
     raise ValueError("ON primary donor calibration did not converge")
 
 
@@ -222,6 +224,7 @@ def apply_seat_primary_adjustments(
     targets: dict[str, float],
     retirement_penalty_pp: float = 1.0,
     sophomore_bonus_pp: float = 1.0,
+    collect_diagnostics: bool = True,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Apply editable seat effects, then restore exact statewide targets.
 
@@ -312,16 +315,19 @@ def apply_seat_primary_adjustments(
         for party in PARTIES:
             out.at[index, party] = proposed[party]
 
-    for row in diagnostics:
-        index = district_index[row["district"]]
-        row["pre_calibration_change_pp"] = (
-            float(out.at[index, row["party"]])
-            - float(current.at[index, row["party"]])
-        ) * 100
+    if collect_diagnostics:
+        for row in diagnostics:
+            index = district_index[row["district"]]
+            row["pre_calibration_change_pp"] = (
+                float(out.at[index, row["party"]])
+                - float(current.at[index, row["party"]])
+            ) * 100
 
     calibrated = _calibrate_primary_components(out[PARTIES], targets)
     for party in PARTIES:
         out[party] = calibrated[party]
+    if not collect_diagnostics:
+        return out, pd.DataFrame()
     diagnostic_df = pd.DataFrame(diagnostics)
     for index, row in diagnostic_df.iterrows():
         district_mask = out["district"].eq(row["district"])
@@ -371,10 +377,14 @@ def apply_on_primary_donor_geography(
         primary_inputs, pre_targets, on_alpha=on_alpha
     )
     components = pre[PARTIES].copy()
+    # Keep the allocation arithmetic/order unchanged, but avoid thousands of
+    # scalar pandas lookups and assignments in every simulation draw.
+    component_values = components.to_numpy(copy=True)
+    party_columns = {party: PARTIES.index(party) for party in PARTIES}
 
-    for i in primary_inputs.index:
+    for row_number, i in enumerate(primary_inputs.index):
         remaining = float(on.iloc[i])
-        available = {p: float(components.loc[i, p]) for p in non_on}
+        available = {p: float(component_values[row_number, party_columns[p]]) for p in non_on}
         weights = {
             p: float(source_matrix.get(seat_types.iloc[i], {}).get(p, 0.0) or 0.0)
             for p in non_on
@@ -402,9 +412,10 @@ def apply_on_primary_donor_geography(
             if moved <= 1e-15:
                 break
         for party in non_on:
-            components.loc[i, party] -= actual[party]
-        components.loc[i, "ON"] = float(on.iloc[i]) - max(0.0, remaining)
+            component_values[row_number, party_columns[party]] -= actual[party]
+        component_values[row_number, party_columns["ON"]] = float(on.iloc[i]) - max(0.0, remaining)
 
+    components.loc[:, PARTIES] = component_values
     explicit = _calibrate_primary_components(components, targets)
     result = current.copy()
     for party in PARTIES:
