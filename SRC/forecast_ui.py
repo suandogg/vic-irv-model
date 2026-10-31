@@ -21,6 +21,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
     st.caption('The existing calculator is unchanged. This view runs whole-election simulations '
                'around it. Council probabilities are not yet modelled; minority outcomes assume the support specified below.')
     st.caption('Active preference method: '+trial_label)
+    st.caption('Enabled candidate records use named counts and their own effect SDs. Review overlap with local residual SDs. The narrower/wider settings comparison holds candidate-sheet SDs fixed.')
     try:
         settings, source = load_forecast_params()
     except ValueError as exc:
@@ -130,8 +131,11 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
             'directions across seats and fields, with additional ON seat-class movement. '
             'The selected preference architecture stays fixed in a run: this does not cover all structural model uncertainty. '
             'Explicit candidate/seat overrides stay central; local residual variation covers unmodelled local effects.')
+    from SRC.candidate_effects import load_candidate_effects
+    from SRC.candidate_count import load_candidate_tables
     signature = fingerprint(primary_inputs,matrices,params,posterior,ideology,targets,
-                            seat_adjustments,settings,trial_label,experiment,subregions)
+                            seat_adjustments,settings,trial_label,experiment,subregions,
+                            load_candidate_effects(),load_candidate_tables())
     stored = st.session_state.get('lower_forecast_run')
     if stored and stored['signature']!=signature:
         st.info('Inputs, preference method or settings changed. Previous results are hidden; run again.')

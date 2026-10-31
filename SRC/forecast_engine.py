@@ -83,6 +83,11 @@ def forecast_counts(adjusted, matrices, params, posterior, ideology):
             seat_params['_forecast_flow_cache'] = {}
         args = dict(district_votes=votes, matrix=matrix, seat_type=seat['seat_type'],
                     params=seat_params, posterior=posterior, ideology=ideology)
+        from SRC.candidate_count import result_from_context
+        named = result_from_context(seat,adjusted.attrs.get('candidate_context'),matrix,seat_params,posterior,ideology)
+        if named is not None:
+            rows.append(dict(district=seat['district'],winner=named['winner'],margin=named['margin'],ALP_2PP=named['ALP_2PP']))
+            continue
         result = run_irv_for_district(**args)
         if {result['winner'],result['runner_up']} == {'ALP','LNP'}:
             # Neither protected party was removed, so the forced count follows
@@ -132,7 +137,8 @@ def binomial_interval(rate, n, z=1.96):
 def engine_source_hash():
     root = Path(__file__).resolve().parent
     files = ('forecast_engine.py','forecast_params.py','nowcast_uncertainty.py','nowcast_loader.py','primary_pipeline.py',
-             'legacy_primary_model.py','lnp_precollapse_loader.py','preference_engine.py','irv.py','forecast_subregions.py','forecast_patterns.py')
+             'legacy_primary_model.py','lnp_precollapse_loader.py','preference_engine.py','irv.py','forecast_subregions.py','forecast_patterns.py',
+             'candidate_effects.py','candidate_count.py')
     return hashlib.sha256(b''.join((root/name).read_bytes() for name in files)).hexdigest()
 
 
@@ -310,6 +316,10 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     # Snapshot static inputs once per run; no cross-run cache, so Sheet refreshes
     # still take effect on the next forecast.
     lnp_precollapse_inputs = compile_lnp_precollapse(districts,load_lnp_precollapse_inputs())
+    from SRC.candidate_effects import load_candidate_effects
+    from SRC.candidate_count import apply_candidate_pipeline, load_candidate_tables
+    candidate_effects = load_candidate_effects()
+    candidate_tables = load_candidate_tables()
     for draw in range(settings['SIMULATIONS']):
         drawn_targets = draw_targets(targets,settings,rng)
         model_params = draw_model_params(params,drawn_targets,settings,primary_inputs.seat_type,rng)
@@ -335,6 +345,7 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
             model_params['_forecast_local_preference_mode'] = mode
         adjusted,_ = build_projected_primaries(primary_inputs,model_params,drawn_targets,seat_adjustments,
                                               lnp_precollapse_inputs=lnp_precollapse_inputs,
+                                              candidate_effects=pd.DataFrame(),
                                               collect_diagnostics=False)
         coefficients = np.zeros(len(PARTIES))
         exponents = np.ones(len(PARTIES))
@@ -362,6 +373,8 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
             from SRC.nowcast_uncertainty import perturb_district_leans
             lean_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,707]))
             adjusted,_ = perturb_district_leans(adjusted,nowcast,lean_rng,subregions,sub_fraction)
+        candidate_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,808]))
+        adjusted = apply_candidate_pipeline(adjusted,drawn_targets,seat_adjustments,candidate_effects,candidate_rng,candidate_tables)
         seat_primaries.append(adjusted.set_index('district').loc[districts,PARTIES].to_numpy(dtype=float))
         result = forecast_counts(adjusted,matrices,model_params,posterior,ideology).set_index('district').loc[districts]
         if len(result)!=88 or result.winner.isna().any() or not result.winner.isin(PARTIES).all():

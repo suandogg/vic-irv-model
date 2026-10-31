@@ -31,6 +31,9 @@ FILES = {
     "LOWER_ON_PREF_CONFIG": "LOWER_ON_PREF_CONFIG.csv",
     "LOWER_LNP_PRECOLLAPSE": "LOWER_LNP_PRECOLLAPSE.csv",
     "LOWER_SEAT_ADJUSTMENTS": "LOWER_SEAT_ADJUSTMENTS.csv",
+    "LOWER_CANDIDATE_EFFECTS": "LOWER_CANDIDATE_EFFECTS.csv",
+    "LOWER_CANDIDATE_FIELD": "LOWER_CANDIDATE_FIELD.csv",
+    "LOWER_CANDIDATE_PREFS": "LOWER_CANDIDATE_PREFS.csv",
     "LOWER_POLL_SCENARIOS": "LOWER_POLL_SCENARIOS.csv",
 
     # Upper house files
@@ -59,6 +62,11 @@ RAW_GRID_TABS = {
 
 
 def worksheet_to_dataframe(worksheet, tab_name):
+    if tab_name.startswith('LOWER_CANDIDATE_'):
+        values = worksheet.get_all_values()
+        if not values or not values[0] or len(set(values[0])) != len(values[0]):
+            raise ValueError('Candidate tab requires unique column headings')
+        return pd.DataFrame(values[1:], columns=values[0])
     if tab_name in RAW_GRID_TABS:
         values = worksheet.get_all_values()
 
@@ -94,7 +102,7 @@ def sync_sheet():
             worksheet = sh.worksheet(tab_name)
             df = worksheet_to_dataframe(worksheet, tab_name)
 
-            if df.empty:
+            if df.empty and not tab_name.startswith('LOWER_CANDIDATE_'):
                 print(f"  ⚠  {tab_name} — sheet is empty, skipping")
                 continue
 

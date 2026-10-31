@@ -434,6 +434,7 @@ def run_irv_all(
     params,
     posterior,
     ideology,
+    candidate_context=None,
 ):
     results = []
 
@@ -448,6 +449,16 @@ def run_irv_all(
             )
 
         matrix = matrices[key]["matrix"]
+
+        if candidate_context:
+            from SRC.candidate_count import result_from_context
+            seat = dict(district=district,region=first_row['region'],held_by=first_row['held_by'],
+                        seat_type=first_row['seat_type'],
+                        **dict(zip(group.party,group.primary_vote)))
+            named = result_from_context(seat,candidate_context,matrix,params,posterior,ideology)
+            if named is not None:
+                results.append(named)
+                continue
 
         district_votes = {
             row["party"]: row["primary_vote"]

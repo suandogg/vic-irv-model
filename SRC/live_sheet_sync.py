@@ -36,6 +36,9 @@ FILES = {
     "LOWER_ON_PREF_CONFIG": "LOWER_ON_PREF_CONFIG.csv",
     "LOWER_LNP_PRECOLLAPSE": "LOWER_LNP_PRECOLLAPSE.csv",
     "LOWER_SEAT_ADJUSTMENTS": "LOWER_SEAT_ADJUSTMENTS.csv",
+    "LOWER_CANDIDATE_EFFECTS": "LOWER_CANDIDATE_EFFECTS.csv",
+    "LOWER_CANDIDATE_FIELD": "LOWER_CANDIDATE_FIELD.csv",
+    "LOWER_CANDIDATE_PREFS": "LOWER_CANDIDATE_PREFS.csv",
     "LOWER_POLL_SCENARIOS": "LOWER_POLL_SCENARIOS.csv",
     "UPPER_REGION_BASELINE": "UPPER_REGION_BASELINE.csv",
     "UPPER_PREF_PARAMS": "UPPER_PREF_PARAMS.csv",
@@ -133,6 +136,11 @@ def resolve_credentials(
 
 
 def worksheet_to_dataframe(worksheet, tab_name: str) -> pd.DataFrame:
+    if tab_name.startswith('LOWER_CANDIDATE_'):
+        values = worksheet.get_all_values()
+        if not values or not values[0] or len(set(values[0])) != len(values[0]):
+            raise ValueError('Candidate tab requires unique column headings')
+        return pd.DataFrame(values[1:], columns=values[0])
     if tab_name in RAW_GRID_TABS:
         return pd.DataFrame(worksheet.get_all_values())
     return pd.DataFrame(worksheet.get_all_records())
@@ -220,7 +228,7 @@ def sync_inputs_from_google_sheet(
 
         try:
             dataframe = worksheet_to_dataframe(sheet.worksheet(tab_name), tab_name)
-            if dataframe.empty:
+            if dataframe.empty and not tab_name.startswith('LOWER_CANDIDATE_'):
                 skipped.append(tab_name)
                 diagnostics.append(input_diagnostic(tab_name,csv_filename,"skipped","Tab has no data rows."))
                 continue

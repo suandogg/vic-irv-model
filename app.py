@@ -354,6 +354,7 @@ def run_model(
         params=scenario_params,
         posterior=posterior,
         ideology=ideology,
+        candidate_context=adjusted.attrs.get('candidate_context'),
     )
     log_checkpoint(f"run_model irv complete results={len(results)}")
 
@@ -443,6 +444,16 @@ st.set_page_config(
 ) = load_static_inputs()
 
 DISPLAY, display_warnings = load_display_params()
+from SRC.candidate_effects import load_candidate_effects, enabled_rows
+with st.sidebar.expander('Candidate continuity inputs', expanded=False):
+    candidate_inputs = load_candidate_effects()
+    active_candidates = enabled_rows(candidate_inputs)
+    st.caption(f'{len(candidate_inputs)} candidate records loaded; {len(active_candidates)} enabled.')
+    st.caption('Refresh Google Sheet inputs after edits. Enabled records require a complete current candidate field and explicit minor-candidate preference profiles.')
+    if not candidate_inputs.empty:
+        st.dataframe(candidate_inputs[['district','candidate_name','continuity_status','enabled']],hide_index=True)
+    if active_candidates.empty:
+        st.info('Candidate effects are connected but inactive pending calibration.')
 st.session_state['_display_settings'] = DISPLAY
 apply_theme(DISPLAY)
 st.set_page_config(page_title=DISPLAY['APP_TITLE'],layout='wide')
@@ -707,16 +718,26 @@ if abs(total_primary - 100) > 0.01:
         "The model will normalise internally."
     )
 
-results_df, adjusted_seat_helper, seat_adjustment_diagnostics = run_model(
-    primary_inputs,
-    matrices,
-    params,
-    posterior,
-    ideology,
-    targets,
-    seat_adjustments,
-    turnout_weights,
-)
+try:
+    results_df, adjusted_seat_helper, seat_adjustment_diagnostics = run_model(
+        primary_inputs,
+        matrices,
+        params,
+        posterior,
+        ideology,
+        targets,
+        seat_adjustments,
+        turnout_weights,
+    )
+except (ValueError, KeyError, ArithmeticError) as exc:
+    st.error("Candidate/model inputs need review: "+str(exc))
+    st.stop()
+
+candidate_context = adjusted_seat_helper.attrs.get('candidate_context')
+if candidate_context:
+    with st.expander('Candidate continuity and vote adjustments', expanded=False):
+        st.dataframe(pd.DataFrame(candidate_context['diagnostics']),hide_index=True)
+        st.caption('Affected district primaries are held fixed while other districts restore statewide targets. Unfunded effects are shown explicitly.')
 
 if house_view == "Dashboard":
     upper_targets = {
@@ -1137,6 +1158,18 @@ else:
     matrix = matrices[
         selected_seat.upper()
     ]["matrix"]
+
+    from SRC.candidate_count import result_from_context
+    named_detail = result_from_context(selected_seat_helper.iloc[0].to_dict(),
+        adjusted_seat_helper.attrs.get('candidate_context'),matrix,active_scenario_params,posterior,ideology)
+    if named_detail is not None:
+        st.subheader(f'{selected_seat} named-candidate count')
+        st.write('Winner: '+named_detail['winner_candidate'])
+        st.dataframe(pd.DataFrame([{'candidate_id':cid,'Primary %':vote*100}
+            for cid,vote in named_detail['primary_votes'].items()]),hide_index=True)
+        st.dataframe(pd.DataFrame(named_detail['trace']),hide_index=True)
+        st.caption('Minor-candidate flows use explicit provisional profiles. Group-engine flows retain the existing ON special priors. Totals in the trace are vote fractions.')
+        st.stop()
 
     trace_rows = trace_irv_for_district(
         district_votes=district_votes,

@@ -16,7 +16,8 @@ def params_for_scenario(params, targets):
 
 
 def build_projected_primaries(primary_inputs, params, targets, seat_adjustments=None,
-                              lnp_precollapse_inputs=None, collect_diagnostics=True):
+                              lnp_precollapse_inputs=None, collect_diagnostics=True,
+                              candidate_effects=None):
     scenario_params = params_for_scenario(params, targets)
     scalars = scenario_params['scalar_params']
     on_alpha = float(scalars.get('ON alpha', 0.6) or 0.6)
@@ -42,4 +43,7 @@ def build_projected_primaries(primary_inputs, params, targets, seat_adjustments=
         retirement_penalty_pp=float(scalars.get('RETIRING_INCUMBENT_PENALTY_PP', 1.0)),
         sophomore_bonus_pp=float(scalars.get('SOPHOMORE_SURGE_BONUS_PP', 1.0)),
         collect_diagnostics=collect_diagnostics)
-    return apply_lnp_precollapse(adjusted, inputs=lnp_precollapse_inputs), diagnostics
+    adjusted = apply_lnp_precollapse(adjusted, inputs=lnp_precollapse_inputs)
+    from SRC.candidate_count import apply_candidate_pipeline
+    adjusted = apply_candidate_pipeline(adjusted,targets,seat_adjustments,candidate_effects)
+    return adjusted, diagnostics
