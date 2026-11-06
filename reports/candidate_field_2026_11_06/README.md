@@ -33,6 +33,17 @@ Sheet tabs were not re-read; those runs use the release's 31 October inputs.
 because the source workbook is a different, older Sheet. That test now guards
 against unintended change; it no longer proves parity with an independent workbook.
 
+## Sheet refresh, 6 November
+
+All 37 synced tabs of the testing Sheet were compared with these inputs through the
+signed-in Sheet view, ignoring number formatting and checkboxes. No candidate record
+or nowcast context is enabled. Three differed: `DISPLAY PARAMS` (presentation only,
+not copied), `FORECAST PARAMS` (SIMULATIONS only, against the release snapshot) and `LOWER_CANDIDATE_EFFECTS` (a
+disabled Yildiz record). `live_control` and `live_released` already reflect the Sheet,
+so they were not rerun. `data/raw` now carries the verified forecast inputs, except
+`FORECAST PARAMS.csv`, which a test keeps equal to the code's fallback defaults. The
+runs take their settings from the release record, which matches the Sheet.
+
 ## Method limits
 
 - `IND_pvi` construction could not be traced; no build script is in the repository.
