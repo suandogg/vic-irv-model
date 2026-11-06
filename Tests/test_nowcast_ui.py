@@ -26,6 +26,17 @@ with patch('SRC.forecast_ui.load_forecast_params',return_value=(defaults()|{'SIM
 
 
 class NowcastUITests(unittest.TestCase):
+    def test_field_switch_reaches_forecast_experiment(self):
+        app=AppTest.from_string(SOURCE,default_timeout=30)
+        app.session_state['candidate_field_version_b']=True
+        app.run()
+        self.assertEqual(len(app.exception),0)
+        app.button(key='run_lower_forecast').click().run()
+        self.assertEqual(len(app.exception),0)
+        self.assertEqual(len(app.error),0)
+        config=app.session_state['lower_forecast_run']['result']['experiment']['candidate_field']
+        self.assertEqual(config['residual_retention'],0)
+
     def test_selection_run_and_sensitivity_metadata(self):
         app=AppTest.from_string(SOURCE,default_timeout=30).run()
         self.assertEqual(len(app.exception),0)

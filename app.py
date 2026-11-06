@@ -340,6 +340,11 @@ def run_model(
     scenario_params = params_for_scenario(params, targets)
     adjusted, seat_adjustment_diagnostics = build_projected_primaries(
         primary_inputs, params, targets, seat_adjustments)
+    if st.session_state.get('candidate_field_version_b'):
+        from SRC.candidate_field import (apply_candidate_field, load_field_config,
+                                         require_no_candidate_records)
+        require_no_candidate_records(load_candidate_effects())
+        adjusted = apply_candidate_field(adjusted, targets, load_field_config())
     log_checkpoint("run_model adjusted primaries")
 
     primary_votes = build_primary_vote_table(adjusted)
@@ -454,6 +459,9 @@ with st.sidebar.expander('Candidate continuity inputs', expanded=False):
         st.dataframe(candidate_inputs[['district','candidate_name','continuity_status','enabled']],hide_index=True)
     if active_candidates.empty:
         st.info('Candidate effects are connected but inactive pending calibration.')
+st.sidebar.checkbox('Field-aware candidates (Version B)', key='candidate_field_version_b',
+                    help='Rebuilds Assembly seats from the provisional 31 October ABC ballot. '
+                         'Applies to the central count and forecast. Candidate strengths are provisional.')
 st.session_state['_display_settings'] = DISPLAY
 apply_theme(DISPLAY)
 st.set_page_config(page_title=DISPLAY['APP_TITLE'],layout='wide')

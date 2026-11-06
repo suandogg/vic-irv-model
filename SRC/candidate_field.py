@@ -56,6 +56,13 @@ def load_field_config(residual_retention=0.0, residual_mode='combined', donor_se
                     for r in reviewed.itertuples()])
 
 
+def require_no_candidate_records(effects):
+    """Named candidate records and the field layer must not adjust the same seats."""
+    from SRC.candidate_effects import enabled_rows
+    if not enabled_rows(effects).empty:
+        raise ValueError('Turn off enabled candidate records before using the field-aware layer')
+
+
 def validate_config(config, districts):
     if not 0 <= float(config['residual_retention']) <= 1:
         raise ValueError('Residual retention must be between 0 and 1')
@@ -144,6 +151,13 @@ def carry_switcher(votes, group, prior_vote, follow_share, affinity):
     return out, float(uplift)
 
 
+def scale_column(values, columns, goal):
+    """Scale columns to a statewide mean; a party with no vote stays at zero."""
+    current = values[:, columns].sum(axis=1).mean()
+    if current > 0:
+        values[:, columns] *= goal/current
+
+
 def balance(values, targets, config):
     """Restore statewide means through every seat; true zeros stay zero."""
     target = np.array([float(targets[p]) for p in PARTIES])
@@ -157,12 +171,12 @@ def balance(values, targets, config):
     goal[MAJOR] *= (1-wanted)/(1-residual)
     for _ in range(5000):
         for j in MAJOR:
-            out[:, j] *= goal[j]/out[:, j].mean()
+            scale_column(out, [j], goal[j])
         if combined:
-            out[:, [IND, OTH]] *= wanted/out[:, [IND, OTH]].sum(axis=1).mean()
+            scale_column(out, [IND, OTH], wanted)
         else:
-            out[:, IND] *= goal[IND]/out[:, IND].mean()
-            out[:, OTH] *= goal[OTH]/out[:, OTH].mean()
+            scale_column(out, [IND], goal[IND])
+            scale_column(out, [OTH], goal[OTH])
         out /= out.sum(axis=1, keepdims=True)
         error = max(np.max(np.abs(out[:, MAJOR].mean(axis=0)-goal[MAJOR])),
                     abs(out[:, [IND, OTH]].sum(axis=1).mean()-wanted))

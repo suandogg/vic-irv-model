@@ -53,7 +53,8 @@ runs take their settings from the release record, which matches the Sheet.
   are provisional judgements. One Nation donor affinity has no Victorian evidence.
 - OTH is still counted as one group, so West and Victorian Socialists are not
   separately eliminated. Ava Adams is counted in OTH by the classification policy.
-- Not wired to Streamlit or the Sheet. Enable through the `candidate_field`
+- The app has a sidebar switch, off by default, for the central count and forecast.
+  It reads committed tables, not the Sheet. Elsewhere use the `candidate_field`
   forecast experiment or `tools/run_candidate_field_comparison.py`.
 
 ## To rerun with the final roster

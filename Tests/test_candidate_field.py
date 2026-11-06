@@ -110,6 +110,19 @@ class FieldTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             cf.validate_config(dict(config(), groups={'A': ['ALP']}), DISTRICTS)
 
+    def test_party_with_zero_target_stays_zero(self):
+        frame = seats()
+        frame['ON'] = 0.
+        frame[PARTIES] = frame[PARTIES].div(frame[PARTIES].sum(axis=1), axis=0)
+        out = cf.apply_candidate_field(frame, dict(TARGETS, ON=0), config(retention=0))
+        self.assertEqual(out.ON.max(), 0)
+        np.testing.assert_allclose(out[PARTIES].sum(axis=1), 1, atol=1e-10)
+
+    def test_enabled_candidate_records_are_refused(self):
+        with self.assertRaisesRegex(ValueError, 'Turn off'):
+            cf.require_no_candidate_records(pd.DataFrame([dict(enabled=True)]))
+        cf.require_no_candidate_records(pd.DataFrame([dict(enabled=False)]))
+
     def test_shipped_tables_load(self):
         frame = cf.load_field_config()
         self.assertEqual(len(frame['groups']), 88)

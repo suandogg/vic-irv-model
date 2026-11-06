@@ -133,6 +133,15 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
             'Explicit candidate/seat overrides stay central; local residual variation covers unmodelled local effects.')
     from SRC.candidate_effects import load_candidate_effects
     from SRC.candidate_count import load_candidate_tables
+    if st.session_state.get('candidate_field_version_b'):
+        from SRC.candidate_field import load_field_config, require_no_candidate_records
+        try:
+            require_no_candidate_records(load_candidate_effects())
+        except ValueError as exc:
+            st.error(str(exc))
+            return
+        experiment = dict(experiment,candidate_field=load_field_config())
+        st.caption('Field-aware candidates (Version B) are on. Ballot and candidate strengths are provisional.')
     signature = fingerprint(primary_inputs,matrices,params,posterior,ideology,targets,
                             seat_adjustments,settings,trial_label,experiment,subregions,
                             load_candidate_effects(),load_candidate_tables())
