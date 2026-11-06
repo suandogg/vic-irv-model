@@ -1,0 +1,78 @@
+{
+  "field_residual": 0.09096182114478957,
+  "wanted_residual": 0.10920000000000002,
+  "candidates": [
+    {
+      "district": "Essendon",
+      "candidate_id": "essendon_oscar_yildiz",
+      "realised": 0.09775032054572938
+    },
+    {
+      "district": "Essendon",
+      "candidate_id": "essendon_ava_adams",
+      "realised": 0.019501953105207113
+    },
+    {
+      "district": "Footscray",
+      "candidate_id": "footscray_west",
+      "realised": 0.03
+    },
+    {
+      "district": "Williamstown",
+      "candidate_id": "williamstown_tony_briffa",
+      "realised": 0.091570058919244
+    },
+    {
+      "district": "Williamstown",
+      "candidate_id": "williamstown_gill_gannon",
+      "realised": 0.031281011304126506
+    },
+    {
+      "district": "Niddrie",
+      "candidate_id": "niddrie_west",
+      "realised": 0.029999999999999992
+    },
+    {
+      "district": "St Albans",
+      "candidate_id": "st_albans_west",
+      "realised": 0.029999999999999992
+    },
+    {
+      "district": "Kororoit",
+      "candidate_id": "kororoit_west",
+      "realised": 0.030000000000000006
+    },
+    {
+      "district": "Point Cook",
+      "candidate_id": "point_cook_west",
+      "realised": 0.03
+    },
+    {
+      "district": "Tarneit",
+      "candidate_id": "tarneit_west",
+      "realised": 0.029999999999999992
+    },
+    {
+      "district": "Werribee",
+      "candidate_id": "werribee_paul_hopper",
+      "realised": 0.10999999999999999
+    },
+    {
+      "district": "Melton",
+      "candidate_id": "melton_jarrod_bingham",
+      "realised": 0.017594239782225435
+    },
+    {
+      "district": "Melton",
+      "candidate_id": "melton_west",
+      "realised": 0.029999999999999992
+    }
+  ],
+  "scenario": "retained",
+  "draws": 2000,
+  "donor_set": "on_light",
+  "seconds": 306.27410529201734,
+  "roster": [
+    "ABC_2026_10_31_PROVISIONAL"
+  ]
+}

@@ -1,0 +1,11 @@
+donor_set,geography,ALP,LNP,GRN,ON,IND,OTH,basis
+pooled,metro,1,0.95,2.16,1,0,1.43,VEC 2014-2022 regional-swing fit; ON has no Victorian evidence and is set to ALP
+pooled,nonmetro,1,1.17,1.43,1,0,0.95,VEC 2014-2022 regional-swing fit; ON has no Victorian evidence and is set to ALP
+proportional,metro,1,1,1,1,0,1,Sensitivity case
+proportional,nonmetro,1,1,1,1,0,1,Sensitivity case
+lnp_heavy,metro,0.7,2,0.7,0.7,0,1,Sensitivity case
+lnp_heavy,nonmetro,0.7,2,0.7,0.7,0,1,Sensitivity case
+alp_heavy,metro,2,0.5,1.5,1,0,1,Sensitivity case
+alp_heavy,nonmetro,2,0.5,1.5,1,0,1,Sensitivity case
+on_light,metro,1,1,1.5,0.3,0,1.2,Sensitivity case
+on_light,nonmetro,1,1,1.5,0.3,0,1.2,Sensitivity case

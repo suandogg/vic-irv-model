@@ -1,0 +1,7 @@
+{
+  "scenario": "control",
+  "draws": 5000,
+  "donor_set": "pooled",
+  "seconds": 348.8007872500166,
+  "roster": null
+}

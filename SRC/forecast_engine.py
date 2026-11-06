@@ -264,7 +264,8 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     experiment = {} if experiment is None else dict(experiment)
     if set(experiment)-{'local_preference_mode','local_primary_t_df','subregion_fraction',
                        'concentration_log_sd','concentration_by_party','concentration_form',
-                       'preference_region_share','preference_local_share','structured_nowcast'}:
+                       'preference_region_share','preference_local_share','structured_nowcast',
+                       'candidate_field'}:
         raise ValueError('Unknown forecast experiment')
     mode = experiment.get('local_preference_mode')
     if mode not in (None,'split','add'):
@@ -293,6 +294,10 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     districts = list(primary_inputs.district)
     if len(districts)!=88 or len(set(districts))!=88:
         raise ValueError('Lower-house forecast requires 88 unique districts')
+    candidate_field = experiment.get('candidate_field')
+    if candidate_field is not None:
+        from SRC.candidate_field import validate_config as validate_field, apply_candidate_field
+        validate_field(candidate_field,districts)
     nowcast = experiment.get('structured_nowcast')
     if nowcast is not None:
         from SRC.nowcast_uncertainty import validate_config
@@ -375,6 +380,10 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
             adjusted,_ = perturb_district_leans(adjusted,nowcast,lean_rng,subregions,sub_fraction)
         candidate_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,808]))
         adjusted = apply_candidate_pipeline(adjusted,drawn_targets,seat_adjustments,candidate_effects,candidate_rng,candidate_tables)
+        if candidate_field is not None:
+            # Separate stream: scenarios stay paired on every other random draw.
+            field_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,809]))
+            adjusted = apply_candidate_field(adjusted,drawn_targets,candidate_field,field_rng)
         seat_primaries.append(adjusted.set_index('district').loc[districts,PARTIES].to_numpy(dtype=float))
         result = forecast_counts(adjusted,matrices,model_params,posterior,ideology).set_index('district').loc[districts]
         if len(result)!=88 or result.winner.isna().any() or not result.winner.isin(PARTIES).all():
