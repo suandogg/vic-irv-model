@@ -37,6 +37,17 @@ class NowcastUITests(unittest.TestCase):
         config=app.session_state['lower_forecast_run']['result']['experiment']['candidate_field']
         self.assertEqual(config['residual_retention'],0)
 
+    def test_taper_switch_reaches_forecast_experiment(self):
+        app=AppTest.from_string(SOURCE,default_timeout=30)
+        app.session_state['alp_low_base_taper']=True
+        app.run()
+        self.assertEqual(len(app.exception),0)
+        app.button(key='run_lower_forecast').click().run()
+        self.assertEqual(len(app.exception),0)
+        self.assertEqual(len(app.error),0)
+        config=app.session_state['lower_forecast_run']['result']['experiment']['low_base_taper']
+        self.assertEqual(config['k'],.30)
+
     def test_selection_run_and_sensitivity_metadata(self):
         app=AppTest.from_string(SOURCE,default_timeout=30).run()
         self.assertEqual(len(app.exception),0)

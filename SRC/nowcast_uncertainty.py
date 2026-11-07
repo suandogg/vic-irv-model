@@ -8,6 +8,7 @@ import copy
 import numpy as np
 from SRC.constants import PARTIES
 from SRC.forecast_patterns import balance_primary_pattern
+from SRC.low_base_taper import error_scale
 
 SOURCES = ('vec','federal','special','generic')
 
@@ -72,7 +73,8 @@ def draw_vectors(rng,count,correlation,df=None):
     return result
 
 
-def perturb_district_leans(adjusted,config,rng,subregions=None,subregion_fraction=0):
+def perturb_district_leans(adjusted,config,rng,subregions=None,subregion_fraction=0,
+                           low_base_taper=None):
     """Joint primary-pp lean errors; preserve actual production statewide totals.
 
     Scales/correlation describe errors BEFORE nonnegativity and balancing.
@@ -114,6 +116,9 @@ def perturb_district_leans(adjusted,config,rng,subregions=None,subregion_fractio
         if context and any(context['candidate_sd_pp'].values()):
             error[index] += rng.normal(size=len(PARTIES))*np.array(
                 [context['candidate_sd_pp'][p] for p in PARTIES])/100
+    if low_base_taper:
+        column = PARTIES.index(low_base_taper['party'])
+        error[:,column] *= error_scale(base[:,column],low_base_taper)
     values = np.where(base>0,np.maximum(base+error,1e-12),0)
     log_tilt = np.zeros_like(base)
     np.log(np.divide(values,base,out=np.ones_like(base),where=base>0),out=log_tilt)

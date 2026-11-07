@@ -142,6 +142,10 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
             return
         experiment = dict(experiment,candidate_field=load_field_config())
         st.caption('Field-aware candidates (Version B) are on. Ballot and candidate strengths are provisional.')
+    if st.session_state.get('alp_low_base_taper'):
+        from SRC.low_base_taper import load_taper_config
+        experiment = dict(experiment,low_base_taper=load_taper_config())
+        st.caption('Labor low-baseline taper is on. This is a review setting, not an approved central method.')
     signature = fingerprint(primary_inputs,matrices,params,posterior,ideology,targets,
                             seat_adjustments,settings,trial_label,experiment,subregions,
                             load_candidate_effects(),load_candidate_tables())

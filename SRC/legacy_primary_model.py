@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 
 from SRC.constants import PARTIES
+from SRC.low_base_taper import tapered_primary
 
 
 LEGACY_PVI_COLUMNS = {
@@ -19,6 +20,7 @@ def build_legacy_primary_table(
     primary_inputs: pd.DataFrame,
     targets: dict[str, float],
     on_alpha: float = 0.6,
+    low_base_taper: dict | None = None,
 ) -> pd.DataFrame:
     """Reproduce the legacy Sheet's lower-house primary calculation.
 
@@ -47,9 +49,11 @@ def build_legacy_primary_table(
 
     for party, pvi_column in LEGACY_PVI_COLUMNS.items():
         target = float(targets[party]) / 100
-        out[f"{party}_pre"] = target + pd.to_numeric(
-            out[pvi_column], errors="raise"
-        )
+        pvi = pd.to_numeric(out[pvi_column], errors="raise")
+        if low_base_taper and party == low_base_taper["party"]:
+            out[f"{party}_pre"] = tapered_primary(pvi, target, low_base_taper)
+        else:
+            out[f"{party}_pre"] = target + pvi
 
     on_strength = pd.to_numeric(out["ON_strength"], errors="raise").clip(
         lower=0
@@ -89,6 +93,7 @@ def build_corrected_primary_table(
     pvi_strengths: dict[str, float] | None = None,
     iterations: int = 100,
     tolerance: float = 1e-12,
+    low_base_taper: dict | None = None,
 ) -> pd.DataFrame:
     """Build legacy-style seat primaries calibrated to statewide targets.
 
@@ -122,6 +127,7 @@ def build_corrected_primary_table(
         primary_inputs=adjusted_inputs,
         targets=targets,
         on_alpha=on_alpha,
+        low_base_taper=low_base_taper,
     )
     components = legacy[PARTIES].copy()
 
@@ -346,6 +352,7 @@ def apply_on_primary_donor_geography(
     source_matrix: dict,
     strength: float,
     on_alpha: float = 0.6,
+    low_base_taper: dict | None = None,
 ) -> pd.DataFrame:
     """Blend toward explicit, seat-class ON primary donor allocation.
 
@@ -374,7 +381,8 @@ def apply_on_primary_donor_geography(
     }
     pre_targets["ON"] = 0.0
     pre = build_corrected_primary_table(
-        primary_inputs, pre_targets, on_alpha=on_alpha
+        primary_inputs, pre_targets, on_alpha=on_alpha,
+        low_base_taper=low_base_taper,
     )
     components = pre[PARTIES].copy()
     # Keep the allocation arithmetic/order unchanged, but avoid thousands of

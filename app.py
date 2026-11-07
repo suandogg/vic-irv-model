@@ -337,6 +337,9 @@ def run_model(
 ):
     log_checkpoint(f"run_model start targets={targets}")
     from SRC.primary_pipeline import build_projected_primaries
+    if st.session_state.get('alp_low_base_taper'):
+        from SRC.low_base_taper import load_taper_config
+        params = dict(params, low_base_taper=load_taper_config())
     scenario_params = params_for_scenario(params, targets)
     adjusted, seat_adjustment_diagnostics = build_projected_primaries(
         primary_inputs, params, targets, seat_adjustments)
@@ -462,6 +465,9 @@ with st.sidebar.expander('Candidate continuity inputs', expanded=False):
 st.sidebar.checkbox('Field-aware candidates (Version B)', key='candidate_field_version_b',
                     help='Rebuilds Assembly seats from the provisional 31 October ABC ballot. '
                          'Applies to the central count and forecast. Candidate strengths are provisional.')
+st.sidebar.checkbox('Labor low-baseline taper (review)', key='alp_low_base_taper',
+                    help='Tapers Labor swing and simulated lean error in seats below 30%. '
+                         'Applies to the central count and forecast. Not an approved central method.')
 st.session_state['_display_settings'] = DISPLAY
 apply_theme(DISPLAY)
 st.set_page_config(page_title=DISPLAY['APP_TITLE'],layout='wide')

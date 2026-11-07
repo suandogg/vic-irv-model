@@ -17,6 +17,7 @@ from SRC.primary_pipeline import build_projected_primaries, params_for_scenario
 from SRC.lnp_precollapse_loader import load_lnp_precollapse_inputs, compile_lnp_precollapse
 from SRC.irv import run_irv_for_district, run_forced_2pp_for_district, district_key
 from SRC.forecast_patterns import balance_primary_pattern,concentration_pattern
+from SRC.low_base_taper import error_scale,validate_config as validate_taper
 
 STRUCTURAL_EXPERIMENTS = {
     'Current':{},
@@ -138,7 +139,7 @@ def engine_source_hash():
     root = Path(__file__).resolve().parent
     files = ('forecast_engine.py','forecast_params.py','nowcast_uncertainty.py','nowcast_loader.py','primary_pipeline.py',
              'legacy_primary_model.py','lnp_precollapse_loader.py','preference_engine.py','irv.py','forecast_subregions.py','forecast_patterns.py',
-             'candidate_effects.py','candidate_count.py')
+             'candidate_effects.py','candidate_count.py','low_base_taper.py')
     return hashlib.sha256(b''.join((root/name).read_bytes() for name in files)).hexdigest()
 
 
@@ -169,7 +170,8 @@ def draw_targets(targets, settings, rng):
 
 
 def perturb_local_primaries(adjusted, settings, rng, tail_rng=None, tail_df=None,
-                            subregions=None, subregion_fraction=0., subregion_rng=None):
+                            subregions=None, subregion_fraction=0., subregion_rng=None,
+                            low_base_taper=None):
     if not settings['REGION_PRIMARY_SD_PP'] and not settings['SEAT_PRIMARY_SD_PP']:
         return adjusted.copy()
     base = adjusted[PARTIES].to_numpy(dtype=float)
@@ -193,6 +195,9 @@ def perturb_local_primaries(adjusted, settings, rng, tail_rng=None, tail_df=None
         # Extra randomness uses a separate stream; baseline draws stay paired.
         local *= np.sqrt((tail_df-2)/tail_rng.chisquare(tail_df,base.shape))
     shock += local
+    if low_base_taper:
+        column = PARTIES.index(low_base_taper['party'])
+        shock[:,column] *= error_scale(base[:,column],low_base_taper)
     perturbed = np.where(base>0, np.maximum(base+shock,1e-12),0)
     # Raking preserves the current draw's column totals and every seat total.
     # This does not turn the calculator's equal-seat primary convention into
@@ -265,7 +270,7 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     if set(experiment)-{'local_preference_mode','local_primary_t_df','subregion_fraction',
                        'concentration_log_sd','concentration_by_party','concentration_form',
                        'preference_region_share','preference_local_share','structured_nowcast',
-                       'candidate_field'}:
+                       'candidate_field','low_base_taper'}:
         raise ValueError('Unknown forecast experiment')
     mode = experiment.get('local_preference_mode')
     if mode not in (None,'split','add'):
@@ -298,6 +303,10 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     if candidate_field is not None:
         from SRC.candidate_field import validate_config as validate_field, apply_candidate_field
         validate_field(candidate_field,districts)
+    low_base_taper = experiment.get('low_base_taper')
+    if low_base_taper is not None:
+        validate_taper(low_base_taper)
+        params = dict(params,low_base_taper=low_base_taper)
     nowcast = experiment.get('structured_nowcast')
     if nowcast is not None:
         from SRC.nowcast_uncertainty import validate_config
@@ -367,7 +376,7 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
         sub_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,303])) if sub_fraction else None
         if nowcast is None:
             adjusted = perturb_local_primaries(adjusted,settings,rng,tail_rng,tail_df,
-                                               subregions,sub_fraction,sub_rng)
+                                               subregions,sub_fraction,sub_rng,low_base_taper)
         else:
             # Preserve the ordinary stream for later statewide/model draws.
             # Its residuals are consumed but NOT applied; the new budget replaces them.
@@ -377,7 +386,8 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
                 rng.normal(0,settings['SEAT_PRIMARY_SD_PP']/100,(len(adjusted),len(PARTIES)))
             from SRC.nowcast_uncertainty import perturb_district_leans
             lean_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,707]))
-            adjusted,_ = perturb_district_leans(adjusted,nowcast,lean_rng,subregions,sub_fraction)
+            adjusted,_ = perturb_district_leans(adjusted,nowcast,lean_rng,subregions,sub_fraction,
+                                                low_base_taper)
         candidate_rng = np.random.default_rng(np.random.SeedSequence([settings['SEED'],draw,808]))
         adjusted = apply_candidate_pipeline(adjusted,drawn_targets,seat_adjustments,candidate_effects,candidate_rng,candidate_tables)
         if candidate_field is not None:
