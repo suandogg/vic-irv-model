@@ -1,0 +1,359 @@
+{
+  "field_residual": 0.07915126117589008,
+  "wanted_residual": 0.07915126117589008,
+  "candidates": [
+    {
+      "district": "Box Hill",
+      "candidate_id": "box_hill_cheung_heena",
+      "realised": 0.021699999999999994
+    },
+    {
+      "district": "Bulleen",
+      "candidate_id": "bulleen_rublee_greg",
+      "realised": 0.021699999999999997
+    },
+    {
+      "district": "Ivanhoe",
+      "candidate_id": "ivanhoe_kennedy_michelle",
+      "realised": 0.021699999999999994
+    },
+    {
+      "district": "Bundoora",
+      "candidate_id": "bundoora_murphy_webster_melissa",
+      "realised": 0.0217
+    },
+    {
+      "district": "Bayswater",
+      "candidate_id": "bayswater_clarke_mathew",
+      "realised": 0.021699999999999994
+    },
+    {
+      "district": "Croydon",
+      "candidate_id": "croydon_vanderwolf_david",
+      "realised": 0.021700000000000004
+    },
+    {
+      "district": "Ringwood",
+      "candidate_id": "ringwood_cutts_prue",
+      "realised": 0.0217
+    },
+    {
+      "district": "Mill Park",
+      "candidate_id": "mill_park_mclindon_aidan",
+      "realised": 0.021699999999999997
+    },
+    {
+      "district": "Brunswick",
+      "candidate_id": "brunswick_yuan_melissa",
+      "realised": 0.021700000000000007
+    },
+    {
+      "district": "Northcote",
+      "candidate_id": "northcote_hillman_ian",
+      "realised": 0.0217
+    },
+    {
+      "district": "Melbourne",
+      "candidate_id": "melbourne_yusuf_mohamed",
+      "realised": 0.0217
+    },
+    {
+      "district": "Richmond",
+      "candidate_id": "richmond_meyer_david",
+      "realised": 0.021699999999999997
+    },
+    {
+      "district": "Essendon",
+      "candidate_id": "essendon_oscar_yildiz",
+      "realised": 0.09784250183624807
+    },
+    {
+      "district": "Essendon",
+      "candidate_id": "essendon_ava_adams",
+      "realised": 0.019604936269256405
+    },
+    {
+      "district": "Preston",
+      "candidate_id": "preston_fowles_william",
+      "realised": 0.021699999999999997
+    },
+    {
+      "district": "Broadmeadows",
+      "candidate_id": "broadmeadows_elmustapha_mohamad",
+      "realised": 0.03254
+    },
+    {
+      "district": "Greenvale",
+      "candidate_id": "greenvale_zoughaib_yehya",
+      "realised": 0.0217
+    },
+    {
+      "district": "Kalkallo",
+      "candidate_id": "kalkallo_islam_rebeca",
+      "realised": 0.021699999999999997
+    },
+    {
+      "district": "Clarinda",
+      "candidate_id": "clarinda_white_caroline",
+      "realised": 0.06713999999999998
+    },
+    {
+      "district": "Mulgrave",
+      "candidate_id": "mulgrave_cook_ian",
+      "realised": 0.15515999999999996
+    },
+    {
+      "district": "Dandenong",
+      "candidate_id": "dandenong_khan_arshad_ali",
+      "realised": 0.021700000000000004
+    },
+    {
+      "district": "Narre Warren South",
+      "candidate_id": "narre_warren_south_watson_scott",
+      "realised": 0.0217
+    },
+    {
+      "district": "Frankston",
+      "candidate_id": "frankston_barry_nicola",
+      "realised": 0.021699999999999994
+    },
+    {
+      "district": "Berwick",
+      "candidate_id": "berwick_john_david",
+      "realised": 0.021699999999999997
+    },
+    {
+      "district": "Albert Park",
+      "candidate_id": "albert_park_dragwidge_georgie",
+      "realised": 0.05048
+    },
+    {
+      "district": "Brighton",
+      "candidate_id": "brighton_casley_john",
+      "realised": 0.005240000000000001
+    },
+    {
+      "district": "Caulfield",
+      "candidate_id": "caulfield_shroot_yaakov_ziv",
+      "realised": 0.0217
+    },
+    {
+      "district": "Prahran",
+      "candidate_id": "prahran_leeton_watts_george",
+      "realised": 0.021699999999999997
+    },
+    {
+      "district": "Hawthorn",
+      "candidate_id": "hawthorn_ibuki_shima",
+      "realised": 0.021699999999999997
+    },
+    {
+      "district": "Kew",
+      "candidate_id": "kew_torney_sophie",
+      "realised": 0.18145999999999995
+    },
+    {
+      "district": "Malvern",
+      "candidate_id": "malvern_zigouras_christina",
+      "realised": 0.021699999999999994
+    },
+    {
+      "district": "Ashwood",
+      "candidate_id": "ashwood_joshi_hitendra_k",
+      "realised": 0.021699999999999997
+    },
+    {
+      "district": "Footscray",
+      "candidate_id": "footscray_west",
+      "realised": 0.029289849571181872
+    },
+    {
+      "district": "Footscray",
+      "candidate_id": "footscray_marsh_jess",
+      "realised": 0.020982083418541488
+    },
+    {
+      "district": "Williamstown",
+      "candidate_id": "williamstown_tony_briffa",
+      "realised": 0.09171844768243012
+    },
+    {
+      "district": "Williamstown",
+      "candidate_id": "williamstown_gill_gannon",
+      "realised": 0.03144426624704139
+    },
+    {
+      "district": "Laverton",
+      "candidate_id": "laverton_west",
+      "realised": 0.029999999999999992
+    },
+    {
+      "district": "Niddrie",
+      "candidate_id": "niddrie_west",
+      "realised": 0.029316673388905933
+    },
+    {
+      "district": "Niddrie",
+      "candidate_id": "niddrie_sfameni_sam",
+      "realised": 0.02100954286156757
+    },
+    {
+      "district": "St Albans",
+      "candidate_id": "st_albans_west",
+      "realised": 0.029312718194045115
+    },
+    {
+      "district": "St Albans",
+      "candidate_id": "st_albans_janten_kerry",
+      "realised": 0.021005517246509266
+    },
+    {
+      "district": "Kororoit",
+      "candidate_id": "kororoit_west",
+      "realised": 0.030000000000000006
+    },
+    {
+      "district": "Point Cook",
+      "candidate_id": "point_cook_west",
+      "realised": 0.03
+    },
+    {
+      "district": "Sydenham",
+      "candidate_id": "sydenham_west",
+      "realised": 0.029319722967692453
+    },
+    {
+      "district": "Sydenham",
+      "candidate_id": "sydenham_vandenberg_ashleigh",
+      "realised": 0.021012723206483334
+    },
+    {
+      "district": "Tarneit",
+      "candidate_id": "tarneit_west",
+      "realised": 0.029313976379705713
+    },
+    {
+      "district": "Tarneit",
+      "candidate_id": "tarneit_islam_sm_zaberul",
+      "realised": 0.02100678267996219
+    },
+    {
+      "district": "Sunbury",
+      "candidate_id": "sunbury_west",
+      "realised": 0.02931698553765557
+    },
+    {
+      "district": "Sunbury",
+      "candidate_id": "sunbury_medcraft_steve_jack",
+      "realised": 0.021009860836632394
+    },
+    {
+      "district": "Werribee",
+      "candidate_id": "werribee_raizada_monica_sharma",
+      "realised": 0.0217
+    },
+    {
+      "district": "Pakenham",
+      "candidate_id": "pakenham_ogden_lucas",
+      "realised": 0.021700000000000007
+    },
+    {
+      "district": "Mornington",
+      "candidate_id": "mornington_maher_adrian",
+      "realised": 0.0217
+    },
+    {
+      "district": "Nepean",
+      "candidate_id": "nepean_toscano_joseph",
+      "realised": 0.021700000000000004
+    },
+    {
+      "district": "Gippsland South",
+      "candidate_id": "gippsland_south_schuhmann_phillip",
+      "realised": 0.0217
+    },
+    {
+      "district": "Hastings",
+      "candidate_id": "hastings_smart_jason",
+      "realised": 0.0217
+    },
+    {
+      "district": "Shepparton",
+      "candidate_id": "shepparton_varkey_johnson",
+      "realised": 0.021699999999999994
+    },
+    {
+      "district": "Bendigo East",
+      "candidate_id": "bendigo_east_wright_liz",
+      "realised": 0.021699999999999997
+    },
+    {
+      "district": "Eildon",
+      "candidate_id": "eildon_ward_tom",
+      "realised": 0.021700000000000004
+    },
+    {
+      "district": "Macedon",
+      "candidate_id": "macedon_seton_michael",
+      "realised": 0.0217
+    },
+    {
+      "district": "Benambra",
+      "candidate_id": "benambra_mckeeman_lachie",
+      "realised": 0.021699999999999997
+    },
+    {
+      "district": "Ovens Valley",
+      "candidate_id": "ovens_valley_manning_steve",
+      "realised": 0.0217
+    },
+    {
+      "district": "Melton",
+      "candidate_id": "melton_jarrod_bingham",
+      "realised": 0.01806844604163081
+    },
+    {
+      "district": "Melton",
+      "candidate_id": "melton_west",
+      "realised": 0.029359466557882203
+    },
+    {
+      "district": "Melton",
+      "candidate_id": "melton_fraser_jason",
+      "realised": 0.021053811913948863
+    },
+    {
+      "district": "Bellarine",
+      "candidate_id": "bellarine_lockhart_kate",
+      "realised": 0.021700000000000004
+    },
+    {
+      "district": "South Barwon",
+      "candidate_id": "south_barwon_nelson_ron",
+      "realised": 0.021699999999999997
+    },
+    {
+      "district": "Eureka",
+      "candidate_id": "eureka_zivkovic_belinda",
+      "realised": 0.0217
+    },
+    {
+      "district": "Ripon",
+      "candidate_id": "ripon_andrei_trevor_scott",
+      "realised": 0.0217
+    },
+    {
+      "district": "Lowan",
+      "candidate_id": "lowan_butler_kieran",
+      "realised": 0.021699999999999994
+    }
+  ],
+  "scenario": "released",
+  "draws": 5000,
+  "donor_set": "pooled",
+  "dropped": "werribee_paul_hopper",
+  "seconds": 710.1762889590009,
+  "roster": [
+    "VEC_2026_11_09_FINAL"
+  ]
+}

@@ -1,580 +1,735 @@
 district,candidate_name,affiliation,model_group,roster_status
-Albert Park,Adrian King,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Albert Park,Andrew Cook,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Albert Park,Colleen Bolger,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Albert Park,Daniel O'Neill,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Albert Park,Georgie Dragwidge,Independent,OTH,ABC_2026_10_31_PROVISIONAL
-Albert Park,Nina Taylor,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Albert Park,Sonya Semmens,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Albert Park,Tammy Lindrum,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Ashwood,Hitendra Joshi,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Ashwood,Jacob van der Eynden,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Ashwood,Matt Fregon,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Ashwood,Steven Mitchell,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Ashwood,Theo Zographos,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Ashwood,Tim Randall,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Bass,Chris Buckingham,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Bass,Chris Jobe,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Bass,Nikole Schellekens,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Bass,Rochelle Halstead,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Bass,Sophie Thorn,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Bayswater,Alec Ferguson,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Bayswater,David Kitchen,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Bayswater,Gary Coombes,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Bayswater,Jess Kennedy,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Bayswater,Julie Buxton,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Bayswater,Kayte Bleakney,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Bayswater,Mathew Clarke,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Bellarine,Alison Marchant,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Bellarine,Callum Whitehead,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Bellarine,Dom Williams,Socialist Alliance,OTH,ABC_2026_10_31_PROVISIONAL
-Bellarine,Mitch Pope,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Bellarine,Ronan Keogh,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Bellarine,Ross McRae,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Benambra,Alex Vangalen,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Benambra,Evette Pepper,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Benambra,Graham Parton,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Benambra,Kellie Sheppard,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Benambra,Lachie McKeeman,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Benambra,Mike Fuery,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Benambra,Ollie Young,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Benambra,Steve Martin,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Benambra,Tim Quilty,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Bendigo East,Andrew Lethlean,The Nationals,LNP,ABC_2026_10_31_PROVISIONAL
-Bendigo East,Cheryl Hawken,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Bendigo East,Denali Norsen,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Bendigo East,Liz Wright,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Bendigo East,Michael Tolhurst,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Bendigo East,Tim Rickwood,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Bendigo West,Brenton Baldwin,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Bendigo West,David Hutchings,The Nationals,LNP,ABC_2026_10_31_PROVISIONAL
-Bendigo West,Ellen Morgan,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Bendigo West,Liza Shaw,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Bendigo West,Tayne Shalevski,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Bentleigh,Herbert Lonsing,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Bentleigh,Karli McRostie,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Bentleigh,Liam Kruger,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Bentleigh,Nick Staikos,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Bentleigh,Tony Vainoras,Citizens Party,OTH,ABC_2026_10_31_PROVISIONAL
-Bentleigh,Tynan Putt,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Berwick,Brad Battin,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Berwick,Ethelyn King,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Berwick,Michael Piastrino,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Berwick,Nalinda Amarasiri Gunawardana,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Berwick,Rana Khan,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Berwick,Roshan De Silva,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Berwick,Vincenzo De Paolis,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Box Hill,Aaron Qin,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Box Hill,Heena Sinha Cheung,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Box Hill,Jamie Baker,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Box Hill,Paul Hamer,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Box Hill,Peter Fagg,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Box Hill,Sally Houguet,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Box Hill,Saravina Afaj,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Brighton,Alexander Fagan,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Brighton,Anthony Hain,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Brighton,Bridget Mullahy,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Brighton,Ebony Bain,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Brighton,James Newbury,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Brighton,Jessica Smith,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Broadmeadows,Baris Duzova,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Broadmeadows,Ethan Keirs,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Broadmeadows,Kathleen Matthews-Ward,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Broadmeadows,Maryam Nasim,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Broadmeadows,Mutullah Can Yolbulan,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Broadmeadows,Rachel Unicomb,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Broadmeadows,Sue Bolton,Socialist Alliance,OTH,ABC_2026_10_31_PROVISIONAL
-Brunswick,Adam Helman,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Brunswick,Adam Pulford,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Brunswick,Gabe Steger,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Brunswick,India Rose,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Brunswick,Jack Amanatidis,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Brunswick,Mel Yuan,Independent,OTH,ABC_2026_10_31_PROVISIONAL
-Brunswick,Naomi Farmer,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Bulleen,Dimitrios Tafidis,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Bulleen,Greg Rublee,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Bulleen,Mahdi Athari,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Bulleen,Matthew Guy,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Bulleen,Tim Dale,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Bulleen,Tomas Lightbody,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Bundoora,Bruce Whalley,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Bundoora,Chloe Nicolosi,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Bundoora,Chris Parr,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Bundoora,Colin Brooks,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Bundoora,Melissa Murphy-Webster,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Bundoora,Nina Laitala,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Bundoora,Sagar Sanyal,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Carrum,Carolyn Moore,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Carrum,Harley Mackenzie,Legalise Cannabis,OTH,ABC_2026_10_31_PROVISIONAL
-Carrum,Jeff Shelley,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Carrum,Joshua Mathews,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Carrum,Reema Ababneh,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Carrum,Sonya Kilkenny,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Carrum,Trevor Smith,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Carrum,Zoe Pegrum,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Caulfield,Angel Dolejsi,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Caulfield,David Southwick,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Caulfield,Geneviève Gilbert,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Caulfield,Malak Ababneh,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Caulfield,Michael Abelman,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Caulfield,Mikaela Stafrace,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Clarinda,Caroline White,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Clarinda,Conor Boyd-Eedle,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Clarinda,Gavin Bain,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Clarinda,John Paganis,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Clarinda,Kit Message,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Clarinda,Liam Roche,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Clarinda,Meng Heang Tak,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Cranbourne,Andrew Hirst,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Cranbourne,Annalise Mercer,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Cranbourne,Gino Tripodi,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Cranbourne,Pauline Richards,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Cranbourne,Reem Yunis,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Cranbourne,Shane Foreman,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Croydon,Beth Grimshaw,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Croydon,David Vanderwolf,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Croydon,Glenn Brindley,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Croydon,Lini Fernando,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Croydon,Richard Farr,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Croydon,Toby Wooldridge,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Dandenong,Catherine D'Arcy,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Dandenong,Gabrielle Williams,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Dandenong,Glenda Wright,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Dandenong,Jack McMahon,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Dandenong,Jordan Forte,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Dandenong,William Billings,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Eildon,Chloe Bond,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Eildon,Cindy McLeish,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Eildon,Dylan Little,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Eildon,Kevin Gibson,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Eildon,Talia Gulpilil,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Eildon,Tim Barber,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Eildon,Tom Ward,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Eltham,Jessie Weatherley,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Eltham,Maeve Riches,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Eltham,Paul Byrnes,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Eltham,Rachel Busbridge,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Eltham,Steven Marasea,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Eltham,Vicki Ward,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Essendon,Ava Adams,Independent,OTH,ABC_2026_10_31_PROVISIONAL
-Essendon,James Williams,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Essendon,John Barnes,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Essendon,Katerine Theodosis,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Essendon,Michal Kedem,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Essendon,Oscar Yildiz,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Essendon,Tommy Le Deux,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Eureka,Andy Raven,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Eureka,Emma Muir,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Eureka,Ian Harkness,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Eureka,Michaela Settle,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Eureka,Paul Ballinger,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Eureka,Sam McColl,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Eureka,Wendy Morrison,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Euroa,Alysia Regan,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Euroa,Annabelle Cleeland,The Nationals,LNP,ABC_2026_10_31_PROVISIONAL
-Euroa,Karina Kelly,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Euroa,Moussa Taouk,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Euroa,Steve Campbell,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Euroa,Zoe Lyle,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Evelyn,Analise Sherlock,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Evelyn,Andrew Henley,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Evelyn,Bridget Vallence,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Evelyn,Daniel Killey,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Evelyn,James Scanlon,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Evelyn,Jan Heald,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Evelyn,Nofoao Thomas,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Footscray,Alexander Lopez,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Footscray,Elena Pereyra,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Footscray,Jasmine Duff,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Footscray,Jess Marsh,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Footscray,Katie Hall,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Footscray,Minh Quan Nguyen,West,OTH,ABC_2026_10_31_PROVISIONAL
-Footscray,Tim Chang,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Frankston,Andrew Cheeseman,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Frankston,Bree Ambry,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Frankston,Chrysten Abraham,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Frankston,Jeffrey Knipe,Legalise Cannabis,OTH,ABC_2026_10_31_PROVISIONAL
-Frankston,Julie Harman,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Frankston,Katie Goulas,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Frankston,Paul Edbrooke,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Frankston,Paul Stafford,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Frankston,Peter Nicholes,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Geelong,Andy Pobjoy,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Geelong,Bree Vanderpol,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Geelong,Brenden Grull,Socialist Alliance,OTH,ABC_2026_10_31_PROVISIONAL
-Geelong,Christine Couzens,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Geelong,Emilie Flynn,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Geelong,John De Lorenzo,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Gippsland East,Amy Espeseth,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Gippsland East,Ash Munro,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Gippsland East,Gemma Rendell,The Nationals,LNP,ABC_2026_10_31_PROVISIONAL
-Gippsland East,Ricky Muir,"Shooters, Fishers & Farmers Vic",OTH,ABC_2026_10_31_PROVISIONAL
-Gippsland East,Sonny Stephens,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Gippsland East,Steve Goodman,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Gippsland South,Amy Barry-Macaulay,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Gippsland South,Bianca Wilke,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Gippsland South,Danny O'Brien,The Nationals,LNP,ABC_2026_10_31_PROVISIONAL
-Gippsland South,Lachie McGennisken,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Gippsland South,Phillip Schuhmann,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Gippsland South,Zave Evans,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Glen Waverley,Brad Cox,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Glen Waverley,Jacky Sun,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Glen Waverley,John Mullahy,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Glen Waverley,Nicholas Siow,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Glen Waverley,Toyo White,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Greenvale,Chris Moore,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Greenvale,Declan McGinness,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Greenvale,Iwan Walters,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Greenvale,Jim Overend,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Greenvale,Kirill Smelov,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Greenvale,Mazen John,Citizens Party,OTH,ABC_2026_10_31_PROVISIONAL
-Greenvale,Rosanna Furina,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Hastings,Chloe Coulson,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Hastings,Frank Schiefler,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Hastings,Isaac Willoughby,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Hastings,Michael Denman,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Hastings,Paul Mercurio,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Hastings,Peter Angelico,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Hawthorn,Clive Crosby,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Hawthorn,John Pesutto,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Hawthorn,Kylie Rocha,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Hawthorn,Paul Pribilovics,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Hawthorn,Shima Ibuki,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Hawthorn,Tess McEnearney,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Ivanhoe,Anthony Carbines,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Ivanhoe,Ben Milne,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Ivanhoe,Michelle Kennedy,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Ivanhoe,Nina Crawley,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Ivanhoe,Oscar Lopez,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Ivanhoe,Wayne Hutchinson,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Kalkallo,Courtney Millett,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Kalkallo,Eddie Dadisho,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Kalkallo,Payal Tiwari,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Kalkallo,Ros Spence,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Kalkallo,Troy Steans,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Kew,Ann Seeley,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Kew,David Laird,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Kew,David Sun,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Kew,Jackie Carter,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Kew,Jess Wilson,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Kew,Samantha Lincolne,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Kew,Sophie Torney,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Kororoit,Donna Southern,West,OTH,ABC_2026_10_31_PROVISIONAL
-Kororoit,Jack Chakoma,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Kororoit,Joyce McDonald,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Kororoit,Luba Grigorovitch,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Kororoit,Rayan Hassan,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Kororoit,Seva Melnikov,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Kororoit,Vasundhara Kandpal,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Lara,Ella George,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Lara,Oliver Randall,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Lara,Sarah Hathway,Socialist Alliance,OTH,ABC_2026_10_31_PROVISIONAL
-Lara,Stephen Spyros,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Lara,Theresa Slater,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Laverton,Ghada Noune,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Laverton,Jo Garcia,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Laverton,Lucy Nguyen,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Laverton,Rufo Paredes,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Laverton,Sarah Connolly,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Laverton,Shohre Mansouri,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Laverton,Suchithra Chittedi,The Republican,OTH,ABC_2026_10_31_PROVISIONAL
-Laverton,Van Thanh Rudd,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Lowan,Andrew Partridge,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Lowan,Emma Kealy,The Nationals,LNP,ABC_2026_10_31_PROVISIONAL
-Lowan,Jeff Moran,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Lowan,Jos Downey,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Lowan,Lee-Ann Elmes,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Lowan,Sue Pavlovich,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Macedon,Annette Death,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Macedon,Catherine Wilson,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Macedon,Damien Parolin,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Macedon,Dom Bonanno,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Macedon,Kate Kendall,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Macedon,Marley McRae McLeod,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Macedon,Michael Seton,Independent,OTH,ABC_2026_10_31_PROVISIONAL
-Macedon,Natalie Korinfsky,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Malvern,Amelia Hamer,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Malvern,Christina Zigouras,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Malvern,David Segal,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Malvern,Edward Bode,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Malvern,Gavin Leonard,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Malvern,Georgia Katsikis,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Melbourne,Davydd Griffiths,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Melbourne,Ellen Sandell,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Melbourne,Jordan van den Lamb,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Melbourne,Matthew Collins,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Melbourne,Naomi Jones,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Melbourne,Rafael Camillo,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Melbourne,Rob McCathie,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Melbourne,Rowan Tuckfield,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Melton,Broden Borg,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Melton,Daire Kelly,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Melton,Fiona Adin-James,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Melton,Hayden Legro,West,OTH,ABC_2026_10_31_PROVISIONAL
-Melton,Jarrod Bingham,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Melton,Marlene West,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Melton,Matthew Katselis,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Melton,Veronika Levchenkova,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Mildura,Ali Cupper,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Mildura,Guy Cooper,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Mildura,Jade Benham,The Nationals,LNP,ABC_2026_10_31_PROVISIONAL
-Mildura,Katie Clements,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Mildura,Renee Nayef,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Mildura,Stella Zigouras,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Mill Park,Arthur Tsoutsoulis,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Mill Park,Binoy Zacharias,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Mill Park,Elizabeth Nealy,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Mill Park,Eve Levens,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Mill Park,Jesse Lambourn,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Mill Park,Joel Drysdale,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Monbulk,Adrian Dowell,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Monbulk,Alyssa Wormald,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Monbulk,Clare Fitzmaurice,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Monbulk,Craig Manners,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Monbulk,Daniela De Martino,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Monbulk,Merran Blair,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Monbulk,Noah Briggs,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Mordialloc,Alex Breskin,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Mordialloc,Lily Potucek,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Mordialloc,Mahee Hossain,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Mordialloc,Nadia Ticehurst,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Mordialloc,Paul O'Halloran,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Mordialloc,Rachel Versteegen,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Mordialloc,Tim Richardson,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Mornington,Adrian Maher,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Mornington,Ashli Beards,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Mornington,Chris Crewther,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Mornington,Gene Brownlie,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Mornington,Kai Titcher,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Mornington,Kerry Macdonald,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Mornington,Melissa Goffin,Independent,OTH,ABC_2026_10_31_PROVISIONAL
-Morwell,Casey Murphy,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Morwell,Martin Cameron,The Nationals,LNP,ABC_2026_10_31_PROVISIONAL
-Morwell,Natalie Acreman,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Morwell,Rochelle Hine,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Morwell,Tracie Lund,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Mulgrave,Charles Tran,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Mulgrave,Cody Rebbechi,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Mulgrave,Connor Buchanan,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Mulgrave,Eden Foster,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Mulgrave,Fotini Theodossopoulou,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Mulgrave,Ian Cook,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Mulgrave,Paul Schofield,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Murray Plains,Asyiqin Sanif,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Murray Plains,Brett Hosking,The Nationals,LNP,ABC_2026_10_31_PROVISIONAL
-Murray Plains,Christine Grundy,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Murray Plains,Garner Smith,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Murray Plains,Zoe Cook,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Narracan,Alyssa Weaver,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Narracan,Ben Lucas,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Narracan,Geoff Dethlefs,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Narracan,Jannette Langley,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Narracan,Moss Page,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Narracan,Wayne Farnham,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Narre Warren North,Belinda Wilson,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Narre Warren North,Hayley Perry,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Narre Warren North,Josh Utoyo,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Narre Warren North,Lachlan McCracken,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Narre Warren North,Sebastian Crutchfield,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Narre Warren North,Shemane Nathanielsz,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Narre Warren South,Bailey McCracken,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Narre Warren South,Jill Nambu,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Narre Warren South,Lydia Denker,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Narre Warren South,Norliah Peterson,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Narre Warren South,Scott Watson,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Narre Warren South,Stefan Koomen,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Narre Warren South,Trevor Hammond,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Nepean,Anthony Marsh,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Nepean,Darren Hercus,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Nepean,Kim Robbins,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Nepean,Mike Brown,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Nepean,Seth Willcocks,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Nepean,Sianan Healy,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Nepean,Surbhi Snowball,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Nepean,Tamara Champion,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Niddrie,Ben Carroll,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Niddrie,Brendan Laws,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Niddrie,Brett Patrikeos,West,OTH,ABC_2026_10_31_PROVISIONAL
-Niddrie,Jason Taverna,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Niddrie,Lana Nguyen,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Niddrie,Salomae Haselgrove,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Niddrie,Samantha Byrne,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Northcote,Campbell Gome,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Northcote,Jim Penman,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Northcote,Kat Theophanous,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Northcote,Kath Larkin,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Northcote,Lynda Awad,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Oakleigh,Brooke Carter,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Oakleigh,Hsiang-Han Hsieh,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Oakleigh,Martin Jung,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Oakleigh,Rowdy Bugter,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Oakleigh,Steve Dimopoulos,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Ovens Valley,Ben Gilbert,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Ovens Valley,Bronwyn Murphy,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Ovens Valley,James Rouel,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Ovens Valley,Julian Fidge,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Ovens Valley,Steve Manning,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Ovens Valley,Tim McCurdy,The Nationals,LNP,ABC_2026_10_31_PROVISIONAL
-Pakenham,Alessandra Soliven,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Pakenham,Kate Hands,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Pakenham,Mary-Kate Louis,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Pakenham,Nasser Yawari,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Pakenham,Radmila Dyson,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Pakenham,Raymond French,Independent,OTH,ABC_2026_10_31_PROVISIONAL
-Pakenham,Stephanie Grigg,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Pakenham,Warren Pickering,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Pascoe Vale,Andrew Forehan,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Pascoe Vale,Angelica Panopoulos,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Pascoe Vale,Anthony Cianflone,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Pascoe Vale,Jacob Andrewartha,Socialist Alliance,OTH,ABC_2026_10_31_PROVISIONAL
-Pascoe Vale,Kathrine Ashton,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Pascoe Vale,Yasemin Shamsili,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Point Cook,Cameron Reid,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Point Cook,Keith Meure,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Point Cook,Kirti Alle,The Republican,OTH,ABC_2026_10_31_PROVISIONAL
-Point Cook,Mark Grech,West,OTH,ABC_2026_10_31_PROVISIONAL
-Point Cook,Mathew Hilakari,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Point Cook,Ponraj Krishna Pandi,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Point Cook,Raja Reddy,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Point Cook,Taylor Laine,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Polwarth,Anna Malcolm,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Polwarth,Brenton Carbins,Citizens Party,OTH,ABC_2026_10_31_PROVISIONAL
-Polwarth,Hutch Hussein,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Polwarth,Jesse Holden,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Polwarth,Lula Tolley,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Polwarth,Richard Riordan,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Prahran,Angelica Di Camillo,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Prahran,Clayton Doueihi,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Prahran,Meghan Hopper,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Prahran,Rachel Westaway,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Prahran,Shaun Virsu,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Preston,Franco Guardiani,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Preston,Hamza Al Katranji,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Preston,Julio Valencia,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Preston,Loki Sangarya,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Preston,Nathan Lambert,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Preston,Peita Collard,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Preston,Serena Ashmore,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Preston,Zheng Chin,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Richmond,Bernadette Gray,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Richmond,Charles Aponso,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Richmond,Chris Dite,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Richmond,David Meyer,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Richmond,Gabrielle de Vietri,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Richmond,Harrison Rindfleish,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Richmond,Sarah McKenzie,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Ringwood,Amy Mills,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Ringwood,Elaine Huang,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Ringwood,Jack Gardner,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Ringwood,John O'Connor,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Ringwood,Nick McGowan,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Ringwood,Prue Cutts,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Ringwood,Rachel Halse,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Ripon,Bernard Quince,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Ripon,Donna Buxton,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Ripon,Jeff Barry,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Ripon,Jo Armstrong,The Nationals,LNP,ABC_2026_10_31_PROVISIONAL
-Ripon,Martha Haylett,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Ripon,Megan Read,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Ripon,Taylah Brennan-Jones,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Ripon,Tim Drylie,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Ripon,Trevor Andrei,Independent,OTH,ABC_2026_10_31_PROVISIONAL
-Rowville,Bradley Watt,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Rowville,Dave Massey,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Rowville,Lars Hiemstra,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Rowville,Max Williams,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Rowville,Muhammad Shahbaz,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Rowville,Scott Robson,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Sandringham,Anastasia Sagris-Desmond,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Sandringham,Anthony Blight,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Sandringham,Brad Rowswell,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Sandringham,Lauren Stevenson,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Sandringham,Timon Fotakis,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Shepparton,Alison White,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Shepparton,Cayla Fin,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Shepparton,Grace Verney,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Shepparton,Karen Hocking,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Shepparton,Lou Costa,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Shepparton,Phillip Bryant,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Shepparton,Shane Sali,The Nationals,LNP,ABC_2026_10_31_PROVISIONAL
-South Barwon,Freya Hedley,Socialist Alliance,OTH,ABC_2026_10_31_PROVISIONAL
-South Barwon,Izzy Scherrer,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-South Barwon,Josh Geard,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-South Barwon,Libby Pettit,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-South Barwon,Madilyn Gorman,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-South Barwon,Rebecca Thistleton,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-South Barwon,Ron Nelson,Independent,IND,ABC_2026_10_31_PROVISIONAL
-South-West Coast,Andrew Govanstone,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-South-West Coast,Hera Sheppard,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-South-West Coast,Richard Hughes,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-South-West Coast,Roma Britnell,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-South-West Coast,Silver Rose,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-South-West Coast,Tamhas Buchan,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-St Albans,Bao Huynh,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-St Albans,John Cowell,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-St Albans,Leanna Nguyen,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-St Albans,Luan Walker,West,OTH,ABC_2026_10_31_PROVISIONAL
-St Albans,Natalie Suleyman,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-St Albans,Rob Dunstan,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Sunbury,Adam Bremner,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Sunbury,Elita Dabrowski,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Sunbury,Josh Bull,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Sunbury,Lauren Granger-Brown,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Sunbury,Simmone Cottom,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Sydenham,Ashleigh Vandenberg,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Sydenham,Joh Bauch,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Sydenham,Maggie Jane,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Sydenham,Maria Kerr,Independent,OTH,ABC_2026_10_31_PROVISIONAL
-Sydenham,Matthew De Angelis,Independent,OTH,ABC_2026_10_31_PROVISIONAL
-Sydenham,Nancy Batres-Croes,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Sydenham,Nathalie Moussi,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Sydenham,Shania Khan,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Sydenham,Uros Rasic,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Tarneit,Andrew Elsbury,West,OTH,ABC_2026_10_31_PROVISIONAL
-Tarneit,Dylan Wight,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Tarneit,Horizana Niyongabire,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Tarneit,Leah Van Keulen,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Tarneit,Maurita Rahn,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Tarneit,Rifai Raheem,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Tarneit,Sindhu Sudhagani,The Republican,OTH,ABC_2026_10_31_PROVISIONAL
-Tarneit,Venkat Ram Upparlapalle,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Tarneit,Walter Villagonzalo,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Thomastown,Belinda Stojcevski,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Thomastown,Bronwyn Halfpenny,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Thomastown,Gavin Trewalla,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Thomastown,Nadia Anthony,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Thomastown,Priya Reddy,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Warrandyte,Caleb Schwab,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
-Warrandyte,John Stanley,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Warrandyte,Mark Burnside,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Warrandyte,Nicole Werner,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Warrandyte,Rebecca Paterson,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Warrandyte,Vanessa Muradian,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Wendouree,Chris Meagher,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Wendouree,Ellen Burns,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Wendouree,Gav Ronan,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Wendouree,Juliana Addison,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Wendouree,Melissa Collins,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Wendouree,Ruth Byrne,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Wendouree,Stuart Robinson,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Werribee,John Lister,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Werribee,Matthew Emerson,Family First,OTH,ABC_2026_10_31_PROVISIONAL
-Werribee,Paul Hopper,West,OTH,ABC_2026_10_31_PROVISIONAL
-Werribee,Paul Pateras,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Werribee,Reece Clark,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Werribee,Sue Munro,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Werribee,Tushar Kumar,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Williamstown,Ben Hocking,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Williamstown,Catherine Loughnan,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Williamstown,Gill Gannon,West,OTH,ABC_2026_10_31_PROVISIONAL
-Williamstown,Melissa Horne,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Williamstown,Oskar Martin,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Williamstown,Paul Lindemann,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Williamstown,Tony Briffa,Independent,IND,ABC_2026_10_31_PROVISIONAL
-Yan Yean,Amanda Dow,Liberal,LNP,ABC_2026_10_31_PROVISIONAL
-Yan Yean,Andrew Bell,Victorian Socialists,OTH,ABC_2026_10_31_PROVISIONAL
-Yan Yean,Gufran Mohammed,The Greens,GRN,ABC_2026_10_31_PROVISIONAL
-Yan Yean,Jeremy Johnson,One Nation,ON,ABC_2026_10_31_PROVISIONAL
-Yan Yean,Lauren Kathage,Australian Labor Party,ALP,ABC_2026_10_31_PROVISIONAL
-Yan Yean,Sinan Okatan,AJP,OTH,ABC_2026_10_31_PROVISIONAL
-Yan Yean,Troy Cheers,Libertarian (formerly Liberal Democrats),OTH,ABC_2026_10_31_PROVISIONAL
+Albert Park,"BOLGER, Colleen",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Albert Park,"COOK, Andrew",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Albert Park,"DRAGWIDGE, Georgie",No registered party,IND,VEC_2026_11_09_FINAL
+Albert Park,"KING, Adrian William",No registered party,OTH,VEC_2026_11_09_FINAL
+Albert Park,"LINDRUM, Tam",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Albert Park,"SEMMENS, Sonya",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Albert Park,"TAYLOR, Nina",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Ashwood,"FREGON, Matt",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Ashwood,"JOSHI, Hitendra K.",No registered party,IND,VEC_2026_11_09_FINAL
+Ashwood,"MITCHELL, Steven",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Ashwood,"RANDALL, Tim",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Ashwood,"UWIMANA, Enid",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Ashwood,"VAN DER EYNDEN, Jacob",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Ashwood,"ZOGRAPHOS, Theo",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Bass,"BUCKINGHAM, Chris",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Bass,"CAUNEAC, Ben",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Bass,"HALSTEAD, Rochelle",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Bass,"JOBE, Chris",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Bass,"SCHELLEKENS, Nikole",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Bass,"THORN, Sophie",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Bayswater,"BLEAKNEY, Kayte",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Bayswater,"BUXTON, Julie",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Bayswater,"CLARKE, Mathew",No registered party,IND,VEC_2026_11_09_FINAL
+Bayswater,"COOMBES, Gary",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Bayswater,"FERGUSON, Alec",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Bayswater,"HUBBARD, Naomi",Democratic Labour Party (DLP),OTH,VEC_2026_11_09_FINAL
+Bayswater,"KENNEDY, Jess",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Bayswater,"KITCHEN, David",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Bellarine,"KEOGH, Ronan",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Bellarine,"LOCKHART, Kate",No registered party,IND,VEC_2026_11_09_FINAL
+Bellarine,"MANUELL, Guy",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Bellarine,"MARCHANT, Alison",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Bellarine,"MCRAE, Ross",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Bellarine,"POPE, Mitch",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Bellarine,"WHITEHEAD, Callum",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Bellarine,"WILLIAMS, Dom",Socialist Alliance,OTH,VEC_2026_11_09_FINAL
+Benambra,"FUERY, Mike",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Benambra,"MARTIN, Steve",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Benambra,"McKEEMAN, Lachie",No registered party,IND,VEC_2026_11_09_FINAL
+Benambra,"PARTON, Graham",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Benambra,"PEPPER, Evette",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Benambra,"QUILTY, Tim",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Benambra,"SHEPPARD, Kellie",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Benambra,"VANGALEN, Alex",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Benambra,"YOUNG, Oliver",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Bendigo East,"DUNN, Bonnie",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Bendigo East,"HAWKEN, Cheryl",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Bendigo East,"HOSKINS, Kristie",No registered party,OTH,VEC_2026_11_09_FINAL
+Bendigo East,"JOHN, Des",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Bendigo East,"LETHLEAN, Andrew",National Party of Australia - Victoria,LNP,VEC_2026_11_09_FINAL
+Bendigo East,"NORSEN, Denali",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Bendigo East,"RICKWOOD, Tim",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Bendigo East,"TOLHURST, Michael",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Bendigo East,"WRIGHT, Liz",No registered party,IND,VEC_2026_11_09_FINAL
+Bendigo West,"BALDWIN, Brenton",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Bendigo West,"HARISOPOULOS, Christos",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Bendigo West,"HUTCHINGS, David",National Party of Australia - Victoria,LNP,VEC_2026_11_09_FINAL
+Bendigo West,"MORGAN, Ellen",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Bendigo West,"SHALEVSKI, Tayne",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Bendigo West,"SHAW, Liza",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Bendigo West,"TRANTER, Debra",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Bentleigh,"KRUGER, Liam",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Bentleigh,"LONSING, Herbert",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Bentleigh,"PROCTOR, Claire",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Bentleigh,"PUTT, Tynan",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Bentleigh,"STAIKOS, Nick",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Bentleigh,"VAINORAS, Tony",Australian Citizens Party (Victorian Division),OTH,VEC_2026_11_09_FINAL
+Berwick,"AMARASIRI GUNAWARDANA, Nalinda",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Berwick,"BATTIN, Brad",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Berwick,"DE PAOLIS, Vincenzo",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Berwick,"DE SILVA, Roshan",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Berwick,"DOWLING, Scott",Australian Citizens Party (Victorian Division),OTH,VEC_2026_11_09_FINAL
+Berwick,"JOHN, David",No registered party,IND,VEC_2026_11_09_FINAL
+Berwick,"KHAN, Rana",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Berwick,"KING, Ethelyn",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Berwick,"PIASTRINO, Michael",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Box Hill,"AFAJ, Saravina",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Box Hill,"BAKER, Jamie",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Box Hill,"CHEUNG, Heena",No registered party,IND,VEC_2026_11_09_FINAL
+Box Hill,"FAGG, Peter",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Box Hill,"HAMER, Paul",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Box Hill,"HOUGUET, Sally",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Box Hill,"McGRATH, Sue-Ellen",Democratic Labour Party (DLP),OTH,VEC_2026_11_09_FINAL
+Box Hill,"QIN, Aaron",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Brighton,"BAIN, Ebony",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Brighton,"CASLEY, John",No registered party,IND,VEC_2026_11_09_FINAL
+Brighton,"FAGAN, Alexander",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Brighton,"HAIN, Anthony",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Brighton,"MULLAHY, Bridget",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Brighton,"NEWBURY, James",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Brighton,"SMITH, Jessica",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Brighton,"VINCENT, Barry",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Broadmeadows,"BOLTON, Sue",Socialist Alliance,OTH,VEC_2026_11_09_FINAL
+Broadmeadows,"DUZOVA, Baris",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Broadmeadows,"EL YOUSSEF, Mohamad",No registered party,OTH,VEC_2026_11_09_FINAL
+Broadmeadows,"ELMUSTAPHA, Mohamad",No registered party,IND,VEC_2026_11_09_FINAL
+Broadmeadows,"KEIRS, Ethan",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Broadmeadows,"MATTHEWS-WARD, Kathleen",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Broadmeadows,"NASIM, Maryam",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Broadmeadows,"UNICOMB, Rachel",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Broadmeadows,"WILSON, Russell",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Broadmeadows,"YOLBULAN, Mutullah Can",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Brunswick,"AMANATIDIS, Jack",No registered party,OTH,VEC_2026_11_09_FINAL
+Brunswick,"FARMER, Naomi",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Brunswick,"HELMAN, Adam",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Brunswick,"MARGELIS, John",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Brunswick,"PULFORD, Adam",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Brunswick,"ROSE, India",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Brunswick,"STEGER, Gabe",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Brunswick,"YUAN, Melissa",No registered party,IND,VEC_2026_11_09_FINAL
+Bulleen,"ATHARI, Mahdi",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Bulleen,"DALE, Tim",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Bulleen,"GUY, Matthew",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Bulleen,"HARVEY, Bradley",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Bulleen,"LIGHTBODY, Tomas",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Bulleen,"PALIOURAS, Amanda",No registered party,OTH,VEC_2026_11_09_FINAL
+Bulleen,"RUBLEE, Greg",No registered party,IND,VEC_2026_11_09_FINAL
+Bulleen,"TAFIDIS, Dimitrios",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Bundoora,"BROOKS, Colin",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Bundoora,"LAITALA, Nina",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Bundoora,"MURPHY-WEBSTER, Melissa",No registered party,IND,VEC_2026_11_09_FINAL
+Bundoora,"NICOLOSI, Chloe",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Bundoora,"PARR, Chris",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Bundoora,"RANCIE, Rae",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Bundoora,"SANYAL, Sagar",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Bundoora,"WHALLEY, Bruce",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Carrum,"ABABNEH, Reema",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Carrum,"KILKENNY, Sonya",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Carrum,"MACKENZIE, Harley",Legalise Cannabis Victoria,OTH,VEC_2026_11_09_FINAL
+Carrum,"MATHEWS, Joshua",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Carrum,"MOORE, Carolyn",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Carrum,"PEGRUM, Zoe",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Carrum,"SHELLEY, Jeff",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Carrum,"SMITH, Trevor",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Caulfield,"ABABNEH, Malak",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Caulfield,"ABELMAN, Michael",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Caulfield,"DOLEJŠÍ, Angel",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Caulfield,"GILBERT, Geneviève",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Caulfield,"SHROOT, Yaakov Ziv",No registered party,IND,VEC_2026_11_09_FINAL
+Caulfield,"SOUTHWICK, David",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Caulfield,"STAFRACE, Mikaela",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Clarinda,"BAIN, Gavin",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Clarinda,"BOYD-EEDLE, Conor",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Clarinda,"MESSAGE, Kit",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Clarinda,"PAGANIS, John",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Clarinda,"ROCHE, Liam",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Clarinda,"TAK, Meng Heang",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Clarinda,"WHITE, Caroline",No registered party,IND,VEC_2026_11_09_FINAL
+Cranbourne,"BAIRD, Craig",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Cranbourne,"FOREMAN, Shane",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Cranbourne,"HIRST, Andrew",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Cranbourne,"MERCER, Annalise",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Cranbourne,"RICHARDS, Pauline",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Cranbourne,"TRIPODI, Gino",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Cranbourne,"URQUIOLA, Liam",Legalise Cannabis Victoria,OTH,VEC_2026_11_09_FINAL
+Cranbourne,"YUNIS, Reem",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Croydon,"BRINDLEY, Glenn",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Croydon,"FARR, Richard",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Croydon,"FERNANDO, Lini",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Croydon,"GRIMSHAW, Beth",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Croydon,"SCHWAB, Nathan",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Croydon,"THOMAS, Nofoao",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Croydon,"VANDERWOLF, David",No registered party,IND,VEC_2026_11_09_FINAL
+Croydon,"WOOLDRIDGE, Toby",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Dandenong,"BILLINGS, William",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Dandenong,"D'ARCY, Catherine",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Dandenong,"FORTE, Jordan",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Dandenong,"HARVEY, Jacqueline",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Dandenong,"KHAN, Arshad Ali",No registered party,IND,VEC_2026_11_09_FINAL
+Dandenong,"McMAHON, Jack",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Dandenong,"WILLIAMS, Gabrielle",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Dandenong,"WRIGHT, Glenda",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Eildon,"BARBER, Tim",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Eildon,"BOND, Chloe",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Eildon,"GIBSON, Kevin",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Eildon,"GULPILIL, Talia",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Eildon,"LITTLE, Dylan",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Eildon,"MCLEISH, Cindy",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Eildon,"MOSELY, Joshua",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Eildon,"WARD, Tom",No registered party,IND,VEC_2026_11_09_FINAL
+Eltham,"BROOKSBY, Louise",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Eltham,"BUSBRIDGE, Rachel",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Eltham,"BYRNES, Paul",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Eltham,"MARASEA, Steven",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Eltham,"RICHES, Maeve",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Eltham,"WARD, Vicki",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Eltham,"WEATHERLEY, Jessie",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Essendon,"ADAMS, Ava",No registered party,OTH,VEC_2026_11_09_FINAL
+Essendon,"BARNES, John",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Essendon,"KEDEM, Michal",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Essendon,"LE DEUX, Tommy",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Essendon,"MOHAMUD, Anab",No registered party,OTH,VEC_2026_11_09_FINAL
+Essendon,"THEODOSIS, Kat",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Essendon,"WILLIAMS, James",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Essendon,"YILDIZ, Oscar",No registered party,IND,VEC_2026_11_09_FINAL
+Eureka,"BALLINGER, Paul",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Eureka,"HARKNESS, Ian Maxwell",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Eureka,"MORRISON, Wendy",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Eureka,"MUIR, Emma",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Eureka,"McCOLL, Sam",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Eureka,"RAVEN, Andy",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Eureka,"SETTLE, Michaela",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Eureka,"VENDITTI-TAYLOR, Steven",No registered party,OTH,VEC_2026_11_09_FINAL
+Eureka,"ZIVKOVIC, Belinda",No registered party,IND,VEC_2026_11_09_FINAL
+Euroa,"CAMPBELL, Steve",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Euroa,"CLEELAND, Annabelle",National Party of Australia - Victoria,LNP,VEC_2026_11_09_FINAL
+Euroa,"KELLY, Julian",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Euroa,"KELLY, Karina",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Euroa,"LYLE, Zoe",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Euroa,"REGAN, Alysia",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Euroa,"TAOUK, Moussa",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Evelyn,"HEALD, Jan",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Evelyn,"HENLEY, Andrew",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Evelyn,"KILLEY, Daniel",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Evelyn,"O'BRIEN, Michelle",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Evelyn,"SCANLON, James",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Evelyn,"SHERLOCK, Analise",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Evelyn,"VALLENCE, Bridget",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Footscray,"CALDER, Daryle",Climate Action Now,OTH,VEC_2026_11_09_FINAL
+Footscray,"CHANG, Tim",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Footscray,"CUMMING, Catherine",No registered party,OTH,VEC_2026_11_09_FINAL
+Footscray,"DINH, Hai",No registered party,OTH,VEC_2026_11_09_FINAL
+Footscray,"DUFF, Jasmine",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Footscray,"FELATE, Andualem",The Republican Make Australia Great Again,OTH,VEC_2026_11_09_FINAL
+Footscray,"FLORES, Ana",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Footscray,"HALL, Katie",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Footscray,"HESS, Kristina",I'm Voting to Avoid the Fine,OTH,VEC_2026_11_09_FINAL
+Footscray,"IBRAHIM, Marcus",No registered party,OTH,VEC_2026_11_09_FINAL
+Footscray,"LEWIS, Daniel",Free Palestine,OTH,VEC_2026_11_09_FINAL
+Footscray,"LOPEZ, Alexander",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Footscray,"MARSH, Jess",No registered party,IND,VEC_2026_11_09_FINAL
+Footscray,"NGUYEN, Minh Quan",The West Party,OTH,VEC_2026_11_09_FINAL
+Footscray,"PEREYRA, Elena",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Frankston,"ABRAHAM, Chrysten",No registered party,OTH,VEC_2026_11_09_FINAL
+Frankston,"AMBRY, Bree",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Frankston,"BARRY, Nicola",No registered party,IND,VEC_2026_11_09_FINAL
+Frankston,"CHEESEMAN, Andrew",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Frankston,"EDBROOKE, Paul",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Frankston,"GOULAS, Katie",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Frankston,"HARMAN, Julie",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Frankston,"KELSALL, Henry",No registered party,OTH,VEC_2026_11_09_FINAL
+Frankston,"KNIPE, Jeff",Legalise Cannabis Victoria,OTH,VEC_2026_11_09_FINAL
+Frankston,"NICHOLES, Peter",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Frankston,"STAFFORD, Paul",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Geelong,"BENGTSSON, Maria",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Geelong,"COUZENS, Christine",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Geelong,"DE LORENZO, John",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Geelong,"FLYNN, Emilie",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Geelong,"GRULL, Brenden",Socialist Alliance,OTH,VEC_2026_11_09_FINAL
+Geelong,"MACPHERSON, Pippa",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Geelong,"POBJOY, Andy",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Geelong,"VANDERPOL, Bree",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Gippsland East,"ESPESETH, Amy",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Gippsland East,"GOODMAN, Steve",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Gippsland East,"MUIR, Ricky","Shooters, Fishers and Farmers Party Victoria",OTH,VEC_2026_11_09_FINAL
+Gippsland East,"MUNRO, Ash",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Gippsland East,"RENDELL, Gemma",National Party of Australia - Victoria,LNP,VEC_2026_11_09_FINAL
+Gippsland East,"STEPHENS, Sonny",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Gippsland East,"WATERS, Alison",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Gippsland South,"BARRY-MACAULAY, Amy",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Gippsland South,"EVANS, Zave",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Gippsland South,"McAULIFFE, Jessica",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Gippsland South,"McGENNISKEN, Lachie",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Gippsland South,"O'BRIEN, Danny",National Party of Australia - Victoria,LNP,VEC_2026_11_09_FINAL
+Gippsland South,"SCHUHMANN, Phillip",No registered party,IND,VEC_2026_11_09_FINAL
+Gippsland South,"WILKIE, Bianca",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Glen Waverley,"COX, Brad",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Glen Waverley,"DOBIE, Anna",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Glen Waverley,"MULLAHY, John",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Glen Waverley,"NADARAJAH, Segar",Democratic Labour Party (DLP),OTH,VEC_2026_11_09_FINAL
+Glen Waverley,"SIOW, Nicholas",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Glen Waverley,"SUN, Jacky",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Glen Waverley,"WHITE, Toyo",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Greenvale,"FURINA, Rosanna",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Greenvale,"MCGINNESS, Declan",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Greenvale,"MOORE, Chris",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Greenvale,"OVEREND, Jim",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Greenvale,"SAID, Hassan",No registered party,OTH,VEC_2026_11_09_FINAL
+Greenvale,"SMELOV, Kirill",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Greenvale,"TITHERIDGE, Michael",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Greenvale,"WALTERS, Iwan",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Greenvale,"YOHANNA, Mazen",Australian Citizens Party (Victorian Division),OTH,VEC_2026_11_09_FINAL
+Greenvale,"ZOUGHAIB, Yehya",No registered party,IND,VEC_2026_11_09_FINAL
+Hastings,"ANGELICO, Peter",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Hastings,"COULSON, Chloe",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Hastings,"DENMAN, Michael",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Hastings,"MERCURIO, Paul",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Hastings,"SCHIEFLER, Frank",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Hastings,"SMART, Jason",No registered party,IND,VEC_2026_11_09_FINAL
+Hastings,"WILLOUGHBY, Isaac",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Hawthorn,"CROSBY, Clive",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Hawthorn,"IBUKI, Shima",No registered party,IND,VEC_2026_11_09_FINAL
+Hawthorn,"McENEARNEY, Tess",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Hawthorn,"NICOLL, Adam",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Hawthorn,"PESUTTO, John",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Hawthorn,"PRIBILOVICS, Paul",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Hawthorn,"ROCHA, Kylie",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Ivanhoe,"BERGMAN, Dora",No registered party,OTH,VEC_2026_11_09_FINAL
+Ivanhoe,"CARBINES, Anthony",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Ivanhoe,"CASONATO, Ren",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Ivanhoe,"CRAWLEY, Nina",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Ivanhoe,"HUTCHINSON, Wayne",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Ivanhoe,"KENNEDY, Michelle",No registered party,IND,VEC_2026_11_09_FINAL
+Ivanhoe,"LOPEZ RIOS, Oscar",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Ivanhoe,"MILNE, Ben",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Kalkallo,"DADISHO, Eddie",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Kalkallo,"DOBSON, Jeanette",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Kalkallo,"ISLAM, Rebeca",No registered party,IND,VEC_2026_11_09_FINAL
+Kalkallo,"LYNCH, Matthew",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Kalkallo,"MILLETT, Courtney",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Kalkallo,"SPENCE, Ros",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Kalkallo,"STEANS, Troy",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Kalkallo,"TIWARI, Payal",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Kew,"CARTER, Jackie",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Kew,"DAVIS, Finlay",No registered party,OTH,VEC_2026_11_09_FINAL
+Kew,"HALES, Juliet",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Kew,"LAIRD, David",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Kew,"LIANG, Man",No registered party,OTH,VEC_2026_11_09_FINAL
+Kew,"LINCOLNE, Samantha",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Kew,"SEELEY, Ann",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Kew,"SUN, David",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Kew,"TORNEY, Sophie",No registered party,IND,VEC_2026_11_09_FINAL
+Kew,"WILSON, Jess",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Kororoit,"CHAKOMA, Jack",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Kororoit,"GRIGOROVITCH, Luba",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Kororoit,"HASSAN, Rayan",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Kororoit,"KANDPAL, Vasundhara",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Kororoit,"MCDONALD, Joyce",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Kororoit,"MELNIKOV, Seva",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Kororoit,"PATTERSON, Nick",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Kororoit,"PIDI, Divya",The Republican Make Australia Great Again,OTH,VEC_2026_11_09_FINAL
+Kororoit,"SOUTHERN, Donna",The West Party,OTH,VEC_2026_11_09_FINAL
+Lara,"BEDDOE, Tim",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Lara,"GEORGE, Ella",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Lara,"HATHWAY, Sarah",Socialist Alliance,OTH,VEC_2026_11_09_FINAL
+Lara,"LONG, Samantha",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Lara,"RANDALL, Oliver",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Lara,"SLATER, Theresa",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Lara,"SPYROS, Steven",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Lara,"UWIZEYIMANA, Tina",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Laverton,"CHITTEDI, Suchithra",The Republican Make Australia Great Again,OTH,VEC_2026_11_09_FINAL
+Laverton,"CONNOLLY, Sarah",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Laverton,"GARCIA, Jo",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Laverton,"MANSOURI JAJAEE, Shohre",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Laverton,"MENDELSOHN, Emma",The West Party,OTH,VEC_2026_11_09_FINAL
+Laverton,"NGUYEN, Lucy",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Laverton,"NOUNE, Ghada",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Laverton,"PAREDES, Rufo",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Laverton,"RUDD, Van Thanh",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Lowan,"BUTLER, Kieran",No registered party,IND,VEC_2026_11_09_FINAL
+Lowan,"DOWNEY, Jos",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Lowan,"ELMES, Lee-Ann",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Lowan,"HYSLOP, Karen",Australian Democrats,OTH,VEC_2026_11_09_FINAL
+Lowan,"KEALY, Emma",National Party of Australia - Victoria,LNP,VEC_2026_11_09_FINAL
+Lowan,"MORAN, Jeff",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Lowan,"PARTRIDGE, Andrew",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Lowan,"PAVLOVICH, Sue",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Macedon,"BONANNO, Dom",No registered party,OTH,VEC_2026_11_09_FINAL
+Macedon,"DEATH, Annette",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Macedon,"KENDALL, Kate",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Macedon,"KORINFSKY, Natalie",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Macedon,"MAYNE, Bernadette",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Macedon,"MCRAE MCLEOD, Marley",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Macedon,"PAROLIN, Damien",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Macedon,"SETON, Michael",No registered party,IND,VEC_2026_11_09_FINAL
+Macedon,"WILSON, Catherine",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Malvern,"BODE, Edward",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Malvern,"HAMER, Amelia",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Malvern,"KATSIKIS, Georgia",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Malvern,"LEONARD, Gavin",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Malvern,"MARTIN, Peter",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Malvern,"SEGAL, David",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Malvern,"ZIGOURAS, Christina",No registered party,IND,VEC_2026_11_09_FINAL
+Melbourne,"CAMILLO, Rafael",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Melbourne,"COURTIS, Phillip",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Melbourne,"GRIFFITHS, Davydd",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Melbourne,"JONES, Naomi",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Melbourne,"MCCATHIE, Rob",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Melbourne,"SANDELL, Ellen",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Melbourne,"TUCKFIELD, Rowan",No registered party,OTH,VEC_2026_11_09_FINAL
+Melbourne,"VAN DEN LAMB, Jordan",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Melbourne,"YUSUF, Mohamed",No registered party,IND,VEC_2026_11_09_FINAL
+Melton,"ADIN-JAMES, Fiona",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Melton,"BINGHAM, Jarrod",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Melton,"BORG, Broden",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Melton,"FARUQ, M.D. Omor",No registered party,OTH,VEC_2026_11_09_FINAL
+Melton,"FRASER, Jason",No registered party,IND,VEC_2026_11_09_FINAL
+Melton,"KATSELIS, Matthew",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Melton,"KELLY, Daire",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Melton,"LEGRO, Hayden",The West Party,OTH,VEC_2026_11_09_FINAL
+Melton,"LEVCHENKOVA, Veronika",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Melton,"PERERA, Jason Spencer",No registered party,OTH,VEC_2026_11_09_FINAL
+Melton,"WEST, Marlene",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Mildura,"BENHAM, Jade",National Party of Australia - Victoria,LNP,VEC_2026_11_09_FINAL
+Mildura,"CLEMENTS, Katie",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Mildura,"COOPER, Guy",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Mildura,"FRIES, Vanessa",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Mildura,"NAYEF, Renee",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Mildura,"NTAHOMVUKIYE, Joselyne",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Mildura,"ZIGOURAS, Stella",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Mill Park,"DRYSDALE, Joel",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Mill Park,"LAMBOURN, Jesse",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Mill Park,"LEVENS, Eve",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Mill Park,"McLINDON, Aidan",No registered party,IND,VEC_2026_11_09_FINAL
+Mill Park,"NEALY, Elizabeth",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Mill Park,"TSOUTSOULIS, Arthur",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Mill Park,"VAN DER END, Kath",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Mill Park,"ZACHARIAS, Binoy",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Monbulk,"BLAIR, Merran",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Monbulk,"BRIGGS, Noah",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Monbulk,"DE MARTINO, Daniela",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Monbulk,"DOWELL, Adrian",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Monbulk,"FITZMAURICE, Clare",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Monbulk,"MANNERS, Craig",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Monbulk,"WORMALD, Alyssa",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Mordialloc,"BRESKIN, Alex",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Mordialloc,"HOSSAIN, Mahee",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Mordialloc,"O'HALLORAN, Paul",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Mordialloc,"POTUCEK, Lily",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Mordialloc,"RICHARDSON, Tim",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Mordialloc,"THOMPSON, Renee",Legalise Cannabis Victoria,OTH,VEC_2026_11_09_FINAL
+Mordialloc,"TICEHURST, Nadia",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Mordialloc,"VERSTEEGEN, Rachel",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Mornington,"BEARDS, Ashli",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Mornington,"BROWNLIE, Gene",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Mornington,"CREWTHER, Chris",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Mornington,"GOFFIN, Melissa",No registered party,OTH,VEC_2026_11_09_FINAL
+Mornington,"MACDONALD, Kerry",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Mornington,"MAHER, Adrian",No registered party,IND,VEC_2026_11_09_FINAL
+Mornington,"TITCHER, Kai",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Morwell,"ACREMAN, Natalie",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Morwell,"CAMERON, Martin",National Party of Australia - Victoria,LNP,VEC_2026_11_09_FINAL
+Morwell,"CLARKE, Brendan",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Morwell,"HINE, Rochelle",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Morwell,"LUND, Tracie",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Morwell,"MURPHY, Casey",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Morwell,"McPHEE, Ross",Democratic Labour Party (DLP),OTH,VEC_2026_11_09_FINAL
+Mulgrave,"BUCHANAN, Connor",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Mulgrave,"COOK, Ian",No registered party,IND,VEC_2026_11_09_FINAL
+Mulgrave,"DOBRZYNSKI, Stewart",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Mulgrave,"FOSTER, Eden",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Mulgrave,"REBBECHI, Cody",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Mulgrave,"SCHOFIELD, Paul J",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Mulgrave,"THEODOSSOPOULOU, Fotini",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Mulgrave,"TRAN, Charles",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Murray Plains,"COLLARD, Peita",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Murray Plains,"COOK, Zoe",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Murray Plains,"GRUNDY, Christine",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Murray Plains,"HOSKING, Brett",National Party of Australia - Victoria,LNP,VEC_2026_11_09_FINAL
+Murray Plains,"MCDONALD, Ewan",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Murray Plains,"SANIF, Asyiqin",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Murray Plains,"SMITH, Garner",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Narracan,"DETHLEFS, Geoff",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Narracan,"FARNHAM, Wayne",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Narracan,"LANGLEY, Jannette",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Narracan,"LUCAS, Ben",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Narracan,"PAGE, Moss",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Narracan,"WEAVER, Alyssa",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Narre Warren North,"CRUTCHFIELD, Sebastian",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Narre Warren North,"EMMANUEL, Cristina",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Narre Warren North,"LEAHY, Martin",Legalise Cannabis Victoria,OTH,VEC_2026_11_09_FINAL
+Narre Warren North,"McCRACKEN, Lachlan",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Narre Warren North,"NATHANIELSZ, Shemane",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Narre Warren North,"PERRY, Hayley",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Narre Warren North,"UTOYO, Joshua",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Narre Warren North,"WILSON, Belinda",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Narre Warren South,"CURRIE, Alan",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Narre Warren South,"DENKER, Lydia",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Narre Warren South,"HAMMOND, Trevor",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Narre Warren South,"KOOMEN, Stefan",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Narre Warren South,"McCRACKEN, Bailey",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Narre Warren South,"NAMBU, Jill",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Narre Warren South,"PETERSON, Norliah",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Narre Warren South,"WATSON, Scott",No registered party,IND,VEC_2026_11_09_FINAL
+Nepean,"BROWN, Mike",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Nepean,"CHAMPION, Tamara",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Nepean,"HEALY, Sianan",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Nepean,"HERCUS, Darren",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Nepean,"MARSH, Anthony",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Nepean,"ROBBINS, Kim",No registered party,OTH,VEC_2026_11_09_FINAL
+Nepean,"SNOWBALL, Surbhi",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Nepean,"TOSCANO, Joseph",No registered party,IND,VEC_2026_11_09_FINAL
+Nepean,"WILLCOCKS, Seth",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Niddrie,"BYRNE, Samantha",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Niddrie,"CARROLL, Ben",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Niddrie,"CHITTEDI, Karthik Reddy",The Republican Make Australia Great Again,OTH,VEC_2026_11_09_FINAL
+Niddrie,"HASELGROVE, Salomae",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Niddrie,"LAWS, Brendan",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Niddrie,"METE, Domenic",Democratic Labour Party (DLP),OTH,VEC_2026_11_09_FINAL
+Niddrie,"NGUYEN, Lana",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Niddrie,"PATRIKEOS, Brett",The West Party,OTH,VEC_2026_11_09_FINAL
+Niddrie,"SFAMENI, Sam",No registered party,IND,VEC_2026_11_09_FINAL
+Niddrie,"TAVERNA, Jason",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Niddrie,"THEODOROU, George",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Northcote,"AWAD, Lynda",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Northcote,"BRADBURY, Christopher",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Northcote,"CIMBARO, Richard",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Northcote,"GOME, Campbell",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Northcote,"HILLMAN, Ian",No registered party,IND,VEC_2026_11_09_FINAL
+Northcote,"KAFEL, Hannah",Free Palestine,OTH,VEC_2026_11_09_FINAL
+Northcote,"LARKIN, Kath",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Northcote,"PENMAN, Jim",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Northcote,"PILLEY, Clive",I'm Voting to Avoid the Fine,OTH,VEC_2026_11_09_FINAL
+Northcote,"THEOPHANOUS, Kat",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Oakleigh,"BUGTER, Rowdy",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Oakleigh,"CARTER, Brooke",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Oakleigh,"DIMOPOULOS, Steve",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Oakleigh,"GRINTER, Matthew",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Oakleigh,"HSIEH, Hsiang-Han",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Oakleigh,"JUNG, Martin",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Ovens Valley,"FIDGE, Julian",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Ovens Valley,"GILBERT, Benjamin",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Ovens Valley,"LITCHFIELD, Sue",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Ovens Valley,"MANNING, Steve",No registered party,IND,VEC_2026_11_09_FINAL
+Ovens Valley,"MURPHY, Bronwyn",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Ovens Valley,"McCURDY, Tim",National Party of Australia - Victoria,LNP,VEC_2026_11_09_FINAL
+Ovens Valley,"NORTON-SMITH, Carol",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Ovens Valley,"ROUEL, James",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Ovens Valley,"SMITH, Jennifer",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Pakenham,"DAVIES, Stephanie",No registered party,OTH,VEC_2026_11_09_FINAL
+Pakenham,"DYSON, Radmila",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Pakenham,"FRENCH, Raymond",No registered party,OTH,VEC_2026_11_09_FINAL
+Pakenham,"GRIGG, Stephanie",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Pakenham,"HAMALAINEN, Jesse",Democratic Labour Party (DLP),OTH,VEC_2026_11_09_FINAL
+Pakenham,"HANDS, Kate",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Pakenham,"OGDEN, Lucas",No registered party,IND,VEC_2026_11_09_FINAL
+Pakenham,"PICKERING, Warren",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Pakenham,"SOLIVEN, Alessandra",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Pakenham,"YAWARI, Nasser",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Pascoe Vale,"ANDREWARTHA, Jacob",Socialist Alliance,OTH,VEC_2026_11_09_FINAL
+Pascoe Vale,"ASHTON, Kathrine",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Pascoe Vale,"CIANFLONE, Anthony",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Pascoe Vale,"GANCI, Rosemarie Pauline",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Pascoe Vale,"HAUPT, Kerry",I'm Voting to Avoid the Fine,OTH,VEC_2026_11_09_FINAL
+Pascoe Vale,"HICKEY, Amanda",Free Palestine,OTH,VEC_2026_11_09_FINAL
+Pascoe Vale,"LAWRENCE, Stuart",Climate Action Now,OTH,VEC_2026_11_09_FINAL
+Pascoe Vale,"PANOPOULOS, Angelica",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Pascoe Vale,"SHAMSILI, Yasemin",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Pascoe Vale,"TAGGAR, Rohit",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Point Cook,"ALLE, Kirti",The Republican Make Australia Great Again,OTH,VEC_2026_11_09_FINAL
+Point Cook,"GRECH, Mark",The West Party,OTH,VEC_2026_11_09_FINAL
+Point Cook,"HILAKARI, Mathew",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Point Cook,"KELLY, Paul",Democratic Labour Party (DLP),OTH,VEC_2026_11_09_FINAL
+Point Cook,"KRISHNA PANDI, Ponraj",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Point Cook,"LAINE, Taylor",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Point Cook,"MEURE, Keith",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Point Cook,"REDDY, Raja",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Point Cook,"REID, Cameron",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Polwarth,"CARBINS, Brenton",Australian Citizens Party (Victorian Division),OTH,VEC_2026_11_09_FINAL
+Polwarth,"COLLA, Vince",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Polwarth,"HOLDEN, Jesse",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Polwarth,"HUSSEIN, Hutch",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Polwarth,"MALCOLM, Anna",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Polwarth,"RIORDAN, Richard",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Polwarth,"TOLLEY, Lula",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Prahran,"DI CAMILLO, Angelica",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Prahran,"DICKS, Max",No registered party,OTH,VEC_2026_11_09_FINAL
+Prahran,"DOUEIHI, Clayton",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Prahran,"FINNIGAN, Tosh-Jake",No registered party,OTH,VEC_2026_11_09_FINAL
+Prahran,"HOPPER, Meghan",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Prahran,"JONAS, Morgan",Safety Victoria – Violent Crime Prevention,OTH,VEC_2026_11_09_FINAL
+Prahran,"JONES, Daniel",Free Palestine,OTH,VEC_2026_11_09_FINAL
+Prahran,"LEETON WATTS, George",No registered party,IND,VEC_2026_11_09_FINAL
+Prahran,"MENADUE, Alan",No registered party,OTH,VEC_2026_11_09_FINAL
+Prahran,"O'NEILL, G. Daniel",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Prahran,"VIRSU, Shaun",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Prahran,"WESTAWAY, Rachel",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Prahran,"WONG, Nicholas",Climate Action Now,OTH,VEC_2026_11_09_FINAL
+Preston,"AL KATRANJI, Hamza",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Preston,"ASHMORE, Serena",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Preston,"BRYANT, Mark",Free Palestine,OTH,VEC_2026_11_09_FINAL
+Preston,"CHIN, Zheng",No registered party,OTH,VEC_2026_11_09_FINAL
+Preston,"DATE, Tim",I'm Voting to Avoid the Fine,OTH,VEC_2026_11_09_FINAL
+Preston,"DOWER, Simon",Climate Action Now,OTH,VEC_2026_11_09_FINAL
+Preston,"FOWLES, William",No registered party,IND,VEC_2026_11_09_FINAL
+Preston,"GUARDIANI, Franco",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Preston,"LAMBERT, Nathan",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Preston,"SANGARYA, Loki",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Preston,"VALENCIA, Julio",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Richmond,"APONSO, Charles",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Richmond,"DITE, Chris",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Richmond,"GRAY, Bernadette",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Richmond,"MAYNARD, Christine",No registered party,OTH,VEC_2026_11_09_FINAL
+Richmond,"MCKENZIE, Sarah",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Richmond,"MEYER, David",No registered party,IND,VEC_2026_11_09_FINAL
+Richmond,"PEAD-PHILIPSON, Jack",Australian Democrats,OTH,VEC_2026_11_09_FINAL
+Richmond,"RINDFLEISH, Harrison",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Richmond,"de VIETRI, Gabrielle",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Ringwood,"CUTTS, Prue",No registered party,IND,VEC_2026_11_09_FINAL
+Ringwood,"GARDNER, Jack",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Ringwood,"HALSE, Rachel",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Ringwood,"HUANG, Elaine",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Ringwood,"MILLS, Amy",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Ringwood,"McGOWAN, Nick",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Ringwood,"NORTON, Christopher William",Democratic Labour Party (DLP),OTH,VEC_2026_11_09_FINAL
+Ringwood,"O'CONNOR, John",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Ringwood,"WALKER, Lyndon",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Ripon,"ANDREI, Trevor Scott",No registered party,IND,VEC_2026_11_09_FINAL
+Ripon,"ARMSTRONG, Jo",National Party of Australia - Victoria,LNP,VEC_2026_11_09_FINAL
+Ripon,"BARRY, Jeff",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Ripon,"BRENNAN-JONES, Taylah",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Ripon,"BUXTON, Donna",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Ripon,"DRYLIE, Tim",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Ripon,"HAYLETT, Martha",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Ripon,"MCGRATH, Mark",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Ripon,"QUINCE, Bernard",No registered party,OTH,VEC_2026_11_09_FINAL
+Ripon,"READ, Megan",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Ripon,"SKRUZNY, Ronald",Democratic Labour Party (DLP),OTH,VEC_2026_11_09_FINAL
+Ripon,"WOJTKOWSKI, Krzysztof","Shooters, Fishers and Farmers Party Victoria",OTH,VEC_2026_11_09_FINAL
+Rowville,"DOBRZYNSKI, Fiona",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Rowville,"HIEMSTRA, Lars",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Rowville,"MASSEY, David",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Rowville,"ROBSON, Scott",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Rowville,"SHAHBAZ, Muhammad",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Rowville,"WATT, Bradley",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Rowville,"WILLIAMS, Max",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Sandringham,"BLIGHT, Anthony",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Sandringham,"FOTAKIS, Timon",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Sandringham,"ROWSWELL, Brad",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Sandringham,"SAGRIS-DESMOND, Anastasia",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Sandringham,"STEVENSON, Lauren",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Shepparton,"BRYANT, Phillip",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Shepparton,"COSTA, Lou",No registered party,OTH,VEC_2026_11_09_FINAL
+Shepparton,"FIN, Cayla",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Shepparton,"HOCKING, Karen",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Shepparton,"MURPHY-GINGER, Faith",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Shepparton,"SALI, Shane",National Party of Australia - Victoria,LNP,VEC_2026_11_09_FINAL
+Shepparton,"VARKEY, Johnson",No registered party,IND,VEC_2026_11_09_FINAL
+Shepparton,"VERNEY, Grace",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Shepparton,"WHITE, Alison",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+South Barwon,"BARRON, Alan",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+South Barwon,"GEARD, Josh",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+South Barwon,"GORMAN, Madilyn",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+South Barwon,"HEDLEY, Freya",Socialist Alliance,OTH,VEC_2026_11_09_FINAL
+South Barwon,"NELSON, Ron",No registered party,IND,VEC_2026_11_09_FINAL
+South Barwon,"PETTIT, Libby",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+South Barwon,"SCHERRER, Izzy",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+South Barwon,"THISTLETON, Rebecca",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+South-West Coast,"BRITNELL, Roma",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+South-West Coast,"BUCHAN, Tamhas",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+South-West Coast,"GOVANSTONE, Andrew",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+South-West Coast,"HUGHES, Richard",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+South-West Coast,"ROSE, Silver",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+South-West Coast,"SHEPPARD, Hera",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+St Albans,"COWELL, John",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+St Albans,DAVINDER KAUR,The Republican Make Australia Great Again,OTH,VEC_2026_11_09_FINAL
+St Albans,"DUNSTAN, Rob",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+St Albans,"HAKIZIMANA, Alex",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+St Albans,"HUYNH, Thuc Bao",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+St Albans,"JANTEN, Kerry",No registered party,IND,VEC_2026_11_09_FINAL
+St Albans,"NGUYEN, Leanna",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+St Albans,"SULEYMAN, Natalie",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+St Albans,"WALKER, Luân",The West Party,OTH,VEC_2026_11_09_FINAL
+Sunbury,"BATRES, Elmer",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Sunbury,"BETHI, Bhasker Reddy",The Republican Make Australia Great Again,OTH,VEC_2026_11_09_FINAL
+Sunbury,"BREMNER, Adam",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Sunbury,"BULL, Josh",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Sunbury,"COTTOM, Simmone",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Sunbury,"DABROWSKI, Elita",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Sunbury,"GRANGER-BROWN, Lauren",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Sunbury,"MEDCRAFT, Steve Jack",No registered party,IND,VEC_2026_11_09_FINAL
+Sunbury,"MOHR, Rohanna",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Sunbury,"STAFFORD, John",Democratic Labour Party (DLP),OTH,VEC_2026_11_09_FINAL
+Sunbury,"VINE, Geoff",The West Party,OTH,VEC_2026_11_09_FINAL
+Sydenham,"BAUCH, Joh",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Sydenham,"CROES, Nancy G",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Sydenham,"JANE, Maggie",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Sydenham,"KERR, Maria",No registered party,OTH,VEC_2026_11_09_FINAL
+Sydenham,"KHAN, Shania",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Sydenham,"LANCASHIRE, Bruce",The West Party,OTH,VEC_2026_11_09_FINAL
+Sydenham,"LANKALA KENDERLA, Laxmi",The Republican Make Australia Great Again,OTH,VEC_2026_11_09_FINAL
+Sydenham,"MOUSSI, Nathalie",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Sydenham,"POON, Bruce",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Sydenham,"RASIC, Uros",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Sydenham,"SINCLAIR, Brandon",Democratic Labour Party (DLP),OTH,VEC_2026_11_09_FINAL
+Sydenham,"VANDENBERG, Ashleigh",No registered party,IND,VEC_2026_11_09_FINAL
+Tarneit,"AHMED, Rahima Ibrahim",No registered party,OTH,VEC_2026_11_09_FINAL
+Tarneit,"ELSBURY, Andrew",The West Party,OTH,VEC_2026_11_09_FINAL
+Tarneit,"ISLAM, SM Zaberul",No registered party,IND,VEC_2026_11_09_FINAL
+Tarneit,"MOINUDDIN, Aijaz",No registered party,OTH,VEC_2026_11_09_FINAL
+Tarneit,"NIYONGABIRE, Horizana",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Tarneit,"RAHN, Maurita",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Tarneit,"RIFAI, A. Raheem",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Tarneit,"SUDHAGANI, Sindhu",The Republican Make Australia Great Again,OTH,VEC_2026_11_09_FINAL
+Tarneit,"UPPARLAPALLE, Venkat Ram",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Tarneit,"VAN KEULEN, Leah",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Tarneit,"VILLAGONZALO, Walter",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Tarneit,"WIGHT, Dylan",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Thomastown,"ANTHONY, Nadia",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Thomastown,"HALFPENNY, Bronwyn",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Thomastown,"RANCIE, Rob",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Thomastown,"REDDY, Priya",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Thomastown,"STOJCEVSKI, Belinda",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Thomastown,"TREWELLA, Gavin",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Warrandyte,"BURNSIDE, Mark",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Warrandyte,"MURADIAN, Vanessa",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Warrandyte,"PATERSON, Rebecca",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Warrandyte,"SCHWAB, Caleb",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Warrandyte,"STANLEY, John",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Warrandyte,"WERNER, Nicole",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Wendouree,"ADDISON, Juliana",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Wendouree,"BURNS, Ellen",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Wendouree,"BYRNE, Ruth",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Wendouree,"COLLINS, Melissa",Animal Justice Party,OTH,VEC_2026_11_09_FINAL
+Wendouree,"MEAGHER, Chris",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Wendouree,"ROBINSON, Stuart",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Wendouree,"RONAN, Gav",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Werribee,"CLARK, Reece",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Werribee,"EMERSON, Matt",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Werribee,"HOPPER, Paul",The West Party,OTH,VEC_2026_11_09_FINAL
+Werribee,"KAYAGURLA, Sandhya",The Republican Make Australia Great Again,OTH,VEC_2026_11_09_FINAL
+Werribee,"KUMAR, Tushar",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Werribee,"LISTER, John",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Werribee,"MUNRO, Sue",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Werribee,"ORCHARD, Jeremy",Democratic Labour Party (DLP),OTH,VEC_2026_11_09_FINAL
+Werribee,"PATERAS, Paul",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Werribee,"RAIZADA, Monica Sharma",No registered party,IND,VEC_2026_11_09_FINAL
+Williamstown,"BRIFFA, Tony",No registered party,IND,VEC_2026_11_09_FINAL
+Williamstown,"GANNON, Gill",The West Party,OTH,VEC_2026_11_09_FINAL
+Williamstown,"HOCKING, Ben",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Williamstown,"HORNE, Melissa",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Williamstown,"LINDEMANN, Paul",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Williamstown,"LOUGHNAN, Catherine",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Williamstown,"MARTIN, Oskar",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Williamstown,"O'REGAN, Bruce",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Williamstown,"YARRA, Sagar Reddy",The Republican Make Australia Great Again,OTH,VEC_2026_11_09_FINAL
+Yan Yean,"BELL, Andrew",Victorian Socialists,OTH,VEC_2026_11_09_FINAL
+Yan Yean,"CHEERS, Troy",Libertarian Party (formerly Liberal Democrats),OTH,VEC_2026_11_09_FINAL
+Yan Yean,"DOW, Amanda",Liberal Party of Australia - Victorian Division,LNP,VEC_2026_11_09_FINAL
+Yan Yean,"HALL, James",Family First Victoria,OTH,VEC_2026_11_09_FINAL
+Yan Yean,"JOHNSON, Jeremy",One Nation Victoria,ON,VEC_2026_11_09_FINAL
+Yan Yean,"KATHAGE, Lauren",Australian Labor Party - Victorian Branch,ALP,VEC_2026_11_09_FINAL
+Yan Yean,"MOHAMMED, Gufran",Australian Greens Victoria,GRN,VEC_2026_11_09_FINAL
+Yan Yean,"OKATAN, Sinan",Animal Justice Party,OTH,VEC_2026_11_09_FINAL

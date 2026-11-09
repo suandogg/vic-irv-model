@@ -126,5 +126,17 @@ class FieldTests(unittest.TestCase):
     def test_shipped_tables_load(self):
         frame = cf.load_field_config()
         self.assertEqual(len(frame['groups']), 88)
-        self.assertNotIn('IND', frame['groups']['Melton'])
+        self.assertNotIn('IND', frame['groups']['Mildura'])
         self.assertIn('IND', frame['groups']['Essendon'])
+        lead = [c for c in frame['candidates'] if c['district'] == 'Melton' and c['model_group'] == 'IND']
+        self.assertEqual(len(lead), 1)
+        self.assertLess(lead[0]['median'], .05)
+        yildiz = [c for c in frame['candidates'] if c['district'] == 'Essendon' and c['model_group'] == 'IND']
+        self.assertEqual([c['candidate_id'] for c in yildiz], ['essendon_oscar_yildiz'])
+
+    def test_unreviewed_independent_does_not_inherit_old_surface(self):
+        frame = seats()
+        frame.loc[1, ['ALP', 'IND']] = [.15, .25]
+        cfg = config([entrant('default', median=.02)])
+        out = cf.apply_candidate_field(frame, TARGETS, cfg)
+        self.assertLess(out.loc[1, 'IND'], .05)

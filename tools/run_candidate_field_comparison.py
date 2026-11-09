@@ -1,6 +1,7 @@
 """Run one paired candidate-field scenario from a saved release's exact inputs.
 
-Usage: python tools/run_candidate_field_comparison.py RUN_DIR OUT_DIR SCENARIO DRAWS [DONOR_SET]
+Usage: python tools/run_candidate_field_comparison.py RUN_DIR OUT_DIR SCENARIO DRAWS [DONOR_SET] [DROP_IDS]
+DROP_IDS is a comma-separated list of candidate_ids run without a reviewed strength.
 SCENARIO: control | retained (residual stays minor) | released (residual goes to
 parties) | split (keeps separate IND and OTH targets; diagnostic only).
 Copy this checkout's changed files over the restored inputs before running.
@@ -15,7 +16,7 @@ SCENARIOS = {'control': None, 'retained': (1., 'combined'), 'released': (0., 'co
              'split': (1., 'separate')}
 
 
-def main(run, out, scenario, draws, donor_set='pooled'):
+def main(run, out, scenario, draws, donor_set='pooled', drop=''):
     run, out = Path(run).resolve(), Path(out).resolve()
     manifest = json.loads((run/'manifest.json').read_text())
     os.chdir(sys.path[0] if (Path(sys.path[0])/'SRC').exists() else '.')
@@ -37,6 +38,10 @@ def main(run, out, scenario, draws, donor_set='pooled'):
     if SCENARIOS[scenario]:
         retention, mode = SCENARIOS[scenario]
         config = load_field_config(retention, mode, donor_set)
+        dropped = {x for x in drop.split(',') if x}
+        if dropped - {c['candidate_id'] for c in config['candidates']}:
+            raise ValueError('Unknown candidate to drop')
+        config['candidates'] = [c for c in config['candidates'] if c['candidate_id'] not in dropped]
         experiment['candidate_field'] = config
     groups = manifest['subregions']
     out.mkdir(parents=True, exist_ok=True)
@@ -65,7 +70,7 @@ def main(run, out, scenario, draws, donor_set='pooled'):
                          winner_pct=100*counted['winner_pct'], order='>'.join(counted['elimination_order'])))
     pd.DataFrame(rows).to_csv(out/'central.csv', index=False)
     (out/'summary.json').write_text(json.dumps(dict(summary, scenario=scenario, draws=int(draws),
-                                                    donor_set=donor_set, seconds=time.monotonic()-started,
+                                                    donor_set=donor_set, dropped=drop, seconds=time.monotonic()-started,
                                                     roster=(config or {}).get('roster_status')), indent=2))
 
 

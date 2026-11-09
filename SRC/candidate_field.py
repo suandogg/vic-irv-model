@@ -31,10 +31,16 @@ def expit(x):
 
 def load_field_config(residual_retention=0.0, residual_mode='combined', donor_set='pooled',
                       directory=None):
-    """Compile JSON-safe experiment input from the three reviewed field tables."""
+    """Compile JSON-safe experiment input from the ballot, strength and donor tables."""
     directory = Path(directory) if directory else FIELD_DIR
     ballot = pd.read_csv(directory/'BALLOT.csv', keep_default_na=False)
     reviewed = pd.read_csv(directory/'REVIEWED_CANDIDATES.csv', keep_default_na=False)
+    defaults_path = directory/'DEFAULT_IND_STRENGTHS.csv'
+    if defaults_path.exists():
+        # Reviewed independents override the data-based default for their seat.
+        defaults = pd.read_csv(defaults_path, keep_default_na=False)
+        covered = set(reviewed[reviewed.model_group.eq('IND')].district)
+        reviewed = pd.concat([reviewed, defaults[~defaults.district.isin(covered)]], ignore_index=True)
     affinity = pd.read_csv(directory/'DONOR_AFFINITY.csv', keep_default_na=False)
     if ballot.duplicated(['district', 'candidate_name']).any():
         raise ValueError('Duplicate candidate on ballot')
@@ -204,8 +210,8 @@ def apply_candidate_field(current, targets, config, rng=None):
         named = [c for c in drawn if c['district'] == district]
         entrants = [c for c in named if c['kind'] == 'entrant']
         votes = values[i].copy()
-        # Reviewed IND entrants replace the old surface; unreviewed seats keep it
-        # as local appetite for the candidate who is actually standing.
+        # The principal independent, reviewed or default, replaces the old IND
+        # surface, so past candidates never pass their vote to a new one.
         if 'IND' not in field or any(c['model_group'] == 'IND' for c in entrants):
             votes = release(votes, IND, affinity)
         if 'OTH' not in field:

@@ -44,11 +44,26 @@ so they were not rerun. `data/raw` now carries the verified forecast inputs, exc
 `FORECAST PARAMS.csv`, which a test keeps equal to the code's fallback defaults. The
 runs take their settings from the release record, which matches the Sheet.
 
+## Final roster, 9 November
+
+Ballot rebuilt from the VEC nominations list as at 9 November 2:42 pm
+(`VEC_2026_NOMINATIONS.csv`: district, name and party only): 734 candidates, a
+principal independent in 56 seats. Mildura has no independent. The testing Sheet
+was re-read: every model tab matched these inputs.
+
+An unreviewed principal independent no longer inherits the old IND surface. A
+same-seat 2022 independent keeps 0.86 of their share; anyone else gets the
+first-time distribution (median 2.2%). Defaults are in `DEFAULT_IND_STRENGTHS.csv`;
+reviewed rows override them. West candidates added for Laverton, Sunbury and Sydenham.
+
+Results are in `final_roster_2026_11_09/`. The control reproduces `live_control`
+to within 3e-14. Donor sets and the no-Hopper case use Version B.
+
 ## Method limits
 
 - `IND_pvi` construction could not be traced; no build script is in the repository.
   The whole IND surface is released per draw instead of a named debit.
-- Seats with a listed but unreviewed independent keep the old IND surface.
+- Default strengths treat unreviewed independents as typical; prominent ones need reviewed rows.
 - Candidate strengths in `data/development/candidate_field/REVIEWED_CANDIDATES.csv`
   are provisional judgements. One Nation donor affinity has no Victorian evidence.
 - OTH is still counted as one group, so West and Victorian Socialists are not
