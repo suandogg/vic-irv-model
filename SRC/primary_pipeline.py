@@ -23,9 +23,11 @@ def build_projected_primaries(primary_inputs, params, targets, seat_adjustments=
     on_alpha = float(scalars.get('ON alpha', 0.6) or 0.6)
     grn_pvi_persistence = float(scalars.get('GRN_PVI_PERSISTENCE', 1.0) or 1.0)
     low_base_taper = scenario_params.get('low_base_taper')
+    oth_scaling = scenario_params.get('oth_scaling')
     adjusted = build_corrected_primary_table(
         primary_inputs=primary_inputs, targets=targets, on_alpha=on_alpha,
-        pvi_strengths={'GRN': grn_pvi_persistence}, low_base_taper=low_base_taper)
+        pvi_strengths={'GRN': grn_pvi_persistence}, low_base_taper=low_base_taper,
+        oth_scaling=oth_scaling)
     source_matrix = scenario_params.get('on_vote_source_matrix', {})
     depletion_strength = float(scalars.get('ON_PRIMARY_OTH_DEPLETION_STRENGTH', 0.0) or 0.0)
     if depletion_strength > 0:
@@ -38,7 +40,7 @@ def build_projected_primaries(primary_inputs, params, targets, seat_adjustments=
         primary_inputs=primary_inputs, current=adjusted, targets=targets,
         source_matrix=source_matrix,
         strength=float(scalars.get('ON_PRIMARY_DONOR_STRENGTH', 0.0) or 0.0),
-        on_alpha=on_alpha, low_base_taper=low_base_taper)
+        on_alpha=on_alpha, low_base_taper=low_base_taper, oth_scaling=oth_scaling)
     adjusted, diagnostics = apply_seat_primary_adjustments(
         current=adjusted, adjustments=seat_adjustments, targets=targets,
         retirement_penalty_pp=float(scalars.get('RETIRING_INCUMBENT_PENALTY_PP', 1.0)),

@@ -5,6 +5,7 @@ import numpy as np
 
 from SRC.constants import PARTIES
 from SRC.low_base_taper import tapered_primary
+from SRC.oth_scaling import scaled_primary
 
 
 LEGACY_PVI_COLUMNS = {
@@ -21,6 +22,7 @@ def build_legacy_primary_table(
     targets: dict[str, float],
     on_alpha: float = 0.6,
     low_base_taper: dict | None = None,
+    oth_scaling: dict | None = None,
 ) -> pd.DataFrame:
     """Reproduce the legacy Sheet's lower-house primary calculation.
 
@@ -52,6 +54,8 @@ def build_legacy_primary_table(
         pvi = pd.to_numeric(out[pvi_column], errors="raise")
         if low_base_taper and party == low_base_taper["party"]:
             out[f"{party}_pre"] = tapered_primary(pvi, target, low_base_taper)
+        elif oth_scaling and party == oth_scaling["party"]:
+            out[f"{party}_pre"] = scaled_primary(pvi, target, oth_scaling)
         else:
             out[f"{party}_pre"] = target + pvi
 
@@ -94,6 +98,7 @@ def build_corrected_primary_table(
     iterations: int = 100,
     tolerance: float = 1e-12,
     low_base_taper: dict | None = None,
+    oth_scaling: dict | None = None,
 ) -> pd.DataFrame:
     """Build legacy-style seat primaries calibrated to statewide targets.
 
@@ -128,6 +133,7 @@ def build_corrected_primary_table(
         targets=targets,
         on_alpha=on_alpha,
         low_base_taper=low_base_taper,
+        oth_scaling=oth_scaling,
     )
     components = legacy[PARTIES].copy()
 
@@ -353,6 +359,7 @@ def apply_on_primary_donor_geography(
     strength: float,
     on_alpha: float = 0.6,
     low_base_taper: dict | None = None,
+    oth_scaling: dict | None = None,
 ) -> pd.DataFrame:
     """Blend toward explicit, seat-class ON primary donor allocation.
 
@@ -382,7 +389,7 @@ def apply_on_primary_donor_geography(
     pre_targets["ON"] = 0.0
     pre = build_corrected_primary_table(
         primary_inputs, pre_targets, on_alpha=on_alpha,
-        low_base_taper=low_base_taper,
+        low_base_taper=low_base_taper, oth_scaling=oth_scaling,
     )
     components = pre[PARTIES].copy()
     # Keep the allocation arithmetic/order unchanged, but avoid thousands of

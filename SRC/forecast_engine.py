@@ -139,7 +139,7 @@ def engine_source_hash():
     root = Path(__file__).resolve().parent
     files = ('forecast_engine.py','forecast_params.py','nowcast_uncertainty.py','nowcast_loader.py','primary_pipeline.py',
              'legacy_primary_model.py','lnp_precollapse_loader.py','preference_engine.py','irv.py','forecast_subregions.py','forecast_patterns.py',
-             'candidate_effects.py','candidate_count.py','low_base_taper.py')
+             'candidate_effects.py','candidate_count.py','low_base_taper.py','oth_scaling.py')
     return hashlib.sha256(b''.join((root/name).read_bytes() for name in files)).hexdigest()
 
 
@@ -270,7 +270,7 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     if set(experiment)-{'local_preference_mode','local_primary_t_df','subregion_fraction',
                        'concentration_log_sd','concentration_by_party','concentration_form',
                        'preference_region_share','preference_local_share','structured_nowcast',
-                       'candidate_field','low_base_taper'}:
+                       'candidate_field','low_base_taper','oth_scaling'}:
         raise ValueError('Unknown forecast experiment')
     mode = experiment.get('local_preference_mode')
     if mode not in (None,'split','add'):
@@ -307,6 +307,11 @@ def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
     if low_base_taper is not None:
         validate_taper(low_base_taper)
         params = dict(params,low_base_taper=low_base_taper)
+    oth_scaling = experiment.get('oth_scaling')
+    if oth_scaling is not None:
+        from SRC.oth_scaling import validate_config as validate_oth
+        validate_oth(oth_scaling)
+        params = dict(params,oth_scaling=oth_scaling)
     nowcast = experiment.get('structured_nowcast')
     if nowcast is not None:
         from SRC.nowcast_uncertainty import validate_config

@@ -340,6 +340,9 @@ def run_model(
     if st.session_state.get('alp_low_base_taper'):
         from SRC.low_base_taper import load_taper_config
         params = dict(params, low_base_taper=load_taper_config())
+    if st.session_state.get('oth_proportional'):
+        from SRC.oth_scaling import load_oth_scaling_config
+        params = dict(params, oth_scaling=load_oth_scaling_config())
     scenario_params = params_for_scenario(params, targets)
     adjusted, seat_adjustment_diagnostics = build_projected_primaries(
         primary_inputs, params, targets, seat_adjustments)
@@ -467,6 +470,10 @@ st.sidebar.checkbox('Field-aware candidates (Version B)', key='candidate_field_v
                          'Applies to the central count and forecast. Candidate strengths are provisional.')
 st.sidebar.checkbox('Labor low-baseline taper (review)', key='alp_low_base_taper',
                     help='Tapers Labor swing and simulated lean error in seats below 30%. '
+                         'Applies to the central count and forecast. Not an approved central method.')
+st.sidebar.checkbox('Proportional Other scaling (review)', key='oth_proportional',
+                    help='Scales Other by each seat\'s 2022 strength instead of adding a fixed lean, '
+                         'so low-Other seats such as Ashwood no longer clip to zero. '
                          'Applies to the central count and forecast. Not an approved central method.')
 st.session_state['_display_settings'] = DISPLAY
 apply_theme(DISPLAY)

@@ -146,6 +146,10 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         from SRC.low_base_taper import load_taper_config
         experiment = dict(experiment,low_base_taper=load_taper_config())
         st.caption('Labor low-baseline taper is on. This is a review setting, not an approved central method.')
+    if st.session_state.get('oth_proportional'):
+        from SRC.oth_scaling import load_oth_scaling_config
+        experiment = dict(experiment,oth_scaling=load_oth_scaling_config())
+        st.caption('Proportional Other scaling is on. This is a review setting, not an approved central method.')
     signature = fingerprint(primary_inputs,matrices,params,posterior,ideology,targets,
                             seat_adjustments,settings,trial_label,experiment,subregions,
                             load_candidate_effects(),load_candidate_tables())
