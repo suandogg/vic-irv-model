@@ -865,6 +865,15 @@ def diagnose_preference_weights(eliminated_party, alive_parties, matrix,
         return cache[key]
     result = _diagnose_preference_weights_base(
         eliminated_party, alive_parties, matrix, geography_class, params, posterior, ideology)
+    if matrix.get('__htv_shift__', {}).get(eliminated_party):
+        from SRC.htv_deal import shift_flows
+        flows = shift_flows(result['final_flows'], eliminated_party, matrix)
+        if flows is not result['final_flows']:
+            result = dict(result, final_flows=flows,
+                          final_vector=[flows.get(party, 0.0) for party in PARTIES])
+            result['stages'] = list(result['stages']) + [vector_stage(
+                '2026 preference deal', result['final_vector'], set(alive_parties),
+                'Review setting: how-to-vote change moves the split between two continuing candidates.')]
     shocks = params.get('_forecast_preference_shocks')
     if shocks is None:
         if cache is not None:

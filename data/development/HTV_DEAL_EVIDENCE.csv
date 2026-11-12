@@ -1,0 +1,7 @@
+District,origin,toward,away,method,share_2018,share_2022,continuing_2018,continuing_2022,bundle_2018,bundle_2022,logit_change
+Northcote,LNP,ALP,GRN,distribution,0.600191,0.391498,ALP+GRN,ALP+GRN,5245,6728,0.847278
+Pascoe Vale,LNP,ALP,GRN,distribution_third_candidate,0.656639,0.379677,ALP+GRN+IND,ALP+GRN,5726,10156,1.139269
+Melbourne,LNP,ALP,GRN,distribution,0.543467,0.317668,ALP+GRN,ALP+GRN,7730,8575,0.938819
+Brunswick,LNP,ALP,GRN,distribution,0.565153,0.342152,ALP+GRN,ALP+GRN,5418,5632,0.915822
+Prahran,ALP,LNP,GRN,distribution,0.186686,0.17107,GRN+LNP,GRN+LNP,12663,10826,0.106374
+Preston,LNP,ALP,GRN,indicative_2cp,0.599091,0.327286,"ALP+GRN (2CP fit, 25 voting centres, minor share 0.522)",ALP+GRN,6083,9591,1.122164

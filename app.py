@@ -475,6 +475,10 @@ st.sidebar.checkbox('Proportional Other scaling (review)', key='oth_proportional
                     help='Scales Other by each seat\'s 2022 strength instead of adding a fixed lean, '
                          'so low-Other seats such as Ashwood no longer clip to zero. '
                          'Applies to the central count and forecast. Not an approved central method.')
+st.sidebar.checkbox('2026 Labor-Liberal preference deal (review)', key='htv_deal_2026',
+                    help='Liberal preferences lean to Labor over the Greens everywhere except Footscray and Brunswick, '
+                         'using the 2018 to 2022 change; Labor runs an open card in Prahran. '
+                         'Applies to the central count and forecast. Not an approved central method.')
 st.session_state['_display_settings'] = DISPLAY
 apply_theme(DISPLAY)
 st.set_page_config(page_title=DISPLAY['APP_TITLE'],layout='wide')
@@ -525,6 +529,11 @@ if trial_method in ("oth_params_rebuild", "vec_field_coverage"):
     from SRC.oth_matrix_builder import rebuild_oth_matrices
     matrices = rebuild_oth_matrices(matrices, params)
     st.sidebar.caption("OTH synthetic rows use PARAMS ON-column priors; empty historical rows and ON special scenario priors remain unchanged.")
+if st.session_state.get('htv_deal_2026'):
+    # Applied once to the shared matrices so the central count, seat traces and
+    # forecast all use the same flows. Re-applying in the forecast is idempotent.
+    from SRC.htv_deal import apply_htv_deal, load_htv_deal_config
+    matrices = apply_htv_deal(matrices, load_htv_deal_config())
 if st.sidebar.button("Refresh Google Sheet inputs"):
     st.cache_data.clear()
     st.rerun()

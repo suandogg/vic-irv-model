@@ -150,6 +150,10 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         from SRC.oth_scaling import load_oth_scaling_config
         experiment = dict(experiment,oth_scaling=load_oth_scaling_config())
         st.caption('Proportional Other scaling is on. This is a review setting, not an approved central method.')
+    if st.session_state.get('htv_deal_2026'):
+        from SRC.htv_deal import load_htv_deal_config
+        experiment = dict(experiment,htv_deal=load_htv_deal_config())
+        st.caption('2026 Labor-Liberal preference deal is on. This is a review setting, not an approved central method.')
     signature = fingerprint(primary_inputs,matrices,params,posterior,ideology,targets,
                             seat_adjustments,settings,trial_label,experiment,subregions,
                             load_candidate_effects(),load_candidate_tables())
