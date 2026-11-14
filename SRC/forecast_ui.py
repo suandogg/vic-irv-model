@@ -154,6 +154,10 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
         from SRC.htv_deal import load_htv_deal_config
         experiment = dict(experiment,htv_deal=load_htv_deal_config())
         st.caption('2026 Labor-Liberal preference deal is on. This is a review setting, not an approved central method.')
+    if st.session_state.get('htv_review_2026'):
+        from SRC.htv_review import load_htv_review_config
+        experiment = dict(experiment,htv_review=load_htv_review_config())
+        st.caption('2026 how-to-vote review (One Nation, Greens, Caulfield) is on. This is a review setting, not an approved central method.')
     signature = fingerprint(primary_inputs,matrices,params,posterior,ideology,targets,
                             seat_adjustments,settings,trial_label,experiment,subregions,
                             load_candidate_effects(),load_candidate_tables())

@@ -92,21 +92,39 @@ def apply_htv_deal(matrices, config):
     out = {}
     for key, item in matrices.items():
         matrix = dict(item['matrix'])
-        matrix['__htv_shift__'] = seat_shifts(key, config)
+        # Merge, so other review rules (SRC/htv_review.py) attached to other
+        # eliminated parties are kept whichever switch is applied first.
+        matrix['__htv_shift__'] = dict(matrix.get('__htv_shift__', {}), **seat_shifts(key, config))
         out[key] = dict(item, matrix=matrix)
     return out
 
 
 def shift_flows(flows, eliminated, matrix):
-    """Move the toward/away split by the seat's logit shift; others keep their share."""
+    """Move the toward/away split; the pair's combined share and others are unchanged.
+
+    A rule is (toward, away, value) or (toward, away, value, kind):
+      logit  (default) add value to the logit of toward's share of the pair;
+      share  set toward's share of the pair to value (SRC/htv_review.py);
+      points subtract value from toward's share of the pair (SRC/htv_review.py).
+    """
     rule = matrix.get('__htv_shift__', {}).get(eliminated)
     if not rule:
         return flows
-    toward, away, shift = rule
+    toward, away, value = rule[:3]
+    kind = rule[3] if len(rule) > 3 else 'logit'
     a, b = flows.get(toward, 0.0), flows.get(away, 0.0)
     total = a+b
-    if toward not in flows or away not in flows or total <= 0 or shift == 0:
+    if toward not in flows or away not in flows or total <= 0:
         return flows
     p = min(max(a/total, 1e-9), 1-1e-9)
-    p = 1/(1+math.exp(-(math.log(p/(1-p))+shift)))
+    if kind == 'logit':
+        if value == 0:
+            return flows
+        p = 1/(1+math.exp(-(math.log(p/(1-p))+value)))
+    elif kind == 'share':
+        p = value
+    elif kind == 'points':
+        p = min(max(p-value, 0.), 1.)
+    else:
+        raise ValueError(f'Unknown preference rule kind: {kind}')
     return dict(flows, **{toward: total*p, away: total*(1-p)})

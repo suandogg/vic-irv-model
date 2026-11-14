@@ -479,6 +479,11 @@ st.sidebar.checkbox('2026 Labor-Liberal preference deal (review)', key='htv_deal
                     help='Liberal preferences lean to Labor over the Greens everywhere except Footscray and Brunswick, '
                          'using the 2018 to 2022 change; Labor runs an open card in Prahran. '
                          'Applies to the central count and forecast. Not an approved central method.')
+st.sidebar.checkbox('2026 how-to-vote review: One Nation, Greens and Caulfield (review)', key='htv_review_2026',
+                    help='One Nation voters give Labor 72.5% of a Labor-Greens split in Inner and Middle Ring seats '
+                         '(AEC federal evidence); Greens open cards in 15 seats cut Labor\'s share of Greens '
+                         'preferences against the Coalition by 3 points; Labor\'s Caulfield open card is treated like Prahran. '
+                         'Applies to the central count and forecast. Not an approved central method.')
 st.session_state['_display_settings'] = DISPLAY
 apply_theme(DISPLAY)
 st.set_page_config(page_title=DISPLAY['APP_TITLE'],layout='wide')
@@ -534,6 +539,9 @@ if st.session_state.get('htv_deal_2026'):
     # forecast all use the same flows. Re-applying in the forecast is idempotent.
     from SRC.htv_deal import apply_htv_deal, load_htv_deal_config
     matrices = apply_htv_deal(matrices, load_htv_deal_config())
+if st.session_state.get('htv_review_2026'):
+    from SRC.htv_review import apply_htv_review, load_htv_review_config
+    matrices = apply_htv_review(matrices, load_htv_review_config())
 if st.sidebar.button("Refresh Google Sheet inputs"):
     st.cache_data.clear()
     st.rerun()
