@@ -1,0 +1,9 @@
+Parameter,Value,Enabled,Description,Source
+SEATS_PER_REGION,5,TRUE,Statutory vacancies in each Victorian Legislative Council region,Electoral Act 2002 and VEC
+TRANSFER_METHOD,INCLUSIVE_GREGORY,TRUE,Current section 114A surplus-transfer method,Electoral Act 2002 section 114A
+WHOLE_VOTE_TRUNCATION,TRUE,TRUE,Discard fractional destination totals during statutory transfers,Electoral Act 2002 section 114A(7) and (12)
+PVI_SHRINKAGE_DEFAULT,0.75,TRUE,Default weight on 2022 regional named-party lean,User-approved modelling choice
+PREFERENCE_EVIDENCE_PRIOR_STRENGTH,1000,TRUE,Equivalent ballots assigned to preference priors before empirical evidence,Development parameter
+PREFERENCE_EVIDENCE_MAX_BALLOTS,10000,TRUE,Cap effective ballot evidence per source so one federal election does not imply false certainty,Development parameter
+BALLOT_ARCHETYPES_PER_PARTY,1000,TRUE,Deterministic sampled rankings generated for each named party in each region,Development parameter
+COUNT_TIE_SEED,2026,TRUE,Reproducible substitute for statutory drawing by lot during modelling,Development parameter

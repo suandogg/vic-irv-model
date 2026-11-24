@@ -1,0 +1,71 @@
+2026-11-25 10:47:52.860 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=143687680
+[IRV_CHECKPOINT] 0.001s load_static_inputs start rss_kb=143687680
+[IRV_CHECKPOINT] 0.001s sheet sync synced=0 errors=0 rss_kb=143687680
+[IRV_CHECKPOINT] 0.008s loaded primary_inputs rows=88 rss_kb=147161088
+[IRV_CHECKPOINT] 0.090s loaded matrices count=88 rss_kb=152322048
+[IRV_CHECKPOINT] 0.096s loaded params scalars=52 specials=54 rss_kb=152322048
+[IRV_CHECKPOINT] 0.102s loaded posterior keys=28 rss_kb=152354816
+[IRV_CHECKPOINT] 0.103s loaded ideology keys=6 rss_kb=152354816
+[IRV_CHECKPOINT] 0.104s loaded baseline_2cp rows=88 rss_kb=152354816
+[IRV_CHECKPOINT] 0.104s loaded baseline_regions rows=8 rss_kb=152354816
+[IRV_CHECKPOINT] 0.105s loaded turnout_weights rows=88 rss_kb=152354816
+[IRV_CHECKPOINT] 0.106s loaded seat_adjustments rows=89 rss_kb=152518656
+[IRV_CHECKPOINT] 0.107s loaded poll_scenarios rows=1 rss_kb=152518656
+[IRV_CHECKPOINT] 0.113s loaded named upper-house inputs rss_kb=154058752
+2026-11-25 10:47:53.458 The widget with key "candidate_field_version_b" was created with a default value but also had its value set via the Session State API.
+Stack (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 1015, in _bootstrap
+    self._bootstrap_inner()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 995, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "/Users/callumrees/Documents/State Model/vic_irv_model_v6_port/snapshot_app.py", line 19, in <module>
+    runpy.run_path(str(Path(__file__).with_name("app.py")), run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "app.py", line 479, in <module>
+    st.sidebar.checkbox('Field-aware candidates (Version B)', key='candidate_field_version_b', value=not legacy_mode(), disabled=not legacy_mode(),
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 698, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/elements/widgets/checkbox.py", line 201, in checkbox
+    return self._checkbox(
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/elements/widgets/checkbox.py", line 389, in _checkbox
+    check_widget_policies(
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/elements/lib/policies.py", line 180, in check_widget_policies
+    check_session_state_rules(
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/elements/lib/policies.py", line 91, in check_session_state_rules
+    _LOGGER.warning(
+[IRV_CHECKPOINT] 0.180s scenario inputs start rss_kb=157384704
+[IRV_CHECKPOINT] 0.181s scenario inputs complete targets={'ALP': 21.89, 'LNP': 30.78, 'GRN': 14.46, 'ON': 21.87, 'IND': 5.5, 'OTH': 5.5} rss_kb=157417472
+[IRV_CHECKPOINT] 0.202s run_model start targets={'ALP': 21.89, 'LNP': 30.78, 'GRN': 14.46, 'ON': 21.87, 'IND': 5.5, 'OTH': 5.5} rss_kb=171491328
+[IRV_CHECKPOINT] 0.289s run_model adjusted primaries rss_kb=172277760
+[IRV_CHECKPOINT] 0.298s run_model primary_votes rows=528 rss_kb=172310528
+[IRV_CHECKPOINT] 0.381s run_model irv complete results=88 rss_kb=172343296
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=193544192
+[IRV_CHECKPOINT] 0.057s scenario inputs start rss_kb=194461696
+[IRV_CHECKPOINT] 0.058s scenario inputs complete targets={'ALP': 21.89, 'LNP': 30.78, 'GRN': 14.46, 'ON': 21.87, 'IND': 5.5, 'OTH': 5.5} rss_kb=194494464
+[IRV_CHECKPOINT] 0.078s run_model start targets={'ALP': 21.89, 'LNP': 30.78, 'GRN': 14.46, 'ON': 21.87, 'IND': 5.5, 'OTH': 5.5} rss_kb=207306752
+[IRV_CHECKPOINT] 0.160s run_model adjusted primaries rss_kb=207601664
+[IRV_CHECKPOINT] 0.169s run_model primary_votes rows=528 rss_kb=207601664
+[IRV_CHECKPOINT] 0.252s run_model irv complete results=88 rss_kb=207618048
+[IRV_CHECKPOINT] 0.276s render_result_table start rows=88 cols=14 rss_kb=207814656
+[IRV_CHECKPOINT] 0.276s render_result_table styled rss_kb=207814656
+[IRV_CHECKPOINT] 0.285s render_result_table complete rss_kb=207994880
+[IRV_CHECKPOINT] 0.286s render_result_table start rows=37 cols=14 rss_kb=208011264
+[IRV_CHECKPOINT] 0.286s render_result_table styled rss_kb=208011264
+[IRV_CHECKPOINT] 0.292s render_result_table complete rss_kb=208125952
+EXCEPTIONS []
+ERRORS []
+SELECTS [('Select region', 'Statewide'), ('Saved polling scenario', '2022 baseline'), ('Fixed test scenario', 'ON18'), ('Comparison variant', 'Current reference'), ('Preference trial', 'VEC exact fields with corrected coverage')]
+DATAFRAMES [(0, (5, 14), ['Seat', 'Seat type', 'Reference final two', 'Trial final two', 'Reference winner', 'Trial winner', 'Reference winning margin (pp)', 'Trial winning margin (pp)', 'Reference ALP forced 2PP (%)', 'Trial ALP forced 2PP (%)', 'ALP forced 2PP change (pp)', 'Elimination order changed', 'Reference elimination order', 'Trial elimination order']), (1, (6, 4), ['party', 'normalised input %', 'model statewide %', 'difference pp']), (2, (50, 10), ['district', 'party', 'retirement_pp', 'sophomore_pp', 'candidate_strength_pp', 'manual_adjustment_pp', 'requested_total_pp', 'notes', 'pre_calibration_change_pp', 'final_change_pp']), (3, (6, 3), ['Party', 'Primary Vote %', 'Swing %']), (4, (6, 5), ['Party', '2PP %', '2PP Swing %', 'Seats', 'Change']), (5, (88, 8), ['district', 'held_by', 'winner', 'runner_up', 'winner_pct', 'runner_up_pct', 'final margin %', 'sensitivity']), (6, (2, 2), ['Party', '2CP %']), (7, (88, 14), ['district', 'region', 'held_by', 'winner', 'runner_up', 'Winner 2CP %', 'Runner-up 2CP %', '2CP Swing %', 'Result', '2nd', '3rd', '4th', '5th', '6th']), (8, (37, 14), ['district', 'region', 'held_by', 'winner', 'runner_up', 'Winner 2CP %', 'Runner-up 2CP %', '2CP Swing %', 'Result', '2nd', '3rd', '4th', '5th', '6th']), (9, (199, 4), ['district', 'candidate_name', 'continuity_status', 'enabled'])]

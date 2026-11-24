@@ -1,0 +1,74 @@
+2026-11-25 10:53:16.470 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=144162816
+[IRV_CHECKPOINT] 0.001s load_static_inputs start rss_kb=144162816
+[IRV_CHECKPOINT] 0.001s sheet sync synced=0 errors=0 rss_kb=144162816
+[IRV_CHECKPOINT] 0.007s loaded primary_inputs rows=88 rss_kb=147488768
+[IRV_CHECKPOINT] 0.087s loaded matrices count=88 rss_kb=151126016
+[IRV_CHECKPOINT] 0.092s loaded params scalars=52 specials=54 rss_kb=151126016
+[IRV_CHECKPOINT] 0.098s loaded posterior keys=28 rss_kb=151158784
+[IRV_CHECKPOINT] 0.098s loaded ideology keys=6 rss_kb=151158784
+[IRV_CHECKPOINT] 0.100s loaded baseline_2cp rows=88 rss_kb=151158784
+[IRV_CHECKPOINT] 0.100s loaded baseline_regions rows=8 rss_kb=151158784
+[IRV_CHECKPOINT] 0.101s loaded turnout_weights rows=88 rss_kb=151158784
+[IRV_CHECKPOINT] 0.102s loaded seat_adjustments rows=89 rss_kb=151289856
+[IRV_CHECKPOINT] 0.103s loaded poll_scenarios rows=1 rss_kb=151289856
+[IRV_CHECKPOINT] 0.108s loaded named upper-house inputs rss_kb=153419776
+2026-11-25 10:53:16.735 The widget with key "candidate_field_version_b" was created with a default value but also had its value set via the Session State API.
+Stack (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 1015, in _bootstrap
+    self._bootstrap_inner()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 1044, in _bootstrap_inner
+    self.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 995, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 379, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 705, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "/Users/callumrees/Documents/State Model/vic_irv_model_v6_port/snapshot_app.py", line 20, in <module>
+    runpy.run_path(str(Path(__file__).with_name("app.py")), run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/callumrees/Documents/State Model/vic_irv_model_v6_port/app.py", line 479, in <module>
+    st.sidebar.checkbox('Field-aware candidates (Version B)', key='candidate_field_version_b', value=not legacy_mode(), disabled=not legacy_mode(),
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/metrics_util.py", line 698, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/elements/widgets/checkbox.py", line 201, in checkbox
+    return self._checkbox(
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/elements/widgets/checkbox.py", line 389, in _checkbox
+    check_widget_policies(
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/elements/lib/policies.py", line 180, in check_widget_policies
+    check_session_state_rules(
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/elements/lib/policies.py", line 91, in check_session_state_rules
+    _LOGGER.warning(
+[IRV_CHECKPOINT] 0.170s scenario inputs start rss_kb=157712384
+[IRV_CHECKPOINT] 0.171s scenario inputs complete targets={'ALP': 21.89, 'LNP': 30.78, 'GRN': 14.46, 'ON': 21.87, 'IND': 5.5, 'OTH': 5.5} rss_kb=157745152
+[IRV_CHECKPOINT] 0.192s run_model start targets={'ALP': 21.89, 'LNP': 30.78, 'GRN': 14.46, 'ON': 21.87, 'IND': 5.5, 'OTH': 5.5} rss_kb=173195264
+[IRV_CHECKPOINT] 0.275s run_model adjusted primaries rss_kb=173965312
+[IRV_CHECKPOINT] 0.284s run_model primary_votes rows=528 rss_kb=174030848
+[IRV_CHECKPOINT] 0.363s run_model irv complete results=88 rss_kb=174047232
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=196280320
+[IRV_CHECKPOINT] 0.054s scenario inputs start rss_kb=197214208
+[IRV_CHECKPOINT] 0.055s scenario inputs complete targets={'ALP': 21.89, 'LNP': 30.78, 'GRN': 14.46, 'ON': 21.87, 'IND': 5.5, 'OTH': 5.5} rss_kb=197246976
+[IRV_CHECKPOINT] 0.076s run_model start targets={'ALP': 21.89, 'LNP': 30.78, 'GRN': 14.46, 'ON': 21.87, 'IND': 5.5, 'OTH': 5.5} rss_kb=208830464
+[IRV_CHECKPOINT] 0.156s run_model adjusted primaries rss_kb=209076224
+[IRV_CHECKPOINT] 0.165s run_model primary_votes rows=528 rss_kb=209076224
+[IRV_CHECKPOINT] 0.244s run_model irv complete results=88 rss_kb=209092608
+[IRV_CHECKPOINT] 0.267s render_result_table start rows=88 cols=14 rss_kb=209289216
+[IRV_CHECKPOINT] 0.267s render_result_table styled rss_kb=209289216
+[IRV_CHECKPOINT] 0.276s render_result_table complete rss_kb=209387520
+[IRV_CHECKPOINT] 0.277s render_result_table start rows=37 cols=14 rss_kb=209403904
+[IRV_CHECKPOINT] 0.277s render_result_table styled rss_kb=209403904
+[IRV_CHECKPOINT] 0.282s render_result_table complete rss_kb=209485824
+RADIOS BEFORE [('Results view', 'Summary', ['Summary', 'Seat Detail']), ('View', 'Legislative Assembly', ['Dashboard', 'Legislative Assembly', 'Legislative Council', 'Forecast (experimental)'])]
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=210010112
+[IRV_CHECKPOINT] 0.053s scenario inputs start rss_kb=211501056
+[IRV_CHECKPOINT] 0.054s scenario inputs complete targets={'ALP': 21.89, 'LNP': 30.78, 'GRN': 14.46, 'ON': 21.87, 'IND': 5.5, 'OTH': 5.5} rss_kb=211533824
+RADIOS AFTER [('View', 'Forecast (experimental)')]
+SELECTS AFTER [('Select region', 'Statewide'), ('Saved polling scenario', '2022 baseline'), ('Structural uncertainty trial (unvalidated)', 'Concentration + structured nowcast (development)'), ('Geographic uncertainty grouping', 'Blend upper-house and sub-regions'), ('Concentration mapping (research)', 'Positive bounded (0–2)'), ('Preference trial', 'VEC exact fields with corrected coverage')]
+PASS: snapshot_app.py targets, mandatory v6 switches, five seat results and forecast defaults.

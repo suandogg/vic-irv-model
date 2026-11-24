@@ -1,0 +1,467 @@
+.........................................2026-11-25 10:44:14.443 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=152829952
+[IRV_CHECKPOINT] 0.001s load_static_inputs start rss_kb=152829952
+[IRV_CHECKPOINT] 0.001s sheet sync synced=0 errors=0 rss_kb=152829952
+[IRV_CHECKPOINT] 0.005s loaded primary_inputs rows=88 rss_kb=152829952
+[IRV_CHECKPOINT] 0.039s loaded matrices count=88 rss_kb=152829952
+[IRV_CHECKPOINT] 0.049s loaded params scalars=48 specials=54 rss_kb=152829952
+[IRV_CHECKPOINT] 0.056s loaded posterior keys=28 rss_kb=152829952
+[IRV_CHECKPOINT] 0.056s loaded ideology keys=6 rss_kb=152829952
+[IRV_CHECKPOINT] 0.057s loaded baseline_2cp rows=88 rss_kb=152829952
+[IRV_CHECKPOINT] 0.057s loaded baseline_regions rows=8 rss_kb=152829952
+[IRV_CHECKPOINT] 0.058s loaded turnout_weights rows=88 rss_kb=152829952
+[IRV_CHECKPOINT] 0.059s loaded seat_adjustments rows=89 rss_kb=152829952
+[IRV_CHECKPOINT] 0.061s loaded poll_scenarios rows=1 rss_kb=152829952
+[IRV_CHECKPOINT] 0.068s loaded named upper-house inputs rss_kb=155353088
+[IRV_CHECKPOINT] 0.183s scenario inputs start rss_kb=159367168
+[IRV_CHECKPOINT] 0.184s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=159399936
+[IRV_CHECKPOINT] 0.207s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=173359104
+[IRV_CHECKPOINT] 0.256s run_model adjusted primaries rss_kb=173621248
+[IRV_CHECKPOINT] 0.258s run_model primary_votes rows=528 rss_kb=173703168
+[IRV_CHECKPOINT] 0.347s run_model irv complete results=88 rss_kb=173719552
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=197525504
+[IRV_CHECKPOINT] 0.056s scenario inputs start rss_kb=199196672
+[IRV_CHECKPOINT] 0.058s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=199229440
+[IRV_CHECKPOINT] 0.079s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=210927616
+[IRV_CHECKPOINT] 0.179s run_model adjusted primaries rss_kb=211189760
+[IRV_CHECKPOINT] 0.189s run_model primary_votes rows=528 rss_kb=211189760
+[IRV_CHECKPOINT] 0.271s run_model irv complete results=88 rss_kb=211206144
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=214351872
+[IRV_CHECKPOINT] 0.056s scenario inputs start rss_kb=214351872
+[IRV_CHECKPOINT] 0.058s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=214351872
+[IRV_CHECKPOINT] 0.080s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=216088576
+[IRV_CHECKPOINT] 0.133s run_model adjusted primaries rss_kb=216088576
+[IRV_CHECKPOINT] 0.136s run_model primary_votes rows=528 rss_kb=216088576
+[IRV_CHECKPOINT] 0.229s run_model irv complete results=88 rss_kb=216088576
+.......................fatal: not a git repository (or any of the parent directories): .git
+E..fatal: not a git repository (or any of the parent directories): .git
+E.fatal: not a git repository (or any of the parent directories): .git
+E.fatal: not a git repository (or any of the parent directories): .git
+E....fatal: not a git repository (or any of the parent directories): .git
+E.....sssfatal: not a git repository (or any of the parent directories): .git
+E.....2026-11-25 10:44:31.657 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=216121344
+[IRV_CHECKPOINT] 0.057s scenario inputs start rss_kb=216121344
+[IRV_CHECKPOINT] 0.059s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=216121344
+[IRV_CHECKPOINT] 0.081s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=217726976
+[IRV_CHECKPOINT] 0.136s run_model adjusted primaries rss_kb=217726976
+[IRV_CHECKPOINT] 0.138s run_model primary_votes rows=528 rss_kb=217726976
+[IRV_CHECKPOINT] 0.233s run_model irv complete results=88 rss_kb=217726976
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=217825280
+[IRV_CHECKPOINT] 0.059s scenario inputs start rss_kb=217825280
+[IRV_CHECKPOINT] 0.061s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=217825280
+[IRV_CHECKPOINT] 0.082s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=218693632
+[IRV_CHECKPOINT] 0.135s run_model adjusted primaries rss_kb=218693632
+[IRV_CHECKPOINT] 0.137s run_model primary_votes rows=528 rss_kb=218693632
+[IRV_CHECKPOINT] 0.231s run_model irv complete results=88 rss_kb=218693632
+.fatal: not a git repository (or any of the parent directories): .git
+E...2026-11-25 10:44:43.153 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=219430912
+[IRV_CHECKPOINT] 0.058s scenario inputs start rss_kb=219430912
+[IRV_CHECKPOINT] 0.059s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=219430912
+[IRV_CHECKPOINT] 0.082s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=219906048
+[IRV_CHECKPOINT] 0.137s run_model adjusted primaries rss_kb=219906048
+[IRV_CHECKPOINT] 0.139s run_model primary_votes rows=528 rss_kb=219906048
+[IRV_CHECKPOINT] 0.234s run_model irv complete results=88 rss_kb=219906048
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=220168192
+[IRV_CHECKPOINT] 0.055s scenario inputs start rss_kb=220168192
+[IRV_CHECKPOINT] 0.056s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=220168192
+[IRV_CHECKPOINT] 0.076s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=220430336
+[IRV_CHECKPOINT] 0.127s run_model adjusted primaries rss_kb=220430336
+[IRV_CHECKPOINT] 0.129s run_model primary_votes rows=528 rss_kb=220430336
+[IRV_CHECKPOINT] 0.221s run_model irv complete results=88 rss_kb=220430336
+............................fatal: not a git repository (or any of the parent directories): .git
+E2026-11-25 10:44:54.419 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=220463104
+[IRV_CHECKPOINT] 0.054s scenario inputs start rss_kb=220463104
+[IRV_CHECKPOINT] 0.055s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=220463104
+[IRV_CHECKPOINT] 0.077s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=220463104
+[IRV_CHECKPOINT] 0.127s run_model adjusted primaries rss_kb=220463104
+[IRV_CHECKPOINT] 0.129s run_model primary_votes rows=528 rss_kb=220463104
+[IRV_CHECKPOINT] 0.217s run_model irv complete results=88 rss_kb=220463104
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=220463104
+[IRV_CHECKPOINT] 0.054s scenario inputs start rss_kb=220463104
+[IRV_CHECKPOINT] 0.055s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=220463104
+[IRV_CHECKPOINT] 0.077s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=220463104
+[IRV_CHECKPOINT] 0.128s run_model adjusted primaries rss_kb=220463104
+[IRV_CHECKPOINT] 0.130s run_model primary_votes rows=528 rss_kb=220463104
+[IRV_CHECKPOINT] 0.221s run_model irv complete results=88 rss_kb=220463104
+.......2026-11-25 10:45:05.270 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-25 10:45:05.271 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+fatal: not a git repository (or any of the parent directories): .git
+2026-11-25 10:45:05.292 Uncaught app execution
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/dn/n2jfq0x54zn1mh__0sbn5s_00000gn/T/tmpbziu0ev9/108bc9a86520bb149c59eff936961e29", line 13, in <module>
+    _,p,m,params,post,ideology,adjustments=fixture()
+                                           ~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/caching/cache_utils.py", line 280, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/caching/cache_utils.py", line 325, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/caching/cache_utils.py", line 384, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+  File "/var/folders/dn/n2jfq0x54zn1mh__0sbn5s_00000gn/T/tmpbziu0ev9/108bc9a86520bb149c59eff936961e29", line 12, in fixture
+    return calculator_fixture()
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+F2026-11-25 10:45:05.298 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+fatal: not a git repository (or any of the parent directories): .git
+2026-11-25 10:45:05.315 Uncaught app execution
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/dn/n2jfq0x54zn1mh__0sbn5s_00000gn/T/tmpbziu0ev9/108bc9a86520bb149c59eff936961e29", line 13, in <module>
+    _,p,m,params,post,ideology,adjustments=fixture()
+                                           ~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/caching/cache_utils.py", line 280, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/caching/cache_utils.py", line 325, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/caching/cache_utils.py", line 384, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+  File "/var/folders/dn/n2jfq0x54zn1mh__0sbn5s_00000gn/T/tmpbziu0ev9/108bc9a86520bb149c59eff936961e29", line 12, in fixture
+    return calculator_fixture()
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+F2026-11-25 10:45:05.317 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-25 10:45:05.318 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+fatal: not a git repository (or any of the parent directories): .git
+2026-11-25 10:45:05.334 Uncaught app execution
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 689, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/dn/n2jfq0x54zn1mh__0sbn5s_00000gn/T/tmpbziu0ev9/108bc9a86520bb149c59eff936961e29", line 13, in <module>
+    _,p,m,params,post,ideology,adjustments=fixture()
+                                           ~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/caching/cache_utils.py", line 280, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/caching/cache_utils.py", line 325, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/streamlit/runtime/caching/cache_utils.py", line 384, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+  File "/var/folders/dn/n2jfq0x54zn1mh__0sbn5s_00000gn/T/tmpbziu0ev9/108bc9a86520bb149c59eff936961e29", line 12, in fixture
+    return calculator_fixture()
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+F....fatal: not a git repository (or any of the parent directories): .git
+E.fatal: not a git repository (or any of the parent directories): .git
+E..............fatal: not a git repository (or any of the parent directories): .git
+E2026-11-25 10:45:05.576 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=220463104
+[IRV_CHECKPOINT] 0.056s scenario inputs start rss_kb=220463104
+[IRV_CHECKPOINT] 0.058s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=220463104
+[IRV_CHECKPOINT] 0.083s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=220463104
+[IRV_CHECKPOINT] 0.137s run_model adjusted primaries rss_kb=220463104
+[IRV_CHECKPOINT] 0.139s run_model primary_votes rows=528 rss_kb=220463104
+[IRV_CHECKPOINT] 0.229s run_model irv complete results=88 rss_kb=220463104
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=220463104
+[IRV_CHECKPOINT] 0.056s scenario inputs start rss_kb=220463104
+[IRV_CHECKPOINT] 0.058s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=220463104
+[IRV_CHECKPOINT] 0.079s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=220463104
+[IRV_CHECKPOINT] 0.132s run_model adjusted primaries rss_kb=220463104
+[IRV_CHECKPOINT] 0.134s run_model primary_votes rows=528 rss_kb=220463104
+[IRV_CHECKPOINT] 0.226s run_model irv complete results=88 rss_kb=220463104
+..........fatal: not a git repository (or any of the parent directories): .git
+E.......2026-11-25 10:45:17.629 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+...............
+======================================================================
+ERROR: setUpClass (test_forecast_engine.ForecastTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 143, in setUpClass
+    cls.fixture = calculator_fixture()
+                  ~~~~~~~~~~~~~~~~~~^^
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: test_integrated_patterns_reproducible_and_paired (test_forecast_patterns.PatternTests.test_integrated_patterns_reproducible_and_paired)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_patterns.py", line 97, in test_integrated_patterns_reproducible_and_paired
+    _,p,m,params,post,i,a = calculator_fixture()
+                            ~~~~~~~~~~~~~~~~~~^^
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: test_party_specific_widths (test_forecast_patterns.PatternTests.test_party_specific_widths)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_patterns.py", line 133, in test_party_specific_widths
+    _,p,m,params,post,i,a = calculator_fixture()
+                            ~~~~~~~~~~~~~~~~~~^^
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: test_positive_simulation_identity_and_constraints (test_forecast_patterns.PatternTests.test_positive_simulation_identity_and_constraints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_patterns.py", line 31, in test_positive_simulation_identity_and_constraints
+    _,p,m,params,post,i,a = calculator_fixture()
+                            ~~~~~~~~~~~~~~~~~~^^
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: test_crossed_groups_balance_and_pair (test_forecast_subregions.SubregionTests.test_crossed_groups_balance_and_pair)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_subregions.py", line 30, in test_crossed_groups_balance_and_pair
+    _,p,m,params,post,i,a = calculator_fixture()
+                            ~~~~~~~~~~~~~~~~~~^^
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: setUpClass (test_htv_deal.DealEngineTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_htv_deal.py", line 68, in setUpClass
+    _,cls.primary,cls.matrices,cls.params,cls.posterior,cls.ideology,cls.adjustments=calculator_fixture()
+                                                                                     ~~~~~~~~~~~~~~~~~~^^
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: setUpClass (test_htv_review.ReviewEngineTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_htv_review.py", line 50, in setUpClass
+    _,cls.primary,cls.matrices,cls.params,cls.posterior,cls.ideology,cls.adjustments=calculator_fixture()
+                                                                                     ~~~~~~~~~~~~~~~~~~^^
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: setUpClass (test_low_base_taper.TaperPipelineTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_low_base_taper.py", line 42, in setUpClass
+    _,cls.primary,cls.matrices,cls.params,cls.posterior,cls.ideology,cls.adjustments=calculator_fixture()
+                                                                                     ~~~~~~~~~~~~~~~~~~^^
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: test_simulation_gate_reproducibility_and_paired_targets (test_nowcast_uncertainty.NowcastUncertaintyTests.test_simulation_gate_reproducibility_and_paired_targets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_nowcast_uncertainty.py", line 93, in test_simulation_gate_reproducibility_and_paired_targets
+    _,p,m,params,post,i,a = calculator_fixture()
+                            ~~~~~~~~~~~~~~~~~~^^
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: test_transport_works_when_existing_preference_sd_is_zero (test_nowcast_uncertainty.NowcastUncertaintyTests.test_transport_works_when_existing_preference_sd_is_zero)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_nowcast_uncertainty.py", line 134, in test_transport_works_when_existing_preference_sd_is_zero
+    _,p,m,params,post,i,a = calculator_fixture()
+                            ~~~~~~~~~~~~~~~~~~^^
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: setUpClass (test_oth_scaling.OthScalingPipelineTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_oth_scaling.py", line 33, in setUpClass
+    _,cls.primary,cls.matrices,cls.params,cls.posterior,cls.ideology,cls.adjustments=calculator_fixture()
+                                                                                     ~~~~~~~~~~~~~~~~~~^^
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_forecast_engine.py", line 15, in calculator_fixture
+    source = subprocess.check_output(['git','show','2f972c9c3a482a18beb3f186d56b236199538b97:app.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '2f972c9c3a482a18beb3f186d56b236199538b97:app.py']' returned non-zero exit status 128.
+
+======================================================================
+ERROR: setUpClass (test_primary_calibration_performance.CalibrationRegressionTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_primary_calibration_performance.py", line 16, in setUpClass
+    source = subprocess.check_output([
+        'git','show','25587bd:SRC/legacy_primary_model.py'],text=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 472, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'show', '25587bd:SRC/legacy_primary_model.py']' returned non-zero exit status 128.
+
+======================================================================
+FAIL: test_field_switch_reaches_forecast_experiment (test_nowcast_ui.NowcastUITests.test_field_switch_reaches_forecast_experiment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_nowcast_ui.py", line 33, in test_field_switch_reaches_forecast_experiment
+    self.assertEqual(len(app.exception),0)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0
+
+======================================================================
+FAIL: test_selection_run_and_sensitivity_metadata (test_nowcast_ui.NowcastUITests.test_selection_run_and_sensitivity_metadata)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_nowcast_ui.py", line 53, in test_selection_run_and_sensitivity_metadata
+    self.assertEqual(len(app.exception),0)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0
+
+======================================================================
+FAIL: test_taper_switch_reaches_forecast_experiment (test_nowcast_ui.NowcastUITests.test_taper_switch_reaches_forecast_experiment)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/prism-ddfaf34-tests/Tests/test_nowcast_ui.py", line 44, in test_taper_switch_reaches_forecast_experiment
+    self.assertEqual(len(app.exception),0)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 184 tests in 63.843s
+
+FAILED (failures=3, errors=12, skipped=3)

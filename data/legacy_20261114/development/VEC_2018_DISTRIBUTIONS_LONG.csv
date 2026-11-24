@@ -1,0 +1,775 @@
+Round,EliminatedCandidate,RecipientCandidate,VotesTransferred,SourceURL,District,From,To
+1,"TOSCANO, Joseph","RAMSAY, Tamasin",31,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,IND,OTH
+1,"TOSCANO, Joseph","BOND, Andrew",36,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,IND,LNP
+1,"TOSCANO, Joseph","BARTLE, Jarryd",41,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,IND,OTH
+1,"TOSCANO, Joseph","ARMSTRONG, Steven",54,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,IND,OTH
+1,"TOSCANO, Joseph","SIMIC, Ogy",76,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,IND,GRN
+1,"TOSCANO, Joseph","FOLEY, Martin",44,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,IND,ALP
+2,"ARMSTRONG, Steven","RAMSAY, Tamasin",145,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,OTH,OTH
+2,"ARMSTRONG, Steven","BOND, Andrew",102,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,OTH,LNP
+2,"ARMSTRONG, Steven","BARTLE, Jarryd",139,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,OTH,OTH
+2,"ARMSTRONG, Steven","SIMIC, Ogy",156,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,OTH,GRN
+2,"ARMSTRONG, Steven","FOLEY, Martin",109,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,OTH,ALP
+3,"BARTLE, Jarryd","RAMSAY, Tamasin",261,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,OTH,OTH
+3,"BARTLE, Jarryd","BOND, Andrew",192,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,OTH,LNP
+3,"BARTLE, Jarryd","SIMIC, Ogy",411,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,OTH,GRN
+3,"BARTLE, Jarryd","FOLEY, Martin",395,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,OTH,ALP
+4,"RAMSAY, Tamasin","BOND, Andrew",551,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,OTH,LNP
+4,"RAMSAY, Tamasin","SIMIC, Ogy",900,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,OTH,GRN
+4,"RAMSAY, Tamasin","FOLEY, Martin",541,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,OTH,ALP
+5,"SIMIC, Ogy","BOND, Andrew",1359,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,GRN,LNP
+5,"SIMIC, Ogy","FOLEY, Martin",6785,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionalbertparkdistrict.html,Albert Park,GRN,ALP
+1,"LEMPRIERE, Kate","PAYNTER, Brian",47,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,LNP
+1,"LEMPRIERE, Kate","LE SERVE, Clare",118,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,IND
+1,"LEMPRIERE, Kate","CRUGNALE, Jordan",41,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,ALP
+1,"LEMPRIERE, Kate","McPHEE, Ross",28,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,OTH
+1,"LEMPRIERE, Kate","BAUER, Ron",80,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,IND
+1,"LEMPRIERE, Kate","RIPA, Frank",38,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,OTH
+1,"LEMPRIERE, Kate","ARNAULT, David",33,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,GRN
+2,"BAUER, Ron","PAYNTER, Brian",255,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,LNP
+2,"BAUER, Ron","LE SERVE, Clare",176,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,IND
+2,"BAUER, Ron","CRUGNALE, Jordan",78,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,ALP
+2,"BAUER, Ron","McPHEE, Ross",60,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,OTH
+2,"BAUER, Ron","RIPA, Frank",66,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,OTH
+2,"BAUER, Ron","ARNAULT, David",48,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,GRN
+3,"McPHEE, Ross","PAYNTER, Brian",346,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,OTH,LNP
+3,"McPHEE, Ross","LE SERVE, Clare",143,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,OTH,IND
+3,"McPHEE, Ross","CRUGNALE, Jordan",472,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,OTH,ALP
+3,"McPHEE, Ross","RIPA, Frank",261,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,OTH,OTH
+3,"McPHEE, Ross","ARNAULT, David",154,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,OTH,GRN
+4,"RIPA, Frank","PAYNTER, Brian",728,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,OTH,LNP
+4,"RIPA, Frank","LE SERVE, Clare",637,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,OTH,IND
+4,"RIPA, Frank","CRUGNALE, Jordan",567,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,OTH,ALP
+4,"RIPA, Frank","ARNAULT, David",444,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,OTH,GRN
+5,"LE SERVE, Clare","PAYNTER, Brian",923,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,LNP
+5,"LE SERVE, Clare","CRUGNALE, Jordan",1127,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,ALP
+5,"LE SERVE, Clare","ARNAULT, David",1236,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,IND,GRN
+6,"ARNAULT, David","PAYNTER, Brian",993,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,GRN,LNP
+6,"ARNAULT, David","CRUGNALE, Jordan",3743,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbassdistrict.html,Bass,GRN,ALP
+1,"SCHRAM, Nathan","VICTORIA, Heidi",421,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbayswaterdistrict.html,Bayswater,OTH,LNP
+1,"SCHRAM, Nathan","TAYLOR, Jackson",400,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbayswaterdistrict.html,Bayswater,OTH,ALP
+1,"SCHRAM, Nathan","COOKSON, Asher",879,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbayswaterdistrict.html,Bayswater,OTH,GRN
+2,"COOKSON, Asher","VICTORIA, Heidi",844,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbayswaterdistrict.html,Bayswater,GRN,LNP
+2,"COOKSON, Asher","TAYLOR, Jackson",3263,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbayswaterdistrict.html,Bayswater,GRN,ALP
+1,"KRIZ, Jackie","ADAMS, Naomi",145,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbellarinedistrict.html,Bellarine,OTH,OTH
+1,"KRIZ, Jackie","NEVILLE, Lisa",129,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbellarinedistrict.html,Bellarine,OTH,ALP
+1,"KRIZ, Jackie","SEMMENS, Rachel",155,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbellarinedistrict.html,Bellarine,OTH,GRN
+1,"KRIZ, Jackie","McKITERICK, Brian",92,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbellarinedistrict.html,Bellarine,OTH,LNP
+1,"BARDSLEY, John","HAWKINS, Jacqui",280,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,GRN,IND
+1,"BARDSLEY, John","TAIT, Mark",467,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,GRN,ALP
+1,"BARDSLEY, John","TILLEY, Bill",144,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,GRN,LNP
+1,"BARDSLEY, John","O'CONNOR, Jenny",461,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,GRN,IND
+1,"BARDSLEY, John","KNIGHT, Josh",213,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,GRN,OTH
+2,"KNIGHT, Josh","HAWKINS, Jacqui",914,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,OTH,IND
+2,"KNIGHT, Josh","TAIT, Mark",606,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,OTH,ALP
+2,"KNIGHT, Josh","TILLEY, Bill",1682,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,OTH,LNP
+2,"KNIGHT, Josh","O'CONNOR, Jenny",785,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,OTH,IND
+3,"O'CONNOR, Jenny","HAWKINS, Jacqui",3905,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,IND,IND
+3,"O'CONNOR, Jenny","TAIT, Mark",1576,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,IND,ALP
+3,"O'CONNOR, Jenny","TILLEY, Bill",1192,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,IND,LNP
+4,"TAIT, Mark","HAWKINS, Jacqui",7917,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,ALP,IND
+4,"TAIT, Mark","TILLEY, Bill",2199,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbenambradistrict.html,Benambra,ALP,LNP
+1,"SUN, Sophia","CLARK, Robert",1017,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionboxhilldistrict.html,Box Hill,GRN,LNP
+1,"SUN, Sophia","HAMER, Paul",4622,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionboxhilldistrict.html,Box Hill,GRN,ALP
+1,"CASLEY, John Tiger","TAYLOR, Cathy",41,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,IND,OTH
+1,"CASLEY, John Tiger","MARTIN, Declan",53,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,IND,ALP
+1,"CASLEY, John Tiger","NEWBURY, James",59,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,IND,LNP
+1,"CASLEY, John Tiger","COPSEY, Katherine",57,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,IND,GRN
+1,"CASLEY, John Tiger","PRIDHAM, Alison",63,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,IND,OTH
+2,"PRIDHAM, Alison","TAYLOR, Cathy",246,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,OTH,OTH
+2,"PRIDHAM, Alison","MARTIN, Declan",149,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,OTH,ALP
+2,"PRIDHAM, Alison","NEWBURY, James",221,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,OTH,LNP
+2,"PRIDHAM, Alison","COPSEY, Katherine",328,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,OTH,GRN
+3,"TAYLOR, Cathy","MARTIN, Declan",619,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,OTH,ALP
+3,"TAYLOR, Cathy","NEWBURY, James",482,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,OTH,LNP
+3,"TAYLOR, Cathy","COPSEY, Katherine",1147,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,OTH,GRN
+4,"COPSEY, Katherine","MARTIN, Declan",5933,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,GRN,ALP
+4,"COPSEY, Katherine","NEWBURY, James",1453,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrightondistrict.html,Brighton,GRN,LNP
+1,"ANDERSON, Christopher","GEORGIOU, George",44,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,IND
+1,"ANDERSON, Christopher","DEVENY, Catherine",11,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,OTH
+1,"ANDERSON, Christopher","COLLINS, Noel",4,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,OTH
+1,"ANDERSON, Christopher","O'CONNOR, Cindy",21,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,ALP
+1,"ANDERSON, Christopher","SOURASIS, Kerry",40,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,IND
+1,"ANDERSON, Christopher","WOJTONIS, Adam",7,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,LNP
+1,"ANDERSON, Christopher","READ, Tim",85,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,GRN
+1,"ANDERSON, Christopher","MILES, Christopher",38,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,OTH
+2,"SOURASIS, Kerry","GEORGIOU, George",131,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,IND
+2,"SOURASIS, Kerry","DEVENY, Catherine",9,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,OTH
+2,"SOURASIS, Kerry","COLLINS, Noel",18,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,OTH
+2,"SOURASIS, Kerry","O'CONNOR, Cindy",38,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,ALP
+2,"SOURASIS, Kerry","WOJTONIS, Adam",80,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,LNP
+2,"SOURASIS, Kerry","READ, Tim",23,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,GRN
+2,"SOURASIS, Kerry","MILES, Christopher",17,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,OTH
+3,"COLLINS, Noel","GEORGIOU, George",64,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,IND
+3,"COLLINS, Noel","DEVENY, Catherine",111,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,OTH
+3,"COLLINS, Noel","O'CONNOR, Cindy",98,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,ALP
+3,"COLLINS, Noel","WOJTONIS, Adam",297,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,LNP
+3,"COLLINS, Noel","READ, Tim",41,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,GRN
+3,"COLLINS, Noel","MILES, Christopher",24,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,OTH
+4,"MILES, Christopher","GEORGIOU, George",105,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,IND
+4,"MILES, Christopher","DEVENY, Catherine",106,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,OTH
+4,"MILES, Christopher","O'CONNOR, Cindy",140,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,ALP
+4,"MILES, Christopher","WOJTONIS, Adam",85,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,LNP
+4,"MILES, Christopher","READ, Tim",472,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,GRN
+5,"GEORGIOU, George","DEVENY, Catherine",739,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,OTH
+5,"GEORGIOU, George","O'CONNOR, Cindy",293,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,ALP
+5,"GEORGIOU, George","WOJTONIS, Adam",202,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,LNP
+5,"GEORGIOU, George","READ, Tim",350,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,IND,GRN
+6,"DEVENY, Catherine","O'CONNOR, Cindy",1359,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,ALP
+6,"DEVENY, Catherine","WOJTONIS, Adam",297,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,LNP
+6,"DEVENY, Catherine","READ, Tim",1289,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,OTH,GRN
+7,"WOJTONIS, Adam","O'CONNOR, Cindy",3062,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,LNP,ALP
+7,"WOJTONIS, Adam","READ, Tim",2356,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbrunswickdistrict.html,Brunswick,LNP,GRN
+1,"McKENDRICK, Jane","SETTLE, Michaela",89,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,OTH,ALP
+1,"McKENDRICK, Jane","ZIBELL, Linda",101,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,OTH,GRN
+1,"McKENDRICK, Jane","KILMARTIN, Andrew",28,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,OTH,LNP
+1,"McKENDRICK, Jane","WATTERS, Lindsay",40,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,OTH,IND
+1,"McKENDRICK, Jane","COLBERT, Dianne",51,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,OTH,IND
+1,"McKENDRICK, Jane","MORRISON, Wendy",66,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,OTH,OTH
+1,"McKENDRICK, Jane","ECKEL, Brendan",22,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,OTH,IND
+2,"WATTERS, Lindsay","SETTLE, Michaela",42,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,ALP
+2,"WATTERS, Lindsay","ZIBELL, Linda",58,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,GRN
+2,"WATTERS, Lindsay","KILMARTIN, Andrew",71,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,LNP
+2,"WATTERS, Lindsay","COLBERT, Dianne",182,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,IND
+2,"WATTERS, Lindsay","MORRISON, Wendy",46,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,OTH
+2,"WATTERS, Lindsay","ECKEL, Brendan",77,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,IND
+3,"ECKEL, Brendan","SETTLE, Michaela",72,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,ALP
+3,"ECKEL, Brendan","ZIBELL, Linda",44,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,GRN
+3,"ECKEL, Brendan","KILMARTIN, Andrew",55,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,LNP
+3,"ECKEL, Brendan","COLBERT, Dianne",256,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,IND
+3,"ECKEL, Brendan","MORRISON, Wendy",139,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,OTH
+4,"COLBERT, Dianne","SETTLE, Michaela",268,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,ALP
+4,"COLBERT, Dianne","ZIBELL, Linda",140,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,GRN
+4,"COLBERT, Dianne","KILMARTIN, Andrew",881,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,LNP
+4,"COLBERT, Dianne","MORRISON, Wendy",485,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionbuninyongdistrict.html,Buninyong,IND,OTH
+1,"BEATTIE, Amanda","WILLIAMS, Andrew",240,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionburwooddistrict.html,Burwood,OTH,OTH
+1,"BEATTIE, Amanda","FOWLES, Will",196,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionburwooddistrict.html,Burwood,OTH,ALP
+1,"BEATTIE, Amanda","ROSS, Graham",417,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionburwooddistrict.html,Burwood,OTH,GRN
+1,"BEATTIE, Amanda","WATT, Graham",147,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionburwooddistrict.html,Burwood,OTH,LNP
+2,"WILLIAMS, Andrew","FOWLES, Will",542,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionburwooddistrict.html,Burwood,OTH,ALP
+2,"WILLIAMS, Andrew","ROSS, Graham",480,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionburwooddistrict.html,Burwood,OTH,GRN
+2,"WILLIAMS, Andrew","WATT, Graham",319,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionburwooddistrict.html,Burwood,OTH,LNP
+3,"ROSS, Graham","FOWLES, Will",4470,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionburwooddistrict.html,Burwood,GRN,ALP
+3,"ROSS, Graham","WATT, Graham",1031,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionburwooddistrict.html,Burwood,GRN,LNP
+1,"BAVATI, Aviya","SOUTHWICK, David",115,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncaulfielddistrict.html,Caulfield,OTH,LNP
+1,"BAVATI, Aviya","GRASSO, Sorina",110,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncaulfielddistrict.html,Caulfield,OTH,ALP
+1,"BAVATI, Aviya","EVANS, Troy",233,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncaulfielddistrict.html,Caulfield,OTH,OTH
+1,"BAVATI, Aviya","MATHEW, Dinesh",207,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncaulfielddistrict.html,Caulfield,OTH,GRN
+2,"EVANS, Troy","SOUTHWICK, David",276,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncaulfielddistrict.html,Caulfield,OTH,LNP
+2,"EVANS, Troy","GRASSO, Sorina",340,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncaulfielddistrict.html,Caulfield,OTH,ALP
+2,"EVANS, Troy","MATHEW, Dinesh",770,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncaulfielddistrict.html,Caulfield,OTH,GRN
+3,"MATHEW, Dinesh","SOUTHWICK, David",910,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncaulfielddistrict.html,Caulfield,GRN,LNP
+3,"MATHEW, Dinesh","GRASSO, Sorina",5454,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncaulfielddistrict.html,Caulfield,GRN,ALP
+1,"COSTANTINO, Vinita","CUSACK, Josh",482,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncroydondistrict.html,Croydon,OTH,ALP
+1,"COSTANTINO, Vinita","HODGETT, David",441,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncroydondistrict.html,Croydon,OTH,LNP
+1,"COSTANTINO, Vinita","O'FLYNN, Caleb",940,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncroydondistrict.html,Croydon,OTH,GRN
+2,"O'FLYNN, Caleb","CUSACK, Josh",3286,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncroydondistrict.html,Croydon,GRN,ALP
+2,"O'FLYNN, Caleb","HODGETT, David",1122,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioncroydondistrict.html,Croydon,GRN,LNP
+1,"DUNSCOMBE, Michelle","BRENNAN, Sally",853,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioneildondistrict.html,Eildon,IND,ALP
+1,"DUNSCOMBE, Michelle","DEACON, Ken",546,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioneildondistrict.html,Eildon,IND,GRN
+1,"DUNSCOMBE, Michelle","McLEISH, Cindy",714,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributioneildondistrict.html,Eildon,IND,LNP
+1,"O'BRIEN, Peter","McGOWAN, Nick",275,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionelthamdistrict.html,Eltham,OTH,LNP
+1,"O'BRIEN, Peter","WARD, Vicki",199,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionelthamdistrict.html,Eltham,OTH,ALP
+1,"O'BRIEN, Peter","GOODMAN, Matthew",140,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionelthamdistrict.html,Eltham,OTH,GRN
+2,"GOODMAN, Matthew","McGOWAN, Nick",576,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionelthamdistrict.html,Eltham,GRN,LNP
+2,"GOODMAN, Matthew","WARD, Vicki",3772,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionelthamdistrict.html,Eltham,GRN,ALP
+1,"CONNORS, Dermot","BAKER, Kate",67,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,OTH,IND
+1,"CONNORS, Dermot","WILLIAMS, James",200,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,OTH,GRN
+1,"CONNORS, Dermot","LAWRENCE, Richard",207,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,OTH,IND
+1,"CONNORS, Dermot","PEARSON, Danny",272,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,OTH,ALP
+1,"CONNORS, Dermot","POTENZA, Gino",110,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,OTH,LNP
+2,"BAKER, Kate","WILLIAMS, James",531,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,IND,GRN
+2,"BAKER, Kate","LAWRENCE, Richard",577,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,IND,IND
+2,"BAKER, Kate","PEARSON, Danny",186,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,IND,ALP
+2,"BAKER, Kate","POTENZA, Gino",129,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,IND,LNP
+3,"LAWRENCE, Richard","WILLIAMS, James",536,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,IND,GRN
+3,"LAWRENCE, Richard","PEARSON, Danny",512,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,IND,ALP
+3,"LAWRENCE, Richard","POTENZA, Gino",1438,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,IND,LNP
+4,"WILLIAMS, James","PEARSON, Danny",7172,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,GRN,ALP
+4,"WILLIAMS, James","POTENZA, Gino",1066,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionessendondistrict.html,Essendon,GRN,LNP
+1,"EVERIST, Brodie","VALLENCE, Bridget",1187,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionevelyndistrict.html,Evelyn,GRN,LNP
+1,"EVERIST, Brodie","RITCHIE, Gail",2599,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionevelyndistrict.html,Evelyn,GRN,ALP
+1,"RAYMOND, Steve","BUXTON, Julie",2621,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionferntreegullydistrict.html,Ferntree Gully,GRN,ALP
+1,"RAYMOND, Steve","WAKELING, Nick",793,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionferntreegullydistrict.html,Ferntree Gully,GRN,LNP
+1,"BAI, Claude","KUMAR, Manoj",262,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionforesthilldistrict.html,Forest Hill,IND,ALP
+1,"BAI, Claude","BHALLA, Naresh",209,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionforesthilldistrict.html,Forest Hill,IND,GRN
+1,"BAI, Claude","ANGUS, Neil",225,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionforesthilldistrict.html,Forest Hill,IND,LNP
+2,"BHALLA, Naresh","KUMAR, Manoj",2629,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionforesthilldistrict.html,Forest Hill,GRN,ALP
+2,"BHALLA, Naresh","ANGUS, Neil",663,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionforesthilldistrict.html,Forest Hill,GRN,LNP
+1,"RUDRA, Jyothi","KELSALL, Henry",18,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,IND
+1,"RUDRA, Jyothi","O'CONNELL, Lachlan",33,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,OTH
+1,"RUDRA, Jyothi","LANE, Colin",30,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,GRN
+1,"RUDRA, Jyothi","LONG, Michael",19,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,OTH
+1,"RUDRA, Jyothi","LAMB, Michael",22,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,LNP
+1,"RUDRA, Jyothi","PERSSON, James",63,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,OTH
+1,"RUDRA, Jyothi","EDBROOKE, Paul",57,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,ALP
+2,"KELSALL, Henry","O'CONNELL, Lachlan",300,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,IND,OTH
+2,"KELSALL, Henry","LANE, Colin",154,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,IND,GRN
+2,"KELSALL, Henry","LONG, Michael",52,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,IND,OTH
+2,"KELSALL, Henry","LAMB, Michael",59,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,IND,LNP
+2,"KELSALL, Henry","PERSSON, James",139,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,IND,OTH
+2,"KELSALL, Henry","EDBROOKE, Paul",104,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,IND,ALP
+3,"PERSSON, James","O'CONNELL, Lachlan",278,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,OTH
+3,"PERSSON, James","LANE, Colin",604,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,GRN
+3,"PERSSON, James","LONG, Michael",78,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,OTH
+3,"PERSSON, James","LAMB, Michael",158,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,LNP
+3,"PERSSON, James","EDBROOKE, Paul",226,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,ALP
+4,"LONG, Michael","O'CONNELL, Lachlan",232,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,OTH
+4,"LONG, Michael","LANE, Colin",294,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,GRN
+4,"LONG, Michael","LAMB, Michael",462,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,LNP
+4,"LONG, Michael","EDBROOKE, Paul",527,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,ALP
+5,"O'CONNELL, Lachlan","LANE, Colin",1090,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,GRN
+5,"O'CONNELL, Lachlan","LAMB, Michael",646,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,LNP
+5,"O'CONNELL, Lachlan","EDBROOKE, Paul",671,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionfrankstondistrict.html,Frankston,OTH,ALP
+1,"JUHASZ, Stephen","FIDGE, Freya",29,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,LNP
+1,"JUHASZ, Stephen","JACKA, Jacki",21,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,OTH
+1,"JUHASZ, Stephen","WOLF, Gottfried",52,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,IND
+1,"JUHASZ, Stephen","HATHWAY, Sarah",12,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,OTH
+1,"JUHASZ, Stephen","NEWMAN, Lois",18,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,GRN
+1,"JUHASZ, Stephen","COUZENS, Christine",17,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,ALP
+1,"JUHASZ, Stephen","LYONS, Darryn",107,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,IND
+2,"WOLF, Gottfried","FIDGE, Freya",44,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,LNP
+2,"WOLF, Gottfried","JACKA, Jacki",105,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,OTH
+2,"WOLF, Gottfried","HATHWAY, Sarah",57,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,OTH
+2,"WOLF, Gottfried","NEWMAN, Lois",28,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,GRN
+2,"WOLF, Gottfried","COUZENS, Christine",36,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,ALP
+2,"WOLF, Gottfried","LYONS, Darryn",82,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,IND,IND
+3,"HATHWAY, Sarah","FIDGE, Freya",45,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,OTH,LNP
+3,"HATHWAY, Sarah","JACKA, Jacki",73,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,OTH,OTH
+3,"HATHWAY, Sarah","NEWMAN, Lois",246,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,OTH,GRN
+3,"HATHWAY, Sarah","COUZENS, Christine",126,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,OTH,ALP
+3,"HATHWAY, Sarah","LYONS, Darryn",43,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,OTH,IND
+4,"JACKA, Jacki","FIDGE, Freya",222,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,OTH,LNP
+4,"JACKA, Jacki","NEWMAN, Lois",602,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,OTH,GRN
+4,"JACKA, Jacki","COUZENS, Christine",301,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,OTH,ALP
+4,"JACKA, Jacki","LYONS, Darryn",247,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,OTH,IND
+5,"NEWMAN, Lois","FIDGE, Freya",579,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,GRN,LNP
+5,"NEWMAN, Lois","COUZENS, Christine",3666,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,GRN,ALP
+5,"NEWMAN, Lois","LYONS, Darryn",571,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongeelongdistrict.html,Geelong,GRN,IND
+1,"GREGOROVICH, Amy","GALEA, Michael",3556,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongembrookdistrict.html,Gembrook,GRN,ALP
+1,"GREGOROVICH, Amy","BATTIN, Brad",1111,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributiongembrookdistrict.html,Gembrook,GRN,LNP
+1,"KNIGHT, Georgia","LESSLIE, Nathan",1289,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhastingsdistrict.html,Hastings,OTH,GRN
+1,"KNIGHT, Georgia","MEYER, Simon",775,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhastingsdistrict.html,Hastings,OTH,ALP
+1,"KNIGHT, Georgia","BURGESS, Neale",816,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhastingsdistrict.html,Hastings,OTH,LNP
+2,"LESSLIE, Nathan","MEYER, Simon",3825,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhastingsdistrict.html,Hastings,GRN,ALP
+2,"LESSLIE, Nathan","BURGESS, Neale",1275,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhastingsdistrict.html,Hastings,GRN,LNP
+1,"GRUMMET, Richard","BIEBER, Nicholas",79,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,IND,GRN
+1,"GRUMMET, Richard","PESUTTO, John",102,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,IND,LNP
+1,"GRUMMET, Richard","WRIGHT, Catherine",41,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,IND,OTH
+1,"GRUMMET, Richard","KENNEDY, John Ormond",77,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,IND,ALP
+1,"GRUMMET, Richard","PATERSON, Sophie",68,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,IND,OTH
+2,"WRIGHT, Catherine","BIEBER, Nicholas",345,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,OTH,GRN
+2,"WRIGHT, Catherine","PESUTTO, John",140,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,OTH,LNP
+2,"WRIGHT, Catherine","KENNEDY, John Ormond",159,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,OTH,ALP
+2,"WRIGHT, Catherine","PATERSON, Sophie",282,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,OTH,OTH
+3,"PATERSON, Sophie","BIEBER, Nicholas",571,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,OTH,GRN
+3,"PATERSON, Sophie","PESUTTO, John",389,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,OTH,LNP
+3,"PATERSON, Sophie","KENNEDY, John Ormond",350,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,OTH,ALP
+4,"BIEBER, Nicholas","PESUTTO, John",1601,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,GRN,LNP
+4,"BIEBER, Nicholas","KENNEDY, John Ormond",6561,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionhawthorndistrict.html,Hawthorn,GRN,ALP
+1,"JENKINS, Philip","CARBINES, Anthony",149,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionivanhoedistrict.html,Ivanhoe,OTH,ALP
+1,"JENKINS, Philip","LANGDON, Craig",81,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionivanhoedistrict.html,Ivanhoe,OTH,IND
+1,"JENKINS, Philip","CONLEY, Andrew",73,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionivanhoedistrict.html,Ivanhoe,OTH,GRN
+1,"JENKINS, Philip","CLARK, Monica",357,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionivanhoedistrict.html,Ivanhoe,OTH,LNP
+2,"LANGDON, Craig","CARBINES, Anthony",730,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionivanhoedistrict.html,Ivanhoe,IND,ALP
+2,"LANGDON, Craig","CONLEY, Andrew",808,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionivanhoedistrict.html,Ivanhoe,IND,GRN
+2,"LANGDON, Craig","CLARK, Monica",512,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionivanhoedistrict.html,Ivanhoe,IND,LNP
+3,"CONLEY, Andrew","CARBINES, Anthony",5565,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionivanhoedistrict.html,Ivanhoe,GRN,ALP
+3,"CONLEY, Andrew","CLARK, Monica",1278,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionivanhoedistrict.html,Ivanhoe,GRN,LNP
+1,"SCATURCHIO, Paul","MARKS, Alex",212,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionkewdistrict.html,Kew,OTH,GRN
+1,"SCATURCHIO, Paul","SMITH, Tim",185,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionkewdistrict.html,Kew,OTH,LNP
+1,"SCATURCHIO, Paul","D'ARCY, Marg",155,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionkewdistrict.html,Kew,OTH,ALP
+1,"SCATURCHIO, Paul","GARDINER, Bronwyn",283,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionkewdistrict.html,Kew,OTH,OTH
+2,"GARDINER, Bronwyn","MARKS, Alex",638,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionkewdistrict.html,Kew,OTH,GRN
+2,"GARDINER, Bronwyn","SMITH, Tim",268,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionkewdistrict.html,Kew,OTH,LNP
+2,"GARDINER, Bronwyn","D'ARCY, Marg",292,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionkewdistrict.html,Kew,OTH,ALP
+1,"BAKES, Rob","O'BRIEN, Tony",183,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmacedondistrict.html,Macedon,IND,OTH
+1,"BAKES, Rob","THOMAS, Mary-Anne",264,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmacedondistrict.html,Macedon,IND,ALP
+1,"BAKES, Rob","PARRAMORE, Ruth",228,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmacedondistrict.html,Macedon,IND,OTH
+1,"BAKES, Rob","MILLAR, Amanda",238,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmacedondistrict.html,Macedon,IND,LNP
+1,"BAKES, Rob","THESING, Ralf",317,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmacedondistrict.html,Macedon,IND,GRN
+2,"O'BRIEN, Tony","THOMAS, Mary-Anne",785,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmacedondistrict.html,Macedon,OTH,ALP
+2,"O'BRIEN, Tony","PARRAMORE, Ruth",180,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmacedondistrict.html,Macedon,OTH,OTH
+2,"O'BRIEN, Tony","MILLAR, Amanda",434,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmacedondistrict.html,Macedon,OTH,LNP
+2,"O'BRIEN, Tony","THESING, Ralf",80,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmacedondistrict.html,Macedon,OTH,GRN
+1,"FUHRMANN, Kim","SANDELL, Ellen",28,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,GRN
+1,"FUHRMANN, Kim","SCHADE, Darin",32,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,LNP
+1,"FUHRMANN, Kim","HANLON, Peter",38,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,IND
+1,"FUHRMANN, Kim","ROOKES, Benjamin",30,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,OTH
+1,"FUHRMANN, Kim","KANIS, Jennifer",36,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,ALP
+1,"FUHRMANN, Kim","POPE, Lawrence",43,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,OTH
+1,"FUHRMANN, Kim","CLOSE, Leo",26,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,OTH
+2,"HANLON, Peter","SANDELL, Ellen",71,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,IND,GRN
+2,"HANLON, Peter","SCHADE, Darin",101,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,IND,LNP
+2,"HANLON, Peter","ROOKES, Benjamin",49,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,IND,OTH
+2,"HANLON, Peter","KANIS, Jennifer",43,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,IND,ALP
+2,"HANLON, Peter","POPE, Lawrence",56,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,IND,OTH
+2,"HANLON, Peter","CLOSE, Leo",46,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,IND,OTH
+3,"ROOKES, Benjamin","SANDELL, Ellen",61,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,GRN
+3,"ROOKES, Benjamin","SCHADE, Darin",252,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,LNP
+3,"ROOKES, Benjamin","KANIS, Jennifer",73,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,ALP
+3,"ROOKES, Benjamin","POPE, Lawrence",37,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,OTH
+3,"ROOKES, Benjamin","CLOSE, Leo",66,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,OTH
+4,"POPE, Lawrence","SANDELL, Ellen",442,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,GRN
+4,"POPE, Lawrence","SCHADE, Darin",105,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,LNP
+4,"POPE, Lawrence","KANIS, Jennifer",176,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,ALP
+4,"POPE, Lawrence","CLOSE, Leo",243,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,OTH
+5,"CLOSE, Leo","SANDELL, Ellen",930,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,GRN
+5,"CLOSE, Leo","SCHADE, Darin",320,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,LNP
+5,"CLOSE, Leo","KANIS, Jennifer",644,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,OTH,ALP
+6,"SCHADE, Darin","SANDELL, Ellen",3529,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,LNP,GRN
+6,"SCHADE, Darin","KANIS, Jennifer",4201,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmelbournedistrict.html,Melbourne,LNP,ALP
+1,"GUY, Ron","TURNER, Bob",24,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+1,"GUY, Ron","FARROW, Ryan",14,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,LNP
+1,"GUY, Ron","STIRLING, Grant",6,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+1,"GUY, Ron","BINGHAM, Jarrod",6,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+1,"GUY, Ron","SINGH, Harkirat",77,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,GRN
+1,"GUY, Ron","RAMSEY, Sophie",14,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+1,"GUY, Ron","BENNETT, Victor",20,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,OTH
+1,"GUY, Ron","MILTON, Tania",37,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,OTH
+1,"GUY, Ron","BIRCHALL, Ian",25,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+1,"GUY, Ron","MCGHIE, Stephen John",42,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,ALP
+1,"GUY, Ron","LANG, Daryl",10,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+2,"STIRLING, Grant","TURNER, Bob",58,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+2,"STIRLING, Grant","FARROW, Ryan",59,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,LNP
+2,"STIRLING, Grant","BINGHAM, Jarrod",165,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+2,"STIRLING, Grant","SINGH, Harkirat",23,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,GRN
+2,"STIRLING, Grant","RAMSEY, Sophie",40,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+2,"STIRLING, Grant","BENNETT, Victor",13,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,OTH
+2,"STIRLING, Grant","MILTON, Tania",10,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,OTH
+2,"STIRLING, Grant","BIRCHALL, Ian",28,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+2,"STIRLING, Grant","MCGHIE, Stephen John",26,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,ALP
+2,"STIRLING, Grant","LANG, Daryl",8,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+3,"LANG, Daryl","TURNER, Bob",288,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+3,"LANG, Daryl","FARROW, Ryan",55,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,LNP
+3,"LANG, Daryl","BINGHAM, Jarrod",39,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+3,"LANG, Daryl","SINGH, Harkirat",25,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,GRN
+3,"LANG, Daryl","RAMSEY, Sophie",50,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+3,"LANG, Daryl","BENNETT, Victor",24,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,OTH
+3,"LANG, Daryl","MILTON, Tania",45,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,OTH
+3,"LANG, Daryl","BIRCHALL, Ian",114,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+3,"LANG, Daryl","MCGHIE, Stephen John",256,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,ALP
+4,"BENNETT, Victor","TURNER, Bob",122,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+4,"BENNETT, Victor","FARROW, Ryan",132,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,LNP
+4,"BENNETT, Victor","BINGHAM, Jarrod",61,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+4,"BENNETT, Victor","SINGH, Harkirat",121,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,GRN
+4,"BENNETT, Victor","RAMSEY, Sophie",87,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+4,"BENNETT, Victor","MILTON, Tania",172,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,OTH
+4,"BENNETT, Victor","BIRCHALL, Ian",143,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+4,"BENNETT, Victor","MCGHIE, Stephen John",385,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,ALP
+5,"MILTON, Tania","TURNER, Bob",144,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+5,"MILTON, Tania","FARROW, Ryan",123,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,LNP
+5,"MILTON, Tania","BINGHAM, Jarrod",90,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+5,"MILTON, Tania","SINGH, Harkirat",342,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,GRN
+5,"MILTON, Tania","RAMSEY, Sophie",148,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+5,"MILTON, Tania","BIRCHALL, Ian",255,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,IND
+5,"MILTON, Tania","MCGHIE, Stephen John",347,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,OTH,ALP
+6,"SINGH, Harkirat","TURNER, Bob",277,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,GRN,IND
+6,"SINGH, Harkirat","FARROW, Ryan",266,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,GRN,LNP
+6,"SINGH, Harkirat","BINGHAM, Jarrod",175,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,GRN,IND
+6,"SINGH, Harkirat","RAMSEY, Sophie",313,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,GRN,IND
+6,"SINGH, Harkirat","BIRCHALL, Ian",479,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,GRN,IND
+6,"SINGH, Harkirat","MCGHIE, Stephen John",1058,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,GRN,ALP
+7,"RAMSEY, Sophie","TURNER, Bob",664,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+7,"RAMSEY, Sophie","FARROW, Ryan",221,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,LNP
+7,"RAMSEY, Sophie","BINGHAM, Jarrod",359,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+7,"RAMSEY, Sophie","BIRCHALL, Ian",1228,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+7,"RAMSEY, Sophie","MCGHIE, Stephen John",440,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,ALP
+8,"BINGHAM, Jarrod","TURNER, Bob",987,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+8,"BINGHAM, Jarrod","FARROW, Ryan",730,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,LNP
+8,"BINGHAM, Jarrod","BIRCHALL, Ian",1375,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+8,"BINGHAM, Jarrod","MCGHIE, Stephen John",645,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,ALP
+9,"TURNER, Bob","FARROW, Ryan",2441,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,LNP
+9,"TURNER, Bob","BIRCHALL, Ian",3055,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,IND
+9,"TURNER, Bob","MCGHIE, Stephen John",1176,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,ALP
+10,"BIRCHALL, Ian","FARROW, Ryan",7340,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,LNP
+10,"BIRCHALL, Ian","MCGHIE, Stephen John",3764,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmeltondistrict.html,Melton,IND,ALP
+1,"MILNE, Cathryn","ALESSI, Tony",459,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmilduradistrict.html,Mildura,GRN,ALP
+1,"MILNE, Cathryn","CRISP, Peter",254,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmilduradistrict.html,Mildura,GRN,LNP
+1,"MILNE, Cathryn","TIMMIS, Steven John",174,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmilduradistrict.html,Mildura,GRN,IND
+1,"MILNE, Cathryn","CUPPER, Ali",527,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmilduradistrict.html,Mildura,GRN,IND
+2,"TIMMIS, Steven John","ALESSI, Tony",593,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmilduradistrict.html,Mildura,IND,ALP
+2,"TIMMIS, Steven John","CRISP, Peter",701,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmilduradistrict.html,Mildura,IND,LNP
+2,"TIMMIS, Steven John","CUPPER, Ali",1435,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmilduradistrict.html,Mildura,IND,IND
+3,"ALESSI, Tony","CRISP, Peter",2868,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmilduradistrict.html,Mildura,ALP,LNP
+3,"ALESSI, Tony","CUPPER, Ali",4588,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmilduradistrict.html,Mildura,ALP,IND
+1,"CROOK, Jordan","NORMAN, Joshua James",170,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmonbulkdistrict.html,Monbulk,IND,OTH
+1,"CROOK, Jordan","SCHURINK, John",262,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmonbulkdistrict.html,Monbulk,IND,LNP
+1,"CROOK, Jordan","MERLINO, James",229,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmonbulkdistrict.html,Monbulk,IND,ALP
+1,"CROOK, Jordan","HICKS, Liz",515,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmonbulkdistrict.html,Monbulk,IND,GRN
+2,"NORMAN, Joshua James","SCHURINK, John",653,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmonbulkdistrict.html,Monbulk,OTH,LNP
+2,"NORMAN, Joshua James","MERLINO, James",578,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmonbulkdistrict.html,Monbulk,OTH,ALP
+2,"NORMAN, Joshua James","HICKS, Liz",190,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmonbulkdistrict.html,Monbulk,OTH,GRN
+3,"HICKS, Liz","SCHURINK, John",984,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmonbulkdistrict.html,Monbulk,GRN,LNP
+3,"HICKS, Liz","MERLINO, James",5547,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmonbulkdistrict.html,Monbulk,GRN,ALP
+1,"SINDT, Christine","DIGGINS, Reece",17,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,OTH
+1,"SINDT, Christine","BOND, Sheridan",12,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,LNP
+1,"SINDT, Christine","LUND, Tracie",34,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,IND
+1,"SINDT, Christine","RICHARDS, Mark",16,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,ALP
+1,"SINDT, Christine","MUIR, Ricky",13,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,OTH
+1,"SINDT, Christine","BURGESS, Ray",20,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,IND
+1,"SINDT, Christine","CAFFREY, Daniel",6,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,GRN
+1,"SINDT, Christine","HARRIMAN, Dale",19,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,LNP
+1,"SINDT, Christine","NORTHE, Russell",58,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,IND
+1,"SINDT, Christine","KEEN, Nathan",42,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,OTH
+2,"KEEN, Nathan","DIGGINS, Reece",66,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,OTH
+2,"KEEN, Nathan","BOND, Sheridan",101,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,LNP
+2,"KEEN, Nathan","LUND, Tracie",16,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,IND
+2,"KEEN, Nathan","RICHARDS, Mark",132,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,ALP
+2,"KEEN, Nathan","MUIR, Ricky",60,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,OTH
+2,"KEEN, Nathan","BURGESS, Ray",32,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,IND
+2,"KEEN, Nathan","CAFFREY, Daniel",49,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,GRN
+2,"KEEN, Nathan","HARRIMAN, Dale",75,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,LNP
+2,"KEEN, Nathan","NORTHE, Russell",165,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,IND
+3,"LUND, Tracie","DIGGINS, Reece",80,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,OTH
+3,"LUND, Tracie","BOND, Sheridan",106,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,LNP
+3,"LUND, Tracie","RICHARDS, Mark",184,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,ALP
+3,"LUND, Tracie","MUIR, Ricky",82,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,OTH
+3,"LUND, Tracie","BURGESS, Ray",122,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,IND
+3,"LUND, Tracie","CAFFREY, Daniel",94,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,GRN
+3,"LUND, Tracie","HARRIMAN, Dale",36,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,LNP
+3,"LUND, Tracie","NORTHE, Russell",187,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,IND
+4,"DIGGINS, Reece","BOND, Sheridan",389,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,LNP
+4,"DIGGINS, Reece","RICHARDS, Mark",172,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,ALP
+4,"DIGGINS, Reece","MUIR, Ricky",211,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,OTH
+4,"DIGGINS, Reece","BURGESS, Ray",91,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,IND
+4,"DIGGINS, Reece","CAFFREY, Daniel",43,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,GRN
+4,"DIGGINS, Reece","HARRIMAN, Dale",41,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,LNP
+4,"DIGGINS, Reece","NORTHE, Russell",108,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,IND
+5,"CAFFREY, Daniel","BOND, Sheridan",134,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,GRN,LNP
+5,"CAFFREY, Daniel","RICHARDS, Mark",975,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,GRN,ALP
+5,"CAFFREY, Daniel","MUIR, Ricky",122,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,GRN,OTH
+5,"CAFFREY, Daniel","BURGESS, Ray",98,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,GRN,IND
+5,"CAFFREY, Daniel","HARRIMAN, Dale",97,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,GRN,LNP
+5,"CAFFREY, Daniel","NORTHE, Russell",226,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,GRN,IND
+6,"BURGESS, Ray","BOND, Sheridan",290,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,LNP
+6,"BURGESS, Ray","RICHARDS, Mark",336,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,ALP
+6,"BURGESS, Ray","MUIR, Ricky",300,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,OTH
+6,"BURGESS, Ray","HARRIMAN, Dale",226,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,LNP
+6,"BURGESS, Ray","NORTHE, Russell",1599,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,IND,IND
+7,"MUIR, Ricky","BOND, Sheridan",756,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,LNP
+7,"MUIR, Ricky","RICHARDS, Mark",1276,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,ALP
+7,"MUIR, Ricky","HARRIMAN, Dale",419,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,LNP
+7,"MUIR, Ricky","NORTHE, Russell",1193,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,OTH,IND
+8,"HARRIMAN, Dale","BOND, Sheridan",3905,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,LNP,LNP
+8,"HARRIMAN, Dale","RICHARDS, Mark",448,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,LNP,ALP
+8,"HARRIMAN, Dale","NORTHE, Russell",1515,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,LNP,IND
+9,"BOND, Sheridan","RICHARDS, Mark",2070,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,LNP,ALP
+9,"BOND, Sheridan","NORTHE, Russell",7906,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmorwelldistrict.html,Morwell,LNP,IND
+1,"McCARTHY, Justin","FREGON, Matt",2731,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmountwaverleydistrict.html,Mount Waverley,GRN,ALP
+1,"McCARTHY, Justin","GIDLEY, Michael",713,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionmountwaverleydistrict.html,Mount Waverley,GRN,LNP
+1,"SINGH, Gagandeep","SEREY, Susan",1077,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnarrewarrensouthdistrict.html,Narre Warren South,OTH,LNP
+1,"SINGH, Gagandeep","BUTLER, Michael",474,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnarrewarrensouthdistrict.html,Narre Warren South,OTH,GRN
+1,"SINGH, Gagandeep","MAAS, Gary",766,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnarrewarrensouthdistrict.html,Narre Warren South,OTH,ALP
+1,"GULLY, Rodger","MULVANY, Simon",664,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnepeandistrict.html,Nepean,IND,IND
+1,"GULLY, Rodger","BRAYNE, Chris",128,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnepeandistrict.html,Nepean,IND,ALP
+1,"GULLY, Rodger","JOSEPH, Russell",134,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnepeandistrict.html,Nepean,IND,LNP
+1,"GULLY, Rodger","SAUNDERS, Paul",70,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnepeandistrict.html,Nepean,IND,GRN
+2,"MULVANY, Simon","BRAYNE, Chris",977,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnepeandistrict.html,Nepean,IND,ALP
+2,"MULVANY, Simon","JOSEPH, Russell",769,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnepeandistrict.html,Nepean,IND,LNP
+2,"MULVANY, Simon","SAUNDERS, Paul",694,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnepeandistrict.html,Nepean,IND,GRN
+3,"SAUNDERS, Paul","BRAYNE, Chris",4572,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnepeandistrict.html,Nepean,GRN,ALP
+3,"SAUNDERS, Paul","JOSEPH, Russell",1272,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnepeandistrict.html,Nepean,GRN,LNP
+1,"EDWARDS, Bryony","THORPE, Lidia",205,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,IND,GRN
+1,"EDWARDS, Bryony","MacISAAC, John",43,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,IND,LNP
+1,"EDWARDS, Bryony","FINK, Samuel",16,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,IND,OTH
+1,"EDWARDS, Bryony","THEOPHANOUS, Kat",55,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,IND,ALP
+1,"EDWARDS, Bryony","BRAMANTE, David",63,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,IND,OTH
+1,"EDWARDS, Bryony","SMARRELLI, Franca",62,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,IND,OTH
+2,"FINK, Samuel","THORPE, Lidia",49,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,OTH,GRN
+2,"FINK, Samuel","MacISAAC, John",305,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,OTH,LNP
+2,"FINK, Samuel","THEOPHANOUS, Kat",79,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,OTH,ALP
+2,"FINK, Samuel","BRAMANTE, David",38,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,OTH,OTH
+2,"FINK, Samuel","SMARRELLI, Franca",45,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,OTH,OTH
+3,"BRAMANTE, David","THORPE, Lidia",513,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,OTH,GRN
+3,"BRAMANTE, David","MacISAAC, John",111,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,OTH,LNP
+3,"BRAMANTE, David","THEOPHANOUS, Kat",224,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,OTH,ALP
+3,"BRAMANTE, David","SMARRELLI, Franca",279,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,OTH,OTH
+4,"SMARRELLI, Franca","THORPE, Lidia",868,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,OTH,GRN
+4,"SMARRELLI, Franca","MacISAAC, John",216,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,OTH,LNP
+4,"SMARRELLI, Franca","THEOPHANOUS, Kat",750,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,OTH,ALP
+5,"MacISAAC, John","THORPE, Lidia",2097,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,LNP,GRN
+5,"MacISAAC, John","THEOPHANOUS, Kat",3148,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionnorthcotedistrict.html,Northcote,LNP,ALP
+1,"DYER, Ray","FIDGE, Julian",415,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionovensvalleydistrict.html,Ovens Valley,IND,OTH
+1,"DYER, Ray","McCURDY, Tim",185,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionovensvalleydistrict.html,Ovens Valley,IND,LNP
+1,"DYER, Ray","BERRY, Vicki",49,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionovensvalleydistrict.html,Ovens Valley,IND,GRN
+1,"DYER, Ray","ATKINS, Tammy",254,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionovensvalleydistrict.html,Ovens Valley,IND,IND
+1,"DYER, Ray","DOYLE, Kate",110,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionovensvalleydistrict.html,Ovens Valley,IND,ALP
+2,"BERRY, Vicki","FIDGE, Julian",209,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionovensvalleydistrict.html,Ovens Valley,GRN,OTH
+2,"BERRY, Vicki","McCURDY, Tim",217,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionovensvalleydistrict.html,Ovens Valley,GRN,LNP
+2,"BERRY, Vicki","ATKINS, Tammy",655,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionovensvalleydistrict.html,Ovens Valley,GRN,IND
+2,"BERRY, Vicki","DOYLE, Kate",655,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionovensvalleydistrict.html,Ovens Valley,GRN,ALP
+3,"FIDGE, Julian","McCURDY, Tim",2390,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionovensvalleydistrict.html,Ovens Valley,OTH,LNP
+3,"FIDGE, Julian","ATKINS, Tammy",893,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionovensvalleydistrict.html,Ovens Valley,OTH,IND
+3,"FIDGE, Julian","DOYLE, Kate",555,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionovensvalleydistrict.html,Ovens Valley,OTH,ALP
+1,"TIMPANO, Francesco","HAMILTON, Genevieve",396,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,IND,LNP
+1,"TIMPANO, Francesco","BLANDTHORN, Lizzie",106,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,IND,ALP
+1,"TIMPANO, Francesco","JACKSON, Phil",40,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,IND,GRN
+1,"TIMPANO, Francesco","YILDIZ, Oscar",81,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,IND,IND
+1,"TIMPANO, Francesco","LINSELL, Graeme",16,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,IND,OTH
+1,"TIMPANO, Francesco","BEATON, Gerry",8,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,IND,OTH
+1,"TIMPANO, Francesco","KAVANAGH, John",60,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,IND,IND
+2,"LINSELL, Graeme","HAMILTON, Genevieve",70,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,OTH,LNP
+2,"LINSELL, Graeme","BLANDTHORN, Lizzie",205,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,OTH,ALP
+2,"LINSELL, Graeme","JACKSON, Phil",276,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,OTH,GRN
+2,"LINSELL, Graeme","YILDIZ, Oscar",105,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,OTH,IND
+2,"LINSELL, Graeme","BEATON, Gerry",123,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,OTH,OTH
+2,"LINSELL, Graeme","KAVANAGH, John",76,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,OTH,IND
+3,"BEATON, Gerry","HAMILTON, Genevieve",37,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,OTH,LNP
+3,"BEATON, Gerry","BLANDTHORN, Lizzie",205,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,OTH,ALP
+3,"BEATON, Gerry","JACKSON, Phil",873,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,OTH,GRN
+3,"BEATON, Gerry","YILDIZ, Oscar",118,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,OTH,IND
+3,"BEATON, Gerry","KAVANAGH, John",175,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,OTH,IND
+4,"KAVANAGH, John","HAMILTON, Genevieve",411,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,IND,LNP
+4,"KAVANAGH, John","BLANDTHORN, Lizzie",531,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,IND,ALP
+4,"KAVANAGH, John","JACKSON, Phil",481,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,IND,GRN
+4,"KAVANAGH, John","YILDIZ, Oscar",2130,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,IND,IND
+5,"HAMILTON, Genevieve","BLANDTHORN, Lizzie",1637,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,LNP,ALP
+5,"HAMILTON, Genevieve","JACKSON, Phil",856,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,LNP,GRN
+5,"HAMILTON, Genevieve","YILDIZ, Oscar",3233,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,LNP,IND
+6,"JACKSON, Phil","BLANDTHORN, Lizzie",6096,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,GRN,ALP
+6,"JACKSON, Phil","YILDIZ, Oscar",1881,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionpascoevaledistrict.html,Pascoe Vale,GRN,IND
+1,"MENADUE, Alan","KOFMANSKY, Leon",6,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,IND,OTH
+1,"MENADUE, Alan","ALLEN, Katie",14,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,IND,LNP
+1,"MENADUE, Alan","PHARAOH, Neil",11,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,IND,ALP
+1,"MENADUE, Alan","HIBBINS, Sam",12,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,IND,GRN
+1,"MENADUE, Alan","BILIC, Dennis",10,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,IND,OTH
+1,"MENADUE, Alan","TOMLIN, Tom",7,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,IND,OTH
+1,"MENADUE, Alan","LONG, Jennifer",13,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,IND,OTH
+1,"MENADUE, Alan","PATTERSON, Wendy",57,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,IND,OTH
+2,"PATTERSON, Wendy","KOFMANSKY, Leon",17,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,OTH
+2,"PATTERSON, Wendy","ALLEN, Katie",22,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,LNP
+2,"PATTERSON, Wendy","PHARAOH, Neil",15,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,ALP
+2,"PATTERSON, Wendy","HIBBINS, Sam",16,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,GRN
+2,"PATTERSON, Wendy","BILIC, Dennis",33,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,OTH
+2,"PATTERSON, Wendy","TOMLIN, Tom",27,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,OTH
+2,"PATTERSON, Wendy","LONG, Jennifer",83,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,OTH
+3,"BILIC, Dennis","KOFMANSKY, Leon",35,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,OTH
+3,"BILIC, Dennis","ALLEN, Katie",65,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,LNP
+3,"BILIC, Dennis","PHARAOH, Neil",56,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,ALP
+3,"BILIC, Dennis","HIBBINS, Sam",163,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,GRN
+3,"BILIC, Dennis","TOMLIN, Tom",71,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,OTH
+3,"BILIC, Dennis","LONG, Jennifer",121,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,OTH
+4,"TOMLIN, Tom","KOFMANSKY, Leon",27,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,OTH
+4,"TOMLIN, Tom","ALLEN, Katie",112,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,LNP
+4,"TOMLIN, Tom","PHARAOH, Neil",246,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,ALP
+4,"TOMLIN, Tom","HIBBINS, Sam",379,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,GRN
+4,"TOMLIN, Tom","LONG, Jennifer",171,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,OTH
+5,"KOFMANSKY, Leon","ALLEN, Katie",403,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,LNP
+5,"KOFMANSKY, Leon","PHARAOH, Neil",395,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,ALP
+5,"KOFMANSKY, Leon","HIBBINS, Sam",165,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,GRN
+5,"KOFMANSKY, Leon","LONG, Jennifer",55,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,OTH
+6,"LONG, Jennifer","ALLEN, Katie",262,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,LNP
+6,"LONG, Jennifer","PHARAOH, Neil",238,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,ALP
+6,"LONG, Jennifer","HIBBINS, Sam",843,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,OTH,GRN
+7,"PHARAOH, Neil","ALLEN, Katie",2364,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,ALP,LNP
+7,"PHARAOH, Neil","HIBBINS, Sam",10299,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionprahrandistrict.html,Prahran,ALP,GRN
+1,"WHITEHEAD, Adrian","LANDES, Herschel",73,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,IND
+1,"WHITEHEAD, Adrian","MANNING, Emma",131,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,IND
+1,"WHITEHEAD, Adrian","MALTZAHN, Kathleen",76,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,GRN
+1,"WHITEHEAD, Adrian","KEALY, Craig",67,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,OTH
+1,"WHITEHEAD, Adrian","TRAN, Kevin Quoc",48,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,IND
+1,"WHITEHEAD, Adrian","RYAN, Judy",29,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,OTH
+1,"WHITEHEAD, Adrian","WYNNE, Richard",35,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,ALP
+2,"MANNING, Emma","LANDES, Herschel",500,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,IND
+2,"MANNING, Emma","MALTZAHN, Kathleen",160,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,GRN
+2,"MANNING, Emma","KEALY, Craig",71,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,OTH
+2,"MANNING, Emma","TRAN, Kevin Quoc",95,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,IND
+2,"MANNING, Emma","RYAN, Judy",49,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,OTH
+2,"MANNING, Emma","WYNNE, Richard",67,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,ALP
+3,"KEALY, Craig","LANDES, Herschel",199,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,OTH,IND
+3,"KEALY, Craig","MALTZAHN, Kathleen",523,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,OTH,GRN
+3,"KEALY, Craig","TRAN, Kevin Quoc",180,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,OTH,IND
+3,"KEALY, Craig","RYAN, Judy",236,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,OTH,OTH
+3,"KEALY, Craig","WYNNE, Richard",268,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,OTH,ALP
+4,"LANDES, Herschel","MALTZAHN, Kathleen",790,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,GRN
+4,"LANDES, Herschel","TRAN, Kevin Quoc",768,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,IND
+4,"LANDES, Herschel","RYAN, Judy",229,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,OTH
+4,"LANDES, Herschel","WYNNE, Richard",325,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,ALP
+5,"RYAN, Judy","MALTZAHN, Kathleen",1303,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,OTH,GRN
+5,"RYAN, Judy","TRAN, Kevin Quoc",652,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,OTH,IND
+5,"RYAN, Judy","WYNNE, Richard",1504,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,OTH,ALP
+6,"TRAN, Kevin Quoc","MALTZAHN, Kathleen",1725,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,GRN
+6,"TRAN, Kevin Quoc","WYNNE, Richard",2716,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionrichmonddistrict.html,Richmond,IND,ALP
+1,"HUMPHREYS, Robert","HALSE, Dustin",3857,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionringwooddistrict.html,Ringwood,GRN,ALP
+1,"HUMPHREYS, Robert","RYALL, Dee",1069,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionringwooddistrict.html,Ringwood,GRN,LNP
+1,"MAYER, Maria","GIBBS, Sandra",19,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,OTH
+1,"MAYER, Maria","TRUSCOTT, Jeff",45,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,IND
+1,"MAYER, Maria","JENNINGS, Bronwyn",8,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,OTH
+1,"MAYER, Maria","HILLS, Anna",8,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,OTH
+1,"MAYER, Maria","MULCAHY, Peter",7,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,OTH
+1,"MAYER, Maria","STALEY, Louise",14,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,LNP
+1,"MAYER, Maria","DE SANTIS, Sarah",26,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,ALP
+1,"MAYER, Maria","FAVA, Peter",25,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,OTH
+1,"MAYER, Maria","SIMIC, Serge",65,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,GRN
+2,"JENNINGS, Bronwyn","GIBBS, Sandra",36,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,OTH
+2,"JENNINGS, Bronwyn","TRUSCOTT, Jeff",33,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,IND
+2,"JENNINGS, Bronwyn","HILLS, Anna",40,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,OTH
+2,"JENNINGS, Bronwyn","MULCAHY, Peter",15,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,OTH
+2,"JENNINGS, Bronwyn","STALEY, Louise",16,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,LNP
+2,"JENNINGS, Bronwyn","DE SANTIS, Sarah",28,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,ALP
+2,"JENNINGS, Bronwyn","FAVA, Peter",16,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,OTH
+2,"JENNINGS, Bronwyn","SIMIC, Serge",43,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,GRN
+3,"TRUSCOTT, Jeff","GIBBS, Sandra",100,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,OTH
+3,"TRUSCOTT, Jeff","HILLS, Anna",47,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,OTH
+3,"TRUSCOTT, Jeff","MULCAHY, Peter",49,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,OTH
+3,"TRUSCOTT, Jeff","STALEY, Louise",169,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,LNP
+3,"TRUSCOTT, Jeff","DE SANTIS, Sarah",20,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,ALP
+3,"TRUSCOTT, Jeff","FAVA, Peter",44,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,OTH
+3,"TRUSCOTT, Jeff","SIMIC, Serge",26,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,IND,GRN
+4,"HILLS, Anna","GIBBS, Sandra",247,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,OTH
+4,"HILLS, Anna","MULCAHY, Peter",111,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,OTH
+4,"HILLS, Anna","STALEY, Louise",111,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,LNP
+4,"HILLS, Anna","DE SANTIS, Sarah",115,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,ALP
+4,"HILLS, Anna","FAVA, Peter",139,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,OTH
+4,"HILLS, Anna","SIMIC, Serge",207,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,GRN
+5,"MULCAHY, Peter","GIBBS, Sandra",270,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,OTH
+5,"MULCAHY, Peter","STALEY, Louise",446,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,LNP
+5,"MULCAHY, Peter","DE SANTIS, Sarah",499,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,ALP
+5,"MULCAHY, Peter","FAVA, Peter",178,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,OTH
+5,"MULCAHY, Peter","SIMIC, Serge",104,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,GRN
+6,"SIMIC, Serge","GIBBS, Sandra",363,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,GRN,OTH
+6,"SIMIC, Serge","STALEY, Louise",212,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,GRN,LNP
+6,"SIMIC, Serge","DE SANTIS, Sarah",1300,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,GRN,ALP
+6,"SIMIC, Serge","FAVA, Peter",237,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,GRN,OTH
+7,"GIBBS, Sandra","STALEY, Louise",1225,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,LNP
+7,"GIBBS, Sandra","DE SANTIS, Sarah",884,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,ALP
+7,"GIBBS, Sandra","FAVA, Peter",855,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,OTH
+8,"FAVA, Peter","STALEY, Louise",2248,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,LNP
+8,"FAVA, Peter","DE SANTIS, Sarah",1868,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionripondistrict.html,Ripon,OTH,ALP
+1,"KING, Creighton","ROWSWELL, Brad",115,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,LNP
+1,"KING, Creighton","FREEMAN, Liz",29,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,OTH
+1,"KING, Creighton","REDFORD, Snezana",111,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,OTH
+1,"KING, Creighton","MARTIN, Clarke",92,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,IND
+1,"KING, Creighton","HORVATH, Anita",80,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,ALP
+1,"KING, Creighton","PHILLIPS, Dominic",182,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,GRN
+2,"FREEMAN, Liz","ROWSWELL, Brad",412,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,LNP
+2,"FREEMAN, Liz","REDFORD, Snezana",155,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,OTH
+2,"FREEMAN, Liz","MARTIN, Clarke",94,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,IND
+2,"FREEMAN, Liz","HORVATH, Anita",389,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,ALP
+2,"FREEMAN, Liz","PHILLIPS, Dominic",128,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,GRN
+3,"REDFORD, Snezana","ROWSWELL, Brad",284,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,LNP
+3,"REDFORD, Snezana","MARTIN, Clarke",276,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,IND
+3,"REDFORD, Snezana","HORVATH, Anita",360,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,ALP
+3,"REDFORD, Snezana","PHILLIPS, Dominic",656,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,OTH,GRN
+4,"MARTIN, Clarke","ROWSWELL, Brad",1215,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,IND,LNP
+4,"MARTIN, Clarke","HORVATH, Anita",1810,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,IND,ALP
+4,"MARTIN, Clarke","PHILLIPS, Dominic",754,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,IND,GRN
+5,"PHILLIPS, Dominic","ROWSWELL, Brad",1095,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,GRN,LNP
+5,"PHILLIPS, Dominic","HORVATH, Anita",3826,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsandringhamdistrict.html,Sandringham,GRN,ALP
+1,"FREEMAN, Nickee","SHEED, Suzanna",333,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,GRN,IND
+1,"FREEMAN, Nickee","SCHWARZ, Peter",80,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,GRN,LNP
+1,"FREEMAN, Nickee","WILLATON, Murray",120,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,GRN,OTH
+1,"FREEMAN, Nickee","HEATH, Bill",311,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,GRN,ALP
+1,"FREEMAN, Nickee","HAMMER, Cheryl",155,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,GRN,LNP
+2,"WILLATON, Murray","SHEED, Suzanna",962,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,OTH,IND
+2,"WILLATON, Murray","SCHWARZ, Peter",825,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,OTH,LNP
+2,"WILLATON, Murray","HEATH, Bill",565,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,OTH,ALP
+2,"WILLATON, Murray","HAMMER, Cheryl",1082,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,OTH,LNP
+3,"HEATH, Bill","SHEED, Suzanna",3209,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,ALP,IND
+3,"HEATH, Bill","SCHWARZ, Peter",1307,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,ALP,LNP
+3,"HEATH, Bill","HAMMER, Cheryl",1132,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,ALP,LNP
+4,"SCHWARZ, Peter","SHEED, Suzanna",2473,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,LNP,IND
+4,"SCHWARZ, Peter","HAMMER, Cheryl",5121,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsheppartondistrict.html,Shepparton,LNP,LNP
+1,"RIGGS, Terry","NEOH, Michael",20,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,IND
+1,"RIGGS, Terry","DOUKAS, Jim",29,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,OTH
+1,"RIGGS, Terry","CAMPBELL, Thomas",91,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,GRN
+1,"RIGGS, Terry","GASTON, Kylie",50,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,ALP
+1,"RIGGS, Terry","BRITNELL, Roma",12,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,LNP
+1,"RIGGS, Terry","McCLUSKEY, Michael",11,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,IND
+1,"RIGGS, Terry","PURCELL, James",16,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,IND
+1,"RIGGS, Terry","PURTILL, Joseph",9,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,OTH
+2,"McCLUSKEY, Michael","NEOH, Michael",69,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,IND,IND
+2,"McCLUSKEY, Michael","DOUKAS, Jim",43,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,IND,OTH
+2,"McCLUSKEY, Michael","CAMPBELL, Thomas",27,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,IND,GRN
+2,"McCLUSKEY, Michael","GASTON, Kylie",33,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,IND,ALP
+2,"McCLUSKEY, Michael","BRITNELL, Roma",43,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,IND,LNP
+2,"McCLUSKEY, Michael","PURCELL, James",159,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,IND,IND
+2,"McCLUSKEY, Michael","PURTILL, Joseph",21,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,IND,OTH
+3,"PURTILL, Joseph","NEOH, Michael",70,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,IND
+3,"PURTILL, Joseph","DOUKAS, Jim",206,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,OTH
+3,"PURTILL, Joseph","CAMPBELL, Thomas",49,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,GRN
+3,"PURTILL, Joseph","GASTON, Kylie",149,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,ALP
+3,"PURTILL, Joseph","BRITNELL, Roma",93,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,LNP
+3,"PURTILL, Joseph","PURCELL, James",145,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,IND
+4,"CAMPBELL, Thomas","NEOH, Michael",390,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,GRN,IND
+4,"CAMPBELL, Thomas","DOUKAS, Jim",310,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,GRN,OTH
+4,"CAMPBELL, Thomas","GASTON, Kylie",1535,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,GRN,ALP
+4,"CAMPBELL, Thomas","BRITNELL, Roma",199,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,GRN,LNP
+4,"CAMPBELL, Thomas","PURCELL, James",273,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,GRN,IND
+5,"DOUKAS, Jim","NEOH, Michael",1657,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,IND
+5,"DOUKAS, Jim","GASTON, Kylie",541,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,ALP
+5,"DOUKAS, Jim","BRITNELL, Roma",994,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,LNP
+5,"DOUKAS, Jim","PURCELL, James",748,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,OTH,IND
+6,"NEOH, Michael","GASTON, Kylie",1987,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,IND,ALP
+6,"NEOH, Michael","BRITNELL, Roma",1909,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,IND,LNP
+6,"NEOH, Michael","PURCELL, James",2045,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,IND,IND
+7,"PURCELL, James","GASTON, Kylie",5213,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,IND,ALP
+7,"PURCELL, James","BRITNELL, Roma",4936,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouth-westcoastdistrict.html,South-West Coast,IND,LNP
+1,"BALL, David","CAMPBELL, Stephen",44,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,OTH
+1,"BALL, David","COLE, Damien",58,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,IND
+1,"BALL, David","SMEDLEY, Marian",127,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,GRN
+1,"BALL, David","RIPA, Robert",18,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,OTH
+1,"BALL, David","KATOS, Andrew",23,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,LNP
+1,"BALL, David","CHEESEMAN, Darren",53,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,ALP
+1,"BALL, David","OSECKAS, Peter",32,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,OTH
+2,"RIPA, Robert","CAMPBELL, Stephen",82,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,OTH
+2,"RIPA, Robert","COLE, Damien",175,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,IND
+2,"RIPA, Robert","SMEDLEY, Marian",61,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,GRN
+2,"RIPA, Robert","KATOS, Andrew",369,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,LNP
+2,"RIPA, Robert","CHEESEMAN, Darren",195,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,ALP
+2,"RIPA, Robert","OSECKAS, Peter",134,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,OTH
+3,"CAMPBELL, Stephen","COLE, Damien",428,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,IND
+3,"CAMPBELL, Stephen","SMEDLEY, Marian",225,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,GRN
+3,"CAMPBELL, Stephen","KATOS, Andrew",312,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,LNP
+3,"CAMPBELL, Stephen","CHEESEMAN, Darren",480,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,ALP
+3,"CAMPBELL, Stephen","OSECKAS, Peter",142,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,OTH
+4,"OSECKAS, Peter","COLE, Damien",559,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,IND
+4,"OSECKAS, Peter","SMEDLEY, Marian",453,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,GRN
+4,"OSECKAS, Peter","KATOS, Andrew",245,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,LNP
+4,"OSECKAS, Peter","CHEESEMAN, Darren",525,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,OTH,ALP
+5,"COLE, Damien","SMEDLEY, Marian",2936,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,IND,GRN
+5,"COLE, Damien","KATOS, Andrew",899,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,IND,LNP
+5,"COLE, Damien","CHEESEMAN, Darren",1084,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,IND,ALP
+6,"SMEDLEY, Marian","KATOS, Andrew",1917,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,GRN,LNP
+6,"SMEDLEY, Marian","CHEESEMAN, Darren",6049,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionsouthbarwondistrict.html,South Barwon,GRN,ALP
+1,"McGILL, Lachlan","MCGRATH, Elizabeth",429,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwarrandytedistrict.html,Warrandyte,OTH,ALP
+1,"McGILL, Lachlan","RAMCHARAN, Ben",901,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwarrandytedistrict.html,Warrandyte,OTH,GRN
+1,"McGILL, Lachlan","SMITH, Ryan",380,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwarrandytedistrict.html,Warrandyte,OTH,LNP
+1,"SMITH, Jeremy","BARNES, Alice",105,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwendoureedistrict.html,Wendouree,OTH,GRN
+1,"SMITH, Jeremy","JOHNSON, Amy",39,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwendoureedistrict.html,Wendouree,OTH,LNP
+1,"SMITH, Jeremy","HILLS, Bryn",71,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwendoureedistrict.html,Wendouree,OTH,OTH
+1,"SMITH, Jeremy","SMITH, Alison May",83,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwendoureedistrict.html,Wendouree,OTH,IND
+1,"SMITH, Jeremy","ADDISON, Juliana",84,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwendoureedistrict.html,Wendouree,OTH,ALP
+2,"SMITH, Alison May","BARNES, Alice",104,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwendoureedistrict.html,Wendouree,IND,GRN
+2,"SMITH, Alison May","JOHNSON, Amy",124,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwendoureedistrict.html,Wendouree,IND,LNP
+2,"SMITH, Alison May","HILLS, Bryn",185,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwendoureedistrict.html,Wendouree,IND,OTH
+2,"SMITH, Alison May","ADDISON, Juliana",143,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwendoureedistrict.html,Wendouree,IND,ALP
+3,"HILLS, Bryn","BARNES, Alice",764,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwendoureedistrict.html,Wendouree,OTH,GRN
+3,"HILLS, Bryn","JOHNSON, Amy",346,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwendoureedistrict.html,Wendouree,OTH,LNP
+3,"HILLS, Bryn","ADDISON, Juliana",449,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwendoureedistrict.html,Wendouree,OTH,ALP
+1,"LY, Thanh Nga","PALLAS, Tim",108,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,ALP
+1,"LY, Thanh Nga","SHARMA, Pratibha",93,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,IND
+1,"LY, Thanh Nga","CARLING-JENKINS, Rachel",47,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,IND
+1,"LY, Thanh Nga","GARRA, Joe",28,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,IND
+1,"LY, Thanh Nga","DESSI, Jay",40,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,GRN
+1,"LY, Thanh Nga","BREAKWELL, Kathryn",10,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,OTH
+1,"LY, Thanh Nga","MURPHY, Gayle",20,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,LNP
+2,"SHARMA, Pratibha","PALLAS, Tim",219,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,ALP
+2,"SHARMA, Pratibha","CARLING-JENKINS, Rachel",197,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,IND
+2,"SHARMA, Pratibha","GARRA, Joe",106,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,IND
+2,"SHARMA, Pratibha","DESSI, Jay",93,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,GRN
+2,"SHARMA, Pratibha","BREAKWELL, Kathryn",38,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,OTH
+2,"SHARMA, Pratibha","MURPHY, Gayle",68,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,LNP
+3,"BREAKWELL, Kathryn","PALLAS, Tim",376,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,OTH,ALP
+3,"BREAKWELL, Kathryn","CARLING-JENKINS, Rachel",298,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,OTH,IND
+3,"BREAKWELL, Kathryn","GARRA, Joe",103,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,OTH,IND
+3,"BREAKWELL, Kathryn","DESSI, Jay",196,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,OTH,GRN
+3,"BREAKWELL, Kathryn","MURPHY, Gayle",250,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,OTH,LNP
+4,"CARLING-JENKINS, Rachel","PALLAS, Tim",434,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,ALP
+4,"CARLING-JENKINS, Rachel","GARRA, Joe",1011,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,IND
+4,"CARLING-JENKINS, Rachel","DESSI, Jay",196,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,GRN
+4,"CARLING-JENKINS, Rachel","MURPHY, Gayle",987,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,IND,LNP
+5,"DESSI, Jay","PALLAS, Tim",1457,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,GRN,ALP
+5,"DESSI, Jay","GARRA, Joe",1081,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,GRN,IND
+5,"DESSI, Jay","MURPHY, Gayle",509,https://itsitecoreblobvecprd01.blob.core.windows.net/public-files/historical-results/state2018/distributionwerribeedistrict.html,Werribee,GRN,LNP

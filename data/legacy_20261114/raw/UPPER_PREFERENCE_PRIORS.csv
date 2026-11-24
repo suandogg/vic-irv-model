@@ -1,0 +1,9 @@
+SourcePartyKey,DestinationPartyKey,PriorWeight,Enabled,Rationale,SourceURL
+ALP,GRN,3,TRUE,Broad ideological prior pending empirical post-GTV calibration,
+ALP,LIB,1,TRUE,Broad ideological prior pending empirical post-GTV calibration,
+LIB,ON,2,TRUE,Broad ideological prior pending empirical post-GTV calibration,
+LIB,ALP,1,TRUE,Broad ideological prior pending empirical post-GTV calibration,
+GRN,ALP,4,TRUE,Broad ideological prior pending empirical post-GTV calibration,
+GRN,LIB,1,TRUE,Broad ideological prior pending empirical post-GTV calibration,
+ON,LIB,3,TRUE,Broad ideological prior pending empirical post-GTV calibration,
+ON,ALP,1,TRUE,Broad ideological prior pending empirical post-GTV calibration,

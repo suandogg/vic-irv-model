@@ -266,6 +266,10 @@ def perturb_preference_flows(diagnostic, origin, seat_class, shocks):
 def simulate(primary_inputs, matrices, params, posterior, ideology, targets,
              seat_adjustments, settings, progress=None, experiment=None, subregions=None):
     settings = validate(settings)
+    if experiment is None and params.get('_v6_defaults'):
+        from SRC.model_inputs import default_experiment
+        experiment, default_groups = default_experiment(primary_inputs)
+        if subregions is None: subregions = default_groups
     experiment = {} if experiment is None else dict(experiment)
     if set(experiment)-{'local_preference_mode','local_primary_t_df','subregion_fraction',
                        'concentration_log_sd','concentration_by_party','concentration_form',

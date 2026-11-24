@@ -22,7 +22,7 @@ class LegacyPrimaryModelTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.inputs = pd.read_csv(
-            ROOT / "data" / "raw" / "LEGACY_PRIMARY_INPUTS.csv"
+            ROOT / "data" / "legacy_20261114" / "raw" / "LEGACY_PRIMARY_INPUTS.csv"
         )
         cls.expected = pd.read_csv(
             ROOT / "tests" / "fixtures" / "LEGACY_PRIMARY_EXPECTED.csv"

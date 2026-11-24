@@ -1,0 +1,278 @@
+{
+  "profile": {
+    "id": "website-interim-2026-11-24-integrity-v6",
+    "scalar_overrides": {
+      "ON alpha": 0.8
+    },
+    "preference_offsets": {
+      "classes": [
+        "Peri-urban",
+        "Provincial",
+        "Regional"
+      ],
+      "by_donor": {
+        "ALP": 0.736478,
+        "LNP": 0.450609,
+        "IND": 0.745884,
+        "OTH": 0.98151
+      }
+    },
+    "uncertainty": {
+      "statewide_sd_pp": {
+        "ALP": 2.58324923279813,
+        "LNP": 2.58324923279813,
+        "GRN": 1.4686042013221317,
+        "ON": 2.134003178186207,
+        "IND": 0.8618931878317271,
+        "OTH": 0.8618931878317271
+      },
+      "effective_statewide_sd_pp": {
+        "major": 2.2465966802073125,
+        "Greens": 1.4269820523670846,
+        "One Nation": 1.906408128922815,
+        "other": 1.6996731711975948
+      },
+      "local_regional_factors": {
+        "ALP": 1.624653,
+        "LNP": 1.624653,
+        "GRN": 1.624653,
+        "ON": 1.624653,
+        "IND": 3.975,
+        "OTH": 3.975
+      }
+    },
+    "input_corrections": {
+      "lnp_precollapse": {
+        "disable": [
+          "Bass",
+          "Euroa",
+          "Mildura",
+          "Morwell",
+          "Shepparton"
+        ],
+        "add": {
+          "Ripon": {
+            "ON": 0.049751,
+            "ALP": 0.026789,
+            "LNP": 0.92346
+          }
+        }
+      },
+      "htv_review": {
+        "greens_seats_add": [
+          "Eureka",
+          "Hawthorn",
+          "Morwell"
+        ],
+        "labor_open_seats_add": [
+          "Albert Park"
+        ]
+      },
+      "htv_deal": {
+        "exceptions": [],
+        "half_shift_seats": [
+          "Brunswick",
+          "Footscray"
+        ]
+      },
+      "candidate_field": {
+        "reviewed_remove": [],
+        "reviewed_upsert": [
+          [
+            "Hawthorn",
+            "hawthorn_shima_ibuki",
+            "Shima Ibuki",
+            "entrant",
+            "IND",
+            "17.183",
+            "7.433",
+            "32.429",
+            "",
+            "",
+            "19.98",
+            "Reviewed 12 Nov 2026 (Callum): teal successor treated as the returning Hawthorn independent. Lowe 19.98% (2022) times retention 0.86 (10-90%: 0.37-1.62); teal support follows the movement, not the candidate."
+          ]
+        ],
+        "default_remove": [
+          "hawthorn_ibuki_shima"
+        ],
+        "default_add": []
+      },
+      "seat_adjustments": {
+        "South Barwon|ALP": {
+          "retiring_incumbent": "TRUE"
+        },
+        "Ringwood|LNP": {
+          "party": "ALP",
+          "retiring_incumbent": "TRUE"
+        }
+      },
+      "legacy_primary_inputs": {
+        "Ringwood": {
+          "held_by": "ALP"
+        },
+        "Narracan": {
+          "ALP_pvi": "-0.111432",
+          "LNP_pvi": "0.206104",
+          "GRN_pvi": "-0.046794",
+          "IND_pvi": "0.003823",
+          "OTH_pvi": "-0.051702"
+        }
+      }
+    },
+    "evidence_offsets": [
+      {
+        "id": "S2-ALP+LNP",
+        "donor": "ON",
+        "recipient": "LNP",
+        "classes": [
+          "Inner Ring",
+          "Middle Ring",
+          "Outer Metro",
+          "Peri-urban",
+          "Provincial",
+          "Regional"
+        ],
+        "context": "ALP+LNP",
+        "offset": 0.091471,
+        "seat_factor": {}
+      },
+      {
+        "id": "S2-ALP+GRN+LNP",
+        "donor": "ON",
+        "recipient": "LNP",
+        "classes": [
+          "Inner Ring",
+          "Middle Ring",
+          "Outer Metro",
+          "Peri-urban",
+          "Provincial",
+          "Regional"
+        ],
+        "context": "ALP+GRN+LNP",
+        "offset": 0.1856,
+        "seat_factor": {}
+      },
+      {
+        "id": "S2-ALP+GRN+LNP+OTH",
+        "donor": "ON",
+        "recipient": "LNP",
+        "classes": [
+          "Inner Ring",
+          "Middle Ring",
+          "Outer Metro",
+          "Peri-urban",
+          "Provincial",
+          "Regional"
+        ],
+        "context": "ALP+GRN+LNP+OTH",
+        "offset": 0.013371,
+        "seat_factor": {}
+      },
+      {
+        "id": "S2-ALP+GRN+IND+LNP",
+        "donor": "ON",
+        "recipient": "LNP",
+        "classes": [
+          "Inner Ring",
+          "Middle Ring",
+          "Outer Metro",
+          "Peri-urban",
+          "Provincial",
+          "Regional"
+        ],
+        "context": "ALP+GRN+IND+LNP",
+        "offset": 0.098842,
+        "seat_factor": {}
+      },
+      {
+        "id": "C2c-ALP+GRN+LNP+ON",
+        "donor": "IND",
+        "recipient": "ON",
+        "classes": [
+          "Inner Ring",
+          "Middle Ring",
+          "Outer Metro"
+        ],
+        "context": "ALP+GRN+LNP+ON",
+        "offset": -0.164,
+        "seat_factor": {}
+      },
+      {
+        "id": "C2c-ALP+ON",
+        "donor": "IND",
+        "recipient": "ON",
+        "classes": [
+          "Inner Ring",
+          "Middle Ring",
+          "Outer Metro"
+        ],
+        "context": "ALP+ON",
+        "offset": 0.5295,
+        "seat_factor": {}
+      }
+    ],
+    "lnp_on_targets": {
+      "donor": "LNP",
+      "recipient": "ON",
+      "multi": {
+        "Inner Ring": 0.511139,
+        "Middle Ring": 0.529125,
+        "Outer Metro": 0.5013
+      },
+      "pair": {
+        "Inner Ring": 0.63476,
+        "Middle Ring": 0.63476,
+        "Outer Metro": 0.63476
+      },
+      "seat_factor": {
+        "GREENVALE": 0.0,
+        "PRESTON": 0.0,
+        "BRUNSWICK": 0.5,
+        "FOOTSCRAY": 0.5
+      },
+      "sd": "generic"
+    },
+    "special_prior_overrides": {
+      "LNP+ON|ALP|Inner Ring": {
+        "ALP": null,
+        "LNP": 0.779,
+        "ON": 0.221
+      },
+      "LNP+ON|ALP|Middle Ring": {
+        "ALP": null,
+        "LNP": 0.779,
+        "ON": 0.221
+      },
+      "LNP+ON|ALP|Outer Metro": {
+        "ALP": null,
+        "LNP": 0.779,
+        "ON": 0.221
+      }
+    },
+    "engine_fixes": {
+      "siphon_class_names": {
+        "INNER RING": "INNERMETRO",
+        "REGIONAL": "RURAL"
+      },
+      "anchor_key": "AEC_ANCHOR_WHEN_MISSING"
+    }
+  },
+  "website_profile_sha256": "5a68df0866212ba659aa0eaf5a1c563f9b7d3557813ed02029c2331ffcde5514",
+  "website_run_manifest_sha256": "ba9c27608d91ea523ada7d8ebedf5a44b9266021076d172a8b7376a68e75be5e",
+  "copied_snapshot_files_changed": [
+    "data/raw/FORECAST PARAMS.csv",
+    "data/raw/LEGACY_PRIMARY_INPUTS.csv",
+    "data/raw/LOWER_LNP_PRECOLLAPSE.csv",
+    "data/raw/LOWER_SEAT_ADJUSTMENTS.csv"
+  ],
+  "targets": {
+    "ALP": 21.89,
+    "LNP": 30.78,
+    "GRN": 14.46,
+    "ON": 21.87,
+    "IND": 5.5,
+    "OTH": 5.5
+  },
+  "seed": 20261010
+}

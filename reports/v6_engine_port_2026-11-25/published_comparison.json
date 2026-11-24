@@ -1,0 +1,7 @@
+{
+  "published_first_1000_draw_counts_identical": true,
+  "published_final_pairs_all_88_identical": true,
+  "published_central_roundoff_seat_count": 38,
+  "max_abs_difference_pp": 2.842170943040401e-14,
+  "paired_1000_reference_vs_native": "byte-identical exports and arrays"
+}

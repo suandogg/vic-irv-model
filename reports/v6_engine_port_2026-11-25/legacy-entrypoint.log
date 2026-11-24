@@ -1,0 +1,22 @@
+2026-11-25 10:51:05.650 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=143654912
+[IRV_CHECKPOINT] 0.001s load_static_inputs start rss_kb=143654912
+[IRV_CHECKPOINT] 0.001s sheet sync synced=0 errors=0 rss_kb=143654912
+[IRV_CHECKPOINT] 0.008s loaded primary_inputs rows=88 rss_kb=147095552
+[IRV_CHECKPOINT] 0.040s loaded matrices count=88 rss_kb=149028864
+[IRV_CHECKPOINT] 0.047s loaded params scalars=48 specials=54 rss_kb=149061632
+[IRV_CHECKPOINT] 0.054s loaded posterior keys=28 rss_kb=149340160
+[IRV_CHECKPOINT] 0.055s loaded ideology keys=6 rss_kb=149340160
+[IRV_CHECKPOINT] 0.055s loaded baseline_2cp rows=88 rss_kb=149340160
+[IRV_CHECKPOINT] 0.055s loaded baseline_regions rows=8 rss_kb=149340160
+[IRV_CHECKPOINT] 0.056s loaded turnout_weights rows=88 rss_kb=149405696
+[IRV_CHECKPOINT] 0.058s loaded seat_adjustments rows=89 rss_kb=149569536
+[IRV_CHECKPOINT] 0.059s loaded poll_scenarios rows=1 rss_kb=149569536
+[IRV_CHECKPOINT] 0.065s loaded named upper-house inputs rss_kb=151683072
+[IRV_CHECKPOINT] 0.130s scenario inputs start rss_kb=156614656
+[IRV_CHECKPOINT] 0.132s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=157286400
+[IRV_CHECKPOINT] 0.153s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=171458560
+[IRV_CHECKPOINT] 0.204s run_model adjusted primaries rss_kb=171982848
+[IRV_CHECKPOINT] 0.206s run_model primary_votes rows=528 rss_kb=172032000
+[IRV_CHECKPOINT] 0.289s run_model irv complete results=88 rss_kb=172048384
+PASS: --legacy snapshot entrypoint restores ddfaf34 targets and opt-in switches off.

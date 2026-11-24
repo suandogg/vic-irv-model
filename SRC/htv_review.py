@@ -47,6 +47,10 @@ KEYS = {'on_target', 'on_seat_types', 'greens_points', 'greens_seats', 'labor_op
 
 def load_htv_review_config(on_target=ON_TARGET, greens_points=GREENS_POINTS, on_seat_types=ON_SEAT_TYPES,
                            greens_seats=GREENS_SEATS, labor_open_seats=LABOR_OPEN_SEATS, labor_open_shift=None):
+    from SRC.model_version import legacy_mode
+    if not legacy_mode():
+        if greens_seats is GREENS_SEATS:greens_seats=tuple(greens_seats)+('Eureka','Hawthorn','Morwell')
+        if labor_open_seats is LABOR_OPEN_SEATS:labor_open_seats=tuple(labor_open_seats)+('Albert Park',)
     if labor_open_shift is None:
         labor_open_shift = load_htv_deal_config()['prahran_shift']
     return validate_config(dict(on_target=float(on_target), greens_points=float(greens_points),

@@ -221,6 +221,11 @@ def sync_inputs_from_google_sheet(
     for tab_name, csv_filename in FILES.items():
         if only_tabs and tab_name not in only_tabs and csv_filename not in only_tabs:
             continue
+        protected = set(json.loads((ROOT/'data/v6_protected_inputs.json').read_text()))
+        if csv_filename in protected:
+            skipped.append(tab_name)
+            diagnostics.append(input_diagnostic(tab_name,csv_filename,'skipped','Frozen v6 model input; change through reviewed Git release, not Sheet sync.'))
+            continue
         if tab_name not in available_tabs:
             skipped.append(tab_name)
             diagnostics.append(input_diagnostic(tab_name,csv_filename,"skipped","Tab not found in workbook."))

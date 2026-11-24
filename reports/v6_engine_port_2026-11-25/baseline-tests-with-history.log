@@ -1,0 +1,106 @@
+.........................................2026-11-25 10:45:36.521 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=152813568
+[IRV_CHECKPOINT] 0.001s load_static_inputs start rss_kb=152813568
+[IRV_CHECKPOINT] 0.002s sheet sync synced=0 errors=0 rss_kb=152813568
+[IRV_CHECKPOINT] 0.006s loaded primary_inputs rows=88 rss_kb=152813568
+[IRV_CHECKPOINT] 0.041s loaded matrices count=88 rss_kb=152813568
+[IRV_CHECKPOINT] 0.047s loaded params scalars=48 specials=54 rss_kb=152813568
+[IRV_CHECKPOINT] 0.055s loaded posterior keys=28 rss_kb=152813568
+[IRV_CHECKPOINT] 0.056s loaded ideology keys=6 rss_kb=152813568
+[IRV_CHECKPOINT] 0.056s loaded baseline_2cp rows=88 rss_kb=152813568
+[IRV_CHECKPOINT] 0.057s loaded baseline_regions rows=8 rss_kb=152813568
+[IRV_CHECKPOINT] 0.058s loaded turnout_weights rows=88 rss_kb=152813568
+[IRV_CHECKPOINT] 0.059s loaded seat_adjustments rows=89 rss_kb=152813568
+[IRV_CHECKPOINT] 0.060s loaded poll_scenarios rows=1 rss_kb=152813568
+[IRV_CHECKPOINT] 0.067s loaded named upper-house inputs rss_kb=155156480
+[IRV_CHECKPOINT] 0.188s scenario inputs start rss_kb=159121408
+[IRV_CHECKPOINT] 0.190s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=159154176
+[IRV_CHECKPOINT] 0.215s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=173064192
+[IRV_CHECKPOINT] 0.272s run_model adjusted primaries rss_kb=173326336
+[IRV_CHECKPOINT] 0.274s run_model primary_votes rows=528 rss_kb=173441024
+[IRV_CHECKPOINT] 0.368s run_model irv complete results=88 rss_kb=173457408
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=197509120
+[IRV_CHECKPOINT] 0.061s scenario inputs start rss_kb=199327744
+[IRV_CHECKPOINT] 0.062s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=199360512
+[IRV_CHECKPOINT] 0.087s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=211025920
+[IRV_CHECKPOINT] 0.192s run_model adjusted primaries rss_kb=211288064
+[IRV_CHECKPOINT] 0.203s run_model primary_votes rows=528 rss_kb=211288064
+[IRV_CHECKPOINT] 0.287s run_model irv complete results=88 rss_kb=211304448
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=213352448
+[IRV_CHECKPOINT] 0.054s scenario inputs start rss_kb=213352448
+[IRV_CHECKPOINT] 0.056s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=213352448
+[IRV_CHECKPOINT] 0.076s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=216727552
+[IRV_CHECKPOINT] 0.131s run_model adjusted primaries rss_kb=216743936
+[IRV_CHECKPOINT] 0.133s run_model primary_votes rows=528 rss_kb=216743936
+[IRV_CHECKPOINT] 0.224s run_model irv complete results=88 rss_kb=216743936
+....................................................sss.........2026-11-25 10:45:59.590 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=216793088
+[IRV_CHECKPOINT] 0.051s scenario inputs start rss_kb=216793088
+[IRV_CHECKPOINT] 0.053s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=216793088
+[IRV_CHECKPOINT] 0.073s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=217858048
+[IRV_CHECKPOINT] 0.119s run_model adjusted primaries rss_kb=217858048
+[IRV_CHECKPOINT] 0.121s run_model primary_votes rows=528 rss_kb=217874432
+[IRV_CHECKPOINT] 0.202s run_model irv complete results=88 rss_kb=217907200
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=220168192
+[IRV_CHECKPOINT] 0.053s scenario inputs start rss_kb=220168192
+[IRV_CHECKPOINT] 0.054s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=220168192
+[IRV_CHECKPOINT] 0.073s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=220168192
+[IRV_CHECKPOINT] 0.120s run_model adjusted primaries rss_kb=220168192
+[IRV_CHECKPOINT] 0.122s run_model primary_votes rows=528 rss_kb=220168192
+[IRV_CHECKPOINT] 0.207s run_model irv complete results=88 rss_kb=220168192
+..........2026-11-25 10:46:09.891 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=222887936
+[IRV_CHECKPOINT] 0.069s scenario inputs start rss_kb=222887936
+[IRV_CHECKPOINT] 0.070s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=222887936
+[IRV_CHECKPOINT] 0.090s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=222887936
+[IRV_CHECKPOINT] 0.139s run_model adjusted primaries rss_kb=222887936
+[IRV_CHECKPOINT] 0.141s run_model primary_votes rows=528 rss_kb=222887936
+[IRV_CHECKPOINT] 0.227s run_model irv complete results=88 rss_kb=222887936
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=223854592
+[IRV_CHECKPOINT] 0.050s scenario inputs start rss_kb=223854592
+[IRV_CHECKPOINT] 0.051s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=223854592
+[IRV_CHECKPOINT] 0.070s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=223854592
+[IRV_CHECKPOINT] 0.117s run_model adjusted primaries rss_kb=223854592
+[IRV_CHECKPOINT] 0.119s run_model primary_votes rows=528 rss_kb=223854592
+[IRV_CHECKPOINT] 0.203s run_model irv complete results=88 rss_kb=223854592
+..................................2026-11-25 10:46:20.433 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=223854592
+[IRV_CHECKPOINT] 0.053s scenario inputs start rss_kb=223854592
+[IRV_CHECKPOINT] 0.055s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=223854592
+[IRV_CHECKPOINT] 0.074s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=223854592
+[IRV_CHECKPOINT] 0.121s run_model adjusted primaries rss_kb=223854592
+[IRV_CHECKPOINT] 0.123s run_model primary_votes rows=528 rss_kb=223854592
+[IRV_CHECKPOINT] 0.206s run_model irv complete results=88 rss_kb=223854592
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=224870400
+[IRV_CHECKPOINT] 0.049s scenario inputs start rss_kb=224870400
+[IRV_CHECKPOINT] 0.051s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=224870400
+[IRV_CHECKPOINT] 0.069s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=224870400
+[IRV_CHECKPOINT] 0.119s run_model adjusted primaries rss_kb=224870400
+[IRV_CHECKPOINT] 0.121s run_model primary_votes rows=528 rss_kb=224870400
+[IRV_CHECKPOINT] 0.204s run_model irv complete results=88 rss_kb=224870400
+.......2026-11-25 10:46:30.485 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-25 10:46:30.485 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+.2026-11-25 10:46:31.002 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+.2026-11-25 10:46:31.891 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-25 10:46:31.891 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+..........................2026-11-25 10:46:34.873 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=225001472
+[IRV_CHECKPOINT] 0.049s scenario inputs start rss_kb=225001472
+[IRV_CHECKPOINT] 0.050s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=225001472
+[IRV_CHECKPOINT] 0.070s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=225181696
+[IRV_CHECKPOINT] 0.116s run_model adjusted primaries rss_kb=225198080
+[IRV_CHECKPOINT] 0.118s run_model primary_votes rows=528 rss_kb=225198080
+[IRV_CHECKPOINT] 0.200s run_model irv complete results=88 rss_kb=225198080
+[IRV_CHECKPOINT] 0.000s app import complete rss_kb=229621760
+[IRV_CHECKPOINT] 0.049s scenario inputs start rss_kb=229621760
+[IRV_CHECKPOINT] 0.051s scenario inputs complete targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=229621760
+[IRV_CHECKPOINT] 0.070s run_model start targets={'ALP': 36.66, 'LNP': 34.48, 'GRN': 11.5, 'ON': 0.28, 'IND': 5.55, 'OTH': 11.53} rss_kb=230539264
+[IRV_CHECKPOINT] 0.118s run_model adjusted primaries rss_kb=230539264
+[IRV_CHECKPOINT] 0.119s run_model primary_votes rows=528 rss_kb=230539264
+[IRV_CHECKPOINT] 0.201s run_model irv complete results=88 rss_kb=230539264
+....................2026-11-25 10:46:45.264 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+...............
+----------------------------------------------------------------------
+Ran 219 tests in 69.335s
+
+OK (skipped=3)

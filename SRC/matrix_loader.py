@@ -76,4 +76,11 @@ def load_synth_pref_matrices(filename="SYNTH PREF MATRIX.csv"):
 
         matrices = dict(list(matrices.items())[:88])
 
+    from SRC.model_version import legacy_mode
+    if not legacy_mode():
+        from SRC.vec_field_evidence import attach_vec_fields
+        from SRC.oth_matrix_builder import rebuild_oth_matrices
+        from SRC.params_loader import load_params
+        matrices = rebuild_oth_matrices(attach_vec_fields(matrices),load_params())
+        matrices = {k: dict(v, matrix=dict(v["matrix"], __district__=k)) for k,v in matrices.items()}
     return matrices

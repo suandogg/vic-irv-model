@@ -29,7 +29,12 @@ for party, sd in zip(PARTIES, [2,2,1,3,1,1]):
 
 
 def defaults():
-    return {spec[1]:spec[2] for spec in SPECS}
+    from SRC.model_version import legacy_mode
+    result={spec[1]:spec[2] for spec in SPECS}
+    if not legacy_mode():
+        from SRC.release_defaults import STATEWIDE_SD_PP
+        result.update({'STATEWIDE_SD_'+p+'_PP':v for p,v in STATEWIDE_SD_PP.items()})
+    return result
 
 
 def parameter_table(values=None):
@@ -45,6 +50,8 @@ def validate(values):
     result = defaults()
     result.update(values)
     for _, key, _, _, _, low, high in SPECS:
+        from SRC.model_version import legacy_mode
+        if key=='SIMULATIONS' and not legacy_mode(): high=50000
         try:
             value = float(result[key])
         except (TypeError, ValueError) as exc:

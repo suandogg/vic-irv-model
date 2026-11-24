@@ -203,6 +203,8 @@ def apply_on_siphon(vec, alive, eliminated_party, seat_type, scalars):
     strength = 0.50 if strength_value is None else float(strength_value)
     donor_cap = 0.25 if donor_cap_value is None else float(donor_cap_value)
 
+    if scalars.get("V6_SIPHON_CLASS_NAMES"):
+        seat_type = {"INNER RING":"INNERMETRO", "REGIONAL":"RURAL"}.get(str(seat_type or "").strip().upper(),seat_type)
     seat_class = normalise_seat_class(seat_type)
 
     geo_mult = 1
@@ -857,38 +859,36 @@ def _diagnose_preference_weights_base(
 
 def diagnose_preference_weights(eliminated_party, alive_parties, matrix,
                                 geography_class, params, posterior=None, ideology=None):
-    """Central engine unchanged unless a simulation explicitly supplies shocks."""
-    cache = params.get('_forecast_flow_cache')
-    key = (eliminated_party, tuple(sorted(alive_parties)), id(matrix),
-           geography_class, id(posterior), id(ideology))
-    if cache is not None and key in cache:
-        return cache[key]
-    result = _diagnose_preference_weights_base(
-        eliminated_party, alive_parties, matrix, geography_class, params, posterior, ideology)
-    if matrix.get('__htv_shift__', {}).get(eliminated_party):
+    """Native v6 pipeline; unmarked legacy inputs retain the original flow order."""
+    from SRC.release_defaults import target_flows, offset_flows, evidence_flows, TARGET_KEY, OFFSET_KEY, EVIDENCE_KEY
+    cache=params.get('_forecast_flow_cache')
+    key=(eliminated_party,tuple(sorted(alive_parties)),id(matrix),geography_class,id(posterior),id(ideology))
+    if cache is not None and key in cache:return cache[key]
+    result=_diagnose_preference_weights_base(eliminated_party,alive_parties,matrix,geography_class,params,posterior,ideology)
+    if matrix.get('__htv_shift__',{}).get(eliminated_party):
         from SRC.htv_deal import shift_flows
-        flows = shift_flows(result['final_flows'], eliminated_party, matrix)
+        flows=shift_flows(result['final_flows'],eliminated_party,matrix)
         if flows is not result['final_flows']:
-            result = dict(result, final_flows=flows,
-                          final_vector=[flows.get(party, 0.0) for party in PARTIES])
-            result['stages'] = list(result['stages']) + [vector_stage(
-                '2026 preference deal', result['final_vector'], set(alive_parties),
-                'Review setting: how-to-vote change moves the split between two continuing candidates.')]
-    shocks = params.get('_forecast_preference_shocks')
-    if shocks is None:
-        if cache is not None:
-            cache[key] = result
-        return result
-    from SRC.forecast_engine import perturb_preference_flows
-    result = dict(result)
-    result['final_flows'] = perturb_preference_flows(
-        result, eliminated_party, geography_class, shocks)
-    result['final_vector'] = [result['final_flows'].get(party,0.0) for party in PARTIES]
-    result['stages'] = list(result['stages']) + [vector_stage(
-        'forecast preference draw',result['final_vector'],set(alive_parties),
-        'Simulation-only correlated uncertainty around the central flow; source rows unchanged.')]
-    if cache is not None:
-        cache[key] = result
+            result=dict(result,final_flows=flows,final_vector=[flows.get(p,0.) for p in PARTIES])
+            result['stages']=list(result['stages'])+[vector_stage('2026 preference deal',result['final_vector'],set(alive_parties),'Approved 2026 registered-card split.')]
+    flows=target_flows(result['final_flows'],eliminated_party,geography_class,matrix,params.get(TARGET_KEY))
+    if flows is not result['final_flows']:
+        result=dict(result,final_flows=flows,final_vector=[flows.get(p,0.) for p in PARTIES],flow_target=True)
+        result['stages']=list(result['stages'])+[vector_stage('SA 2026 metro target',result['final_vector'],set(alive_parties),'Approved class/context Liberal to One Nation target.')]
+    shocks=params.get('_forecast_preference_shocks')
+    if shocks is not None:
+        from SRC.forecast_engine import perturb_preference_flows
+        probe=dict(result,basis='generic preference SD',stages=[]) if result.get('flow_target') else result
+        flows=perturb_preference_flows(probe,eliminated_party,geography_class,shocks)
+        result=dict(result,final_flows=flows,final_vector=[flows.get(p,0.) for p in PARTIES])
+        result['stages']=list(result['stages'])+[vector_stage('forecast preference draw',result['final_vector'],set(alive_parties),'Simulation-only correlated uncertainty around the central flow; source rows unchanged.')]
+    flows=offset_flows(result['final_flows'],eliminated_party,geography_class,params.get(OFFSET_KEY))
+    flows=evidence_flows(flows,eliminated_party,geography_class,matrix,params.get(EVIDENCE_KEY))
+    if flows is not result['final_flows']:result=dict(result,final_flows=flows,final_vector=[flows.get(p,0.) for p in PARTIES])
+    if params.get('_v6_defaults'):
+        from SRC.release_defaults import describe_basis
+        result=dict(result,basis_label=describe_basis(result,eliminated_party,set(alive_parties)))
+    if cache is not None:cache[key]=result
     return result
 
 

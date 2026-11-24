@@ -122,4 +122,5 @@ def load_params(filename="PARAMS.csv"):
             "ON": clean_value(raw.iloc[i, 5]),
         }
 
-    return params
+    from SRC.release_defaults import apply_defaults
+    return apply_defaults(params)

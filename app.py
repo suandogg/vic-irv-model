@@ -93,6 +93,12 @@ DEFAULT_STATEWIDE = {
     "OTH": 11.53,
 }
 
+from SRC.model_version import legacy_mode
+if not legacy_mode():
+    import json
+    DEFAULT_STATEWIDE = json.loads((Path(__file__).resolve().parent/'data/v6_targets.json').read_text())
+    INPUT_MODEL_VERSION = 'v6'
+
 BASELINE_2022 = {
     "ALP": 36.66,
     "LNP": 34.48,
@@ -119,7 +125,7 @@ UPPER_BASELINE_SEATS_2022 = {
     "SFF": 1,
 }
 
-INPUT_KEY_PREFIX = "statewide_primary_input_v1003"
+INPUT_KEY_PREFIX = "statewide_primary_input_v1003" + ("" if legacy_mode() else "_v6")
 
 
 APP_START_TIME = time.perf_counter()
@@ -465,21 +471,26 @@ with st.sidebar.expander('Candidate continuity inputs', expanded=False):
         st.dataframe(candidate_inputs[['district','candidate_name','continuity_status','enabled']],hide_index=True)
     if active_candidates.empty:
         st.info('Candidate effects are connected but inactive pending calibration.')
-st.sidebar.checkbox('Field-aware candidates (Version B)', key='candidate_field_version_b',
+from SRC.model_version import legacy_mode
+st.sidebar.caption('Legacy 14 November mode' if legacy_mode() else 'Approved frozen website v6 defaults · 24 November. The five enabled layers below are mandatory; review labels describe their historical development.')
+if not legacy_mode():
+    for _key in ('candidate_field_version_b','alp_low_base_taper','oth_proportional','htv_deal_2026','htv_review_2026'):
+        st.session_state[_key]=True
+st.sidebar.checkbox('Field-aware candidates (Version B)', key='candidate_field_version_b', value=not legacy_mode(), disabled=not legacy_mode(),
                     help='Rebuilds Assembly seats from the provisional 31 October ABC ballot. '
                          'Applies to the central count and forecast. Candidate strengths are provisional.')
-st.sidebar.checkbox('Labor low-baseline taper (review)', key='alp_low_base_taper',
+st.sidebar.checkbox('Labor low-baseline taper (review)', key='alp_low_base_taper', value=not legacy_mode(), disabled=not legacy_mode(),
                     help='Tapers Labor swing and simulated lean error in seats below 30%. '
                          'Applies to the central count and forecast. Not an approved central method.')
-st.sidebar.checkbox('Proportional Other scaling (review)', key='oth_proportional',
+st.sidebar.checkbox('Proportional Other scaling (review)', key='oth_proportional', value=not legacy_mode(), disabled=not legacy_mode(),
                     help='Scales Other by each seat\'s 2022 strength instead of adding a fixed lean, '
                          'so low-Other seats such as Ashwood no longer clip to zero. '
                          'Applies to the central count and forecast. Not an approved central method.')
-st.sidebar.checkbox('2026 Labor-Liberal preference deal (review)', key='htv_deal_2026',
+st.sidebar.checkbox('2026 Labor-Liberal preference deal (review)', key='htv_deal_2026', value=not legacy_mode(), disabled=not legacy_mode(),
                     help='Liberal preferences lean to Labor over the Greens everywhere except Footscray and Brunswick, '
                          'using the 2018 to 2022 change; Labor runs an open card in Prahran. '
                          'Applies to the central count and forecast. Not an approved central method.')
-st.sidebar.checkbox('2026 how-to-vote review: One Nation, Greens and Caulfield (review)', key='htv_review_2026',
+st.sidebar.checkbox('2026 how-to-vote review: One Nation, Greens and Caulfield (review)', key='htv_review_2026', value=not legacy_mode(), disabled=not legacy_mode(),
                     help='One Nation voters give Labor 72.5% of a Labor-Greens split in Inner and Middle Ring seats '
                          '(AEC federal evidence); Greens open cards in 15 seats cut Labor\'s share of Greens '
                          'preferences against the Coalition by 3 points; Labor\'s Caulfield open card is treated like Prahran. '
@@ -547,7 +558,7 @@ if st.sidebar.button("Refresh Google Sheet inputs"):
     st.rerun()
 if trial_method.startswith("seat_reliability_"):
     posterior = seat_count_trial(posterior, int(trial_method.rsplit("_", 1)[1]))
-st.sidebar.caption("Live testing-sheet inputs. Trial choice affects Assembly preferences; saved comparison reports use the frozen 8 October inputs.")
+st.sidebar.caption('Legacy testing inputs and optional research comparisons.' if legacy_mode() else 'Frozen v6 lower-house inputs. Sheet sync may update display and optional saved scenarios, but cannot overwrite the approved model files.')
 if trial_method == "single_on_baseline":
     st.sidebar.caption("Matrix-direct sensitivity: replaces generic posterior/prior selection in ON-related rounds. Exact federal blending remains; special priors are locked. Not a production recommendation.")
 elif trial_method == "on_no_extra_transforms":

@@ -1,0 +1,34 @@
+# Frozen v6 → native engine inventory
+
+Source: website profile `website-interim-2026-11-24-integrity-v6` and the immutable input receipt for `polling-vic-interim-20261124-v6-50000`. The website is read-only throughout this task. `input_provenance.json` records the original profile, source SHA-256 and snapshot differences. No values were fitted or adjusted during this port.
+
+| Profile operation | Exact setting / behaviour | Native destination |
+|---|---|---|
+| One Nation geography | Exponent 0.8; donor strength, donor matrix and depletion unchanged | `data/raw/PARAMS.csv`, `SRC/params_loader.py`, `SRC/release_defaults.py` |
+| Regional receipts of ON preferences | Peri-urban, Provincial, Regional: subtract donor→ON log-odds ALP 0.736478, LNP 0.450609, IND 0.745884, OTH 0.981510; other recipients rescaled proportionally; applied after preference draws | `SRC/release_defaults.py`, native `SRC/preference_engine.py` |
+| Metro Liberal exclusions, before draws | ON target in multi-candidate contexts: Inner Ring 0.511139, Middle Ring 0.529125, Outer Metro 0.5013; final pair 0.63476 in all three | Same native preference pipeline; `SRC/matrix_loader.py` attaches district identity |
+| Seat-level Liberal card exceptions | Greenvale/Preston factor 0; Brunswick/Footscray factor 0.5; all others factor 1. Targets interpolate the central ON share; generic preference SD for targeted flows | `SRC/release_defaults.py`, `SRC/preference_engine.py` |
+| One Nation exclusions, after draws | ON→LNP log-odds additions for continuing sets ALP+LNP: 0.091471; ALP+GRN+LNP: 0.1856; ALP+GRN+LNP+OTH: 0.013371; ALP+GRN+IND+LNP: 0.098842. All six classes. No superseded v5 C1/C2a offsets stacked | `SRC/release_defaults.py`, `SRC/preference_engine.py` |
+| Metro Independent exclusions | IND→ON offset −0.164 with ALP+GRN+LNP+ON; +0.5295 with ALP+ON. Applies after other transforms/draws | Same |
+| Labor-excluded special prior | ALP excluded with LNP+ON continuing, all three metro classes: LNP 0.779, ON 0.221 | `data/raw/PARAMS.csv`, `SRC/params_loader.py` |
+| Siphon class-name fix | Map current Inner Ring to legacy INNERMETRO (0.70 multiplier), Regional to RURAL (1.25); no other siphon change | Native `SRC/preference_engine.py` |
+| AEC anchor key alias | Read documented `AEC_ANCHOR_WHEN_MISSING` into the existing internal alias `AEC_ANCHOR_WHEN_MISS`; value unchanged | `SRC/params_loader.py` / `SRC/release_defaults.py` |
+| Liberal/National precollapse | Disable Bass, Euroa, Mildura, Morwell, Shepparton; Ripon leakage 7.654% split 65% ON / 35% ALP: ON 4.9751%, ALP 2.6789%, LNP 92.3460%, using existing multi-destination rows | `data/raw/LOWER_LNP_PRECOLLAPSE.csv`, existing native precollapse loader |
+| Hawthorn inheritance | Reviewed Shima Ibuki row, median 17.183, p10 7.433, p90 32.429, 2022 reference 19.98; no separate default `hawthorn_ibuki_shima`. The brand controls are correlation controls, not a successor inheritance rule | Existing `data/development/candidate_field/REVIEWED_CANDIDATES.csv`, `DEFAULT_IND_STRENGTHS.csv`; already correct in ddfaf34 |
+| Retirement / held-by fixes | South Barwon ALP retiring TRUE; Ringwood LNP adjustment re-keyed to ALP, retiring TRUE; Ringwood held_by ALP | `data/raw/LOWER_SEAT_ADJUSTMENTS.csv`, `LEGACY_PRIMARY_INPUTS.csv` |
+| Narracan leans rebuild | ALP −0.111432; LNP 0.206104; GRN −0.046794; IND 0.003823; OTH −0.051702. Approved 2018-on-2022-boundaries substitute for missing 2022 general election; no new reconstruction | `data/raw/LEGACY_PRIMARY_INPUTS.csv` |
+| Registered-card updates | Greens open additionally Eureka/Hawthorn/Morwell; Labor open additionally Albert Park; Brunswick/Footscray Liberal shift half-strength rather than excluded. Existing 72.5% ON→ALP in ALP/GRN splits and 3-point Greens open-card rule remain | `SRC/htv_deal.py`, `SRC/htv_review.py` default loaders |
+| Statewide raw SDs | ALP/LNP 2.58324923279813; GRN 1.4686042013221317; ON 2.134003178186207; IND/OTH 0.8618931878317271 pp. Effective targets major 2.2465966802073125, Greens 1.4269820523670846, ON 1.906408128922815; independent/other unchanged | `data/raw/FORECAST PARAMS.csv`, `SRC/forecast_params.py` defaults |
+| Residual factors | Local and regional SDs ×1.624653 for ALP/LNP/GRN/ON; ×3.975 for IND/OTH; stored once in CSV, never scaled again at runtime. Correlation, class/transport noise, concentration and preference uncertainty unchanged | `data/raw/NOWCAST BUDGET.csv`, existing native nowcast loader |
+| Evidence labels | Distinguish hand-set priors, synthetic ON rows, VEC exact-field rows and federal/prior blends | `SRC/release_defaults.py:describe_basis`, native diagnostic `basis_label` |
+| Existing run options activated | Version B candidate field, Labor low-base taper, proportional Other, HTV deal/review are defaults, not opt-in; VEC exact-field coverage and OTH rebuild are native default loader operations | `SRC/params_loader.py`, `matrix_loader.py`, `vec_field_evidence.py`, `model_inputs.py`, `app.py`, `forecast_ui.py` |
+| Approved forecast structure | Structured nowcast, concentration 0.30 positive-bounded, subregion fraction 0.5; 200-draw interactive preview, seed 20261010; native v6 accepts up to 50,000 draws, no automatic expensive run | `SRC/model_inputs.py`, `forecast_engine.py`, `forecast_ui.py`, `forecast_params.py` |
+| Same starting polling targets | ALP21.89/LNP30.78/GRN14.46/ON21.87/IND5.50/OTH5.50; fixed 23 November receipt, not an unreviewed new Sheet read | `data/v6_targets.json`, `app.py` defaults/versioned widget keys |
+
+## Legacy and Sheet boundaries
+
+`streamlit run snapshot_app.py -- --legacy` selects the original ddfaf34 inputs in `data/legacy_20261114/`, original 2022 input defaults, original uncertainty and the former opt-in controls. `PRISM_MODEL_VERSION=legacy` is the equivalent startup flag for scripts. The flag is startup-only so cached loaders cannot mix generations. It is the only new switch: necessary to reproduce the prior model. The existing research controls remain sensitivities; changing them means departing from v6.
+
+Approved lower-house inputs are committed to the engine's own raw CSVs. `data/v6_protected_inputs.json` lists files that Google Sheet sync cannot overwrite, in either startup mode. Sync reports each protected tab as skipped and never reads or writes its dataframe. Display settings, Council inputs and optional saved poll scenarios remain independent; the v6 default polling targets live in their own committed JSON. No credentials or Sheet writes are added.
+
+Pinned NumPy 2.4.4 and pandas 3.0.2 match the website run environment. Exact binary reproducibility also sets `PYTHONHASHSEED=0`, `OPENBLAS_NUM_THREADS=1`, `OMP_NUM_THREADS=1`; random hash iteration otherwise produces last-bit round-off (about 10^-16), despite identical model values and winners. This is recorded, not tuned away.

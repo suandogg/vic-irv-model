@@ -1,0 +1,48 @@
+{
+  "entrypoint": "snapshot_app.py",
+  "exceptions": [],
+  "errors": [],
+  "target_defaults": {
+    "ALP": 21.89,
+    "LNP": 30.78,
+    "GRN": 14.46,
+    "ON": 21.87,
+    "IND": 5.5,
+    "OTH": 5.5
+  },
+  "checked_seats": {
+    "Hawthorn": {
+      "winner": "LNP",
+      "runner_up": "GRN",
+      "displayed_winner_pct": 63.55
+    },
+    "Ripon": {
+      "winner": "ON",
+      "runner_up": "ALP",
+      "displayed_winner_pct": 58.91
+    },
+    "Narracan": {
+      "winner": "LNP",
+      "runner_up": "ON",
+      "displayed_winner_pct": 63.99
+    },
+    "Ringwood": {
+      "winner": "LNP",
+      "runner_up": "ALP",
+      "displayed_winner_pct": 54.12
+    },
+    "South Barwon": {
+      "winner": "LNP",
+      "runner_up": "ALP",
+      "displayed_winner_pct": 57.22
+    }
+  },
+  "forecast_defaults": {
+    "Select region": "Statewide",
+    "Saved polling scenario": "2022 baseline",
+    "Structural uncertainty trial (unvalidated)": "Concentration + structured nowcast (development)",
+    "Geographic uncertainty grouping": "Blend upper-house and sub-regions",
+    "Concentration mapping (research)": "Positive bounded (0\u20132)",
+    "Preference trial": "VEC exact fields with corrected coverage"
+  }
+}

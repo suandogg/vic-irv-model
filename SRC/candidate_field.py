@@ -15,7 +15,8 @@ import pandas as pd
 from SRC.constants import PARTIES
 
 ROOT = Path(__file__).resolve().parents[1]
-FIELD_DIR = ROOT / 'data' / 'development' / 'candidate_field'
+from SRC.model_version import data_root
+FIELD_DIR = data_root() / 'development' / 'candidate_field'
 IND, OTH = PARTIES.index('IND'), PARTIES.index('OTH')
 MAJOR = [i for i, p in enumerate(PARTIES) if p not in ('IND', 'OTH')]
 Z90 = 1.2815515655446004

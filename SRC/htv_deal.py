@@ -57,11 +57,16 @@ def seat_liberal_shifts(pooled, indirect_weight=INDIRECT_WEIGHT, path=EVIDENCE):
 
 def load_htv_deal_config(liberal_shift=None, prahran_shift=None, exceptions=EXCEPT,
                          indirect_weight=INDIRECT_WEIGHT, seat_specific=True):
+    from SRC.model_version import legacy_mode
+    v6 = not legacy_mode()
+    if v6 and exceptions is EXCEPT: exceptions=()
     if liberal_shift is None:
         liberal_shift = liberal_shift_from_evidence()
     if prahran_shift is None:
         prahran_shift = liberal_shift/2
     seats = seat_liberal_shifts(liberal_shift, indirect_weight) if seat_specific else {}
+    if v6:
+        for seat in ('BRUNSWICK','FOOTSCRAY'):seats[seat]=round(seats.get(seat,liberal_shift)/2,6)
     return validate_config(dict(liberal_shift=float(liberal_shift), prahran_shift=float(prahran_shift),
                                 exceptions=sorted(exceptions), seat_liberal_shifts=seats))
 

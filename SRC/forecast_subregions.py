@@ -4,7 +4,8 @@ from pathlib import Path
 import unicodedata
 import pandas as pd
 
-RAW = Path(__file__).resolve().parents[1]/'data/raw'
+from SRC.loaders import RAW_DIR
+RAW = RAW_DIR
 
 
 def seat_key(value):

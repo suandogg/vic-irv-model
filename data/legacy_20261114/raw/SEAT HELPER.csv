@@ -1,0 +1,118 @@
+Seat Name,Region,Seat Type,Held by
+,,,
+,,,
+,,,
+Box Hill,North-Eastern Metro,Middle Ring,ALP
+Bulleen,North-Eastern Metro,Middle Ring,LNP
+Glen Waverley,North-Eastern Metro,Middle Ring,ALP
+Ivanhoe,North-Eastern Metro,Middle Ring,ALP
+Bundoora,North-Eastern Metro,Middle Ring,ALP
+Bayswater,North-Eastern Metro,Outer Metro,ALP
+Croydon,North-Eastern Metro,Outer Metro,LNP
+Ringwood,North-Eastern Metro,Outer Metro,ALP
+Warrandyte,North-Eastern Metro,Outer Metro,LNP
+Eltham,North-Eastern Metro,Outer Metro,ALP
+Mill Park,North-Eastern Metro,Outer Metro,ALP
+Brunswick,Northern Metro,Inner Ring,GRN
+Northcote,Northern Metro,Inner Ring,ALP
+Melbourne,Northern Metro,Inner Ring,GRN
+Richmond,Northern Metro,Inner Ring,GRN
+Essendon,Northern Metro,Middle Ring,ALP
+Pascoe Vale,Northern Metro,Middle Ring,ALP
+Preston,Northern Metro,Middle Ring,ALP
+Broadmeadows,Northern Metro,Outer Metro,ALP
+Greenvale,Northern Metro,Outer Metro,ALP
+Thomastown,Northern Metro,Outer Metro,ALP
+Kalkallo,Northern Metro,Peri-urban,ALP
+Clarinda,South-Eastern Metro,Middle Ring,ALP
+Mordialloc,South-Eastern Metro,Middle Ring,ALP
+Mulgrave,South-Eastern Metro,Middle Ring,ALP
+Rowville,South-Eastern Metro,Outer Metro,LNP
+Cranbourne,South-Eastern Metro,Outer Metro,ALP
+Dandenong,South-Eastern Metro,Outer Metro,ALP
+Narre Warren North,South-Eastern Metro,Outer Metro,ALP
+Narre Warren South,South-Eastern Metro,Outer Metro,ALP
+Frankston,South-Eastern Metro,Outer Metro,ALP
+Berwick,South-Eastern Metro,Peri-urban,LNP
+Carrum,South-Eastern Metro,Peri-urban,ALP
+Albert Park,Southern Metro,Inner Ring,ALP
+Brighton,Southern Metro,Inner Ring,LNP
+Caulfield,Southern Metro,Inner Ring,LNP
+Prahran,Southern Metro,Inner Ring,GRN
+Hawthorn,Southern Metro,Inner Ring,LNP
+Kew,Southern Metro,Inner Ring,LNP
+Malvern,Southern Metro,Inner Ring,LNP
+Bentleigh,Southern Metro,Middle Ring,ALP
+Sandringham,Southern Metro,Middle Ring,LNP
+Ashwood,Southern Metro,Middle Ring,ALP
+Oakleigh,Southern Metro,Middle Ring,ALP
+Footscray,Western Metro,Inner Ring,ALP
+Williamstown,Western Metro,Inner Ring,ALP
+Laverton,Western Metro,Middle Ring,ALP
+Niddrie,Western Metro,Middle Ring,ALP
+St Albans,Western Metro,Middle Ring,ALP
+Kororoit,Western Metro,Outer Metro,ALP
+Point Cook,Western Metro,Outer Metro,ALP
+Sydenham,Western Metro,Outer Metro,ALP
+Tarneit,Western Metro,Outer Metro,ALP
+Sunbury,Western Metro,Peri-urban,ALP
+Werribee,Western Metro,Peri-urban,ALP
+Evelyn,Eastern Victoria,Peri-urban,LNP
+Monbulk,Eastern Victoria,Peri-urban,ALP
+Pakenham,Eastern Victoria,Peri-urban,ALP
+Mornington,Eastern Victoria,Peri-urban,LNP
+Nepean,Eastern Victoria,Peri-urban,LNP
+Morwell,Eastern Victoria,Provincial,LNP
+Gippsland East,Eastern Victoria,Regional,LNP
+Gippsland South,Eastern Victoria,Regional,LNP
+Bass,Eastern Victoria,Regional,ALP
+Hastings,Eastern Victoria,Regional,ALP
+Narracan,Eastern Victoria,Regional,LNP
+Yan Yean,Northern Victoria,Peri-urban,ALP
+Shepparton,Northern Victoria,Provincial,LNP
+Bendigo East,Northern Victoria,Provincial,ALP
+Bendigo West,Northern Victoria,Provincial,ALP
+Eildon,Northern Victoria,Regional,LNP
+Euroa,Northern Victoria,Regional,LNP
+Macedon,Northern Victoria,Regional,ALP
+Benambra,Northern Victoria,Regional,LNP
+Ovens Valley,Northern Victoria,Regional,LNP
+Mildura,Northern Victoria,Regional,LNP
+Murray Plains,Northern Victoria,Regional,LNP
+Lara,Western Victoria,Peri-urban,ALP
+Melton,Western Victoria,Peri-urban,ALP
+Bellarine,Western Victoria,Peri-urban,ALP
+Wendouree,Western Victoria,Provincial,ALP
+Geelong,Western Victoria,Provincial,ALP
+South Barwon,Western Victoria,Provincial,ALP
+Eureka,Western Victoria,Regional,ALP
+Ripon,Western Victoria,Regional,ALP
+Lowan,Western Victoria,Regional,LNP
+Polwarth,Western Victoria,Regional,LNP
+South-West Coast,Western Victoria,Regional,LNP
+NE Metro,North-eastern metro,Outer Metro,
+N Metro,Northern Metro,Inner Ring,
+SE Metro,South-eastern Metro,Outer Metro,
+S Metro,Southern Metro,Inner Ring,
+Western Metro,Western Metro,Outer Metro,
+Eastern Victoria,Eastern Victoria,Regional,
+Northern Victoria,Northern Victoria,Regional,
+Western Victoria,Western Victoria,Regional,
+Victoria,,Outer Metro,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+Brunswick,Northern Metro,Inner Ring,
+Northcote,Northern Metro,Inner Ring,
+Melbourne,Northern Metro,Inner Ring,
+Richmond,Northern Metro,Inner Ring,
+Essendon,Northern Metro,Middle Ring,
+Pascoe Vale,Northern Metro,Middle Ring,
+Preston,Northern Metro,Middle Ring,

@@ -1,24 +1,24 @@
 Component,Party / Source,SD,Units,Evidence status,Notes
-local_sd_pp,ALP,3.496745888,primary pp SD,HISTORICAL_PROXY,2014–2018 major-field component proxy; not calibrated current-error coverage.
-local_sd_pp,LNP,3.239010169,primary pp SD,HISTORICAL_PROXY,2014–2018 major-field component proxy; not calibrated current-error coverage.
-local_sd_pp,GRN,1.78749615,primary pp SD,HISTORICAL_PROXY,2014–2018 major-field component proxy; not calibrated current-error coverage.
-local_sd_pp,ON,2.5,primary pp SD,INHERITED,Retained 28 October live residual assumption; not estimated from history.
-local_sd_pp,IND,2.5,primary pp SD,INHERITED,Retained 28 October live residual assumption; not estimated from history.
-local_sd_pp,OTH,2.5,primary pp SD,INHERITED,Retained 28 October live residual assumption; not estimated from history.
-region_sd_pp,ALP,1.313754738,primary pp SD,HISTORICAL_PROXY,2014–2018 major-field component proxy; not calibrated current-error coverage.
-region_sd_pp,LNP,1.88582766,primary pp SD,HISTORICAL_PROXY,2014–2018 major-field component proxy; not calibrated current-error coverage.
-region_sd_pp,GRN,0.4064545153,primary pp SD,HISTORICAL_PROXY,2014–2018 major-field component proxy; not calibrated current-error coverage.
-region_sd_pp,ON,0.75,primary pp SD,INHERITED,Retained 28 October live residual assumption; not estimated from history.
-region_sd_pp,IND,0.75,primary pp SD,INHERITED,Retained 28 October live residual assumption; not estimated from history.
-region_sd_pp,OTH,0.75,primary pp SD,INHERITED,Retained 28 October live residual assumption; not estimated from history.
-class_sd_pp,ALP,0,primary pp SD,DISABLED,No separate class variance assigned; avoid double-counting geography.
-class_sd_pp,LNP,0,primary pp SD,DISABLED,No separate class variance assigned; avoid double-counting geography.
-class_sd_pp,GRN,0,primary pp SD,DISABLED,No separate class variance assigned; avoid double-counting geography.
-class_sd_pp,ON,0,primary pp SD,DISABLED,No separate class variance assigned; avoid double-counting geography.
-class_sd_pp,IND,0,primary pp SD,DISABLED,No separate class variance assigned; avoid double-counting geography.
-class_sd_pp,OTH,0,primary pp SD,DISABLED,No separate class variance assigned; avoid double-counting geography.
+local_sd_pp,ALP,5.680998697176864,primary pp SD,HISTORICAL_PROXY,2014–2018 major-field component proxy; not calibrated current-error coverage.
+local_sd_pp,LNP,5.262267588096357,primary pp SD,HISTORICAL_PROXY,2014–2018 major-field component proxy; not calibrated current-error coverage.
+local_sd_pp,GRN,2.90406098258595,primary pp SD,HISTORICAL_PROXY,2014–2018 major-field component proxy; not calibrated current-error coverage.
+local_sd_pp,ON,4.0616325,primary pp SD,INHERITED,Retained 28 October live residual assumption; not estimated from history.
+local_sd_pp,IND,9.9375,primary pp SD,INHERITED,Retained 28 October live residual assumption; not estimated from history.
+local_sd_pp,OTH,9.9375,primary pp SD,INHERITED,Retained 28 October live residual assumption; not estimated from history.
+region_sd_pp,ALP,2.134395576355914,primary pp SD,HISTORICAL_PROXY,2014–2018 major-field component proxy; not calibrated current-error coverage.
+region_sd_pp,LNP,3.06381556530198,primary pp SD,HISTORICAL_PROXY,2014–2018 major-field component proxy; not calibrated current-error coverage.
+region_sd_pp,GRN,0.6603475476456908,primary pp SD,HISTORICAL_PROXY,2014–2018 major-field component proxy; not calibrated current-error coverage.
+region_sd_pp,ON,1.2184897499999998,primary pp SD,INHERITED,Retained 28 October live residual assumption; not estimated from history.
+region_sd_pp,IND,2.98125,primary pp SD,INHERITED,Retained 28 October live residual assumption; not estimated from history.
+region_sd_pp,OTH,2.98125,primary pp SD,INHERITED,Retained 28 October live residual assumption; not estimated from history.
+class_sd_pp,ALP,0.0,primary pp SD,DISABLED,No separate class variance assigned; avoid double-counting geography.
+class_sd_pp,LNP,0.0,primary pp SD,DISABLED,No separate class variance assigned; avoid double-counting geography.
+class_sd_pp,GRN,0.0,primary pp SD,DISABLED,No separate class variance assigned; avoid double-counting geography.
+class_sd_pp,ON,0.0,primary pp SD,DISABLED,No separate class variance assigned; avoid double-counting geography.
+class_sd_pp,IND,0.0,primary pp SD,DISABLED,No separate class variance assigned; avoid double-counting geography.
+class_sd_pp,OTH,0.0,primary pp SD,DISABLED,No separate class variance assigned; avoid double-counting geography.
 transport_log_sd,vec,0.15,log-weight SD,JUDGMENT_2026,"VEC-to-2026 mismatch; judgment-based, not fitted. Existing preference SDs remain active."
 transport_log_sd,federal,0.25,log-weight SD,JUDGMENT_2026,"Federal-to-state 2026 mismatch; judgment-based, not fitted. Existing preference SDs remain active."
 transport_log_sd,special,0.35,log-weight SD,JUDGMENT_2026,"Hypothetical ON final-pair mismatch; judgment-based, not fitted. Central prior rows unchanged."
 transport_log_sd,generic,0.35,log-weight SD,JUDGMENT_2026,"Synthetic/fallback-to-2026 mismatch; judgment-based, not fitted. Existing preference SDs remain active."
-tail_df,ALL,0,df; 0 means normal,ASSUMED,Normal starting shape; a positive value must exceed 2. No tail shape fitted.
+tail_df,ALL,0.0,df; 0 means normal,ASSUMED,Normal starting shape; a positive value must exceed 2. No tail shape fitted.

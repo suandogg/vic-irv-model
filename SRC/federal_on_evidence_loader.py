@@ -1,19 +1,17 @@
 from pathlib import Path
+from SRC.model_version import data_root
 
 import pandas as pd
 
 
 DEVELOPMENT_PATH = (
-    Path(__file__).resolve().parents[1]
-    / "data" / "development" / "FEDERAL_VIC_ON_SCENARIOS.csv"
+    data_root() / "development" / "FEDERAL_VIC_ON_SCENARIOS.csv"
 )
 RAW_PATH = (
-    Path(__file__).resolve().parents[1]
-    / "data" / "raw" / "FEDERAL_VIC_ON_SCENARIOS.csv"
+    data_root() / "raw" / "FEDERAL_VIC_ON_SCENARIOS.csv"
 )
 CONFIG_PATH = (
-    Path(__file__).resolve().parents[1]
-    / "data" / "raw" / "LOWER_ON_PREF_CONFIG.csv"
+    data_root() / "raw" / "LOWER_ON_PREF_CONFIG.csv"
 )
 
 

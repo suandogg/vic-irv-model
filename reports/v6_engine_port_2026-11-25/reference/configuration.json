@@ -1,0 +1,1720 @@
+{
+  "experiment": {
+    "candidate_field": {
+      "affinity": {
+        "metro": [
+          1.0,
+          0.95,
+          2.16,
+          1.0,
+          0.0,
+          1.43
+        ],
+        "nonmetro": [
+          1.0,
+          1.17,
+          1.43,
+          1.0,
+          0.0,
+          0.95
+        ]
+      },
+      "candidates": [
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "melton_jarrod_bingham",
+          "district": "Melton",
+          "high": 0.02,
+          "kind": "switch",
+          "low": 0.005,
+          "median": 0.01,
+          "model_group": "LNP",
+          "prior_vote": 0.0581
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "williamstown_tony_briffa",
+          "district": "Williamstown",
+          "high": 0.17,
+          "kind": "entrant",
+          "low": 0.05,
+          "median": 0.095,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "essendon_oscar_yildiz",
+          "district": "Essendon",
+          "high": 0.2,
+          "kind": "entrant",
+          "low": 0.05,
+          "median": 0.1,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "essendon_ava_adams",
+          "district": "Essendon",
+          "high": 0.05,
+          "kind": "entrant",
+          "low": 0.008,
+          "median": 0.022000000000000002,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "West",
+          "brand_share": 0.5,
+          "candidate_id": "williamstown_gill_gannon",
+          "district": "Williamstown",
+          "high": 0.07,
+          "kind": "entrant",
+          "low": 0.015,
+          "median": 0.035,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "West",
+          "brand_share": 0.5,
+          "candidate_id": "footscray_west",
+          "district": "Footscray",
+          "high": 0.06,
+          "kind": "entrant",
+          "low": 0.013000000000000001,
+          "median": 0.03,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "West",
+          "brand_share": 0.5,
+          "candidate_id": "kororoit_west",
+          "district": "Kororoit",
+          "high": 0.06,
+          "kind": "entrant",
+          "low": 0.013000000000000001,
+          "median": 0.03,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "West",
+          "brand_share": 0.5,
+          "candidate_id": "melton_west",
+          "district": "Melton",
+          "high": 0.06,
+          "kind": "entrant",
+          "low": 0.013000000000000001,
+          "median": 0.03,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "West",
+          "brand_share": 0.5,
+          "candidate_id": "niddrie_west",
+          "district": "Niddrie",
+          "high": 0.06,
+          "kind": "entrant",
+          "low": 0.013000000000000001,
+          "median": 0.03,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "West",
+          "brand_share": 0.5,
+          "candidate_id": "point_cook_west",
+          "district": "Point Cook",
+          "high": 0.06,
+          "kind": "entrant",
+          "low": 0.013000000000000001,
+          "median": 0.03,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "West",
+          "brand_share": 0.5,
+          "candidate_id": "st_albans_west",
+          "district": "St Albans",
+          "high": 0.06,
+          "kind": "entrant",
+          "low": 0.013000000000000001,
+          "median": 0.03,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "West",
+          "brand_share": 0.5,
+          "candidate_id": "tarneit_west",
+          "district": "Tarneit",
+          "high": 0.06,
+          "kind": "entrant",
+          "low": 0.013000000000000001,
+          "median": 0.03,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "West",
+          "brand_share": 0.5,
+          "candidate_id": "werribee_paul_hopper",
+          "district": "Werribee",
+          "high": 0.18,
+          "kind": "entrant",
+          "low": 0.06,
+          "median": 0.11,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "West",
+          "brand_share": 0.5,
+          "candidate_id": "laverton_west",
+          "district": "Laverton",
+          "high": 0.06,
+          "kind": "entrant",
+          "low": 0.013000000000000001,
+          "median": 0.03,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "West",
+          "brand_share": 0.5,
+          "candidate_id": "sunbury_west",
+          "district": "Sunbury",
+          "high": 0.06,
+          "kind": "entrant",
+          "low": 0.013000000000000001,
+          "median": 0.03,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "West",
+          "brand_share": 0.5,
+          "candidate_id": "sydenham_west",
+          "district": "Sydenham",
+          "high": 0.06,
+          "kind": "entrant",
+          "low": 0.013000000000000001,
+          "median": 0.03,
+          "model_group": "OTH",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "hawthorn_shima_ibuki",
+          "district": "Hawthorn",
+          "high": 0.32429,
+          "kind": "entrant",
+          "low": 0.07433,
+          "median": 0.17183,
+          "model_group": "IND",
+          "prior_vote": 0.1998
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "albert_park_dragwidge_georgie",
+          "district": "Albert Park",
+          "high": 0.09527,
+          "kind": "entrant",
+          "low": 0.021840000000000002,
+          "median": 0.05048,
+          "model_group": "IND",
+          "prior_vote": 0.0587
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "ashwood_joshi_hitendra_k",
+          "district": "Ashwood",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "bayswater_clarke_mathew",
+          "district": "Bayswater",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "bellarine_lockhart_kate",
+          "district": "Bellarine",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "benambra_mckeeman_lachie",
+          "district": "Benambra",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "bendigo_east_wright_liz",
+          "district": "Bendigo East",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "berwick_john_david",
+          "district": "Berwick",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "box_hill_cheung_heena",
+          "district": "Box Hill",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "brighton_casley_john",
+          "district": "Brighton",
+          "high": 0.00989,
+          "kind": "entrant",
+          "low": 0.00227,
+          "median": 0.00524,
+          "model_group": "IND",
+          "prior_vote": 0.00609
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "broadmeadows_elmustapha_mohamad",
+          "district": "Broadmeadows",
+          "high": 0.06141,
+          "kind": "entrant",
+          "low": 0.014079999999999999,
+          "median": 0.03254,
+          "model_group": "IND",
+          "prior_vote": 0.03784
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "brunswick_yuan_melissa",
+          "district": "Brunswick",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "bulleen_rublee_greg",
+          "district": "Bulleen",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "bundoora_murphy_webster_melissa",
+          "district": "Bundoora",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "caulfield_shroot_yaakov_ziv",
+          "district": "Caulfield",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "clarinda_white_caroline",
+          "district": "Clarinda",
+          "high": 0.12671,
+          "kind": "entrant",
+          "low": 0.02904,
+          "median": 0.06714,
+          "model_group": "IND",
+          "prior_vote": 0.07807
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "croydon_vanderwolf_david",
+          "district": "Croydon",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "dandenong_khan_arshad_ali",
+          "district": "Dandenong",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "eildon_ward_tom",
+          "district": "Eildon",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "eureka_zivkovic_belinda",
+          "district": "Eureka",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "footscray_marsh_jess",
+          "district": "Footscray",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "frankston_barry_nicola",
+          "district": "Frankston",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "gippsland_south_schuhmann_phillip",
+          "district": "Gippsland South",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "greenvale_zoughaib_yehya",
+          "district": "Greenvale",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "hastings_smart_jason",
+          "district": "Hastings",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "ivanhoe_kennedy_michelle",
+          "district": "Ivanhoe",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "kalkallo_islam_rebeca",
+          "district": "Kalkallo",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "kew_torney_sophie",
+          "district": "Kew",
+          "high": 0.34245,
+          "kind": "entrant",
+          "low": 0.07849,
+          "median": 0.18146,
+          "model_group": "IND",
+          "prior_vote": 0.21100000000000002
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "lowan_butler_kieran",
+          "district": "Lowan",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "macedon_seton_michael",
+          "district": "Macedon",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "malvern_zigouras_christina",
+          "district": "Malvern",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "melbourne_yusuf_mohamed",
+          "district": "Melbourne",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "melton_fraser_jason",
+          "district": "Melton",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "mill_park_mclindon_aidan",
+          "district": "Mill Park",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "mornington_maher_adrian",
+          "district": "Mornington",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "mulgrave_cook_ian",
+          "district": "Mulgrave",
+          "high": 0.29281,
+          "kind": "entrant",
+          "low": 0.06711,
+          "median": 0.15516,
+          "model_group": "IND",
+          "prior_vote": 0.18041000000000001
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "narre_warren_south_watson_scott",
+          "district": "Narre Warren South",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "nepean_toscano_joseph",
+          "district": "Nepean",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "niddrie_sfameni_sam",
+          "district": "Niddrie",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "northcote_hillman_ian",
+          "district": "Northcote",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "ovens_valley_manning_steve",
+          "district": "Ovens Valley",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "pakenham_ogden_lucas",
+          "district": "Pakenham",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "prahran_leeton_watts_george",
+          "district": "Prahran",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "preston_fowles_william",
+          "district": "Preston",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "richmond_meyer_david",
+          "district": "Richmond",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "ringwood_cutts_prue",
+          "district": "Ringwood",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "ripon_andrei_trevor_scott",
+          "district": "Ripon",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "shepparton_varkey_johnson",
+          "district": "Shepparton",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "south_barwon_nelson_ron",
+          "district": "South Barwon",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "st_albans_janten_kerry",
+          "district": "St Albans",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "sunbury_medcraft_steve_jack",
+          "district": "Sunbury",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "sydenham_vandenberg_ashleigh",
+          "district": "Sydenham",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "tarneit_islam_sm_zaberul",
+          "district": "Tarneit",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        },
+        {
+          "brand": "",
+          "brand_share": 0.0,
+          "candidate_id": "werribee_raizada_monica_sharma",
+          "district": "Werribee",
+          "high": 0.0943,
+          "kind": "entrant",
+          "low": 0.0049,
+          "median": 0.0217,
+          "model_group": "IND",
+          "prior_vote": 0.0
+        }
+      ],
+      "donor_set": "pooled",
+      "groups": {
+        "Albert Park": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Ashwood": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Bass": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Bayswater": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Bellarine": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Benambra": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Bendigo East": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Bendigo West": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Bentleigh": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Berwick": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Box Hill": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Brighton": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Broadmeadows": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Brunswick": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Bulleen": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Bundoora": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Carrum": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Caulfield": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Clarinda": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Cranbourne": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Croydon": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Dandenong": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Eildon": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Eltham": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Essendon": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Eureka": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Euroa": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Evelyn": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Footscray": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Frankston": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Geelong": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Gippsland East": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Gippsland South": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Glen Waverley": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Greenvale": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Hastings": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Hawthorn": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Ivanhoe": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Kalkallo": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Kew": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Kororoit": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Lara": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Laverton": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Lowan": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Macedon": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Malvern": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Melbourne": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Melton": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Mildura": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Mill Park": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Monbulk": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Mordialloc": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Mornington": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Morwell": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Mulgrave": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Murray Plains": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Narracan": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Narre Warren North": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Narre Warren South": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Nepean": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Niddrie": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Northcote": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Oakleigh": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Ovens Valley": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Pakenham": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Pascoe Vale": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Point Cook": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Polwarth": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Prahran": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Preston": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Richmond": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Ringwood": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Ripon": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Rowville": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Sandringham": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Shepparton": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "South Barwon": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "South-West Coast": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "St Albans": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Sunbury": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Sydenham": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Tarneit": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Thomastown": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Warrandyte": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Wendouree": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Werribee": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Williamstown": [
+          "ALP",
+          "GRN",
+          "IND",
+          "LNP",
+          "ON",
+          "OTH"
+        ],
+        "Yan Yean": [
+          "ALP",
+          "GRN",
+          "LNP",
+          "ON",
+          "OTH"
+        ]
+      },
+      "residual_mode": "combined",
+      "residual_retention": 0.0,
+      "roster_status": [
+        "VEC_2026_11_09_FINAL"
+      ]
+    },
+    "concentration_form": "positive_bounded",
+    "concentration_log_sd": 0.3,
+    "htv_deal": {
+      "exceptions": [],
+      "liberal_shift": 0.9006396666666666,
+      "prahran_shift": 0.4503198333333333,
+      "seat_liberal_shifts": {
+        "BRUNSWICK": 0.457911,
+        "FOOTSCRAY": 0.45032,
+        "MELBOURNE": 0.938819,
+        "NORTHCOTE": 0.847278,
+        "PASCOE VALE": 1.019954,
+        "PRESTON": 1.011402
+      }
+    },
+    "htv_review": {
+      "greens_points": 0.03,
+      "greens_seats": [
+        "Albert Park",
+        "Ashwood",
+        "Bellarine",
+        "Bendigo East",
+        "Bendigo West",
+        "Essendon",
+        "Eureka",
+        "Euroa",
+        "Gippsland East",
+        "Hawthorn",
+        "Mildura",
+        "Mornington",
+        "Morwell",
+        "Point Cook",
+        "Polwarth",
+        "South Barwon",
+        "Tarneit",
+        "Werribee"
+      ],
+      "labor_open_seats": [
+        "Albert Park",
+        "Caulfield"
+      ],
+      "labor_open_shift": 0.4503198333333333,
+      "on_seat_types": [
+        "INNER RING",
+        "MIDDLE RING"
+      ],
+      "on_target": 0.725
+    },
+    "low_base_taper": {
+      "base_share": 0.3821105,
+      "k": 0.3,
+      "party": "ALP"
+    },
+    "oth_scaling": {
+      "base_share": 0.1234,
+      "party": "OTH"
+    },
+    "structured_nowcast": {
+      "class_sd_pp": {
+        "ALP": 0.0,
+        "GRN": 0.0,
+        "IND": 0.0,
+        "LNP": 0.0,
+        "ON": 0.0,
+        "OTH": 0.0
+      },
+      "contexts": {},
+      "correlation": [
+        [
+          1.0,
+          -0.3611893597,
+          -0.1737124786,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.3611893597,
+          1.0,
+          0.1910436636,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.1737124786,
+          0.1910436636,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "local_sd_pp": {
+        "ALP": 5.680998697176864,
+        "GRN": 2.90406098258595,
+        "IND": 9.9375,
+        "LNP": 5.262267588096357,
+        "ON": 4.0616325,
+        "OTH": 9.9375
+      },
+      "provenance": "Sheet-controlled development proposal; historical-proxy ALP/LNP/GRN core, inherited minor-party residuals and explicitly judgment-based 2026 source applicability; not calibrated coverage.",
+      "region_sd_pp": {
+        "ALP": 2.134395576355914,
+        "GRN": 0.6603475476456908,
+        "IND": 2.98125,
+        "LNP": 3.06381556530198,
+        "ON": 1.2184897499999998,
+        "OTH": 2.98125
+      },
+      "tail_df": null,
+      "transport_log_sd": {
+        "federal": 0.25,
+        "generic": 0.35,
+        "special": 0.35,
+        "vec": 0.15
+      }
+    },
+    "subregion_fraction": 0.5
+  },
+  "settings": {
+    "LOWER_QUANTILE": 0.05,
+    "ON_ALPHA_SD": 0.08,
+    "ON_DONOR_STRENGTH_SD": 0.05,
+    "PREF_CLASS_ON_LOG_SD": 0.1,
+    "PREF_FEDERAL_LOG_SD": 0.1,
+    "PREF_GENERIC_LOG_SD": 0.2,
+    "PREF_SPECIAL_LOG_SD": 0.2,
+    "PREF_VEC_LOG_SD": 0.05,
+    "REGION_PRIMARY_SD_PP": 0.75,
+    "RETIREMENT_EFFECT_SD_PP": 0.3,
+    "SEAT_PRIMARY_SD_PP": 2.5,
+    "SEED": 20261010,
+    "SIMULATIONS": 1000,
+    "SOPHOMORE_EFFECT_SD_PP": 0.3,
+    "STATEWIDE_SD_ALP_PP": 2.58324923279813,
+    "STATEWIDE_SD_GRN_PP": 1.4686042013221317,
+    "STATEWIDE_SD_IND_PP": 0.8618931878317271,
+    "STATEWIDE_SD_LNP_PP": 2.58324923279813,
+    "STATEWIDE_SD_ON_PP": 2.134003178186207,
+    "STATEWIDE_SD_OTH_PP": 0.8618931878317271,
+    "UPPER_QUANTILE": 0.95
+  },
+  "targets": {
+    "ALP": 21.89,
+    "GRN": 14.46,
+    "IND": 5.5,
+    "LNP": 30.78,
+    "ON": 21.87,
+    "OTH": 5.5
+  }
+}

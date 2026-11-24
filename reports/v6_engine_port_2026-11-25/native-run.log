@@ -1,0 +1,5 @@
+native 250/1000 25.3s
+native 500/1000 51.1s
+native 750/1000 77.5s
+native 1000/1000 102.1s
+DONE native 0 102.308435791987

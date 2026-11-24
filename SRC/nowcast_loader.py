@@ -6,7 +6,8 @@ import pandas as pd
 from SRC.constants import PARTIES
 from SRC.nowcast_uncertainty import validate_config,SOURCES
 
-RAW=Path(__file__).resolve().parents[1]/'data/raw'
+from SRC.loaders import RAW_DIR
+RAW = RAW_DIR
 FILES={'budget':'NOWCAST BUDGET.csv','correlation':'NOWCAST CORRELATION.csv',
        'contexts':'NOWCAST CONTEXTS.csv'}
 

@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from SRC.constants import PARTIES
+from SRC.model_version import legacy_mode
 from SRC.forecast_params import load_forecast_params, parameter_table
 from SRC.forecast_engine import fingerprint, simulate, engine_source_hash, uncertainty_profile, STRUCTURAL_EXPERIMENTS
 from SRC.display_params import defaults as display_defaults
@@ -27,15 +28,14 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
     except ValueError as exc:
         st.error(str(exc))
         return
-    st.caption(source+'. Refresh Google Sheet inputs after editing the FORECAST PARAMS tab. '
-               'If sync is unavailable, the committed CSV settings are used.')
+    st.caption(source+('. Refresh Google Sheet inputs after editing FORECAST PARAMS.' if legacy_mode() else '. Frozen v6 uncertainty: committed settings are protected from Sheet sync.'))
     with st.expander('Current forecast settings and methodology',expanded=False):
         experiment_label = st.selectbox('Structural uncertainty trial (unvalidated)',
-            list(STRUCTURAL_EXPERIMENTS),key='forecast_structural_trial')
+            list(STRUCTURAL_EXPERIMENTS),index=0 if legacy_mode() else list(STRUCTURAL_EXPERIMENTS).index('Concentration + structured nowcast (development)'),key='forecast_structural_trial')
         experiment = STRUCTURAL_EXPERIMENTS[experiment_label]
         geographic_label = st.selectbox('Geographic uncertainty grouping',
             ['Upper-house regions (current)','Blend upper-house and sub-regions','Sub-regions only'],
-            key='forecast_geographic_trial')
+            index=0 if legacy_mode() else 1,key='forecast_geographic_trial')
         sub_fraction = {'Upper-house regions (current)':0.,'Blend upper-house and sub-regions':.5,
                         'Sub-regions only':1.}[geographic_label]
         experiment = dict(experiment)
@@ -124,7 +124,7 @@ def render_forecast(primary_inputs,matrices,params,posterior,ideology,targets,
                        'by NOWCAST BUDGET. Other FORECAST PARAMS, including statewide uncertainty '
                        'and existing preference SDs, remain active. NOWCAST CONTEXTS affects only '
                        'reviewed, enabled rows. Central candidate overrides are not changed.')
-        st.markdown('All SDs are **provisional assumptions**, not fitted estimates. Statewide party errors '
+        st.markdown(('All SDs are **provisional assumptions**, not fitted estimates. ' if legacy_mode() else 'V6 statewide vote uncertainty is calibrated to historical polling errors; local/regional uncertainty was checked on SA 2026 and Victoria 2022. Preference uncertainty remains judgement-based. ') + 'Statewide party errors '
             'start independent, then are constrained to total 100%; a fitted polling covariance is not yet available. '
             'Regional/local shocks preserve each simulated scenario’s underlying equal-seat statewide totals '
             'and do not introduce candidates with zero support. Preference shocks share origin/recipient '
