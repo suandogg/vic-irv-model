@@ -38,3 +38,7 @@ The published 50,000-draw run's first 1,000 aggregate seat draws also match exac
 4. Merge only this work branch into the authorised testing branch, push that branch, verify hosted v6 label. Retain ddfaf34 as the rollback reference; a future rollback/push is a separate owner decision. No main/main-repairs/model-backup/preference-review changes.
 
 The app calculates scenarios on demand. It does not serve the website's saved 50,000-draw probabilities; identical Monte Carlo outputs require the same draw count, targets, seed, input generation and environment. The live website calculator still uses its older private image; rebuilding it is explicitly outside this task.
+
+## Deployment completed
+
+Code commit `2aca20f0177fb2d59caf1b1480f7f737fa7edf3c` was fast-forward merged into `codex/october-testing-2026-10-08` and pushed. Remote comparison confirms that this is the only changed branch. Existing untracked work in the target checkout remains intact. Streamlit Manage app independently confirms `suandogg/vic-irv-model` / `codex/october-testing-2026-10-08` / `snapshot_app.py`. Rebooted that specific app to replace its cached process. The hosted v6 label, six polling targets, all five mandatory layers and central result Coalition48/Labor20/ON14/Greens6 are verified. Live sync skips the protected lower-house files and synced16 other tabs without errors. Previous-process Council quota warnings were not reproduced after restart. See `hosted-deployment.json`, `hosted-v6.jpg`, and remote-ref evidence.

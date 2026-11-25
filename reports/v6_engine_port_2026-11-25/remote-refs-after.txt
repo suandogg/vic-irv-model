@@ -1,0 +1,6 @@
+877b4d5edaf9d414899103ad528bc5b60768bd0a	refs/heads/codex/main-repairs-2026-10-09
+f3b27bf1e1ce1ef30ca1572da23ed7e92171010c	refs/heads/codex/model-backup-2026-10-08
+2aca20f0177fb2d59caf1b1480f7f737fa7edf3c	refs/heads/codex/october-testing-2026-10-08
+65d3dc39ad7e37f8fb1c24eb97df3dc841f3eb5a	refs/heads/codex/preference-review-2026-10-08
+19272e9fe109575c597c5c18dea0004edb1f952b	refs/heads/main
+a4f619e241316e8ce29fc65d2a7f84e7651b65fc	refs/heads/testing

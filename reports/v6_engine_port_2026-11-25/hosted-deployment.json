@@ -1,0 +1,30 @@
+{
+  "verified_at": "2026-11-25T00:00:36.650883+00:00",
+  "code_commit": "2aca20f0177fb2d59caf1b1480f7f737fa7edf3c",
+  "app_url": "https://vic-irv-model-october-testing.streamlit.app/",
+  "repository": "suandogg/vic-irv-model",
+  "branch": "codex/october-testing-2026-10-08",
+  "entrypoint": "snapshot_app.py",
+  "hosted_label": "October testing \u00b7 frozen v6 defaults",
+  "targets": {
+    "ALP": 21.89,
+    "LNP": 30.78,
+    "GRN": 14.46,
+    "ON": 21.87,
+    "IND": 5.5,
+    "OTH": 5.5
+  },
+  "central_seats": {
+    "LNP": 48,
+    "ALP": 20,
+    "ON": 14,
+    "GRN": 6
+  },
+  "mandatory_layers_on": true,
+  "protected_sync_tabs_skipped": true,
+  "other_tabs_synced": 16,
+  "new_startup_sync_errors": false,
+  "restart": "Rebooted the specific testing app after old process remained cached; confirmed target branch and snapshot entrypoint in Manage app.",
+  "screenshot": "hosted-v6.jpg",
+  "other_remote_branches_unchanged": true
+}

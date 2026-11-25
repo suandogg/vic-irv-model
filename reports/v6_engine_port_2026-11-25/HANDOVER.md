@@ -1,0 +1,3 @@
+# 25 November 2026 — native v6 testing deployment
+
+Ported frozen website v6 to native engine defaults from ddfaf34; legacy startup flag and original inputs preserved. Code2aca20f merged/pushed only to the October testing branch. Paired1000draws are exact across all88seats/88000finalpairs; first1000published seat-total draws also match. Published CSV last-bit roundoff (38seats,max2.84e-14pp) listed without retuning.219legacy tests pass with3baseline skips;9v6 tests and snapshot_app.py seat/default checks pass. Hosted v6 label/targets/central48-20-14-6 and protected sync confirmed after specific-app restart. Website source/receipt/12outputhashes unchanged; other app branches unchanged. Full inventory, reproduction steps, diagnostics and screenshot in this directory.
