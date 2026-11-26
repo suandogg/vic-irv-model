@@ -96,8 +96,8 @@ DEFAULT_STATEWIDE = {
 from SRC.model_version import legacy_mode
 if not legacy_mode():
     import json
-    DEFAULT_STATEWIDE = json.loads((Path(__file__).resolve().parent/'data/v6_targets.json').read_text())
-    INPUT_MODEL_VERSION = 'v6'
+    DEFAULT_STATEWIDE = json.loads((Path(__file__).resolve().parent/'data/v7_targets.json').read_text())
+    INPUT_MODEL_VERSION = 'v7'
 
 BASELINE_2022 = {
     "ALP": 36.66,
@@ -125,7 +125,7 @@ UPPER_BASELINE_SEATS_2022 = {
     "SFF": 1,
 }
 
-INPUT_KEY_PREFIX = "statewide_primary_input_v1003" + ("" if legacy_mode() else "_v6")
+INPUT_KEY_PREFIX = "statewide_primary_input_v1003" + ("" if legacy_mode() else "_v7")
 
 
 APP_START_TIME = time.perf_counter()
@@ -472,7 +472,7 @@ with st.sidebar.expander('Candidate continuity inputs', expanded=False):
     if active_candidates.empty:
         st.info('Candidate effects are connected but inactive pending calibration.')
 from SRC.model_version import legacy_mode
-st.sidebar.caption('Legacy 14 November mode' if legacy_mode() else 'Approved frozen website v6 defaults · 24 November. The five enabled layers below are mandatory; review labels describe their historical development.')
+st.sidebar.caption('Legacy 14 November mode' if legacy_mode() else 'Approved frozen website v7 final defaults · 27 November. The five enabled layers below are mandatory; review labels describe their historical development.')
 if not legacy_mode():
     for _key in ('candidate_field_version_b','alp_low_base_taper','oth_proportional','htv_deal_2026','htv_review_2026'):
         st.session_state[_key]=True
@@ -558,7 +558,7 @@ if st.sidebar.button("Refresh Google Sheet inputs"):
     st.rerun()
 if trial_method.startswith("seat_reliability_"):
     posterior = seat_count_trial(posterior, int(trial_method.rsplit("_", 1)[1]))
-st.sidebar.caption('Legacy testing inputs and optional research comparisons.' if legacy_mode() else 'Frozen v6 lower-house inputs. Sheet sync may update display and optional saved scenarios, but cannot overwrite the approved model files.')
+st.sidebar.caption('Legacy testing inputs and optional research comparisons.' if legacy_mode() else 'Frozen v7 lower-house inputs. Sheet sync may update display and optional saved scenarios, but cannot overwrite the approved model files.')
 if trial_method == "single_on_baseline":
     st.sidebar.caption("Matrix-direct sensitivity: replaces generic posterior/prior selection in ON-related rounds. Exact federal blending remains; special priors are locked. Not a production recommendation.")
 elif trial_method == "on_no_extra_transforms":
@@ -1217,7 +1217,7 @@ else:
         st.dataframe(pd.DataFrame([{'candidate_id':cid,'Primary %':vote*100}
             for cid,vote in named_detail['primary_votes'].items()]),hide_index=True)
         st.dataframe(pd.DataFrame(named_detail['trace']),hide_index=True)
-        st.caption('Minor-candidate flows use explicit provisional profiles. Group-engine flows retain the existing ON special priors. Totals in the trace are vote fractions.')
+        st.caption('Other nominees are counted separately using their relative candidate weights and the existing Other preference function; no pooled Other candidate is counted. Totals in the trace are vote fractions.' if not legacy_mode() else 'Minor-candidate flows use explicit provisional profiles. Group-engine flows retain the existing ON special priors. Totals in the trace are vote fractions.')
         st.stop()
 
     trace_rows = trace_irv_for_district(

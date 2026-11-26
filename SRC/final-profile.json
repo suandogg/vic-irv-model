@@ -1,0 +1,138 @@
+{
+  "id": "website-final-2026-11-27-preferences-v7",
+  "base_profile": "website-interim-2026-11-24-integrity-v6",
+  "approved_on": "2026-11-26",
+  "residual_retention": 1.0,
+  "OTH_split": "relative-reviewed-or-local-statewide-median-v1",
+  "group6_decision": "Owner judgement after comparison: Victorian and SA evidence disagreed; half fitted log-odds offsets",
+  "groups": [
+    {
+      "group": 0,
+      "origin": "ON",
+      "alive_set": "ALP+GRN+LNP",
+      "reference": "ALP",
+      "contests": 26,
+      "election_counts": {
+        "Federal Victoria 2025": 18,
+        "South Australia 2026": 6,
+        "Victoria 2022": 2
+      },
+      "shrinkage": 1.0,
+      "offsets": {
+        "ALP": 0.0,
+        "GRN": 0.8527932534136521,
+        "LNP": 0.24033440831061498
+      },
+      "applied_strength": 1.0
+    },
+    {
+      "group": 1,
+      "origin": "ON",
+      "alive_set": "IND+LNP",
+      "reference": "LNP",
+      "contests": 2,
+      "election_counts": {
+        "Federal Victoria 2025": 1,
+        "South Australia 2026": 1
+      },
+      "shrinkage": 0.5,
+      "offsets": {
+        "IND": 0.518104939333146,
+        "LNP": 0.0
+      },
+      "applied_strength": 0.5
+    },
+    {
+      "group": 2,
+      "origin": "ON",
+      "alive_set": "ALP+IND+LNP",
+      "reference": "ALP",
+      "contests": 3,
+      "election_counts": {
+        "Federal Victoria 2025": 2,
+        "South Australia 2026": 1
+      },
+      "shrinkage": 0.5,
+      "offsets": {
+        "ALP": 0.0,
+        "IND": 0.9340409435564051,
+        "LNP": 0.15682359923033062
+      },
+      "applied_strength": 0.5
+    },
+    {
+      "group": 3,
+      "origin": "OTH",
+      "alive_set": "ALP+GRN+LNP+ON",
+      "reference": "ALP",
+      "contests": 46,
+      "election_counts": {
+        "Federal Victoria 2025": 20,
+        "South Australia 2026": 26
+      },
+      "shrinkage": 1.0,
+      "offsets": {
+        "ALP": 0.0,
+        "GRN": -0.08223825376171442,
+        "LNP": -0.3190191482371743,
+        "ON": 0.11731943459083045
+      },
+      "applied_strength": 1.0
+    },
+    {
+      "group": 4,
+      "origin": "IND",
+      "alive_set": "ALP+GRN+LNP+ON",
+      "reference": "ALP",
+      "contests": 12,
+      "election_counts": {
+        "South Australia 2026": 10,
+        "Victoria 2022": 2
+      },
+      "shrinkage": 0.5,
+      "offsets": {
+        "ALP": 0.0,
+        "GRN": 0.2875283865520425,
+        "LNP": -0.03764401012987002,
+        "ON": 0.12728648410889315
+      },
+      "applied_strength": 0.5
+    },
+    {
+      "group": 5,
+      "origin": "IND",
+      "alive_set": "ALP+LNP+ON",
+      "reference": "ALP",
+      "contests": 4,
+      "election_counts": {
+        "South Australia 2026": 3,
+        "Victoria 2022": 1
+      },
+      "shrinkage": 0.5,
+      "offsets": {
+        "ALP": 0.0,
+        "LNP": 0.3335566591617735,
+        "ON": 0.4732636843607777
+      },
+      "applied_strength": 0.5
+    },
+    {
+      "group": 6,
+      "origin": "GRN",
+      "alive_set": "ALP+LNP+ON",
+      "reference": "ALP",
+      "contests": 20,
+      "election_counts": {
+        "Federal Victoria 2025": 3,
+        "South Australia 2026": 17
+      },
+      "shrinkage": 1.0,
+      "offsets": {
+        "ALP": 0.0,
+        "LNP": -0.17655778813421086,
+        "ON": -0.39002206806489986
+      },
+      "applied_strength": 0.5
+    }
+  ]
+}

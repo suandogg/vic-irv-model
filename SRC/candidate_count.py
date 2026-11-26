@@ -43,6 +43,8 @@ def apply_candidate_pipeline(adjusted, targets, seat_adjustments=None, effects=N
 def result_from_context(seat, context, matrix, params, posterior, ideology):
     if not context or seat['district'] not in {r['district'] for r in context['diagnostics']}:
         return None
+    from SRC.final_profile import KEY,PROFILE_ID,count_named
+    if params.get(KEY)==PROFILE_ID:return count_named(seat,context,matrix,params,posterior,ideology)
     return seat_candidate_result(seat,*(pd.DataFrame(context[k]) for k in ('effects','diagnostics','field','profiles')),
                                  matrix,params,posterior,ideology)
 

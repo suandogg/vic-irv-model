@@ -30,9 +30,11 @@ def expit(x):
     return 1/(1+np.exp(-x))
 
 
-def load_field_config(residual_retention=0.0, residual_mode='combined', donor_set='pooled',
+def load_field_config(residual_retention=None, residual_mode='combined', donor_set='pooled',
                       directory=None):
     """Compile JSON-safe experiment input from the ballot, strength and donor tables."""
+    from SRC.model_version import legacy_mode
+    if residual_retention is None:residual_retention=0.0 if legacy_mode() else 1.0
     directory = Path(directory) if directory else FIELD_DIR
     ballot = pd.read_csv(directory/'BALLOT.csv', keep_default_na=False)
     reviewed = pd.read_csv(directory/'REVIEWED_CANDIDATES.csv', keep_default_na=False)
@@ -231,4 +233,8 @@ def apply_candidate_field(current, targets, config, rng=None):
     out = current.copy()
     out[PARTIES] = balanced
     out.attrs['candidate_field'] = dict(summary, candidates=records)
+    from SRC.model_version import legacy_mode
+    if not legacy_mode():
+        from SRC.final_profile import attach_context
+        out=attach_context(out)
     return out

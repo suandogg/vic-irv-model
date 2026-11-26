@@ -193,6 +193,8 @@ def apply_defaults(params):
     if legacy_mode(): return params
     result=deepcopy(params)
     result['_v6_defaults']=True
+    from SRC.final_profile import KEY,PROFILE_ID
+    result[KEY]=PROFILE_ID
     result['scalar_params']['TRIAL_VEC_EXACT_FIELD']=True
     result['scalar_params']['TRIAL_VEC_FIELD_COVERAGE']=True
     result['scalar_params']['ON alpha']=ON_ALPHA

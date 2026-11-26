@@ -888,6 +888,8 @@ def diagnose_preference_weights(eliminated_party, alive_parties, matrix,
     if params.get('_v6_defaults'):
         from SRC.release_defaults import describe_basis
         result=dict(result,basis_label=describe_basis(result,eliminated_party,set(alive_parties)))
+    from SRC.final_profile import fitted_flows
+    result=fitted_flows(result,eliminated_party,alive_parties,params)
     if cache is not None:cache[key]=result
     return result
 

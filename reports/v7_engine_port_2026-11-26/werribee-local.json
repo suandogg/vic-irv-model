@@ -1,0 +1,13 @@
+{
+  "entrypoint": "snapshot_app.py",
+  "pooled_OTH_candidate_present": false,
+  "separate_OTH_nominees": [
+    "EMERSON, Matt",
+    "HOPPER, Paul",
+    "KAYAGURLA, Sandhya",
+    "MUNRO, Sue",
+    "ORCHARD, Jeremy"
+  ],
+  "exceptions": [],
+  "errors": []
+}
