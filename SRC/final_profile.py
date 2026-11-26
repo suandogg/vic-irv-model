@@ -13,6 +13,15 @@ PROFILE_ID=CONFIG['id']
 KEY='_website_final_release_profile'
 ALLOCATIONS={}
 
+def configure_field(config):
+    config=copy.deepcopy(config)
+    for review in CONFIG.get('reviewed_candidates',[]):
+        found=[c for c in config['candidates'] if c['district']==review['district'] and c['model_group']==review['model_group']]
+        if len(found)!=1 or found[0]['candidate_id']!=review['candidate_id']:raise ValueError('Reviewed successor must match exactly one existing candidate')
+        found[0].update(kind=review['kind'],median=review['median_pp']/100,low=review['p10_pp']/100,high=review['p90_pp']/100,prior_vote=review['prior_vote_pp']/100)
+    return config
+
+
 def canon(x):
     t = str(x).lower().strip()
     if t in ('', 'no registered party'):

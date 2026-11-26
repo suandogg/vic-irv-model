@@ -52,7 +52,7 @@ def load_field_config(residual_retention=None, residual_mode='combined', donor_s
     rows = affinity[affinity.donor_set.eq(donor_set)]
     if rows.empty:
         raise ValueError(f'Unknown donor set: {donor_set}')
-    return dict(
+    config=dict(
         residual_retention=float(residual_retention), residual_mode=residual_mode,
         donor_set=donor_set, roster_status=sorted(set(ballot.roster_status)),
         groups={d: sorted(set(g.model_group)) for d, g in ballot.groupby('district')},
@@ -63,6 +63,10 @@ def load_field_config(residual_retention=None, residual_mode='combined', donor_s
                          brand_share=float(r.brand_share or 0),
                          prior_vote=float(r.prior_vote_pp or 0)/100)
                     for r in reviewed.itertuples()])
+    if not legacy_mode():
+        from SRC.final_profile import configure_field
+        config=configure_field(config)
+    return config
 
 
 def require_no_candidate_records(effects):
