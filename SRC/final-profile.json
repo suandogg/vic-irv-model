@@ -134,5 +134,26 @@
       },
       "applied_strength": 0.5
     }
+  ],
+  "reviewed_candidates": [
+    {
+      "district": "Benambra",
+      "candidate_id": "benambra_mckeeman_lachie",
+      "candidate_name": "Lachlan McKeeman",
+      "kind": "entrant",
+      "model_group": "IND",
+      "median_pp": 27.258247234714965,
+      "p10_pp": 11.727385438191321,
+      "p90_pp": 51.34693083748633,
+      "prior_vote_pp": 31.695636319436005,
+      "retention_median": 0.86,
+      "retention_p10": 0.37,
+      "retention_p90": 1.62,
+      "basis": "Reviewed 26 Nov 2026 (Callum): community-backed successor selected by Community for Benambra; treated like Hawthorn's successor. Continuity with the 2022 campaign not confirmed; judgement.",
+      "source": "data/development/VEC_2022_CANDIDATE_CLASSIFICATION.csv; Benambra; HAWKINS, Jacqui",
+      "source_votes": 13038,
+      "formal_votes": 41135,
+      "source_sha256": "0af0b2445c8085c0ee79aa49f8fca6adf3d5ae21147d4a0718c5f3d22a3c5f52"
+    }
   ]
 }
